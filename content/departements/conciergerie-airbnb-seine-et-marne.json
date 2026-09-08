@@ -1,0 +1,232 @@
+{
+ "url": "/conciergerie-airbnb-seine-et-marne",
+ "type": "departement",
+ "name": "Seine-et-Marne",
+ "code": "77",
+ "slug": "conciergerie-airbnb-seine-et-marne",
+ "title": "Conciergerie Airbnb Seine-et-Marne (77) : Disney, Melun | Coolok",
+ "description": "Huit communes suivies en Seine-et-Marne, du Val d'Europe à Melun : régimes d'autorisation, taxe de séjour et fourchettes de revenus. Commission 20 % HT.",
+ "h1": "Conciergerie Airbnb en Seine-et-Marne : deux marchés, deux réglementations",
+ "image": "/assets/img/heros/dept-seine-et-marne.webp",
+ "imageAlt": "Maison de bourg seine-et-marnaise et son jardin, en fin d'après-midi",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Seine-et-Marne",
+  "lead": "La Seine-et-Marne est le département le plus contrasté de notre couverture. Au nord, la couronne des parcs impose une autorisation dès le premier logement mis en location. Au sud, Melun et Fontainebleau n'exigent rien de plus que la loi nationale, et prélèvent jusqu'à cinq fois moins de taxe de séjour."
+ },
+ "linkText": "Du Val d'Europe à Melun, huit communes",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui fait tourner le marché seine-et-marnais",
+   "md": "Au nord du département, un seul site commande la demande. Disneyland Paris a reçu 15,8 millions de visites en 2024 selon l'estimation de l'index TEA relayée par Le Figaro le 6 août 2026, et le cap des 16 millions a été franchi en 2025. L'ouverture de Disney Adventure World et du Monde de La Reine des Neiges, le 29 mars 2026, a relancé le flux (communiqué Disneyland Paris du 28 mars 2026). Au sud, la demande n'a rien à voir : elle vient du château et de la forêt de Fontainebleau, de son école de commerce internationale, et du rôle administratif de Melun, préfecture de 45 995 habitants au recensement INSEE 2023.\n\nPour un propriétaire, l'écart se lit d'abord dans le prix d'achat. Les estimations Figaro Immobilier situent le mètre carré médian à 4 858 EUR à Chessy au 1er août 2026 et à 3 013 EUR à Melun au 1er juillet 2026, pour une médiane départementale de 3 017 EUR. La part de résidences secondaires raconte la même histoire : 31,7 % du parc à Bailly-Romainvilliers et 18,2 % à Serris contre 1,1 % à Melun au recensement INSEE 2023.\n\nDans l'exploitation, cela change tout. Près des parcs, les séjours durent deux à quatre nuits, les arrivées sont tardives et la rotation se joue le jour même. Au sud, les séjours s'allongent, la maintenance pèse moins, mais le calendrier doit être rempli par autre chose que le tourisme de masse : sport de plein air, événements locaux et déplacements professionnels."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos communes dans la Seine-et-Marne, marché par marché",
+   "intro": "Huit communes suivies, du pied des parcs jusqu'au sud du département. Les fourchettes viennent de nos observations de marché, la colonne Régime de notre relevé réglementaire du 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Chessy](/conciergerie-airbnb-chessy)",
+     "90 à 180 €",
+     "65 à 75 %",
+     "1 800 à 4 100 €",
+     "restrictif"
+    ],
+    [
+     "[Serris](/conciergerie-airbnb-serris)",
+     "80 à 170 €",
+     "70 à 80 %",
+     "1 700 à 4 100 €",
+     "restrictif"
+    ],
+    [
+     "[Magny-le-Hongre](/conciergerie-airbnb-magny-le-hongre)",
+     "75 à 155 €",
+     "68 à 80 %",
+     "1 500 à 3 600 €",
+     "modere"
+    ],
+    [
+     "[Bailly-Romainvilliers](/conciergerie-airbnb-bailly-romainvilliers)",
+     "70 à 145 €",
+     "67 à 78 %",
+     "1 400 à 3 400 €",
+     "modere"
+    ],
+    [
+     "[Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges)",
+     "70 à 140 €",
+     "70 à 80 %",
+     "1 400 à 3 400 €",
+     "modere"
+    ],
+    [
+     "[Chalifert](/conciergerie-airbnb-chalifert)",
+     "75 à 155 €",
+     "59 à 69 %",
+     "1 300 à 3 200 €",
+     "favorable"
+    ],
+    [
+     "[Fontainebleau](/conciergerie-airbnb-fontainebleau)",
+     "sur audit",
+     "sur audit",
+     "sur audit",
+     "favorable"
+    ],
+    [
+     "[Melun](/conciergerie-airbnb-melun)",
+     "sur audit",
+     "sur audit",
+     "sur audit",
+     "favorable"
+    ]
+   ],
+   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Seine-et-Marne",
+   "md": "En Seine-et-Marne, aucune règle départementale ne s'applique : les quatre communes du Val d'Europe (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers) exigent une autorisation de changement d'usage depuis le 1er juin 2024, avec compensation pour les sociétés à Chessy et à Serris, alors que Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun n'imposent aucune autorisation de ce type au 3 septembre 2026. Le plafond de la résidence principale reste fixé à 120 jours dans tout le département, et notre équipe interroge le service urbanisme concerné avant chaque publication d'annonce.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui réserve en Seine-et-Marne",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles en séjour aux parcs",
+     "text": "Quatre à six personnes, deux à quatre nuits, arrivée en fin de journée. Lit bébé, machine à laver et accès autonome pèsent plus lourd que la décoration."
+    },
+    {
+     "icon": "map",
+     "title": "Amateurs de forêt et de rocher",
+     "text": "Grimpeurs, cavaliers et marcheurs viennent hors vacances scolaires, souvent en voiture, et prolongent volontiers d'une nuit quand le logement est confortable et bien chauffé."
+    },
+    {
+     "icon": "target",
+     "title": "Déplacements administratifs et professionnels",
+     "text": "Préfecture, tribunal, pôles d'activité de Marne-la-Vallée et formations en école : des nuits de semaine régulières, à prix stable, qui comblent les creux du calendrier touristique."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "star",
+   "title": "Le moteur du nord du département, en chiffres",
+   "md": "- **15,8 millions de visites** aux deux parcs en 2024 (10,214 millions au Parc Disneyland, 5,598 millions au second parc), estimation de l'index TEA, Disney ne publiant plus ses chiffres. Source : Le Figaro, 6 août 2026.\n- **Plus de 16 millions de visiteurs** en 2025 selon le même classement, relayé par BFM Business le 26 août 2026.\n- **2,7 milliards EUR de chiffre d'affaires** sur l'exercice clos fin septembre 2025 et 2,1 milliards EUR de dépenses des visiteurs, en hausse de 11 %. Source : AFP via Boursorama, 27 mars 2026.\n- **7 hôtels et 5 700 chambres** exploités par la destination, premier groupe hôtelier des parcs à thèmes européens. Source : Disneyland Paris News, 27 mars 2026.\n\nCe dernier chiffre est la vraie information pour vous : votre logement ne concurrence pas seulement d'autres particuliers, il concurrence un parc hôtelier professionnel de 5 700 chambres. Ce que vous vendez, c'est ce qu'une chambre d'hôtel ne sait pas offrir : de l'espace, une cuisine et l'indépendance."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "La taxe de séjour change du simple au quintuple selon votre intercommunalité",
+   "intro": "Même département, même loi, et pourtant un écart de un à cinq sur le taux appliqué à un meublé non classé. Voici ce que vos voyageurs paieront, toutes taxes additionnelles comprises.",
+   "head": [
+    "Intercommunalité",
+    "Meublé non classé",
+    "Meublé classé 3 étoiles",
+    "Communes concernées ici"
+   ],
+   "rows": [
+    [
+     "Val d'Europe Agglomération",
+     "16,25 % du coût HT par personne et par nuit, plafond 15,93 EUR",
+     "5,53 EUR par personne et par nuit",
+     "Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers"
+    ],
+    [
+     "Marne et Gondoire",
+     "11,37 % du prix de la nuitée",
+     "3,90 EUR par personne et par nuit",
+     "Bussy-Saint-Georges, Chalifert"
+    ],
+    [
+     "Pays de Fontainebleau",
+     "4 % du coût HT voté, plafonné à 4,00 EUR avant taxes additionnelles",
+     "tarif voté par l'agglomération",
+     "Fontainebleau"
+    ],
+    [
+     "Melun Val de Seine",
+     "3,25 % du coût de la nuitée, soit le minimum légal majoré",
+     "tarif voté par l'agglomération",
+     "Melun"
+    ]
+   ],
+   "source": "Délibérations des collectivités et fichier DELTA de la DGFiP au 1er janvier 2026, relevés le 3 septembre 2026. En Seine-et-Marne, trois taxes additionnelles s'ajoutent partout au tarif voté (département 10 %, région 15 %, Île-de-France Mobilités 200 %), soit un multiplicateur de 3,25."
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Cinq vérifications avant d'acheter pour louer en Seine-et-Marne",
+   "intro": "Dans ce département, la même somme investie ne produit pas le même résultat à vingt kilomètres près. Voici l'ordre dans lequel nous instruisons un dossier.",
+   "items": [
+    "Le régime de la commune : autorisation exigée dans les quatre villes du Val d'Europe depuis le 1er juin 2024, rien de tel à Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun au 3 septembre 2026",
+    "Votre statut de détention : à Chessy et à Serris, une société qui achète dans certaines zones d'aménagement se voit imposer une compensation, un particulier non",
+    "Le zonage du plan local d'urbanisme, décisif à Bussy-Saint-Georges où la location d'une résidence secondaire n'est permise que dans certaines zones",
+    "La classe du diagnostic de performance énergétique : A à E exigée pour toute nouvelle autorisation de changement d'usage, A à D à compter du 1er janvier 2034",
+    "Le règlement de copropriété et l'information du syndic, obligatoires depuis la loi du 19 novembre 2024"
+   ],
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  }
+ ],
+ "quote": {
+  "text": "En Seine-et-Marne, deux propriétaires avec le même budget ne font pas du tout le même métier. Celui qui achète à côté des parcs vend du volume et de la rotation, avec une réglementation qui s'est durcie en 2024. Celui qui achète au sud vend du calme, des séjours plus longs et une taxe de séjour cinq fois moins lourde. Les deux marchent, mais il faut savoir lequel vous voulez avant de signer, pas après.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée en Seine-et-Marne ?",
+   "a": "L'écart est considérable d'une commune à l'autre. Nos observations situent le revenu mensuel entre 1 300 et 3 200 EUR à Chalifert et entre 1 800 et 4 100 EUR à Chessy, pour des logements entiers. Ces fourchettes ne remplacent pas une étude de votre bien : nous chiffrons votre surface, votre capacité et votre calendrier dans un audit remis sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme en Seine-et-Marne ?",
+   "a": "Cela dépend uniquement de votre commune. Chessy, Serris, Magny-le-Hongre et Bailly-Romainvilliers l'exigent depuis le 1er juin 2024 pour tout logement autre que votre résidence principale. À Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun, aucune délibération de ce type n'a été trouvée au 3 septembre 2026, mais la déclaration en mairie reste due."
+  },
+  {
+   "q": "Vaut-il mieux investir près des parcs ou au sud de la Seine-et-Marne ?",
+   "a": "Le nord offre un volume de demande sans équivalent mais un prix d'achat plus élevé, une réglementation qui s'est durcie et une taxe de séjour de 16,25 %. Le sud coûte moins cher à l'achat, n'impose aucune autorisation à ce jour et taxe cinq fois moins, avec une demande plus étalée et moins massive. Les deux fonctionnent avec des stratégies opposées."
+  },
+  {
+   "q": "Quelle taxe de séjour paie-t-on en Seine-et-Marne ?",
+   "a": "Elle est fixée par votre intercommunalité, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 16,25 % du coût hors taxes de la nuitée en Val d'Europe, plafonné à 15,93 EUR par personne, contre 11,37 % à Marne et Gondoire et 3,25 % à Melun Val de Seine (relevé du 3 septembre 2026)."
+  },
+  {
+   "q": "Coolok intervient-il à Fontainebleau et à Melun ?",
+   "a": "Oui, ces deux communes font partie de notre couverture et disposent de leur propre page. Nos équipes rayonnent depuis Joinville-le-Pont et le Val d'Europe. Pour une commune du département qui ne figure pas dans notre tableau, nous étudions la faisabilité au cas par cas et nous vous répondons avant de vous engager."
+  }
+ ],
+ "keywords": [
+  "conciergerie seine-et-marne",
+  "conciergerie airbnb seine-et-marne",
+  "conciergerie val d'europe"
+ ]
+}

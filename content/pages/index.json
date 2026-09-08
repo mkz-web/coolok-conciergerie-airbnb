@@ -1,0 +1,111 @@
+{
+ "url": "/",
+ "type": "home",
+ "title": "Conciergerie Airbnb Île-de-France : 20 % HT tout compris | Coolok",
+ "description": "Coolok s'occupe de votre location courte durée en Île-de-France : annonce, prix, voyageurs, ménage. Commission unique 20 % HT au résultat. Estimation gratuite.",
+ "h1": "La conciergerie Airbnb en Île-de-France qui rend votre location simple, rentable et sereine",
+ "image": "/assets/img/heros/salon-bleu.webp",
+ "imageAlt": "Salon d'un appartement loué en courte durée avec Coolok en Île-de-France",
+ "imageWidth": 854,
+ "imageHeight": 640,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb et location courte durée",
+  "lead": "Annonce, tarification, accueil des voyageurs, ménage, maintenance : on s'occupe de tout, et vous encaissez. Une commission unique de 20 % HT, payée au résultat, sans frais caché."
+ },
+ "sections": [
+  { "type": "trustbar" },
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Coolok en trois phrases",
+   "narrow": true,
+   "md": "Coolok Services est une conciergerie de meublés de tourisme basée à Joinville-le-Pont, dans le Val-de-Marne, fondée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans. Nous proposons les meilleurs services pour que votre logement excelle sur Airbnb et Booking.com, dans les huit départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne et à Versailles.\n\nUne seule offre, tout compris : nous prenons 20 % HT des revenus que votre logement encaisse réellement. Pas de forfait mensuel, pas de frais d'installation, pas d'option facturée en cours de route. Tous nos clients sont Superhôtes sur Airbnb.",
+   "cta": { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+  },
+  {
+   "type": "steps",
+   "bg": "cream",
+   "h2": "Votre logement en ligne en trois étapes",
+   "intro": "Zéro charge mentale, 100 % contrôle. Chaque étape a son importance.",
+   "items": [
+    { "title": "Vous recevez votre audit chiffré sous 48 h", "text": "Vous renseignez votre commune et votre logement en deux minutes. Thierry vous rappelle avec un audit réel du marché, la réglementation de votre commune et ce qu'il faut préparer. Gratuit et sans engagement." },
+    { "title": "Nous préparons l'annonce et le logement", "text": "Photos professionnelles, annonce rédigée, équipements et linge conseillés, boîtier à clé connecté, diffusion sur Airbnb et Booking.com avec calendriers synchronisés, grille de prix construite sur les données de votre marché local." },
+    { "title": "Vous encaissez et nous travaillons", "text": "Sélection des voyageurs, assistance 24/7, ménage et linge entre chaque séjour, maintenance, échanges avec les voyageurs. Vous recevez votre argent et nous nous occupons du reste." }
+   ],
+   "cta": { "label": "Demander mon audit Airbnb", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Récupérez votre temps, nous travaillons pour vous",
+   "intro": "Libérez-vous des 30 heures de gestion mensuelles qu'impose la location saisonnière. Nos équipes opèrent chaque jour pour valoriser votre bien et soigner vos voyageurs. Reprenez le contrôle de votre vie et de votre patrimoine.",
+   "cols": 4,
+   "items": [
+    { "icon": "camera", "title": "Annonce et visibilité", "text": "Photos professionnelles, annonce rédigée pour convertir, diffusion Airbnb et Booking.com, calendriers synchronisés par Beds24." },
+    { "icon": "chart", "title": "Prix ajustés en temps réel", "text": "Tarification dynamique orchestrée via PriceLabs, après une étude de marché avec AirDNA : événements, vacances scolaires, tension locale. Rien n'est laissé au hasard." },
+    { "icon": "key", "title": "Voyageurs et accueil", "text": "Profils vérifiés, arrivée autonome avec boîtier à clé connecté Igloohome ou TTLock, assistance 24/7 pendant le séjour." },
+    { "icon": "clean", "title": "Ménage, linge, maintenance", "text": "Ménage professionnel et linge hôtelier entre chaque séjour, contrôle qualité, petites réparations coordonnées avec nos artisans." }
+   ],
+   "cta": { "label": "Voir le détail de nos services", "href": "/services", "style": "secondary" }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "law",
+   "title": "La conformité fait partie du service",
+   "md": "Depuis le 20 mai 2026, la loi Le Meur (loi n° 2024-1039 du 19 novembre 2024) impose un numéro d'enregistrement sur chaque annonce de meublé de tourisme, résidence principale comprise. Selon votre commune, une autorisation de changement d'usage peut s'ajouter. Nous vérifions votre situation avant de mettre le logement en ligne et nous vous disons franchement quand ce n'est pas possible.",
+   "cta": { "label": "Comprendre la loi Le Meur", "href": "/blog/loi-le-meur", "style": "secondary" }
+  },
+  {
+   "type": "logements",
+   "bg": "cream",
+   "h2": "Des logements que nous faisons vivre",
+   "intro": "Studios en bord de Marne, maisons familiales près des parcs, appartements d'architecte : chaque bien a sa clientèle.",
+   "limit": 4,
+   "cta": { "label": "Voir tous les logements", "href": "/logements", "style": "secondary" }
+  },
+  { "type": "testimonials", "bg": "white", "intro": "Six avis publics laissés par des propriétaires que nous accompagnons." },
+  { "type": "pricing", "bg": "cream", "note": "Le ménage est facturé au voyageur selon la typologie du logement. Aucun frais d'entrée, aucun forfait mensuel." },
+  {
+   "type": "links",
+   "bg": "white",
+   "h2": "Nos zones d'intervention en Île-de-France",
+   "intro": "Nous intervenons dans les huit départements d'Île-de-France, plus Reims. Chaque zone a son marché, sa clientèle et sa réglementation.",
+   "cols": 3,
+   "items": [
+    { "title": "Val d'Europe et Disneyland Paris", "href": "/conciergerie-airbnb-val-d-europe", "text": "Chessy, Serris, Magny-le-Hongre, Bailly, Bussy, Chalifert" },
+    { "title": "Val-de-Marne (94)", "href": "/conciergerie-airbnb-val-de-marne", "text": "Vincennes, Saint-Mandé, Vitry, Ivry, Nogent, Saint-Maur, Maisons-Alfort, Alfortville, Saint-Maurice" },
+    { "title": "Seine-et-Marne (77)", "href": "/conciergerie-airbnb-seine-et-marne", "text": "Val d'Europe, Fontainebleau, Melun" },
+    { "title": "Yvelines (78)", "href": "/conciergerie-airbnb-yvelines", "text": "Versailles, Saint-Germain-en-Laye" },
+    { "title": "Hauts-de-Seine (92)", "href": "/conciergerie-airbnb-hauts-de-seine", "text": "Clichy, Vanves, Asnières-sur-Seine" },
+    { "title": "Seine-Saint-Denis (93)", "href": "/conciergerie-airbnb-seine-saint-denis", "text": "Montreuil, Pantin" },
+    { "title": "Paris (75)", "href": "/conciergerie-airbnb-paris", "text": "Ce qui reste possible intra-muros, et où aller sinon" },
+    { "title": "Essonne (91) et Val-d'Oise (95)", "href": "/conciergerie-airbnb-essonne", "text": "Grande couronne sud et nord" },
+    { "title": "Toutes nos zones et communes", "href": "/conciergerie-airbnb-ile-de-france", "text": "Le catalogue complet, département par département" }
+   ]
+  },
+  { "type": "articles", "bg": "cream", "limit": 3, "h2": "Nos guides pour décider", "intro": "Tarifs, réglementation, rentabilité : ce qu'un propriétaire doit savoir avant de louer." },
+  { "type": "logos", "bg": "white", "h2": "Nos outils et partenaires", "intro": "Nous associons l'excellence des outils métiers à la force d'un réseau local pour garantir des résultats concrets." },
+  {
+   "type": "cta",
+   "variant": "dark",
+   "h2": "Combien votre bien peut-il vous rapporter ?",
+   "text": "Deux minutes pour l'estimation, 48 heures pour l'audit chiffré du fondateur. Gratuit, sans engagement, sans démarchage.",
+   "ctas": [
+    { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+    { "label": "Réserver un appel de 30 min", "href": "https://calendly.com/contact-coolok/30min", "style": "ghost-light", "icon": "calendar" }
+   ]
+  }
+ ],
+ "faq": [
+  { "q": "Combien coûte une conciergerie Airbnb chez Coolok ?", "a": "Une commission unique de **20 % HT** des revenus encaissés, nous sommes payés au résultat : pas de revenus, pas de commission. Le ménage est facturé au voyageur selon la typologie du logement. Sur le marché français, les commissions relevées sur les pages tarifs publiques en juin 2026 vont de 15 à 30 %. Notre grille complète est sur la page [tarifs](/tarifs)." },
+  { "q": "Combien mon logement peut-il rapporter en location courte durée ?", "a": "Cela dépend de votre commune, de la taille du bien et de son emplacement. À titre de repère, le prix de liste médian d'un logement entier relevé sur Airbnb le 3 septembre 2026 pour sept nuits en octobre était de 125 EUR par nuit à Serris, 112 EUR à Vincennes, 79 EUR à Fontainebleau, frais inclus. Le [simulateur](/simulateur-locatif) vous donne une photographie du marché en deux minutes, puis Thierry vous envoie un audit chiffré sous 48 h." },
+  { "q": "Sur quelles plateformes diffusez-vous mon logement ?", "a": "Airbnb et Booking.com, qui concentrent l'essentiel de la demande en Île-de-France, avec des calendriers synchronisés pour éviter toute double réservation. La grille de prix est ajustée en temps réel à partir des données de marché de votre commune." },
+  { "q": "Puis-je continuer à utiliser mon logement quand je veux ?", "a": "Oui. Vous avez accès aux dates disponibles dans le calendrier partagé et nous nous occupons du reste. Prévenez-nous simplement en amont pour faire le nécessaire à temps." },
+  { "q": "Quelle est la durée d'engagement ?", "a": "Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter en puissance une annonce. Vous gardez le contrôle de votre activité en toute sérénité, nous optimisons vos revenus." },
+  { "q": "Faut-il déclarer mon logement en mairie ?", "a": "Oui. Depuis le 20 mai 2026, la loi Le Meur (loi n° 2024-1039 du 19 novembre 2024) généralise le numéro d'enregistrement, y compris pour une résidence principale. Selon la commune, une autorisation de changement d'usage peut s'y ajouter. Nous vérifions votre cas avant la mise en ligne : voir notre guide sur la [loi Le Meur](/blog/loi-le-meur)." }
+ ],
+ "keywords": ["conciergerie airbnb ile de france", "conciergerie airbnb", "conciergerie location courte durée"]
+}

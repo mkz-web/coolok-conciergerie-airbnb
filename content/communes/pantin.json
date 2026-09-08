@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-pantin",
+ "type": "commune",
+ "name": "Pantin",
+ "slug": "pantin",
+ "dept": "93",
+ "title": "Conciergerie Airbnb Pantin (93), canal de l'Ourcq | Coolok",
+ "description": "Pantin se loue du lundi au jeudi : bureaux du canal, Philharmonie à deux stations, Gare du Nord en 12 minutes. Coolok exploite votre logement, 20 % HT.",
+ "h1": "Conciergerie Airbnb à Pantin, le marché des nuits de semaine",
+ "image": "/assets/img/heros/pantin.webp",
+ "imageAlt": "Grands Moulins et berges du canal de l'Ourcq à Pantin au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Seine-Saint-Denis, berges de l'Ourcq",
+  "lead": "Près de 8 500 emplois ont été créés ou transformés le long du canal de l'Ourcq (Fédération des entreprises publiques locales, dossier de février 2022). Vos voyageurs viennent y travailler, répéter ou assister à un concert. Le calendrier se remplit donc en semaine, pas au mois d'août."
+ },
+ "data": {
+  "prix_nuitee": "70 à 150 €",
+  "revenu_mensuel": "1 500 à 3 700 €",
+  "taux_occupation": "72 à 82 %",
+  "prix_m2": "5 200 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Pantin (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 150 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 500 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Bureaux du canal, spectacles à deux stations",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché tiré par les bureaux et les salles",
+   "md": "Les Grands Moulins accueillent 3 000 salariés de BNP Paribas Securities Services dans 50 000 mètres carrés réhabilités (Le Figaro Immobilier, juillet 2015). Hermès y est implanté depuis 1992 avec une cité des métiers de 26 000 mètres carrés, Chanel y a installé un pôle de recherche parfums et beauté, l'agence BETC occupe les Magasins généraux. Ajoutez la porte de Pantin à deux stations : la Philharmonie de Paris a reçu 1 655 563 personnes en 2025, sa meilleure année depuis 2015 (établissement, janvier 2026), et La Villette 2,59 millions de visiteurs en 2024.\n\nCe voisinage produit une demande de semaine, courte et régulière : une à trois nuits, souvent réservées à moins de dix jours, parfois par un service achats. Le week-end se joue autrement, sur les spectacles et sur une clientèle qui veut Paris à prix contenu, avec Gare du Nord à douze minutes par la ligne 5 et Haussmann-Saint-Lazare à sept minutes par le RER E.\n\nEn exploitation, trois exigences reviennent : une arrivée possible après vingt-trois heures pour les sorties de concert, un vrai poste de travail avec une connexion testée, et une facturation propre quand l'entreprise paie. Les écarts de prix internes le confirment : 6 477 EUR le mètre carré vers Ourcq-Hoche contre 4 702 EUR aux Quatre Chemins-Diderot (Figaro Immobilier, 1er août 2026)."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Pantin",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "61 929 habitants en 2023; densité 12 361 hab/km2; 28 931 logements; 2,9 % de résidences secondaires; 27,2 % de propriétaires; niveau de vie médian 21 820 EUR",
+     "INSEE, RP2023 (consulté le 03/09/2026)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "33 135 emplois en 2023 pour 61 929 habitants (ratio 0,54), 2 545 établissements fin 2024",
+     "INSEE, RP2023 et Flores (consulté le 03/09/2026)"
+    ],
+    [
+     "Prix immobilier",
+     "Médian tous biens 5 967 EUR/m2 (-4 % sur 1 an, -5 % sur 5 ans), ancien 5 690, neuf 6 128; loyer médian 26 EUR/m2",
+     "Figaro Immobilier (estimations au 01/08/2026)"
+    ],
+    [
+     "Hierarchie des quartiers par prix",
+     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Quatre Chemins-Jaures 5 392, Quatre Chemins-Diderot 4 702, Courtillieres 4.",
+     "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
+    ],
+    [
+     "Emplois crées le long du canal de l'Ourcq",
+     "Près de 8 500 emplois dans des locaux crées ou transformés le long du canal : 4 000 dans la ZAC des Grands Moulins, 850 chez BETC (Magasins generaux), 300 dans les laboratoires.",
+     "Federation des EPL (Trophées, dossier Semip) (21/02/2022)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Pantin",
+   "md": "- **Changement d'usage** : oui **Compensation** : non : la page de la Ville écrit que la procédure d'autorisation avec compensation n'est pas appliquée à Pantin\n- **Si vous louez votre résidence principale** : 120 jours (page mairie et règlement EPT); aucune délibération à 90 jours trouvée; le règlement Est Ensemble lu le 03/09/2026 confirme les 120 jours (autorisation exigée au-delà de 120 jours pour une résidence.\n- **À prévoir dans votre dossier** : dossier : formulaire de changement d'usage 2025, plan du local, titre de propriété, DPE, attestation sur l'honneur de conformité au règlement de copropriété, Kbis pour une société; interdiction dans le parc social\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://pratique.pantin.fr/commerces-entreprises-et-artisanat-dart/developpement-economique/meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Pantin et ce qu'ils valent",
+   "intro": "La demande se concentre sur les berges et le centre, avec des logiques de prix très différentes selon les rues.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Les berges du canal et Hoche",
+     "text": "Le secteur le mieux valorisé de la commune (6 477 EUR le mètre carré à Ourcq-Hoche, Figaro Immobilier, 1er août 2026), au pied des bureaux et des lieux culturels des anciens entrepôts."
+    },
+    {
+     "icon": "train",
+     "title": "Église de Pantin",
+     "text": "Ligne 5 et RER E dans le même périmètre : Gare du Nord en douze minutes, Haussmann-Saint-Lazare en sept. C'est l'adresse qui rassure un voyageur d'affaires pressé."
+    },
+    {
+     "icon": "euro",
+     "title": "Les Quatre Chemins",
+     "text": "Les prix d'achat les plus accessibles de Pantin. Le positionnement doit être franc : trajet détaillé, photos récentes, prix cohérent avec le temps de marche jusqu'au métro."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Pantin",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Salariés en mission",
+     "text": "Banque, maroquinerie, cosmétique, publicité : les employeurs du canal font venir des équipes pour quelques jours, avec facture au nom de la société."
+    },
+    {
+     "icon": "star",
+     "title": "Spectateurs de la Philharmonie et de La Villette",
+     "text": "Deux stations de métro séparent votre logement de la salle. Les sorties tardives supposent une arrivée autonome qui fonctionne à minuit passé."
+    },
+    {
+     "icon": "users",
+     "title": "Professionnels de la danse",
+     "text": "Le Centre national de la danse attire compagnies et formations sur des périodes de plusieurs jours, avec des besoins d'espace et de calme."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Pantin",
+   "md": "Le rythme est celui des bureaux et de la saison culturelle : dense de septembre à début juillet, creux marqué en août. Les ponts de printemps sont plus faibles ici qu'en zone touristique, mais les soirées de concert compensent une partie des week-ends. Deux échéances vont peser sur les prochaines années : les premières livraisons de l'écoquartier de la gare en 2027 et la gare Fort d'Aubervilliers de la ligne 15 Est, annoncée en service en 2031 par la Société des grands projets.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Pantin",
+   "intro": "Ce que nous mettons en place pour un logement pantinois.",
+   "items": [
+    "Poste de travail utilisable et débit internet mesuré, testé avant la mise en ligne de l'annonce",
+    "Accès autonome fonctionnel après la fin des concerts, sans intervention d'un tiers sur place",
+    "Documents de réservation adaptés aux paiements par entreprise, avec justificatifs transmis rapidement",
+    "Tarifs distincts pour les nuits ouvrées, les soirs de spectacle et les fins de semaine calmes",
+    "Suivi des chantiers du quartier et mention honnête dans l'annonce quand une nuisance est prévisible"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Pantin se remplit du lundi au jeudi, pas au pont de Pâques. Quand vous avez des milliers de salariés le long du canal et une salle de concert à deux stations, vous n'avez pas besoin de tourisme pour tourner. Ce qui compte, c'est une arrivée tardive qui fonctionne et un justificatif propre pour l'entreprise qui paie. Le reste, c'est un prix bien posé, semaine après semaine.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien peut rapporter un appartement à Pantin en courte durée ?",
+   "a": "Nos données de marché, relevées le 9 juillet 2026 auprès d'AirDNA et recoupées avec les plateformes, donnent une nuitée de 70 à 150 EUR, un remplissage de 72 à 82 % et un revenu mensuel de 1 500 à 3 700 EUR. Sur un marché de semaine, le nombre de nuits vendues pèse bien plus lourd que le tarif affiché un samedi de juillet."
+  },
+  {
+   "q": "Faut-il un numéro d'enregistrement pour louer à Pantin ?",
+   "a": "Non au 3 septembre 2026 : la page de la Ville précise que la procédure d'enregistrement n'est pas appliquée et qu'aucun numéro n'est nécessaire sur les plateformes. Une déclaration par formulaire cerfa reste due pour une résidence secondaire, et le téléservice national d'enregistrement est annoncé pour le quatrième trimestre 2026 par la direction générale des entreprises."
+  },
+  {
+   "q": "Quelle autorisation demander avant de louer un logement à Pantin ?",
+   "a": "Hors résidence principale, l'autorisation de changement d'usage est exigée, sans compensation. La Ville rappelle aussi qu'une clause d'habitation exclusivement bourgeoise dans le règlement de copropriété interdit le meublé de tourisme et qu'un locataire doit obtenir l'accord de son bailleur. Nous constituons le dossier et vous disons franchement si le projet ne tient pas."
+  },
+  {
+   "q": "Quelle est la taxe de séjour à Pantin en 2026 ?",
+   "a": "Le conseil municipal du 26 juin 2025 a fixé pour un meublé non classé 5 % du coût hors taxes de la nuitée par personne, dans la limite de 4,90 EUR de part communale, soit jusqu'à 15,93 EUR avec les taxes additionnelles départementale, Grand Paris et transports. Un meublé classé trois étoiles revient à 5,53 EUR par personne et par nuit."
+  },
+  {
+   "q": "Les concerts de la Philharmonie profitent-ils vraiment aux logements de Pantin ?",
+   "a": "La Philharmonie a accueilli 1 655 563 personnes en 2025, en hausse de 17,75 % sur un an, et La Villette 2,59 millions de visiteurs en 2024. La salle est à deux stations de la ligne 5. Le bénéfice est réel à une condition : que votre logement soit accessible seul, tard, sans échange de clés."
+  }
+ ],
+ "keywords": [
+  "conciergerie pantin",
+  "conciergerie airbnb pantin",
+  "location courte durée pantin"
+ ]
+}

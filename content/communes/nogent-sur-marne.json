@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-nogent-sur-marne",
+ "type": "commune",
+ "name": "Nogent-sur-Marne",
+ "slug": "nogent-sur-marne",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Nogent-sur-Marne : port et Baltard | Coolok",
+ "description": "Port de plaisance, Pavillon Baltard et deux RER : Coolok exploite votre logement à Nogent-sur-Marne. Commission 20 % HT, audit chiffré sous 48 heures.",
+ "h1": "Conciergerie Airbnb à Nogent-sur-Marne, entre le port et le Pavillon Baltard",
+ "image": "/assets/img/heros/nogent-sur-marne.webp",
+ "imageAlt": "Bateaux amarrés au port de plaisance de Nogent-sur-Marne sous le viaduc, lumière dorée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, RER A et RER E",
+  "lead": "Nogent-sur-Marne a deux gares qui partent dans des directions opposées, un port de 170 anneaux et une halle classée qui reçoit jusqu'à 2 500 personnes. Trois marchés différents pour un même logement, à condition de savoir lequel travailler quelle semaine."
+ },
+ "data": {
+  "prix_nuitee": "90 à 185 €",
+  "revenu_mensuel": "1 900 à 4 500 €",
+  "taux_occupation": "70 à 80 %",
+  "prix_m2": "7 000 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Nogent-sur-Marne (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 90 à 185 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 900 à 4 500 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Port de plaisance, salons du Baltard, deux RER",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Trois moteurs de demande à Nogent-sur-Marne",
+   "md": "Le port de plaisance aligne 170 anneaux et se place au deuxième rang francilien derrière l'Arsenal, avec des bateaux allant jusqu'à 25 mètres (Ville de Nogent-sur-Marne). La ville appartient à une station labellisée France Station Nautique, avec canoë, paddle et croisières au départ du quai. C'est une saison d'eau qui court de mai à septembre, et qui attire un visiteur qui reste plutôt qu'il ne passe.\n\nLe deuxième moteur est couvert. Le Pavillon Baltard, dernier vestige des halles de Paris de 1850 remonté ici en 1976, accueille de 500 à 2 500 personnes. Son programme 2026 comptait le salon des agriculteurs du 6 au 8 mars, le salon des vins des vignerons indépendants du 10 au 12 avril et la foire aux trouvailles le 23 mai (Pavillon Baltard et Ville de Nogent-sur-Marne). Des exposants qui montent leur stand la veille et repartent le lendemain : deux à trois nuits, réservées longtemps à l'avance.\n\nLe troisième moteur, ce sont les deux gares, posées aux extrémités de la ville : le RER A pour le centre de Paris en une quinzaine de minutes, le RER E pour Saint-Lazare et la gare du Nord en une vingtaine. Une remarque toutefois : le parc de résidences secondaires et de logements occasionnels est passé de 341 à 622 entre 2017 et 2023, soit 82,4 % de hausse, la plus forte progression des douze villes du Val-de-Marne que nous suivons (INSEE, recensement 2023). L'offre monte vite. Être sur la carte ne suffira pas."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Nogent-sur-Marne",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Port de plaisance de Nogent : capacité, rang en Île-de-France, taille des bateaux",
+     "170 anneaux, 2e port fluvial d'Île-de-France après l'Arsenal, bateaux jusqu'à 25 m",
+     "Ville de Nogent-sur-Marne, brochure (le guide nautisme 2019 indique 100 bateaux et le rapport de DSP 2013 environ 130 places : capacité variable selon la taille des bateaux) (2018-06)"
+    ],
+    [
+     "Label France Station Nautique : station Vallée de la Marne - Paris Est Marne et Bois ; canoe, kayak, paddle, croisieres au départ du port",
+     "1 label national",
+     "Office de tourisme Vincennes Marne et Bois (2026-07-05)"
+    ],
+    [
+     "Pavillon Baltard (12 avenue Victor Hugo) : monument historique, unique vestige des Halles de Paris de 1850, installe à Nogent depuis 1976 ; congrès, salons, concerts",
+     "de 500 à 2 500 personnes",
+     "Ville de Nogent-sur-Marne (2026)"
+    ],
+    [
+     "Événements 2026 : Salon des agriculteurs et producteurs du 6 au 8 mars ; 14e Salon des vins des vignerons independants du 10 au 12 avril ; Foire aux trouvailles le 23 mai (Pavillon Baltard) ; Fête nationale au port de plaisance le 13 juillet ; Journées du patrimoine 19 et 20 septembre ; course La Nogent Baltard le 27 septembre (record de participation en 2025)",
+     "6 rendez-vous dates",
+     "Pavillon Baltard et Ville de Nogent-sur-Marne (2026-07-23)"
+    ],
+    [
+     "Transports : deux gares RER aux deux extremites de la ville ; RER A vers le centre de Paris et La Défense, RER E vers Saint-Lazare ; navette gratuite port de plaisance <> gare RER E toutes les 10 minutes",
+     "centre de Paris en une quinzaine de minutes (RER A), Gare du Nord en 20 minutes (RER E), Disneyland Paris en 25 minutes",
+     "Ville de Nogent-sur-Marne (temps : brochure 2018; navette : actualite 05/01/2021) (2022-02-15)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Nogent-sur-Marne",
+   "md": "- **Changement d'usage** : oui, résidences secondaires (régime territorial PEMB); la page urbanisme de la Ville rappelle l'obligation de demande préalable de changement d'usage (rubrique 4 « Les changements d'usage ») **Compensation** : non trouve; APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location (résidence principale ou secondaire) depuis le 01/01/2024 sur declaloc.fr (accuse de réception avec numéro); contact Manager Centre-Ville 01 43 24 62 70\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes; loyer minimum taxable 1,00 EUR\n- **À prévoir dans votre dossier** : non trouvées en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.declaloc.fr) et [document de référence](https://taxesejour.impots.gouv.fr/FR/PAGE-Consult-rwd.awp?ID=94052NOGENT-SUR-MARNE)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Nogent-sur-Marne",
+   "intro": "Choisir un secteur revient ici à choisir laquelle des trois demandes vous voulez servir.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Le port et l'île de Beauté",
+     "text": "Berges, villas de la Belle Époque, viaduc : le décor qui fait les photos et qui remplit les mois d'été."
+    },
+    {
+     "icon": "calendar",
+     "title": "Autour du Pavillon Baltard",
+     "text": "L'adresse qui compte les jours de salon, quand un exposant cherche surtout à ne pas reprendre sa voiture le soir."
+    },
+    {
+     "icon": "train",
+     "title": "Les abords des deux gares",
+     "text": "Le RER A d'un côté, le RER E de l'autre : deux clientèles de semaine qui ne visent pas les mêmes bureaux."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui réserve à Nogent-sur-Marne",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Exposants et visiteurs des salons",
+     "text": "Des dates fixes, connues des mois à l'avance, avec un besoin simple : dormir près du lieu et pouvoir arriver tard le soir du montage."
+    },
+    {
+     "icon": "users",
+     "title": "Familles et pratiquants du nautisme",
+     "text": "Canoë, paddle, croisière ou simple promenade sur les berges, de mai à septembre. Le label station nautique se dit dans une annonce, il rassure."
+    },
+    {
+     "icon": "target",
+     "title": "Cadres en mobilité",
+     "text": "Le niveau de vie médian de la ville atteint 37 610 EUR, le plus élevé des douze communes du Val-de-Marne que nous couvrons (INSEE, recensement 2023). La clientèle de semaine y attend un équipement à la hauteur."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "Le calendrier à Nogent-sur-Marne",
+   "md": "Trois séquences se succèdent. Mars à mai porte les salons du Baltard et la reprise du nautisme. Juin à septembre est la saison de l'eau, avec la fête nationale au port de plaisance et les Journées du patrimoine des 19 et 20 septembre 2026. Le reste de l'année vit des deux RER et des déplacements professionnels. À noter pour 2026 et 2027 : le chantier Cœur de Nogent a livré sa halle en août 2026, les espaces extérieurs sont attendus en janvier 2027, et la circulation du centre reste contrainte les jours de marché.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Nogent-sur-Marne",
+   "intro": "Ce que nous mettons en place pour un logement nogentais.",
+   "items": [
+    "Ouverture anticipée des dates de salons du Pavillon Baltard, où la demande se réserve des mois à l'avance",
+    "Photos travaillées sur les berges, le port et le viaduc, qui font la différence dès la première image de l'annonce",
+    "Deux jeux de temps de trajet affichés, l'un par le RER A vers Châtelet, l'autre par le RER E vers Saint-Lazare",
+    "Niveau d'équipement supérieur assumé, sur un marché où le nombre de meublés a progressé de 82,4 % en six ans",
+    "Information des voyageurs sur les restrictions de circulation du centre pendant la fin du chantier Cœur de Nogent"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Nogent, ce qui m'intéresse, c'est que la demande ne dépend pas d'une seule saison : il y a l'eau l'été, les salons du Baltard au printemps, et deux RER qui remplissent les semaines. Le revers, c'est que beaucoup de propriétaires l'ont compris en même temps et que le nombre de meublés a bondi ces dernières années. Un logement correct ne suffit plus, il faut un logement au-dessus de la moyenne du secteur. Nous nous occupons déjà d'un bien dans la ville, nous savons à quoi ressemble la concurrence.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en location courte durée à Nogent-sur-Marne ?",
+   "a": "Nous suivons une fourchette de 90 à 185 EUR par nuit selon la période (données internes Coolok du 9 juillet 2026, AirDNA croisé plateformes). Les semaines de salon au Pavillon Baltard et les mois d'été tirent la moyenne vers le haut. Vous recevez notre audit chiffré sous 48 heures, sans engagement."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Nogent-sur-Marne ?",
+   "a": "Oui pour une résidence secondaire, au titre du régime de changement d'usage applicable depuis le 1er janvier 2022 sur le territoire Paris Est Marne et Bois, rappelé par la page urbanisme de la Ville. L'enregistrement est par ailleurs obligatoire depuis le 1er janvier 2024, à obtenir sur DeclaLoc avec accusé de réception."
+  },
+  {
+   "q": "Le permis de louer s'applique-t-il à ma location touristique à Nogent-sur-Marne ?",
+   "a": "Non. La déclaration de mise en location instaurée le 1er mars 2024 pour certains logements anciens ne concerne pas les locations touristiques, comme l'indique le site de la Ville. Vos obligations restent l'enregistrement et, pour une résidence secondaire, le changement d'usage."
+  },
+  {
+   "q": "Faut-il viser les salons du Pavillon Baltard ?",
+   "a": "Oui, car ce sont les seules dates locales connues plusieurs mois à l'avance : salon des agriculteurs en mars, salon des vins des vignerons indépendants en avril, foire aux trouvailles en mai pour l'édition 2026. Les exposants réservent tôt et acceptent un prix ferme quand le logement est proche."
+  },
+  {
+   "q": "Y a-t-il trop de meublés à Nogent-sur-Marne ?",
+   "a": "Le parc de résidences secondaires et de logements occasionnels est passé de 341 en 2017 à 622 en 2023, soit 82,4 % de hausse (INSEE, recensement 2023). Ce n'est pas bloquant, mais cela interdit de louer un logement moyen à un prix moyen : ici, la qualité de l'annonce et la note font le remplissage."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb nogent-sur-marne",
+  "conciergerie nogent-sur-marne",
+  "location courte durée nogent"
+ ]
+}

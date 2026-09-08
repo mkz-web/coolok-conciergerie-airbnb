@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-ivry-sur-seine",
+ "type": "commune",
+ "name": "Ivry-sur-Seine",
+ "slug": "ivry-sur-seine",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Ivry-sur-Seine (94), métro 7 | Coolok",
+ "description": "Coolok exploite votre logement à Ivry-sur-Seine : 34 000 emplois, neuf écoles supérieures, métro 7, RER C et T9. Commission 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Ivry-sur-Seine, un marché de moyenne durée",
+ "image": "/assets/img/heros/ivry-sur-seine.webp",
+ "imageAlt": "Immeubles neufs du quartier d'Ivry-Port au bord de la Seine en fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, aux portes de Paris 13e",
+  "lead": "Ivry compte 34 383 emplois pour 65 064 habitants, neuf établissements d'enseignement supérieur et treize résidences étudiantes (INSEE, recensement 2023 ; Ville d'Ivry-sur-Seine). La demande y est studieuse et professionnelle, très peu touristique. Et le cadre réglementaire est en train de bouger : c'est le point à comprendre avant d'acheter."
+ },
+ "data": {
+  "prix_nuitee": "75 à 150 €",
+  "revenu_mensuel": "1 600 à 3 700 €",
+  "taux_occupation": "72 à 82 %",
+  "prix_m2": "5 800 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Ivry-sur-Seine (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 150 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 600 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Écoles, Confluences, cadre en train de changer",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui remplit un logement à Ivry",
+   "md": "Trois moteurs se cumulent ici. La zone d'aménagement Ivry Confluences couvre 145 hectares et vise 8 500 logements et 18 000 emplois, avec plus de 3 000 logements déjà livrés (Sadev 94, fiche d'opération au 16 juillet 2026). Neuf établissements supérieurs, du cinéma à l'ingénierie, s'ajoutent à l'hôpital Charles-Foix et à ses 474 lits de gériatrie et de soins de longue durée (AP-HP). Trois modes lourds desservent la ville : ligne 7, RER C et tramway T9.\n\nCe tissu ne produit pas des nuitées de week-end, il produit de la durée. Stagiaires, salariés détachés, proches de patients : la réservation moyenne se compte en semaines, avec un prix par nuit plus bas mais un taux de remplissage élevé, entre 72 et 82 % pour 75 à 150 euros la nuit (données AirDNA croisées, relevé du 9 juillet 2026).\n\nDeux réalités doivent tempérer l'enthousiasme. D'abord la concurrence : 7 hôtels et 765 chambres au 1er janvier 2026, le premier parc des douze communes du Val-de-Marne que nous suivons (INSEE). Ensuite le droit : le conseil municipal du 2 juillet 2026 a approuvé le principe d'une autorisation préalable pour les résidences secondaires et l'abaissement du plafond à 90 jours, mais rien n'entre en vigueur tant que l'établissement public territorial n'a pas délibéré (compte rendu sommaire du conseil, lu le 3 septembre 2026)."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Ivry-sur-Seine",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "ZAC Ivry Confluences (quartier Ivry-Port, aménageur Sadev 94, creée en 2010) : programme global, avancement, parc, horizon",
+     "145 ha; 931 000 m2 programmes; 8 500 logements et 18 000 emplois à terme; plus de 3 000 logements livres et 2 000 supplementaires entre 2024 et 2027.",
+     "Sadev 94 (horizon 2035 : avis MRAe de juillet 2025; livraisons 2024-2027 : Ville d'Ivry, concertation parc des Confluences 2024) (2026-07-16)"
+    ],
+    [
+     "Transports : métro 7 (Pierre et Marie Curie, Mairie d'Ivry), RER C gare d'Ivry (trains toutes les 6 à 7 minutes en pointe vers Paris), tramway T9 (4 stations, Porte de Choisy-Orly en 30 minutes, fréquence renforcée à 4 minutes en pointe du soir depuis le 17/08/2026) ; à venir : bus T Zen 5 et prolongement de la ligne 10 vers 2030",
+     "3 modes lourds, 4 stations de tramway",
+     "Ville d'Ivry-sur-Seine (ligne 10 et T Zen 5 : avis MRAe 24/07/2024) (2026-08-10)"
+    ],
+    [
+     "Hôpital Charles-Foix (AP-HP Sorbonne Université), 7 avenue de la République : geriatrie, SMR et soins de longue durée ; IFSI de 240 étudiants par promotion sur site",
+     "474 lits; 5 172 hospitalisations; 10 290 consultations; 115 medecins; 953 paramedicaux",
+     "AP-HP (IFSI : cfdc.aphp.fr) (2026)"
+    ],
+    [
+     "Enseignement supérieur sur la commune : ESME Sudria, ESIEA, IN'TECH, EICAR (cinéma), EPSAA (arts graphiques de la Ville de Paris), CE3P (photo), IFEC (chiropraxie), IFSI Charles-Foix, odontologie Université Paris Cité",
+     "9 établissements superieurs et 13 résidences étudiantes recensées par la ville",
+     "Ville d'Ivry-sur-Seine (2025-11)"
+    ],
+    [
+     "Population 2023 (+0,8 % par an), emplois au lieu de travail, propriétaires, niveau de vie, pauvrete",
+     "65 064 habitants; 34 383 emplois (89,9 % salariés); 24,9 % de propriétaires; niveau de vie médian 22 210 EUR; taux de pauvrete 28 %",
+     "INSEE, comparateur de territoires RP2023 (2026-08-27)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "law",
+   "title": "Ce que dit la loi à Ivry-sur-Seine",
+   "md": "- **Changement d'usage** : en cours d'instauration : le conseil municipal du 02/07/2026 (délibération n 59, 43 voix pour, 2 abstentions, 3 contre) a approuve le principe d'une autorisation préalable pour tout changement d'usage des résidences secondaires sur l'ensemble du territoire. **Compensation** : non trouve : le projet de règlement annexe a la délibération n'est pas publié en ligne\n- **Si vous louez votre résidence principale** : 120 jours par année civile au 03/09/2026; abaissement à 90 jours vote par le conseil municipal du 02/07/2026, date d'entrée en vigueur non publiée\n- **Numéro d'enregistrement** : non au 03/09/2026 (mise en place votée le 02/07/2026, pas de téléservice communal en ligne); déclaration cerfa 14004 pour les résidences secondaires; numéro national attendu au 4e trimestre 2026.\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,80 EUR, soit 15,60 EUR toutes taxes; loyer minimum taxable 15,00 EUR par nuitée\n- **À prévoir dans votre dossier** : non publiées; service Urbanisme reglementaire, 37 rue Saint-Just, 01 49 60 27 60\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.ivry94.fr/fileadmin/www.ivry94.fr/MEDIA/Democratie/Opendata/Compte_rendus/Sommaires/2026/CRSD_CM_02072026.pdf) et [document de référence](https://www.ivry94.fr/23-14353/fiche/conseil-municipal-ce-qu-il-faut-retenir-des-debats.htm)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs qui portent la demande",
+   "intro": "Trois entrées dans la ville, trois clientèles qui ne se croisent jamais.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Ivry-Port et Confluences",
+     "text": "Logements récents, berges de Seine, RER C. Le secteur des salariés arrivés avec les nouvelles surfaces d'activité et des réservations de plusieurs semaines."
+    },
+    {
+     "icon": "train",
+     "title": "Mairie d'Ivry et centre-ville",
+     "text": "La ligne 7, la Manufacture des Oeillets et les théâtres. Le plus lisible pour un voyageur qui ne connaît pas la ville, donc le plus liquide sur les courts séjours."
+    },
+    {
+     "icon": "users",
+     "title": "Petit-Ivry et le tramway T9",
+     "text": "Quatre stations sur la commune, sur une ligne qui relie Porte de Choisy à Orly en une trentaine de minutes (Ville d'Ivry-sur-Seine). Adapté aux longs séjours sans voiture."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Ivry-sur-Seine",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "doc",
+     "title": "Étudiants et stagiaires",
+     "text": "Neuf écoles supérieures sur la commune, du cinéma à l'ingénierie. Ils réservent pour un stage ou un semestre et paient d'abord le calme et une connexion fiable."
+    },
+    {
+     "icon": "target",
+     "title": "Salariés détachés",
+     "text": "Les 34 383 emplois locaux et les bureaux voisins de Paris 13e produisent des réservations de trois nuits à trois semaines, souvent décidées au dernier moment."
+    },
+    {
+     "icon": "bed",
+     "title": "Proches de patients",
+     "text": "Charles-Foix accueille 474 lits de gériatrie et de longue durée. Ces familles cherchent un logement proche et souple sur les dates, sans exigence de décor."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Ivry-sur-Seine",
+   "md": "L'année d'Ivry suit les rentrées et les cycles de chantier, pas les vacances. Septembre et janvier concentrent les arrivées d'étudiants et de stagiaires, tandis que l'été forme le vrai creux, quand les écoles ferment et que les missions s'interrompent. Les rendez-vous culturels, ouverture de saison du Théâtre des Quartiers d'Ivry le 17 septembre 2026 ou fête de ville en juin (Ville d'Ivry-sur-Seine), n'apportent que des nuitées ponctuelles. Nous travaillons donc juillet et août à la baisse, avec des tarifs mensuels, plutôt que de laisser un bien vide six semaines.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Ivry-sur-Seine",
+   "intro": "Voici ce que nous mettons en place sur un logement ivryen.",
+   "items": [
+    "Ouverture des tarifs mensuels en juillet et en août, période où la demande locale s'arrête net",
+    "Annonce publiée plusieurs mois avant les rentrées de septembre et de janvier, quand les recherches démarrent",
+    "Poste de travail réel et débit mesuré, critère numéro un des stagiaires et des salariés détachés",
+    "Souplesse sur les dates pour les proches de patients de Charles-Foix, prolongations acceptées en cours de séjour",
+    "Veille sur le règlement de changement d'usage en préparation, et dossier prêt le jour de son entrée en vigueur"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Ivry, c'est une ville qui travaille. Vos voyageurs viennent pour un stage, un chantier ou un parent hospitalisé, et ils restent des semaines. Ce marché-là se conduit autrement : moins de rotations, plus de relation, et un logement qui doit tenir la distance. Et il y a une chose que je répète à tout le monde : la mairie a voté un durcissement en juillet 2026, donc on lit le texte avant d'acheter, pas après.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en location courte durée à Ivry-sur-Seine ?",
+   "a": "Les repères de marché donnent 75 à 150 euros la nuit pour une occupation de 72 à 82 % (données AirDNA croisées, relevé du 9 juillet 2026). Sur ce marché de durée, le nombre de nuits vendues pèse plus que le tarif de pointe. Nous vous remettons une estimation argumentée sous 48 heures, tenant compte du quartier et du nombre de couchages."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Ivry-sur-Seine ?",
+   "a": "Au 3 septembre 2026, aucun règlement de changement d'usage n'est en vigueur sur la commune. Le conseil municipal du 2 juillet 2026 a approuvé le principe d'une autorisation préalable pour les résidences secondaires, ainsi qu'un plafond ramené à 90 jours, et demandé à l'établissement public territorial de l'instaurer. Nous revérifions ce point avant chaque mise en ligne."
+  },
+  {
+   "q": "La BnF fait-elle venir des voyageurs à Ivry-sur-Seine ?",
+   "a": "Le site François-Mitterrand se trouve à Paris 13e, à une station de RER C de la gare d'Ivry, et la Bibliothèque nationale a dépassé 1,9 million de visiteurs en 2025 tous sites confondus (BnF, janvier 2026). C'est un repère de proximité utile dans une annonce, pas un moteur de demande mesuré à Ivry. Les vrais moteurs sont les écoles, Confluences et Charles-Foix."
+  },
+  {
+   "q": "Sept hôtels sur la commune, est-ce un handicap ?",
+   "a": "Ils totalisent 765 chambres au 1er janvier 2026, le premier parc des douze communes du Val-de-Marne que nous suivons (INSEE). Un hôtel gagne sur une nuit isolée. Un meublé gagne sur trois semaines, avec une cuisine, une machine à laver et un vrai bureau. C'est ce positionnement de durée que nous construisons, pas une guerre de tarifs."
+  },
+  {
+   "q": "Peut-on louer à un étudiant pour tout un semestre ?",
+   "a": "Nous exploitons des meublés de tourisme, pas des baux étudiants : au-delà de quelques mois, le cadre juridique change et ce n'est plus notre métier. En revanche, les séjours de trois semaines à trois mois entrent pleinement dans notre périmètre et représentent une part réelle du calendrier ivryen. L'audit vous dira quelle durée sert le mieux votre bien."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb ivry-sur-seine",
+  "conciergerie ivry sur seine",
+  "location courte duree ivry"
+ ]
+}

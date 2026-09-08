@@ -1,0 +1,63 @@
+{
+ "url": "/simulateur-locatif",
+ "type": "simulateur",
+ "title": "Simulateur Airbnb gratuit Île-de-France | Coolok",
+ "description": "Estimez les revenus de votre logement en location courte durée en Île-de-France : fourchettes par commune en 2 minutes, puis un audit chiffré sous 48 h.",
+ "h1": "Simulateur de revenus Airbnb en Île-de-France",
+ "image": "/assets/img/heros/simulateur.webp",
+ "imageAlt": "Tablette affichant une estimation de revenus locatifs sur une table de jardin",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Simulateur gratuit",
+  "lead": "Trois questions sur votre bien, aucune adresse exacte à donner : vous voyez immédiatement les revenus observés dans votre commune, puis vous décidez si vous voulez l'audit chiffré du fondateur.",
+  "ctas": [
+   { "label": "Commencer la simulation", "href": "#simulateur", "style": "primary", "icon": "calc" },
+   { "label": "Parler à Thierry directement", "href": "https://calendly.com/contact-coolok/30min", "style": "secondary", "icon": "calendar" }
+  ]
+ },
+ "sections": [
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "D'où viennent les chiffres",
+   "intro": "Un simulateur qui ne dit pas d'où il tire ses données ne vaut rien. Voici les nôtres.",
+   "cols": 3,
+   "items": [
+    { "icon": "chart", "title": "Données de marché par commune", "text": "Fourchettes de prix par nuit, taux d'occupation et revenus mensuels observés sur les logements entiers de 26 communes : données AirDNA croisées avec les plateformes, mise à jour de juillet 2026." },
+    { "icon": "target", "title": "Contrôle sur les plateformes", "text": "Nous recoupons ces fourchettes avec les prix réellement affichés sur Airbnb. Exemple relevé le 3 septembre 2026 pour sept nuits en octobre : 125 EUR par nuit à Serris, 112 EUR à Vincennes, 79 EUR à Fontainebleau, frais inclus." },
+    { "icon": "users", "title": "Puis un expert regarde votre bien", "text": "L'estimation automatique donne un ordre de grandeur communal. L'audit chiffré tient compte de votre logement, de sa capacité, de vos dates d'usage personnel et de la réglementation de votre commune." }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "info",
+   "title": "Ce que l'estimation ne dit pas",
+   "md": "Les fourchettes affichées sont des prix observés, pas une promesse de revenus. Elles ne tiennent pas compte de vos charges, de votre fiscalité, de l'état du logement ni du nombre de nuits que vous voulez vous réserver. C'est exactement le travail de l'audit chiffré, qui reste gratuit et sans engagement."
+  },
+  {
+   "type": "checklist",
+   "bg": "cream",
+   "h2": "Ce que vous recevez sous 48 h ouvrées",
+   "items": [
+    "Une fourchette de revenus mensuels et annuels pour votre logement, pas pour votre commune en général",
+    "Le régime réglementaire de votre commune : enregistrement, changement d'usage, plafond de jours si vous louez votre résidence principale",
+    "Ce qu'il faut prévoir avant la mise en ligne : équipements, linge, accès, photos",
+    "Le calcul net de la commission, pour comparer avec ce que vous rapporte votre situation actuelle",
+    "Un avis franc quand la location courte durée n'est pas le bon choix pour votre bien"
+   ],
+   "cta": { "label": "Recevoir mon audit chiffré", "href": "#simulateur", "style": "primary", "icon": "calc" }
+  }
+ ],
+ "faq": [
+  { "q": "Le simulateur est-il vraiment gratuit ?", "a": "Oui, l'estimation comme l'audit chiffré. Nous ne demandons ni carte bancaire ni engagement, et vous n'entrerez pas dans une séquence de démarchage : Thierry vous rappelle une fois, avec des chiffres." },
+  { "q": "Pourquoi ne demandez-vous pas l'adresse exacte de mon bien ?", "a": "Parce qu'elle n'est pas nécessaire pour un ordre de grandeur : la commune, la typologie et la capacité suffisent. Vous pouvez préciser l'adresse plus tard, au moment de l'audit, si vous le souhaitez." },
+  { "q": "Combien rapporte un T2 en location courte durée en Île-de-France ?", "a": "Cela dépend fortement de la commune. Sur les prix de liste relevés le 3 septembre 2026 pour sept nuits en octobre, un logement entier s'affichait autour de 125 EUR par nuit à Serris, 116 EUR à Versailles, 112 EUR à Vincennes, 81 EUR à Melun et 68 EUR à Reims, frais inclus. Le simulateur vous donne la fourchette de revenus mensuels correspondante." },
+  { "q": "Vos chiffres tiennent-ils compte de la réglementation ?", "a": "L'estimation automatique, non : elle donne le marché. L'audit, oui : nous vérifions le régime de votre commune, parce qu'un plafond de nuits ou une autorisation de changement d'usage change complètement le calcul. Notre guide sur la [loi Le Meur](/blog/loi-le-meur) détaille le cadre national." },
+  { "q": "Que se passe-t-il si ma commune n'est pas dans la liste ?", "a": "Choisissez « Autre commune d'Île-de-France » et précisez son nom : nous n'avons pas publié de fourchette pour toutes les communes, mais nous savons faire l'estimation à la main. C'est Thierry qui s'en charge, sous 48 h ouvrées." }
+ ],
+ "keywords": ["simulateur airbnb", "simulateur airbnb gratuit", "estimation revenus airbnb", "combien rapporte un airbnb"]
+}

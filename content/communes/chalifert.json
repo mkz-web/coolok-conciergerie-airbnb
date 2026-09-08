@@ -1,0 +1,179 @@
+{
+ "url": "/conciergerie-airbnb-chalifert",
+ "type": "commune",
+ "name": "Chalifert",
+ "slug": "chalifert",
+ "dept": "77",
+ "zone": "val-d-europe",
+ "title": "Conciergerie Airbnb Chalifert (77), bords de Marne | Coolok",
+ "description": "Chalifert, village des bords de Marne à cinq minutes des parcs : Coolok exploite votre logement pour une clientèle qui cherche le calme. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Chalifert, le calme à cinq minutes des parcs",
+ "image": "/assets/img/heros/chalifert.webp",
+ "imageAlt": "Bord de Marne à Chalifert au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Marne-la-Vallée, Seine-et-Marne",
+  "lead": "Chalifert est un village en bord de Marne, à quelques minutes de la couronne Disney. Le prix d'achat y est le plus bas de la zone, et la clientèle y vient chercher exactement ce que les communes du parc n'offrent pas : le calme."
+ },
+ "data": {
+  "prix_nuitee": "75 à 155 €",
+  "revenu_mensuel": "1 300 à 3 200 €",
+  "taux_occupation": "59 à 69 %",
+  "prix_m2": "3 100 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Chalifert (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 59 à 69 %, soit 1 300 à 3 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Village en bord de Marne, calme, prix d'entrée",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un positionnement de contraste",
+   "md": "Sur la couronne Disney, toutes les communes vendent la proximité du parc. Chalifert peut vendre autre chose : un village, la Marne, le chemin de halage, une nuit sans bruit de circulation, à quelques minutes de voiture des attractions.\n\nCe positionnement attire une clientèle précise : des familles qui veulent souffler après une journée de parc, des couples qui prolongent le week-end, des visiteurs qui préfèrent un cadre à une adresse. Il suppose en revanche une annonce honnête sur les temps de trajet et sur la nécessité d'une voiture.\n\nL'avantage financier est réel : à budget d'achat égal, on obtient à Chalifert plus de surface ou un bien de meilleure qualité que dans le cœur du Val d'Europe. La contrepartie est un volume de demande plus faible, qui se compense par un prix mieux tenu et des séjours plus longs."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Chalifert",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale 2023 (en vigueur au 1er janvier 2026)",
+     "1 584 habitants (population totale 1 597); 339 habitants en 1968; 62 % de la population a entre 25 et 64 ans",
+     "INSEE, populations de référence 2023; dossier complet (POP T1) (2025-12-29)"
+    ],
+    [
+     "Parc de logements",
+     "717 logements en 2023 (567 en 2017); résidences principales 89,2 %, résidences secondaires et occasionnels 2,5 %, vacants 8,3 % (10,4 % en 2017)",
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
+    ],
+    [
+     "Position par rapport au parc et aux communes voisines",
+     "commune limitrophe de Chessy (centres distants de 1,2 km) et de Coupvray (1,5 km); parc Disneyland a environ 5,9 km par la route, 7 min en taxi; Esbly (gare ligne P) à 3,2 km.",
+     "annuaire-mairie.fr (distances entre communes); Rome2rio (2025)"
+    ],
+    [
+     "Transports en commun",
+     "aucune gare sur la commune; lignes de bus 2223, 2233 et 2263 du réseau Marne-la-Vallée (Île-de-France Mobilités) vers Chessy et Esbly.",
+     "Wikipedia (fiche commune, source IDFM); Moovit (2026-09-03)"
+    ],
+    [
+     "Canal de Meaux à Chalifert et bords de Marne",
+     "canal de 12,6 km construit de 1837 à 1846, 3 ecluses (Meaux, Lesches, Chalifert), tunnel-canal de 294 m sous la butte de Chalifert, toujours en activité (peniches de granulats).",
+     "Inventaire du patrimoine Île-de-France; Wikipedia; lesblygeois.fr (viaduc, blog local) (2024-07-12)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Chalifert",
+   "md": "- **Changement d'usage** : non **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle de droit commun rappelée par l'office de tourisme de Marne et Gondoire : résidence principale limitée à 120 jours par an, résidence secondaire louable sans limite de durée des lors que la déclaration en mairie.\n- **Numéro d'enregistrement** : non exigé à ce jour, Pas de numéro d'enregistrement au 03/09/2026. Déclaration en mairie par cerfa 14004*04, recepisse transmis à Marne et Gondoire pour la taxe de séjour.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/) et [document de référence](https://www.chalifert.fr/?s=meubl%C3%A9)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Le village et ses abords",
+   "intro": "",
+   "cols": 2,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Les bords de Marne",
+     "text": "Chemin de halage, vues sur l'eau, promenades : l'argument que personne ne peut copier sur la couronne du parc."
+    },
+    {
+     "icon": "home",
+     "title": "Le cœur de village",
+     "text": "Bâti ancien, calme, commerces de proximité : un cadre qui plaît aux séjours familiaux plus longs."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Chalifert",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles qui veulent du calme",
+     "text": "Elles font les parcs la journée et cherchent un vrai repos le soir, loin de l'agitation touristique."
+    },
+    {
+     "icon": "bed",
+     "title": "Séjours prolongés",
+     "text": "Le cadre invite à rester une nuit de plus, ce qui améliore le revenu par réservation."
+    },
+    {
+     "icon": "target",
+     "title": "Visiteurs hors saison",
+     "text": "Promenades en bord de Marne, week-ends nature : une demande faible mais réelle en dehors des vacances scolaires."
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Chalifert",
+   "intro": "Un marché de niche se travaille avec précision.",
+   "items": [
+    "Annonce qui assume le positionnement : le calme et la Marne, pas la proximité immédiate du parc",
+    "Temps de trajet réels annoncés en voiture et en transports, pour éviter la déception à l'arrivée",
+    "Photos travaillées sur l'extérieur et la lumière : c'est le cadre qui vend ici",
+    "Prix tenu plutôt que bradé, avec ouverture des séjours longs",
+    "Accueil autonome et assistance à distance, indispensables dans une commune sans service hôtelier"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Chalifert, on ne vend pas la porte du parc, on vend la nuit tranquille après le parc. Ce n'est pas la même annonce, ce n'est pas le même prix, et ce n'est surtout pas le même voyageur.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Chalifert est-il trop loin des parcs pour louer en courte durée ?",
+   "a": "Non pour une clientèle motorisée, qui accepte quelques minutes de route contre du calme et plus d'espace. Oui pour les voyageurs sans voiture, qu'il vaut mieux orienter ailleurs plutôt que de récolter un mauvais avis. Notre annonce l'affiche clairement."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Chalifert ?",
+   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, y compris pour une résidence principale. Une procédure locale de changement d'usage peut exister : nous la vérifions auprès de la commune avant la mise en ligne."
+  },
+  {
+   "q": "Le volume de demande est-il suffisant ?",
+   "a": "Il est plus faible que dans les communes du parc, mais moins concurrentiel. La stratégie consiste à tenir le prix et à viser des séjours plus longs plutôt qu'à multiplier les rotations courtes. L'audit chiffré vous donne la fourchette réaliste pour votre bien."
+  },
+  {
+   "q": "Que faut-il équiper en priorité ?",
+   "a": "Le stationnement, la literie et l'extérieur si vous en avez un. Dans un village, le confort intérieur et la qualité du sommeil pèsent davantage que les services de proximité, qui sont rares par nature."
+  },
+  {
+   "q": "Puis-je louer une maison entière à Chalifert ?",
+   "a": "Oui, et c'est souvent le meilleur usage du bâti local. Une maison avec extérieur accueille des familles élargies qui ne trouvent pas leur bonheur dans les résidences du Val d'Europe."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb chalifert",
+  "conciergerie chalifert"
+ ]
+}

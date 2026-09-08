@@ -1,0 +1,148 @@
+{
+ "url": "/conciergerie-airbnb-essonne",
+ "type": "departement",
+ "name": "Essonne",
+ "code": "91",
+ "slug": "conciergerie-airbnb-essonne",
+ "title": "Conciergerie Airbnb Essonne (91) : le cadre réel | Coolok",
+ "description": "Aucune commune essonnienne ouverte à ce jour chez Coolok. Le cadre vérifié commune par commune, ce que nous pouvons faire sur devis, et nos zones réelles.",
+ "h1": "Conciergerie Airbnb en Essonne : ce que dit la règle, et où nous intervenons vraiment",
+ "image": "/assets/img/heros/dept-essonne.webp",
+ "imageAlt": "Pavillon avec jardin dans une commune essonnienne, lumière de fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Essonne",
+  "lead": "Autant l'écrire tout de suite : Coolok n'a aucune commune ouverte en Essonne aujourd'hui. Nos équipes partent de Joinville-le-Pont et du Val d'Europe, et nous ne prétendrons pas couvrir un territoire où nous n'avons pas d'organisation terrain. En revanche, nous avons vérifié le cadre essonnien à la source, et il réserve quelques surprises."
+ },
+ "linkText": "Le cadre essonnien vérifié, sans promesse de couverture",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui structure le marché essonnien",
+   "md": "L'Essonne ne vit pas de monuments, elle vit de pôles d'activité et d'un parc de logements sous pression. Le décret du 22 décembre 2025 classe en zone tendue une vingtaine de communes essonniennes, de Massy à Corbeil-Essonnes en passant par Orsay, Palaiseau, Saclay, Longjumeau, Juvisy-sur-Orge et Évry-Courcouronnes (annexe lue sur Légifrance le 3 septembre 2026). Ce classement n'est pas une mauvaise nouvelle en soi : il mesure une demande de logement supérieure à l'offre disponible. Mais il donne aussi à chacune de ces villes le droit d'encadrer la location de meublés de tourisme par une simple délibération, sans avoir à motiver un déséquilibre du marché.\n\nDeux communes que nous avons examinées illustrent les deux extrémités du spectre. Évry-Courcouronnes a franchi le pas le 26 juin 2025 : depuis le 1er janvier 2026, un logement autre que votre résidence principale exige une autorisation temporaire de deux ans, sans compensation, dans la limite de deux autorisations par personne, avec un diagnostic de performance énergétique classé A à E et un numéro d'enregistrement à treize chiffres. À Massy, quatre recherches indépendantes menées le 3 septembre 2026 n'ont trouvé aucune délibération comparable.\n\nCe que cela implique dans l'exploitation tient en une phrase : ici, la première tâche n'est pas de photographier le logement, c'est d'écrire à la mairie. Aucune liste publique des communes ayant instauré le changement d'usage n'existe, le service de données de l'administration étant réservé aux collectivités. L'absence de règle visible n'a donc jamais valeur d'autorisation."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Essonne",
+   "md": "À notre connaissance, au 3 septembre 2026, aucune règle départementale n'encadre le meublé de tourisme en Essonne : seule Évry-Courcouronnes a instauré une autorisation temporaire de changement d'usage, en vigueur depuis le 1er janvier 2026, et aucune commune du département n'a abaissé sous 120 jours le plafond applicable à une résidence principale. Comme il n'existe aucune liste officielle des communes ayant délibéré, nous écrivons au service urbanisme de votre mairie avant toute publication et nous vous transmettons sa réponse écrite.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Les trois demandes qui font vivre un meublé essonnien",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Missions et déplacements d'activité",
+     "text": "Les pôles scientifiques et industriels du plateau et de la vallée génèrent des séjours de semaine, d'une à trois nuits, peu sensibles aux vacances scolaires."
+    },
+    {
+     "icon": "train",
+     "title": "Escales autour de la plateforme aéroportuaire",
+     "text": "Le nord du département vit à proximité immédiate d'Orly. Une nuit avant un vol tôt le matin se réserve toute l'année, sans dépendre d'une saison, à condition d'un accès autonome fiable."
+    },
+    {
+     "icon": "home",
+     "title": "Visites familiales et relogements temporaires",
+     "text": "Travaux, mutation, hospitalisation d'un proche : une demande discrète mais constante, qui préfère un logement complet à une chambre d'hôtel et réserve pour plusieurs semaines."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Ce que chaque commune essonnienne impose, à notre connaissance",
+   "intro": "Relevé aux sources officielles le 3 septembre 2026. Une délibération peut intervenir à tout moment : la date compte autant que la règle.",
+   "head": [
+    "Commune",
+    "Logement autre que la résidence principale",
+    "Résidence principale",
+    "Taxe de séjour d'un meublé non classé"
+   ],
+   "rows": [
+    [
+     "Évry-Courcouronnes",
+     "Autorisation temporaire de 2 ans, sans compensation, 2 autorisations par personne, diagnostic A à E, numéro à 13 chiffres, depuis le 1er janvier 2026",
+     "120 jours par année civile",
+     "11,375 % du coût hors taxes par personne et par nuit, plafond 7,80 EUR (Grand Paris Sud)"
+    ],
+    [
+     "Massy",
+     "Aucune autorisation trouvée après quatre recherches indépendantes ; commune en zone tendue, donc susceptible de délibérer à tout moment",
+     "120 jours par année civile",
+     "16,25 % du coût hors taxes par personne et par nuit, plafond 9,75 EUR"
+    ],
+    [
+     "Athis-Mons",
+     "Autorisation temporaire sans compensation selon un recensement privé du 9 août 2026, non confirmé par une page officielle",
+     "120 jours par année civile",
+     "3 % de part votée, plafond 4,60 EUR avant taxes additionnelles"
+    ],
+    [
+     "Toute autre commune du département",
+     "Aucun régime identifié, mais aucune liste officielle ne permet de l'affirmer : la mairie doit être interrogée",
+     "120 jours par année civile",
+     "Fixée par la commune ou son agglomération"
+    ]
+   ],
+   "source": "Annexe du décret 2025-1267 du 22 décembre 2025, règlement d'Évry-Courcouronnes adopté le 26 juin 2025, recherches sur les sites officiels de Massy, fichier DELTA de la DGFiP au 1er janvier 2026 et portail de la taxe de séjour de Grand Paris Sud. Relevé Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "map",
+   "title": "Où nos équipes sont réellement présentes",
+   "md": "Notre siège est au 4 avenue Oudinot à Joinville-le-Pont, dans le Val-de-Marne, et notre second bassin d'activité est la couronne des parcs en Seine-et-Marne. C'est de là que partent les interventions de ménage, de linge et de maintenance.\n\n- [Val-de-Marne](/conciergerie-airbnb-val-de-marne) : douze communes exploitées, du bois de Vincennes au plateau de Chennevières\n- [Seine-et-Marne](/conciergerie-airbnb-seine-et-marne) : huit communes, du Val d'Europe à Melun\n- [Hauts-de-Seine](/conciergerie-airbnb-hauts-de-seine), [Seine-Saint-Denis](/conciergerie-airbnb-seine-saint-denis) et [Yvelines](/conciergerie-airbnb-yvelines) : sept communes au total\n\nSi votre bien essonnien se trouve à la limite d'un de ces secteurs, dites-le nous : la distance réelle compte plus que la frontière départementale."
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "narrow": true,
+   "h2": "Ce que nous pouvons faire en Essonne dès aujourd'hui",
+   "md": "**Un audit chiffré, sous 48 heures.** Vous décrivez le logement, nous vous renvoyons une estimation argumentée de revenus, la règle exacte de votre commune vérifiée à la source, et la liste des équipements qui manquent. Cet audit est gratuit et sans engagement, que nous prenions le mandat ou non.\n\n**Une intervention sur devis.** Si votre bien est proche d'un de nos secteurs, ou si le projet justifie de monter une organisation locale, nous chiffrons la prestation au cas par cas. La commission reste de 20 % HT tout compris sur les revenus encaissés, sans frais cachés.\n\n**Une réponse claire quand c'est non.** Un logement trop éloigné de nos équipes ne sera pas correctement servi : ménage en retard, arrivée ratée, note qui descend. Nous préférons vous le dire et vous orienter, plutôt que d'encaisser trois mois de commission avant que le problème apparaisse."
+  }
+ ],
+ "quote": {
+  "text": "L'Essonne, je pourrais vous vendre une couverture départementale, tout le monde le fait. Sauf qu'une conciergerie sans équipe à moins de trente minutes, c'est un ménage qui n'arrive pas et un voyageur qui note deux étoiles. Ce que je peux faire ici, c'est étudier votre dossier, vous donner le cadre exact de votre commune et vous dire oui ou non sur devis. Un dossier refusé proprement vaut mieux qu'un client déçu qui parle de vous en mal pendant deux ans.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien peut rapporter une location courte durée en Essonne ?",
+   "a": "Nous n'avons pas relevé le marché essonnien commune par commune, et nous préférons l'écrire plutôt que d'afficher une fourchette approximative. Le revenu dépend de la surface, de la capacité, de la proximité d'un pôle d'activité et du taux d'occupation réel. Décrivez-nous votre bien : nous vous remettons une estimation argumentée sous 48 heures, sans engagement."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme en Essonne ?",
+   "a": "Cela dépend de votre commune, et d'elle seule. Évry-Courcouronnes exige une autorisation temporaire de deux ans depuis le 1er janvier 2026. À Massy, aucune délibération n'a été trouvée au 3 septembre 2026. Ailleurs, l'absence de trace ne prouve rien : nous interrogeons le service urbanisme avant chaque mise en ligne, et nous vous transmettons la réponse."
+  },
+  {
+   "q": "Coolok intervient-il vraiment en Essonne ?",
+   "a": "Pas avec une organisation terrain permanente, non. Aucune commune essonnienne ne figure dans notre couverture au 3 septembre 2026. Nous étudions les dossiers sur devis, en particulier ceux situés près de nos secteurs du Val-de-Marne et de Seine-et-Marne. Quand la distance rend le service impossible à tenir, nous vous le disons plutôt que de signer."
+  },
+  {
+   "q": "Combien de jours puis-je louer ma résidence principale à Massy ou à Évry-Courcouronnes ?",
+   "a": "Cent vingt jours par année civile dans les deux villes, comme partout en Essonne : aucune commune du département n'a délibéré pour abaisser ce plafond à 90 jours à notre connaissance au 3 septembre 2026. Au-delà de ces 120 jours, le logement cesse d'être traité comme une résidence principale et relève du régime de l'autorisation."
+  },
+  {
+   "q": "Quelle taxe de séjour paie-t-on en Essonne ?",
+   "a": "Elle est votée par la commune ou son agglomération, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 11,375 % du coût hors taxes de la nuitée dans les quatorze communes de Grand Paris Sud, plafonné à 7,80 EUR par personne, et 16,25 % à Massy, plafonné à 9,75 EUR (fichier DELTA de la DGFiP au 1er janvier 2026)."
+  }
+ ],
+ "keywords": [
+  "conciergerie essonne",
+  "conciergerie airbnb essonne",
+  "meublé de tourisme essonne"
+ ]
+}

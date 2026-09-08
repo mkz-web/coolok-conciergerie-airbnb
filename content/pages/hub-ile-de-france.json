@@ -1,0 +1,161 @@
+{
+ "url": "/conciergerie-airbnb-ile-de-france",
+ "type": "hub",
+ "name": "Île-de-France",
+ "slug": "conciergerie-airbnb-ile-de-france",
+ "title": "Nos zones en Île-de-France : conciergerie Airbnb | Coolok",
+ "description": "Les huit départements franciliens et Reims : nos communes, ce qui s'y loue et le régime d'autorisation de chacun, vérifié le 3 septembre 2026.",
+ "h1": "Nos zones d'intervention, département par département",
+ "image": "/assets/img/heros/hub-ile-de-france.webp",
+ "imageAlt": "Toits et jardins d'une commune résidentielle francilienne à l'heure dorée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Île-de-France et Reims",
+  "lead": "Coolok intervient dans les huit départements franciliens, ainsi qu'à Reims. Cette page indique où nous publions des pages détaillées, ce que l'on y loue, et surtout quel régime d'autorisation s'applique avant même de parler de rendement."
+ },
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Une région, huit marchés qui n'ont rien de comparable",
+   "md": "Raisonner en rendement à l'échelle de la région ne veut pas dire grand-chose. Entre un studio de petite couronne loué à des voyageurs en mission, une maison de six couchages près des attractions et un appartement de centre-ville à Fontainebleau, ni le prix par nuit, ni la clientèle, ni le calendrier ne se ressemblent. Nos relevés du 3 septembre 2026, tous pour sept nuits en octobre et frais inclus, donnent 140 EUR de médiane à Chessy, 116 EUR à Versailles, 112 EUR à Vincennes, 81 EUR à Melun et 79 EUR à Fontainebleau.\n\nLe second écart, moins visible, est juridique, et il pèse plus lourd encore sur un projet. Paris impose une compensation pouvant atteindre trois mètres carrés pour un mètre carré transformé dans neuf arrondissements (règlement municipal du 3 mars 2025). À l'autre bout, plusieurs communes de grande couronne n'ont instauré aucun régime d'autorisation : une déclaration en mairie suffit. Entre ces deux extrêmes, chaque commune décide, et une délibération peut tout changer en un conseil municipal.\n\nC'est pourquoi nos pages sont classées par département puis par commune, avec la règle applicable et sa date sur chacune. Vous y trouvez ce que vaut un logement sur place, qui y dort, et ce qu'il faut déposer avant de publier une annonce. Si votre commune n'a pas encore sa page, nous la traitons de la même façon : notre siège est à Joinville-le-Pont et notre couverture porte sur les huit départements."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos zones, département par département",
+   "intro": "Le régime indiqué a été vérifié le 3 septembre 2026, source officielle par source officielle. Il évolue par délibération : nous le recontrôlons avant chaque mise en ligne.",
+   "head": [
+    "Département",
+    "Nos communes",
+    "Ce que vous y louez",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Paris (75)](/conciergerie-airbnb-paris)",
+     "Paris intra-muros",
+     "Résidence principale, dans la limite des 120 jours pour l'essentiel",
+     "Autorisation avec compensation, jusqu'à 3 m² pour 1 m² dans neuf arrondissements (règlement du 3 mars 2025)"
+    ],
+    [
+     "[Val-de-Marne (94)](/conciergerie-airbnb-val-de-marne)",
+     "Vincennes, Joinville-le-Pont, Saint-Maur-des-Fossés, Nogent-sur-Marne, Charenton-le-Pont, Saint-Mandé, Maisons-Alfort, Alfortville, Ivry-sur-Seine, Villejuif, Saint-Maurice, Chennevières-sur-Marne",
+     "Nuitées hospitalières, missions professionnelles, familles en mobilité",
+     "Autorisation dès la résidence secondaire dans la plupart de ces communes, sans compensation pour un particulier, sauf à Vincennes au-delà de deux biens"
+    ],
+    [
+     "[Seine-et-Marne (77)](/conciergerie-airbnb-seine-et-marne)",
+     "Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers, Bussy-Saint-Georges, Chalifert, Fontainebleau, Melun",
+     "Séjours familiaux près des attractions, week-ends château et forêt, nuitées d'affaires",
+     "Quatre communes du Val d'Europe encadrées depuis le 1er juin 2024 ; déclaration en mairie pour les quatre autres"
+    ],
+    [
+     "[Yvelines (78)](/conciergerie-airbnb-yvelines)",
+     "Versailles, Saint-Germain-en-Laye",
+     "Clientèle internationale et familles en mobilité scolaire",
+     "Autorisation hors résidence principale à Versailles ; aucune procédure identifiée à Saint-Germain-en-Laye"
+    ],
+    [
+     "[Hauts-de-Seine (92)](/conciergerie-airbnb-hauts-de-seine)",
+     "Clichy, Asnières-sur-Seine, Vanves",
+     "Nuitées d'affaires aux portes de la capitale et visiteurs de salons",
+     "Autorisation hors résidence principale ; compensation au-delà d'un logement à Vanves, communes très restrictives ailleurs dans le département"
+    ],
+    [
+     "[Seine-Saint-Denis (93)](/conciergerie-airbnb-seine-saint-denis)",
+     "Montreuil, Pantin",
+     "Séjours culturels, tournages, missions à l'est de la capitale",
+     "Autorisation hors résidence principale, sans compensation à Montreuil et à Pantin"
+    ],
+    [
+     "[Essonne (91)](/conciergerie-airbnb-essonne)",
+     "Étude au cas par cas, pas encore de page commune",
+     "Nuitées liées aux zones d'activité et aux campus du sud francilien",
+     "Pas d'autorisation sans délibération communale ; Évry-Courcouronnes encadrée"
+    ],
+    [
+     "[Val-d'Oise (95)](/conciergerie-airbnb-val-d-oise)",
+     "Étude au cas par cas, pas encore de page commune",
+     "Séjours aéroportuaires et clientèle thermale d'Enghien",
+     "Libre par défaut ; encadré à Enghien-les-Bains, Cergy et Pontoise, très restrictif à Roissy-en-France"
+    ],
+    [
+     "[Reims (51)](/conciergerie-airbnb-reims)",
+     "Reims, hors Île-de-France",
+     "Week-ends champagne et cathédrale, clientèle internationale",
+     "Autorisation préalable depuis le 1er janvier 2020, sans compensation (délibération du Grand Reims du 27 juin 2019)"
+    ]
+   ],
+   "source": "Régimes relevés le 3 septembre 2026 sur les sites des communes, des établissements publics territoriaux et des agglomérations concernées, complétés par le zonage de tension du décret du 22 décembre 2025 et par le guide pratique 2025 du ministère de la Transition écologique."
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Comment nous découpons la région",
+   "intro": "Trois ensembles, trois manières différentes de gagner de l'argent avec un meublé de tourisme.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "L'est touristique",
+     "text": "Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers, Bussy-Saint-Georges et Chalifert. Un flux permanent, des séjours courts, et une autorisation obligatoire dans quatre communes sur six."
+    },
+    {
+     "icon": "home",
+     "title": "La petite couronne résidentielle",
+     "text": "Vincennes, Joinville-le-Pont, Montreuil, Pantin, Clichy, Saint-Maur et une dizaine d'autres. La demande y vient des hôpitaux, des salons, des chantiers et du débordement de la capitale."
+    },
+    {
+     "icon": "train",
+     "title": "La grande couronne et les villes de destination",
+     "text": "Versailles, Saint-Germain-en-Laye, Fontainebleau, Melun, plus Reims hors région. Des séjours plus longs, des prix d'achat plus bas et, le plus souvent, des règles plus souples."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison en Île-de-France",
+   "md": "Aucune saison unique ne vaut pour toute la région. L'est touristique vit sur les vacances scolaires européennes et sur les grandes séquences des attractions, d'Halloween aux fêtes de fin d'année. La petite couronne se remplit sur les salons, les concerts et l'activité hospitalière, à peu près toute l'année. Fontainebleau ajoute un pic équestre au printemps et un pic d'escalade à l'automne, quand Melun ne connaît guère que le creux du mois d'août. Un calendrier bien tenu combine ces rythmes au lieu d'en subir un seul.",
+   "narrow": true
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en location courte durée en Île-de-France ?",
+   "a": "Tout dépend de la commune. Nos relevés du 3 septembre 2026, pour sept nuits en octobre et frais inclus, donnent une médiane de 140 EUR la nuit à Chessy, 116 EUR à Versailles, 112 EUR à Vincennes, 81 EUR à Melun et 79 EUR à Fontainebleau. Le taux d'occupation et la surface font le reste : nous chiffrons votre cas sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer un meublé de tourisme en Île-de-France ?",
+   "a": "Il n'existe pas de règle régionale. Paris exige une autorisation avec compensation, plusieurs communes de petite couronne une autorisation sans compensation, et une partie de la grande couronne se contente d'une déclaration en mairie. Le tableau ci-dessus donne l'état relevé le 3 septembre 2026 pour chaque département, et la page de votre commune en donne le détail."
+  },
+  {
+   "q": "Dans quels départements d'Île-de-France intervenez-vous ?",
+   "a": "Dans les huit départements franciliens, ainsi qu'à Reims. Notre siège est à Joinville-le-Pont, dans le Val-de-Marne, et nos deux secteurs les plus denses sont la petite couronne est et le bassin de Marne-la-Vallée. Une commune sans page dédiée bénéficie exactement de la même couverture."
+  },
+  {
+   "q": "Ma commune n'a pas de page sur votre site, pouvez-vous quand même intervenir ?",
+   "a": "Oui. Les pages publiées correspondent aux communes où nous avons le plus de recul, pas aux limites de notre intervention. Nous étudions votre adresse, son régime d'autorisation et son marché de la même manière, et nous vous disons franchement quand un projet ne tient pas."
+  },
+  {
+   "q": "Combien coûte votre service ?",
+   "a": "20 % hors taxes des revenus encaissés, tout compris et sans frais d'entrée : annonce, photographies, tarification, sélection des voyageurs, accueil, ménage, linge, maintenance et assistance. Le ménage est refacturé au voyageur selon une grille par typologie. Nous ne facturons rien tant que le logement ne produit rien."
+  },
+  {
+   "q": "Pourquoi vous choisir plutôt qu'une conciergerie nationale ?",
+   "a": "Parce que nous travaillons commune par commune. Coolok Services est une société créée le 10 octobre 2024, dont le siège est à Joinville-le-Pont, notée 4,8 sur 5 pour 21 avis Google au 2 septembre 2026. Vous obtenez la règle applicable à votre adresse, avec sa date, et non une réponse valable pour toute la France."
+  }
+ ],
+ "keywords": [
+  "conciergerie seine et marne",
+  "conciergerie val de marne",
+  "conciergerie val d'oise"
+ ],
+ "quote": {
+  "text": "On me demande souvent si la région est encore un bon terrain de jeu. Ma réponse tient en une question : dans quelle commune ? Entre une adresse où il faut compenser trois mètres carrés pour un et une autre où une déclaration en mairie suffit, ce n'est ni le même métier, ni le même délai, ni le même rendement. Commencez par la règle, le reste vient après.",
+  "pending": true
+ },
+ "breadcrumbName": "Zones d'intervention"
+}

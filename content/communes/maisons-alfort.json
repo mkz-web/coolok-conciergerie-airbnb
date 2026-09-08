@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-maisons-alfort",
+ "type": "commune",
+ "name": "Maisons-Alfort",
+ "slug": "maisons-alfort",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Maisons-Alfort (94), métro 8 | Coolok",
+ "description": "Coolok exploite votre logement à Maisons-Alfort : école vétérinaire, siège de l'Anses, RER D toutes les 3 à 4 minutes en pointe. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Maisons-Alfort, entre école vétérinaire et RER D",
+ "image": "/assets/img/heros/maisons-alfort.webp",
+ "imageAlt": "Rue résidentielle de Maisons-Alfort près d'une station de la ligne 8, en fin d'après-midi",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Sud-est parisien, Val-de-Marne",
+  "lead": "L'École nationale vétérinaire d'Alfort accueille 850 étudiants, et 4 285 candidats se sont disputé 70 places au concours 2024 (EnvA, données publiées le 22 janvier 2025). Le siège de l'Anses, lui, fait venir des experts toute l'année. Votre logement s'adresse à ces agendas, pas à un flux touristique."
+ },
+ "data": {
+  "prix_nuitee": "80 à 160 €",
+  "revenu_mensuel": "1 600 à 3 800 €",
+  "taux_occupation": "69 à 79 %",
+  "prix_m2": "6 000 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Maisons-Alfort (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 80 à 160 € la nuit, avec un taux d'occupation observé de 69 à 79 %, soit 1 600 à 3 800 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "École vétérinaire, Anses, métro 8",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Une demande d'agenda plutôt que de saison",
+   "md": "Maisons-Alfort réunit 56 799 habitants et 17 718 emplois (INSEE, recensement 2023). Deux institutions structurent la demande d'hébergement : l'École nationale vétérinaire, dont les promotions sont passées à 180 étudiants à la rentrée 2025 et qui dispose de 492 chambres et de 355 personnels, et l'Anses, agence sanitaire dont le siège pilote 1 513 agents répartis sur seize sites (rapport d'activité 2024). Concours, rentrées, jurys, comités et missions : ce sont des dates fixes, connues des mois à l'avance.\n\nPour vous, cela signifie un calendrier qui se remplit en semaine, sur des durées moyennes allant de quelques nuits à quelques semaines. L'offre concurrente reste mince : 4 hôtels et 110 chambres au 1er janvier 2026 pour près de 57 000 habitants (INSEE). Les repères de marché placent la nuitée entre 80 et 160 euros pour une occupation de 69 à 79 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, la conséquence est concrète : des arrivées en milieu de semaine, des départs le vendredi, une exigence portée sur la propreté et la connexion plus que sur la décoration. Depuis le 14 décembre 2025, tous les RER D marquent l'arrêt dans les deux gares aux heures de pointe, soit seize trains par heure (Ville de Maisons-Alfort, 10 décembre 2025) : cela s'écrit dans l'annonce. Un détail administratif compte aussi : ici la déclaration en mairie ne donne pas lieu à un numéro d'enregistrement communal (office de tourisme Paris Est Marne et Bois, lu le 3 septembre 2026)."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Maisons-Alfort",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "École nationale vétérinaire d'Alfort (EnvA), 7 avenue du Général de Gaulle : étudiants, promotions, chambres sur site, selectivite",
+     "850 étudiants en 6 promotions; promotions de 180 étudiants à partir de la rentrée 2025 (+50 % depuis 2013); 492 chambres et 355 personnels (rapport d'activité 2023).",
+     "EnvA (rapport d'activité 2023 sur Calameo; Parcoursup fiche formation) (2025-01-22)"
+    ],
+    [
+     "Siège de l'Anses (Agence nationale de sécurité sanitaire), 14 rue Pierre et Marie Curie ; laboratoire de sécurité des aliments sur le site",
+     "1 513 agents sur 16 sites en France (rapport d'activité 2024); 250 à 499 salariés a l'adresse du siège selon Kompass",
+     "Anses, rapport d'activité 2024 (2025)"
+    ],
+    [
+     "Transports : 3 stations de la ligne 8 (École vétérinaire, Maisons-Alfort Stade, Les Juilliottes), 2 gares RER D (Maisons-Alfort-Alfortville, Le Vert de Maisons), 11 lignes de bus ; depuis le 14 décembre 2025 tous les RER D s'arretent dans les deux gares aux heures de pointe",
+     "16 trains par heure en pointe, un RER toutes les 3 à 4 minutes",
+     "Ville de Maisons-Alfort (2025-12-10)"
+    ],
+    [
+     "Gare Le Vert de Maisons de la ligne 15 Sud (a cheval sur Maisons-Alfort et Alfortville, adossée a la gare RER D) : habitants à 1 km, voyageurs attendus, profondeur, gain de temps ; mise en service reportée a l'automne 2027 (SGP, 25/06/2026)",
+     "plus de 26 000 habitants dans un rayon d'1 km; jusqu'à 90 000 voyageurs par jour; quais à 35 à 37 m; Saint-Maur-Creteil en 5 minutes contre 29",
+     "Société des grands projets, Grand Paris Express (report : Le Figaro 25/06/2026) (2026-07-17)"
+    ],
+    [
+     "Population 2023, résidences principales, emplois, niveau de vie",
+     "56 799 habitants; 89,6 % de résidences principales sur près de 30 000 logements; 17 718 emplois; niveau de vie médian 31 480 EUR",
+     "INSEE, comparateur de territoires RP2023 (chiffre exact 56 799 : Wikipedia citant l'INSEE) (2026-08)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Maisons-Alfort",
+   "md": "- **Changement d'usage** : oui, résidences secondaires (régime territorial PEMB depuis le 01/01/2022, office de tourisme); aucune page ni règlement sur maisons-alfort.fr (recherche du site « meublé de tourisme » sans résultat le 03/09/2026) **Compensation** : non trouve; APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes. Un site tiers (livretaccueil.com, 04/03/2025) affirme « 90 jours + compensation obligatoire » : aucune source officielle ne.\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : non : « à Bry-sur-Marne, Le Perreux-sur-Marne et Maisons-Alfort, la déclaration en mairie d'un meublé de tourisme est obligatoire.\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes; loyer minimum taxable 1,00 EUR\n- **À prévoir dans votre dossier** : non trouvées en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxesejour.impots.gouv.fr/FR/PAGE-Consult-rwd.awp?ID=94046MAISONS-ALFORT) et [document de référence](https://tourisme-vincennes-marnebois.fr/fr/loueurs-de-meubles)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les trois secteurs à connaître",
+   "intro": "Le format du bien pèse moins ici que sa distance à un quai ou à un amphithéâtre.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Alfort et l'école vétérinaire",
+     "text": "Trois stations de la ligne 8 sur la commune, dont École vétérinaire. Le secteur des candidats au concours, des familles d'étudiants et des personnels en mission courte."
+    },
+    {
+     "icon": "home",
+     "title": "Charentonneau",
+     "text": "Le quartier le plus cher, estimé à 7 084 euros le mètre carré en mars 2026 (Figaro Immobilier), avec sa plage municipale de baignade en Marne ouverte du 20 juin au 31 août 2026."
+    },
+    {
+     "icon": "map",
+     "title": "Le Vert de Maisons",
+     "text": "La gare de la ligne 15 Sud y ouvrira à l'automne 2027 (Société des grands projets, 25 juin 2026), avec jusqu'à 90 000 voyageurs quotidiens attendus. Le secteur à surveiller avant un achat."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Maisons-Alfort",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles de candidats et d'étudiants",
+     "text": "Concours, rentrées, jurys et soutenances : des dates publiées longtemps à l'avance, des réservations de deux à cinq nuits posées très tôt."
+    },
+    {
+     "icon": "doc",
+     "title": "Missions administratives et scientifiques",
+     "text": "Le siège de l'Anses et son laboratoire attirent des experts en déplacement. Ils réservent en semaine et demandent d'abord du calme et une connexion qui tient."
+    },
+    {
+     "icon": "bed",
+     "title": "Séjours médicaux et familiaux",
+     "text": "La proximité immédiate de Créteil amène des séjours de plusieurs semaines, où la cuisine et le lave-linge comptent bien davantage qu'un beau canapé."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Maisons-Alfort",
+   "md": "L'année suit ici le calendrier universitaire et administratif plutôt que celui des vacances. Les périodes de concours et de rentrée, les jurys et les missions occupent la semaine ; l'été, la plage de Charentonneau et la fête nationale sur les rives de la Marne amènent une clientèle familiale (Ville de Maisons-Alfort, programme Été en fête 2026). Le vrai creux tombe pendant les congés d'été et ceux de fin d'année, quand les écoles ferment. C'est à ces moments qu'il faut baisser franchement le prix, plutôt que d'attendre une réservation qui ne viendra pas.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Maisons-Alfort",
+   "intro": "Notre travail sur un logement de Maisons-Alfort tient en cinq points.",
+   "items": [
+    "Calendrier calé sur les dates de l'école vétérinaire et des rentrées, ouvert à la réservation très en avance",
+    "Connexion internet mesurée et poste de travail utilisable, première exigence des déplacements professionnels",
+    "Instructions d'accès depuis les trois stations de la ligne 8 et les deux gares du RER D, temps de marche vérifiés",
+    "Ménage et linge professionnel entre chaque réservation, y compris sur les arrivées et départs de milieu de semaine",
+    "Déclaration en mairie préparée avec vous : à Maisons-Alfort elle passe par le formulaire cerfa, sans numéro communal"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Maisons-Alfort, les réservations se posent longtemps à l'avance. Vous avez une école qui organise des concours, une agence de l'État qui fait venir des gens en mission, et deux gares où le RER passe toutes les trois minutes en pointe. Ce n'est pas glamour, c'est régulier, et la régularité, c'est ce qui rembourse un crédit. Le seul vrai risque ici, c'est de rater les dates de rentrée.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un appartement en location courte durée à Maisons-Alfort ?",
+   "a": "Les repères de marché placent la nuitée entre 80 et 160 euros pour une occupation de 69 à 79 % (données AirDNA croisées, relevé du 9 juillet 2026). Le résultat dépend surtout du nombre de couchages et du temps de marche jusqu'à la ligne 8 ou au RER D. Nous vous remettons une estimation argumentée sous 48 heures après votre demande."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Maisons-Alfort ?",
+   "a": "Votre résidence principale se loue sans autorisation, dans la limite de 120 jours par année civile. Un second logement relève du régime de changement d'usage de Paris Est Marne et Bois, applicable depuis le 1er janvier 2022, et la déclaration se dépose en mairie par formulaire cerfa 14004. Particularité locale vérifiée le 3 septembre 2026 : elle ne donne pas lieu à un numéro d'enregistrement communal."
+  },
+  {
+   "q": "L'école vétérinaire fait-elle vraiment venir des voyageurs à Maisons-Alfort ?",
+   "a": "Elle réunit 850 étudiants en six promotions, désormais de 180 par année, et son concours a attiré 4 285 candidats pour 70 places en 2024 (EnvA). Ces chiffres produisent des dates, pas un flux continu : rentrées, concours, jurys, remises de diplômes. Un calendrier ouvert plusieurs mois à l'avance capte ces réservations, un calendrier ouvert au dernier moment les rate."
+  },
+  {
+   "q": "Faut-il viser les séjours de plusieurs semaines à Maisons-Alfort ?",
+   "a": "Souvent oui. Les missions liées à l'Anses, les stages et les séjours médicaux vers Créteil se comptent en semaines, réduisent le nombre de rotations et sécurisent le calendrier hors périodes de concours. Cela suppose un bien équipé pour vivre et non pour dormir : rangement, cuisine utilisable, machine à laver. Nous tranchons ce choix pendant l'audit."
+  },
+  {
+   "q": "Quelle taxe de séjour est due à Maisons-Alfort ?",
+   "a": "Elle est perçue par l'établissement public territorial Paris Est Marne et Bois au titre de sa délibération du 7 février 2023 : pour un meublé non classé, 5 % du prix hors taxes par personne et par nuit, soit 16,25 % avec les taxes additionnelles, plafonnés à 4 euros hors additionnelles et 13 euros toutes taxes (DGFiP, page communale lue le 3 septembre 2026)."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb maisons-alfort",
+  "conciergerie maisons-alfort",
+  "location courte duree maisons-alfort"
+ ]
+}

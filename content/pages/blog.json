@@ -1,0 +1,40 @@
+{
+ "url": "/blog",
+ "type": "blog-index",
+ "title": "Guides de la location courte durée en Île-de-France | Coolok",
+ "description": "Tarifs de conciergerie, loi Le Meur, DPE, rentabilité, simulateur : les guides Coolok pour louer en courte durée en Île-de-France, sources à l'appui.",
+ "h1": "Les guides de la location courte durée",
+ "image": "/assets/img/heros/blog.webp",
+ "imageAlt": "Carnet ouvert et clés sur une table en bois, lumière de fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Guides",
+  "lead": "Ce que nous écrivons ici, nous le vérifions sur les textes de loi et sur les chiffres du marché, et nous datons chaque source. Quatre familles de questions reviennent chez tous les propriétaires que nous rencontrons."
+ },
+ "sections": [
+  {
+   "type": "links",
+   "bg": "cream",
+   "h2": "Par où commencer",
+   "intro": "Selon la question qui vous occupe en ce moment.",
+   "cols": 2,
+   "items": [
+    { "title": "Combien ça coûte de déléguer", "href": "/blog/tarif-conciergerie-airbnb", "text": "Commission, ménage, piège du HT et du TTC, méthode du taux tout compris" },
+    { "title": "Ce que la loi autorise chez moi", "href": "/blog/loi-le-meur", "text": "Enregistrement, plafond de nuits, changement d'usage, commune par commune" },
+    { "title": "Ce que mon bien peut rapporter", "href": "/blog/rentabilite-airbnb-ile-de-france-methode", "text": "Méthode de calcul, brut, net, cashflow, et les pièges classiques" },
+    { "title": "Comment choisir une conciergerie", "href": "/blog/meilleure-conciergerie-airbnb", "text": "Douze questions à poser avant de signer, et les signaux d'alerte" }
+   ]
+  }
+ ],
+ "faq": [],
+ "keywords": ["blog conciergerie airbnb", "guide location courte durée"],
+ "ctaBand": {
+  "h2": "Une question qui n'est pas traitée ici ?",
+  "text": "Posez-la directement au fondateur : réponse sous 48 h ouvrées, chiffres à l'appui.",
+  "ctas": [
+   { "label": "Nous contacter", "href": "/contact", "style": "primary" },
+   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "ghost-light", "icon": "calc" }
+  ]
+ }
+}

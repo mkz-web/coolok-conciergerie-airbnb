@@ -1,0 +1,206 @@
+{
+ "url": "/conciergerie-airbnb-vincennes",
+ "type": "commune",
+ "name": "Vincennes",
+ "slug": "vincennes",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Vincennes 94 : règles et revenus | Coolok",
+ "description": "Vincennes limite la résidence principale à 90 jours et plafonne les meublés à 30 % par immeuble. Coolok exploite votre bien, 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Vincennes : le règlement d'abord, le rendement ensuite",
+ "image": "/assets/img/heros/vincennes.webp",
+ "imageAlt": "Façade d'immeuble ancien près du donjon du château de Vincennes en fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, ligne 1 et bois de Vincennes",
+  "lead": "À Vincennes, la question n'est pas de savoir si votre appartement se louera : il se louera. La vraie question est de savoir ce que votre immeuble et le règlement territorial vous autorisent à faire, parce que la commune est la plus encadrée de l'est parisien."
+ },
+ "data": {
+  "prix_nuitee": "100 à 200 €",
+  "revenu_mensuel": "2 200 à 5 100 €",
+  "taux_occupation": "75 à 85 %",
+  "prix_m2": "8 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Vincennes (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 100 à 200 € la nuit, avec un taux d'occupation observé de 75 à 85 %, soit 2 200 à 5 100 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Marché le plus cher, règlement le plus strict",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui remplit un logement à Vincennes",
+   "md": "La commune concentre des flux qu'aucune autre du secteur ne réunit. Le château de Vincennes a reçu 164 004 visiteurs en 2025 (Centre des monuments nationaux, janvier 2026), le bois qui la borde en accueille environ 11 millions par an (Ville de Paris, novembre 2025), l'hippodrome Paris-Vincennes a totalisé 225 000 spectateurs sur son meeting d'hiver 2025-2026 (Paris-Turf, février 2026) et l'INSEP héberge 803 sportifs de haut niveau et leurs encadrants (INSEP, 2025). Ajoutez trois stations de la ligne 1 et une gare du RER A.\n\nPour vous, cela se traduit d'abord par un prix. Sur les quinze annonces de logements entiers situées dans la commune que nous avons relevées le 3 septembre 2026 sur Airbnb, le prix de liste médian pour un séjour de sept nuits en octobre ressortait à 112 EUR par nuit, frais inclus, avec un écart allant de 56 à 187 EUR. Plus du simple au triple sur des biens souvent comparables : cela se joue sur la qualité de l'annonce et sur la note, pas sur l'adresse. En face, l'offre hôtelière reste étroite, 7 établissements et 150 chambres au 1er janvier 2026 (INSEE).\n\nL'exploitation, elle, se décide en amont. Vincennes est la commune de notre secteur où la part de résidences secondaires et de logements occasionnels est la plus haute, 5,4 % des 28 115 logements en 2023 (INSEE, recensement 2023). Les copropriétés le savent, et le règlement territorial en a tiré les conséquences : un immeuble ne peut pas dépasser 30 % de meublés de tourisme. Avant de parler de rendement, nous regardons donc votre immeuble."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Vincennes",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Fréquentation du château de Vincennes en 2025, 12e monument du réseau du Centre des monuments nationaux (record réseau 12 millions)",
+     "164 004 visiteurs",
+     "Centre des monuments nationaux, communiqué de presse fréquentation 2025 (relaye par Le Figaro le 11/01/2026) (2026-01)"
+    ],
+    [
+     "Château de Vincennes, monument le plus visite du Val-de-Marne ; travaux des abords, entrée par la Tour des Salves depuis l'automne 2025",
+     "145 000 visiteurs (année 2024)",
+     "Château de Vincennes (CMN) (2025-03-05)"
+    ],
+    [
+     "Bois de Vincennes : 543 ha de massifs forestiers, 80 ha jardines, 20 ha de plans d'eau",
+     "11 millions de visiteurs par an",
+     "Ville de Paris (2025-11-19)"
+    ],
+    [
+     "Parc floral de Paris (Bois de Vincennes) : fréquentation des activités de la delegation de service public en 2024, en hausse de 14,2 % sur 2023",
+     "environ 436 000 visiteurs",
+     "Ville de Paris, rapport d'activité des delegataires exercice 2024 (2026-02-13)"
+    ],
+    [
+     "Hippodrome Paris-Vincennes : meeting d'hiver 2025-2026 (+3 % sur 2024-2025, +28 % sur 2023-2024), dont 55 000 personnes sur les 3 jours du Prix d'Amerique Festival (23 au 25 janvier 2026) ; prochaine édition du 29 au 31 janvier 2027",
+     "225 000 spectateurs sur le meeting, environ 10 500 par dimanche",
+     "Paris-Turf citant la directrice marketing de la SETF (LeTrot); dates 2027 : jds.fr (2026-02-28)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "euro",
+   "title": "Les prix affichés à Vincennes aujourd'hui",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Vincennes pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 112 EUR par nuit, frais inclus (moyenne 119 EUR, fourchette 56 à 187 EUR), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "law",
+   "title": "Ce que dit la loi à Vincennes",
+   "md": "- **Changement d'usage** : oui, pour tout logement qui n'est pas la résidence principale du loueur, des le premier jour de location **Compensation** : Personne physique : sans compensation pour les deux premiers biens, compensation exigée à partir du 3e bien meublé mis en location (local a autre usage transformé en logement, même surface et qualité, situé.\n- **Si vous louez votre résidence principale** : 90 jours par an à compter du 01/11/2025 (fiche copro « location saisonniere » de novembre 2025 et page vincennes.fr lue le 03/09/2026); au-delà, demande de changement d'usage\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location (résidence principale comprise), délivré par la Direction Tourisme de l'EPT Paris Est Marne & Bois via le téléservice territorial (pemb.taxesejour.fr / DeclaLoc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,40 EUR, soit 14,30 EUR toutes taxes\n- **À prévoir dans votre dossier** : accord formel du syndic; l'immeuble ne doit pas depasser 30 % de locations de courte durée; résidences étudiantes et résidences pour personnes agées exclues; DPE; extrait du règlement de copropriété autorisant l'activité.\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://vincennes.taxesejour.fr) et [document de référence](https://www.vincennes.fr/demarches/locations-saisonnieres)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Où se situe votre bien dans Vincennes",
+   "intro": "Trois secteurs, trois façons de se vendre, à quelques centaines de mètres d'écart.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Le terminus Château de Vincennes",
+     "text": "Le bout de la ligne 1 : Paris en dix minutes sans changement, et l'esplanade du château sous les fenêtres. Les studios y partent en premier, y compris hors vacances scolaires."
+    },
+    {
+     "icon": "map",
+     "title": "Autour de la gare du RER A",
+     "text": "L'adresse qui parle aux voyageurs allant vers La Défense ou vers l'est francilien. Un argument à écrire noir sur blanc dans l'annonce, avec le temps de trajet réel."
+    },
+    {
+     "icon": "home",
+     "title": "Les rues côté bois",
+     "text": "Bâti bourgeois, cages d'escalier soignées, et des copropriétés souvent très attentives à ce qui se passe chez le voisin. C'est là que l'accord du syndic se prépare le plus tôt."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui réserve à Vincennes",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles venues pour le château et le bois",
+     "text": "Deux à trois nuits, souvent le week-end, avec un programme qui mélange donjon, lac des Minimes et Parc floral. Elles cherchent un appartement, pas une chambre."
+    },
+    {
+     "icon": "star",
+     "title": "Spectateurs de l'hippodrome",
+     "text": "Les dimanches d'hiver et les trois jours du Prix d'Amérique Festival, qui a rassemblé 55 000 personnes en janvier 2026 (Paris-Turf, février 2026), remplissent des dates que peu de propriétaires pensent à ouvrir."
+    },
+    {
+     "icon": "target",
+     "title": "Missions et stages sportifs",
+     "text": "Encadrants, kinésithérapeutes, proches de pensionnaires de l'INSEP : des séjours de semaine, réservés tard, peu exigeants sur la décoration et très exigeants sur le calme."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "Le calendrier vincennois",
+   "md": "Ici, l'année ne se lit pas en haute et basse saison mais en dates. Le meeting d'hiver de l'hippodrome occupe janvier et février, le Festival America revient au Parc floral du 24 au 27 septembre 2026 avec 40 000 festivaliers attendus (Livres Hebdo, juin 2026), et les week-ends de printemps se remplissent grâce au bois. Entre ces pics, ce sont les nuits de semaine qu'il faut aller chercher, en ouvrant les séjours d'une ou deux nuits et en revoyant le prix chaque semaine.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Vincennes",
+   "intro": "Ce que nous faisons concrètement pour un logement vincennois.",
+   "items": [
+    "Lecture du règlement de copropriété et du taux de meublés déjà déclarés dans votre immeuble, avant toute promesse de revenu",
+    "Préparation du dossier de changement d'usage avec vous : accord du syndic, diagnostic de performance énergétique, pièces attendues par le service urbanisme",
+    "Annonce construite sur les trois flux de la commune (château, bois, hippodrome) plutôt que sur la seule proximité de Paris",
+    "Dates d'événements ouvertes en priorité, en particulier les dimanches de courses et la semaine du Festival America",
+    "Accès autonome par serrure connectée et ménage entre chaque séjour, y compris pour une nuit isolée en semaine"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Vincennes, c'est le marché où je vois le plus de propriétaires se lancer sans avoir lu leur règlement de copropriété. Le prix à la nuit est bon, la demande tient toute l'année, ça donne envie d'aller vite. Sauf que la commune plafonne le nombre de meublés par immeuble et demande l'accord du syndic : si vous sautez cette étape, vous montez une exploitation sur du sable. Je préfère vous dire non en quinze jours que vous voir tout démonter au bout d'un an.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un appartement en location courte durée à Vincennes ?",
+   "a": "Le prix de liste médian d'un logement entier à Vincennes ressortait à 112 EUR par nuit pour un séjour de sept nuits en octobre 2026, frais inclus, sur quinze annonces situées dans la commune et relevées le 3 septembre 2026 (moyenne 119 EUR, de 56 à 187 EUR). Le revenu annuel dépend ensuite du remplissage et de la typologie : nous vous remettons une fourchette argumentée sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Vincennes ?",
+   "a": "Oui dès que le logement n'est pas votre résidence principale. Le règlement de changement d'usage du territoire Paris Est Marne et Bois s'applique à Vincennes depuis le 1er janvier 2022, dans sa version modifiée le 14 octobre 2025. L'autorisation vaut deux ans renouvelables et reste sans compensation pour les deux premiers biens d'un particulier. Le numéro d'enregistrement est en place depuis 2019."
+  },
+  {
+   "q": "Puis-je louer ma résidence principale à Vincennes pendant les vacances ?",
+   "a": "Oui, dans la limite de 90 jours par an depuis le 1er novembre 2025, contre 120 ailleurs dans le département (Ville de Vincennes, fiche copropriété de novembre 2025). Au-delà, vous basculez dans la procédure de changement d'usage. Nous calibrons votre calendrier sur ce plafond et sur les dates qui paient le mieux."
+  },
+  {
+   "q": "Ma copropriété peut-elle m'empêcher de louer à Vincennes ?",
+   "a": "Le règlement territorial exige l'accord formel du syndic et interdit qu'un immeuble dépasse 30 % de locations de courte durée. Une clause d'habitation bourgeoise stricte bloque aussi le projet. C'est le premier point que nous instruisons, avant même de parler de photos et de tarification."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Vincennes ?",
+   "a": "Pour un meublé non classé, le taux est de 5 % du prix hors taxes par personne et par nuitée, porté à 16,25 % avec les taxes additionnelles départementale et régionales, dans la limite de 14,30 EUR par personne et par nuit (délibération à effet 2026, fichier DELTA de la DGFiP, export du 29 juin 2026). Un classement trois étoiles ramène la part communale à 1 EUR."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb vincennes",
+  "conciergerie vincennes",
+  "changement d'usage vincennes"
+ ]
+}

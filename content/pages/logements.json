@@ -1,0 +1,69 @@
+{
+ "url": "/logements",
+ "type": "logements",
+ "title": "Les logements que Coolok exploite pour leurs propriétaires",
+ "description": "Studios en bord de Marne, maisons familiales, appartements d'architecte : huit logements exploités par Coolok en location courte durée, et leur clientèle.",
+ "h1": "Les logements que nous exploitons pour leurs propriétaires",
+ "image": "/assets/img/logements/versailles.webp",
+ "imageAlt": "Appartement rénové par des architectes à Versailles, exploité par Coolok",
+ "imageWidth": 800,
+ "imageHeight": 501,
+ "hero": {
+  "eyebrow": "Nos références",
+  "lead": "Ces logements appartiennent à des propriétaires qui nous ont confié leur exploitation. Chacun a une clientèle différente : familles en séjour aux parcs, cadres en mission, visiteurs du château, voyageurs d'affaires aux portes de Paris."
+ },
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce que ces logements ont en commun",
+   "narrow": true,
+   "md": "Aucun n'est un logement d'exception. Ce sont des studios, des T2, des T3 et deux maisons, dans des communes où la demande existe toute l'année. Ce qui les fait fonctionner tient en trois points : une annonce qui parle à la clientèle réelle du quartier, un prix ajusté chaque semaine, un accueil qui ne dépend pas de la disponibilité du propriétaire.\n\nDeux d'entre eux ne sont pas en Île-de-France : Reims, où nous faisons vivre un appartement au pied de la cathédrale, et Asnelles en Normandie, une maison familiale près des plages du Débarquement. Nous les affichons parce qu'ils existent, pas pour élargir artificiellement notre zone."
+  },
+  {
+   "type": "callout",
+   "bg": "cream",
+   "variant": "info",
+   "icon": "info",
+   "title": "Ce que nous ne sommes pas",
+   "md": "Coolok Services accompagne les propriétaires dans l'exploitation de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires. Ces logements ne sont donc pas réservables auprès de nous."
+  }
+ ],
+ "galleryTitle": "Huit logements, huit clientèles",
+ "galleryIntro": "Cliquez sur une commune pour voir son marché : prix par nuit observés, taux d'occupation et réglementation locale.",
+ "faq": [
+  {
+   "q": "Puis-je réserver un de ces logements ?",
+   "a": "Non, pas auprès de nous. Coolok est une société de services aux propriétaires, pas une agence de location : les réservations se font exclusivement sur Airbnb et Booking.com, où les annonces sont publiées par leurs propriétaires."
+  },
+  {
+   "q": "Mon logement doit-il ressembler à ceux-là pour vous intéresser ?",
+   "a": "Non. Un studio simple mais bien situé et bien équipé fonctionne souvent mieux qu'un grand appartement mal agencé. Ce qui compte, c'est la demande dans votre commune, la capacité d'accueil et l'état du logement. L'audit chiffré vous le dit en 48 h."
+  },
+  {
+   "q": "Puis-je parler à un propriétaire que vous accompagnez ?",
+   "a": "Demandez-le lors de l'appel avec Thierry. Plusieurs propriétaires acceptent d'échanger avec un futur client, et six d'entre eux ont laissé un avis public sur notre fiche Google, que vous pouvez lire dès maintenant."
+  }
+ ],
+ "keywords": [
+  "logements en conciergerie airbnb",
+  "conciergerie airbnb île-de-france"
+ ],
+ "ctaBand": {
+  "h2": "Votre logement peut rejoindre cette liste",
+  "text": "Estimation en deux minutes, audit chiffré du fondateur sous 48 h, sans engagement.",
+  "ctas": [
+   {
+    "label": "Estimer mes revenus",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   },
+   {
+    "label": "Nous contacter",
+    "href": "/contact",
+    "style": "ghost-light"
+   }
+  ]
+ }
+}

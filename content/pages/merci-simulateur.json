@@ -1,0 +1,24 @@
+{
+ "url": "/merci-simulateur",
+ "type": "merci",
+ "noindex": true,
+ "title": "Merci, votre audit chiffré arrive sous 48 h | Coolok",
+ "description": "Votre demande d'audit chiffré est bien enregistrée. Thierry Moraldo vous recontacte sous 48 h ouvrées.",
+ "h1": "Merci, votre audit chiffré est en préparation",
+ "text": "Thierry Moraldo étudie votre bien et vous recontacte sous 48 h ouvrées avec des chiffres, pas des promesses.",
+ "next": [
+  "Vous recevrez une fourchette de revenus argumentée, la réglementation applicable à votre commune et nos recommandations.",
+  "Aucun engagement, aucun démarchage."
+ ],
+ "ctas": [
+  {
+   "label": "Lire nos guides en attendant",
+   "href": "/blog"
+  },
+  {
+   "label": "Retour à l'accueil",
+   "href": "/",
+   "style": "secondary"
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "url": "/conciergerie-airbnb-val-d-oise",
+ "type": "departement",
+ "name": "Val-d'Oise",
+ "code": "95",
+ "slug": "conciergerie-airbnb-val-d-oise",
+ "title": "Conciergerie Airbnb Val-d'Oise : Enghien, Roissy | Coolok",
+ "description": "Quatre communes du 95 ont déjà encadré le meublé de tourisme. Le cadre vérifié à la source, ce que Coolok peut faire sur devis, et nos secteurs réels.",
+ "h1": "Conciergerie Airbnb dans le Val-d'Oise : quatre communes ont déjà légiféré",
+ "image": "/assets/img/heros/dept-val-d-oise.webp",
+ "imageAlt": "Rive de lac valdoisienne bordée de villas, en début de soirée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Val-d'Oise",
+  "lead": "Nous n'exploitons aucune commune du Val-d'Oise aujourd'hui, et nous préférons l'écrire noir sur blanc. Cela ne nous a pas empêchés de vérifier le cadre valdoisien à la source, commune par commune. Ce que nous y avons trouvé mérite d'être connu avant tout achat : quatre villes ont déjà encadré, et deux d'entre elles limitent chaque propriétaire à un seul logement."
+ },
+ "linkText": "Quatre régimes vérifiés, aucune promesse de couverture",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui structure le marché valdoisien",
+   "md": "Le Val-d'Oise cumule des sources de demande que peu de départements franciliens réunissent : une plateforme aéroportuaire de dimension internationale au nord-est, une ville d'eau au bord d'un lac au sud, une agglomération universitaire et administrative à l'ouest. Chacune produit une clientèle différente, et ces publics ne se remplacent pas : un logement pensé pour l'escale d'une nuit avant un vol n'a presque rien à voir avec un logement de séjour au bord de l'eau.\n\nPour un propriétaire, la donnée la plus discriminante n'est pas le prix d'achat : c'est le règlement de la commune. Quatre villes ont déjà instauré une autorisation de changement d'usage, toujours sous forme temporaire et toujours sans compensation : Roissy-en-France depuis le 1er janvier 2022, Enghien-les-Bains depuis le 1er mai 2025, Cergy depuis le 1er juin 2025, et Pontoise selon une annexe de son plan local d'urbanisme datée de janvier 2025. Deux d'entre elles vont plus loin que le simple encadrement : Roissy-en-France limite chaque personne, physique ou morale, à une seule autorisation, et a ramené la location de la résidence principale à 90 jours par an au 1er janvier 2026.\n\nDans l'exploitation, le second écart est fiscal, et il est considérable. Un meublé non classé supporte 16,25 % du coût hors taxes de la nuitée à Enghien-les-Bains comme à Roissy-en-France, avec un plafond de 14,95 EUR par personne et par nuit, quand la part votée par l'agglomération de Cergy-Pontoise est plafonnée à 1,90 EUR avant taxes additionnelles."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Val-d'Oise",
+   "md": "Dans le Val-d'Oise, aucune règle départementale n'existe et chaque commune décide seule : Enghien-les-Bains, Roissy-en-France, Cergy et Pontoise ont instauré une autorisation temporaire de changement d'usage, sans compensation, tandis que Roissy-en-France est la seule à avoir abaissé à 90 jours le plafond de la résidence principale, au 1er janvier 2026. Aucune liste officielle des communes ayant délibéré n'étant publiée, nous adressons une demande écrite au service urbanisme concerné avant toute publication d'annonce.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue dans le Val-d'Oise",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Escales aériennes d'une nuit",
+     "text": "Vol tôt le matin, correspondance longue, équipage en repos : cette demande se réserve la veille, tolère mal l'imprécision et récompense un accès autonome irréprochable."
+    },
+    {
+     "icon": "bed",
+     "title": "Séjours de bien-être au bord de l'eau",
+     "text": "Deux à trois nuits, souvent en couple, hors vacances scolaires. Ces voyageurs comparent le confort de la literie et la qualité de la salle de bain avant le prix."
+    },
+    {
+     "icon": "users",
+     "title": "Étudiants, familles et missions administratives",
+     "text": "L'ouest du département vit d'un pôle universitaire et de services publics : rentrées, concours et missions génèrent des séjours de plusieurs semaines toute l'année."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Les quatre communes valdoisiennes qui ont déjà encadré",
+   "intro": "Toutes ont choisi l'autorisation temporaire, aucune n'exige de compensation. Les différences portent sur la durée, le nombre de logements et le plafond de la résidence principale.",
+   "head": [
+    "Commune",
+    "En vigueur depuis",
+    "Autorisation",
+    "Plafond par propriétaire",
+    "Résidence principale"
+   ],
+   "rows": [
+    [
+     "Enghien-les-Bains",
+     "1er mai 2025",
+     "Temporaire, 3 ans, renouvelable, nominative et incessible, ouverte aux sociétés",
+     "Aucun quota, la commune le confirme dans sa foire aux questions",
+     "120 jours par année civile"
+    ],
+    [
+     "Roissy-en-France",
+     "1er janvier 2022",
+     "Temporaire, 2 ans, à renouveler, délivrée par le maire",
+     "Une seule autorisation par personne physique ou morale",
+     "90 jours depuis le 1er janvier 2026"
+    ],
+    [
+     "Cergy",
+     "1er juin 2025",
+     "Temporaire, 3 ans, incessible, sans compensation",
+     "Aucun quota publié",
+     "120 jours par année civile"
+    ],
+    [
+     "Pontoise",
+     "Janvier 2025",
+     "Temporaire, 3 ans, dès la première nuitée pour une résidence secondaire",
+     "Aucun quota publié",
+     "Autorisation exigée à partir du 121e jour"
+    ]
+   ],
+   "source": "Délibérations n° 2025-40-03 et 2025-40-04 d'Enghien-les-Bains du 20 mars 2025, page officielle de Roissy-en-France et délibérations n° 2023/319, 2023/320 et DEL_2025_275, délibération n° 30 de Cergy du 13 février 2025, annexe 6.22 du plan local d'urbanisme de Pontoise. Sources lues le 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "map",
+   "title": "Ce que Coolok peut faire dans le Val-d'Oise aujourd'hui",
+   "md": "Nos équipes de ménage, de linge et de maintenance opèrent depuis Joinville-le-Pont et depuis la couronne des parcs, à l'est de l'Île-de-France. Le Val-d'Oise est à l'opposé de ces deux bases, et une conciergerie qui ne peut pas être sur place dans l'heure ne rend pas le service qu'elle facture.\n\nCe que nous proposons malgré tout :\n\n- **Un audit chiffré sous 48 heures**, gratuit et sans engagement, avec la règle exacte de votre commune vérifiée à la source.\n- **Une étude sur devis** si le projet justifie de constituer une équipe locale, ou si votre bien est proche d'un de nos secteurs.\n- **Une orientation honnête** vers nos zones réellement couvertes : le [Val-de-Marne](/conciergerie-airbnb-val-de-marne), la [Seine-et-Marne](/conciergerie-airbnb-seine-et-marne), la [Seine-Saint-Denis](/conciergerie-airbnb-seine-saint-denis), les [Hauts-de-Seine](/conciergerie-airbnb-hauts-de-seine) et les [Yvelines](/conciergerie-airbnb-yvelines).\n\nNotre commission est de 20 % HT tout compris et elle se prélève sur les revenus encaissés : nous n'avons aucun intérêt à signer un mandat que nous ne saurions pas tenir.",
+   "cta": {
+    "label": "Parler de mon projet",
+    "href": "/contact",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "narrow": true,
+   "h2": "L'absence de règle publiée n'est pas une autorisation",
+   "md": "Il n'existe aucune liste officielle des communes françaises ayant instauré le changement d'usage ou l'enregistrement. Nous l'avons vérifié le 3 septembre 2026 : la page de l'interface publique de l'administration qui recense les communes existe, mais son service de données répond par un refus d'accès sans compte de collectivité.\n\nConséquence directe pour vous : quand une source affirme qu'une commune « n'impose rien », elle constate une absence de trace, jamais l'absence d'une règle. Nous formulons donc systématiquement nos conclusions avec leur date, et nous invitons à écrire à la mairie.\n\nDeuxième point de vigilance : plus de vingt communes valdoisiennes figurent dans la liste des zones tendues du décret du 22 décembre 2025, d'Argenteuil à Sannois en passant par Ermont, Franconville, Gonesse et Saint-Ouen-l'Aumône. Chacune peut instaurer une autorisation de changement d'usage par simple délibération, sans avoir à justifier d'un déséquilibre du marché du logement. Un cadre favorable aujourd'hui peut se refermer en un conseil municipal."
+  }
+ ],
+ "quote": {
+  "text": "Le Val-d'Oise, je le regarde de près, mais je n'y suis pas installé et je ne vais pas prétendre le contraire. Ce que j'y observe est intéressant : quatre communes ont encadré sans jamais demander de compensation, ce qui est plutôt une bonne nouvelle pour un propriétaire. La mauvaise, c'est Roissy, une seule autorisation par personne et 90 jours depuis janvier 2026. Avant d'acheter là-bas, lisez le règlement de la commune, pas les promesses d'un vendeur.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien peut rapporter une location courte durée dans le Val-d'Oise ?",
+   "a": "Nous n'avons pas relevé ce marché commune par commune et nous ne publierons pas de fourchette que nous n'avons pas mesurée. Le revenu dépend de la capacité du logement, de sa distance à la plateforme aéroportuaire ou au lac, et du taux d'occupation réel. Décrivez-nous votre bien : l'estimation argumentée vous parvient sous 48 heures, sans engagement."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme dans le Val-d'Oise ?",
+   "a": "Dans quatre communes vérifiées, oui : Enghien-les-Bains, Roissy-en-France, Cergy et Pontoise imposent une autorisation temporaire de changement d'usage, sans compensation, pour un logement autre que votre résidence principale. Ailleurs, aucun régime n'a été identifié au 3 septembre 2026, mais l'absence de trace ne vaut pas autorisation : la mairie doit être interrogée."
+  },
+  {
+   "q": "Quelle commune du Val-d'Oise est la plus contraignante ?",
+   "a": "Roissy-en-France. Elle limite chaque personne physique ou morale à une seule autorisation, impose un numéro d'enregistrement depuis le 1er décembre 2023 et a ramené la location de la résidence principale à 90 jours par an au 1er janvier 2026. La commune rappelle aussi qu'une clause d'habitation bourgeoise en copropriété interdit purement et simplement le meublé de tourisme."
+  },
+  {
+   "q": "Coolok exploite-t-il des logements dans le Val-d'Oise ?",
+   "a": "Non, aucun à ce jour. Nos bases opérationnelles sont Joinville-le-Pont et la couronne des parcs, à l'est de la région. Nous étudions les dossiers valdoisiens sur devis et nous répondons franchement quand la distance rend le service impossible à tenir. Une conciergerie qui accepte tout finit par mal servir tout le monde."
+  },
+  {
+   "q": "Quelle taxe de séjour paie-t-on dans le Val-d'Oise ?",
+   "a": "Elle est votée commune par commune ou par agglomération. Enghien-les-Bains et Roissy-en-France appliquent 5 % du coût hors taxes de la nuitée par personne, soit 16,25 % avec les taxes additionnelles, plafonné à 14,95 EUR. Un meublé classé trois étoiles y est taxé 5,20 EUR par personne et par nuit (relevé du 3 septembre 2026)."
+  }
+ ],
+ "keywords": [
+  "conciergerie val d'oise",
+  "conciergerie airbnb val d'oise",
+  "meublé de tourisme val d'oise"
+ ]
+}

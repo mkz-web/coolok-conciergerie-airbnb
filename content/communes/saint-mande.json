@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-saint-mande",
+ "type": "commune",
+ "name": "Saint-Mandé",
+ "slug": "saint-mande",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Saint-Mandé : missions et ligne 1 | Coolok",
+ "description": "Un seul hôtel pour 21 000 habitants et trois sièges nationaux à Saint-Mandé : Coolok exploite votre appartement sur les séjours de semaine. 20 % HT.",
+ "h1": "Conciergerie Airbnb à Saint-Mandé, la commune qui manque de lits",
+ "image": "/assets/img/heros/saint-mande.webp",
+ "imageAlt": "Immeuble d'angle de l'avenue de Paris à Saint-Mandé dans la lumière du matin",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, ligne 1, porte du 12e arrondissement",
+  "lead": "Saint-Mandé compte 21 071 habitants et un seul hôtel de 35 chambres (INSEE, 1er janvier 2026). En face, l'IGN, Météo-France et Ubisoft y font venir des intervenants toute l'année. C'est ce déséquilibre qui fait vivre un meublé ici."
+ },
+ "data": {
+  "prix_nuitee": "95 à 190 €",
+  "revenu_mensuel": "2 000 à 4 700 €",
+  "taux_occupation": "72 à 82 %",
+  "prix_m2": "9 200 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Mandé (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 95 à 190 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 2 000 à 4 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Sièges nationaux, un seul hôtel, ligne 1",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché de semaine avant d'être un marché de week-end",
+   "md": "L'avenue de Paris aligne, sur quelques centaines de mètres, le siège de l'IGN et son école de géomatique (environ 1 500 agents, Journal officiel, février 2024), le siège de Météo-France et l'hôpital d'instruction des armées Bégin, ouvert aux assurés civils, qui affiche 320 lits et 217 places (GIRCI Île-de-France, août 2024). À deux pas, le Floresco abrite le siège opérationnel d'Ubisoft, annoncé à 1 700 collaborateurs. Pour un territoire d'à peine un kilomètre carré, c'est une densité d'employeurs nationaux inhabituelle.\n\nCe que cela change pour vous tient dans un chiffre : un hôtel, 35 chambres, soit 1,7 chambre pour 1 000 habitants au 1er janvier 2026 (INSEE), l'un des parcs les plus étroits des communes que nous couvrons dans le Val-de-Marne. Les intervenants en mission, les jurys, les prestataires et les proches de patients se logent donc chez l'habitant ou dans le 12e arrondissement. Un appartement bien tenu à trois stations de Nation capte cette demande sans jamais dépendre du tourisme de masse.\n\nL'exploitation suit cette clientèle. Les réservations tombent en semaine, souvent à quelques jours, pour des séjours de deux à cinq nuits. Le voyageur veut un vrai bureau, une connexion qui tient une visioconférence, du silence et une arrivée possible après 21 heures. La contrepartie, c'est un mètre carré cher : 9 178 EUR au 1er juillet 2026 selon les estimations du Figaro Immobilier, le niveau le plus élevé des douze communes du Val-de-Marne que nous suivons. Le rendement se construit donc sur la régularité, pas sur des pointes de prix."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Saint-Mandé",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Hôpital national d'instruction des armées Begin (69 avenue de Paris) : hôpital de secteur 1 ouvert à tous les assurés sociaux civils et militaires adultes, urgences 24h/24",
+     "320 lits et 217 places (GIRCI 2024); 245 lits MCO et psychiatrie selon la FHF",
+     "GIRCI Île-de-France (statut : hiabegin.sante.defense.gouv.fr; capacité FHF : etablissements.fhf.fr) (2024-08-06)"
+    ],
+    [
+     "Siège de l'IGN (Institut national de l'information géographique et forestière), 73 avenue de Paris, avec l'ENSG",
+     "1 500 agents (avis JORF); 1 564 selon EuroGeographics 2026",
+     "Journal officiel, avis de vacance DRH IGN (2024-02-07)"
+    ],
+    [
+     "Siège social de Météo-France, 73 avenue de Paris (le bilan climatique de l'été 2026 y est présenté le 03/09/2026 avec la ministre)",
+     "2 721 agents au 31/12/2025 sur l'ensemble de l'établissement, dont environ 1 000 à Toulouse",
+     "Météo-France, mentions légales (effectif : Wikipedia citant le bilan social; événement : ecologie.gouv.fr 02/09/2026) (2026-09-01)"
+    ],
+    [
+     "Ubisoft : siège opérationnel au Floresco, 2 avenue Pasteur (transfert de Montreuil effectif au 01/01/2021 pour Ubisoft EMEA, 01/11/2020 pour Ubisoft International)",
+     "1 700 collaborateurs sur le site; 955 salariés Ubisoft International et 331 Ubisoft EMEA déclarés en 2023",
+     "Registre du commerce via Le Figaro Entreprises; 1 700 : Ubisoft (Jobteaser) (2025-10-28)"
+    ],
+    [
+     "Parc zoologique de Paris (Bois de Vincennes, porte Dorée, limitrophe) : billets vendus 2024 et fréquentation 2025 (+5,4 %)",
+     "près de 550 000 billets en 2024; 579 145 visiteurs en 2025",
+     "Muséum national d'Histoire naturelle, communiqué du 13/01/2025 (2025 : natureetzoo.fr 12/03/2026 et Le Figaro 02/05/2026) (2025-01-13)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Saint-Mandé",
+   "md": "- **Changement d'usage** : oui, résidences secondaires des le premier jour de mise en location **Compensation** : non (règlement 2019 : autorisation a titre personnel, sans compensation; APUR mars 2025 : pas de compensation dans le territoire hors Vincennes)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (portail saintmande.taxesejour.fr lu le 03/09/2026; règlement 2019); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location, résidence principale comprise, depuis 2020 (APUR; commune listée par l'office de tourisme PEMB); télédéclaration sur saintmande.taxesejour.fr (DeclaLoc)\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes\n- **À prévoir dans votre dossier** : formulaire communal + bail et autorisation du propriétaire si locataire, copie du règlement de copropriété montrant qu'aucune clause ne s'oppose, plan cadastral et plan du local avec surfaces; logement decent (R111-2).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://saintmande.taxesejour.fr/portail/homepage-declaloc) et [document de référence](https://saintmande.taxesejour.fr)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Saint-Mandé",
+   "intro": "Sur une commune de cette taille, tout se joue à trois minutes de marche près.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Autour des stations Saint-Mandé et Bérault",
+     "text": "Deux entrées de la ligne 1, Nation en trois arrêts, la gare de Lyon en une dizaine de minutes. C'est l'adresse que cherche l'intervenant qui arrive par le train."
+    },
+    {
+     "icon": "doc",
+     "title": "L'axe de l'avenue de Paris",
+     "text": "IGN, Météo-France, hôpital Bégin : pouvoir marcher jusqu'à son rendez-vous vaut plus, pour ce voyageur, qu'une chambre supplémentaire."
+    },
+    {
+     "icon": "map",
+     "title": "Le sud vers la porte Dorée",
+     "text": "Côté parc zoologique de Paris, qui a compté 579 145 visiteurs en 2025 (Muséum national d'Histoire naturelle, chiffre relayé en 2026). Une demande familiale de week-end qui complète les nuits de semaine."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui dort à Saint-Mandé",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Intervenants en mission",
+     "text": "Cartographes, ingénieurs, prestataires et formateurs venus quelques jours dans les sièges de l'avenue de Paris. Ils réservent tard, paient sur facture et reviennent."
+    },
+    {
+     "icon": "shield",
+     "title": "Proches de patients de l'hôpital Bégin",
+     "text": "Des séjours dictés par un protocole de soins, parfois prolongés au dernier moment. La souplesse sur les prolongations compte davantage que le prix affiché."
+    },
+    {
+     "icon": "users",
+     "title": "Familles en week-end au bois et au zoo",
+     "text": "Le lac de Saint-Mandé, le parc zoologique et le bois de Vincennes remplissent les samedis et dimanches, sur des séjours plus courts et un budget plus serré."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Saint-Mandé",
+   "md": "Le calendrier local ressemble davantage à celui d'un quartier d'affaires qu'à celui d'une ville touristique : creux en août et pendant les vacances scolaires, activité soutenue de septembre à juin. Trois rendez-vous municipaux animent tout de même l'année, dont le 79e salon de l'ANAF du 24 septembre au 4 octobre 2026 et Saint-Mandé fête l'été au jardin Alexandra David-Néel en juillet (Ville de Saint-Mandé, août 2026). Sur les semaines vides, nous préférons ouvrir un tarif bas que laisser le logement fermé.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Saint-Mandé",
+   "intro": "Notre organisation pour un appartement de Saint-Mandé.",
+   "items": [
+    "Annonce et photos qui montrent le poste de travail et la connexion, premier critère d'un séjour de mission",
+    "Facturation et justificatifs adaptés aux voyageurs en déplacement professionnel, y compris en cas de prolongation",
+    "Arrivées autonomes tardives par serrure connectée, sans rendez-vous à caler dans la journée du voyageur",
+    "Temps de marche réels affichés vers l'IGN, Météo-France et l'hôpital Bégin, plutôt qu'une distance à vol d'oiseau",
+    "Week-ends ouverts à la clientèle familiale du bois et du zoo, pour ne pas laisser les samedis vides"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Saint-Mandé, le voyageur ne vient pas visiter, il vient travailler. Il arrive un lundi soir, il repart le jeudi, et ce qu'il regarde, c'est le calme, la literie et la connexion. Ce marché n'a rien de glamour mais il est régulier, et il n'y a qu'un hôtel dans toute la ville. Autant dire qu'un appartement sérieux a de la place à prendre.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien peut rapporter un appartement en location courte durée à Saint-Mandé ?",
+   "a": "Nos données internes situent la nuitée entre 95 et 190 EUR selon la typologie et la saison (relevé Coolok du 9 juillet 2026, source AirDNA croisée plateformes). Le point déterminant ici n'est pas le prix de pointe mais le remplissage de semaine, porté par les sièges de l'avenue de Paris. Nous vous remettons une estimation chiffrée pour votre bien sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Saint-Mandé ?",
+   "a": "Oui pour une résidence secondaire. Le règlement communal de changement d'usage adopté le 18 décembre 2019 délivre une autorisation personnelle de trois ans, sans compensation, renouvelable sur nouvelle demande, et le silence de la mairie pendant deux mois vaut acceptation. Le numéro d'enregistrement, obligatoire pour toute location, est en place depuis 2020."
+  },
+  {
+   "q": "Puis-je louer ma résidence principale à Saint-Mandé ?",
+   "a": "Oui, dans la limite de 120 jours par année civile, plafond confirmé sur le portail de déclaration de la commune consulté le 3 septembre 2026. Aucune délibération abaissant ce seuil à 90 jours n'a été trouvée ici, contrairement à Vincennes. La déclaration se fait en ligne et conditionne la publication de l'annonce."
+  },
+  {
+   "q": "Un studio se loue-t-il bien à Saint-Mandé ?",
+   "a": "C'est même le format le mieux adapté à la demande locale : un voyageur seul en mission de trois nuits n'a pas besoin de deux chambres. Avec 3,1 % de résidences secondaires sur 11 965 logements en 2023 (INSEE, recensement 2023), l'offre disponible reste limitée. Un petit logement bien équipé se positionne sans difficulté."
+  },
+  {
+   "q": "Acceptez-vous les prolongations de dernière minute ?",
+   "a": "Oui, et c'est fréquent avec la clientèle de l'hôpital Bégin comme avec les missions professionnelles. Nous gardons de la visibilité sur le calendrier pour rendre une prolongation possible sans déplacer le voyageur, et nous prévenons franchement quand une réservation déjà posée l'interdit."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb saint-mandé",
+  "conciergerie saint-mandé",
+  "location courte durée saint-mandé"
+ ]
+}

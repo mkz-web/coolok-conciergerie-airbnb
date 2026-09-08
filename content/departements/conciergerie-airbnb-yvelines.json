@@ -1,0 +1,204 @@
+{
+ "url": "/conciergerie-airbnb-yvelines",
+ "type": "departement",
+ "name": "Yvelines",
+ "code": "78",
+ "slug": "conciergerie-airbnb-yvelines",
+ "title": "Conciergerie Airbnb Yvelines (78) : Versailles | Coolok",
+ "description": "Versailles encadre lourdement le meublé de tourisme, Saint-Germain-en-Laye n'impose rien. Les deux procédures comparées, et ce que Coolok exploite sur place.",
+ "h1": "Conciergerie Airbnb dans les Yvelines : deux villes voisines, deux régimes opposés",
+ "image": "/assets/img/heros/dept-yvelines.webp",
+ "imageAlt": "Façade classique d'un hôtel particulier yvelinois au petit matin",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Yvelines",
+  "lead": "Quinze kilomètres séparent Versailles de Saint-Germain-en-Laye, et un monde sépare leurs règles. La première impose depuis 2018 une autorisation municipale que seul le propriétaire peut déposer et dont le silence vaut refus ; la seconde n'exige ni changement d'usage ni numéro d'enregistrement. Votre rendement dépend de ce détail autant que de votre logement."
+ },
+ "linkText": "Versailles, Saint-Germain : deux procédures opposées",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui alimente la demande dans les Yvelines",
+   "md": "Versailles vit d'un flux touristique que peu de villes françaises connaissent. L'établissement public du château a recensé 8,4 millions de visites en 2025, dont 4,6 millions pour le château lui-même et 1,5 million pour le domaine de Trianon (indicateurs publiés le 18 mars 2026), avec 81 % de visiteurs étrangers annoncés le 6 janvier 2026. La ville y ajoute son propre calendrier : la 30e édition du Mois Molière a proposé près de 350 représentations dans plus de 60 lieux du 30 mai au 30 juin 2026. Saint-Germain-en-Laye joue une autre partition, plus discrète et plus durable : un lycée international à 14 sections nationales qui accueillait 1 057 lycéens à la rentrée 2024, un institut d'études politiques passé à 1 100 étudiants en 2025-2026, et une fête des Loges dont la 373e édition a duré du 26 juin au 16 août 2026.\n\nPour un propriétaire, le ticket d'entrée est élevé des deux côtés. Le niveau de vie médian atteint 38 530 EUR à Versailles et 37 970 EUR à Saint-Germain-en-Laye au recensement INSEE 2023, les deux plus hauts de notre couverture francilienne. Les prix affichés suivent : le 3 septembre 2026, le prix de liste médian d'un logement entier à Versailles pour sept nuits en octobre s'établissait à 116 EUR par nuit, frais inclus, sur 15 annonces situées dans la commune.\n\nDans l'exploitation, la différence est procédurale. À Versailles, le dossier ne peut être déposé ni par un mandataire, ni par une agence : l'article 6 du règlement municipal l'interdit expressément, et l'article 10 précise qu'une absence de réponse au bout de deux mois vaut refus. À Saint-Germain-en-Laye, une déclaration en mairie suffit pour une résidence secondaire."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos communes dans les Yvelines, marché par marché",
+   "intro": "Deux villes ouvertes ici, et deux marchés sans point commun. Les fourchettes sortent de nos observations sur les logements entiers ; la colonne Régime, du règlement municipal versaillais et de l'office de tourisme intercommunal, lus le 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Versailles](/conciergerie-airbnb-versailles)",
+     "110 à 250 €",
+     "69 à 79 %",
+     "2 300 à 6 000 €",
+     "MODERE"
+    ],
+    [
+     "[Saint-Germain-en-Laye](/conciergerie-airbnb-saint-germain-en-laye)",
+     "100 à 220 €",
+     "69 à 79 %",
+     "2 100 à 5 200 €",
+     "FAVORABLE"
+    ]
+   ],
+   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Yvelines",
+   "md": "Dans les Yvelines, aucun régime départemental n'existe : Versailles impose depuis le 30 juin 2018 une autorisation de changement d'usage et un numéro d'enregistrement, tandis que l'office de tourisme intercommunal de Saint-Germain Boucles de Seine indiquait encore le 3 septembre 2026 que ni l'un ni l'autre n'étaient exigés sur ses 19 communes. Ces deux villes figurant en zone tendue, un conseil municipal peut instaurer le régime par simple délibération, ce qui nous conduit à revérifier le cadre applicable à chaque nouveau mandat.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue dans les Yvelines",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Visiteurs internationaux du château",
+     "text": "Ils réservent tôt, restent deux à trois nuits et comparent avec l'hôtellerie. Des instructions en anglais et un accès simple depuis les trois gares font la différence sur la note."
+    },
+    {
+     "icon": "users",
+     "title": "Familles en scolarité internationale",
+     "text": "Rentrée, mutation, année d'échange : ces séjours s'étalent sur plusieurs semaines et cherchent une vraie cuisine, un bureau et une machine à laver plutôt qu'un décor."
+    },
+    {
+     "icon": "target",
+     "title": "Cadres et missions longues",
+     "text": "Administration, défense, recherche et pôles d'activité de l'ouest francilien alimentent des nuits de semaine régulières, moins sensibles à la saison touristique."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Versailles ou Saint-Germain-en-Laye : la même intention, deux parcours",
+   "intro": "Un propriétaire qui compare ces deux villes compare rarement le bon critère. Voici ce qui l'attend réellement dans chacune.",
+   "head": [
+    "Ce qui vous attend",
+    "Versailles",
+    "Saint-Germain-en-Laye"
+   ],
+   "rows": [
+    [
+     "Autorisation de changement d'usage",
+     "Obligatoire depuis le 30 juin 2018, dès la première nuitée pour une résidence secondaire",
+     "Aucune au 3 septembre 2026, selon l'office de tourisme intercommunal"
+    ],
+    [
+     "Compensation",
+     "Aucune pour le premier logement d'une personne physique, obligatoire ensuite et pour toute société",
+     "Sans objet"
+    ],
+    [
+     "Durée de l'autorisation",
+     "9 ans, personnelle, non cessible en cas de vente, sans reconduction prévue pour les logements",
+     "Sans objet"
+    ],
+    [
+     "Qui dépose la demande",
+     "Le propriétaire seul, l'article 6 excluant mandataire, locataire et agence de location",
+     "Sans objet, une déclaration en mairie suffit pour une résidence secondaire"
+    ],
+    [
+     "Silence de la mairie après deux mois",
+     "Vaut refus (article 10 du règlement municipal)",
+     "Sans objet"
+    ],
+    [
+     "Numéro d'enregistrement",
+     "Obligatoire depuis le 30 juin 2018 sur chaque annonce",
+     "Non exigé à ce jour, formulaire cerfa 14004 pour une résidence secondaire"
+    ],
+    [
+     "Taxe de séjour d'un meublé non classé",
+     "16,25 % du coût hors taxes par personne et par nuit, plafond 15,93 EUR",
+     "9,75 % du prix hors taxes par personne et par nuit, plafond 13,00 EUR"
+    ]
+   ],
+   "source": "Règlement municipal de Versailles lu intégralement le 3 septembre 2026, page « Ouvrir un meublé de tourisme » de l'office de tourisme Saint Germain Boucles de Seine du 27 août 2025, délibération D2025069 de Versailles Grand Parc du 24 juin 2025 et grille officielle de la communauté d'agglomération Saint Germain Boucles de Seine."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "doc",
+   "title": "À Versailles, personne ne peut déposer la demande à votre place",
+   "md": "L'article 6 du règlement municipal réserve le dépôt de la demande au propriétaire du local et exclut expressément le mandataire, le locataire et l'agence de location professionnelle. Autrement dit, aucune conciergerie ne peut porter le dossier pour vous, quelles que soient ses promesses.\n\nCe que nous faisons : nous réunissons les pièces, nous vérifions la classe du diagnostic de performance énergétique (A à E exigée, A à D à partir de 2034), nous contrôlons que votre règlement de copropriété ne s'y oppose pas, et nous vous remettons un dossier prêt à signer. Vous le déposez, et l'instruction court sur deux mois.\n\nDernier point à connaître : l'article 8 permet à la Ville de refuser si le nombre de locaux déjà transformés dans votre secteur lui paraît trop important. Il n'y a pas de quota chiffré publié, donc pas de garantie d'accord.",
+   "cta": {
+    "label": "Voir la page Versailles",
+    "href": "/conciergerie-airbnb-versailles",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "checklist",
+   "bg": "cream",
+   "h2": "Ce que nous vérifions avant d'accepter un mandat yvelinois",
+   "intro": "Le département mélange des marchés très chers et des procédures très inégales. Notre instruction suit toujours cet ordre.",
+   "items": [
+    "La commune et son régime, revérifié à la date du mandat plutôt que repris d'un mémo",
+    "Le nombre de logements que vous détenez déjà dans la ville, car il fait basculer Versailles dans la compensation",
+    "Votre statut de détention, une société étant soumise à compensation à Versailles dès le premier logement",
+    "La cohérence entre le prix d'achat local et le revenu réellement atteignable, sur un marché où le mètre carré est parmi les plus chers de notre couverture",
+    "La capacité du logement à accueillir des séjours de plusieurs semaines, qui sont ce qui remplit janvier et février dans ce département"
+   ],
+   "cta": {
+    "label": "Parler de mon projet",
+    "href": "/contact",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Versailles, la mairie interdit qu'un mandataire dépose le dossier à votre place : c'est écrit dans le règlement. Autant le savoir tout de suite, parce que beaucoup de propriétaires croient qu'une conciergerie fait tout, y compris les démarches. Nous préparons le dossier, nous vérifions les pièces, mais c'est vous qui signez et vous qui déposez. À quinze kilomètres de là, à Saint-Germain, il n'y a rien à déposer du tout : c'est le même département, et ce n'est pas le même métier.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée dans les Yvelines ?",
+   "a": "Nos observations placent le revenu mensuel d'un logement entier entre 2 300 et 6 000 EUR à Versailles et entre 2 100 et 5 200 EUR à Saint-Germain-en-Laye. Un relevé Airbnb du 3 septembre 2026 situait le prix de liste médian versaillais à 116 EUR par nuit pour sept nuits en octobre, frais inclus, sur 15 annonces. Votre audit chiffré part de votre bien, pas de ces moyennes."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme dans les Yvelines ?",
+   "a": "À Versailles, oui, depuis le 30 juin 2018, dès la première nuitée pour une résidence secondaire et à partir du 121e jour pour une résidence principale. À Saint-Germain-en-Laye, l'office de tourisme intercommunal indiquait le 3 septembre 2026 qu'aucune autorisation ni numéro d'enregistrement n'étaient exigés. Nous contrôlons ce point avant chaque mise en ligne."
+  },
+  {
+   "q": "Pourquoi est-il plus simple de louer à Saint-Germain-en-Laye qu'à Versailles ?",
+   "a": "Parce que Saint-Germain-en-Laye n'a pas délibéré. Versailles a adopté son propre règlement municipal, avec une autorisation de neuf ans réservée au premier logement d'une personne physique, une compensation au-delà et un dépôt réservé au propriétaire. À Saint-Germain, une déclaration en mairie suffit pour une résidence secondaire, et la résidence principale en est dispensée sous 120 jours."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique dans les Yvelines ?",
+   "a": "Elle dépend de l'agglomération. Versailles Grand Parc applique 5 % du coût hors taxes de la nuitée par personne, porté à 16,25 % avec les taxes additionnelles et plafonné à 15,93 EUR. Saint Germain Boucles de Seine applique 3 %, soit 9,75 % taxes comprises, plafonné à 13,00 EUR. La taxe additionnelle départementale de 10 % s'applique depuis le 1er janvier 2025."
+  },
+  {
+   "q": "Coolok couvre-t-il d'autres communes des Yvelines ?",
+   "a": "Nos deux pages yvelinoises correspondent aux communes où nous exploitons aujourd'hui. Pour une autre ville du département, nous étudions la demande au cas par cas, en commençant par vérifier si la commune a instauré un régime d'autorisation. Nous préférons refuser un mandat que promettre une présence terrain que nous n'aurions pas."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb yvelines",
+  "conciergerie yvelines",
+  "conciergerie versailles"
+ ]
+}

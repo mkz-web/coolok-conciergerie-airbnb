@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-charenton-le-pont",
+ "type": "commune",
+ "name": "Charenton-le-Pont",
+ "slug": "charenton-le-pont",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Charenton-le-Pont (94), Bercy | Coolok",
+ "description": "Accor Arena à une station de métro et un seul meublé autorisé par foyer fiscal : Coolok exploite votre bien à Charenton-le-Pont. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Charenton-le-Pont, à une station de l'Accor Arena",
+ "image": "/assets/img/heros/charenton-le-pont.webp",
+ "imageAlt": "Quai des Carrières à Charenton-le-Pont au bord de la Seine en fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, métro 8, porte de Bercy",
+  "lead": "Charenton vit au rythme d'une salle de 20 300 places posée de l'autre côté du périphérique. Votre calendrier de réservations y ressemble moins à une saison touristique qu'à un programme de concerts, et le règlement local n'autorise qu'un seul meublé par foyer fiscal."
+ },
+ "data": {
+  "prix_nuitee": "90 à 180 €",
+  "revenu_mensuel": "2 000 à 4 600 €",
+  "taux_occupation": "74 à 84 %",
+  "prix_m2": "7 800 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Charenton-le-Pont (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 90 à 180 € la nuit, avec un taux d'occupation observé de 74 à 84 %, soit 2 000 à 4 600 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Concerts, salons, un seul meublé autorisé",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Une demande qui se lit dans un calendrier",
+   "md": "La ligne 8 relie Liberté à Bercy en une station. De l'autre côté, l'Accor Arena affiche 20 300 places et environ 140 événements par an pour près de 1,5 million de spectateurs (Paris Entertainment Company, 2026). Un concert complet un mardi soir crée, de ce côté du périphérique, un besoin de nuitées que la saisonnalité classique ne laisse pas prévoir. Ces dates sont publiques et connues des mois à l'avance : c'est un calendrier de tarification déjà écrit.\n\nLa commune ne vit pas que du spectacle. Elle compte 14 844 emplois pour 28 830 habitants, avec un indicateur de concentration d'emploi de 102,2 (INSEE, recensement 2023), autrement dit plus d'emplois que d'actifs résidents. Le siège d'EssilorLuxottica et les sites de Natixis alimentent une clientèle de semaine. Et la zone d'aménagement Charenton-Bercy, environ 400 000 mètres carrés déclarés d'utilité publique le 25 février 2025, promet des années de chantier, donc des équipes en déplacement long.\n\nDeux réserves à poser franchement. L'hôtellerie est dense pour une ville de cette taille : 3 hôtels et 445 chambres au 1er janvier 2026, soit 15,4 chambres pour 1 000 habitants (INSEE). Il faut donc proposer autre chose qu'une chambre. Et le prix médian au mètre carré recule de 10 % sur un an, à 7 364 EUR au 1er juillet 2026 (Figaro Immobilier) : si vous achetez pour louer, l'arbitrage se calcule sur ce niveau, pas sur la tendance des cinq années passées."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Charenton-le-Pont",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Accor Arena (8 boulevard de Bercy, Paris 12e, a une station de la ligne 8 depuis Liberté) : capacité, événements et spectateurs par an",
+     "20 300 places, environ 140 événements et 1,5 million de spectateurs par an.",
+     "Paris Entertainment Company (exploitant); capacité et volume annuel : Fnac Spectacles et page LinkedIn Accor Arena (2026)"
+    ],
+    [
+     "Calendrier Accor Arena 2026-2027 utile pour la tarification : Lauryn Hill 02/09/2026, UFC Fight Night 05/09, The Neighbourhood 08/09, Katseye 09/09, Tears for Fears 11/10, Christophe Mae 19 et 20/11/2026 (complets), NBA Paris Games 14/01/2027, Gracie Abrams 08/04/2027, Jorja Smith 27/05/2027, Tame Impala 12 et 13/06/2027",
+     "10 dates annoncées",
+     "BigShow (billetterie officielle verifiée), jds.fr, lagenda-concerts.fr (2026-09-02)"
+    ],
+    [
+     "ZAC Charenton-Bercy : plus grand projet urbain prive francilien ; DUP obtenue le 25/02/2025 ; permis de construire de la première phase accorde en juin 2024 ; demolitions 2027-2028, première phase 2025-2030, phases suivantes à partir de 2030 et 2035",
+     "environ 400 000 m2 de ZAC, 241 000 m2 pour le permis de phase 1",
+     "Charenton-Bercy (Ville, Grand Paris Amenagement, Bouygues Immobilier); phasage : avis IGEDD 09/03/2023 (2026-07-03)"
+    ],
+    [
+     "Pôle d'emplois : emplois au lieu de travail 2023, établissements fin 2024, indicateur de concentration d'emploi supérieur à 100",
+     "14 844 emplois; 1 150 établissements; concentration d'emploi 102,2",
+     "INSEE, comparateur de territoires et dossier complet RP2023 (2026-07-01)"
+    ],
+    [
+     "Sièges et sites d'entreprises : siège social d'EssilorLuxottica (147 rue de Paris), plusieurs sites Natixis (2 à 12 avenue du Général de Gaulle, 5 avenue de la Liberté, Nouveau Bercy)",
+     "siège d'un groupe de 214 272 salariés dans le monde; Natixis : jusqu'à 5 000 personnes sur Charenton avant 2020 selon Wikipedia",
+     "EssilorLuxottica mentions légales; Natixis : annuaire-entreprises.data.gouv.fr; effectif Natixis à Charenton : Wikipedia (non confirme) (2026)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "law",
+   "title": "Ce que dit la loi à Charenton-le-Pont",
+   "md": "- **Changement d'usage** : oui, résidences secondaires des le premier jour de location **Compensation** : non : accordée sans compensation sur tout le territoire communal lorsque le demandeur est une personne physique; les personnes morales sont refusées\n- **Si vous louez votre résidence principale** : 120 jours par an (règlement 2024, cas n 1); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toute résidence (principale ou secondaire), par délibération n 2018-082 du 27/06/2018, via le site de la Ville / plateforme taxe de séjour (l'URL charenton.fr/urbanisme/meublés_tourisme.php citée.\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,90 EUR, soit 15,93 EUR toutes taxes\n- **À prévoir dans votre dossier** : une seule demande par personne physique (un couple en communauté ou une indivision = une seule autorisation); propriété du bien depuis au moins 2 ans; 1 logement maximum hors résidence principale par foyer fiscal.\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](http://www.charenton.fr/urbanisme/pdf/R%C3%A8glement-d%C3%A9taill%C3%A9-CHARENTON-LE-PONT.pdf) et [document de référence](https://www.parisestmarnebois.fr/sites/default/files/2024-03/DC2024-18%20-%20R%C3%A8glement%20autorisation%20changement%20usage%20Charenton.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Charenton-le-Pont",
+   "intro": "La valeur d'une adresse se mesure ici en minutes de marche jusqu'à une bouche de métro.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Le quartier Liberté",
+     "text": "La station la plus proche de Bercy : un spectateur qui sort d'un concert à 23 h 30 rentre à pied ou en un arrêt. C'est l'argument le plus vendeur de la commune."
+    },
+    {
+     "icon": "map",
+     "title": "Charenton-Écoles et le centre",
+     "text": "Commerces, marché, correspondances de bus. Les séjours de semaine y trouvent de quoi vivre sans reprendre le métro chaque soir."
+    },
+    {
+     "icon": "home",
+     "title": "Le quai des Carrières et les bords de Seine",
+     "text": "Vue sur l'eau et calme relatif, à l'écart du flux des salles. Un positionnement plus résidentiel, qui allonge la durée des séjours."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui réserve à Charenton-le-Pont",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Public des concerts et des matchs",
+     "text": "Une à deux nuits autour d'une date précise, souvent réservées le jour de la mise en vente des billets. Le NBA Paris Game du 14 janvier 2027 est déjà annoncé (billetteries officielles, septembre 2026)."
+    },
+    {
+     "icon": "target",
+     "title": "Salariés en mission",
+     "text": "EssilorLuxottica, Natixis et le tertiaire de Bercy génèrent des séjours de deux à quatre nuits, du lundi au jeudi, tout au long de l'année."
+    },
+    {
+     "icon": "train",
+     "title": "Voyageurs de la gare de Lyon",
+     "text": "Vingt minutes de métro séparent Charenton de la gare : une escale pratique pour un départ tôt le matin ou une arrivée tardive."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "Le calendrier à Charenton-le-Pont",
+   "md": "Ici, la saison cède la place à une grille de dates. Le bon réflexe consiste à ouvrir le programme de l'Accor Arena et à caler les tarifs soir par soir, plutôt que de suivre les vacances scolaires. Un point de vigilance : la Foire du Trône s'installe à la pelouse de Reuilly du 27 mars au 25 mai 2026, avec des barrages filtrants et des fermetures d'accès signalés par la Ville. Ces nuits se vendent bien, à condition de prévenir vos voyageurs des conditions de circulation.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Charenton-le-Pont",
+   "intro": "Ce que nous mettons en place pour un logement charentonnais.",
+   "items": [
+    "Tarification calée sur le programme publié de l'Accor Arena, date par date, plutôt que sur une grille saisonnière",
+    "Instruction du dossier de changement d'usage avec l'attestation du syndic indiquant le pourcentage de meublés de l'immeuble",
+    "Instructions d'accès nocturnes testées, pour un voyageur qui rentre après la fin d'un concert",
+    "Annonce centrée sur ce qu'une chambre d'hôtel voisine n'offre pas : une cuisine, un séjour, une machine à laver",
+    "Alerte donnée aux voyageurs sur les périodes de circulation contrainte, dont la Foire du Trône au printemps"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Charenton, la règle est claire : un logement par foyer fiscal, et l'autorisation vaut deux ans, pas plus. Ça ferme la porte à ceux qui veulent empiler dix appartements, et honnêtement, ça assainit le marché. Pour un propriétaire qui a un bien, c'est jouable, et la demande tient toute l'année grâce à Bercy. Le vrai travail, c'est de garder le dossier à jour et de suivre le calendrier des dates.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en courte durée à Charenton-le-Pont ?",
+   "a": "Notre base interne place la nuitée dans une fourchette de 90 à 180 EUR (relevé du 9 juillet 2026, AirDNA croisé avec les plateformes). L'écart tient surtout aux soirées d'événement à Bercy, où le prix accepté monte nettement. Nous vous chiffrons votre bien sous 48 heures, avec l'hypothèse de remplissage retenue."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Charenton-le-Pont ?",
+   "a": "Oui pour une résidence secondaire. Le règlement approuvé le 6 février 2024 par le conseil de territoire Paris Est Marne et Bois, en vigueur depuis le 1er mars 2024, accorde une autorisation temporaire de deux ans non reconductible, sans compensation, réservée aux personnes physiques. Il faut aussi être propriétaire du bien depuis au moins deux ans."
+  },
+  {
+   "q": "Puis-je exploiter plusieurs appartements à Charenton-le-Pont ?",
+   "a": "Non. Le règlement local limite à un logement hors résidence principale par foyer fiscal, et à une seule demande par personne physique. S'y ajoute un plafond de 10 % de meublés par copropriété, avec un minimum de un et un maximum de trois. Les sociétés sont exclues du dispositif."
+  },
+  {
+   "q": "Les concerts à Bercy changent-ils vraiment mes revenus ?",
+   "a": "Ils déplacent la demande sur des dates précises plutôt qu'ils n'augmentent le volume annuel. Une salle de 20 300 places qui affiche complet un soir de semaine crée un besoin de nuitées à une station de métro. Tout l'enjeu est d'avoir ouvert la date et fixé le bon prix avant les autres."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Charenton-le-Pont ?",
+   "a": "Pour un meublé non classé, 5 % du prix hors taxes par personne et par nuitée, soit 16,25 % avec les taxes additionnelles départementale et régionales, plafonnés à 15,93 EUR par personne et par nuit (délibération à effet 2026, fichier DELTA de la DGFiP, export du 29 juin 2026). Elle est collectée sur la plateforme puis reversée à la commune."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb charenton-le-pont",
+  "conciergerie charenton",
+  "location courte durée bercy"
+ ]
+}

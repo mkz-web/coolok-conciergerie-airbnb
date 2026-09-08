@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-joinville-le-pont",
+ "type": "commune",
+ "name": "Joinville-le-Pont",
+ "slug": "joinville-le-pont",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Joinville-le-Pont, notre siège | Coolok",
+ "description": "Coolok a son siège au 4 avenue Oudinot à Joinville-le-Pont. Nous exploitons votre logement dans notre propre ville, 20 % HT, audit chiffré sous 48 h.",
+ "h1": "Conciergerie Airbnb à Joinville-le-Pont, la ville où nous avons notre bureau",
+ "image": "/assets/img/heros/joinville-le-pont.webp",
+ "imageAlt": "Quai de Polangis à Joinville-le-Pont et le pont sur la Marne en fin d'après-midi",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val-de-Marne, RER A, bords de Marne",
+  "lead": "Coolok Services est immatriculée au 4 avenue Oudinot, à Joinville-le-Pont, depuis le 10 octobre 2024. C'est notre commune : nous en connaissons les rues, les copropriétés et les artisans, et nous sommes chez vous en quelques minutes."
+ },
+ "data": {
+  "prix_nuitee": "75 à 150 €",
+  "revenu_mensuel": "1 400 à 3 300 €",
+  "taux_occupation": "60 à 72 %",
+  "prix_m2": "5 800 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Joinville-le-Pont (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 150 € la nuit, avec un taux d'occupation observé de 60 à 72 %, soit 1 400 à 3 300 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Notre siège, la Marne, le RER A",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Le marché de notre propre commune",
+   "md": "Joinville-le-Pont gagne des habitants plus vite que la plupart des villes voisines que nous couvrons : 20 525 habitants en 2023, avec une croissance de 1,2 % par an depuis 2017 (INSEE, recensement 2023). Le RER A y compte environ 12 000 voyageurs entrants par jour ouvré selon le rapport de présentation du plan local d'urbanisme, avec un train toutes les quatre à cinq minutes en pointe. Châtelet est à un quart d'heure et l'INSEP à un arrêt de bus.\n\nLe fait neuf de la ville se trouve au bord de l'eau. La plage du Banc de sable, installée dans le port de plaisance, a ouvert du 20 juin au 30 août 2026 (Voies navigables de France) ; les deux sites de baignade de la Marne, ici et à Maisons-Alfort, avaient réuni 50 000 baigneurs pour leur première saison en 2025 (Paris Est Marne et Bois, chiffre relayé en juillet 2026). Une ville où l'on se baigne l'été n'a plus le profil de demande d'une banlieue de transit.\n\nDeux précisions utiles avant d'investir. Le bâti se distingue de celui de ses voisines : 22,8 % de maisons, contre 12,3 % à Nogent-sur-Marne (INSEE, recensement 2023), ce qui ouvre la porte à des capacités familiales rares dans le secteur. Et le prix médian recule de 9 % sur un an, à 7 264 EUR le mètre carré au 1er juillet 2026 (Figaro Immobilier), après une hausse de 21 % sur cinq ans. Enfin, la guinguette Chez Gégène est fermée depuis avril 2024 : ne construisez pas votre annonce dessus."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Joinville-le-Pont",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Siège social de Coolok Services, 4 avenue Oudinot, 94340 Joinville-le-Pont (RCS Creteil 934 155 227)",
+     "société creée le 10/10/2024",
+     "Mentions légales Coolok (dossier de contexte MKZ) (2026-09-03)"
+    ],
+    [
+     "Gare RER A de Joinville-le-Pont (branche Boissy-Saint-Leger) : voyageurs entrants en 2015, trafic d'un jour ouvre, fréquence en pointe",
+     "3 665 000 voyageurs entrants en 2015; environ 12 000 entrants par jour ouvre; un train toutes les 4 à 5 minutes en pointe",
+     "Ville de Joinville-le-Pont, PLU rapport de présentation (données RATP) (2019-06-28)"
+    ],
+    [
+     "Baignade en Marne, plage du Banc de sable dans le port de plaisance de Joinville (site permanent administré par Paris Est Marne et Bois) : saison, horaires, capacité, tarifs",
+     "ouverte du 20 juin au 30 août 2026, 10h-20h; bassins d'environ 200 personnes; 3 EUR les 2 h pour les résidents du territoire, 8 EUR pour les autres",
+     "Voies navigables de France (tarifs : info.fr 20/06/2026 citant la préfecture) (2026-07-01)"
+    ],
+    [
+     "Fréquentation des deux plages permanentes de la Marne (Joinville et Maisons-Alfort) lors de la première saison 2025",
+     "50 000 baigneurs a l'été 2025",
+     "Le Nouvel Economiste (chiffre Paris Est Marne et Bois, également repris par Sortiraparis) (2026-07-18)"
+    ],
+    [
+     "Guinguette Chez Gegene (quai de Polangis, ouverte en 1918) : fermée depuis le départ en retraite de la geran te en avril 2024, sans projet de reouverture connu ; candidature au label Patrimoine d'intérêt régional adoptée a l'unanimite au conseil municipal du 09/12/2025 ; guinguette voisine Le Petit Robinson rasée pour un projet de musée intercommunal",
+     "fermée depuis avril 2024",
+     "Les Amis de Chez Gegene (fermeture confirmée par Val-de-Marne Tourisme le 14/04/2025) (2025-12)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Joinville-le-Pont",
+   "md": "- **Changement d'usage** : oui, résidences secondaires (régime territorial PEMB : « toute location touristique d'un meublé de tourisme en résidence secondaire est soumise a autorisation de changement d'usage ») **Compensation** : non trouve; APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national; portail PEMB pemb.taxesejour.fr); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location (résidence principale ou secondaire) depuis le 19/07/2024 sur declaloc.fr; les anciens cerfa ne sont plus valables; contact Territoire : pemb@taxesejour.fr\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes; loyer minimum taxable 1,00 EUR par nuitée\n- **À prévoir dans votre dossier** : non trouvées en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.declaloc.fr) et [document de référence](https://taxesejour.impots.gouv.fr/FR/PAGE-Consult-rwd.awp?ID=94042JOINVILLE-LE-PONT)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Joinville-le-Pont",
+   "intro": "Nous passons dans ces rues toutes les semaines, voici comment nous les lisons.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Polangis et les bords de Marne",
+     "text": "Le port, la plage, la location de bateaux électriques et l'île Fanac. C'est le secteur qui porte la saison d'été et les séjours de week-end."
+    },
+    {
+     "icon": "train",
+     "title": "Le centre autour de la gare du RER A",
+     "text": "Pour un voyageur qui travaille dans Paris ou à La Défense, marcher jusqu'au quai vaut plus que tout le reste. Studios et deux-pièces s'y louent en semaine."
+    },
+    {
+     "icon": "home",
+     "title": "Les Hauts de Joinville et les rues pavillonnaires",
+     "text": "Des maisons avec extérieur, en nombre inhabituel pour la petite couronne. Le format qui manque le plus aux groupes de six personnes."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui dort à Joinville-le-Pont",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles venues pour la Marne",
+     "text": "De juin à septembre : baignade, paddle, vélo le long des berges et navigation jusqu'à Nogent en un quart d'heure. Des séjours de deux à quatre nuits."
+    },
+    {
+     "icon": "target",
+     "title": "Sportifs et délégations de l'INSEP",
+     "text": "L'accès officiel à l'institut se fait par la gare de Joinville-le-Pont puis le bus 112. Compétitions, stages et accompagnants génèrent des nuitées hors vacances."
+    },
+    {
+     "icon": "calendar",
+     "title": "Public des rendez-vous culturels",
+     "text": "Le festival Hollywood-sur-Marne du 12 septembre au 4 octobre 2026 et la brocante de la rue de Paris début octobre attirent un public régional (Ville de Joinville-le-Pont, août 2026)."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Joinville-le-Pont",
+   "md": "L'été est devenu le pic de la ville depuis l'ouverture de la baignade, avec une saison courue du 20 juin au 30 août. Le printemps et le début d'automne se remplissent avec les événements municipaux et le nautisme, et l'hiver repose sur le RER A et les déplacements professionnels vers Paris. Notre bureau se trouvant à quelques minutes, nous ajustons vos tarifs en sachant quels week-ends la ville se remplit vraiment, pas d'après une courbe théorique.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Joinville-le-Pont",
+   "intro": "Ce que change, très concrètement, le fait que nous soyons installés ici.",
+   "items": [
+    "Intervention rapide sur place en cas de problème, parce que notre bureau se trouve dans la commune",
+    "Artisans, blanchisserie et équipes de ménage déjà en place ici, sans sous-traitance improvisée",
+    "Visite du logement et audit chiffré remis sous 48 heures, avec un rendez-vous possible à notre adresse",
+    "Dates de la saison de baignade et des événements municipaux ouvertes selon le calendrier réel de la ville",
+    "Positionnement séparé des maisons avec extérieur, qui visent des groupes, et des petits logements de gare, qui visent la semaine"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Joinville, c'est chez nous, alors je vais être direct : je n'ai pas envie qu'on y fasse n'importe quoi. Les gens qui louent ici croisent leurs voisins au marché, et moi aussi. Ce que je vends à un propriétaire de la commune, ce n'est pas une promesse de rendement en l'air, c'est le fait qu'on soit à cinq minutes quand un chauffe-eau lâche un dimanche. Et depuis que la Marne est ouverte à la baignade, l'été n'a plus rien à voir avec ce qu'il était.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en location courte durée à Joinville-le-Pont ?",
+   "a": "Notre fourchette interne s'étend de 75 à 150 EUR la nuit (relevé du 9 juillet 2026, source AirDNA croisée avec les plateformes). C'est en dessous de Vincennes ou de Saint-Mandé, mais le prix d'achat l'est aussi : 7 264 EUR le mètre carré au 1er juillet 2026 (Figaro Immobilier). Nous vous remettons le calcul complet sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Joinville-le-Pont ?",
+   "a": "Oui pour une résidence secondaire, au titre du régime de changement d'usage applicable sur le territoire Paris Est Marne et Bois depuis le 1er janvier 2022. Le numéro d'enregistrement est par ailleurs exigé pour toute location depuis le 19 juillet 2024, via la plateforme DeclaLoc ; les anciens formulaires ne sont plus valables."
+  },
+  {
+   "q": "Coolok est basé à Joinville-le-Pont, qu'est-ce que cela change pour moi ?",
+   "a": "Notre siège est au 4 avenue Oudinot, dans la commune. Concrètement, la visite se cale en quelques jours, l'audit chiffré vous parvient sous 48 heures et une intervention urgente ne dépend pas d'un prestataire situé à l'autre bout de l'Île-de-France. Notre note Google est de 4,8 sur 5 pour 21 avis (relevé du 2 septembre 2026)."
+  },
+  {
+   "q": "La baignade en Marne fait-elle vraiment venir des voyageurs ?",
+   "a": "Les deux sites permanents de Joinville et de Maisons-Alfort ont accueilli 50 000 baigneurs lors de la première saison, en 2025, et la plage du port de plaisance a rouvert du 20 juin au 30 août 2026. C'est un argument neuf, à intégrer dans les photos et dans le prix des semaines d'été."
+  },
+  {
+   "q": "Ma maison avec jardin est-elle exploitable à Joinville-le-Pont ?",
+   "a": "C'est même un atout local : la ville compte 22,8 % de maisons, une proportion rare en petite couronne (INSEE, recensement 2023). Un logement de six couchages avec extérieur rencontre peu de concurrence directe et se vend au prix par personne plutôt qu'au prix par nuit."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb joinville-le-pont",
+  "conciergerie joinville-le-pont",
+  "conciergerie airbnb 94"
+ ]
+}

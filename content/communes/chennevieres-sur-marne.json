@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-chennevieres-sur-marne",
+ "type": "commune",
+ "name": "Chennevières-sur-Marne",
+ "slug": "chennevieres-sur-marne",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Chennevières-sur-Marne (94) | Coolok",
+ "description": "Coolok exploite votre maison à Chennevières-sur-Marne : aucun hôtel sur la commune, aucune taxe de séjour, plateau pavillonnaire. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Chennevières-sur-Marne, commune sans hôtel",
+ "image": "/assets/img/heros/chennevieres-sur-marne.webp",
+ "imageAlt": "Maison pavillonnaire avec jardin sur le plateau de Chennevières-sur-Marne au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Plateau et bords de Marne, Val-de-Marne",
+  "lead": "Chennevières-sur-Marne ne recense aucun hôtel et aucune chambre au 1er janvier 2026 (INSEE, parc hôtelier communal). Aucune taxe de séjour n'y est perçue non plus, la commune étant absente du fichier des délibérations de la DGFiP (export du 29 juin 2026). Un meublé y occupe donc une place que rien d'autre ne prend."
+ },
+ "data": {
+  "prix_nuitee": "70 à 140 €",
+  "revenu_mensuel": "1 200 à 2 900 €",
+  "taux_occupation": "58 à 70 %",
+  "prix_m2": "4 200 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Chennevières-sur-Marne (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 140 € la nuit, avec un taux d'occupation observé de 58 à 70 %, soit 1 200 à 2 900 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Aucun hôtel, plateau pavillonnaire, séjours longs",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché sans hébergement organisé",
+   "md": "La ville réunit 18 710 habitants, 56,2 % de ménages propriétaires et 32,8 % de maisons (INSEE, recensement 2023). Aucune gare ne se trouve sur son territoire : le RER A se prend à La Varenne-Chennevières, sur la commune voisine de Saint-Maur, à 13 à 18 minutes de bus 438 depuis l'hôtel de ville (Val-de-Marne Tourisme, Île-de-France Mobilités). La vie locale s'organise autour du centre commercial de Pince Vent et de ses 70 boutiques, d'un cinéma de 8 salles et du nouveau pôle culturel de 17,65 millions d'euros hors taxes ouvert en septembre 2026.\n\nDeux conséquences pour un propriétaire. La première est administrative : sans taxe de séjour à collecter ni à reverser, une ligne de moins à tenir et un prix affiché plus lisible pour le voyageur. La seconde est financière : le mètre carré médian s'établit à 4 160 euros (Figaro Immobilier, 1er juillet 2026), la valeur la plus basse des douze communes du Val-de-Marne que nous suivons, ce qui abaisse d'autant le ticket d'entrée.\n\nLa contrepartie se lit aussi dans les chiffres : 58 à 70 % d'occupation pour 70 à 140 euros la nuit (données AirDNA croisées, relevé du 9 juillet 2026), et un parc de résidences secondaires en recul de 29,4 % entre 2017 et 2023 (INSEE). Le marché n'est pas porté par le tourisme mais par la voiture, la durée des séjours et, dans les mois à venir, par 816 logements en chantier dont les premières livraisons sont attendues fin 2026."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Chennevières-sur-Marne",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population 2023 (+0,4 % par an), propriétaires, résidences principales, emplois, niveau de vie, chômage",
+     "18 710 habitants; 56,2 % de propriétaires; 91,7 % de résidences principales sur 8 589 logements; 6 138 emplois; niveau de vie médian 26 970 EUR; chômage 13,8 %",
+     "INSEE, comparateur de territoires RP2023 (2026-08-27)"
+    ],
+    [
+     "Prix immobilier médian tous biens, le plus bas des 12 communes (-4 % sur 1 an) ; par quartier : Le Fort la Maillarde 4 302, Coteaux 4 177, Paris-Chennevieres 4 152, Centre-Ville Château 4 054, Hauts de Chennevieres-Pince Vent 3 771, Bois l'Abbe 3 739, Le Moulin 3 309 EUR/m2",
+     "4 160 EUR/m2",
+     "Figaro Immobilier, estimations au 01/07/2026 (2026-07-01)"
+    ],
+    [
+     "Transports : aucune gare sur la commune ; RER A a la gare La Varenne-Chennevieres située sur Saint-Maur ; bus 208, 308, 438 depuis la gare ; bus 438 Hôtel de Ville de Chennevieres vers le RER",
+     "13 à 18 minutes de bus jusqu'au RER A, toutes les 10 à 30 minutes",
+     "Val-de-Marne Tourisme (temps du bus 438 : Île-de-France Mobilités via Transit et Moovit) (2025-08-12)"
+    ],
+    [
+     "Centre commercial Pince Vent et cinéma Pince Vent affilie UGC",
+     "plus de 70 boutiques; 8 salles de cinéma",
+     "Val-de-Marne Tourisme (2025-08-12)"
+    ],
+    [
+     "Projet immobilier rue Jean Moulin (BNP Paribas Immobilier Promotion, 3,2 ha en prolongement de la plaine des Bordes) : logements, calendrier de livraison",
+     "600 logements dont 30 % sociaux, 5 batiments R+4 a R+6, 633 places de stationnement; phase 1 livrée au 4e trimestre 2026, phase 2 au 4e trimestre 2027",
+     "Mission régionale d'autorite environnementale (avis délibéré) (2024)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Chennevières-sur-Marne",
+   "md": "- **Changement d'usage** : oui, résidences secondaires, par le régime territorial GPSEA (« sur les 16 communes de son territoire », APUR mars 2025); aucune page propre à Chennevieres trouvée **Compensation** : non (autorisation temporaire)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : non : dans GPSEA seule Creteil a un téléservice avec numéro (APUR mars 2025); déclaration cerfa 14004 en mairie pour les résidences secondaires; numéro national attendu au 4e trimestre 2026\n- **Taxe de séjour 2026** (meublé non classé) : pas de taxe de séjour\n- **À prévoir dans votre dossier** : maximum 2 autorisations par loueur; logement decent (R111-2); attestation que le règlement de copropriété ne s'oppose pas; accord écrit du bailleur si locataire.\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxesejour.impots.gouv.fr/FR/PAGE-Consult-rwd.awp?ID=94019CHENNEVIERES-SUR-MARNE) et [document de référence](https://www.apur.org/sites/default/files/2025-03/note273_locations_meublees_touristiques_metropole_grand_paris.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Le bas, le centre, le plateau",
+   "intro": "Trois altitudes, trois façons de louer, et près de mille euros d'écart au mètre carré.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Le bas et le pont de Chennevières",
+     "text": "Les bords de Marne et l'accès le plus direct au RER A de La Varenne-Chennevières. Le seul secteur qui se loue correctement à des voyageurs sans voiture."
+    },
+    {
+     "icon": "home",
+     "title": "Le centre-ville et le Château",
+     "text": "Estimé à 4 054 euros le mètre carré au 1er juillet 2026 (Figaro Immobilier), un tissu pavillonnaire avec commerces accessibles à pied, qui convient aux séjours de famille."
+    },
+    {
+     "icon": "euro",
+     "title": "Le plateau, Pince Vent et le Bois l'Abbé",
+     "text": "Les valeurs les plus basses de la ville, entre 3 739 et 3 771 euros le mètre carré à la même date. Le stationnement y est facile : c'est l'argument à mettre en avant."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Chennevières-sur-Marne",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Familles en relogement temporaire",
+     "text": "Travaux, sinistre, attente de livraison : avec 816 logements neufs en chantier sur la commune, ces demandes de plusieurs semaines vont se multiplier."
+    },
+    {
+     "icon": "target",
+     "title": "Salariés en mission motorisés",
+     "text": "Créteil, Champigny, Sucy et les zones d'activité voisines. Ils arrivent en voiture, comparent le stationnement et restent fréquemment plus d'un mois."
+    },
+    {
+     "icon": "users",
+     "title": "Visiteurs de la boucle",
+     "text": "Le Fort de Champigny, la plaine des Bordes et les rives de la Marne portent des fins de semaine de printemps et d'été, plus rares mais très bien notées."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Chennevières-sur-Marne",
+   "md": "Le printemps et l'été apportent le peu de tourisme que connaît la ville : la Fête aux mille couleurs du 28 juin 2026, le Festi Fort au Fort de Champigny de juin à septembre, les promenades au bord de l'eau (Ville de Chennevières-sur-Marne). Le reste de l'année vit de réservations longues qui n'ont rien de saisonnier. Mieux vaut donc viser un calendrier rempli au mois plutôt qu'un pic de juillet : un bien occupé quarante semaines à tarif moyen rapporte ici davantage qu'un bien qui attend la fin de semaine parfaite.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Chennevières-sur-Marne",
+   "intro": "Ce que nous mettons en place sur un bien canavérois.",
+   "items": [
+    "Stationnement documenté en photos et adresse d'arrivée testée en voiture, premier critère sur le plateau",
+    "Tarifs hebdomadaires et mensuels par défaut, courts séjours ouverts uniquement pour combler un trou",
+    "Trajet vers le RER A de La Varenne-Chennevières décrit avec le bus 438 et son temps réel",
+    "Prix affiché sans taxe de séjour à ajouter, un avantage que peu de communes voisines peuvent offrir",
+    "Ménage, linge et entretien du jardin entre deux réservations, avec contrôle systématique après chaque départ"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Chennevières, il n'y a pas un seul hôtel. Zéro. Alors la personne qui vient travailler trois semaines dans le coin, elle dort où ? Votre place est exactement là, à condition d'avoir une place de parking et un bien fait pour la durée, pas pour deux nuits. Et comme il n'y a pas de taxe de séjour à collecter, votre prix affiché est plus simple que celui du voisin.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une maison en location courte durée à Chennevières-sur-Marne ?",
+   "a": "Les repères de marché donnent 70 à 140 euros la nuit pour une occupation de 58 à 70 % (données AirDNA croisées, relevé du 9 juillet 2026). Le levier local n'est pas le tarif de la nuit mais la durée des séjours et le prix d'achat, à 4 160 euros le mètre carré au 1er juillet 2026 (Figaro Immobilier). Estimation chiffrée sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Chennevières-sur-Marne ?",
+   "a": "Votre résidence principale se loue jusqu'à 120 jours par année civile sans démarche de changement d'usage. Pour un second logement, le territoire Grand Paris Sud Est Avenir délivre une autorisation temporaire de deux ans, pour deux logements au plus par loueur, avec attestation de non-opposition du règlement de copropriété. Le dossier se dépose en mairie, accompagné du formulaire cerfa 14004."
+  },
+  {
+   "q": "Y a-t-il une taxe de séjour à Chennevières-sur-Marne ?",
+   "a": "Non au 3 septembre 2026 : la commune est absente du fichier DELTA de la DGFiP (export du 29 juin 2026) et introuvable sur le portail public de consultation. Il n'y a donc rien à collecter auprès des voyageurs ni à reverser, alors que les communes voisines atteignent 16,25 % taxes additionnelles comprises. Nous revérifions ce point chaque année."
+  },
+  {
+   "q": "L'absence de gare est-elle un handicap ?",
+   "a": "Elle écarte les voyageurs sans voiture, pas les autres. Le RER A se prend à La Varenne-Chennevières, sur le territoire de Saint-Maur, à 13 à 18 minutes de bus 438 selon l'heure (Île-de-France Mobilités). Nous l'écrivons franchement dans l'annonce : mieux vaut perdre une réservation que récolter un avis à deux étoiles pour une mauvaise surprise."
+  },
+  {
+   "q": "Les chantiers de logements neufs changent-ils quelque chose ?",
+   "a": "Six cents logements sont en construction rue Jean Moulin, avec des livraisons annoncées fin 2026 et fin 2027 (avis de l'autorité environnementale), et 216 autres route de la Libération, dont le permis a été délivré le 27 octobre 2025. Ces opérations créent des besoins de relogement temporaire et amènent des familles en attente : une demande de moyenne durée à capter dès maintenant."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb chennevieres-sur-marne",
+  "conciergerie chennevieres-sur-marne",
+  "location courte duree chennevieres"
+ ]
+}

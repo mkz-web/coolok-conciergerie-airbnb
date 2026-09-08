@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-montreuil",
+ "type": "commune",
+ "name": "Montreuil",
+ "slug": "montreuil",
+ "dept": "93",
+ "title": "Conciergerie Airbnb Montreuil (93), Bas-Montreuil | Coolok",
+ "description": "Coolok exploite votre logement à Montreuil : demande de semaine tirée par l'hôpital, les bureaux et le salon du livre jeunesse. Commission 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Montreuil, une demande qui ne vient pas des vacances",
+ "image": "/assets/img/heros/montreuil.webp",
+ "imageAlt": "Marché de la Croix de Chavaux à Montreuil en fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Seine-Saint-Denis, aux portes de Paris Est",
+  "lead": "Montreuil ne vit pas de son tourisme. Elle vit de ses 61 214 emplois, de son hôpital et de ses rendez-vous professionnels (INSEE, recensement 2023, consulté le 3 septembre 2026). Pour un propriétaire, cela signifie un calendrier réparti sur l'année au lieu d'un seul pic estival."
+ },
+ "data": {
+  "prix_nuitee": "75 à 155 €",
+  "revenu_mensuel": "1 600 à 3 700 €",
+  "taux_occupation": "70 à 80 %",
+  "prix_m2": "5 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Montreuil (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 600 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Hôpital, salons et bureaux, la semaine",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui remplit vraiment un logement à Montreuil",
+   "md": "La commune compte 61 214 emplois au lieu de travail pour 111 934 habitants (INSEE, recensement 2023) : ce n'est pas une ville dortoir. À cela s'ajoutent trois moteurs qui produisent des nuitées toute l'année. L'hôpital intercommunal André Grégoire aligne 398 lits et 93 368 passages aux urgences par an (fiche GIRCI Île-de-France, novembre 2025). Le Salon du livre et de la presse jeunesse a réuni 196 000 visiteurs en 2025 et revient du 25 au 30 novembre 2026 (organisateur SLPJ). Le cinéma Le Méliès, plus grand cinéma public d'art et essai d'Europe, a fait 415 000 entrées en 2024.\n\nPour vous, cela change la nature des réservations. Vos voyageurs viennent travailler, se soigner, accompagner un proche ou exposer, rarement flâner. Ils réservent tard, restent deux à quatre nuits et arrivent en semaine. Le prolongement de la ligne 11, ouvert le 13 juin 2024 avec les stations Montreuil-Hôpital et La Dhuys, a rendu louables des quartiers qui vivaient jusque-là à l'écart du métro.\n\nEn exploitation, cela veut dire des rotations fréquentes, une réactivité forte sur les demandes de dernière minute et une annonce qui nomme la station plutôt que le quartier. L'écart de prix entre le Bas-Montreuil (6 615 EUR le mètre carré à Bobillot) et les hauts de la commune (3 943 EUR à Bel Air-Grands Pêchers, estimations Figaro Immobilier au 1er août 2026) dit assez où se concentre la demande."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Montreuil",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "111 934 habitants en 2023; densité 12 549 hab/km2; 54 472 logements; 1,8 % de résidences secondaires; 35,4 % de propriétaires; niveau de vie médian 24 100 EUR",
+     "INSEE, RP2023, comparateur de territoires (géographie au 01/01/2026, consulté le 03/09/2026)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "61 214 emplois en 2023 (4 861 établissements fin 2024) : Montreuil est un pôle d'emploi, pas seulement une ville dortoir",
+     "INSEE, RP2023 et Flores (2023, consulté le 03/09/2026)"
+    ],
+    [
+     "Prix immobilier moyen",
+     "6 323 EUR/m2 appartement, 5 941 EUR/m2 maison (MeilleursAgents, septembre 2026). Figaro Immobilier au 01/08/2026 : médian tous biens 5 407 EUR/m2, loyer médian 28 EUR/m2",
+     "MeilleursAgents (page Île-de-France) et Figaro Immobilier (02/09/2026 et 01/08/2026)"
+    ],
+    [
+     "Hierarchie des quartiers par prix (indice de la demande)",
+     "Bas Montreuil-Bobillot 6 615 EUR/m2, Bas Montreuil-République 6 440, Centre-Ville-Jean Moulin 6 010, Bas Montreuil-Etienne Marcel-Chanzy 5 966, Signac-Murs à Peches 5 205, Bel.",
+     "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
+    ],
+    [
+     "Métro ligne 9",
+     "3 stations à Montreuil (Robespierre, Croix de Chavaux, Mairie de Montreuil); Nation à 7 stations de Mairie de Montreuil (environ 8 minutes), République 13 stations.",
+     "RATP (stations); metroparis.paris et Moovit (temps de parcours) (consulté le 03/09/2026)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Montreuil",
+   "md": "- **Changement d'usage** : oui **Compensation** : non (compensation limitée a la commune des Lilas, art. 4)\n- **Si vous louez votre résidence principale** : 120 jours (règlement Est Ensemble art. 2; 90 jours uniquement à Romainville); aucune délibération de Montreuil à 90 jours trouvée.\n- **À prévoir dans votre dossier** : logement decent, DPE A a E (L631-10), attestation sur l'honneur de conformité au règlement de copropriété, interdiction pour les logements sociaux, subventionnes ou en accession encadrée (art. 5).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://www.est-ensemble.fr/meuble-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Où la courte durée fonctionne à Montreuil",
+   "intro": "Trois secteurs, trois clientèles différentes : le choix du positionnement se fait avant la première photo.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Le Bas-Montreuil, ligne 9",
+     "text": "Robespierre et Croix de Chavaux, à la frontière du 20e arrondissement. C'est le secteur le plus cher de la commune (6 615 EUR le mètre carré à Bobillot, Figaro Immobilier, 1er août 2026) et le plus liquide en courte durée."
+    },
+    {
+     "icon": "shield",
+     "title": "Le secteur de l'hôpital et de La Dhuys",
+     "text": "Deux stations neuves de la ligne 11 depuis juin 2024, à côté du centre hospitalier. Une clientèle d'accompagnants qui reste plusieurs jours et cherche le calme avant le décor."
+    },
+    {
+     "icon": "home",
+     "title": "Les hauts de la commune",
+     "text": "Bel Air, Grands Pêchers, Signac : les prix d'achat les plus bas de Montreuil, des maisons avec extérieur, une clientèle motorisée et des séjours plus longs."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui dort à Montreuil",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Proches de patients",
+     "text": "Le centre hospitalier André Grégoire enregistre 93 368 passages aux urgences par an et 3 832 accouchements. Les accompagnants réservent en urgence et prolongent souvent."
+    },
+    {
+     "icon": "doc",
+     "title": "Professionnels de l'édition",
+     "text": "Le salon de fin novembre ouvre par des journées réservées aux éditeurs, bibliothécaires et enseignants : des nuitées de semaine, réservées longtemps à l'avance."
+    },
+    {
+     "icon": "camera",
+     "title": "Artistes et équipes en résidence",
+     "text": "Plus de 1 000 artistes et artisans sont installés dans la commune (Seine-Saint-Denis Tourisme). Tournages, montages et résidences produisent des séjours de une à trois semaines."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "Le rythme de l'année à Montreuil",
+   "md": "Ici, le calendrier ne suit pas les vacances scolaires. La semaine du 25 au 30 novembre 2026 est le pic de l'année avec le Salon du livre et de la presse jeunesse (196 000 visiteurs en 2025). Le festival des Murs à Pêches, du 22 au 24 mai 2026, apporte un second temps fort. Le reste du calendrier tient sur les emplois et l'hôpital, deux moteurs qui ne ferment pas. Août reste le mois le plus creux : c'est la fenêtre pour les travaux et le renouvellement du linge.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Montreuil",
+   "intro": "Notre façon de travailler un logement montreuillois tient en cinq points.",
+   "items": [
+    "Grille tarifaire relevée pour la semaine du salon du livre jeunesse et pour les gros congés de fin d'année",
+    "Réponse aux demandes urgentes d'accompagnants de l'hôpital, y compris le soir et le week-end",
+    "Annonce qui nomme la station de métro et le temps de trajet réel jusqu'à Nation et République",
+    "Offre de séjour au mois pour les résidences artistiques, avec ménage intermédiaire hebdomadaire",
+    "Rotations rapprochées entre deux séjours courts, linge hôtelier et contrôle après chaque départ"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Montreuil, la demande ne tombe pas du ciel touristique : elle vient de l'hôpital, des bureaux et des salons. C'est une clientèle qui réserve tard, qui reste deux ou trois nuits et qui se moque des vacances scolaires. Un propriétaire qui cale son calendrier sur l'été passe à côté de l'essentiel. Le vrai sujet ici, c'est d'être disponible la semaine et impeccable à chaque rotation.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée à Montreuil ?",
+   "a": "Notre fiche de marché situe la nuitée entre 75 et 155 EUR et le revenu mensuel entre 1 600 et 3 700 EUR, pour un taux d'occupation de 70 à 80 % (extraction du 9 juillet 2026, source AirDNA croisée plateformes). Ces bornes couvrent du studio au trois pièces : l'audit chiffré que nous rendons sous 48 heures resserre la fourchette sur votre bien réel."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Montreuil ?",
+   "a": "Oui hors résidence principale. Le règlement d'Est Ensemble applicable depuis le 8 juillet 2024 impose une autorisation de changement d'usage, sans compensation, accordée pour trois ans à titre personnel, avec accord tacite en l'absence de réponse sous deux mois. Une résidence principale reste libre jusqu'à 120 jours par an. Aucun numéro d'enregistrement communal n'existe au 3 septembre 2026."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Montreuil ?",
+   "a": "Pour un meublé non classé, la commune prélève 5 % du prix de la nuitée hors taxes et par personne, dans une limite de 4,80 EUR, soit au maximum 15,60 EUR une fois ajoutées les taxes additionnelles départementale, régionale et transports (fichier DELTA de la DGFiP au 1er janvier 2026). Elle est due par le voyageur : nous vérifions le paramétrage de l'annonce."
+  },
+  {
+   "q": "Quel quartier de Montreuil choisir pour se lancer ?",
+   "a": "Le Bas-Montreuil offre la meilleure liquidité grâce aux trois stations de la ligne 9 et à la proximité immédiate de Paris. Les hauts de la commune coûtent nettement moins cher à l'achat et visent une clientèle motorisée en séjour long. Le secteur de l'hôpital est le mieux placé pour les accompagnants depuis l'arrivée de la ligne 11 en juin 2024."
+  },
+  {
+   "q": "Le salon du livre jeunesse remplit-il réellement les logements ?",
+   "a": "Il a accueilli 196 000 visiteurs en 2025 et se tient du 25 au 30 novembre 2026 à Paris Montreuil Expo (source organisateur). Les premières journées sont réservées aux professionnels venus de toute la France, ce qui produit des nuitées de semaine réservées plusieurs mois à l'avance. Nous ouvrons le calendrier et relevons les prix sur cette période."
+  }
+ ],
+ "keywords": [
+  "conciergerie montreuil",
+  "conciergerie airbnb montreuil",
+  "location courte durée montreuil"
+ ]
+}

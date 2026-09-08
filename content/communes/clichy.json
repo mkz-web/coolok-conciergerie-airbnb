@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-clichy",
+ "type": "commune",
+ "name": "Clichy",
+ "slug": "clichy",
+ "dept": "92",
+ "title": "Conciergerie Airbnb Clichy (92), porte du 17e | Coolok",
+ "description": "Sièges sociaux, hôpital Beaujon, tribunal de Paris : Clichy vit d'une demande d'affaires et de santé. Coolok exploite votre logement, commission 20 % HT.",
+ "h1": "Conciergerie Airbnb à Clichy, un marché d'affaires et de santé",
+ "image": "/assets/img/heros/clichy.webp",
+ "imageAlt": "Berges de Seine et parc des Impressionnistes à Clichy à l'heure dorée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Hauts-de-Seine, limite du 17e arrondissement",
+  "lead": "Clichy compte 39 130 emplois pour 64 410 habitants (INSEE, recensement 2023) et la densité la plus forte de nos communes des Hauts-de-Seine. Vos voyageurs y viennent travailler, plaider ou accompagner un proche hospitalisé, très rarement visiter."
+ },
+ "data": {
+  "prix_nuitee": "80 à 160 €",
+  "revenu_mensuel": "1 800 à 4 100 €",
+  "taux_occupation": "76 à 86 %",
+  "prix_m2": "6 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Clichy (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 80 à 160 € la nuit, avec un taux d'occupation observé de 76 à 86 %, soit 1 800 à 4 100 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Sièges, tribunal et hôpital Beaujon",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Trois moteurs qui tournent toute l'année",
+   "md": "Le premier est économique : le siège mondial de L'Oréal rue Martre emploie 1 800 personnes, auxquelles s'ajoutent 2 200 salariés du campus de recherche voisin (Le Parisien, septembre 2016). Amazon France, BIC installé depuis 1948, Monoprix, Etam et G7 y ont également leur adresse. Le deuxième est médical : l'hôpital Beaujon aligne 370 lits, 34 612 passages aux urgences, neuf centres de maladies rares et 97 greffes hépatiques (chiffres publiés par l'AP-HP, relevés le 3 septembre 2026). Le troisième est judiciaire : le tribunal de Paris, à la porte de Clichy, attend 5 000 visiteurs quotidiens.\n\nPour vous, ces trois moteurs se traduisent par deux types de réservations très différents. D'un côté des séjours d'une à trois nuits en semaine, souvent payés par un employeur. De l'autre des séjours de deux à quatre semaines de familles de patients, notamment autour des greffes et des maladies rares, qui remplissent un calendrier d'un seul coup.\n\nL'exploitation ressemble donc moins à de la location touristique qu'à de l'hébergement de service. La literie, le calme, une cuisine réellement utilisable et une arrivée possible sans rendez-vous comptent plus que la décoration. La ligne 14 met Orly en direct depuis la porte de Clichy depuis juin 2024, ce qui améliore sensiblement la position de la commune pour une clientèle internationale de passage."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Clichy",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "64 410 habitants en 2023; densité 20 912 hab/km2 (la plus forte du lot); 33 557 logements; 4,0 % de résidences secondaires; 28,2 % de propriétaires; niveau de vie médian 26 070 EUR",
+     "INSEE, RP2023 (consulté le 03/09/2026)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "39 130 emplois en 2023 (36 959 en 2022), 90 % salariés, 2 613 établissements fin 2024 : 0,61 emploi par habitant",
+     "INSEE, RP2023 et RP2022 (consulté le 03/09/2026)"
+    ],
+    [
+     "Siège mondial de L'Oréal, 41 rue Martre",
+     "1 800 salariés au siège (direction générale, marques grand public) et 2 200 salariés au Campus Charles-Zviak (immeuble Rio, 33 500 m2, limite Clichy/Saint-Ouen, recherche.",
+     "Le Parisien (20/09/2016)"
+    ],
+    [
+     "Autres sièges à Clichy",
+     "Amazon France (Amazon France Transport 1,37 Md EUR de CA 2025, Amazon France Logistique 1,19 Md EUR, Amazon Online France 0,67 Md EUR, sièges à Clichy), Société BIC (siège depuis.",
+     "Le Figaro Entreprises (registre); Wikipedia pour BIC et Monoprix (comptes 2025, consulté le 03/09/2026)"
+    ],
+    [
+     "Hôpital Beaujon (AP-HP), 100 boulevard du Général Leclerc",
+     "370 lits, 167 666 prises en charge, 91 007 consultations, 37 442 hospitalisations, 34 612 passages aux urgences, 1 585 naissances, 97 greffes hepatiques, 9 centres maladies rares",
+     "AP-HP, site de l'hôpital (page relue) (chiffres clés en ligne, relus le 03/09/2026 (année de référence non precisée sur la page))"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Clichy",
+   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021 **Compensation** : non pour une personne physique dans la limite d'un logement (autorisation a titre personnel); oui au-delà d'un logement, et des le premier logement pour toute personne morale, SCI comprise (art. 2.1)\n- **Si vous louez votre résidence principale** : 120 jours (page Ville et règlement EPT art. 2); aucune délibération à 90 jours trouvée\n- **À prévoir dans votre dossier** : logement decent, pas de subvention habitat dans les 10 ans, pas de logement HLM ni conventionne, pas d'arrete d'insalubrite; attestation sur l'honneur de ne pas exploiter un autre meublé touristique dans la commune; DPE A a E (L631-10)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.ville-clichy.fr/489-hebergements-touristiques-le-point-sur-la-reglementation.htm) et [document de référence](https://taxe.3douest.com/includes/download/s9Ag1V-Reglement-changement-dusage-locaux-dhabitation-modifie-applicable-au-01102023-nouveau-avec-compression.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Clichy",
+   "intro": "Le prix au mètre carré suit ici la proximité des transports et des employeurs, pas le charme.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "L'Entrée de Ville, vers la porte de Clichy",
+     "text": "Le secteur le plus cher de la commune (9 066 EUR le mètre carré, Figaro Immobilier, 1er août 2026), servi par la ligne 14, le RER C et le tramway T3b, à côté du palais de justice."
+    },
+    {
+     "icon": "map",
+     "title": "Le centre et la mairie",
+     "text": "La ligne 13 place Saint-Lazare à neuf ou dix minutes. Commerces au pied de l'immeuble et adresse facile à expliquer : le meilleur compromis pour un séjour professionnel."
+    },
+    {
+     "icon": "shield",
+     "title": "Beaujon et les berges de Seine",
+     "text": "Le secteur le plus abordable (6 650 EUR le mètre carré), au pied de l'hôpital et du parc des Impressionnistes. C'est là que se logent les familles de patients."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Clichy",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Voyageurs d'affaires",
+     "text": "Cosmétique, commerce en ligne, distribution : les employeurs de la commune font venir des équipes pour des points de quelques jours, avec des réservations tardives."
+    },
+    {
+     "icon": "shield",
+     "title": "Familles de patients de Beaujon",
+     "text": "Greffes et maladies rares imposent des séjours longs. Ce sont les meilleures réservations de l'année : moins de rotations, moins d'imprévus, un besoin de calme absolu."
+    },
+    {
+     "icon": "law",
+     "title": "Professionnels de la justice",
+     "text": "Avocats, experts et justiciables convoqués au palais de justice cherchent une adresse à pied du tribunal, du lundi au vendredi."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Clichy",
+   "md": "Il n'y a pas de haute saison touristique ici : la demande est une demande de semaine, tenue par les bureaux, l'hôpital et le tribunal. Les creux réels sont le mois d'août et la semaine entre Noël et le jour de l'an, quand les entreprises ferment. À l'inverse, l'hôpital ne s'arrête jamais, ce qui donne un socle de réservations longues même quand les affaires ralentissent. Le prix doit donc baisser franchement sur les week-ends d'été et tenir bon du mardi au jeudi.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Clichy",
+   "intro": "Comment nous travaillons un logement clichois.",
+   "items": [
+    "Formule au mois pour les accompagnants de Beaujon, ménage intermédiaire et linge renouvelé chaque semaine",
+    "Documents de réservation compatibles avec une prise en charge par un employeur ou une mutuelle",
+    "Itinéraire à pied détaillé vers l'hôpital, le palais de justice et la station de métro la plus proche",
+    "Tarification qui tient les nuits du mardi au jeudi et cède sur les fins de semaine d'été",
+    "Équipement pensé pour un séjour long : vraie cuisine, table de travail, literie de qualité hôtelière"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Clichy, votre voyageur vient travailler, plaider ou accompagner un proche à l'hôpital. Ce n'est pas un touriste : il veut du calme, un bon lit et une arrivée qui ne dépend de personne. Les séjours de familles de patients durent parfois trois semaines, et ce sont les meilleures réservations de l'année. On ne gagne pas ce marché avec de belles photos, on le gagne avec de la régularité.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en courte durée à Clichy ?",
+   "a": "Notre fiche de marché retient une nuitée de 80 à 160 EUR, un revenu mensuel de 1 800 à 4 100 EUR et une occupation de 76 à 86 % (données AirDNA recoupées avec les plateformes, 9 juillet 2026). La part de séjours longs d'accompagnants tire l'occupation vers le haut mais rabote le prix moyen : l'audit chiffré arbitre les deux scénarios pour votre bien."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Clichy ?",
+   "a": "Deux démarches se cumulent depuis le 1er octobre 2021. Le numéro d'enregistrement est obligatoire pour toute location meublée touristique, résidence principale incluse, et doit figurer sur chaque annonce. L'autorisation de changement d'usage s'ajoute hors résidence principale, ou au-delà de 120 jours de location de votre résidence principale sur l'année civile."
+  },
+  {
+   "q": "Je détiens mon appartement de Clichy via une SCI, cela change-t-il quelque chose ?",
+   "a": "Oui, et c'est le point que beaucoup de propriétaires découvrent trop tard. Une personne physique obtient l'autorisation sans compensation dans la limite d'un logement. Pour une personne morale, SCI comprise, la compensation est exigée dès le premier logement. Nous vérifions ce point avant tout engagement, car il conditionne la faisabilité du projet."
+  },
+  {
+   "q": "Quelle taxe de séjour à Clichy en 2026 ?",
+   "a": "Le portail officiel de la commune affiche, pour un meublé non classé, 5 % du prix de la nuitée hors taxes et par personne, avec un plafond de 4,30 EUR pour la part communale, soit 13,98 EUR au maximum une fois les taxes additionnelles appliquées (tarifs en vigueur au 1er janvier 2026). Un classement trois étoiles ramène le prélèvement à 4,88 EUR par personne et par nuit."
+  },
+  {
+   "q": "Les séjours de familles de patients de Beaujon sont-ils intéressants ?",
+   "a": "Ils le sont pour un propriétaire qui accepte de raisonner en revenu annuel plutôt qu'en prix par nuit. L'hôpital compte neuf centres de maladies rares et 97 greffes hépatiques : ces prises en charge produisent des séjours de plusieurs semaines, avec peu de rotations, peu de bruit et des locataires attentifs au logement."
+  }
+ ],
+ "keywords": [
+  "conciergerie clichy",
+  "conciergerie airbnb clichy",
+  "location courte durée clichy"
+ ]
+}

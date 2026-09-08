@@ -1,0 +1,71 @@
+{
+ "url": "/services",
+ "type": "service",
+ "title": "Services de conciergerie Airbnb clé en main | Coolok",
+ "description": "Annonce, tarification dynamique, voyageurs, accueil 24/7, ménage et maintenance : les neuf prestations que Coolok assure pour votre location courte durée.",
+ "h1": "Nos services de conciergerie Airbnb en Île-de-France",
+ "image": "/assets/img/heros/services.webp",
+ "imageAlt": "Linge et produits d'accueil préparés pour un séjour en location courte durée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Services",
+  "lead": "S'occuper d'un meublé de tourisme, c'est 20 à 30 heures par mois : répondre à 23 h, relancer un ménage un dimanche d'août, recaler les prix chaque semaine, suivre une réglementation qui bouge. Nous reprenons ce travail, dans une offre unique à 20 % HT."
+ },
+ "sections": [
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Les quatre temps d'un accompagnement",
+   "intro": "Chaque logement passe par les mêmes étapes, dans le même ordre. Rien n'est laissé à l'improvisation.",
+   "cols": 2,
+   "items": [
+    { "icon": "camera", "title": "1. Mise en marché", "list": ["Visite du logement et liste des équipements manquants", "Photos professionnelles cadrées pour les plateformes", "Annonce rédigée pour la clientèle réelle du quartier", "Diffusion Airbnb et Booking.com, calendriers synchronisés (Beds24)", "Grille de prix construite sur les données de marché de votre commune"] },
+    { "icon": "shield", "title": "2. Sélection des voyageurs", "list": ["Profils vérifiés avant validation de la réservation", "Échange écrit avant l'arrivée, règles du logement transmises", "Suivi et litiges instruits auprès de la plateforme", "Refus assumé des demandes à risque, même en basse saison"] },
+    { "icon": "key", "title": "3. Séjour et accueil", "list": ["Arrivée autonome par boîtier connecté Igloohome ou TTLock", "Accueil numérique et recommandations locales", "Assistance aux voyageurs 24/7 pendant le séjour", "Intervention sur place quand nécessaire"] },
+    { "icon": "clean", "title": "4. Remise en état et suivi", "list": ["Ménage professionnel et linge hôtelier entre chaque séjour", "Contrôle qualité systématique après chaque rotation", "Petites réparations et coordination des artisans qualifiés", "Accès à votre tableau de bord 24/7"] }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les outils que nous mettons derrière votre annonce",
+   "intro": "Les outils c'est bien, avec des données c'est mieux, et avec l'expertise ça change tout. Nous mesurons et optimisons chaque détail.",
+   "cols": 3,
+   "items": [
+    { "icon": "chart", "title": "Tarification dynamique", "text": "PriceLabs pour la grille tarifaire, AirDNA pour les données de marché : les prix suivent la demande réelle de votre commune, les vacances scolaires et les événements locaux." },
+    { "icon": "bed", "title": "Calendriers unifiés", "text": "Beds24 synchronise Airbnb et Booking.com : une réservation bloque immédiatement l'autre plateforme, sans double réservation possible." },
+    { "icon": "key", "title": "Accès autonome", "text": "Boîtiers connectés Igloohome et TTLock : code unique par séjour, arrivées tardives assurées sans intervention humaine, une traçabilité maximale pour votre protection." }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "cream",
+   "tight": true,
+   "variant": "warning",
+   "icon": "warning",
+   "title": "Ce que nous ne faisons pas",
+   "md": "Nous ne vendons pas de prestation à la carte : ni ménage seul, ni accueil seul. Nous ne faisons pas de location longue durée, ni de bail mobilité, ni d'intermédiation immobilière. Enfin, nous refusons les logements que la réglementation locale ne permet pas d'exploiter, même quand le propriétaire insiste."
+  },
+  {
+   "type": "steps",
+   "bg": "white",
+   "h2": "Comment nous commençons ensemble",
+   "items": [
+    { "title": "Audit chiffré sous 48 h", "text": "Vous décrivez votre logement en deux minutes, Thierry vous rappelle avec les chiffres clés du marché, la réglementation de votre commune et les travaux ou équipements à prévoir." },
+    { "title": "Mise en place", "text": "Signature du mandat de douze mois, visite, photos, équipements, boîtier connecté, annonce, prix. Le logement part en ligne dès que l'annonce est complète." },
+    { "title": "Exploitation et suivi", "text": "Réservations, séjours, ménage, maintenance. Vous suivez tout via votre tableau de bord et vous bloquez vos dates quand vous le souhaitez." }
+   ],
+   "cta": { "label": "Demander mon audit chiffré", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+  },
+  { "type": "pricing", "bg": "cream", "h2": "Un seul tarif, tout compris", "intro": "Notre offre est globale parce que la qualité d'accueil ne se découpe pas en tranches.", "cta2": { "label": "Voir la grille détaillée", "href": "/tarifs", "style": "secondary" } }
+ ],
+ "faq": [
+  { "q": "Faut-il équiper le logement avant la mise en ligne ?", "a": "Le logement doit être meublé, propre et fonctionnel, avec un couchage de qualité et une cuisine équipée. Lors de la visite, nous vous remettons la liste des manques constatés, chiffrée, avec ce qui est indispensable et ce qui peut attendre. Vous décidez de ce que vous achetez." },
+  { "q": "Qui s'occupe des déclarations et de la taxe de séjour ?", "a": "Nous vous expliquons toutes les étapes pour l'enregistrement en mairie et nous suivons la collecte de la taxe de séjour par les plateformes, qui la reversent directement aux communes dans la plupart des cas. Votre déclaration fiscale de revenus reste la vôtre, vous avez à votre portée toutes les informations nécessaires." },
+  { "q": "Que se passe-t-il en cas de dégradation ?", "a": "Nous constatons, documentons avec photos, et instruisons la demande auprès de la plateforme et de sa garantie hôte dans les délais. Les réparations sont coordonnées par des artisans qualifiés, sur devis validé par vous quand le montant dépasse un petit entretien." },
+  { "q": "Faites-vous les séjours professionnels et les moyennes durées ?", "a": "Nous accueillons les séjours professionnels de quelques nuits, très fréquents autour des pôles d'affaires et hospitaliers d'Île-de-France, dans le cadre du meublé de tourisme, à hauteur de 90 jours consécutifs. Les baux de plusieurs mois relèvent de la location classique ou du bail mobilité, qui ne sont pas notre métier." },
+  { "q": "Intervenez-vous partout en Île-de-France ?", "a": "Nous couvrons les huit départements, avec des équipes rodées autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne, à Versailles et en petite couronne Est. Pour une commune plus éloignée, nous vérifions d'abord que nous pouvons y tenir la qualité de ménage et des opérations avant de nous engager." }
+ ],
+ "keywords": ["services conciergerie airbnb", "conciergerie airbnb", "gestion airbnb"]
+}

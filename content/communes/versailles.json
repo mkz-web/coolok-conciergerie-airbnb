@@ -1,0 +1,206 @@
+{
+ "url": "/conciergerie-airbnb-versailles",
+ "type": "commune",
+ "name": "Versailles",
+ "slug": "versailles",
+ "dept": "78",
+ "title": "Conciergerie Versailles (78) : location courte durée | Coolok",
+ "description": "Le domaine a reçu 8,4 millions de visites en 2025, dont 81 % d'étrangers. Coolok exploite votre logement à Versailles, en français et en anglais. 20 % HT.",
+ "h1": "Conciergerie à Versailles : accueillir la clientèle du château",
+ "image": "/assets/img/heros/versailles.webp",
+ "imageAlt": "Marché Notre-Dame de Versailles un matin de printemps",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Yvelines, aux portes du domaine",
+  "lead": "Le domaine national a enregistré 8,4 millions de visites en 2025, avec 81 % de visiteurs venus de l'étranger (établissement public du château de Versailles, indicateurs publiés le 18 mars 2026). Autrement dit : votre annonce est lue en anglais avant de l'être en français."
+ },
+ "data": {
+  "prix_nuitee": "110 à 250 €",
+  "revenu_mensuel": "2 300 à 6 000 €",
+  "taux_occupation": "69 à 79 %",
+  "prix_m2": "7 800 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Versailles (78) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 110 à 250 € la nuit, avec un taux d'occupation observé de 69 à 79 %, soit 2 300 à 6 000 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Château, spectacles et clientèle internationale",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Une demande internationale rythmée par le spectacle",
+   "md": "Sur les 8,4 millions de visites recensées en 2025, 4,6 millions concernent le château, 1,5 million le domaine de Trianon et 2,1 millions les spectacles. Les Américains forment la deuxième nationalité après les Français. Ce public ne vient pas au hasard : il suit un calendrier public, celui des Grandes Eaux musicales, programmées les samedis et dimanches du 3 avril au 1er novembre 2026, et celui des Grandes Eaux nocturnes, tous les samedis du 6 juin au 19 septembre. Le Mois Molière ajoute près de 350 représentations en ville du 30 mai au 30 juin 2026.\n\nCe calendrier fabrique une saisonnalité lisible et un prix qui varie fortement d'un jour de la semaine à l'autre. Nous avons relevé le 3 septembre 2026 un prix de liste médian de 116 EUR par nuit pour sept nuits en octobre 2026, frais inclus, sur quinze annonces de logements entiers situées dans la commune, avec une fourchette allant de 56 à 235 EUR.\n\nLe même relevé livre un enseignement plus utile encore : treize de ces quinze annonces sont tenues par des hôtes particuliers, et les logements à deux chambres sont rares. Sur ce marché, un logement piloté avec des standards professionnels, une annonce traduite et une réponse rapide se distingue vite. La contrepartie est administrative : la commune encadre la courte durée plus strictement que ses voisines."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Versailles",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "84 095 habitants en 2023; 43 246 logements; 4,8 % de résidences secondaires; 7,9 % de logements vacants; 42,8 % de propriétaires.",
+     "INSEE, RP2023 (consulté le 03/09/2026)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "50 727 emplois en 2023 pour 84 095 habitants (ratio 0,60), 3 672 établissements fin 2024 : préfecture, château, armée, Satory, université",
+     "INSEE, RP2023 et Flores (consulté le 03/09/2026)"
+    ],
+    [
+     "Château de Versailles : fréquentation 2025",
+     "8,4 millions de visites recensées en 2025 dont 4,6 millions pour le Château, 1,5 million pour le domaine de Trianon, 205 000 pour les galeries et 2,1 millions de spectateurs.",
+     "Établissement public du château de Versailles, indicateurs Services publics + (page relue) (18/03/2026)"
+    ],
+    [
+     "Clientèle internationale du château",
+     "81 % de visiteurs étrangers en 2025 (annonce de l'établissement du 06/01/2026).",
+     "News Tank Culture et Beaux Arts (relayant l'établissement); L'Echo touristique (interview L.-S. Berger, 16/10/2025) (06/01/2026 et 16/10/2025)"
+    ],
+    [
+     "Grandes Eaux et spectacles 2026 (Château de Versailles Spectacles)",
+     "Grandes Eaux musicales tous les samedis et dimanches du 3 avril au 1er novembre 2026 et les mardis du 5 mai au 30 juin.",
+     "Château de Versailles et Château de Versailles Spectacles (13/08/2026 et 24/08/2026)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "euro",
+   "title": "Les prix affichés à Versailles aujourd'hui",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Versailles pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 116 EUR par nuit, frais inclus (moyenne 127 EUR, fourchette 56 à 235 EUR), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Versailles",
+   "md": "- **Changement d'usage** : oui, obligatoire depuis le 30/06/2018 (délibération du 14/12/2017 citée par le règlement pour les meublés déclarés avant cette date) **Compensation** : non pour le premier logement qualifié de résidence secondaire d'une même personne physique (autorisation temporaire 9 ans, personnelle, non cessible).\n- **Si vous louez votre résidence principale** : 120 jours (articles 3 et 11 du règlement municipal lus le 03/09/2026 : autorisation obligatoire des la première nuitée pour une résidence secondaire et à partir du 121e jour pour une résidence principale).\n- **À prévoir dans votre dossier** : seul le propriétaire peut déposer la demande, ni mandataire, ni locataire, ni agence de location professionnelle (art. 6); la Ville peut refuser si le nombre de locaux transformés est déjà trop important dans la zone (art. 8).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.versailles.fr/239/economie-et-commerces/tourisme-de-loisirs-et-d-affaires/hebergement-touristique.htm) et [document de référence](https://www.versailles.fr/fileadmin/www.versailles.fr/MEDIA/economie_commerces/hebergement_touristique/pdf/Reglement_enregistrement_et_changement_d_usage_2026.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les quartiers de Versailles",
+   "intro": "Trois quartiers portent la courte durée, et chacun s'adresse à un voyageur différent.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Notre-Dame",
+     "text": "Le quartier le mieux valorisé de la ville (7 326 EUR le mètre carré, Figaro Immobilier, 1er août 2026) : marché couvert, rues piétonnes et château à dix minutes à pied. La cible touristique par excellence."
+    },
+    {
+     "icon": "home",
+     "title": "Saint-Louis",
+     "text": "Cathédrale, Potager du Roi, ruelles anciennes. Un cadre qui séduit les séjours de deux à trois nuits et les visiteurs sensibles au patrimoine du quotidien."
+    },
+    {
+     "icon": "train",
+     "title": "Chantiers",
+     "text": "La gare d'arrivée depuis Montparnasse et La Défense. Adresse pratique pour les visiteurs d'affaires et pour les familles qui repartent tôt le matin."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Versailles",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles et couples internationaux",
+     "text": "Quatre visiteurs du château sur cinq viennent de l'étranger. Ils réservent longtemps à l'avance, lisent l'annonce en anglais et notent sévèrement les imprécisions."
+    },
+    {
+     "icon": "star",
+     "title": "Spectateurs des soirées au domaine",
+     "text": "Les nocturnes du samedi soir de juin à septembre créent la nuit la plus demandée de la semaine, avec des retours tardifs après le feu d'artifice."
+    },
+    {
+     "icon": "target",
+     "title": "Visiteurs professionnels",
+     "text": "Préfecture, pôle industriel de Satory et bassin de Saclay génèrent des nuitées en semaine, à un prix plus stable que la clientèle de loisir."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Versailles",
+   "md": "La haute saison commence avec les Grandes Eaux le 3 avril 2026 et se termine avec elles le 1er novembre. À l'intérieur de cette période, les samedis de nocturne, du 6 juin au 19 septembre, constituent le sommet du calendrier. Juin ajoute le Mois Molière, décembre le Parcours du Roi, du 12 décembre 2026 au 2 janvier 2027. Le creux réel se situe en janvier et février, une fenêtre à travailler avec des séjours plus longs et des prix ajustés plutôt qu'à subir.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Versailles",
+   "intro": "Notre organisation sur une ville qui reçoit le monde entier.",
+   "items": [
+    "Annonce et instructions rédigées en anglais autant qu'en français, avec l'accès depuis les trois gares",
+    "Calendrier de prix calé sur les Grandes Eaux et sur les samedis de nocturne, semaine après semaine",
+    "Retours tardifs après le feu d'artifice pris en compte dans les consignes d'arrivée",
+    "Rotation entre deux séjours de deux nuits, très fréquente ici, avec linge hôtelier et contrôle systématique",
+    "Accompagnement du dossier d'autorisation, que la mairie exige au nom du propriétaire lui-même"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Versailles, votre annonce est lue en anglais avant d'être lue en français. Quatre visiteurs du château sur cinq viennent de l'étranger : si vos consignes ne sont pas traduites, vous perdez la réservation avant même d'avoir répondu. Le samedi soir d'été, avec les nocturnes, c'est votre meilleure nuit de l'année. Le reste du temps, ce sont la propreté et la vitesse de réponse qui font la note.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée à Versailles ?",
+   "a": "Nous avons mesuré le 3 septembre 2026 un prix de liste médian de 116 EUR par nuit pour un séjour de sept nuits en octobre 2026, frais inclus, sur quinze logements entiers situés dans la commune, avec une fourchette de 56 à 235 EUR. Le revenu dépend ensuite du taux de remplissage et de la taille du bien, que l'audit chiffre sous 48 heures."
+  },
+  {
+   "q": "Quelles autorisations faut-il pour louer en courte durée à Versailles ?",
+   "a": "Oui, et deux procédures se cumulent. Le numéro d'enregistrement est obligatoire depuis le 30 juin 2018 pour toute annonce. L'autorisation de changement d'usage est exigée dès la première nuitée pour une résidence secondaire et au-delà du 120e jour pour une résidence principale. Le règlement municipal précise qu'elle doit être demandée par le propriétaire lui-même."
+  },
+  {
+   "q": "Quelle taxe de séjour à Versailles en 2026 ?",
+   "a": "La taxe est perçue par l'agglomération Versailles Grand Parc. Pour un meublé non classé, elle correspond à 5 % du prix de la nuitée hors taxes, par personne, avec une part locale plafonnée à 4,90 EUR, soit jusqu'à 15,93 EUR taxes additionnelles comprises (délibération du 24 juin 2025, guide 2026). Un classement trois étoiles ramène le prélèvement à 5,53 EUR."
+  },
+  {
+   "q": "Faut-il proposer une annonce en anglais à Versailles ?",
+   "a": "C'est la première chose à faire. L'établissement du château a annoncé 81 % de visiteurs étrangers en 2025, les Américains formant la deuxième nationalité. Une annonce, des consignes d'accès et des réponses en anglais changent le taux de conversion. Nous traduisons l'ensemble et répondons dans les deux langues, y compris pendant le séjour."
+  },
+  {
+   "q": "Quel quartier de Versailles privilégier pour la courte durée ?",
+   "a": "Notre-Dame concentre la demande touristique grâce au marché et à la proximité du domaine, mais reste le quartier le plus cher à l'achat. Saint-Louis offre un cadre patrimonial apprécié pour des prix inférieurs. Chantiers vise une autre clientèle, celle qui arrive en train et cherche la commodité plutôt que la vue."
+  }
+ ],
+ "keywords": [
+  "conciergerie versailles",
+  "conciergerie airbnb versailles",
+  "location courte durée versailles"
+ ]
+}

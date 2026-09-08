@@ -1,0 +1,213 @@
+{
+ "url": "/conciergerie-airbnb-hauts-de-seine",
+ "type": "departement",
+ "name": "Hauts-de-Seine",
+ "code": "92",
+ "slug": "conciergerie-airbnb-hauts-de-seine",
+ "title": "Conciergerie Airbnb Hauts-de-Seine, Clichy, Vanves | Coolok",
+ "description": "Deux territoires, deux règlements : où la location courte durée reste permise dans le 92, et pourquoi une SCI change tout. Commission 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb dans les Hauts-de-Seine : où la location courte durée reste possible",
+ "image": "/assets/img/heros/dept-hauts-de-seine.webp",
+ "imageAlt": "Immeuble résidentiel des bords de Seine altoséquanais, lumière rasante",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Hauts-de-Seine",
+  "lead": "Dans les Hauts-de-Seine, la question n'est pas de savoir si votre logement plaira aux voyageurs. C'est de savoir si votre commune et votre statut de détention l'autorisent. Deux territoires se partagent le département avec deux règlements distincts, et le simple fait de détenir votre bien en société suffit à faire basculer le dossier dans la compensation."
+ },
+ "linkText": "Où louer reste permis dans le 92",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui nourrit la demande dans les Hauts-de-Seine",
+   "md": "Ici, la demande vient du travail et des salons, pas du tourisme de loisirs. Clichy comptait 39 130 emplois pour 64 410 habitants au recensement INSEE 2023, avec le siège mondial de L'Oréal, les sièges français d'Amazon, de BIC et de Monoprix, et l'hôpital Beaujon et ses 370 lits. Vanves accueille sur son territoire le Pavillon 7 du parc des expositions de la porte de Versailles, dont l'exploitant Viparis annonce plus de 5,5 millions de visiteurs et plus de 200 événements par an sur l'ensemble du site. Asnières-sur-Seine, troisième ville du département avec 93 941 habitants, joue une autre carte : Paris Saint-Lazare en 5 minutes, La Défense en 5 minutes, et jusqu'à 24 trains par heure aux heures de pointe.\n\nPour un propriétaire, le ticket d'entrée diffère fortement. Le mètre carré médian tous biens s'établissait à 8 053 EUR à Clichy au 1er août 2026 selon Figaro Immobilier, contre un marché plus abordable à Asnières. Vanves affiche par ailleurs 5,3 % de résidences secondaires et de logements occasionnels au recensement INSEE 2023, la part la plus élevée des trois communes que nous exploitons dans le département.\n\nDans l'exploitation, tout se joue sur le règlement de votre territoire. Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation, mais l'impose au-delà et pour toute société, société civile immobilière comprise. Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux pour tout meublé, et limite ailleurs l'autorisation à trois ans non reconductibles."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos communes dans les Hauts-de-Seine, marché par marché",
+   "intro": "Trois villes ouvertes, trois profils de demande. Les fourchettes sortent de nos observations sur les logements entiers ; la colonne Régime, des règlements de Boucle Nord de Seine et de Grand Paris Seine Ouest, relus le 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Clichy](/conciergerie-airbnb-clichy)",
+     "80 à 160 €",
+     "76 à 86 %",
+     "1 800 à 4 100 €",
+     "MODERE"
+    ],
+    [
+     "[Vanves](/conciergerie-airbnb-vanves)",
+     "85 à 170 €",
+     "73 à 83 %",
+     "1 800 à 4 200 €",
+     "RESTRICTIF"
+    ],
+    [
+     "[Asnières-sur-Seine](/conciergerie-airbnb-asnieres-sur-seine)",
+     "80 à 165 €",
+     "72 à 82 %",
+     "1 700 à 4 000 €",
+     "MODERE"
+    ]
+   ],
+   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Hauts-de-Seine",
+   "md": "Dans les Hauts-de-Seine, la règle vient de votre territoire et non du département : Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation à Asnières-sur-Seine et à Clichy, tandis que Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux et limite ailleurs l'autorisation à trois ans non reconductibles. Toute personne morale, société civile immobilière incluse, est soumise à compensation dans les deux territoires, ce que nous contrôlons avec vos statuts en main avant de signer.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue dans les Hauts-de-Seine",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Exposants et visiteurs de salons",
+     "text": "Le calendrier du parc des expositions fabrique des pointes de plusieurs jours. Ces réservations tombent tôt, se paient cher et acceptent les logements sans charme s'ils sont impeccables."
+    },
+    {
+     "icon": "wallet",
+     "title": "Déplacements d'affaires",
+     "text": "Sièges sociaux, quartier d'affaires et administrations remplissent les nuits du lundi au jeudi. Une table de travail, une connexion testée et une arrivée autonome tardive suffisent à les fidéliser."
+    },
+    {
+     "icon": "users",
+     "title": "Proches de patients et séjours médicaux",
+     "text": "Un grand hôpital dans la commune génère une demande continue de logements complets pour plusieurs nuits, souvent réservés dans l'urgence et peu sensibles à la saison."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Deux territoires, deux règlements : ce qui s'applique chez vous",
+   "intro": "Le département est couvert par des établissements publics territoriaux qui ont adopté des règles différentes. Voici lesquelles, et ce qu'elles changent selon votre statut.",
+   "head": [
+    "Territoire et communes",
+    "Personne physique",
+    "Société ou SCI",
+    "Résidence principale"
+   ],
+   "rows": [
+    [
+     "Boucle Nord de Seine : Asnières-sur-Seine, Bois-Colombes, Clichy, Villeneuve-la-Garenne",
+     "Un logement sans compensation, autorisation personnelle qui cesse avec l'activité",
+     "Compensation dès le premier logement",
+     "120 jours par année civile"
+    ],
+    [
+     "Boucle Nord de Seine : Colombes et Gennevilliers",
+     "Compensation exigée",
+     "Compensation exigée",
+     "120 jours par année civile"
+    ],
+    [
+     "Grand Paris Seine Ouest : Chaville, Meudon, Sèvres, Ville-d'Avray, Marnes-la-Coquette",
+     "Un logement sans compensation, autorisation de 3 ans non reconductible",
+     "Compensation exigée",
+     "120 jours par année civile"
+    ],
+    [
+     "Grand Paris Seine Ouest : Boulogne-Billancourt et Issy-les-Moulineaux",
+     "Compensation pour tout meublé de tourisme",
+     "Compensation pour tout meublé de tourisme",
+     "120 jours par année civile"
+    ],
+    [
+     "Vanves",
+     "Un logement sans compensation, autorisation de 3 ans non reconductible",
+     "Compensation exigée",
+     "90 jours depuis le 1er janvier 2026"
+    ]
+   ],
+   "source": "Règlement de l'établissement public territorial Boucle Nord de Seine approuvé le 24 juin 2021 et modifié le 21 septembre 2023, règlement de Grand Paris Seine Ouest du 26 juin 2018 applicable au 1er janvier 2019, délibération du conseil municipal de Vanves du 24 juin 2025. Documents lus le 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "chart",
+   "title": "Le chiffre que Vanves a publié avant de descendre à 90 jours",
+   "md": "La délibération du conseil municipal du 24 juin 2025, lue intégralement le 3 septembre 2026, publie un écart rarement rendu public : **284 meublés de tourisme déclarés sur le téléservice communal en 2024, pour 34 autorisations de changement d'usage délivrées la même année**.\n\nLa progression est nette : 1 déclaration en 2021, 148 en 2022, 198 en 2023, 284 en 2024. Côté autorisations : 2 en 2021, 11 en 2022, 24 en 2023, 34 en 2024.\n\nC'est ce rapport qui a motivé l'abaissement du plafond de la résidence principale à 90 jours au 1er janvier 2026. Ce que cela vous dit concrètement : une commune qui mesure un écart de cette ampleur finit par contrôler. Un dossier régulier n'est pas une formalité administrative, c'est ce qui protège votre revenu sur la durée.",
+   "cta": {
+    "label": "Voir la page Vanves",
+    "href": "/conciergerie-airbnb-vanves",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Trois erreurs qui font échouer un dossier dans le 92",
+   "intro": "Nous les rencontrons régulièrement, et elles se corrigent presque toujours avant l'achat plutôt qu'après.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "shield",
+     "title": "Acheter en société sans le vérifier",
+     "text": "Dans les deux territoires du département, une personne morale déclenche la compensation, même pour un seul logement. La forme juridique doit être choisie après lecture du règlement, jamais avant."
+    },
+    {
+     "icon": "home",
+     "title": "Viser un deuxième logement",
+     "text": "L'autorisation sans compensation est réservée à un logement par personne physique. Le deuxième bien change de régime et devient, en pratique, hors de portée d'un particulier."
+    },
+    {
+     "icon": "doc",
+     "title": "Oublier le diagnostic énergétique",
+     "text": "Toute nouvelle autorisation de changement d'usage suppose une classe A à E, et A à D à partir du 1er janvier 2034. Un logement classé F ou G ne franchira pas l'étape administrative."
+    }
+   ]
+  }
+ ],
+ "quote": {
+  "text": "Le 92, c'est le département où j'ai le plus de propriétaires qui découvrent la règle après l'achat. Ils montent une SCI parce qu'un comptable le leur a conseillé, et ils apprennent que la SCI les fait tomber dans la compensation, c'est-à-dire nulle part. Vérifiez le règlement de votre territoire avant de choisir la forme juridique, pas l'inverse. Et si votre commune est fermée, ce n'est pas une catastrophe : il y en a une ouverte à deux kilomètres.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée dans les Hauts-de-Seine ?",
+   "a": "Nos observations situent le revenu mensuel d'un logement entier entre 1 800 et 4 100 EUR à Clichy, entre 1 800 et 4 200 EUR à Vanves et entre 1 700 et 4 000 EUR à Asnières-sur-Seine. Ces fourchettes dépendent surtout de la capacité d'accueil et du taux d'occupation réel. Nous chiffrons votre bien précisément dans un audit remis sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme dans les Hauts-de-Seine ?",
+   "a": "Oui, pour tout logement autre que votre résidence principale, dans les communes que nous exploitons. À Clichy et à Asnières-sur-Seine, elle est accordée sans compensation pour un logement par personne physique depuis le 1er octobre 2021. À Vanves, elle dure trois ans et n'est pas reconductible. Le dossier passe par le service urbanisme de la commune."
+  },
+  {
+   "q": "Ma SCI peut-elle louer en courte durée dans les Hauts-de-Seine ?",
+   "a": "Difficilement. Les règlements de Boucle Nord de Seine et de Grand Paris Seine Ouest soumettent toute personne morale à la compensation, société civile immobilière comprise, dès le premier logement. Concrètement, il faut créer une surface d'habitation équivalente, ce qu'un particulier ne peut pas financer. Vérifiez ce point avant de constituer la société, pas après."
+  },
+  {
+   "q": "Pourquoi Vanves limite-t-elle la résidence principale à 90 jours ?",
+   "a": "Parce que sa délibération du 24 juin 2025 constate 284 meublés de tourisme déclarés en 2024 pour seulement 34 autorisations de changement d'usage délivrées la même année. L'abaissement à 90 jours par année civile est entré en vigueur le 1er janvier 2026. Il s'applique au logement que vous occupez au moins huit mois par an."
+  },
+  {
+   "q": "Pourquoi Coolok n'a-t-il pas de page à Boulogne-Billancourt ni à Levallois ?",
+   "a": "Parce que nous n'ouvrons pas de page là où nous ne pouvons pas exploiter légalement. Boulogne-Billancourt et Issy-les-Moulineaux imposent la compensation pour tout meublé de tourisme, ce qui ferme la porte à un particulier. Nous préférons afficher trois communes praticables plutôt que de vous faire perdre un rendez-vous sur un projet impossible."
+  }
+ ],
+ "keywords": [
+  "conciergerie hauts de seine",
+  "conciergerie airbnb hauts-de-seine",
+  "conciergerie clichy"
+ ]
+}

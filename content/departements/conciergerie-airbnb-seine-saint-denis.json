@@ -1,0 +1,184 @@
+{
+ "url": "/conciergerie-airbnb-seine-saint-denis",
+ "type": "departement",
+ "name": "Seine-Saint-Denis",
+ "code": "93",
+ "slug": "conciergerie-airbnb-seine-saint-denis",
+ "title": "Conciergerie Airbnb Seine-Saint-Denis (93) | Coolok",
+ "description": "Montreuil et Pantin : autorisation personnelle de 3 ans, sans compensation, accordée tacitement. Le règlement d Est Ensemble et nos fourchettes de revenus.",
+ "h1": "Conciergerie Airbnb en Seine-Saint-Denis : ce que le règlement d'Est Ensemble a changé",
+ "image": "/assets/img/heros/dept-seine-saint-denis.webp",
+ "imageAlt": "Ancienne halle industrielle réhabilitée en logements en Seine-Saint-Denis",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Seine-Saint-Denis",
+  "lead": "Montreuil et Pantin partagent un règlement intercommunal que peu de propriétaires ont lu. Depuis le 8 juillet 2024, l'autorisation de changement d'usage y est personnelle, valable trois ans, sans compensation, et accordée tacitement lorsque le dossier est complet. C'est l'un des cadres les plus praticables de la petite couronne, et il ne durera pas forcément."
+ },
+ "linkText": "Est Ensemble : trois ans, sans compensation",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui fait vivre le marché séquano-dionysien",
+   "md": "Ces deux villes sont des pôles d'emploi, pas des cités-dortoirs. Montreuil comptait 111 934 habitants et 61 214 emplois au lieu de travail au recensement INSEE 2023 ; Pantin, 61 929 habitants et 33 135 emplois. Le canal de l'Ourcq à lui seul a vu naître près de 8 500 emplois dans des locaux créés ou transformés, dont 3 000 salariés d'un grand établissement bancaire installés aux Grands Moulins. À cela s'ajoutent des rendez-vous datés : le Salon du livre et de la presse jeunesse a réuni 196 000 visiteurs en 2025 et revient du 25 au 30 novembre 2026 ; la Philharmonie de Paris, à deux stations de Pantin, a accueilli 1 655 563 personnes en 2025 selon News Tank Culture le 27 janvier 2026.\n\nPour un propriétaire, le signal le plus parlant est ailleurs : la rareté de l'offre. Les résidences secondaires et logements occasionnels ne représentaient que 1,8 % du parc à Montreuil et 2,9 % à Pantin au recensement INSEE 2023. Autrement dit, presque tout le monde y habite à l'année, et un meublé de tourisme bien tenu se retrouve sur un marché peu encombré. Les prix médians tous biens s'établissaient à 5 407 EUR le mètre carré à Montreuil et 5 967 EUR à Pantin au 1er août 2026 selon Figaro Immobilier.\n\nL'exploitation, elle, se joue au niveau du quartier. À Montreuil, le mètre carré va de 6 615 EUR dans le Bas-Montreuil à 3 943 EUR aux Grands Pêchers ; à Pantin, de 6 477 EUR autour de l'Ourcq à 4 585 EUR aux Courtillières. Cet écart de un à un et demi à l'intérieur d'une même commune se retrouve dans les prix de nuit atteignables."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos communes dans la Seine-Saint-Denis, marché par marché",
+   "intro": "Deux communes ouvertes dans le département à ce jour. Les fourchettes viennent de nos observations, la colonne Régime de notre relevé réglementaire du 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Montreuil](/conciergerie-airbnb-montreuil)",
+     "75 à 155 €",
+     "70 à 80 %",
+     "1 600 à 3 700 €",
+     "MODERE"
+    ],
+    [
+     "[Pantin](/conciergerie-airbnb-pantin)",
+     "70 à 150 €",
+     "72 à 82 %",
+     "1 500 à 3 700 €",
+     "MODERE"
+    ]
+   ],
+   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Seine-Saint-Denis",
+   "md": "En Seine-Saint-Denis, les communes de Montreuil et de Pantin relèvent du règlement de l'établissement public territorial Est Ensemble, en vigueur depuis le 8 juillet 2024 : l'autorisation de changement d'usage y est personnelle, valable trois ans, exigée dès la première nuitée pour une résidence secondaire, et la compensation ne s'applique qu'aux Lilas. Ni Montreuil ni Pantin n'ont adhéré au téléservice d'enregistrement du territoire, si bien qu'aucun numéro communal n'y est délivré au 3 septembre 2026, en attendant le téléservice national annoncé pour le quatrième trimestre 2026.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue en Seine-Saint-Denis",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Public des salles et des salons",
+     "text": "Concerts, expositions et grands salons professionnels remplissent des dates précises, connues des mois à l'avance. Un calendrier bien tenu vaut plus qu'une baisse de prix."
+    },
+    {
+     "icon": "camera",
+     "title": "Équipes créatives en production",
+     "text": "Ateliers d'artistes, agences, tournages et résidences font venir des équipes pour plusieurs nuits consécutives, qui cherchent de l'espace et une cuisine plutôt qu'un hôtel."
+    },
+    {
+     "icon": "users",
+     "title": "Proches de patients et visiteurs de la capitale",
+     "text": "Un centre hospitalier desservi par le métro et une porte de Paris à quelques stations alimentent une demande continue, moins chère qu'intra-muros et sans contrainte de quota."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "clock",
+   "title": "L'accord tacite, l'avantage discret d'Est Ensemble",
+   "md": "L'article 7 du règlement d'Est Ensemble, lu intégralement le 3 septembre 2026, prévoit que l'autorisation est réputée accordée lorsque la mairie ne s'est pas prononcée dans le délai d'instruction sur un dossier complet.\n\nComparez avec les deux autres régimes que nous suivons dans notre couverture :\n\n- **Est Ensemble** (Montreuil, Pantin) : silence de la mairie sur dossier complet, l'autorisation est réputée accordée.\n- **[Versailles](/conciergerie-airbnb-yvelines)** : l'article 10 du règlement municipal précise qu'en l'absence de réponse au bout de deux mois, la demande est réputée refusée.\n- **[Val d'Europe](/conciergerie-airbnb-seine-et-marne)** : instruction en deux mois maximum, le silence valant accord.\n\nLes trois mots qui comptent sont « sur dossier complet ». Une pièce manquante ne déclenche pas le délai, et c'est très exactement là que la plupart des demandes se perdent."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Les neuf villes d'Est Ensemble et ce qui change de l'une à l'autre",
+   "intro": "Le règlement est commun, mais il réserve deux exceptions que personne n'affiche. Voici la carte réelle du territoire.",
+   "head": [
+    "Commune",
+    "Compensation",
+    "Résidence principale",
+    "Numéro d'enregistrement communal"
+   ],
+   "rows": [
+    [
+     "Montreuil",
+     "Non exigée",
+     "120 jours par année civile",
+     "Aucun : la commune n'a pas adhéré au téléservice du territoire"
+    ],
+    [
+     "Pantin",
+     "Non exigée, la Ville l'indique explicitement",
+     "120 jours par année civile",
+     "Aucun, la procédure déclarative n'étant pas appliquée"
+    ],
+    [
+     "Les Lilas",
+     "Exigée : seule commune du territoire concernée, par l'article 4",
+     "120 jours par année civile",
+     "Oui, via le téléservice d'Est Ensemble"
+    ],
+    [
+     "Romainville",
+     "Non exigée",
+     "90 jours, seule commune du territoire à avoir abaissé le plafond",
+     "Oui, via le téléservice d'Est Ensemble"
+    ],
+    [
+     "Bagnolet, Bobigny, Bondy, Le Pré-Saint-Gervais, Noisy-le-Sec",
+     "Non exigée",
+     "120 jours par année civile",
+     "Oui, via le téléservice d'Est Ensemble"
+    ]
+   ],
+   "source": "Règlement de changement d'usage de l'établissement public territorial Est Ensemble, en vigueur le 8 juillet 2024, lu intégralement le 3 septembre 2026, complété par les pages officielles des villes de Montreuil et de Pantin."
+  },
+  {
+   "type": "rich",
+   "bg": "white",
+   "narrow": true,
+   "h2": "Pourquoi si peu de meublés à Montreuil et à Pantin",
+   "md": "Un chiffre résume la situation : 1,8 % du parc de logements montreuillois et 2,9 % du parc pantinois étaient des résidences secondaires ou des logements occasionnels au recensement INSEE 2023. Sur des communes de 111 934 et 61 929 habitants, cela fait très peu d'offre pour beaucoup de demande.\n\nC'est une opportunité et une responsabilité. Une opportunité, parce qu'un logement bien tenu se distingue vite sur un marché aussi peu fourni, et parce que le règlement local n'impose ni compensation, ni quota, ni numéro communal. Une responsabilité, parce que c'est précisément ce type d'écart qui pousse une collectivité à durcir sa règle, comme l'a fait Romainville en abaissant son plafond à 90 jours.\n\nNotre position est simple : un dossier régulier, un voisinage respecté, aucune demande de fête acceptée. C'est ce qui garde votre autorisation valable au renouvellement, dans trois ans."
+  }
+ ],
+ "quote": {
+  "text": "Est Ensemble, c'est le règlement le plus raisonnable que j'aie lu en petite couronne : trois ans, pas de compensation, et si la mairie ne répond pas dans les délais avec un dossier complet, vous avez votre accord. Ailleurs, le silence vaut refus. Ce n'est pas un détail, c'est la différence entre un projet qui démarre en deux mois et un projet qui n'aboutit jamais. Profitez-en tant que c'est le cas, parce qu'un règlement se révise.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée en Seine-Saint-Denis ?",
+   "a": "Nos observations situent le revenu mensuel d'un logement entier entre 1 600 et 3 700 EUR à Montreuil et entre 1 500 et 3 700 EUR à Pantin. L'écart tient d'abord au quartier : le mètre carré varie de 3 943 à 6 615 EUR selon le secteur montreuillois. Nous chiffrons votre logement précisément dans un audit remis sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme en Seine-Saint-Denis ?",
+   "a": "À Montreuil et à Pantin, oui, dès la première nuitée pour un logement autre que votre résidence principale. Elle est personnelle, valable trois ans, sans compensation, et le règlement d'Est Ensemble prévoit un accord tacite si votre dossier est complet. Votre résidence principale reste libre dans la limite de 120 jours par année civile."
+  },
+  {
+   "q": "Ai-je besoin d'un numéro d'enregistrement à Montreuil ou à Pantin ?",
+   "a": "Non au 3 septembre 2026 : ces deux communes n'ont pas adhéré au téléservice d'enregistrement d'Est Ensemble, contrairement à sept autres villes du territoire. La situation changera avec l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 par le ministère : tous les meublés devront alors porter un numéro sur leurs annonces."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Montreuil et à Pantin ?",
+   "a": "Les deux communes appliquent 5 % du coût hors taxes de la nuitée par personne pour un meublé non classé, porté à 16,25 % avec les taxes additionnelles franciliennes. Le plafond perçu atteint 15,60 EUR par personne et par nuit à Montreuil et 15,93 EUR à Pantin. Un meublé classé trois étoiles est taxé 5,53 EUR dans les deux villes."
+  },
+  {
+   "q": "Coolok couvre-t-il d'autres communes de Seine-Saint-Denis ?",
+   "a": "Nos deux pages correspondent aux villes où nous exploitons aujourd'hui. Les autres communes d'Est Ensemble relèvent du même règlement, ce qui rend une extension techniquement simple, mais nous ne l'annoncerons qu'une fois l'organisation terrain en place. Parlez-nous de votre bien : nous vous dirons franchement si nous pouvons le servir correctement."
+  }
+ ],
+ "keywords": [
+  "conciergerie seine-saint-denis",
+  "conciergerie airbnb montreuil",
+  "conciergerie airbnb pantin"
+ ]
+}

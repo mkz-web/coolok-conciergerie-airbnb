@@ -1,0 +1,69 @@
+{
+ "url": "/qui-sommes-nous",
+ "type": "equipe",
+ "title": "Qui sommes-nous : Thierry Moraldo, fondateur de Coolok",
+ "description": "Coolok Services, conciergerie de meublés de tourisme créée en 2024 à Joinville-le-Pont par Thierry Moraldo, investisseur immobilier depuis plus de 10 ans.",
+ "h1": "Coolok, une conciergerie tenue par un propriétaire",
+ "image": "/assets/img/thierry-moraldo.webp",
+ "imageAlt": "Thierry Moraldo, fondateur de Coolok Services",
+ "imageWidth": 480,
+ "imageHeight": 422,
+ "hero": {
+  "eyebrow": "Qui sommes-nous",
+  "lead": "Coolok Services a été créée le 10 octobre 2024 à Joinville-le-Pont, dans le Val-de-Marne, par Thierry Moraldo, investisseur immobilier depuis plus de dix ans. Il a été propriétaire-bailleur avant d'être concierge : c'est de là que vient la façon dont nous travaillons.",
+  "ctas": [
+   { "label": "Réserver un appel avec Thierry", "href": "https://calendly.com/contact-coolok/30min", "style": "primary", "icon": "calendar" },
+   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "secondary", "icon": "calc" }
+  ]
+ },
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce que nous sommes, précisément",
+   "narrow": true,
+   "md": "Coolok Services est une société par actions simplifiée unipersonnelle au capital de 1 000 EUR, immatriculée au registre du commerce et des sociétés de Créteil sous le numéro 934 155 227, dont le siège est au 4 avenue Oudinot à Joinville-le-Pont (94340). Thierry Moraldo en est le président et le directeur de la publication de ce site.\n\nNous exerçons un seul métier : exploiter des meublés de tourisme pour le compte de leurs propriétaires. Nous ne vendons pas de biens, nous ne nous occupons pas de baux d'habitation classiques, nous ne faisons pas d'intermédiation immobilière. Les réservations passent exclusivement par les plateformes partenaires, Airbnb et Booking.com.\n\nNotre zone de travail, ce sont les huit départements d'Île-de-France, avec une densité réelle autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne, en petite couronne Est, à Versailles et à Fontainebleau. Nous nous occupons également d'un logement à Reims. Quand une commune est trop loin de nos équipes pour que le ménage et l'accueil tiennent le niveau, nous le disons avant de signer."
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Trois principes qui se voient dans le contrat",
+   "intro": "Les valeurs qui ne changent rien à la facture ne nous intéressent pas. Voici celles qui se vérifient.",
+   "cols": 3,
+   "items": [
+    { "icon": "wallet", "title": "Payés au résultat", "text": "Une commission unique de 20 % HT sur les revenus réellement encaissés. Pas de séjour, pas de commission : notre intérêt est strictement aligné sur le vôtre." },
+    { "icon": "doc", "title": "Tout est écrit", "text": "Ce qui est inclus, ce qui ne l'est pas, la grille de ménage, la durée du mandat. Un devis qui n'est pas clair est un devis qu'il faut refuser, y compris le nôtre." },
+    { "icon": "users", "title": "Un interlocuteur, pas un service client", "text": "C'est Thierry qui réalise votre audit chiffré et qui suit votre logement. Vous savez qui appeler, et vous n'avez pas de numéro de dossier." }
+   ]
+  },
+  {
+   "type": "stats",
+   "bg": "white",
+   "h2": "Coolok en chiffres vérifiables",
+   "items": [
+    { "label": "Note Google", "value": "4,8/5", "note": "Sur 21 avis publics, relevés le 2 septembre 2026" },
+    { "label": "Commission unique", "value": "20 % HT", "note": "Tout compris, au résultat" },
+    { "label": "Départements couverts", "value": "8", "note": "Toute l'Île-de-France, plus Reims" },
+    { "label": "Création de la société", "value": "10/10/2024", "note": "RCS Créteil 934 155 227" }
+   ],
+   "source": "Sources : fiche Google Business Coolok conciergerie (relevé du 2 septembre 2026), registre du commerce et des sociétés."
+  },
+  {
+   "type": "logos",
+   "bg": "cream",
+   "h2": "Avec qui nous travaillons",
+   "intro": "Des outils du métier pour les prix et les accès, des partenaires locaux pour le terrain, des médias qui nous ont donné la parole."
+  }
+ ],
+ "quote": {
+  "text": "J'ai été propriétaire bailleur avant d'être concierge. Ce qui compte, ce n'est pas le trafic sur une annonce, ce sont les clés qui tombent et ce qui reste sur le compte à la fin du mois. C'est pour ça que je suis payé au résultat : si votre logement ne rapporte rien, je ne suis pas payé. C'est un métier de longue haleine, pas un coup à faire.",
+  "pending": true
+ },
+ "faq": [
+  { "q": "Qui va s'occuper concrètement de mon logement ?", "a": "Thierry Moraldo réalise l'audit, signe le mandat et pilote votre logement. Le ménage, le linge et la maintenance sont assurés par nos équipes et nos artisans partenaires sur la zone concernée, toujours coordonnés par Coolok, jamais laissés au voyageur." },
+  { "q": "Coolok détient-elle une carte professionnelle immobilière ?", "a": "Non, et elle n'en a pas besoin pour notre activité : nous exploitons des meublés de tourisme, nous ne réalisons ni transaction ni gestion de baux d'habitation, activités qui relèvent de la loi Hoguet. Si votre projet demande ces prestations, nous vous orientons vers un professionnel qui en a la carte." },
+  { "q": "Depuis quand Coolok existe-t-elle ?", "a": "La société a été immatriculée le 10 octobre 2024 au registre du commerce et des sociétés de Créteil. Thierry Moraldo, lui, investit dans l'immobilier depuis plus de dix ans, et c'est cette expérience de propriétaire qui a donné naissance à Coolok." },
+  { "q": "Où sont vos bureaux ?", "a": "Au 4 avenue Oudinot à Joinville-le-Pont, dans le Val-de-Marne, à quinze minutes de Paris par le RER A. Nous nous déplaçons sur vos logements en Île-de-France pour la visite initiale et les contrôles qualité." }
+ ],
+ "keywords": ["coolok", "conciergerie airbnb joinville-le-pont", "thierry moraldo coolok"]
+}

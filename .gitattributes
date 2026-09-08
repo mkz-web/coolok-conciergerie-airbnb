@@ -1,0 +1,7 @@
+# Fins de ligne LF dans le dépôt ET dans la copie de travail, quel que soit core.autocrlf du poste
+# (les scripts de remplacement par lot de la recette comparent ligne à ligne : un fichier CRLF les fait tous échouer).
+* text=auto eol=lf
+*.webp binary
+*.png binary
+*.jpg binary
+*.ico binary

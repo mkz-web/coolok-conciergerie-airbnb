@@ -1,0 +1,24 @@
+{
+ "url": "/merci-contact",
+ "type": "merci",
+ "noindex": true,
+ "title": "Merci, votre message est bien reçu | Coolok",
+ "description": "Votre message a bien été envoyé à Coolok. Nous vous répondons sous 24 h ouvrées.",
+ "h1": "Merci, votre message est bien arrivé",
+ "text": "Thierry ou un membre de l'équipe vous répond sous 24 h ouvrées, par téléphone ou par email.",
+ "next": [
+  "Préparez les informations sur votre bien : adresse approximative, surface, nombre de chambres.",
+  "Notez vos dates d'usage personnel si vous souhaitez garder le logement certaines semaines."
+ ],
+ "ctas": [
+  {
+   "label": "Estimer mes revenus en attendant",
+   "href": "/simulateur-locatif"
+  },
+  {
+   "label": "Retour à l'accueil",
+   "href": "/",
+   "style": "secondary"
+  }
+ ]
+}

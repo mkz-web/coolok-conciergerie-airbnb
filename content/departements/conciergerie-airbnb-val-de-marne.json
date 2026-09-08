@@ -1,0 +1,283 @@
+{
+ "url": "/conciergerie-airbnb-val-de-marne",
+ "type": "departement",
+ "name": "Val-de-Marne",
+ "code": "94",
+ "slug": "conciergerie-airbnb-val-de-marne",
+ "title": "Conciergerie Airbnb Val-de-Marne (94) : 12 communes | Coolok",
+ "description": "Coolok est une entreprise du 94, siège à Joinville-le-Pont. Douze communes exploitées, les quotas commune par commune et nos fourchettes de revenus observées.",
+ "h1": "Conciergerie Airbnb dans le Val-de-Marne : notre département, commune par commune",
+ "image": "/assets/img/heros/dept-val-de-marne.webp",
+ "imageAlt": "Bord de Marne val-de-marnais avec pontons et pavillons, à l'heure dorée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Val-de-Marne",
+  "lead": "Le Val-de-Marne n'est pas un territoire de plus sur notre carte : c'est celui où nous sommes installés, au 4 avenue Oudinot à Joinville-le-Pont. Douze communes y sont couvertes, réparties sur trois territoires qui appliquent chacun leur règlement. Et la vraie question, ici, n'est pas l'autorisation : c'est le nombre de logements que vous avez le droit d'exploiter."
+ },
+ "linkText": "Douze communes, trois règlements, des quotas",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui fait tourner le marché val-de-marnais",
+   "md": "La demande vient d'un empilement de moteurs très différents, tous mesurés. Le donjon et le château de Vincennes ont accueilli 164 004 visiteurs en 2025 selon le Centre des monuments nationaux, en bordure d'un bois que la Ville de Paris crédite de 11 millions de visiteurs par an. À Charenton-le-Pont, la grande salle de spectacle voisine est à une station de métro et annonce environ 140 événements et 1,5 million de spectateurs par an. À Villejuif, Gustave Roussy a suivi 52 257 patients et réalisé 277 092 consultations en 2024, dont 24 000 nouveaux patients. Et la Marne est redevenue baignable : 50 000 baigneurs recensés à l'été 2025 sur les deux sites de Joinville-le-Pont et de Maisons-Alfort.\n\nPour un propriétaire, l'amplitude des prix d'achat est frappante à l'intérieur d'un même département. Les estimations Figaro Immobilier au 1er juillet 2026 vont de 9 178 EUR le mètre carré à Saint-Mandé à 4 160 EUR à Chennevières-sur-Marne, en passant par 7 364 EUR à Charenton-le-Pont et 5 068 EUR à Ivry-sur-Seine. Le niveau de vie médian suit la même courbe, de 37 610 EUR à Nogent-sur-Marne à 22 210 EUR à Ivry-sur-Seine au recensement INSEE 2023.\n\nEn exploitation, la contrainte dominante n'est pas l'autorisation, qui s'obtient sans compensation dans la quasi-totalité du département : ce sont les plafonds. Vincennes limite à 30 % la part de meublés par immeuble et exige une compensation à partir du troisième bien ; Charenton-le-Pont autorise un seul logement par foyer fiscal ; Villejuif en autorise deux, à condition d'être propriétaire depuis plus de cinq ans."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Nos communes dans le Val-de-Marne, marché par marché",
+   "intro": "Douze communes, du bois de Vincennes au plateau de Chennevières. Les fourchettes viennent de nos observations sur les logements entiers, la colonne Régime de notre relevé réglementaire du 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Régime"
+   ],
+   "rows": [
+    [
+     "[Vincennes](/conciergerie-airbnb-vincennes)",
+     "100 à 200 €",
+     "75 à 85 %",
+     "2 200 à 5 100 €",
+     "restrictif"
+    ],
+    [
+     "[Saint-Mandé](/conciergerie-airbnb-saint-mande)",
+     "95 à 190 €",
+     "72 à 82 %",
+     "2 000 à 4 700 €",
+     "modere"
+    ],
+    [
+     "[Charenton-le-Pont](/conciergerie-airbnb-charenton-le-pont)",
+     "90 à 180 €",
+     "74 à 84 %",
+     "2 000 à 4 600 €",
+     "restrictif"
+    ],
+    [
+     "[Ivry-sur-Seine](/conciergerie-airbnb-ivry-sur-seine)",
+     "75 à 150 €",
+     "72 à 82 %",
+     "1 600 à 3 700 €",
+     "restrictif (en cours)"
+    ],
+    [
+     "[Maisons-Alfort](/conciergerie-airbnb-maisons-alfort)",
+     "80 à 160 €",
+     "69 à 79 %",
+     "1 600 à 3 800 €",
+     "modere"
+    ],
+    [
+     "[Saint-Maur-des-Fossés](/conciergerie-airbnb-saint-maur-des-fosses)",
+     "85 à 175 €",
+     "65 à 75 %",
+     "1 700 à 3 900 €",
+     "modere"
+    ],
+    [
+     "[Saint-Maurice](/conciergerie-airbnb-saint-maurice)",
+     "80 à 160 €",
+     "68 à 78 %",
+     "1 600 à 3 700 €",
+     "modere"
+    ],
+    [
+     "[Villejuif](/conciergerie-airbnb-villejuif)",
+     "70 à 140 €",
+     "70 à 80 %",
+     "1 400 à 3 300 €",
+     "modere"
+    ],
+    [
+     "[Joinville-le-Pont](/conciergerie-airbnb-joinville-le-pont)",
+     "75 à 150 €",
+     "60 à 72 %",
+     "1 400 à 3 300 €",
+     "modere"
+    ],
+    [
+     "[Alfortville](/conciergerie-airbnb-alfortville)",
+     "70 à 145 €",
+     "53 à 63 %",
+     "1 100 à 2 700 €",
+     "modere"
+    ],
+    [
+     "[Nogent-sur-Marne](/conciergerie-airbnb-nogent-sur-marne)",
+     "90 à 185 €",
+     "70 à 80 %",
+     "1 900 à 4 500 €",
+     "modere"
+    ],
+    [
+     "[Chennevières-sur-Marne](/conciergerie-airbnb-chennevieres-sur-marne)",
+     "70 à 140 €",
+     "58 à 70 %",
+     "1 200 à 2 900 €",
+     "modere"
+    ]
+   ],
+   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Val-de-Marne",
+   "md": "Dans le Val-de-Marne, trois établissements publics territoriaux appliquent chacun leur règlement, et aucun n'impose de compensation en dehors de Vincennes à partir du troisième bien : l'autorisation de changement d'usage est en revanche exigée partout pour un logement autre que votre résidence principale. Les vrais verrous sont les quotas, d'un logement par foyer fiscal à Charenton-le-Pont à deux autorisations par loueur à Alfortville, à Chennevières-sur-Marne et à Villejuif, et ce sont eux que nous contrôlons en premier lors de l'étude de votre dossier.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue dans le Val-de-Marne",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "bed",
+     "title": "Accompagnants de patients",
+     "text": "Un centre de lutte contre le cancer, un pôle hospitalier de rééducation et plusieurs maternités attirent des familles pour des séjours de plusieurs semaines, à l'année, sans saisonnalité."
+    },
+    {
+     "icon": "star",
+     "title": "Spectateurs et sportifs",
+     "text": "Concerts, hippodrome, festivals de bord de Marne et institut national du sport font venir un public daté, souvent pour une ou deux nuits, prêt à payer la proximité."
+    },
+    {
+     "icon": "train",
+     "title": "Actifs en mobilité vers la capitale",
+     "text": "Ligne 1, ligne 8, RER A, RER D et bientôt la ligne 15 Sud : le département vend d'abord un temps de trajet, et cela se lit directement dans le prix de la nuit."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Combien de logements avez-vous le droit d'exploiter, commune par commune",
+   "intro": "C'est la contrainte la plus mal connue du département, et celle qui fait tomber le plus de projets. Relevé aux sources officielles le 3 septembre 2026.",
+   "head": [
+    "Commune",
+    "Plafond par propriétaire",
+    "Durée de l'autorisation",
+    "Résidence principale"
+   ],
+   "rows": [
+    [
+     "Vincennes",
+     "30 % de meublés au maximum par immeuble, compensation à partir du 3e bien pour une personne physique et dès le 1er pour une société",
+     "Régime territorial modifié le 14 octobre 2025",
+     "90 jours depuis le 1er novembre 2025"
+    ],
+    [
+     "Charenton-le-Pont",
+     "Un logement par foyer fiscal, 10 % des logements d'une même copropriété au maximum (minimum 1, maximum 3), personnes morales exclues",
+     "2 ans non reconductibles, depuis le 1er mars 2024",
+     "120 jours par année civile"
+    ],
+    [
+     "Villejuif",
+     "Deux logements par propriétaire, réservés aux propriétaires depuis plus de 5 ans d'un logement de plus de 5 ans",
+     "5 ans renouvelables deux fois, soit 15 ans au maximum",
+     "120 jours par année civile"
+    ],
+    [
+     "Alfortville et Chennevières-sur-Marne",
+     "Deux autorisations par loueur",
+     "2 ans, à titre personnel, renouvelables sur nouvelle demande",
+     "120 jours par année civile"
+    ],
+    [
+     "Ivry-sur-Seine",
+     "Régime voté en principe par le conseil municipal du 2 juillet 2026, contenu non publié",
+     "Non applicable au 3 septembre 2026, le territoire n'ayant pas délibéré",
+     "120 jours au 3 septembre 2026, abaissement à 90 jours voté sans date d'effet publiée"
+    ],
+    [
+     "Saint-Mandé, Joinville-le-Pont, Nogent-sur-Marne, Saint-Maur-des-Fossés, Maisons-Alfort, Saint-Maurice",
+     "Aucun plafond publié, autorisation exigée pour toute résidence secondaire",
+     "Conditions non publiées en ligne, à demander au service urbanisme",
+     "120 jours par année civile"
+    ]
+   ],
+   "source": "Règlements des établissements publics territoriaux Paris Est Marne & Bois, Grand Paris Sud Est Avenir et Grand-Orly Seine Bièvre, pages officielles des communes et note n° 273 de l'Atelier parisien d'urbanisme de mars 2025. Relevé Coolok du 3 septembre 2026."
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Trois particularités val-de-marnaises à connaître",
+   "intro": "Elles n'apparaissent sur aucune brochure et elles pèsent lourd dans le rendement réel d'un logement.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "shield",
+     "title": "Votre voisin peut vous bloquer",
+     "text": "À Vincennes, la part de meublés est plafonnée à 30 % par immeuble ; à Charenton-le-Pont, à 10 % des logements de la copropriété. Le premier arrivé prend la place, et le suivant se voit refuser."
+    },
+    {
+     "icon": "euro",
+     "title": "Une commune sans taxe de séjour",
+     "text": "Chennevières-sur-Marne n'apparaît dans aucune délibération du fichier de la direction générale des finances publiques : vos voyageurs n'y paient aucune taxe de séjour, contrairement aux onze autres communes."
+    },
+    {
+     "icon": "train",
+     "title": "Une ligne de métro qui arrive en 2027",
+     "text": "La ligne 15 Sud est annoncée pour l'automne 2027 : Villejuif rejoindra Saint-Maur en 11 minutes contre 46, et la gare de Saint-Maur-Créteil sera la plus profonde de France avec des quais à 52 mètres."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "home",
+   "title": "Coolok est une entreprise du Val-de-Marne",
+   "md": "- **Siège** : 4 avenue Oudinot, 94340 Joinville-le-Pont, société créée le 10 octobre 2024, présidée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans.\n- **Avis clients** : 4,8 sur 5 pour 21 avis sur notre fiche Google, relevé le 2 septembre 2026.\n- **Commission** : 20 % HT tout compris, prélevée sur les revenus encaissés, sans frais cachés ni facturation de mise en service.\n- **Audit chiffré** : remis sous 48 heures, gratuit et sans engagement, que nous prenions le mandat ou non.\n\nConcrètement, cela veut dire une équipe de ménage et de maintenance qui n'a pas à traverser l'Île-de-France pour arriver chez vous. C'est la variable qui décide si une rotation entre deux séjours du même jour est tenable ou non.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Le 94, c'est chez nous : le siège est à Joinville-le-Pont, et nos équipes y sont à moins de trente minutes de chaque logement. Ce qui coince ici, ce n'est presque jamais l'autorisation, c'est le quota. À Charenton, c'est un logement par foyer fiscal. À Vincennes, c'est 30 % de meublés maximum dans l'immeuble, et vous pouvez être bloqué par un voisin qui a déposé avant vous. Autant le savoir avant de faire une offre d'achat.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée dans le Val-de-Marne ?",
+   "a": "L'écart est important selon la commune. Nos observations placent le revenu mensuel d'un logement entier entre 2 200 et 5 100 EUR à Vincennes et entre 1 100 et 2 700 EUR à Alfortville. Un relevé Airbnb du 3 septembre 2026 situait le prix de liste médian vincennois à 112 EUR par nuit pour sept nuits en octobre, sur 15 annonces de la commune."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme dans le Val-de-Marne ?",
+   "a": "Oui, pour tout logement autre que votre résidence principale, dans les douze communes que nous couvrons. Elle s'obtient sans compensation partout, sauf à Vincennes à partir du troisième bien. Le point à vérifier en priorité n'est donc pas l'autorisation elle-même mais le quota communal, qui peut limiter votre projet à un seul logement."
+  },
+  {
+   "q": "Combien de logements puis-je louer en courte durée dans le Val-de-Marne ?",
+   "a": "Cela dépend de la commune. Charenton-le-Pont autorise un logement par foyer fiscal, Alfortville, Chennevières-sur-Marne et Villejuif en autorisent deux, et Vincennes plafonne la part de meublés à 30 % par immeuble. Six communes n'ont publié aucun plafond, ce qui n'en garantit pas l'absence : nous interrogeons le service urbanisme avant de vous engager."
+  },
+  {
+   "q": "Pourquoi le siège de Coolok est-il à Joinville-le-Pont ?",
+   "a": "Parce que notre fondateur y habite et y a commencé son activité. La société a été créée le 10 octobre 2024 et son siège se trouve au 4 avenue Oudinot. Cette implantation n'est pas symbolique : elle place nos équipes de ménage et de maintenance à moins de trente minutes de la plupart des logements que nous exploitons dans le département."
+  },
+  {
+   "q": "Quelle taxe de séjour paie-t-on dans le Val-de-Marne ?",
+   "a": "Un meublé non classé supporte 5 % du coût hors taxes de la nuitée par personne, porté à 16,25 % avec les taxes additionnelles franciliennes, dans les onze communes qui l'ont instituée. Un meublé classé trois étoiles est taxé entre 3,25 et 5,53 EUR par personne et par nuit. Chennevières-sur-Marne n'applique aucune taxe de séjour."
+  }
+ ],
+ "keywords": [
+  "conciergerie val de marne",
+  "conciergerie airbnb 94",
+  "conciergerie airbnb val-de-marne"
+ ]
+}

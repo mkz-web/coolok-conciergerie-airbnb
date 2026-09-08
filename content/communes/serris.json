@@ -1,0 +1,207 @@
+{
+ "url": "/conciergerie-airbnb-serris",
+ "type": "commune",
+ "name": "Serris",
+ "slug": "serris",
+ "dept": "77",
+ "zone": "val-d-europe",
+ "title": "Conciergerie Airbnb Serris (77) au Val d'Europe | Coolok",
+ "description": "Coolok exploite votre appartement à Serris : centre urbain du Val d'Europe, La Vallée Village, parcs à dix minutes. Commission 20 % HT, estimation gratuite.",
+ "h1": "Conciergerie Airbnb à Serris, au cœur du Val d'Europe",
+ "image": "/assets/img/heros/serris.webp",
+ "imageAlt": "Place du centre urbain de Serris au Val d'Europe à l'heure dorée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val d'Europe, Seine-et-Marne",
+  "lead": "Serris est la ville où l'on dort, où l'on fait ses courses et d'où l'on repart vers les parcs. Appartements récents, centre commercial, outlet et RER : le marché le plus régulier de la couronne Disney."
+ },
+ "data": {
+  "prix_nuitee": "80 à 170 €",
+  "revenu_mensuel": "1 700 à 4 100 €",
+  "taux_occupation": "70 à 80 %",
+  "prix_m2": "4 000 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Serris (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 80 à 170 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 700 à 4 100 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Centre urbain, shopping, appartements récents",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Le marché de Serris, plus régulier que celui du parc",
+   "md": "Serris a un avantage que Chessy n'a pas : la commune vit aussi en dehors des parcs. Le centre urbain du Val d'Europe, son centre commercial et le village de marques attirent une clientèle de shopping et de week-end qui ne dépend pas du calendrier des attractions. Résultat, l'occupation est mieux répartie sur l'année.\n\nLe parc de logements y est jeune : beaucoup d'appartements récents, aux normes actuelles, avec ascenseur et parking. C'est un atout pour la location courte durée, parce qu'un logement récent demande moins de maintenance et se photographie mieux.\n\nSur nos relevés Airbnb du 3 septembre 2026, Serris est aussi la commune où l'offre est la plus dense de la zone : quinze annonces situées dans la commune sur vingt-quatre affichées en première page. La concurrence y est réelle, ce qui se compense par le soin de l'annonce et la régularité des avis, pas par le prix."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Serris",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale 2023 (en vigueur au 1er janvier 2026)",
+     "10 326 habitants (population totale 10 443); +14,23 % entre 2017 et 2023; 9 988 en 2022",
+     "INSEE, populations de référence 2023 (2025-12-29)"
+    ],
+    [
+     "Part des résidences secondaires et logements occasionnels",
+     "18,2 % en 2023 (15,9 % en 2017); résidences principales 73,2 %; vacants 8,6 %",
+     "INSEE, dossier complet commune (LOG T2) (2025-11-06)"
+    ],
+    [
+     "Capacité hôtelière au 1er janvier 2025",
+     "2 hôtels, 282 chambres (1 hôtel 4 étoiles de 152 chambres, 1 non classé de 130) + 1 auberge de jeunesse / centre sportif de 238 places",
+     "INSEE, dossier complet commune (tourisme 2025) (2025-11-06)"
+    ],
+    [
+     "Centre commercial Val d'Europe, sur la commune",
+     "23 millions de visiteurs en 2025, 143 enseignes, 41 restaurants, 7 200 places de parking, ouvert 7j/7 (10h-20h30 en semaine, 10h-20h le dimanche)",
+     "Klepierre (site officiel du centre) (2026-09-03)"
+    ],
+    [
+     "La Vallée Village, sur la commune",
+     "près de 7 millions de visiteurs par an, plus de 120 boutiques de marques a prix degriffes; clientèle internationale (Chine 23 % des visiteurs hors zone euro en 2012)",
+     "Mesinfos.fr 15/01/2026; Le Parisien 13/11/2012 (2026-01-15)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "euro",
+   "title": "Les prix affichés à Serris aujourd'hui",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Serris pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 125 EUR par nuit, frais inclus (moyenne 123 EUR, fourchette 79 à 222 EUR), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "law",
+   "title": "Ce que dit la loi à Serris",
+   "md": "- **Changement d'usage** : oui **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : 120; non\n- **Numéro d'enregistrement** : obligatoire, Tous propriétaires, résidence principale comprise, des le premier jour de location.\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Serris",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "map",
+     "title": "Le centre urbain",
+     "text": "Immeubles récents, commerces au pied, RER à quelques minutes à pied. La clientèle shopping et parcs s'y installe sans voiture."
+    },
+    {
+     "icon": "home",
+     "title": "Les quartiers résidentiels",
+     "text": "Maisons et petits collectifs plus calmes, adaptés aux familles élargies et aux séjours plus longs, avec stationnement facile."
+    },
+    {
+     "icon": "target",
+     "title": "Autour du village de marques",
+     "text": "Une clientèle de week-end venue faire ses achats, souvent en couple, qui réserve tard et paie le confort plutôt que la surface."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Serris",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles en séjour aux parcs",
+     "text": "Elles choisissent Serris pour le prix et les commerces, en acceptant dix minutes de navette ou de voiture."
+    },
+    {
+     "icon": "wallet",
+     "title": "Clientèle shopping",
+     "text": "Week-ends au village de marques et au centre commercial, hors vacances scolaires : ce sont ces nuits qui lissent votre calendrier."
+    },
+    {
+     "icon": "target",
+     "title": "Déplacements professionnels",
+     "text": "Le pôle d'activité du Val d'Europe et les entreprises de Marne-la-Vallée génèrent des nuitées en semaine, à un prix stable."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Serris",
+   "md": "Serris amortit mieux les creux que les communes strictement collées aux parcs : les week-ends de shopping, les séminaires et les visites familiales occupent une partie des semaines hors vacances. Notre relevé du 3 septembre 2026 le montre indirectement : le prix médian affiché pour la semaine de Noël (127 EUR par nuit) est très proche de celui d'octobre (125 EUR), signe d'un marché qui ne vit pas uniquement de ses pics.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Serris",
+   "intro": "Sur un marché aussi fourni, la différence se joue sur l'exécution.",
+   "items": [
+    "Photos professionnelles refaites à chaque changement de décoration : sur Serris, l'annonce se joue à la première image",
+    "Prix ajustés chaque semaine sur le calendrier des parcs, du village de marques et des vacances européennes",
+    "Ménage et linge hôtelier entre chaque séjour, contrôle qualité systématique",
+    "Ouverture des séjours courts en semaine, que beaucoup de propriétaires refusent et qui remplissent les creux",
+    "Suivi des avis voyageurs : sur ce marché, la note fait le prix"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "À Serris, tout le monde a un bel appartement récent. Ce qui fait la différence, ce n'est pas le logement, c'est l'annonce, le prix de la semaine et les avis. C'est du travail hebdomadaire, pas un réglage qu'on fait une fois pour toutes.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien coûte une nuit en location courte durée à Serris ?",
+   "a": "Le prix de liste médian d'un logement entier à Serris était de 125 EUR par nuit pour sept nuits en octobre 2026, frais inclus, sur quinze annonces situées dans la commune relevées le 3 septembre 2026. Pour la semaine de Noël 2026, la médiane relevée le même jour était de 127 EUR."
+  },
+  {
+   "q": "Faut-il déclarer mon logement à la mairie de Serris ?",
+   "a": "Oui. Le numéro d'enregistrement est obligatoire sur toute annonce de meublé de tourisme depuis le 20 mai 2026, y compris pour une résidence principale, et selon la commune une autorisation de changement d'usage peut s'y ajouter. Nous préparons ces démarches avec vous avant la mise en ligne."
+  },
+  {
+   "q": "Y a-t-il trop d'offre à Serris ?",
+   "a": "L'offre est dense : sur nos relevés du 3 septembre 2026, quinze des vingt-quatre annonces affichées se situaient dans la commune. Cela ne bloque pas un logement bien tenu, mais cela interdit l'improvisation sur le prix, les photos et la réactivité aux demandes."
+  },
+  {
+   "q": "Mon appartement est-il assez grand pour intéresser les familles ?",
+   "a": "Un T2 bien agencé avec un canapé-lit de qualité accueille une famille de quatre personnes, ce qui couvre la majorité de la demande. Au-delà, ce sont les logements avec deux vraies chambres qui manquent le plus sur le secteur."
+  },
+  {
+   "q": "Acceptez-vous les séjours d'une seule nuit ?",
+   "a": "Oui, quand cela sert votre calendrier. Une nuit isolée entre deux réservations vaut mieux qu'un trou, à condition que la rotation soit organisée : c'est notre travail, pas le vôtre."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb serris",
+  "conciergerie serris",
+  "conciergerie val d'europe"
+ ]
+}

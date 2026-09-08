@@ -1,0 +1,12 @@
+# Sortie du build : jamais éditée à la main, régénérée par node build.js
+dist/
+
+# Jamais de dépendances installées (règle MKZ)
+node_modules/
+
+# Secrets et fichiers locaux
+.env
+.deploy.json
+*.log
+Thumbs.db
+.DS_Store

@@ -1,0 +1,46 @@
+{
+ "url": "/404",
+ "type": "404",
+ "noindex": true,
+ "title": "Page introuvable | Coolok",
+ "description": "La page demandée n'existe pas ou a été déplacée. Retrouvez les services, le simulateur et les guides de Coolok.",
+ "h1": "Cette page n'existe pas (ou plus)",
+ "text": "L'adresse a peut-être changé. Voici les pages les plus utiles pour repartir.",
+ "ctas": [
+  {
+   "label": "Retour à l'accueil",
+   "href": "/"
+  },
+  {
+   "label": "Estimer mes revenus",
+   "href": "/simulateur-locatif",
+   "style": "secondary"
+  }
+ ],
+ "links": [
+  {
+   "title": "Nos services",
+   "href": "/services"
+  },
+  {
+   "title": "Tarifs",
+   "href": "/tarifs"
+  },
+  {
+   "title": "Simulateur de revenus",
+   "href": "/simulateur-locatif"
+  },
+  {
+   "title": "Zones couvertes",
+   "href": "/conciergerie-airbnb-ile-de-france"
+  },
+  {
+   "title": "Guides",
+   "href": "/blog"
+  },
+  {
+   "title": "Contact",
+   "href": "/contact"
+  }
+ ]
+}

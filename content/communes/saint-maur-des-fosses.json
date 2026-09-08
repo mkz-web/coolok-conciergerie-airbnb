@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-saint-maur-des-fosses",
+ "type": "commune",
+ "name": "Saint-Maur-des-Fossés",
+ "slug": "saint-maur-des-fosses",
+ "dept": "94",
+ "title": "Conciergerie Airbnb Saint-Maur-des-Fossés (94) | Coolok",
+ "description": "Votre maison ou votre appartement de Saint-Maur exploité par Coolok : boucle de la Marne, 4 gares RER A, séjours longs. Commission 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Saint-Maur-des-Fossés, dans la boucle de la Marne",
+ "image": "/assets/img/heros/saint-maur-des-fosses.webp",
+ "imageAlt": "Maison ancienne au bord de la Marne à Saint-Maur-des-Fossés, lumière de fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Boucle de la Marne, Val-de-Marne",
+  "lead": "Saint-Maur-des-Fossés compte 76 572 habitants et seulement trois hôtels pour les héberger (INSEE, recensement 2023 et parc hôtelier au 1er janvier 2026). Un meublé dans la boucle ne se bat donc pas contre l'hôtellerie : il répond à une demande que presque personne ne sert ici."
+ },
+ "data": {
+  "prix_nuitee": "85 à 175 €",
+  "revenu_mensuel": "1 700 à 3 900 €",
+  "taux_occupation": "65 à 75 %",
+  "prix_m2": "6 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Maur-des-Fossés (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 85 à 175 € la nuit, avec un taux d'occupation observé de 65 à 75 %, soit 1 700 à 3 900 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Maisons de la boucle, séjours longs",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Ce qui fait tourner un logement dans la boucle",
+   "md": "La commune la plus peuplée du Val-de-Marne est aussi l'une des moins équipées en hébergement : 3 hôtels et 104 chambres au 1er janvier 2026, soit 1,4 chambre pour mille habitants (INSEE). Le bâti explique le reste : 33 % de maisons et 61,7 % de ménages propriétaires (INSEE, recensement 2023). Quatre gares du RER A desservent le territoire, avec Châtelet-Les Halles atteint en 18 minutes depuis Saint-Maur-Créteil et un train toutes les 5 minutes en heure de pointe (Ville de Saint-Maur, rapport de présentation du PLU).\n\nCe contexte fabrique une clientèle particulière : des gens qui restent. Une famille qui vend, achète, fait des travaux ou arrive en mutation ne cherche pas deux nuits, elle cherche trois semaines. Votre calcul change du tout au tout : moins de rotations, moins de ménages facturés, un prix par nuit plus modeste mais un calendrier moins troué. Les repères de marché dont nous disposons situent la nuitée entre 85 et 175 euros pour une occupation de 65 à 75 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, deux points méritent votre attention. Les prix vont de 4 972 euros le mètre carré à La Pie à 6 575 aux Mûriers (Figaro Immobilier, estimations au 1er juillet 2026) : deux biens de surface identique ne se positionnent pas de la même façon. Et le chantier de la ligne 15 Sud, dont l'ouverture est annoncée pour l'automne 2027 (Société des grands projets, 25 juin 2026), alimente déjà lui-même une demande de logement temporaire."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Saint-Maur-des-Fossés",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Quatre gares du RER A sur la commune (Saint-Maur-Creteil, Le Parc de Saint-Maur, Champigny, La Varenne-Chennevieres) ; temps de parcours Saint-Maur-Creteil vers Châtelet-Les Halles ; fréquence",
+     "18 minutes vers Châtelet; près de 140 passages par jour et par sens, un train toutes les 5 minutes en pointe",
+     "Ville de Saint-Maur-des-Fosses, PLU rapport de présentation (gares : saint-maur.com, venir et circuler) (2023)"
+    ],
+    [
+     "Gare Saint-Maur-Creteil de la ligne 15 Sud : gare la plus profonde de France, escalier monumental ; gains de temps annonces ; mise en service reportée a l'automne 2027 par la Société des grands projets le 25/06/2026",
+     "quais à 52 m; Villejuif Louis-Aragon en 11 minutes contre 46, Issy RER en 24 minutes contre 1h05; ouverture automne 2027",
+     "DRIEAT Île-de-France (gains : saint-maur.com; report : Le Figaro et Citoyens.com du 25 et 26/06/2026 citant la SGP) (2026-06-25)"
+    ],
+    [
+     "Population 2023 (la plus peuplée des 12 communes), propriétaires, résidences principales, emplois, niveau de vie",
+     "76 572 habitants; 61,7 % de propriétaires; 91 % de résidences principales sur 38 912 logements; 20 881 emplois; niveau de vie médian 37 390 EUR",
+     "INSEE, comparateur de territoires RP2023 (2026-08)"
+    ],
+    [
+     "Prix immobilier médian tous biens (-3 % sur 1 an), maisons 5 719 EUR/m2 ; prix par quartier : Les Muriers 6 575, La Varenne 6 562, Le Vieux-Saint-Maur 6 509, Adamville 6 344, Le Parc 6 232, Saint-Maur-Creteil 5 961, Champignol 5 688, La Pie 4 972 EUR/m2",
+     "6 509 EUR/m2",
+     "Figaro Immobilier, estimations au 01/07/2026 (2026-07-01)"
+    ],
+    [
+     "Coupe du monde d'epée dames (escrime) au centre sportif Pierre Brossolette, retour après 12 ans d'absence : qualifications le vendredi, individuel le samedi, équipes le dimanche",
+     "du 22 au 24 mai 2026",
+     "Ville de Saint-Maur-des-Fosses (2026-04-22)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Saint-Maur-des-Fossés",
+   "md": "- **Changement d'usage** : oui, « uniquement pour les résidences secondaires : obtenir une autorisation de changement d'usage, delivrée par M. le Maire » (saint-maur.com, page taxe de séjour mise à jour le 14/01/2022). **Compensation** : non trouve; APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toutes les locations depuis le 01/01/2019 (numéro à 13 chiffres à afficher sur les annonces), via saintmaur.taxesejour.fr (DeclaLoc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes\n- **À prévoir dans votre dossier** : non trouvées en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://saintmaur.taxesejour.fr) et [document de référence](https://www.saint-maur.com/demarches/taxe-de-sejour)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Saint-Maur et ce qu'ils changent",
+   "intro": "Huit quartiers, plus de 1 600 euros d'écart au mètre carré : l'adresse commande le positionnement.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Autour de Saint-Maur-Créteil",
+     "text": "Dix-huit minutes de Châtelet et un passage toutes les cinq minutes en pointe. C'est là qu'ouvrira la gare de la ligne 15, et c'est le secteur que réservent les séjours de semaine sans voiture."
+    },
+    {
+     "icon": "home",
+     "title": "La Varenne et le Vieux-Saint-Maur",
+     "text": "Bâti ancien et bords d'eau, autour de 6 500 euros le mètre carré (Figaro Immobilier, 1er juillet 2026). Des maisons qui parlent aux familles élargies et aux séjours de plusieurs semaines."
+    },
+    {
+     "icon": "euro",
+     "title": "La Pie et Champignol",
+     "text": "Le ticket d'entrée de la commune, 4 972 et 5 688 euros le mètre carré à la même date. Le rendement y arrive plus vite si le bien est équipé pour durer, pas pour un week-end."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui dort à Saint-Maur-des-Fossés",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Familles en mobilité résidentielle",
+     "text": "Vente en cours, travaux, mutation professionnelle : elles veulent une maison meublée pour quelques semaines, pas une chambre. Ce sont les réservations les plus longues que nous voyons ici."
+    },
+    {
+     "icon": "users",
+     "title": "Visites familiales et rendez-vous locaux",
+     "text": "Saint-Maur Médiéval au parc de l'Abbaye, la Coupe du monde d'épée dames revenue au centre Brossolette en mai 2026 : des week-ends où 104 chambres d'hôtel ne suffisent pas."
+    },
+    {
+     "icon": "target",
+     "title": "Salariés en mission",
+     "text": "Créteil, Paris et les chantiers du secteur alimentent des nuitées de semaine régulières, souvent sans voiture, qui se réservent au plus près des quatre gares."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Saint-Maur-des-Fossés",
+   "md": "Le calendrier d'ici ne ressemble pas à celui d'une ville touristique. L'été anime la boucle, avec la plage du Beach, site municipal de baignade en Marne ouvert du 20 juin au 19 juillet 2026 (préfecture du Val-de-Marne), et les visites de famille. Le reste de l'année dépend des mouvements résidentiels et des missions professionnelles, qui se moquent des vacances scolaires. Votre calendrier se remplit donc par des séjours longs plutôt que par des pics : bonne nouvelle pour la charge de travail, contrainte réelle sur le prix, qui doit rester tenu de janvier à décembre.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Saint-Maur-des-Fossés",
+   "intro": "Voici ce que nous faisons concrètement sur un bien de la boucle.",
+   "items": [
+    "Annonce bâtie pour les séjours de plusieurs semaines : cuisine complète, machine à laver, vrai plan de travail",
+    "Tarif dégressif au-delà de sept nuits puis au-delà d'un mois, pour capter la mobilité résidentielle",
+    "Accès à pied documenté depuis les quatre gares du RER A, avec les temps réels vers Châtelet et Créteil",
+    "Ménage et linge hôtelier entre chaque réservation, entretien du jardin ou de la terrasse quand le bien en a un",
+    "Déclaration mensuelle de la taxe de séjour sur le portail de la Ville, à 5 % du prix hors taxes par personne et par nuit, 16,25 % taxes additionnelles comprises"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Saint-Maur, ce n'est pas un marché de deux nuits. Celui qui réserve ici fait des travaux, vend son bien ou vient de muter, et il reste trois semaines. Le jour où vous acceptez ça, vous arrêtez de courir après les week-ends et vous regardez votre calendrier autrement. Une maison bien équipée dans la boucle, c'est un revenu régulier, pas un coup de chance.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien peut rapporter une maison en location courte durée à Saint-Maur-des-Fossés ?",
+   "a": "Les repères de marché dont nous disposons situent la nuitée entre 85 et 175 euros pour un taux d'occupation de 65 à 75 % (données AirDNA croisées, relevé du 9 juillet 2026). La fourchette est large parce que l'écart de prix entre les quartiers est réel. Nous ne donnons pas de chiffre avant d'avoir vu le bien : l'audit chiffré vous parvient sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Saint-Maur-des-Fossés ?",
+   "a": "Pour votre résidence principale, non, dans la limite de 120 jours par année civile. Pour un logement dédié, la Ville exige une autorisation de changement d'usage au titre du régime de Paris Est Marne et Bois en vigueur depuis le 1er janvier 2022, sans compensation connue. Le numéro d'enregistrement à treize chiffres est obligatoire sur les annonces depuis 2019 et se demande sur le portail communal."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Saint-Maur-des-Fossés ?",
+   "a": "Pour un meublé non classé, 5 % du prix hors taxes par personne et par nuit, soit 16,25 % une fois ajoutées les taxes additionnelles départementale et régionales, dans la limite de 4 euros par personne et par nuit, 13 euros toutes taxes (fichier DELTA de la DGFiP, export du 29 juin 2026). La déclaration se fait chaque mois sur le portail de la Ville, et nous nous en chargeons."
+  },
+  {
+   "q": "Mon bien est loin d'une gare, est-ce rédhibitoire ?",
+   "a": "Non pour une clientèle motorisée, qui trouve à se garer et privilégie l'espace. Oui pour les séjours de semaine, qui se décident sur le temps de marche jusqu'au quai. Cela ne condamne rien : cela change la clientèle visée, le contenu de l'annonce et le niveau de prix, et nous préférons refuser une réservation qui finira mal."
+  },
+  {
+   "q": "La future gare de la ligne 15 change-t-elle le calcul d'un propriétaire ?",
+   "a": "À terme oui : les quais seront à 52 mètres sous Saint-Maur-Créteil et Villejuif sera à 11 minutes contre 46 aujourd'hui, pour une ouverture annoncée à l'automne 2027 (Société des grands projets, 25 juin 2026). D'ici là, n'achetez pas sur une promesse de calendrier. Ce qui compte maintenant, c'est la demande de logement temporaire que le chantier génère déjà."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb saint-maur-des-fosses",
+  "conciergerie saint-maur-des-fosses",
+  "location courte duree saint-maur"
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "url": "/conciergerie-airbnb-melun",
+ "type": "commune",
+ "name": "Melun",
+ "slug": "melun",
+ "dept": "77",
+ "title": "Conciergerie Airbnb Melun (77) | Coolok",
+ "description": "Un seul hôtel pour 46 000 habitants, une gare à 17 millions de voyageurs : Coolok exploite votre meublé à Melun pour la clientèle de semaine.",
+ "h1": "Conciergerie Airbnb à Melun, le marché de la nuitée de semaine",
+ "image": "/assets/img/heros/melun.webp",
+ "imageAlt": "Quais de Seine et collégiale Notre-Dame sur l'île Saint-Étienne à Melun",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Melun Val de Seine, Seine-et-Marne",
+  "lead": "À Melun, la demande ne vient pas du week-end mais du lundi au jeudi. Préfecture, hôpital, académie de gendarmerie, usine de Villaroche, chantiers du pôle gare, et un unique hôtel de 75 chambres pour près de 46 000 habitants (INSEE, au 1er janvier 2026)."
+ },
+ "linkText": "Nuitées de semaine, un seul hôtel",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché d'affaires, pas un marché de vacances",
+   "md": "Melun est la première gare de Seine-et-Marne : 17 067 994 voyageurs comptés en 2024 par SNCF Open Data, soit près de 50 000 par jour, et Paris Gare de Lyon à 26 minutes. Autour d'elle se concentrent la préfecture, le tribunal, l'académie militaire de la gendarmerie nationale (350 officiers en formation initiale et environ 1 000 stagiaires par an) et le Santépôle, hôpital de 1 093 lits et places employant plus de 2 300 agents. Au nord, le site Safran de Villaroche fait travailler près de 5 500 salariés, ce qui en fait le premier employeur industriel du département.\n\nCes moteurs produisent une demande d'hébergement du lundi au jeudi, pour une à quatre nuits, à laquelle la ville ne sait pas répondre. L'INSEE ne recensait qu'un hôtel de 75 chambres au 1er janvier 2026, et les résidences secondaires pèsent 1,1 % du parc de logements en 2023. Un établissement de 73 chambres est en construction au pôle gare, ce qui reste sans commune mesure avec le flux quotidien.\n\nL'exploitation ne ressemble donc pas à celle d'une ville touristique. Les réservations tombent tard, parfois la veille, souvent depuis une entreprise ou un organisme public. Le tarif ne suit pas les vacances scolaires mais les jours ouvrés. Et le ticket d'entrée reste bas : 3 013 EUR le mètre carré en prix médian au 1er juillet 2026 selon Figaro Immobilier, contre 4 858 EUR à Chessy au 1er août. Sur les plateformes, la médiane relevée le 3 septembre 2026 pour sept nuits d'octobre s'établissait à 81 EUR la nuit, frais inclus, sur 14 annonces melunaises."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Melun",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale 2023",
+     "45 995 habitants (+14,9 % depuis 2017; 42 367 en 2021); densité 5 721 hab/km2; taux de pauvrete 28 %; agglomération Melun Val de Seine 142 622 habitants; bassin de vie 117 796",
+     "INSEE, comparateur de territoires (2026-08-27)"
+    ],
+    [
+     "Parc de logements",
+     "21 849 logements en 2023 (19 339 en 2017); résidences principales 90,3 %, résidences secondaires et occasionnels 1,1 %, vacants 8,6 %.",
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-02-05)"
+    ],
+    [
+     "Capacité hôtelière au 1er janvier 2026",
+     "1 hôtel 3 étoiles de 75 chambres; 1 camping 3 étoiles de 178 emplacements; 1 auberge de jeunesse / centre sportif de 156 places.",
+     "INSEE, dossier complet commune (tourisme 2026); ville de Melun (travaux secteur gare) (2026-02-05)"
+    ],
+    [
+     "Gare de Melun (RER D terminus, ligne R, TER Bourgogne)",
+     "17 067 994 voyageurs SNCF en 2024 (14 727 713 en 2023, +16 %); près de 50 000 voyageurs par jour, 1re gare de Seine-et-Marne, parmi les 17 premières gares d'Île-de-France hors.",
+     "SNCF Open Data; Melun Val de Seine; GHSIF (temps de trajet) (2026-09-03)"
+    ],
+    [
+     "Pôle d'echanges multimodal de la gare de Melun",
+     "196,5 M EUR de travaux, mise en service complète en 2030; parking relais de 950 places reconstruit, gare routiere nord (9 quais) et sud, nouveau passage souterrain 2025-2029.",
+     "Département de Seine-et-Marne; Île-de-France Mobilités; Transilien ligne R (2026-04-20)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "euro",
+   "title": "Les prix affichés à Melun aujourd'hui",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Melun pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 81 EUR par nuit, frais inclus (moyenne 79 EUR, fourchette 54 à 119 EUR), sur 14 annonces situées dans la commune relevées le 3 septembre 2026 (18 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Melun",
+   "md": "- **Changement d'usage** : non **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle nationale, aucune délibération d'abaissement trouvée.\n- **Numéro d'enregistrement** : non exigé à ce jour, Pas de numéro d'enregistrement communal. Juridiquement, une commune ne peut instaurer l'enregistrement que si elle appliqué déjà le changement d'usage : Melun ne le fait pas.\n- **Taxe de séjour 2026** (meublé non classé) : 1 % du coût de la nuitée, soit le minimum légal\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043) et [document de référence](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs qui portent la demande",
+   "intro": "La bonne adresse, ici, est celle qui place votre voyageur à pied de son rendez-vous du lendemain.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Le quartier de la gare",
+     "text": "Le pôle d'échanges est en travaux jusqu'en 2030, avec 196,5 millions d'euros engagés et un parking relais de 950 places reconstruit. C'est aussi là que sortent de terre l'hôtel et les bureaux de l'immeuble Prélude : le secteur le plus recherché en semaine."
+    },
+    {
+     "icon": "map",
+     "title": "Le centre et l'île Saint-Étienne",
+     "text": "Préfecture, tribunal, collégiale, quais de Seine : le seul secteur qui fonctionne aussi le samedi, notamment pour les visiteurs de Vaux-le-Vicomte, à quelques kilomètres de là."
+    },
+    {
+     "icon": "shield",
+     "title": "Le nord et Saint-Liesne",
+     "text": "Le Santépôle et l'académie de gendarmerie appellent des séjours d'accompagnants et de stagiaires. Le prix d'achat y est inférieur à celui du centre et le stationnement bien plus simple."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Melun",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Déplacements professionnels",
+     "text": "Ingénieurs et prestataires de Villaroche, agents en mission à la préfecture, entreprises intervenant sur les chantiers du pôle gare. Une à quatre nuits, réservation tardive, facture au nom de la société."
+    },
+    {
+     "icon": "bed",
+     "title": "Accompagnants de patients et stagiaires",
+     "text": "Le Santépôle compte 1 093 lits et places : des familles cherchent à dormir tout près, parfois plusieurs semaines d'affilée. Même logique pour les stagiaires en formation continue à l'académie."
+    },
+    {
+     "icon": "star",
+     "title": "Visiteurs de Vaux-le-Vicomte",
+     "text": "Le château voisin a reçu 330 000 visiteurs en 2024 selon son propriétaire, avec des soirées aux chandelles les samedis de la mi-mai à la fin septembre. Une demande de week-end, plus étroite, mais mieux payée."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Melun",
+   "md": "Le calendrier melunais est plat par nature, et c'est précisément son intérêt. Les nuitées d'affaires ignorent la basse saison ; elles connaissent seulement deux creux, en août et pendant les fêtes de fin d'année, c'est-à-dire au moment où les communes touristiques réalisent leurs meilleures semaines. Deux respirations locales complètent l'année : les soirées aux chandelles de Vaux-le-Vicomte de la mi-mai à la fin septembre, et le meeting aérien de Villaroche, dont l'édition 2025 a réuni 40 000 visiteurs. Un logement se travaille ici sur douze mois, pas sur trois.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Melun",
+   "intro": "Louer à des professionnels ne s'organise pas comme un séjour de vacances.",
+   "items": [
+    "Tarif construit à la nuit et à la semaine ouvrée, avec un prix de dernière minute qui reste rentable un mardi soir",
+    "Facture au nom de l'entreprise et justificatifs transmis, ce que la plupart des voyageurs en mission exigent",
+    "Vrai poste de travail dans le logement : plan de travail, siège correct, débit vérifié avant la mise en ligne",
+    "Entrée autonome tardive par serrure connectée, pour un train de 22 heures ou une garde qui se termine à minuit",
+    "Temps de trajet réels annoncés vers Villaroche, le Santépôle et la gare, à pied comme en voiture, plutôt qu'une distance à vol d'oiseau"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Melun n'est pas une ville de vacances, et c'est exactement pour cela qu'elle m'intéresse. Il y a une gare énorme, un hôpital, une usine Safran, une préfecture, et un seul hôtel. Quand un ingénieur cherche trois nuits en semaine, il ne trouve rien. Le prix au mètre carré et la taxe de séjour y sont les plus bas des huit communes de Seine-et-Marne que nous suivons. Le rendement se fait sur le calendrier des jours ouvrés, pas sur les ponts de mai.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un appartement en location courte durée à Melun ?",
+   "a": "Le prix de liste médian d'un logement entier ressortait à 81 EUR la nuit pour sept nuits en octobre 2026, frais inclus, sur 14 annonces relevées dans la commune le 3 septembre 2026, dans une fourchette de 54 à 119 EUR. Le résultat dépend surtout du remplissage en semaine, qui est le vrai sujet ici. Nous chiffrons votre bien sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer un meublé de tourisme à Melun ?",
+   "a": "Au 3 septembre 2026, aucune délibération instaurant l'autorisation de changement d'usage n'a été trouvée, ni sur le site de la ville ni sur celui de l'agglomération. Le régime national s'applique donc : déclaration en mairie par formulaire Cerfa pour un logement qui n'est pas votre résidence principale, et 120 nuitées au maximum si c'en est une."
+  },
+  {
+   "q": "La taxe de séjour est-elle élevée à Melun ?",
+   "a": "C'est la plus basse de notre périmètre. Melun Val de Seine a retenu pour 2026 le taux minimum légal de 1 % du coût de la nuitée pour un meublé non classé, soit 3,25 % une fois ajoutées les trois majorations légales (délibération du 16 juin 2025). Au Val d'Europe, le même logement supporte 5 % délibérés, soit 16,25 %."
+  },
+  {
+   "q": "Peut-on remplir un logement à Melun hors vacances scolaires ?",
+   "a": "C'est l'inverse d'une commune touristique : la demande culmine du lundi au jeudi. Elle vient de la préfecture, du Santépôle et de ses 2 300 agents, de l'académie de gendarmerie et du site Safran de Villaroche, qui emploie près de 5 500 personnes au nord de la ville."
+  },
+  {
+   "q": "Les chantiers du pôle gare et du Tzen 2 pénalisent-ils la location ?",
+   "a": "Ils apportent du bruit et des emprises jusqu'en 2030, avenue Thiers à partir du 21 septembre 2026 pour dix-huit mois. Ils amènent aussi des équipes en déplacement pour plusieurs semaines, qui cherchent exactement ce type de logement. Nous l'écrivons dans l'annonce plutôt que de laisser le voyageur le découvrir en arrivant."
+  }
+ ],
+ "keywords": [
+  "conciergerie melun",
+  "conciergerie airbnb melun",
+  "meublé de tourisme melun"
+ ]
+}

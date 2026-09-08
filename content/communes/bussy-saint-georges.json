@@ -1,0 +1,184 @@
+{
+ "url": "/conciergerie-airbnb-bussy-saint-georges",
+ "type": "commune",
+ "name": "Bussy-Saint-Georges",
+ "slug": "bussy-saint-georges",
+ "dept": "77",
+ "zone": "val-d-europe",
+ "title": "Conciergerie Airbnb Bussy-Saint-Georges (77) | Coolok",
+ "description": "Bussy-Saint-Georges, prix d'entrée de la couronne Disney : Coolok exploite votre logement pour les familles et les séjours professionnels. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Bussy-Saint-Georges, le premier investissement",
+ "image": "/assets/img/heros/bussy-saint-georges.webp",
+ "imageAlt": "Quai du RER à Bussy-Saint-Georges au petit matin",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Marne-la-Vallée, Seine-et-Marne",
+  "lead": "Bussy est souvent la commune du premier achat en location courte durée : des prix d'entrée plus bas que le Val d'Europe, le RER A direct, et une demande double, familiale le week-end, professionnelle en semaine."
+ },
+ "data": {
+  "prix_nuitee": "70 à 140 €",
+  "revenu_mensuel": "1 400 à 3 400 €",
+  "taux_occupation": "70 à 80 %",
+  "prix_m2": "3 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Bussy-Saint-Georges (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 140 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "RER A, prix d'entrée, demande double",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché à deux temps",
+   "md": "Bussy-Saint-Georges est une ville nouvelle bien desservie : le RER A place Paris à une quarantaine de minutes et les parcs à quelques stations. Cette position crée deux demandes qui ne se ressemblent pas.\n\nEn semaine, ce sont des déplacements professionnels : les pôles d'activité de Marne-la-Vallée et l'est parisien génèrent des nuitées régulières, à prix stable, pour des séjours d'une à trois nuits. Le week-end et pendant les vacances, la clientèle familiale prend le relais, avec des séjours plus longs et des prix plus élevés.\n\nPour un propriétaire, c'est une configuration confortable : le calendrier se remplit sur deux sources différentes, ce qui réduit la dépendance à la saison touristique. Le prix d'entrée à l'achat, plus bas que dans le cœur du Val d'Europe, en fait un terrain fréquent de premier investissement locatif."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Bussy-Saint-Georges",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale 2023 (en vigueur au 1er janvier 2026)",
+     "27 498 habitants (population totale 27 798); commune la plus peuplée de la communauté d'agglomération de Marne et Gondoire; +4,8 % en 10 ans",
+     "INSEE, populations de référence 2023; Wikipedia (rang dans l'agglo) (2025-12-29)"
+    ],
+    [
+     "Parc de logements",
+     "12 394 logements en 2023; résidences principales 92,8 %, résidences secondaires et occasionnels 2,6 % (1,1 % en 2017), vacants 4,6 %",
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
+    ],
+    [
+     "Capacité hôtelière au 1er janvier 2023",
+     "4 hôtels, 434 chambres (2 hôtels 2 étoiles 250 chambres, 1 hôtel 3 étoiles 97, 1 hôtel 4 étoiles 87)",
+     "INSEE, Tourisme 2023 commune (2023-07-25)"
+    ],
+    [
+     "Gare RER A de Bussy-Saint-Georges",
+     "3 298 143 voyageurs en 2019, 2 338 585 en 2021 (RATP); Châtelet-Les Halles en environ 35 min (mairie); Marne-la-Vallée Chessy en 6 à 7 min, un train toutes les 15 min (Rome2rio).",
+     "Mairie de Bussy-Saint-Georges; RATP via Wikipedia; Rome2rio (2025-02-14)"
+    ],
+    [
+     "Ecoquartier du Sycomore (est de la commune)",
+     "117 ha, 4 500 logements à terme (dont au moins un quart de logements sociaux familiaux) pour environ 12 000 habitants, 12 ha de parcs autour de la fermé du Genitoy, bus a haut.",
+     "Mairie (site officiel); avis IGEDD 2022; germe&JAM (2025-02-27)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Bussy-Saint-Georges",
+   "md": "- **Changement d'usage** : non **Compensation** : Non\n- **Si vous louez votre résidence principale** : La location de la résidence principale (logement occupe au moins 8 mois par an) est autorisée moins de 120 jours par année civile, quelle que soit la localisation dans la ville.\n- **Numéro d'enregistrement** : non exigé à ce jour, Aucun numéro d'enregistrement communal au 03/09/2026. La déclaration se fait par cerfa 14004*04 en mairie, qui délivré un recepisse.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/) et [document de référence](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Bussy",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "Autour de la gare RER",
+     "text": "Le secteur le plus liquide : les séjours professionnels comme les familles sans voiture y réservent en priorité."
+    },
+    {
+     "icon": "home",
+     "title": "Les quartiers résidentiels récents",
+     "text": "Appartements aux normes actuelles, souvent avec parking et balcon : peu de maintenance, bonne photogénie."
+    },
+    {
+     "icon": "map",
+     "title": "Le sud et les abords du golf",
+     "text": "Plus calme et plus vert, adapté aux séjours familiaux longs qui viennent en voiture."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Bussy-Saint-Georges",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "target",
+     "title": "Déplacements professionnels",
+     "text": "Une à trois nuits en semaine, réservations tardives, exigence de propreté et de connexion internet fiable."
+    },
+    {
+     "icon": "users",
+     "title": "Familles en séjour aux parcs",
+     "text": "Elles arbitrent Bussy pour le prix, en acceptant quelques stations de RER supplémentaires."
+    },
+    {
+     "icon": "home",
+     "title": "Visites familiales",
+     "text": "Proches venus voir des habitants de la commune, souvent hors vacances scolaires : des nuits en plus, sans concurrence."
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Bussy-Saint-Georges",
+   "intro": "Deux clientèles, deux façons de travailler le logement.",
+   "items": [
+    "Grille de prix distinguant les nuits de semaine, professionnelles, et les week-ends familiaux",
+    "Espace de travail utilisable dans le logement : table, chaise correcte, connexion testée",
+    "Arrivées autonomes tardives, fréquentes sur les séjours professionnels",
+    "Ménage et linge entre chaque séjour, y compris pour une nuit isolée",
+    "Annonce qui affiche honnêtement le temps de trajet vers les parcs et vers Paris"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Bussy, c'est souvent le premier bien de quelqu'un qui se lance. Le RER, un prix d'achat raisonnable, et deux clientèles qui ne se marchent pas dessus. Ce n'est pas le plus prestigieux, c'est le plus régulier.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Bussy-Saint-Georges est-il un bon choix pour un premier investissement en location courte durée ?",
+   "a": "C'est un marché régulier : le RER A dessert à la fois Paris et les parcs, et la demande se partage entre séjours professionnels en semaine et familles le week-end. Le prix d'achat y est plus bas que dans le cœur du Val d'Europe. Nous chiffrons le rendement réel de votre bien avant que vous vous engagiez."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Bussy-Saint-Georges ?",
+   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, résidence principale comprise, et une autorisation de changement d'usage peut s'ajouter selon la décision de la commune. Nous vérifions votre adresse avant toute mise en ligne."
+  },
+  {
+   "q": "Les séjours professionnels sont-ils rentables ?",
+   "a": "Ils sont moins chers à la nuit mais très réguliers, avec peu d'exigences autres que la propreté, le calme et une bonne connexion. Ils remplissent les semaines que la clientèle familiale laisse vides, ce qui améliore le revenu annuel sans augmenter les pics."
+  },
+  {
+   "q": "Mon logement est loin de la gare, est-ce rédhibitoire ?",
+   "a": "Non pour une clientèle motorisée, oui pour les séjours professionnels sans voiture. Cela oriente le positionnement de l'annonce et le prix, et cela change la façon dont nous répondons aux demandes : mieux vaut refuser une réservation qui va mal se passer."
+  },
+  {
+   "q": "Combien de temps faut-il pour mettre le logement en ligne ?",
+   "a": "Une fois le mandat signé et le logement équipé, comptez quelques jours pour la visite, les photos, l'annonce et la mise en place des accès. Le délai réel dépend surtout de ce qu'il manque dans le logement, ce que l'audit identifie dès le départ."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb bussy-saint-georges",
+  "conciergerie bussy-saint-georges"
+ ]
+}

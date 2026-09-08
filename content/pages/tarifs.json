@@ -1,0 +1,108 @@
+{
+ "url": "/tarifs",
+ "type": "tarifs",
+ "title": "Tarif conciergerie Airbnb 2026 : 20 % HT tout compris | Coolok",
+ "description": "Ce que coûte vraiment une conciergerie Airbnb en Île-de-France en 2026 : commission Coolok 20 % HT, ce qui est inclus, ce qui ne l'est pas, exemples chiffrés.",
+ "h1": "Combien coûte une conciergerie Airbnb en Île-de-France en 2026 ?",
+ "image": "/assets/img/heros/tarifs.webp",
+ "imageAlt": "Clé dorée et lingots posés sur une table basse dans un salon au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Tarifs",
+  "lead": "Une commission unique de 20 % HT des revenus encaissés, payée au résultat. Pas de forfait mensuel, pas de frais d'entrée, pas d'option ajoutée en route. Voici la grille complète, ce qu'elle couvre et comment la comparer aux autres devis."
+ },
+ "sections": [
+  { "type": "pricing", "bg": "white", "h2": "La grille Coolok, en une ligne", "intro": "Un seul taux, une seule offre : nous exploitons le logement entièrement ou pas du tout.", "note": "Base de calcul : les revenus locatifs encaissés, hors taxe de séjour. La commission est due sur les séjours réalisés, jamais sur un objectif ni sur un forfait." },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Ce qui est inclus dans les 20 % HT, ce qui ne l'est pas",
+   "intro": "La question qui compte n'est pas le pourcentage affiché, c'est ce qu'il couvre. Voici la réponse poste par poste.",
+   "head": ["Poste", "Chez Coolok", "Qui paie"],
+   "rows": [
+    ["Photos professionnelles et rédaction de l'annonce", "Inclus, à la mise en place", "Coolok"],
+    ["Diffusion Airbnb et Booking.com, calendriers synchronisés", "Inclus", "Coolok"],
+    ["Tarification dynamique, ajustée chaque semaine", "Inclus", "Coolok"],
+    ["Sélection des voyageurs, cautions, litiges", "Inclus", "Coolok"],
+    ["Accueil, remise des clés, serrure connectée, assistance 24/7", "Inclus", "Coolok"],
+    ["Ménage et linge entre deux séjours", "Organisé par Coolok, refacturé au voyageur selon la typologie", "Le voyageur"],
+    ["Produits d'accueil et consommables", "Inclus dans le forfait ménage", "Le voyageur"],
+    ["Maintenance courante et coordination des artisans", "Inclus (pièces et interventions au réel)", "Vous, sur devis validé"],
+    ["Frais d'entrée, abonnement mensuel, frais de sortie", "Aucun", "Personne"],
+    ["Commission de la plateforme (Airbnb, Booking)", "Prélevée par la plateforme sur le séjour", "Le voyageur ou vous selon le modèle de la plateforme"]
+   ],
+   "source": "Grille Coolok au 3 septembre 2026. La grille détaillée du ménage par typologie de logement vous est remise avec le devis.",
+   "after": "Deux exclusions à connaître avant de nous appeler : nous ne prenons pas de prestation à la carte (ni ménage seul, ni accueil seul), et nous ne faisons pas de location longue durée ni d'intermédiation immobilière. Notre métier est l'exploitation complète d'un meublé de tourisme."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Deux exemples chiffrés, ligne à ligne",
+   "intro": "Les revenus ci-dessous sont des ordres de grandeur construits sur les prix de liste relevés sur Airbnb le 3 septembre 2026 (sept nuits en octobre, logements entiers, frais inclus) et sur un taux d'occupation de 65 %, valeur observée sur nos zones. Ce ne sont pas des promesses : votre audit chiffré part de votre logement réel.",
+   "head": ["Ligne", "T2 à Serris (Val d'Europe)", "T3 à Vincennes (94)"],
+   "rows": [
+    ["Prix moyen par nuit retenu", "115 EUR", "120 EUR"],
+    ["Nuits louées sur le mois", "20", "19"],
+    ["Revenus locatifs du mois", "2 300 EUR", "2 280 EUR"],
+    ["Commission Coolok, 20 % HT", "460 EUR HT", "456 EUR HT"],
+    ["Ménage (refacturé au voyageur)", "0 EUR pour vous", "0 EUR pour vous"],
+    ["Reste avant charges et impôts", "1 840 EUR", "1 824 EUR"]
+   ],
+   "source": "Calcul indicatif MKZ Consulting pour Coolok, 3 septembre 2026. Prix de liste médians relevés sur Airbnb : Serris 125 EUR, Vincennes 112 EUR par nuit frais inclus, ramenés ici hors frais de ménage. Hors charges de copropriété, énergie, assurance, fiscalité."
+  },
+  {
+   "type": "checklist",
+   "bg": "cream",
+   "h2": "Comment comparer deux devis de conciergerie",
+   "intro": "Un taux de 15 % peut vous coûter plus cher qu'un taux de 20 %. Les six questions à poser avant de signer :",
+   "items": [
+    "La commission est-elle calculée sur le montant encaissé ou sur le montant affiché avant frais de plateforme ?",
+    "Le taux annoncé est-il HT ou TTC ? Vingt pour cent HT et vingt pour cent TTC, ce n'est pas le même prix.",
+    "Le ménage est-il refacturé au voyageur, ajouté à votre facture, ou prélevé sur vos revenus ?",
+    "Y a-t-il des frais d'entrée, de photos, de linge, de mise en ligne, de sortie de contrat ?",
+    "Qui est propriétaire de l'annonce et des avis à la fin du contrat ?",
+    "Que se passe-t-il si le logement ne se loue pas : payez-vous quand même quelque chose ?"
+   ],
+   "cta": { "label": "Lire le guide complet des tarifs", "href": "/blog/tarif-conciergerie-airbnb", "style": "secondary" }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "euro",
+   "title": "Le marché, pour situer notre taux",
+   "md": "Sur les pages tarifs publiques des conciergeries françaises relevées en juin 2026, les commissions vont de **15 à 30 % des revenus**, le plus souvent autour de 20 %, avec des modèles très différents : forfait mensuel dû même sans réservation, frais d'installation, ménage prélevé sur vos revenus. Nous avons choisi un taux unique tout compris pour que la comparaison soit possible.",
+   "cta": { "label": "Estimer mes revenus et recevoir un devis", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Ce qui vous protège",
+   "intro": "Un contrat de douze mois ne veut pas dire un chèque en blanc.",
+   "cols": 3,
+   "items": [
+    { "icon": "wallet", "title": "Payé au résultat", "text": "Aucun revenu sur le mois, aucune commission. Notre rémunération suit exactement la performance de votre logement." },
+    { "icon": "calendar", "title": "Vos dates restent les vôtres", "text": "Vous bloquez le calendrier pour votre usage personnel autant que vous le souhaitez, sans justification ni pénalité." },
+    { "icon": "doc", "title": "Comptes ouverts", "text": "Relevé mensuel détaillé des séjours, des revenus et des frais. Vous gardez l'accès à vos comptes de plateforme." }
+   ]
+  }
+ ],
+ "faq": [
+  { "q": "Le taux de 20 % est-il HT ou TTC ?", "a": "Il est HT. Sur une facture, la TVA au taux standard de 20 % s'ajoute à la commission : 20 % HT représentent 24 % TTC de vos revenus. Nous l'écrivons noir sur blanc parce que la confusion entre HT et TTC est le premier piège des devis de conciergerie." },
+  { "q": "Le ménage est-il compris dans la commission ?", "a": "Non, et c'est une bonne nouvelle : il est refacturé au voyageur dans le prix du séjour, selon la typologie du logement. Il ne vient donc ni s'ajouter à votre commission ni se retrancher de vos revenus. La grille par typologie vous est remise avec le devis." },
+  { "q": "Payez-vous quelque chose si le logement ne se loue pas ?", "a": "Non. Il n'y a ni forfait mensuel, ni frais d'entrée, ni minimum garanti. S'il n'y a pas de séjour, il n'y a pas de commission. C'est le sens du paiement au résultat." },
+  { "q": "Y a-t-il des frais de mise en place ?", "a": "Aucun frais d'installation, de photos ni de mise en ligne. Restent à votre charge les équipements manquants du logement (literie, linge de départ, serrure connectée si vous en voulez une) et les travaux éventuels, toujours sur devis que vous validez." },
+  { "q": "Comment la commission est-elle calculée exactement ?", "a": "Sur les revenus locatifs réellement encaissés pour le logement sur le mois, hors taxe de séjour. Pas sur un prix affiché, pas sur un objectif théorique. Le relevé mensuel détaille chaque séjour et le calcul." },
+  { "q": "Faites-vous du ménage ou de l'accueil à la carte ?", "a": "Non. Nous exploitons le logement dans son ensemble ou nous ne le prenons pas : c'est ce qui nous permet de tenir la qualité d'accueil, les notes de l'annonce et un tarif unique. Si vous cherchez une prestation isolée, nous vous le dirons franchement dès le premier appel." }
+ ],
+ "keywords": ["tarif conciergerie airbnb", "prix conciergerie airbnb", "commission conciergerie airbnb"],
+ "ctaBand": {
+  "h2": "Un devis chiffré sur votre logement, sous 48 h",
+  "text": "Vous donnez votre commune et votre logement, Thierry vous envoie la fourchette de revenus, la commission et ce qui reste net. Gratuit, sans engagement.",
+  "ctas": [
+   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+   { "label": "Poser une question sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20tarifs%20de%20conciergerie.", "style": "ghost-light" }
+  ]
+ }
+}

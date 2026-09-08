@@ -1,0 +1,152 @@
+{
+ "url": "/conciergerie-airbnb-val-d-europe",
+ "type": "zone",
+ "name": "Val d'Europe et Marne-la-Vallée",
+ "slug": "val-d-europe",
+ "title": "Conciergerie Val d'Europe et Disneyland Paris | Coolok",
+ "description": "Chessy, Serris, Magny, Bailly, Bussy, Chalifert : Coolok compare les six communes du Val d'Europe et exploite votre meublé près de Disneyland Paris.",
+ "h1": "Conciergerie Airbnb au Val d'Europe, à Marne-la-Vallée et autour de Disneyland Paris",
+ "image": "/assets/img/heros/val-d-europe.webp",
+ "imageAlt": "Centre urbain du Val d'Europe et toits de Marne-la-Vallée au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Six communes, Seine-et-Marne",
+  "lead": "Six communes, deux régimes réglementaires, et des prix d'achat qui s'écartent de plus de 20 % d'une gare à l'autre. Cette page compare ce que vaut un logement selon l'endroit précis où il se trouve, de Chessy à Chalifert."
+ },
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un bassin de 16 millions de visiteurs, six marchés distincts",
+   "md": "Le moteur est connu : Disneyland Paris a dépassé 16 millions de visiteurs en 2025 selon le classement TEA relayé par BFM Business le 26 août 2026, et l'ouverture de Disney Adventure World le 29 mars 2026 a livré un second parc réaménagé après deux milliards d'euros investis. À côté, le centre commercial Val d'Europe revendique 23 millions de visiteurs en 2025 et le village de marques voisin près de 7 millions par an. Ce n'est pas une saison touristique, c'est un flux permanent.\n\nCe flux ne se répartit pas également. Une famille venue en train veut marcher jusqu'aux attractions, un groupe de dix personnes cherche une maison avec jardin et stationnement, un consultant en mission veut le RER A. Les six communes que nous couvrons répondent à des besoins différents, avec des prix d'achat allant de 3 985 EUR le mètre carré à Chalifert à 4 858 EUR à Chessy (estimations Figaro Immobilier relevées entre septembre 2025 et août 2026).\n\nLa ligne de partage décisive n'est pourtant ni le prix ni la distance aux parcs : elle est réglementaire. Quatre communes appliquent une autorisation de changement d'usage depuis le 1er juin 2024, deux autres s'en tiennent à une déclaration en mairie. À quelques kilomètres d'écart, deux projets identiques ne réclament donc ni le même dossier, ni le même délai de mise en route. C'est le premier point que nous regardons avant même de parler de rendement."
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Ce que vaut un logement selon la commune",
+   "intro": "Les fourchettes ci-dessous proviennent de notre base de marché, mise à jour le 9 juillet 2026. Elles donnent un ordre de grandeur : le seul chiffre qui compte pour vous est celui de votre logement, que nous calculons sur pièces.",
+   "head": [
+    "Commune",
+    "Prix par nuit",
+    "Occupation",
+    "Revenu mensuel",
+    "Son avantage"
+   ],
+   "rows": [
+    [
+     "[Chessy](/conciergerie-airbnb-chessy)",
+     "90 à 180 EUR",
+     "65 à 75 %",
+     "1 800 à 4 100 EUR",
+     "La gare TGV et RER, les attractions à pied"
+    ],
+    [
+     "[Serris](/conciergerie-airbnb-serris)",
+     "80 à 170 EUR",
+     "70 à 80 %",
+     "1 700 à 4 100 EUR",
+     "Le centre urbain, les commerces et l'outlet"
+    ],
+    [
+     "[Magny-le-Hongre](/conciergerie-airbnb-magny-le-hongre)",
+     "75 à 155 EUR",
+     "68 à 80 %",
+     "1 500 à 3 600 EUR",
+     "Les maisons de six à dix couchages, rares ici"
+    ],
+    [
+     "[Bailly-Romainvilliers](/conciergerie-airbnb-bailly-romainvilliers)",
+     "70 à 145 EUR",
+     "67 à 78 %",
+     "1 400 à 3 400 EUR",
+     "Le stationnement privé face aux résidences de tourisme"
+    ],
+    [
+     "[Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges)",
+     "70 à 140 EUR",
+     "70 à 80 %",
+     "1 400 à 3 400 EUR",
+     "Une déclaration simple et deux clientèles distinctes"
+    ],
+    [
+     "[Chalifert](/conciergerie-airbnb-chalifert)",
+     "75 à 155 EUR",
+     "59 à 69 %",
+     "1 300 à 3 200 EUR",
+     "Le calme des bords de Marne, sans autorisation à déposer"
+    ]
+   ],
+   "source": "Base de marché Coolok, extraction du 9 juillet 2026 (AirDNA croisé avec les plateformes), fourchettes variant selon la taille et l'emplacement. Contrôle indépendant sur Airbnb le 3 septembre 2026, pour sept nuits en octobre 2026 et frais inclus : 140 EUR de médiane à Chessy sur 5 annonces, 125 EUR à Serris sur 15 annonces."
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Trois façons d'être bien placé sur ce bassin",
+   "intro": "Ici, l'emplacement se juge à l'accès réel, jamais à la distance en kilomètres.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "train",
+     "title": "À pied de la gare de Marne-la-Vallée Chessy",
+     "text": "4 448 487 voyageurs SNCF en 2024 (données ouvertes SNCF) et un RER A qui met Châtelet à environ 45 minutes. Un voyageur arrivé en train paie pour ne pas avoir à reprendre un transport en descendant."
+    },
+    {
+     "icon": "map",
+     "title": "Le centre urbain du Val d'Europe",
+     "text": "Deux gares de RER, un centre commercial, un village de marques et un bâti récent. C'est le secteur où l'offre concurrente est la plus dense, donc celui où la qualité de l'annonce et la note des voyageurs pèsent le plus lourd."
+    },
+    {
+     "icon": "home",
+     "title": "Le deuxième rideau",
+     "text": "Bussy-Saint-Georges, Chalifert et les quartiers pavillonnaires de Magny et de Bailly. On y achète moins cher, on y loue à une clientèle motorisée, et l'on y trouve les grandes capacités qui manquent partout ailleurs sur le secteur."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison sur la zone",
+   "md": "Le rythme est dicté par les attractions et par les vacances scolaires européennes, avec deux longues séquences déjà annoncées : le festival d'Halloween du 26 septembre au 1er novembre 2026, puis les fêtes de fin d'année du 7 novembre 2026 au 6 janvier 2027 (communiqués Disneyland Paris de juillet 2026). Entre ces pics, les semaines se remplissent au tarif, au séjour court accepté et à la clientèle de shopping. Un propriétaire qui ne travaille que les vacances abandonne la moitié de son année.",
+   "narrow": true
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien rapporte un logement en location courte durée au Val d'Europe ?",
+   "a": "Nos fourchettes de marché du 9 juillet 2026 vont de 1 300 à 3 200 EUR par mois à Chalifert et de 1 800 à 4 100 EUR à Chessy, selon la taille et l'emplacement. Le contrôle mené sur Airbnb le 3 septembre 2026 donne, pour sept nuits en octobre, une médiane de 140 EUR la nuit à Chessy et de 125 EUR à Serris, frais inclus. Votre chiffre dépend de votre bien : l'estimation part sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer un meublé de tourisme au Val d'Europe ?",
+   "a": "Oui dans les communes de Val d'Europe Agglomération. Le règlement délibéré le 14 décembre 2023 est entré en vigueur le 1er juin 2024 : une résidence secondaire ou un bien dédié demande une autorisation de changement d'usage dès la première nuitée, avec un numéro obtenu sur la plateforme declaloc.fr. À Bussy-Saint-Georges et à Chalifert, une déclaration en mairie suffit."
+  },
+  {
+   "q": "Qu'est-ce que la compensation exigée à Chessy et à Serris ?",
+   "a": "Ces deux communes sont les seules du secteur à connaître un zonage. Depuis le 1er décembre 2024, en zone 1 (ZAC des Studios et des Congrès, ZAC du Pré de Claye, ZAC du Centre Urbain), une personne morale doit compenser en transformant en habitation un local qui ne l'est pas, dans la même commune et pour une surface au moins équivalente."
+  },
+  {
+   "q": "Quelle commune choisir pour investir près de Disneyland Paris ?",
+   "a": "Cela dépend de votre budget et du type de bien. Chessy affiche les prix les plus hauts et la contrainte la plus forte, Bussy-Saint-Georges et Chalifert offrent le ticket d'entrée le plus bas et la démarche la plus simple, Magny-le-Hongre reste le seul créneau des grandes capacités. Le tableau ci-dessus compare les six, et nous chiffrons ensuite votre cas précis."
+  },
+  {
+   "q": "Que risque-t-on à louer sans autorisation sur le Val d'Europe ?",
+   "a": "L'agglomération affiche jusqu'à 50 000 EUR d'amende par local en cas d'infraction au changement d'usage, avec le cas échéant 1 000 EUR d'astreinte par jour et par mètre carré, jusqu'à 80 000 EUR pour une fausse déclaration et jusqu'à 5 000 EUR en l'absence de numéro d'enregistrement (page officielle de Val d'Europe Agglomération, mise à jour du 19 septembre 2024)."
+  },
+  {
+   "q": "Combien de temps faut-il pour mettre un logement en ligne au Val d'Europe ?",
+   "a": "Comptez environ deux mois d'instruction pour une demande de changement d'usage dans les communes de l'agglomération, puis quelques jours pour la visite, les photographies, l'annonce et les accès. À Bussy-Saint-Georges et à Chalifert, la déclaration en mairie raccourcit nettement ce délai."
+  }
+ ],
+ "keywords": [
+  "conciergerie val d'europe",
+  "conciergerie marne la vallée",
+  "conciergerie airbnb val d'europe",
+  "conciergerie disneyland paris"
+ ],
+ "quote": {
+  "text": "Sur ce secteur, on me parle toujours des attractions, jamais du dossier. C'est pourtant là que tout se joue. À Serris ou à Chessy, une résidence secondaire réclame une autorisation et parfois une compensation ; à Bussy, une déclaration suffit. Deux communes voisines, deux délais de mise en route qui n'ont rien à voir. Je préfère vous le dire avant l'achat qu'après.",
+  "pending": true
+ },
+ "dept": "77",
+ "shortName": "Val d'Europe"
+}

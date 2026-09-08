@@ -1,0 +1,664 @@
+{
+ "baseUrl": "https://www.coolok.co",
+ "devBaseUrl": "https://www.coolok.co",
+ "theme": {
+  "color": "#183020"
+ },
+ "assets": {
+  "logo": "/assets/img/logo-coolok.png",
+  "logoLight": "/assets/img/logo-coolok.png",
+  "logoW": 132,
+  "logoH": 104,
+  "favicon": "/assets/img/favicon.png",
+  "appleIcon": "/assets/img/apple-touch-icon.png",
+  "ogDefault": "/assets/img/og-coolok.webp"
+ },
+ "org": {
+  "name": "Coolok",
+  "legalName": "Coolok Services SASU",
+  "tagline": "Conciergerie Airbnb et location courte durée en Île-de-France. Votre bien loué et rentabilisé, sans y passer vos soirées.",
+  "description": "Coolok est une conciergerie Airbnb et location courte durée en Île-de-France : annonce, tarification dynamique, accueil des voyageurs, ménage et maintenance, pour une commission unique de 20 % HT au résultat.",
+  "email": "contact@coolok.co",
+  "telephoneRaw": "+33673937501",
+  "telephoneDisplay": "06 73 93 75 01",
+  "telephone": "+33 6 73 93 75 01",
+  "whatsappUrl": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20services%20de%20conciergerie.",
+  "calendly": "https://calendly.com/contact-coolok/30min",
+  "siren": "934155227",
+  "vatId": "FR87934155227",
+  "foundingDate": "2024-10-10",
+  "address": {
+   "street": "4 avenue Oudinot",
+   "postalCode": "94340",
+   "locality": "Joinville-le-Pont",
+   "region": "Île-de-France"
+  },
+  "logo": "/assets/img/logo-coolok.png",
+  "image": "/assets/img/og-coolok.webp",
+  "priceRange": "20 % HT des revenus locatifs",
+  "commission": 20,
+  "commissionDisplay": "20 % HT",
+  "commissionText": "Commission unique de 20 % HT des revenus locatifs, tout compris, sans frais caché, payée au résultat.",
+  "rating": {
+   "value": 4.8,
+   "count": 21,
+   "url": "https://share.google/LAhCsodsRLSiaqNVX",
+   "date": "2026-09-02"
+  },
+  "sameAs": [
+   "https://www.facebook.com/coolok",
+   "https://www.linkedin.com/company/coolok"
+  ],
+  "disclaimer": "Coolok Services est une société de prestations de services qui accompagne les propriétaires dans l'exploitation de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires."
+ },
+ "founder": {
+  "name": "Thierry Moraldo",
+  "jobTitle": "fondateur de Coolok",
+  "description": "Investisseur immobilier depuis plus de 10 ans, fondateur de Coolok Services, conciergerie Airbnb et location courte durée basée à Joinville-le-Pont (Val-de-Marne).",
+  "bio": "Investisseur immobilier depuis plus de 10 ans et propriétaire-bailleur avant d'être concierge, Thierry a fondé Coolok pour que la location courte durée rapporte à ceux qui possèdent, sans leur voler leurs soirées. Il réalise lui-même chaque audit chiffré.",
+  "image": "/assets/img/thierry-moraldo.webp",
+  "sameAs": [
+   "https://www.linkedin.com/company/coolok"
+  ]
+ },
+ "areaServed": [
+  "Île-de-France",
+  "Paris",
+  "Seine-et-Marne",
+  "Yvelines",
+  "Essonne",
+  "Hauts-de-Seine",
+  "Seine-Saint-Denis",
+  "Val-de-Marne",
+  "Val-d'Oise"
+ ],
+ "departements": {
+  "51": {
+   "name": "Marne"
+  },
+  "75": {
+   "name": "Paris"
+  },
+  "77": {
+   "name": "Seine-et-Marne"
+  },
+  "78": {
+   "name": "Yvelines"
+  },
+  "91": {
+   "name": "Essonne"
+  },
+  "92": {
+   "name": "Hauts-de-Seine"
+  },
+  "93": {
+   "name": "Seine-Saint-Denis"
+  },
+  "94": {
+   "name": "Val-de-Marne"
+  },
+  "95": {
+   "name": "Val-d'Oise"
+  }
+ },
+ "dataSource": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, mise à jour juillet 2026. Estimations indicatives, hors charges et commission.",
+ "defaultCta": {
+  "label": "Estimer mes revenus",
+  "href": "/simulateur-locatif",
+  "style": "primary",
+  "icon": "calc"
+ },
+ "trust": [
+  {
+   "value": "4,8/5",
+   "label": "21 avis Google",
+   "href": "https://share.google/LAhCsodsRLSiaqNVX"
+  },
+  {
+   "value": "20 % HT",
+   "label": "commission unique, tout compris",
+   "href": "/tarifs"
+  },
+  {
+   "value": "+40 %",
+   "label": "de revenus en moyenne face à une gestion en solo",
+   "href": "/services"
+  },
+  {
+   "value": "48 h",
+   "label": "pour recevoir votre audit chiffré",
+   "href": "/simulateur-locatif"
+  }
+ ],
+ "trustShort": [
+  "4,8/5 sur 21 avis Google",
+  "20 % HT tout compris, sans frais caché",
+  "Audit chiffré sous 48 h"
+ ],
+ "included": [
+  "Annonce rédigée et photos professionnelles",
+  "Diffusion Airbnb et Booking, calendriers synchronisés",
+  "Tarification dynamique ajustée en temps réel",
+  "Sélection et messages avec les voyageurs",
+  "Accueil, boîtiers connectés et assistance 24/7",
+  "Ménage professionnel et linge entre chaque séjour",
+  "Maintenance et petites réparations coordonnées",
+  "Suivi de la réglementation et conformité",
+  "Accès à votre tableau de bord 24/7",
+  "Vous bloquez vos dates quand vous le souhaitez"
+ ],
+ "testimonials": [
+  {
+   "name": "Marie-Claude",
+   "stars": 5,
+   "text": "Équipe professionnelle, efficace, mais surtout très humaine. Je me suis sentie en confiance dès le début et ça continue. Je recommande vivement !"
+  },
+  {
+   "name": "Vincent",
+   "stars": 5,
+   "text": "Une équipe au top, fiable et attentionnée ! Coolok s'occupe de tout, et ça change la vie. Je recommande sans hésiter."
+  },
+  {
+   "name": "Cédric",
+   "stars": 5,
+   "text": "Conciergerie sérieuse, réactive et professionnelle. Un service de confiance que je recommande !"
+  },
+  {
+   "name": "Nicolas",
+   "place": "propriétaire à Versailles",
+   "stars": 5,
+   "text": "Très satisfait. La conciergerie gère les réservations et le ménage de mon appartement à Versailles depuis cet été. Tout est fluide. Je ne m'occupe plus de rien. Quand j'ai une question, j'obtiens une réponse assez rapidement. Très pro. Je ne peux que recommander."
+  },
+  {
+   "name": "Anne-Laure",
+   "stars": 5,
+   "text": "Thierry est quelqu'un de confiance qui a une belle expérience dans l'immobilier et travaille avec des outils avancés de gestion de réservation, d'automatisation et de calculs de prix. Un pro que je conseille car les résultats sont là !"
+  },
+  {
+   "name": "Virginie",
+   "stars": 5,
+   "text": "Je suis réellement satisfaite des services de cette conciergerie. Jamais je n'ai rencontré un tel niveau de qualité auparavant avec les conciergeries que j'ai pu employer. Ils sont toujours à l'écoute des propriétaires mais également des voyageurs, et extrêmement arrangeants."
+  }
+ ],
+ "partners": [
+  {
+   "name": "Airbnb",
+   "href": "https://www.airbnb.fr/",
+   "src": "/assets/img/partners/airbnb.png",
+   "width": 110,
+   "height": 40
+  },
+  {
+   "name": "Booking.com",
+   "href": "https://www.booking.com/",
+   "src": "/assets/img/partners/booking.png",
+   "width": 140,
+   "height": 40
+  },
+  {
+   "name": "Beds24, channel manager",
+   "href": "https://www.beds24.com/",
+   "src": "/assets/img/partners/beds24.png",
+   "width": 60,
+   "height": 60
+  },
+  {
+   "name": "PriceLabs, tarification dynamique",
+   "href": "https://www.pricelabs.co/",
+   "src": "/assets/img/partners/pricelabs.png",
+   "width": 120,
+   "height": 40
+  },
+  {
+   "name": "AirDNA, données de marché",
+   "href": "https://www.airdna.co/",
+   "src": "/assets/img/partners/airdna.jpg",
+   "width": 120,
+   "height": 42
+  },
+  {
+   "name": "Igloohome, serrures connectées",
+   "href": "https://www.igloohome.fr/",
+   "src": "/assets/img/partners/igloohome.png",
+   "width": 120,
+   "height": 40
+  },
+  {
+   "name": "TTLock, serrures connectées",
+   "href": "https://www.ttlock.eu/",
+   "src": "/assets/img/partners/ttlock.png",
+   "width": 60,
+   "height": 60
+  },
+  {
+   "name": "Versailles Tourisme",
+   "href": "https://www.versailles-tourisme.com/",
+   "src": "/assets/img/partners/versailles-tourisme.jpg",
+   "width": 60,
+   "height": 60
+  },
+  {
+   "name": "Reims Tourisme",
+   "href": "https://www.reims-tourisme.com/",
+   "src": "/assets/img/partners/reims-tourisme.png",
+   "width": 90,
+   "height": 50
+  },
+  {
+   "name": "Expat-Pro",
+   "href": "https://www.expat-pro.com/",
+   "src": "/assets/img/partners/expat-pro.jpg",
+   "width": 60,
+   "height": 64
+  },
+  {
+   "name": "Immo Matin",
+   "href": "https://www.immomatin.com/",
+   "src": "/assets/img/partners/immomatin.jpg",
+   "width": 90,
+   "height": 58
+  },
+  {
+   "name": "French Morning",
+   "href": "https://www.frenchmorning.com/",
+   "src": "/assets/img/partners/frenchmorning.png",
+   "width": 80,
+   "height": 60
+  }
+ ],
+ "logements": [
+  {
+   "place": "Versailles, Yvelines",
+   "title": "Un écrin entre cultures et traditions",
+   "text": "Entièrement repensé par des architectes, à deux pas du château.",
+   "src": "/assets/img/logements/versailles.webp",
+   "alt": "Appartement rénové par des architectes à Versailles, confié à Coolok"
+  },
+  {
+   "place": "Fontainebleau, Seine-et-Marne",
+   "title": "T2 lumineux avec patio",
+   "text": "Au cœur de Fontainebleau, idéal couples et télétravail.",
+   "src": "/assets/img/logements/fontainebleau.webp",
+   "alt": "T2 lumineux avec patio intérieur à Fontainebleau, confié à Coolok"
+  },
+  {
+   "place": "Montreuil, Seine-Saint-Denis",
+   "title": "Le pied-à-terre des pros",
+   "text": "Traversant, balcon et parking privé aux portes de Paris.",
+   "src": "/assets/img/logements/montreuil.webp",
+   "alt": "Appartement traversant avec balcon à Montreuil, confié à Coolok"
+  },
+  {
+   "place": "Nogent-sur-Marne, Val-de-Marne",
+   "title": "Studio apaisant en bord de Marne",
+   "text": "Port de plaisance, guinguettes et RER à quelques minutes.",
+   "src": "/assets/img/logements/nogent.webp",
+   "alt": "Studio lumineux en bord de Marne à Nogent-sur-Marne, confié à Coolok"
+  },
+  {
+   "place": "Reims, Champagne",
+   "title": "Stuart, élégance vue cathédrale",
+   "text": "Central, raffiné, vue imprenable sur Notre-Dame de Reims.",
+   "src": "/assets/img/logements/reims.webp",
+   "alt": "Appartement élégant avec vue sur la cathédrale de Reims, confié à Coolok"
+  },
+  {
+   "place": "Boulogne-Billancourt, Hauts-de-Seine",
+   "title": "L'art de vivre à la française",
+   "text": "À quelques minutes de Roland-Garros et du bois de Boulogne.",
+   "src": "/assets/img/logements/boulogne.webp",
+   "alt": "Appartement à Boulogne-Billancourt près de Roland-Garros, confié à Coolok"
+  },
+  {
+   "place": "Paris, Bastille",
+   "title": "Cocon rénové au cœur de Bastille",
+   "text": "Tout équipé, idéal couples, cafés et restaurants en bas.",
+   "src": "/assets/img/logements/bastille.webp",
+   "alt": "Appartement rénové dans le quartier de Bastille à Paris, confié à Coolok"
+  },
+  {
+   "place": "Asnelles, Normandie",
+   "title": "Maison calme avec cheminée",
+   "text": "Six chambres à quelques pas des plages du Débarquement.",
+   "src": "/assets/img/logements/asnelles.webp",
+   "alt": "Maison familiale de six chambres à Asnelles en Normandie, confiée à Coolok"
+  }
+ ],
+ "nav": {
+  "header": [
+   {
+    "label": "Services",
+    "href": "/services"
+   },
+   {
+    "label": "Tarifs",
+    "href": "/tarifs"
+   },
+   {
+    "label": "Zones",
+    "href": "/conciergerie-airbnb-ile-de-france",
+    "match": "/conciergerie-"
+   },
+   {
+    "label": "Logements",
+    "href": "/logements"
+   },
+   {
+    "label": "Guides",
+    "href": "/blog"
+   },
+   {
+    "label": "Qui sommes-nous",
+    "href": "/qui-sommes-nous"
+   },
+   {
+    "label": "Contact",
+    "href": "/contact"
+   }
+  ],
+  "cta": {
+   "label": "Estimer mes revenus",
+   "shortLabel": "Estimer mes revenus",
+   "href": "/simulateur-locatif"
+  },
+  "footer": [
+   {
+    "title": "Coolok",
+    "items": [
+     {
+      "label": "Nos services",
+      "href": "/services"
+     },
+     {
+      "label": "Tarifs : 20 % HT tout compris",
+      "href": "/tarifs"
+     },
+     {
+      "label": "Simulateur de revenus",
+      "href": "/simulateur-locatif"
+     },
+     {
+      "label": "Logements confiés",
+      "href": "/logements"
+     },
+     {
+      "label": "Qui sommes-nous",
+      "href": "/qui-sommes-nous"
+     },
+     {
+      "label": "Contact et rendez-vous",
+      "href": "/contact"
+     }
+    ]
+   },
+   {
+    "title": "Zones",
+    "items": [
+     {
+      "label": "Île-de-France",
+      "href": "/conciergerie-airbnb-ile-de-france"
+     },
+     {
+      "label": "Val d'Europe et Disneyland",
+      "href": "/conciergerie-airbnb-val-d-europe"
+     },
+     {
+      "label": "Seine-et-Marne (77)",
+      "href": "/conciergerie-airbnb-seine-et-marne"
+     },
+     {
+      "label": "Val-de-Marne (94)",
+      "href": "/conciergerie-airbnb-val-de-marne"
+     },
+     {
+      "label": "Hauts-de-Seine (92)",
+      "href": "/conciergerie-airbnb-hauts-de-seine"
+     },
+     {
+      "label": "Seine-Saint-Denis (93)",
+      "href": "/conciergerie-airbnb-seine-saint-denis"
+     },
+     {
+      "label": "Yvelines (78)",
+      "href": "/conciergerie-airbnb-yvelines"
+     },
+     {
+      "label": "Essonne (91)",
+      "href": "/conciergerie-airbnb-essonne"
+     },
+     {
+      "label": "Val-d'Oise (95)",
+      "href": "/conciergerie-airbnb-val-d-oise"
+     },
+     {
+      "label": "Paris (75)",
+      "href": "/conciergerie-airbnb-paris"
+     }
+    ]
+   },
+   {
+    "title": "Communes",
+    "items": [
+     {
+      "label": "Chessy",
+      "href": "/conciergerie-airbnb-chessy"
+     },
+     {
+      "label": "Serris",
+      "href": "/conciergerie-airbnb-serris"
+     },
+     {
+      "label": "Magny-le-Hongre",
+      "href": "/conciergerie-airbnb-magny-le-hongre"
+     },
+     {
+      "label": "Bailly-Romainvilliers",
+      "href": "/conciergerie-airbnb-bailly-romainvilliers"
+     },
+     {
+      "label": "Bussy-Saint-Georges",
+      "href": "/conciergerie-airbnb-bussy-saint-georges"
+     },
+     {
+      "label": "Chalifert",
+      "href": "/conciergerie-airbnb-chalifert"
+     },
+     {
+      "label": "Fontainebleau",
+      "href": "/conciergerie-airbnb-fontainebleau"
+     },
+     {
+      "label": "Vincennes",
+      "href": "/conciergerie-airbnb-vincennes"
+     },
+     {
+      "label": "Saint-Mandé",
+      "href": "/conciergerie-airbnb-saint-mande"
+     },
+     {
+      "label": "Joinville-le-Pont",
+      "href": "/conciergerie-airbnb-joinville-le-pont"
+     },
+     {
+      "label": "Nogent-sur-Marne",
+      "href": "/conciergerie-airbnb-nogent-sur-marne"
+     },
+     {
+      "label": "Saint-Maur-des-Fossés",
+      "href": "/conciergerie-airbnb-saint-maur-des-fosses"
+     },
+     {
+      "label": "Charenton-le-Pont",
+      "href": "/conciergerie-airbnb-charenton-le-pont"
+     },
+     {
+      "label": "Saint-Maurice",
+      "href": "/conciergerie-airbnb-saint-maurice"
+     },
+     {
+      "label": "Maisons-Alfort",
+      "href": "/conciergerie-airbnb-maisons-alfort"
+     },
+     {
+      "label": "Alfortville",
+      "href": "/conciergerie-airbnb-alfortville"
+     },
+     {
+      "label": "Ivry-sur-Seine",
+      "href": "/conciergerie-airbnb-ivry-sur-seine"
+     },
+     {
+      "label": "Villejuif",
+      "href": "/conciergerie-airbnb-villejuif"
+     },
+     {
+      "label": "Chennevières-sur-Marne",
+      "href": "/conciergerie-airbnb-chennevieres-sur-marne"
+     },
+     {
+      "label": "Montreuil",
+      "href": "/conciergerie-airbnb-montreuil"
+     },
+     {
+      "label": "Pantin",
+      "href": "/conciergerie-airbnb-pantin"
+     },
+     {
+      "label": "Clichy",
+      "href": "/conciergerie-airbnb-clichy"
+     },
+     {
+      "label": "Vanves",
+      "href": "/conciergerie-airbnb-vanves"
+     },
+     {
+      "label": "Asnières-sur-Seine",
+      "href": "/conciergerie-airbnb-asnieres-sur-seine"
+     },
+     {
+      "label": "Versailles",
+      "href": "/conciergerie-airbnb-versailles"
+     },
+     {
+      "label": "Saint-Germain-en-Laye",
+      "href": "/conciergerie-airbnb-saint-germain-en-laye"
+     },
+     {
+      "label": "Reims",
+      "href": "/conciergerie-airbnb-reims"
+     }
+    ]
+   },
+   {
+    "title": "Guides",
+    "items": [
+     {
+      "label": "Tous les guides",
+      "href": "/blog"
+     },
+     {
+      "label": "Tarif d'une conciergerie Airbnb",
+      "href": "/blog/tarif-conciergerie-airbnb"
+     },
+     {
+      "label": "Loi Le Meur",
+      "href": "/blog/loi-le-meur"
+     },
+     {
+      "label": "DPE et Airbnb",
+      "href": "/blog/dpe-airbnb"
+     },
+     {
+      "label": "Rentabilité Airbnb en Île-de-France",
+      "href": "/blog/rentabilite-airbnb-ile-de-france-methode"
+     },
+     {
+      "label": "Conciergerie : le guide complet",
+      "href": "/blog/conciergerie-courte-duree"
+     },
+     {
+      "label": "Plan du site",
+      "href": "/plan-du-site"
+     }
+    ]
+   }
+  ]
+ },
+ "redirects": [
+  {
+   "from": "/conciergerie-courte-duree",
+   "to": "/blog/conciergerie-courte-duree"
+  },
+  {
+   "from": "/location-paris-courte-duree",
+   "to": "/blog/location-paris-courte-duree"
+  },
+  {
+   "from": "/investir-location",
+   "to": "/blog/investir-location"
+  },
+  {
+   "from": "/airbnb-ou-location-classique",
+   "to": "/blog/rentabilite-airbnb-ile-de-france-methode"
+  },
+  {
+   "from": "/bailleur",
+   "to": "/services"
+  },
+  {
+   "from": "/bailleurs",
+   "to": "/services"
+  },
+  {
+   "from": "/simulateur-de-revenue",
+   "to": "/simulateur-locatif"
+  },
+  {
+   "from": "/zones-couvertes",
+   "to": "/conciergerie-airbnb-ile-de-france"
+  },
+  {
+   "from": "/blog/simulateur-airbnb-2026",
+   "to": "/simulateur-locatif"
+  },
+  {
+   "from": "/blog/airbnb-ou-location-classique",
+   "to": "/blog/rentabilite-airbnb-ile-de-france-methode"
+  },
+  {
+   "from": "/lcd-2025-guide-complet-reglementation",
+   "to": "/blog/lcd-guide-complet"
+  }
+ ],
+ "tracking": {
+  "ga4": "G-EGGCE409YL",
+  "gtm": "GTM-MNQPLFBG",
+  "clarity": "tpqhesr7q2",
+  "hotjar": 6405057,
+  "facebookPixel": "639682629099282",
+  "iubendaSiteId": 3557022,
+  "iubendaConfig": {
+   "siteId": 3557022,
+   "cookiePolicyId": 74977694,
+   "lang": "fr",
+   "storage": {
+    "useSiteId": true
+   }
+  }
+ },
+ "llms": {
+  "intro": "Coolok (Coolok Services) est une conciergerie Airbnb et location courte durée en Île-de-France, fondée par Thierry Moraldo et basée à Joinville-le-Pont (Val-de-Marne). Délégation complète pour propriétaires bailleurs : annonce, tarification dynamique, sélection et accueil des voyageurs 24/7, ménage professionnel, maintenance. Commission unique de 20 % HT au résultat, sans frais caché. Note Google 4,8/5 sur 21 avis (septembre 2026). Site officiel : https://www.coolok.co",
+  "zonesIntro": "Zones couvertes : les 8 départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris / Val d'Europe / Marne-la-Vallée (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers, Bussy-Saint-Georges, Chalifert), Fontainebleau, le Val-de-Marne (Joinville-le-Pont, Vincennes, Saint-Maur-des-Fossés, Nogent-sur-Marne, Charenton-le-Pont), la petite couronne Est (Montreuil, Pantin), Clichy, Versailles et Saint-Germain-en-Laye, ainsi que Reims.",
+  "keyPages": [
+   "/",
+   "/services",
+   "/tarifs",
+   "/simulateur-locatif",
+   "/qui-sommes-nous",
+   "/logements",
+   "/contact"
+  ],
+  "fullLine": "texte intégral de toutes les pages du site, avec pour chaque commune couverte le prix par nuit, le taux d'occupation, le revenu mensuel estimé, la réglementation locale et les questions fréquentes",
+  "licence": "données et textes © Coolok Services, citation autorisée avec attribution « Coolok » et lien vers https://www.coolok.co"
+ }
+}

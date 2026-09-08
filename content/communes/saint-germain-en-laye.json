@@ -1,0 +1,191 @@
+{
+ "url": "/conciergerie-airbnb-saint-germain-en-laye",
+ "type": "commune",
+ "name": "Saint-Germain-en-Laye",
+ "slug": "saint-germain-en-laye",
+ "dept": "78",
+ "title": "Conciergerie Airbnb Saint-Germain-en-Laye (78) | Coolok",
+ "description": "Familles internationales, lycée international, séjours de plusieurs semaines : Coolok exploite votre meublé à Saint-Germain-en-Laye. Commission 20 % HT.",
+ "h1": "Conciergerie à Saint-Germain-en-Laye, le marché des séjours longs",
+ "image": "/assets/img/heros/saint-germain-en-laye.webp",
+ "imageAlt": "Grande Terrasse de Le Nôtre à Saint-Germain-en-Laye en automne",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Yvelines, lisière de forêt",
+  "lead": "La commune compte 14,6 % d'habitants de nationalité étrangère, contre 7,7 % en France (INSEE, recensement 2022), et son lycée international réunit quatorze sections nationales. Ici, la demande n'est pas une nuit d'hôtel : c'est une installation."
+ },
+ "data": {
+  "prix_nuitee": "100 à 220 €",
+  "revenu_mensuel": "2 100 à 5 200 €",
+  "taux_occupation": "69 à 79 %",
+  "prix_m2": "7 500 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Germain-en-Laye (78) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 100 à 220 € la nuit, avec un taux d'occupation observé de 69 à 79 %, soit 2 100 à 5 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Familles internationales et séjours de plusieurs semaines",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Une demande d'installation plus qu'une demande de tourisme",
+   "md": "Le lycée international rassemble quatorze sections nationales, 1 057 lycéens à la rentrée 2024 et environ 2 200 élèves sur site de la maternelle à la terminale. Sciences Po Saint-Germain-en-Laye accueille 1 100 étudiants en 2025-2026, contre 82 à son ouverture. Les cadres et professions intellectuelles supérieures représentent 44,5 % des actifs, et le RER A place La Défense à dix-huit ou vingt et une minutes. Ce sont ces éléments, plus que le patrimoine, qui produisent des nuitées.\n\nLa conséquence est claire pour un propriétaire : votre meilleur client n'est pas un couple en week-end, c'est une famille qui arrive pour trois semaines, en repérage scolaire ou en attente d'un déménagement. Ce type de séjour demande un logement complet, avec une vraie cuisine, une machine à laver, du rangement et un bureau, plutôt qu'un décor photogénique.\n\nL'exploitation change également de nature : moins de rotations, un linge et une maintenance à tenir dans la durée, une relation plus longue avec le voyageur. Le patrimoine reste un complément agréable, sans être le moteur : le musée d'Archéologie nationale n'avait accueilli que 110 161 visiteurs en 2019, dernier chiffre publié que nous ayons pu vérifier. En revanche, la Fête des Loges, du 26 juin au 16 août 2026 pour sa 373e édition, occupe tout l'été."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Saint-Germain-en-Laye",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "45 931 habitants en 2023; densité 884 hab/km2 (forêt de 3 500 ha); 22 547 logements; 4,2 % de résidences secondaires; 49,1 % de propriétaires; niveau de vie médian 37 970 EUR",
+     "INSEE, RP2023 (consulté le 03/09/2026)"
+    ],
+    [
+     "Population étrangère et internationale",
+     "6 623 étrangers sur 45 286 habitants en 2022, soit 14,6 % (France : 7,7 %); 18,8 % d'immigres; 44,5 % de cadres et professions intellectuelles superieures parmi les actifs",
+     "INSEE, RP2022 (tableau NAT1); L'Internaute (CSP, données INSEE 2022) (26/06/2025)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "19 091 emplois en 2023, 1 945 établissements fin 2024",
+     "INSEE, RP2023 et Flores (consulté le 03/09/2026)"
+    ],
+    [
+     "Lycée international de Saint-Germain-en-Laye (2 bis rue du Fer à Cheval)",
+     "14 sections internationales (americaine, allemande, britannique, chinoise, danoise, espagnole, italienne, japonaise, neerlandaise, norvegienne, polonaise, portugaise, russe.",
+     "Academie de Versailles (effectif 2024); Wikipedia (sections); prospectus British Section (effectifs tous niveaux, non date) (rentrée 2024)"
+    ],
+    [
+     "Sciences Po Saint-Germain-en-Laye (IEP, 5 rue Pasteur, quartier Pereire)",
+     "1 100 étudiants en 2025-2026 (82 en 2014), objectif 1 400; 100 places au concours commun 2025; résidences étudiantes de la Lisiere Pereire (100 logements conventionnes)",
+     "Sciences Po Saint-Germain-en-Laye (page relue) (09/04/2026)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Saint-Germain-en-Laye",
+   "md": "- **Changement d'usage** : non (aucune délibération trouvée) **Compensation** : sans objet\n- **Si vous louez votre résidence principale** : 120 jours (règle nationale L324-1-1 IV, rappelée par l'office de tourisme); aucune délibération à 90 jours trouvée\n- **À prévoir dans votre dossier** : déclaration cerfa 14004 a la mairie pour toute résidence secondaire (sauf résidence principale louée moins de 120 jours); DPE et règles de copropriété nationales\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/saintgermainbouclesdeseine.php) et [document de référence](https://taxe.3douest.com/includes/download/bWHfxK-Tarifs-taxe-sejour-2025-casgbs-hors-Bezons.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Les secteurs de Saint-Germain-en-Laye",
+   "intro": "Le centre historique et la lisière de forêt concentrent la valeur, avec des écarts de prix marqués.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Le centre historique",
+     "text": "Ourches et Armagis dépassent 8 600 EUR le mètre carré (Figaro Immobilier, 1er août 2026). Marché, commerces et RER à pied : c'est l'adresse que recherchent les familles en installation."
+    },
+    {
+     "icon": "map",
+     "title": "La lisière de forêt",
+     "text": "Face aux 3 500 hectares du massif domanial, à 8 518 EUR le mètre carré. Un cadre calme et vert qui justifie un tarif au mois plus élevé sur les longs séjours."
+    },
+    {
+     "icon": "train",
+     "title": "Le quartier Pereire",
+     "text": "Sciences Po, résidences étudiantes et écoquartier livré en 2024. Un secteur adapté aux séjours d'étudiants, de parents et d'intervenants pédagogiques."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Saint-Germain-en-Laye",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles expatriées",
+     "text": "Elles viennent en repérage scolaire ou en attente de logement définitif. Séjours de une à quatre semaines, exigences de confort domestique, très peu de désistements."
+    },
+    {
+     "icon": "doc",
+     "title": "Parents et étudiants",
+     "text": "Rentrées, concours, jurys, remises de diplôme : l'établissement d'études politiques et le lycée international créent des pics de réservation identifiables."
+    },
+    {
+     "icon": "target",
+     "title": "Cadres du quartier d'affaires",
+     "text": "Le RER A dessert La Défense en une vingtaine de minutes, ce qui rend la commune crédible pour une mission longue, au calme et en famille."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Saint-Germain-en-Laye",
+   "md": "Deux périodes portent l'année. L'été d'abord, avec la Fête des Loges du 26 juin au 16 août 2026, qui anime la forêt pendant sept semaines. La fin d'été ensuite, en août et septembre, quand les familles internationales arrivent avant la rentrée scolaire : c'est la fenêtre la plus rentable pour un logement équipé pour vivre. L'hiver est plus calme et se travaille au mois, avec des tarifs dégressifs, plutôt qu'à la nuit. Les week-ends de printemps profitent de la forêt et de la terrasse.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Saint-Germain-en-Laye",
+   "intro": "Comment nous exploitons un logement sur ce marché particulier.",
+   "items": [
+    "Grille tarifaire dégressive à la semaine et au mois, adaptée aux installations de plusieurs semaines",
+    "Équipement contrôlé pour vivre et non seulement pour dormir : cuisine complète, lave-linge, rangements, bureau",
+    "Annonce et échanges en anglais, avec les informations scolaires et pratiques que cherchent les familles",
+    "Ménage et changement de linge en cours de séjour, planifiés dès la réservation d'un long séjour",
+    "Calendrier ouvert tôt sur la période de rentrée, la plus demandée de l'année sur la commune"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Ici, on ne cherche pas la nuit à cent euros, on cherche le séjour de trois semaines. Une famille qui arrive pour la rentrée du lycée international ne veut pas d'un studio décoré, elle veut une vraie cuisine, un lave-linge et des règles claires. Ce sont des voyageurs exigeants et des calendriers calmes. C'est le marché le plus confortable des Yvelines, à condition d'équiper le logement pour y vivre.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un meublé en courte durée à Saint-Germain-en-Laye ?",
+   "a": "Notre fiche de marché situe la nuitée entre 100 et 220 EUR et le revenu mensuel entre 2 100 et 5 200 EUR, pour une occupation de 69 à 79 % (source AirDNA croisée plateformes, relevé du 9 juillet 2026). Sur ce marché, un tarif au mois bien construit rapporte souvent davantage qu'une addition de nuits isolées : l'audit compare les deux."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Saint-Germain-en-Laye ?",
+   "a": "Au 3 septembre 2026, aucune autorisation de changement d'usage et aucun numéro d'enregistrement communal n'ont été identifiés sur la commune. Le formulaire cerfa de déclaration en mairie demeure exigé dès lors que le logement n'est pas votre habitation principale, sous peine d'amende. Le téléservice national d'enregistrement, lui, est annoncé pour le quatrième trimestre 2026."
+  },
+  {
+   "q": "Quelle taxe de séjour à Saint-Germain-en-Laye ?",
+   "a": "La taxe est intercommunale. Pour un meublé non classé, la part locale s'élève à 3 % du prix hors taxes de la nuitée par personne, et non 5 % comme dans la plupart de nos communes, avec un plafond de 4,00 EUR de part locale et de 13,00 EUR au total. Un classement trois étoiles ramène le prélèvement à 4,88 EUR."
+  },
+  {
+   "q": "Vaut-il mieux viser des séjours d'un mois à Saint-Germain-en-Laye ?",
+   "a": "Souvent oui. Les familles en installation et les intervenants des établissements d'enseignement réservent pour plusieurs semaines, ce qui réduit les rotations, le risque de vacance et l'usure du logement. Le prix à la nuit baisse, le revenu net progresse. Encore faut-il un logement équipé pour un vrai quotidien et un contrat clair."
+  },
+  {
+   "q": "La Fête des Loges remplit-elle les logements de la commune ?",
+   "a": "Elle se tient du 26 juin au 16 août 2026 pour sa 373e édition, en forêt, avec plus de 200 attractions et une entrée gratuite. L'organisateur annonce plus de trois millions de visiteurs par été, un chiffre non audité que nous citons comme tel. L'essentiel du public vient de la région, ce qui alimente surtout les week-ends d'été."
+  }
+ ],
+ "keywords": [
+  "conciergerie saint germain en laye",
+  "conciergerie airbnb saint-germain-en-laye",
+  "location meublée saint-germain-en-laye"
+ ]
+}

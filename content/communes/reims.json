@@ -1,0 +1,206 @@
+{
+ "url": "/conciergerie-airbnb-reims",
+ "type": "commune",
+ "name": "Reims",
+ "slug": "reims",
+ "dept": "51",
+ "title": "Conciergerie Reims (51) : Airbnb et courte durée | Coolok",
+ "description": "À Reims, l'offre de meublés a bondi de 28 % en un an et le revenu par logement recule. Coolok pilote votre annonce et votre prix. Commission 20 % HT.",
+ "h1": "Conciergerie à Reims : tenir son prix quand l'offre augmente",
+ "image": "/assets/img/heros/reims.webp",
+ "imageAlt": "Façade de la cathédrale Notre-Dame de Reims éclairée en fin de journée",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Marne, cathédrale et vignoble",
+  "lead": "Le Grand Reims recensait 3 700 meublés de tourisme et chambres d'hôtes en 2025, contre 2 900 un an plus tôt, pour un revenu moyen par logement disponible en recul de 5 %, à 45,2 EUR (Reims Tourisme et Congrès, rapports d'activité 2024 et 2025). La demande est là, mais elle ne pardonne plus un prix posé au hasard."
+ },
+ "data": {
+  "prix_nuitee": "65 à 130 €",
+  "revenu_mensuel": "1 100 à 2 800 €",
+  "taux_occupation": "55 à 68 %",
+  "prix_m2": "2 800 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Reims (51) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 65 à 130 € la nuit, avec un taux d'occupation observé de 55 à 68 %, soit 1 100 à 2 800 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Cathédrale, champagne et TGV en 45 minutes",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché porteur devenu un marché disputé",
+   "md": "La demande touristique reste solide : 4,5 millions de touristes en nuitées sur le Grand Reims en 2025, 11,1 millions d'excursions à la journée, une durée moyenne de séjour de 3,2 nuits et 39 % de nuitées internationales (Reims Tourisme et Congrès, rapport d'activité 2025). La cathédrale a reçu 1,7 million de visiteurs en 2025, en hausse de 14 %. Paris-Est est à 45 minutes de TGV, avec une vingtaine de liaisons quotidiennes en comptant la gare Champagne-Ardenne.\n\nEn face, l'offre a progressé de 28 % en un an et le taux d'occupation moyen des meublés est descendu à 56,1 %. Notre relevé du 3 septembre 2026 confirme la tension sur les prix : la médiane affichée pour sept nuits en octobre 2026 s'établit à 68 EUR par nuit frais inclus, sur vingt-deux annonces de logements entiers situées dans la commune, avec une fourchette de 32 à 132 EUR. Dix de ces vingt-deux annonces sont tenues par des hôtes professionnels, la proportion la plus élevée de toutes les communes que nous avons relevées.\n\nAutrement dit, la concurrence locale est déjà outillée. Ce qui fait la différence désormais tient en trois leviers : un prix révisé chaque semaine plutôt que fixé à l'année, un classement en meublé de tourisme qui allège la taxe de séjour et rassure, et une annonce traduite pour les marchés qui viennent réellement."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Reims",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale",
+     "177 674 habitants en 2023 (13e ville de France), Grand Reims 298 037; 107 679 logements; 3,8 % de résidences secondaires; 10 % de logements vacants; 28 % de propriétaires.",
+     "INSEE, RP2023 (commune et EPCI du Grand Reims) (consulté le 03/09/2026)"
+    ],
+    [
+     "Emplois au lieu de travail",
+     "94 250 emplois en 2023 (Grand Reims : 136 786), 5 701 établissements fin 2024",
+     "INSEE, RP2023 et Flores (consulté le 03/09/2026)"
+    ],
+    [
+     "Activité touristique du Grand Reims en 2025",
+     "4,5 M de touristes en nuitées (-3 % vs 2024), 11,1 M d'excursions a la journée (-1 %), 78 % d'origine française, 1,8 M de nuitées internationales (39 % des nuitées), 2 M.",
+     "Reims Tourisme & Congrès, rapport d'activité 2025 (sources Orange Flux Vision, MKG, In Extenso, AirDNA, taxe de séjour; traitement ARTGE-ADT Marne-AUDRR) (2025, publié début 2026 (extrait indexe, document non relu page a page))"
+    ],
+    [
+     "Meublés de tourisme et hôtels du Grand Reims (indicateurs 2025 vs 2024)",
+     "2025 : 3 700 meublés de tourisme et chambres d'hotes, taux d'occupation moyen 56,1 % (-3 % vs 2024), RevPAR moyen 45,2 EUR (-5 %).",
+     "Reims Tourisme & Congrès, rapports d'activité 2025 et 2024 (données AirDNA et taxe de séjour) (2025 et 2024)"
+    ],
+    [
+     "Cathédrale Notre-Dame et sites majeurs",
+     "1,7 M de visiteurs a la cathédrale en 2025 (+14 % vs 2024; 1,5 M en 2024; 1 535 641 en 2023); tours de la cathédrale (CMN) : 16 262 visiteurs en 2025 (+43 %).",
+     "Reims Tourisme & Congrès (RA 2025, RA 2023); Radio Jeunes Reims citant le CMN (tours) (2025, 2023 ; 07/01/2026)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "tight": true,
+   "variant": "info",
+   "icon": "euro",
+   "title": "Les prix affichés à Reims aujourd'hui",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Reims pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 68 EUR par nuit, frais inclus (moyenne 72 EUR, fourchette 32 à 132 EUR), sur 22 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "cta": {
+    "label": "Recevoir mon audit chiffré",
+    "href": "/simulateur-locatif",
+    "style": "primary",
+    "icon": "calc"
+   }
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Reims",
+   "md": "- **Changement d'usage** : oui **Compensation** : non\n- **Si vous louez votre résidence principale** : 120\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://reims.taxesejour.fr/) et [document de référence](https://reims.taxesejour.fr/portail/172581/download)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Où louer à Reims",
+   "intro": "Le triangle formé par la gare, la cathédrale et Saint-Remi concentre presque toute la demande de courte durée.",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "star",
+     "title": "Le centre et la cathédrale",
+     "text": "Le secteur le mieux valorisé de la ville, à 3 951 EUR le mètre carré (Figaro Immobilier, 1er août 2026). Tout se fait à pied, ce qui compte pour une clientèle venue en train."
+    },
+    {
+     "icon": "train",
+     "title": "Autour de la gare centre",
+     "text": "Descendre du TGV et rejoindre le logement en quelques minutes reste l'argument le plus efficace, en particulier pendant le marché de Noël installé à deux pas."
+    },
+    {
+     "icon": "map",
+     "title": "La colline Saint-Nicaise et Saint-Remi",
+     "text": "Les caves classées au patrimoine mondial et les grandes maisons de champagne se visitent dans ce secteur, plus abordable à l'achat que le centre."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Reims",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "wallet",
+     "title": "Amateurs de champagne",
+     "text": "Ils viennent pour les caves et le vignoble, souvent en couple ou à quatre, pour deux à trois nuits, et réservent volontiers plusieurs mois à l'avance."
+    },
+    {
+     "icon": "train",
+     "title": "Week-ends venus de Paris",
+     "text": "Quarante-cinq minutes de TGV suffisent. Cette clientèle décide tard, compare beaucoup et réagit fortement au prix affiché le jeudi."
+    },
+    {
+     "icon": "users",
+     "title": "Parents d'étudiants",
+     "text": "L'université compte 23 400 étudiants sur ses campus rémois et une grande école a ouvert un campus de 35 000 mètres carrés en septembre 2026 : rentrées et remises de diplômes remplissent des dates précises."
+    }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "La saison à Reims",
+   "md": "Le calendrier a changé. Les vendanges 2026 ont démarré entre le 8 et le 22 août selon les communes, un record de précocité annoncé par le Comité Champagne le 12 août : le réflexe qui consistait à réserver septembre pour les vendanges est périmé. La fin d'année reste le grand pic, avec le marché de Noël du 25 novembre au 27 décembre 2026, qui a réuni un million de visiteurs en 2025, prolongé par les Habits de Lumière à Épernay les 11, 12 et 13 décembre. Janvier et février sont les mois à travailler au prix.",
+   "narrow": true
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Reims",
+   "intro": "Ce que nous faisons concrètement pour un logement rémois.",
+   "items": [
+    "Prix révisé chaque semaine sur le calendrier champenois, le marché de Noël et les rendez-vous sportifs et étudiants",
+    "Annonce traduite pour les marchés qui viennent le plus : Allemagne, Pays-Bas, Royaume-Uni, États-Unis, Belgique",
+    "Accompagnement du classement en meublé de tourisme, qui allège la taxe de séjour et crédibilise l'annonce",
+    "Ménage et maintenance confiés à des prestataires rémois, coordonnés et contrôlés par notre équipe",
+    "Arrivée autonome pour les voyageurs qui descendent du dernier TGV de la soirée"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Reims a vu son offre de meublés bondir pendant que le revenu par logement reculait. Ça ne veut pas dire qu'il faut fuir, ça veut dire qu'il faut arrêter de poser un prix au hasard. Nous y pilotons un logement au pied de la cathédrale, avec des partenaires sur place pour le ménage et la maintenance : je préfère le dire plutôt que prétendre avoir une équipe permanente en Champagne. Sur ce marché, le prix travaillé chaque semaine et le classement du meublé rapportent plus que n'importe quel argument.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte un appartement en location courte durée à Reims ?",
+   "a": "Notre relevé du 3 septembre 2026 donne une médiane de 68 EUR la nuit, frais inclus, pour un séjour de sept nuits en octobre 2026, mesurée sur vingt-deux logements entiers de la commune. L'office de tourisme mesure de son côté une occupation moyenne de 56,1 % et un revenu par logement disponible de 45,2 EUR en 2025. Nous chiffrons votre cas en moins de 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en courte durée à Reims ?",
+   "a": "Une autorisation préalable de changement d'usage s'applique depuis le 1er janvier 2020, instituée par le conseil communautaire du Grand Reims, et elle n'est pas subordonnée à une compensation. Il n'existe pas de numéro d'enregistrement communal au 3 septembre 2026, mais une déclaration préalable est due pour un meublé qui n'est pas votre résidence principale."
+  },
+  {
+   "q": "Coolok a-t-il une équipe permanente à Reims ?",
+   "a": "Non, et nous préférons l'écrire. Notre siège est à Joinville-le-Pont et nous pilotons à Reims un logement situé au pied de la cathédrale, avec des prestataires locaux pour le ménage et la maintenance. Ce que nous apportons ici, c'est la tarification, l'annonce, la sélection des voyageurs et l'assistance, avec une exécution locale contrôlée."
+  },
+  {
+   "q": "Quelle taxe de séjour s'applique à Reims ?",
+   "a": "Elle est perçue par la communauté urbaine du Grand Reims. Pour un meublé non classé, elle atteint 5 % du tarif de la nuitée hors taxes et par personne, avec une part intercommunale limitée à 4,60 EUR, majorée de 10 % au titre du département de la Marne. Un meublé classé trois étoiles revient à 1,76 EUR par personne et par nuit, additionnelle comprise."
+  },
+  {
+   "q": "Les vendanges remplissent-elles encore le mois de septembre à Reims ?",
+   "a": "Plus systématiquement. Le Comité Champagne a publié le ban des vendanges le 12 août 2026, pour des ouvertures échelonnées du 8 au 22 août selon les communes et les cépages, un record de précocité. Le pic de demande lié aux vendanges se déplace donc vers août, et c'est exactement le genre de décalage qu'une tarification annuelle figée ne voit pas."
+  }
+ ],
+ "keywords": [
+  "conciergerie reims",
+  "conciergerie airbnb reims",
+  "tarif conciergerie reims"
+ ]
+}

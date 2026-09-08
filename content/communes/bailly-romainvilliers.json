@@ -1,0 +1,184 @@
+{
+ "url": "/conciergerie-airbnb-bailly-romainvilliers",
+ "type": "commune",
+ "name": "Bailly-Romainvilliers",
+ "slug": "bailly-romainvilliers",
+ "dept": "77",
+ "zone": "val-d-europe",
+ "title": "Conciergerie Airbnb Bailly-Romainvilliers (77) | Coolok",
+ "description": "Bailly-Romainvilliers : Coolok exploite votre logement face aux résidences de tourisme, pour les familles en voiture. Commission 20 % HT, estimation gratuite.",
+ "h1": "Conciergerie Airbnb à Bailly-Romainvilliers, face aux résidences de tourisme",
+ "image": "/assets/img/heros/bailly-romainvilliers.webp",
+ "imageAlt": "Allée résidentielle de Bailly-Romainvilliers au crépuscule",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Val d'Europe, Seine-et-Marne",
+  "lead": "Ici, vous n'êtes pas seulement en concurrence avec d'autres logements : vous l'êtes avec des résidences hôtelières professionnelles. C'est ce qui doit dicter votre positionnement, votre annonce et votre prix."
+ },
+ "data": {
+  "prix_nuitee": "70 à 145 €",
+  "revenu_mensuel": "1 400 à 3 400 €",
+  "taux_occupation": "67 à 78 %",
+  "prix_m2": "4 600 €/m²",
+  "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
+ },
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Bailly-Romainvilliers (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 145 € la nuit, avec un taux d'occupation observé de 67 à 78 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "linkText": "Zone hôtelière, accès A4, clientèle en voiture",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Un marché où la concurrence est professionnelle",
+   "md": "Bailly-Romainvilliers accueille une part importante de l'hébergement organisé du secteur : résidences de tourisme et hôtels dimensionnés pour les séjours aux parcs. Pour un particulier, c'est une contrainte et une chance. Une contrainte, parce que ces établissements cassent les prix en basse saison. Une chance, parce qu'ils saturent aux périodes fortes et qu'ils n'offrent ni cuisine complète, ni vrai espace de vie, ni logement indépendant.\n\nLe positionnement gagnant est donc l'inverse du leur : de l'espace, une cuisine équipée, un stationnement privé, et un accueil personnalisé. La clientèle arrive presque toujours en voiture par l'A4, ce qui fait du parking un critère de réservation plus fort que le nombre d'étoiles.\n\nEn pratique, cela veut dire une annonce qui explique en trois lignes pourquoi votre logement n'est pas une chambre d'hôtel, et un prix qui ne cherche pas à concurrencer une résidence à cinquante euros la nuit en novembre."
+  },
+  {
+   "type": "table",
+   "bg": "white",
+   "h2": "Ce qui fait venir les voyageurs à Bailly-Romainvilliers",
+   "intro": "Les chiffres qui expliquent la demande locale, relevés sur des sources officielles.",
+   "head": [
+    "Ce qui compte",
+    "Le chiffre",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Population municipale 2023 (en vigueur au 1er janvier 2026)",
+     "6 980 habitants (population totale 7 061); 7 049 en 2022, 7 564 en 2016; l'une des plus fortes decroissances du 77 parmi les communes de plus de 2 000 habitants (-1,2 % par an.",
+     "INSEE, populations de référence 2023; note PopRef 2023 Seine-et-Marne (2025-12-29)"
+    ],
+    [
+     "Part des résidences secondaires et logements occasionnels",
+     "31,7 % en 2023 contre 7,6 % en 2017; résidences principales 62,1 %; vacants 6,3 %; 4 463 logements en 2023 (3 171 en 2017).",
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (2025-09-02)"
+    ],
+    [
+     "Hébergement touristique au 1er janvier 2025",
+     "2 hôtels 3 étoiles (177 chambres); 1 camping 3 étoiles de 584 emplacements; 3 résidences de tourisme et assimiles totalisant 7 673 places-lits (chiffre stable depuis 2023)",
+     "INSEE, dossier complet commune (tourisme 2025) et page Tourisme 2023 (2025-09-02)"
+    ],
+    [
+     "Center Parcs Villages Nature Paris (rue du Pre des Merlans, a cheval sur Bailly-Romainvilliers et Villeneuve-le-Comte)",
+     "1 061 hébergements après l'extension de 2025 (193 nouveaux cottages dont 85 premium; 34 % de la gamme en VIP); 868 a l'ouverture en 2017.",
+     "L'Echo touristique; Mesinfos; Disneyland Paris FAQ; Wikipedia (2025-07-07)"
+    ],
+    [
+     "Hôtels de la commune (liste mairie)",
+     "Marriott's Village d'Île-de-France (allée de l'Orme Rond, villas, 185 unites, ouvert en 2003).",
+     "Mairie de Bailly-Romainvilliers (page Hôtels); Expedia (Marriott 185) (2024-09-09)"
+    ]
+   ],
+   "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "info",
+   "icon": "law",
+   "title": "Ce que dit la loi à Bailly-Romainvilliers",
+   "md": "- **Changement d'usage** : oui **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120; non\n- **Numéro d'enregistrement** : obligatoire, declaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "cream",
+   "h2": "Où se situe la demande",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "home",
+     "title": "Les quartiers résidentiels",
+     "text": "Maisons de ville et petits collectifs avec stationnement, à quelques minutes des parcs par la route."
+    },
+    {
+     "icon": "map",
+     "title": "Le secteur hôtelier",
+     "text": "Zone d'hébergement organisé : y être proche permet de capter les débordements quand les résidences affichent complet."
+    },
+    {
+     "icon": "train",
+     "title": "Les accès A4 et navettes",
+     "text": "Un logement facile à trouver en voiture, avec une place de parking, se réserve avant un logement plus proche mais impraticable."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui loue à Bailly-Romainvilliers",
+   "intro": "",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "users",
+     "title": "Familles motorisées",
+     "text": "Elles viennent de province ou de Belgique, chargent la voiture et veulent se garer devant le logement."
+    },
+    {
+     "icon": "bed",
+     "title": "Séjours de trois à quatre nuits",
+     "text": "Assez longs pour cuisiner sur place, ce que les résidences de tourisme permettent mal."
+    },
+    {
+     "icon": "target",
+     "title": "Débordement des périodes pleines",
+     "text": "Quand l'hébergement organisé sature, la demande bascule vers les logements de particuliers, à un prix qui monte vite."
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "bg": "white",
+   "h2": "Ce que Coolok fait pour votre logement à Bailly-Romainvilliers",
+   "intro": "Face à des professionnels, l'exécution ne peut pas être amateur.",
+   "items": [
+    "Annonce positionnée sur ce que la résidence de tourisme ne sait pas offrir : espace, cuisine, indépendance, stationnement",
+    "Prix qui suivent les taux de remplissage du secteur, à la hausse comme à la baisse",
+    "Instructions d'accès en voiture testées, avec le stationnement expliqué en photos",
+    "Ménage aux standards hôteliers, contrôle qualité après chaque départ",
+    "Assistance 24/7 : c'est le service que les voyageurs attendent quand ils comparent avec un hôtel"
+   ],
+   "cta": {
+    "label": "Voir le détail de nos services",
+    "href": "/services",
+    "style": "secondary"
+   }
+  }
+ ],
+ "quote": {
+  "text": "Ici, vous jouez contre des professionnels qui font ça toute l'année. Vous ne gagnerez pas sur le prix en novembre. Vous gagnez sur ce qu'ils ne savent pas faire : de la place, une vraie cuisine, une place de parking devant la porte.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Peut-on rentabiliser un logement face à des résidences de tourisme ?",
+   "a": "Oui, à condition de ne pas jouer sur leur terrain. Les résidences gagnent sur les prix en creux, les logements de particuliers gagnent sur l'espace, la cuisine et l'indépendance, et captent les débordements des périodes pleines. C'est ce que nous chiffrons dans l'audit."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer à Bailly-Romainvilliers ?",
+   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, y compris pour une résidence principale. Une autorisation de changement d'usage peut s'ajouter selon la décision de la commune : nous le vérifions pour votre adresse avant la mise en ligne."
+  },
+  {
+   "q": "Le parking est-il vraiment un critère ?",
+   "a": "Sur ce secteur, oui. La clientèle arrive majoritairement en voiture par l'A4, souvent chargée. Une place privée annoncée et photographiée fait basculer des réservations, y compris face à un logement plus proche des parcs."
+  },
+  {
+   "q": "Combien de nuits par an peut-on espérer ?",
+   "a": "Cela dépend du logement et de votre disponibilité : nous ne donnons pas de chiffre avant d'avoir vu votre bien. L'audit chiffré fournit une fourchette d'occupation et de revenus construite sur les données du secteur et sur vos contraintes personnelles."
+  },
+  {
+   "q": "Faut-il meubler comme un hôtel ?",
+   "a": "Non, l'inverse. Un logement qui ressemble à une chambre d'hôtel n'a aucun avantage face à une vraie chambre d'hôtel. Ce qui se vend ici, c'est un logement où une famille peut vivre trois jours, cuisiner et étendre son linge."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb bailly-romainvilliers",
+  "conciergerie bailly-romainvilliers"
+ ]
+}

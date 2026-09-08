@@ -1,0 +1,153 @@
+{
+ "url": "/conciergerie-airbnb-paris",
+ "type": "departement",
+ "name": "Paris",
+ "code": "75",
+ "slug": "conciergerie-airbnb-paris",
+ "title": "Conciergerie Airbnb Paris : ce que la loi autorise | Coolok",
+ "description": "Résidence principale limitée à 90 jours, compensation obligatoire pour un logement dédié : la règle parisienne en clair, et les communes où Coolok exploite.",
+ "h1": "Conciergerie Airbnb à Paris : ce qui est encore possible, et ce qui ne l'est plus",
+ "image": "/assets/img/heros/dept-paris.webp",
+ "imageAlt": "Séjour d'un appartement meublé prêt à recevoir des voyageurs, aux portes de la capitale",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Conciergerie Airbnb Paris",
+  "lead": "À Paris, la vraie question n'est pas de savoir combien votre logement rapporterait, mais s'il a le droit d'être loué. Depuis le règlement municipal publié le 3 mars 2025, transformer un logement en meublé de tourisme suppose une compensation que presque aucun particulier ne peut financer. Voici la règle exacte, sans détour, et les communes voisines où votre projet tient debout."
+ },
+ "linkText": "Les 90 jours, la compensation, les alternatives",
+ "sections": [
+  {
+   "type": "rich",
+   "bg": "white",
+   "h2": "Pourquoi un logement dédié ne se loue quasiment plus à Paris",
+   "md": "La demande voyageurs n'a jamais été le problème dans la capitale : c'est l'offre que la Ville a décidé de fermer. Le règlement municipal sur les changements d'usage, adopté par le Conseil de Paris en février 2025 et publié le 3 mars 2025, pose un principe unique en Île-de-France : transformer un logement en meublé de tourisme oblige à créer, en échange, une surface d'habitation équivalente dans le même quartier administratif. Dans neuf arrondissements, Paris Centre, les 5e, 6e, 7e, 8e, 9e, 10e, 11e et 18e, cette compensation passe au triple, soit trois mètres carrés créés pour un mètre carré transformé (exposé des motifs de la délibération qui a créé l'annexe 6, PDF officiel lu le 3 septembre 2026).\n\nPour un particulier, cette exigence équivaut à un refus. Acheter des mètres carrés de bureaux et les remettre en habitation dans le même quartier n'est pas un projet de propriétaire, c'est un projet d'aménageur. La Ville a par ailleurs écarté le régime d'autorisation temporaire que la loi rend possible depuis novembre 2024 : il n'existe donc aucune porte de sortie à trois ou cinq ans, contrairement à ce que proposent la plupart des communes voisines.\n\nReste votre résidence principale, celle que vous habitez au moins huit mois par an. Elle se loue sans autorisation, mais 90 jours par année civile depuis le 1er janvier 2025 (délibération 2024 DLH 398 du 19 décembre 2024), et non 120 comme presque partout ailleurs. Quatre-vingt-dix nuits, cela signifie que chaque nuit pèse le double : le prix, les photos et la note de l'annonce comptent davantage qu'ailleurs, et le dépassement se sanctionne jusqu'à 10 000 EUR par année concernée (paris.fr, consulté le 3 septembre 2026)."
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "law",
+   "title": "Ce que dit la loi à Paris",
+   "md": "- **Changement d'usage** : oui **Compensation** : oui\n- **Si vous louez votre résidence principale** : 90; Jusqu'à 10 000 EUR par année de dépassement (paris.fr).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://entreprendre.service-public.gouv.fr/actualites/A17929) et [document de référence](https://taxedesejour.paris.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Qui dort dans un meublé parisien",
+   "cols": 3,
+   "items": [
+    {
+     "icon": "calendar",
+     "title": "Les absences du propriétaire",
+     "text": "Vacances, mission longue, séjour en famille : ce sont vos périodes hors du logement qui alimentent les 90 nuits autorisées. Elles se planifient un an à l'avance, pas au fil de l'eau."
+    },
+    {
+     "icon": "users",
+     "title": "Visiteurs étrangers en séjour court",
+     "text": "Deux à quatre nuits, arrivée par gare ou aéroport, bagages encombrants et horaires imprévisibles. L'accès autonome et des instructions en anglais évitent la moitié des incidents."
+    },
+    {
+     "icon": "target",
+     "title": "Salons, congrès et grands rendez-vous",
+     "text": "Ce sont les semaines où le prix de la nuit décolle. Quand votre quota est limité, ce sont celles-là qu'il faut ouvrir en priorité, et fermer les autres sans regret."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "bg": "white",
+   "variant": "warning",
+   "icon": "warning",
+   "title": "Le calcul de la compensation, en clair",
+   "md": "- **Trois mètres carrés pour un** dans neuf arrondissements : Paris Centre (1er au 4e), 5e, 6e, 7e, 8e, 9e, 10e, 11e et 18e.\n- **Deux mètres carrés pour un** dans le secteur de compensation renforcée, ramenés à un pour un si vous créez du logement social ou en bail réel solidaire.\n- **Un mètre carré pour un** partout ailleurs, et toujours dans le même quartier administratif.\n- **Un changement de destination d'urbanisme** s'ajoute à l'autorisation de changement d'usage.\n- **Les sanctions** : jusqu'à 10 000 EUR par année de dépassement des 90 jours, 5 000 EUR sans numéro d'enregistrement, jusqu'à 100 000 EUR par logement loué sans changement d'usage.\n\nSources lues le 3 septembre 2026 : règlement municipal 2025 DLH 44 consolidé au 3 mars 2025, exposé des motifs de la délibération de 2021 qui a créé l'annexe 6, page « Meublés touristiques » de paris.fr, article L651-2 du code de la construction et de l'habitation.",
+   "cta": {
+    "label": "Comprendre la loi Le Meur",
+    "href": "/blog/loi-le-meur",
+    "style": "secondary"
+   }
+  },
+  {
+   "type": "table",
+   "bg": "cream",
+   "h2": "Cinq communes limitrophes où votre projet reste réalisable",
+   "intro": "Nous y exploitons déjà des logements. Chacune a son propre règlement, et aucune n'impose la compensation parisienne.",
+   "head": [
+    "Commune",
+    "Ce qu'elle impose pour un logement dédié",
+    "Accès à la capitale"
+   ],
+   "rows": [
+    [
+     "[Vincennes](/conciergerie-airbnb-vincennes)",
+     "Autorisation dès le premier logement, 30 % de meublés au maximum par immeuble, résidence principale ramenée à 90 jours depuis le 1er novembre 2025",
+     "Métro 1, terminus Château de Vincennes"
+    ],
+    [
+     "[Saint-Mandé](/conciergerie-airbnb-saint-mande)",
+     "Autorisation temporaire de 3 ans sans compensation, résidence principale à 120 jours",
+     "Métro 1, zoo de Paris à la porte"
+    ],
+    [
+     "[Charenton-le-Pont](/conciergerie-airbnb-charenton-le-pont)",
+     "Autorisation temporaire de 2 ans non reconductible, un logement par foyer fiscal, sociétés exclues",
+     "Métro 8, Accor Arena à une station"
+    ],
+    [
+     "[Montreuil](/conciergerie-airbnb-montreuil)",
+     "Autorisation personnelle de 3 ans sans compensation, accord tacite quand le dossier est complet, aucun numéro communal à ce jour",
+     "Métro 9, Nation à sept stations de Mairie de Montreuil"
+    ],
+    [
+     "[Clichy](/conciergerie-airbnb-clichy)",
+     "Autorisation sans compensation pour un logement par personne physique, numéro d'enregistrement obligatoire depuis le 1er octobre 2021",
+     "Métro 13, Saint-Lazare en 9 à 10 minutes"
+    ]
+   ],
+   "source": "Relevé réglementaire Coolok du 3 septembre 2026 (règlements des territoires Paris Est Marne & Bois, Est Ensemble et Boucle Nord de Seine, pages officielles des villes). Temps de parcours publiés par les exploitants de réseau et les mairies."
+  },
+  {
+   "type": "rich",
+   "bg": "white",
+   "narrow": true,
+   "h2": "Ce que nous vous dirons si votre bien est parisien",
+   "md": "Nous commençons par vérifier une seule chose : occupez-vous ce logement au moins huit mois par an ? Si oui, nous montons l'annonce, nous posons l'accès autonome, nous plaçons vos 90 nuits sur les périodes fortes et nous suivons le compteur pour vous, parce que le dépassement se paie très cher.\n\nSi non, nous vous le disons avant de vous facturer quoi que ce soit. Aucune conciergerie ne peut vous dispenser de la compensation, et personne ne devrait vous laisser croire le contraire. Nous chiffrons alors le même projet dans une commune limitrophe, à partir des fourchettes que nous observons sur place, et vous décidez en connaissance de cause.\n\nDans les deux cas, l'audit est chiffré et il vous parvient sous 48 heures. La commission est de 20 % HT tout compris, prélevée sur les revenus encaissés : si votre logement ne se loue pas, nous ne facturons rien."
+  }
+ ],
+ "quote": {
+  "text": "Paris, je le dis franchement : pour un logement dédié, la compensation ferme la porte, et ce n'est pas une conciergerie qui va la rouvrir. Ce que je sais faire, c'est exploiter proprement les 90 nuits d'une résidence principale, ou vous montrer ce que le même budget donne à Vincennes, à Charenton ou à Montreuil. Un propriétaire à qui on promet du rendement parisien sur une résidence secondaire se fait rattraper, et l'amende n'a rien de symbolique. Je préfère perdre un dossier plutôt que de vous mettre dans cette situation.",
+  "pending": true
+ },
+ "faq": [
+  {
+   "q": "Combien rapporte une location courte durée à Paris ?",
+   "a": "Tout dépend du statut du logement. Une résidence principale ne peut être louée que 90 jours par an depuis le 1er janvier 2025, ce qui plafonne mécaniquement le revenu annuel. Un logement dédié suppose une compensation hors de portée d'un particulier. Nous chiffrons votre cas précis, avec votre surface et votre capacité, dans un audit remis sous 48 heures."
+  },
+  {
+   "q": "Faut-il une autorisation pour louer en meublé de tourisme à Paris ?",
+   "a": "Oui, dès lors que le logement n'est pas votre résidence principale : c'est une autorisation de changement d'usage avec compensation dans le même quartier administratif, triple dans neuf arrondissements, plus un changement de destination d'urbanisme. Votre résidence principale en est dispensée, mais elle exige un numéro d'enregistrement obtenu sur le téléservice de la Ville."
+  },
+  {
+   "q": "Puis-je louer ma résidence principale plus de 90 jours à Paris ?",
+   "a": "Non. La délibération 2024 DLH 398 du 19 décembre 2024 a abaissé le plafond national de 120 à 90 jours par année civile, effectif au 1er janvier 2025. Au-delà, le logement n'est plus considéré comme votre résidence principale et bascule dans le régime de la compensation. Le dépassement se sanctionne jusqu'à 10 000 EUR par année concernée."
+  },
+  {
+   "q": "Coolok s'occupe-t-il de logements dans Paris ?",
+   "a": "Nous prenons en charge la location d'une résidence principale parisienne dans la limite de ses 90 nuits, avec le suivi du compteur. Pour un logement dédié, nous ne prenons pas le dossier : nous préférons vous orienter vers une commune limitrophe où le projet est légal et rentable. Notre siège est à Joinville-le-Pont, à quelques minutes du périphérique."
+  },
+  {
+   "q": "Quelle commune choisir juste à côté de Paris pour louer en courte durée ?",
+   "a": "Cela dépend de votre bien et de votre statut. Montreuil offre l'accord tacite et aucun numéro communal, Charenton-le-Pont limite à un logement par foyer fiscal, Clichy autorise un logement par personne physique sans compensation. Nous comparons ces régimes avec les fourchettes de revenus locales dans votre audit, puis vous tranchez."
+  }
+ ],
+ "keywords": [
+  "conciergerie airbnb paris",
+  "conciergerie paris",
+  "location courte durée paris"
+ ]
+}

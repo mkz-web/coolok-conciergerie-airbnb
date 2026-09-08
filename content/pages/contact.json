@@ -1,0 +1,45 @@
+{
+ "url": "/contact",
+ "type": "contact",
+ "title": "Contacter Coolok, conciergerie Airbnb en Île-de-France",
+ "description": "Téléphone, WhatsApp, formulaire ou rendez-vous de 30 minutes avec Thierry Moraldo, fondateur de Coolok. Réponse sous 24 h ouvrées, sans engagement.",
+ "h1": "Parlons de votre logement",
+ "image": "/assets/img/heros/contact.webp",
+ "imageAlt": "Bureau avec téléphone, carnet et clés devant une fenêtre au soleil couchant",
+ "imageWidth": 1200,
+ "imageHeight": 744,
+ "hero": {
+  "eyebrow": "Contact",
+  "lead": "Un projet, une question sur la réglementation de votre commune, un devis à comparer : c'est Thierry Moraldo qui vous répond, sous 24 heures ouvrées. Vous pouvez aussi réserver directement un créneau de 30 minutes."
+ },
+ "formTitle": "Écrivez-nous",
+ "formIntro": "Dites-nous où se trouve votre bien et ce que vous cherchez à savoir. Plus votre message est précis, plus notre réponse sera chiffrée.",
+ "sections": [
+  {
+   "type": "cards",
+   "bg": "white",
+   "h2": "Quatre façons de nous joindre",
+   "cols": 4,
+   "items": [
+    { "icon": "phone", "title": "Téléphone", "text": "06 73 93 75 01, du lundi au samedi. Si nous sommes sur un logement, laissez un message : nous rappelons le jour même." },
+    { "icon": "check", "title": "WhatsApp", "text": "Le canal le plus rapide pour une question courte, une photo de logement ou un devis à relire." },
+    { "icon": "calendar", "title": "Rendez-vous de 30 minutes", "text": "Un créneau en visio ou par téléphone avec le fondateur, pour parler de votre bien sans engagement." },
+    { "icon": "doc", "title": "Email", "text": "contact@coolok.co, pour les demandes détaillées, les documents et les devis." }
+   ]
+  },
+  {
+   "type": "rich",
+   "bg": "cream",
+   "h2": "Où nous trouver",
+   "narrow": true,
+   "md": "**Coolok Services** \n4 avenue Oudinot, 94340 Joinville-le-Pont \nRCS Créteil 934 155 227\n\nNous intervenons dans les huit départements d'Île-de-France. Pour la première visite, nous nous déplaçons chez vous : c'est le seul moyen de juger un logement, ses accès et son potentiel réel."
+  }
+ ],
+ "faq": [
+  { "q": "Sous combien de temps répondez-vous ?", "a": "Sous 24 heures ouvrées pour un message ou un formulaire, immédiatement ou presque sur WhatsApp aux heures de travail. Si vous demandez un audit chiffré, c'est aussi le délai que nous tenons pour vous envoyer les chiffres." },
+  { "q": "Le premier rendez-vous est-il payant ?", "a": "Non. L'appel, l'audit chiffré et la visite du logement sont gratuits et sans engagement. Nous ne facturons qu'à partir du moment où votre logement génère des revenus." },
+  { "q": "Je ne suis pas encore propriétaire, pouvez-vous m'aider ?", "a": "Oui, c'est même le meilleur moment pour nous parler. Nous pouvons vous dire ce qu'un bien précis rapporterait en courte durée et si sa commune l'autorise, avant que vous signiez chez le notaire. Nous ne sommes ni agents immobiliers ni conseillers en investissement : nous vous donnons des chiffres de marché, pas une recommandation d'achat." },
+  { "q": "Recrutez-vous ?", "a": "Nous travaillons régulièrement avec des prestataires de ménage, des blanchisseries et des artisans en Île-de-France. Écrivez-nous en précisant votre zone d'intervention et votre activité." }
+ ],
+ "keywords": ["contact coolok", "conciergerie airbnb contact"]
+}

@@ -1,6 +1,97 @@
-# Site Coolok, version statique sur Cloudflare
+# Coolok, conciergerie Airbnb en Île-de-France : le site et son générateur
 
 > Code © MKZ Consulting, contenus, textes et images © Coolok Services. Tous droits réservés : ce dépôt est public pour la transparence et la référence, il n'accorde aucune licence de réutilisation du code ni des contenus. Site en production : https://www.coolok.co
+
+Ce dépôt contient le site de [Coolok](https://www.coolok.co), conciergerie Airbnb et location courte durée en Île-de-France, et le générateur statique qui le produit. La première partie présente l'entreprise, son offre et ses pages. La seconde documente le code : générateur Node sans aucune dépendance, contrôles de livraison bloquants, déploiement sur Cloudflare Workers.
+
+## Coolok en bref
+
+Coolok Services est une conciergerie de meublés de tourisme basée à Joinville-le-Pont, dans le Val-de-Marne, fondée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans et propriétaire bailleur avant d'être concierge. Coolok s'occupe de votre logement sur Airbnb et Booking.com dans les huit départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne, à Versailles et à Fontainebleau, ainsi qu'à Reims.
+
+Les repères affichés sur le site :
+
+- Une commission unique de 20 % HT des revenus encaissés, tout compris, payée au résultat : pas de revenus, pas de commission.
+- Une note Google de 4,8 sur 5 pour 21 avis, relevée le 2 septembre 2026.
+- Un audit chiffré du logement sous 48 heures, gratuit et sans engagement, réalisé par le fondateur.
+- Tous les clients de Coolok sont Superhôtes sur Airbnb.
+- Plus 40 % de revenus en moyenne face à une location pilotée en solo, selon les relevés de Coolok.
+
+Pour en savoir plus sur l'équipe : [qui sommes-nous](https://www.coolok.co/qui-sommes-nous) et [les logements que Coolok fait vivre](https://www.coolok.co/logements).
+
+## Ce que Coolok prend en charge
+
+Le parcours d'un propriétaire tient en trois étapes.
+
+1. **Vous recevez votre audit chiffré sous 48 h.** Vous renseignez votre commune et votre logement en deux minutes, puis Thierry vous rappelle avec un audit réel du marché, la réglementation de votre commune et ce qu'il faut préparer.
+2. **Coolok prépare l'annonce et le logement.** Photos professionnelles, annonce rédigée, équipements et linge conseillés, boîtier à clé connecté, diffusion sur Airbnb et Booking.com avec calendriers synchronisés par Beds24, grille de prix construite sur les données de votre marché local.
+3. **Vous encaissez, Coolok travaille.** Sélection des voyageurs, assistance 24/7, ménage et linge entre chaque séjour, maintenance, échanges avec les voyageurs.
+
+Tout est compris dans la commission :
+
+- Annonce rédigée et photos professionnelles
+- Diffusion Airbnb et Booking.com, calendriers synchronisés
+- Tarification dynamique ajustée en temps réel, orchestrée avec PriceLabs à partir des données de marché AirDNA
+- Sélection et messages avec les voyageurs
+- Accueil, boîtiers connectés Igloohome ou TTLock, assistance 24/7
+- Ménage professionnel et linge hôtelier entre chaque séjour
+- Maintenance et petites réparations coordonnées avec des artisans qualifiés
+- Suivi de la réglementation et conformité : numéro d'enregistrement, changement d'usage, loi Le Meur
+- Accès à votre tableau de bord 24/7
+- Vos dates bloquées quand vous le souhaitez
+
+Ce que Coolok ne fait pas : ni prestation à la carte (pas de ménage seul, pas d'accueil seul), ni location longue durée, ni bail mobilité, ni intermédiation immobilière. Coolok refuse les logements que la réglementation locale ne permet pas d'exploiter, même quand le propriétaire insiste. Le détail est sur la page [services de conciergerie Airbnb](https://www.coolok.co/services).
+
+## Une commission unique de 20 % HT, payée au résultat
+
+- 20 % HT des revenus que votre logement encaisse réellement, sans frais d'entrée ni forfait mensuel.
+- Le ménage est facturé au voyageur selon la typologie du logement.
+- Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter une annonce.
+- À titre de comparaison, les commissions relevées sur les pages tarifs publiques du marché français en juin 2026 vont de 15 à 30 %.
+
+Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en trois questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h. La page tarifs détaillée arrive avec la migration du site vers cette version : sa source est dans ce dépôt, [content/pages/tarifs.json](content/pages/tarifs.json).
+
+## Où Coolok intervient
+
+Chaque page de zone porte ses propres données : prix par nuit observé, taux d'occupation et revenu mensuel estimé (données AirDNA croisées avec les plateformes, juillet 2026), réglementation relevée commune par commune sur les sources officielles en septembre 2026, faits locaux sourcés et datés, questions fréquentes locales. Le catalogue complet est sur la page [conciergerie Airbnb en Île-de-France, département par département](https://www.coolok.co/conciergerie-airbnb-ile-de-france).
+
+| Département | Page | Communes |
+|---|---|---|
+| Seine-et-Marne (77) | [Conciergerie Airbnb en Seine-et-Marne](https://www.coolok.co/conciergerie-airbnb-seine-et-marne) | [Chessy](https://www.coolok.co/conciergerie-airbnb-chessy), [Serris](https://www.coolok.co/conciergerie-airbnb-serris), [Magny-le-Hongre](https://www.coolok.co/conciergerie-airbnb-magny-le-hongre), [Bailly-Romainvilliers](https://www.coolok.co/conciergerie-airbnb-bailly-romainvilliers), [Bussy-Saint-Georges](https://www.coolok.co/conciergerie-airbnb-bussy-saint-georges), [Chalifert](https://www.coolok.co/conciergerie-airbnb-chalifert), Fontainebleau et Melun (pages à venir avec la migration) |
+| Val-de-Marne (94) | [Conciergerie Airbnb dans le Val-de-Marne](https://www.coolok.co/conciergerie-airbnb-val-de-marne) | [Vincennes](https://www.coolok.co/conciergerie-airbnb-vincennes), [Saint-Mandé](https://www.coolok.co/conciergerie-airbnb-saint-mande), [Joinville-le-Pont](https://www.coolok.co/conciergerie-airbnb-joinville-le-pont), [Nogent-sur-Marne](https://www.coolok.co/conciergerie-airbnb-nogent-sur-marne), [Saint-Maur-des-Fossés](https://www.coolok.co/conciergerie-airbnb-saint-maur-des-fosses), [Charenton-le-Pont](https://www.coolok.co/conciergerie-airbnb-charenton-le-pont), [Saint-Maurice](https://www.coolok.co/conciergerie-airbnb-saint-maurice), [Maisons-Alfort](https://www.coolok.co/conciergerie-airbnb-maisons-alfort), [Alfortville](https://www.coolok.co/conciergerie-airbnb-alfortville), [Ivry-sur-Seine](https://www.coolok.co/conciergerie-airbnb-ivry-sur-seine), [Villejuif](https://www.coolok.co/conciergerie-airbnb-villejuif), [Chennevières-sur-Marne](https://www.coolok.co/conciergerie-airbnb-chennevieres-sur-marne) |
+| Seine-Saint-Denis (93) | [Conciergerie Airbnb en Seine-Saint-Denis](https://www.coolok.co/conciergerie-airbnb-seine-saint-denis) | [Montreuil](https://www.coolok.co/conciergerie-airbnb-montreuil), [Pantin](https://www.coolok.co/conciergerie-airbnb-pantin) |
+| Hauts-de-Seine (92) | [Conciergerie Airbnb dans les Hauts-de-Seine](https://www.coolok.co/conciergerie-airbnb-hauts-de-seine) | [Clichy](https://www.coolok.co/conciergerie-airbnb-clichy), [Vanves](https://www.coolok.co/conciergerie-airbnb-vanves), [Asnières-sur-Seine](https://www.coolok.co/conciergerie-airbnb-asnieres-sur-seine) |
+| Yvelines (78) | [Conciergerie Airbnb dans les Yvelines](https://www.coolok.co/conciergerie-airbnb-yvelines) | [Versailles](https://www.coolok.co/conciergerie-airbnb-versailles), [Saint-Germain-en-Laye](https://www.coolok.co/conciergerie-airbnb-saint-germain-en-laye) |
+| Paris (75) | [Conciergerie Airbnb à Paris : ce qui reste possible](https://www.coolok.co/conciergerie-airbnb-paris) | intra-muros, au cas par cas selon la réglementation |
+| Essonne (91) | [Conciergerie Airbnb en Essonne](https://www.coolok.co/conciergerie-airbnb-essonne) | grande couronne sud |
+| Val-d'Oise (95) | [Conciergerie Airbnb dans le Val-d'Oise](https://www.coolok.co/conciergerie-airbnb-val-d-oise) | grande couronne nord |
+| Marne (51) | [Conciergerie à Reims](https://www.coolok.co/conciergerie-airbnb-reims) | Reims, au pied de la cathédrale |
+
+La page dédiée au Val d'Europe, à Marne-la-Vallée et à Disneyland Paris arrive avec la migration : sa source est dans [content/zones/val-d-europe.json](content/zones/val-d-europe.json).
+
+## Les guides de la location courte durée
+
+Neuf guides écrits pour les propriétaires, chiffrés et sourcés, avec le mot du fondateur et une FAQ :
+
+- [Conciergerie location courte durée : le guide complet 2026](https://www.coolok.co/blog/conciergerie-courte-duree)
+- [Tarif d'une conciergerie Airbnb : ce que vous payez vraiment](https://www.coolok.co/blog/tarif-conciergerie-airbnb)
+- [Meilleure conciergerie Airbnb : les 10 questions à poser avant de signer](https://www.coolok.co/blog/meilleure-conciergerie-airbnb)
+- [Loi Le Meur : ce qui change vraiment pour votre location courte durée](https://www.coolok.co/blog/loi-le-meur)
+- [Location courte durée : les nouvelles règles 2026 et la règle des 90 jours](https://www.coolok.co/blog/lcd-guide-complet)
+- [DPE et Airbnb : obligatoire ou pas ? Le vrai calendrier](https://www.coolok.co/blog/dpe-airbnb)
+- [Rentabilité Airbnb en Île-de-France : brut, net, cashflow](https://www.coolok.co/blog/rentabilite-airbnb-ile-de-france-methode)
+- [Investissement locatif Airbnb : réussir en Île-de-France en 2026](https://www.coolok.co/blog/investir-location)
+- [Location courte durée à Paris : les règles 2026 et où va la rentabilité](https://www.coolok.co/blog/location-paris-courte-duree)
+
+Tous les guides : [www.coolok.co/blog](https://www.coolok.co/blog).
+
+## Contact
+
+- Téléphone : 06 73 93 75 01, WhatsApp sur le même numéro
+- Email : contact@coolok.co
+- Rendez-vous de 30 minutes avec le fondateur et formulaire : [page contact](https://www.coolok.co/contact)
+- Coolok Services SASU, 4 avenue Oudinot, 94340 Joinville-le-Pont
+
+## Le dépôt : un site statique sans dépendance, déployé sur Cloudflare Workers
 
 Refonte du site www.coolok.co en HTML statique, généré par un script Node sans aucune dépendance et servi par un Worker Cloudflare. Version de développement en ligne : https://coolok-dev.mkzcons.workers.dev/ (fermée aux robots, canonicals pointant déjà vers www.coolok.co).
 

@@ -8,7 +8,8 @@
  * Entrées : content/ (site.json, pages/*.json, communes/*.json, departements/*.json, zones/*.json, articles/*.md),
  *           assets/ (css, js, img). Sorties : dist/ complet (HTML, sitemap, robots, llms, _headers, _redirects, manifest).
  * Le build ÉCHOUE (code 1) si une règle de livraison n'est pas respectée : title > 65, meta > 160, H1 absent ou multiple,
- * mot interdit, tiret long, lien interne mort, image absente, JSON-LD invalide, action absente sur plus de 8 000 caractères.
+ * mot interdit, tiret long, lien interne mort, image absente, JSON-LD invalide, action absente sur plus de 8 000 caractères
+ * (action = simulateur, contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire : le motif de la recette).
  */
 const fs = require('fs');
 const path = require('path');
@@ -226,7 +227,11 @@ function htmlToText(html) {
     .replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-const CTA_RE = /class="btn|<form|href="tel:|wa\.me\//g;
+// Une action = le motif de la recette (verify-livraison.js --cta, commande du README) : simulateur,
+// contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire. Jusqu'au 25/09/2026 tout class="btn
+// comptait (« Tous les guides », « Voir nos tarifs ») : build vert pendant que la recette sortait
+// 36 pages géographiques à plus de 8 000 caractères sans action.
+const CTA_RE = /href="(?:\/simulateur-locatif|\/contact)[#?"]|href="(?:tel|mailto):|wa\.me\/|calendly\.com|<form/g;
 function ctaGaps(html) {
   const gaps = [];
   let last = 0;

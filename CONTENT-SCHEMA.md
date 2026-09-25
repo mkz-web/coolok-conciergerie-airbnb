@@ -2,7 +2,7 @@
 
 Le site est généré par `node build.js` à partir de `content/`. Une page = un fichier. Le générateur assemble les blocs, ajoute automatiquement le fil d'Ariane, le sommaire (au-delà de 10 000 caractères), la tarification, les témoignages, les pages liées, la bande d'action finale et les guides connexes selon le TYPE de page. Vous n'écrivez que ce qui est propre à la page.
 
-Le build ÉCHOUE si : title > 65 caractères, meta description > 160, H1 absent ou en double, expression « gestion locative », tiret long ou demi-cadratin, lien interne mort, image absente, plus de 8 000 caractères sans action (bouton, formulaire, téléphone, WhatsApp), JSON-LD invalide. Lancez `node build.js --env dev` et corrigez avant de rendre la main.
+Le build ÉCHOUE si : title > 65 caractères, meta description > 160, H1 absent ou en double, expression « gestion locative », tiret long ou demi-cadratin, lien interne mort, image absente, plus de 8 000 caractères sans action (lien vers le simulateur ou le contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire ; un bouton vers /tarifs ou /blog ne compte pas), JSON-LD invalide. Lancez `node build.js --env dev` et corrigez avant de rendre la main.
 
 ## 1. Règles d'écriture (non négociables)
 - Vouvoiement. Aucun tiret long ni demi-cadratin : virgule, deux-points, parenthèses, point. Aucun « gestion locative » (dire délégation, conciergerie, pilotage locatif).

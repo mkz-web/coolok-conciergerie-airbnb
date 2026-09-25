@@ -122,7 +122,7 @@ Le déploiement lit la variable d'environnement `CLOUDFLARE_API_TOKEN_COOLOK` et
 | Ancien tarif « à partir de 14 % » | interdit |
 | Lien interne | doit exister dans le site |
 | Image | le fichier doit exister dans `assets/img` |
-| Action (bouton, formulaire, téléphone, WhatsApp) | au moins une tous les 8 000 caractères de texte |
+| Action (lien vers le simulateur ou le contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire ; un bouton vers une autre page ne compte pas) | au moins une tous les 8 000 caractères de texte |
 | JSON-LD | valide, et conforme aux règles Search Console (ItemList à items complets, BreadcrumbList, FAQPage, Article) |
 | FAQ d'article | au moins une question en ### sous le H2 FAQ, sinon ni accordéon ni FAQPage |
 | Valeur non convertie en texte | interdite (« [object Object] ») |

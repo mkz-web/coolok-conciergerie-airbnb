@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-val-de-marne",
  "type": "departement",
  "name": "Val-de-Marne",
+ "inName": "dans le Val-de-Marne",
  "code": "94",
  "slug": "conciergerie-airbnb-val-de-marne",
  "title": "Conciergerie Airbnb Val-de-Marne (94) : 12 communes | Coolok",
@@ -128,7 +129,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Val-de-Marne",
+   "title": "Ce que dit la loi dans le Val-de-Marne",
    "md": "Dans le Val-de-Marne, trois établissements publics territoriaux appliquent chacun leur règlement, et aucun n'impose de compensation en dehors de Vincennes à partir du troisième bien : l'autorisation de changement d'usage est en revanche exigée partout pour un logement autre que votre résidence principale. Les vrais verrous sont les quotas, d'un logement par foyer fiscal à Charenton-le-Pont à deux autorisations par loueur à Alfortville, à Chennevières-sur-Marne et à Villejuif, et ce sont eux que nous contrôlons en premier lors de l'étude de votre dossier.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
@@ -240,7 +241,7 @@
    "variant": "info",
    "icon": "home",
    "title": "Coolok est une entreprise du Val-de-Marne",
-   "md": "- **Siège** : 4 avenue Oudinot, 94340 Joinville-le-Pont, société créée le 10 octobre 2024, présidée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans.\n- **Avis clients** : 4,8 sur 5 pour 21 avis sur notre fiche Google, relevé le 2 septembre 2026.\n- **Commission** : 20 % HT tout compris, prélevée sur les revenus encaissés, sans frais cachés ni facturation de mise en service.\n- **Audit chiffré** : remis sous 48 heures, gratuit et sans engagement, que nous prenions le mandat ou non.\n\nConcrètement, cela veut dire une équipe de ménage et de maintenance qui n'a pas à traverser l'Île-de-France pour arriver chez vous. C'est la variable qui décide si une rotation entre deux séjours du même jour est tenable ou non.",
+   "md": "- **Siège** : 4 avenue Oudinot, 94340 Joinville-le-Pont, société présidée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans.\n- **Avis clients** : 4,8 sur 5 pour 21 avis sur notre fiche Google, relevé le 2 septembre 2026.\n- **Commission** : 20 % HT tout compris, prélevée sur les revenus encaissés, sans frais cachés ni facturation de mise en service.\n- **Audit chiffré** : remis sous 48 heures, gratuit et sans engagement, que nous prenions le mandat ou non.\n\nConcrètement, cela veut dire une équipe de ménage et de maintenance qui n'a pas à traverser l'Île-de-France pour arriver chez vous. C'est la variable qui décide si une rotation entre deux séjours du même jour est tenable ou non.",
    "cta": {
     "label": "Recevoir mon audit chiffré",
     "href": "/simulateur-locatif",
@@ -268,7 +269,7 @@
   },
   {
    "q": "Pourquoi le siège de Coolok est-il à Joinville-le-Pont ?",
-   "a": "Parce que notre fondateur y habite et y a commencé son activité. La société a été créée le 10 octobre 2024 et son siège se trouve au 4 avenue Oudinot. Cette implantation n'est pas symbolique : elle place nos équipes de ménage et de maintenance à moins de trente minutes de la plupart des logements que nous exploitons dans le département."
+   "a": "Parce que notre fondateur y habite et y a commencé son activité. Notre siège se trouve au 4 avenue Oudinot. Cette implantation n'est pas symbolique : elle place nos équipes de ménage et de maintenance à moins de trente minutes de la plupart des logements que nous exploitons dans le département."
   },
   {
    "q": "Quelle taxe de séjour paie-t-on dans le Val-de-Marne ?",

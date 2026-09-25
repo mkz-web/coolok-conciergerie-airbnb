@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-ile-de-france",
  "type": "hub",
  "name": "Île-de-France",
+ "inName": "en Île-de-France",
  "slug": "conciergerie-airbnb-ile-de-france",
  "title": "Nos zones en Île-de-France : conciergerie Airbnb | Coolok",
  "description": "Les huit départements franciliens et Reims : nos communes, ce qui s'y loue et le régime d'autorisation de chacun, vérifié le 3 septembre 2026.",
@@ -36,7 +37,7 @@
     [
      "[Paris (75)](/conciergerie-airbnb-paris)",
      "Paris intra-muros",
-     "Résidence principale, dans la limite des 120 jours pour l'essentiel",
+     "Résidence principale, dans la limite des 90 jours pour l'essentiel",
      "Autorisation avec compensation, jusqu'à 3 m² pour 1 m² dans neuf arrondissements (règlement du 3 mars 2025)"
     ],
     [
@@ -125,7 +126,7 @@
  "faq": [
   {
    "q": "Combien rapporte un logement en location courte durée en Île-de-France ?",
-   "a": "Tout dépend de la commune. Nos relevés du 3 septembre 2026, pour sept nuits en octobre et frais inclus, donnent une médiane de 140 EUR la nuit à Chessy, 116 EUR à Versailles, 112 EUR à Vincennes, 81 EUR à Melun et 79 EUR à Fontainebleau. Le taux d'occupation et la surface font le reste : nous chiffrons votre cas sous 48 heures."
+   "a": "Tout dépend de la commune, de la typologie et des prestations de votre logement. À titre indicatif, nos relevés du 3 septembre 2026, pour sept nuits en octobre et frais inclus, donnent une médiane (logements entiers, toutes tailles confondues) de 140 EUR la nuit à Chessy, 116 EUR à Versailles, 112 EUR à Vincennes, 81 EUR à Melun et 79 EUR à Fontainebleau. Le taux d'occupation et la surface font le reste : nous chiffrons votre cas sous 48 heures."
   },
   {
    "q": "Faut-il une autorisation pour louer un meublé de tourisme en Île-de-France ?",
@@ -141,11 +142,11 @@
   },
   {
    "q": "Combien coûte votre service ?",
-   "a": "20 % hors taxes des revenus encaissés, tout compris et sans frais d'entrée : annonce, photographies, tarification, sélection des voyageurs, accueil, ménage, linge, maintenance et assistance. Le ménage est refacturé au voyageur selon une grille par typologie. Nous ne facturons rien tant que le logement ne produit rien."
+   "a": "20 % hors taxes des revenus encaissés, tout compris et sans frais d'entrée : annonce, photographies, tarification, sélection des voyageurs si besoin, accueil numérique, ménage, linge, maintenance et assistance. Le ménage est refacturé au voyageur selon une grille par typologie. Nous ne facturons rien tant que le logement ne produit rien."
   },
   {
    "q": "Pourquoi vous choisir plutôt qu'une conciergerie nationale ?",
-   "a": "Parce que nous travaillons commune par commune. Coolok Services est une société créée le 10 octobre 2024, dont le siège est à Joinville-le-Pont, notée 4,8 sur 5 pour 21 avis Google au 2 septembre 2026. Vous obtenez la règle applicable à votre adresse, avec sa date, et non une réponse valable pour toute la France."
+   "a": "Parce que nous travaillons chaque logement comme si c'était le nôtre. Nous connaissons parfaitement le territoire où nous opérons. Nous travaillons avec des équipes et artisans locaux. Le fondateur est lui-même investisseur immobilier et nos outils sont à la pointe de la technologie."
   }
  ],
  "keywords": [

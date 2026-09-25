@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-seine-et-marne",
  "type": "departement",
  "name": "Seine-et-Marne",
+ "inName": "en Seine-et-Marne",
  "code": "77",
  "slug": "conciergerie-airbnb-seine-et-marne",
  "title": "Conciergerie Airbnb Seine-et-Marne (77) : Disney, Melun | Coolok",
@@ -100,7 +101,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Seine-et-Marne",
+   "title": "Ce que dit la loi en Seine-et-Marne",
    "md": "En Seine-et-Marne, aucune règle départementale ne s'applique : les quatre communes du Val d'Europe (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers) exigent une autorisation de changement d'usage depuis le 1er juin 2024, avec compensation pour les sociétés à Chessy et à Serris, alors que Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun n'imposent aucune autorisation de ce type au 3 septembre 2026. Le plafond de la résidence principale reste fixé à 120 jours dans tout le département, et notre équipe interroge le service urbanisme concerné avant chaque publication d'annonce.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

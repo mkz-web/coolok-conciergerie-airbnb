@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-seine-saint-denis",
  "type": "departement",
  "name": "Seine-Saint-Denis",
+ "inName": "en Seine-Saint-Denis",
  "code": "93",
  "slug": "conciergerie-airbnb-seine-saint-denis",
  "title": "Conciergerie Airbnb Seine-Saint-Denis (93) | Coolok",
@@ -58,7 +59,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Seine-Saint-Denis",
+   "title": "Ce que dit la loi en Seine-Saint-Denis",
    "md": "En Seine-Saint-Denis, les communes de Montreuil et de Pantin relèvent du règlement de l'établissement public territorial Est Ensemble, en vigueur depuis le 8 juillet 2024 : l'autorisation de changement d'usage y est personnelle, valable trois ans, exigée dès la première nuitée pour une résidence secondaire, et la compensation ne s'applique qu'aux Lilas. Ni Montreuil ni Pantin n'ont adhéré au téléservice d'enregistrement du territoire, si bien qu'aucun numéro communal n'y est délivré au 3 septembre 2026, en attendant le téléservice national annoncé pour le quatrième trimestre 2026.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

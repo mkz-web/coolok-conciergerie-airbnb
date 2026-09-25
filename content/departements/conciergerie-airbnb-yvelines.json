@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-yvelines",
  "type": "departement",
  "name": "Yvelines",
+ "inName": "dans les Yvelines",
  "code": "78",
  "slug": "conciergerie-airbnb-yvelines",
  "title": "Conciergerie Airbnb Yvelines (78) : Versailles | Coolok",
@@ -58,7 +59,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Yvelines",
+   "title": "Ce que dit la loi dans les Yvelines",
    "md": "Dans les Yvelines, aucun régime départemental n'existe : Versailles impose depuis le 30 juin 2018 une autorisation de changement d'usage et un numéro d'enregistrement, tandis que l'office de tourisme intercommunal de Saint-Germain Boucles de Seine indiquait encore le 3 septembre 2026 que ni l'un ni l'autre n'étaient exigés sur ses 19 communes. Ces deux villes figurant en zone tendue, un conseil municipal peut instaurer le régime par simple délibération, ce qui nous conduit à revérifier le cadre applicable à chaque nouveau mandat.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

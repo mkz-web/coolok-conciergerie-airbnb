@@ -99,7 +99,7 @@ B.cards = (b, ctx) => {
 
 B.steps = (b, ctx) => `${sectionOpen(b, 'steps')}${heading(b, 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<ol class="steps-list">${(b.items || []).map((s, i) => `<li><span class="step-num">${i + 1}</span><div><h3>${inline(s.title)}</h3><p>${inline(s.text)}</p></div></li>`).join('')}</ol>${b.cta ? `<p class="section-cta">${btn(b.cta)}</p>` : ''}${sectionClose}`;
 
-B.stats = (b, ctx) => `${sectionOpen(b, 'stats')}${heading(b, 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<dl class="stats-grid">${(b.items || []).map((s) => `<div class="stat"><dt>${inline(s.label)}</dt><dd>${esc(s.value)}</dd>${s.note ? `<p class="stat-note">${inline(s.note)}</p>` : ''}</div>`).join('')}</dl>${b.source ? `<p class="source">${inline(b.source)}</p>` : ''}${sectionClose}`;
+B.stats = (b, ctx) => `${sectionOpen(b, 'stats')}${heading(b, 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<dl class="stats-grid${(b.items || []).length === 3 ? ' stats-3' : ''}">${(b.items || []).map((s) => `<div class="stat"><dt>${inline(s.label)}</dt><dd>${esc(s.value)}</dd>${s.note ? `<p class="stat-note">${inline(s.note)}</p>` : ''}</div>`).join('')}</dl>${b.source ? `<p class="source">${inline(b.source)}</p>` : ''}${sectionClose}`;
 
 B.table = (b, ctx) => {
   const head = b.head || [];

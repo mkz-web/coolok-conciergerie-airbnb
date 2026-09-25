@@ -150,7 +150,8 @@ address{font-style:normal}
 .steps-list p{margin:0;color:var(--muted)}
 /* Stats et data */
 .stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:0}
-@media(min-width:800px){.stats-grid{grid-template-columns:repeat(4,1fr)}.stats-grid.stats-3{grid-template-columns:repeat(3,1fr)}}
+.stats-grid.stats-3>.stat:last-child{grid-column:1/-1}
+@media(min-width:800px){.stats-grid{grid-template-columns:repeat(4,1fr)}.stats-grid.stats-3{grid-template-columns:repeat(3,1fr)}.stats-grid.stats-3>.stat:last-child{grid-column:auto}}
 .stat{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem;text-align:center}
 .stat dt{font-size:.85rem;color:var(--muted);order:2}
 .stat dd{margin:0 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green)}

@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-val-d-oise",
  "type": "departement",
  "name": "Val-d'Oise",
+ "inName": "dans le Val-d'Oise",
  "code": "95",
  "slug": "conciergerie-airbnb-val-d-oise",
  "title": "Conciergerie Airbnb Val-d'Oise : Enghien, Roissy | Coolok",
@@ -28,7 +29,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Val-d'Oise",
+   "title": "Ce que dit la loi dans le Val-d'Oise",
    "md": "Dans le Val-d'Oise, aucune règle départementale n'existe et chaque commune décide seule : Enghien-les-Bains, Roissy-en-France, Cergy et Pontoise ont instauré une autorisation temporaire de changement d'usage, sans compensation, tandis que Roissy-en-France est la seule à avoir abaissé à 90 jours le plafond de la résidence principale, au 1er janvier 2026. Aucune liste officielle des communes ayant délibéré n'étant publiée, nous adressons une demande écrite au service urbanisme concerné avant toute publication d'annonce.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

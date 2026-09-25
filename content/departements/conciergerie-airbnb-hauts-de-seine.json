@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-hauts-de-seine",
  "type": "departement",
  "name": "Hauts-de-Seine",
+ "inName": "dans les Hauts-de-Seine",
  "code": "92",
  "slug": "conciergerie-airbnb-hauts-de-seine",
  "title": "Conciergerie Airbnb Hauts-de-Seine, Clichy, Vanves | Coolok",
@@ -65,7 +66,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Hauts-de-Seine",
+   "title": "Ce que dit la loi dans les Hauts-de-Seine",
    "md": "Dans les Hauts-de-Seine, la règle vient de votre territoire et non du département : Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation à Asnières-sur-Seine et à Clichy, tandis que Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux et limite ailleurs l'autorisation à trois ans non reconductibles. Toute personne morale, société civile immobilière incluse, est soumise à compensation dans les deux territoires, ce que nous contrôlons avec vos statuts en main avant de signer.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

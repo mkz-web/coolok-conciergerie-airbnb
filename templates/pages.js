@@ -116,17 +116,17 @@ function relatedLinks(page, data) {
 
 function geoPage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, heroFor(site, page)];
-  if (page.data && page.data.revenu_mensuel && page.showData !== false) blocks.push({ type: 'datacard', intro: page.dataIntro, source: page.data.source, cta: { label: 'Estimer mes revenus à ' + page.name, href: '/simulateur-locatif', style: 'primary' } });
+  if (page.data && page.data.revenu_mensuel && page.showData !== false) blocks.push({ type: 'datacard', intro: page.dataIntro, source: page.data.source, cta: { label: 'Estimer mes revenus ' + (page.inName || 'à ' + page.name), href: '/simulateur-locatif', style: 'primary' } });
   blocks.push({ type: 'toc' });
   blocks.push(...(page.sections || []));
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
   if (page.pricing !== false) blocks.push(Object.assign({ type: 'pricing', bg: 'white' }, page.pricing || {}));
   const testis = page.testimonials || (page.type === 'commune' ? { limit: 3 } : { limit: 3 });
   blocks.push(Object.assign({ type: 'testimonials', bg: 'cream' }, testis));
-  if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || `Questions fréquentes sur la location courte durée à ${page.name}` });
+  if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || `Questions fréquentes sur la location courte durée ${page.inName || 'à ' + page.name}` });
   const rel = relatedLinks(page, data);
   if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien à ${page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discuter sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discuter sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
   blocks.push({ type: 'articles', bg: 'white', limit: 3, h2: 'Pour aller plus loin' });
   const rythmes = rythmerActions(blocks, site, page, data);
 

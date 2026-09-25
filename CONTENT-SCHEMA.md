@@ -37,7 +37,7 @@ Le build ÉCHOUE si : title > 65 caractères, meta description > 160, H1 absent 
 }
 ```
 Champs propres aux pages géo : `name` (nom affiché), `slug`, `dept` (code sur 2 chiffres, texte), `zone` (slug de zone si la commune appartient à une zone, ex. `val-d-europe`), `data` (`prix_nuitee`, `revenu_mensuel`, `taux_occupation`, `prix_m2`, `source` : affichés en carte de chiffres sous le héros ; `showData: false` pour la masquer), `linkText` (sous-titre de 5 à 8 mots dans les grilles de liens), `pricing: false` pour retirer le bloc tarif, `testimonials: { "limit": 3 }`.
-Pour un département : `code` (texte). Pour une zone : `shortName`, `dept`.
+Pour un département : `code` (texte). Pour une zone : `shortName`, `dept`. Pour un département, une zone ou le hub : `inName`, le nom précédé de sa préposition (« en Seine-et-Marne », « dans le Val-de-Marne », « au Val d'Europe et à Marne-la-Vallée »), repris dans le titre de la FAQ et la bande d'appel ; à défaut, le générateur écrit « à » suivi de `name`, ce qui convient à une commune et à Paris.
 
 ## 4. Bibliothèque de blocs (`sections[]`)
 Chaque bloc accepte `bg` (`white` | `cream` | `dark`), `anchor` (id d'ancre) et `tight` (moins d'espace au-dessus). Les blocs avec `h2` alimentent le sommaire.

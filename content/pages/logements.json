@@ -3,14 +3,15 @@
  "type": "logements",
  "title": "Les logements que Coolok exploite pour leurs propriétaires",
  "description": "Studios en bord de Marne, maisons familiales, appartements d'architecte : huit logements exploités par Coolok en location courte durée, et leur clientèle.",
- "h1": "Les logements que nous exploitons pour leurs propriétaires",
+ "h1": "Nous prenons soin de vos logements et donnons vie à vos projets",
+ "breadcrumbName": "Nos logements",
  "image": "/assets/img/logements/versailles.webp",
  "imageAlt": "Appartement rénové par des architectes à Versailles, exploité par Coolok",
  "imageWidth": 800,
  "imageHeight": 501,
  "hero": {
   "eyebrow": "Nos références",
-  "lead": "Ces logements appartiennent à des propriétaires qui nous ont confié leur exploitation. Chacun a une clientèle différente : familles en séjour aux parcs, cadres en mission, visiteurs du château, voyageurs d'affaires aux portes de Paris."
+  "lead": "Ces logements appartiennent à des propriétaires qui nous ont fait confiance. Chacun a une clientèle différente : familles en séjour aux parcs, cadres en mission, visiteurs du château, voyageurs d'affaires aux portes de Paris."
  },
  "sections": [
   {
@@ -18,7 +19,7 @@
    "bg": "white",
    "h2": "Ce que ces logements ont en commun",
    "narrow": true,
-   "md": "Aucun n'est un logement d'exception. Ce sont des studios, des T2, des T3 et deux maisons, dans des communes où la demande existe toute l'année. Ce qui les fait fonctionner tient en trois points : une annonce qui parle à la clientèle réelle du quartier, un prix ajusté chaque semaine, un accueil qui ne dépend pas de la disponibilité du propriétaire.\n\nDeux d'entre eux ne sont pas en Île-de-France : Reims, où nous faisons vivre un appartement au pied de la cathédrale, et Asnelles en Normandie, une maison familiale près des plages du Débarquement. Nous les affichons parce qu'ils existent, pas pour élargir artificiellement notre zone."
+   "md": "Ce sont des studios, des T2, des T3 et deux maisons, dans des communes où la demande existe toute l'année. Ce qui les fait fonctionner tient en trois points : une annonce qui parle à la clientèle réelle du quartier, un prix ajusté en continu, un accueil qui ne dépend pas de la disponibilité du propriétaire."
   },
   {
    "type": "callout",
@@ -26,7 +27,7 @@
    "variant": "info",
    "icon": "info",
    "title": "Ce que nous ne sommes pas",
-   "md": "Coolok Services accompagne les propriétaires dans l'exploitation de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires. Ces logements ne sont donc pas réservables auprès de nous."
+   "md": "Coolok Services accompagne les propriétaires dans la réussite de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires. Ces logements ne sont donc pas réservables auprès de nous."
   }
  ],
  "galleryTitle": "Huit logements, huit clientèles",

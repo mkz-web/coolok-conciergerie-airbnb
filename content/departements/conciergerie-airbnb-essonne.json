@@ -2,6 +2,7 @@
  "url": "/conciergerie-airbnb-essonne",
  "type": "departement",
  "name": "Essonne",
+ "inName": "en Essonne",
  "code": "91",
  "slug": "conciergerie-airbnb-essonne",
  "title": "Conciergerie Airbnb Essonne (91) : le cadre réel | Coolok",
@@ -28,7 +29,7 @@
    "bg": "white",
    "variant": "info",
    "icon": "law",
-   "title": "Ce que dit la loi à Essonne",
+   "title": "Ce que dit la loi en Essonne",
    "md": "À notre connaissance, au 3 septembre 2026, aucune règle départementale n'encadre le meublé de tourisme en Essonne : seule Évry-Courcouronnes a instauré une autorisation temporaire de changement d'usage, en vigueur depuis le 1er janvier 2026, et aucune commune du département n'a abaissé sous 120 jours le plafond applicable à une résidence principale. Comme il n'existe aucune liste officielle des communes ayant délibéré, nous écrivons au service urbanisme de votre mairie avant toute publication et nous vous transmettons sa réponse écrite.",
    "cta": {
     "label": "Comprendre la loi Le Meur",

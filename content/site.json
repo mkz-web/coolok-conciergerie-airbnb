@@ -49,7 +49,7 @@
    "https://www.facebook.com/coolok",
    "https://www.linkedin.com/company/coolok"
   ],
-  "disclaimer": "Coolok Services est une société de prestations de services qui accompagne les propriétaires dans l'exploitation de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires."
+  "disclaimer": "Coolok Services est une société de prestations de services qui accompagne les propriétaires dans la réussite de leur location courte durée. Nous ne proposons ni location directe ni intermédiation immobilière : les réservations se font exclusivement sur les plateformes partenaires."
  },
  "founder": {
   "name": "Thierry Moraldo",
@@ -140,7 +140,7 @@
   "Diffusion Airbnb et Booking, calendriers synchronisés",
   "Tarification dynamique ajustée en temps réel",
   "Sélection et messages avec les voyageurs",
-  "Accueil, boîtiers connectés et assistance 24/7",
+  "Accueil numérique, boîtiers connectés et assistance 24/7",
   "Ménage professionnel et linge entre chaque séjour",
   "Maintenance et petites réparations coordonnées",
   "Suivi de la réglementation et conformité",
@@ -296,32 +296,32 @@
    "alt": "Studio lumineux en bord de Marne à Nogent-sur-Marne, confié à Coolok"
   },
   {
-   "place": "Reims, Champagne",
-   "title": "Stuart, élégance vue cathédrale",
-   "text": "Central, raffiné, vue imprenable sur Notre-Dame de Reims.",
+   "place": "Clichy, Hauts-de-Seine",
+   "title": "L'élégance aux portes de Paris",
+   "text": "Central, raffiné, paisible. Emplacement unique pour un souvenir inoubliable.",
    "src": "/assets/img/logements/reims.webp",
-   "alt": "Appartement élégant avec vue sur la cathédrale de Reims, confié à Coolok"
+   "alt": "Chambre lumineuse avec parquet, grand lit et coin bureau"
   },
   {
-   "place": "Boulogne-Billancourt, Hauts-de-Seine",
+   "place": "Vincennes, Val-de-Marne",
    "title": "L'art de vivre à la française",
-   "text": "À quelques minutes de Roland-Garros et du bois de Boulogne.",
+   "text": "À quelques minutes du château et du bois de Vincennes.",
    "src": "/assets/img/logements/boulogne.webp",
-   "alt": "Appartement à Boulogne-Billancourt près de Roland-Garros, confié à Coolok"
+   "alt": "Chambre au mur gris ardoise, tête de lit en cannage et serviettes pliées sur le lit"
   },
   {
-   "place": "Paris, Bastille",
-   "title": "Cocon rénové au cœur de Bastille",
-   "text": "Tout équipé, idéal couples, cafés et restaurants en bas.",
+   "place": "Bussy-Saint-Georges, Seine-et-Marne",
+   "title": "Cocon rénové à 10 min de Disney",
+   "text": "Tout équipé, idéal couples, cafés et restaurants à proximité.",
    "src": "/assets/img/logements/bastille.webp",
-   "alt": "Appartement rénové dans le quartier de Bastille à Paris, confié à Coolok"
+   "alt": "Salle d'eau blanche avec douche vitrée et robinetterie noire"
   },
   {
-   "place": "Asnelles, Normandie",
+   "place": "Serris, Seine-et-Marne",
    "title": "Maison calme avec cheminée",
-   "text": "Six chambres à quelques pas des plages du Débarquement.",
+   "text": "Six chambres pour profiter des délices de Disney en famille.",
    "src": "/assets/img/logements/asnelles.webp",
-   "alt": "Maison familiale de six chambres à Asnelles en Normandie, confiée à Coolok"
+   "alt": "Salon lumineux avec canapés bleus, table basse en bois et miroir hublot"
   }
  ],
  "nav": {

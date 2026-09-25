@@ -10,10 +10,10 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Contact",
-  "lead": "Un projet, une question sur la réglementation de votre commune, un devis à comparer : c'est Thierry Moraldo qui vous répond, sous 24 heures ouvrées. Vous pouvez aussi réserver directement un créneau de 30 minutes."
+  "lead": "Un projet, une question ou besoin d'un simple éclairage : c'est Thierry Moraldo, le fondateur, qui vous répond directement. Vous pouvez aussi réserver directement un créneau de 30 minutes."
  },
  "formTitle": "Écrivez-nous",
- "formIntro": "Dites-nous où se trouve votre bien et ce que vous cherchez à savoir. Plus votre message est précis, plus notre réponse sera chiffrée.",
+ "formIntro": "Dites-nous où se trouve votre bien et ce que vous cherchez à savoir. Plus votre message est précis, plus notre réponse sera chiffrée et pertinente.",
  "sections": [
   {
    "type": "cards",
@@ -22,9 +22,9 @@
    "cols": 4,
    "items": [
     { "icon": "phone", "title": "Téléphone", "text": "06 73 93 75 01, du lundi au samedi. Si nous sommes sur un logement, laissez un message : nous rappelons le jour même." },
-    { "icon": "check", "title": "WhatsApp", "text": "Le canal le plus rapide pour une question courte, une photo de logement ou un devis à relire." },
+    { "icon": "check", "title": "WhatsApp", "text": "Le canal le plus rapide pour une question ou l'analyse d'une situation, en partageant vos photos ou vidéos de votre logement." },
     { "icon": "calendar", "title": "Rendez-vous de 30 minutes", "text": "Un créneau en visio ou par téléphone avec le fondateur, pour parler de votre bien sans engagement." },
-    { "icon": "doc", "title": "Email", "text": "contact@coolok.co, pour les demandes détaillées, les documents et les devis." }
+    { "icon": "doc", "title": "Email", "text": "contact@coolok.co, pour les demandes détaillées et les documents utiles." }
    ]
   },
   {
@@ -36,10 +36,10 @@
   }
  ],
  "faq": [
-  { "q": "Sous combien de temps répondez-vous ?", "a": "Sous 24 heures ouvrées pour un message ou un formulaire, immédiatement ou presque sur WhatsApp aux heures de travail. Si vous demandez un audit chiffré, c'est aussi le délai que nous tenons pour vous envoyer les chiffres." },
+  { "q": "Sous combien de temps répondez-vous ?", "a": "Sous 24 heures ouvrées pour un message ou un appel, immédiatement ou presque sur WhatsApp aux heures de travail. Si vous demandez un audit chiffré, 48 heures pour vous préparer le dossier." },
   { "q": "Le premier rendez-vous est-il payant ?", "a": "Non. L'appel, l'audit chiffré et la visite du logement sont gratuits et sans engagement. Nous ne facturons qu'à partir du moment où votre logement génère des revenus." },
-  { "q": "Je ne suis pas encore propriétaire, pouvez-vous m'aider ?", "a": "Oui, c'est même le meilleur moment pour nous parler. Nous pouvons vous dire ce qu'un bien précis rapporterait en courte durée et si sa commune l'autorise, avant que vous signiez chez le notaire. Nous ne sommes ni agents immobiliers ni conseillers en investissement : nous vous donnons des chiffres de marché, pas une recommandation d'achat." },
-  { "q": "Recrutez-vous ?", "a": "Nous travaillons régulièrement avec des prestataires de ménage, des blanchisseries et des artisans en Île-de-France. Écrivez-nous en précisant votre zone d'intervention et votre activité." }
+  { "q": "Je ne suis pas encore propriétaire, pouvez-vous m'aider ?", "a": "Oui. Nous pouvons vous dire ce qu'un bien précis rapporterait en courte durée et si sa commune l'autorise, avant que vous signiez chez le notaire. Nous ne sommes ni agents immobiliers ni conseillers en investissement : nous vous donnons des chiffres de marché, pas une recommandation d'achat." },
+  { "q": "Recrutez-vous ?", "a": "Nous travaillons régulièrement avec plusieurs partenaires de ménage, blanchisseries, back office et artisans. Écrivez-nous en précisant votre zone d'intervention et votre activité." }
  ],
  "keywords": ["contact coolok", "conciergerie airbnb contact"]
 }

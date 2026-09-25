@@ -13,7 +13,7 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Val-de-Marne, RER A, bords de Marne",
-  "lead": "Coolok Services est immatriculée au 4 avenue Oudinot, à Joinville-le-Pont, depuis le 10 octobre 2024. C'est notre commune : nous en connaissons les rues, les copropriétés et les artisans, et nous sommes chez vous en quelques minutes."
+  "lead": "Coolok Services a son siège au 4 avenue Oudinot, à Joinville-le-Pont. C'est notre commune : nous en connaissons les rues, les copropriétés et les artisans, et nous sommes chez vous en quelques minutes."
  },
  "data": {
   "prix_nuitee": "75 à 150 €",
@@ -42,11 +42,6 @@
     "Source"
    ],
    "rows": [
-    [
-     "Siège social de Coolok Services, 4 avenue Oudinot, 94340 Joinville-le-Pont (RCS Creteil 934 155 227)",
-     "société creée le 10/10/2024",
-     "Mentions légales Coolok (dossier de contexte MKZ) (2026-09-03)"
-    ],
     [
      "Gare RER A de Joinville-le-Pont (branche Boissy-Saint-Leger) : voyageurs entrants en 2015, trafic d'un jour ouvre, fréquence en pointe",
      "3 665 000 voyageurs entrants en 2015; environ 12 000 entrants par jour ouvre; un train toutes les 4 à 5 minutes en pointe",

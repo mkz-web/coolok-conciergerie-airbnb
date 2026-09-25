@@ -150,7 +150,7 @@
    "type": "rich",
    "bg": "cream",
    "h2": "Le calendrier vincennois",
-   "md": "Ici, l'année ne se lit pas en haute et basse saison mais en dates. Le meeting d'hiver de l'hippodrome occupe janvier et février, le Festival America revient au Parc floral du 24 au 27 septembre 2026 avec 40 000 festivaliers attendus (Livres Hebdo, juin 2026), et les week-ends de printemps se remplissent grâce au bois. Entre ces pics, ce sont les nuits de semaine qu'il faut aller chercher, en ouvrant les séjours d'une ou deux nuits et en revoyant le prix chaque semaine.",
+   "md": "Ici, l'année ne se lit pas en haute et basse saison mais en dates. Le meeting d'hiver de l'hippodrome occupe janvier et février, le Festival America revient au Parc floral du 24 au 27 septembre 2026 avec 40 000 festivaliers attendus (Livres Hebdo, juin 2026), et les week-ends de printemps se remplissent grâce au bois. Entre ces pics, ce sont les nuits de semaine qu'il faut aller chercher, en ouvrant les séjours d'une ou deux nuits et en ajustant le prix en continu.",
    "narrow": true
   },
   {
@@ -163,7 +163,7 @@
     "Préparation du dossier de changement d'usage avec vous : accord du syndic, diagnostic de performance énergétique, pièces attendues par le service urbanisme",
     "Annonce construite sur les trois flux de la commune (château, bois, hippodrome) plutôt que sur la seule proximité de Paris",
     "Dates d'événements ouvertes en priorité, en particulier les dimanches de courses et la semaine du Festival America",
-    "Accès autonome par serrure connectée et ménage entre chaque séjour, y compris pour une nuit isolée en semaine"
+    "Accès autonome par boîtier connecté et ménage entre chaque séjour, y compris pour une nuit isolée en semaine"
    ],
    "cta": {
     "label": "Voir le détail de nos services",

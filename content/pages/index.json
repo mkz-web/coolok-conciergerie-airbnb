@@ -20,7 +20,8 @@
    "h2": "Coolok en trois phrases",
    "narrow": true,
    "md": "Coolok Services est une conciergerie de meublés de tourisme basée à Joinville-le-Pont, dans le Val-de-Marne, fondée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans. Nous proposons les meilleurs services pour que votre logement excelle sur Airbnb et Booking.com, dans les huit départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne et à Versailles.\n\nUne seule offre, tout compris : nous prenons 20 % HT des revenus que votre logement encaisse réellement. Pas de forfait mensuel, pas de frais d'installation, pas d'option facturée en cours de route. Tous nos clients sont Superhôtes sur Airbnb.",
-   "cta": { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+   "cta": { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+   "cta2": { "label": "Découvrir Coolok et son fondateur", "href": "/qui-sommes-nous", "style": "ghost" }
   },
   {
    "type": "steps",
@@ -64,7 +65,8 @@
    "h2": "Des logements que nous faisons vivre",
    "intro": "Studios en bord de Marne, maisons familiales près des parcs, appartements d'architecte : chaque bien a sa clientèle.",
    "limit": 4,
-   "cta": { "label": "Voir tous les logements", "href": "/logements", "style": "secondary" }
+   "cta": { "label": "Voir tous les logements", "href": "/logements", "style": "secondary" },
+   "cta2": { "label": "Estimer les revenus de mon logement", "href": "/simulateur-locatif", "style": "primary" }
   },
   { "type": "testimonials", "bg": "white", "intro": "Six avis publics laissés par des propriétaires que nous accompagnons." },
   { "type": "pricing", "bg": "cream", "note": "Le ménage est facturé au voyageur selon la typologie du logement. Aucun frais d'entrée, aucun forfait mensuel." },

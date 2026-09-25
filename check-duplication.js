@@ -22,10 +22,10 @@ const DETAILS = args.includes('--details');
 if (!fs.existsSync(DIST)) { console.error('dist absent : lancer node build.js.'); process.exit(1); }
 const manifest = JSON.parse(fs.readFileSync(path.join(DIST, 'manifest.json'), 'utf8'));
 
-// Blocs communs par construction (tarif, avis, bandes d'action, guides connexes, grilles de liens) :
+// Blocs communs par construction (tarif, avis, bandes et rappels d'action, relance de fin de FAQ, guides connexes, grilles de liens) :
 // ils sont volontairement partagés, on les retire avant de mesurer le texte propre à la page.
-const SECTIONS_COMMUNES = /<section class="section (pricing|testimonials|articles|logos|links)[^"]*"[\s\S]*?<\/section>/g;
-const AUTRES_COMMUNS = /<section class="cta-band[\s\S]*?<\/section>|<nav class="breadcrumb[\s\S]*?<\/nav>|<nav class="toc[\s\S]*?<\/nav>/g;
+const SECTIONS_COMMUNES = /<section class="section (pricing|testimonials|articles|logos|links|midcta)[^"]*"[\s\S]*?<\/section>/g;
+const AUTRES_COMMUNS = /<section class="cta-band[\s\S]*?<\/section>|<nav class="breadcrumb[\s\S]*?<\/nav>|<nav class="toc[\s\S]*?<\/nav>|<p class="faq-more">[\s\S]*?<\/p>/g;
 
 function texte(file) {
   const html = fs.readFileSync(path.join(DIST, file), 'utf8');

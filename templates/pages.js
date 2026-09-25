@@ -7,7 +7,70 @@
 const schema = require('../lib/schema');
 const { esc, inline, paragraphs, stripTags } = require('../lib/html');
 const md = require('../lib/md');
-const { btn, ic } = require('./blocks');
+const { btn, ic, B } = require('./blocks');
+
+// Rythme des actions (règle de parcours de la recette livraison-web : une action au plus tous les
+// 8 000 caractères de texte, attention dès 5 000). Mesuré le 25/09/2026 : les 36 pages géographiques
+// tenaient 8 600 à 13 400 caractères sans lien d'action entre le héros et la bande finale, parce que
+// les sections écrites pour chaque commune n'en portent pas. Le gabarit rend donc chaque bloc, compte
+// son texte visible, et insère un rappel d'action (bloc midcta) avant le bloc qui ferait dépasser
+// ACTION_MAX caractères. Deux compteurs : toute action (le simulateur compris) et contact direct
+// seul (WhatsApp, rendez-vous, téléphone, e-mail, formulaire), chaque rappel portant les deux.
+const ACTION_MAX = 4000;
+const ACTION_ECART_MIN = 1200; // jamais un rappel collé à une action qui vient de passer
+const RE_ACTION = /href="(?:\/simulateur-locatif|\/contact)[#?"]|href="(?:tel|mailto):|wa\.me\/|calendly\.com/g;
+const RE_CONTACT = /href="\/contact[#?"]|href="(?:tel|mailto):|wa\.me\/|calendly\.com/g;
+
+function longueurTexte(html) { return stripTags(html).length; }
+
+function mesurerActions(html, re) {
+  const pos = [];
+  re.lastIndex = 0;
+  let m;
+  while ((m = re.exec(html))) pos.push(m.index);
+  if (!pos.length) return { avant: longueurTexte(html), apres: null };
+  return { avant: longueurTexte(html.slice(0, pos[0])), apres: longueurTexte(html.slice(pos[pos.length - 1])) };
+}
+
+function rappelsAction(site, page) {
+  const lieu = page.inName || 'à ' + page.name;
+  const wa = { label: 'Poser une question sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost' };
+  const simu = { label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' };
+  return [
+    { title: `Combien rapporterait votre logement ${lieu} ?`, text: 'Fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.', ctas: [simu, wa] },
+    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
+    { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
+  ];
+}
+
+function rythmerActions(blocks, site, page, data) {
+  const ctx = { site, page, pages: data.pages, data, md };
+  const rappels = rappelsAction(site, page);
+  // Le sommaire est décidé après coup par build.js : on compte ses titres comme s'il était affiché.
+  const tocLen = 10 + (page.sections || []).reduce((s, b) => s + (b.h2 ? String(b.h2).length + 1 : 0), 0);
+  let fin = blocks.length;
+  for (let i = blocks.length - 1; i >= 0; i--) if (blocks[i].type === 'cta') { fin = i; break; }
+  const out = [];
+  let ecartTout = 0, ecartContact = 0, n = 0, parti = false, fond;
+  blocks.forEach((b, i) => {
+    const html = b.type === 'toc' ? '' : B[b.type](b, ctx);
+    const tout = b.type === 'toc' ? { avant: tocLen, apres: null } : mesurerActions(html, RE_ACTION);
+    const contact = b.type === 'toc' ? { avant: tocLen, apres: null } : mesurerActions(html, RE_CONTACT);
+    const deborde = ecartTout + tout.avant > ACTION_MAX || ecartContact + contact.avant > ACTION_MAX;
+    if (parti && i < fin && deborde && ecartTout >= ACTION_ECART_MIN) {
+      out.push(Object.assign({ type: 'midcta', bg: fond }, rappels[n % rappels.length]));
+      n++;
+      ecartTout = 0;
+      ecartContact = 0;
+    }
+    out.push(b);
+    ecartTout = tout.apres === null ? ecartTout + tout.avant : tout.apres;
+    ecartContact = contact.apres === null ? ecartContact + contact.avant : contact.apres;
+    if (b.type === 'hero') parti = true;
+    fond = b.bg;
+  });
+  return out;
+}
 
 function defaultCtas(site, page) {
   return [
@@ -65,6 +128,7 @@ function geoPage(site, page, data) {
   if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien à ${page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discuter sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
   blocks.push({ type: 'articles', bg: 'white', limit: 3, h2: 'Pour aller plus loin' });
+  const rythmes = rythmerActions(blocks, site, page, data);
 
   const area = page.type === 'commune'
     ? { '@type': 'City', name: page.name, containedInPlace: { '@type': 'AdministrativeArea', name: page.deptName } }
@@ -77,7 +141,7 @@ function geoPage(site, page, data) {
   ];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
   if (rel.length && page.type !== 'commune') schemas.push(schema.itemList(site, page.h1, rel.map((r) => ({ name: r.title, url: r.href, type: 'WebPage' }))));
-  return { blocks, schemas };
+  return { blocks: rythmes, schemas };
 }
 
 function servicePage(site, page, data) {
@@ -93,7 +157,10 @@ function servicePage(site, page, data) {
 }
 
 function homePage(site, page, data) {
-  const blocks = [heroFor(site, page), ...(page.sections || [])];
+  // Sommaire après la barre de confiance : build.js ne l'affiche qu'au-delà de 10 000 caractères.
+  const sections = page.sections || [];
+  const apres = sections.length && sections[0].type === 'trustbar' ? 1 : 0;
+  const blocks = [heroFor(site, page), ...sections.slice(0, apres), { type: 'toc' }, ...sections.slice(apres)];
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white' });
   const schemas = [schema.organization(site), schema.website(site), schema.webPage(site, page)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
@@ -190,7 +257,9 @@ function articlePage(site, page, data) {
   if ((page.faq || []).length) blocks.push({ type: 'html', html: `<section class="faq in-article"><h2 id="questions-frequentes">${esc(page.faqTitle || 'Questions fréquentes')}</h2><div class="faq-list">${page.faq.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3></summary><div class="faq-answer">${md.render(q.a).html}</div></details>`).join('')}</div><p class="faq-more">Une question qui n'est pas dans la liste ? <a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Posez-la sur WhatsApp</a> ou <a href="tel:${esc(site.org.telephoneRaw)}">appelez le ${esc(site.org.telephoneDisplay)}</a>.</p></section>` });
   if ((page.sources || []).length) blocks.push({ type: 'html', html: `<section class="sources"><h2 id="sources">Sources</h2><ul>${page.sources.map((s) => `<li>${s.href ? `<a href="${esc(s.href)}" rel="noopener nofollow" target="_blank">${esc(s.label)}</a>` : esc(s.label)}${s.date ? `, ${esc(s.date)}` : ''}</li>`).join('')}</ul></section>` });
   blocks.push({ type: 'html', html: `<aside class="author-box"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="96" height="96" loading="lazy"><div><p class="author-name">${esc(f.name)}</p><p>${esc(f.bio)}</p><p><a href="/qui-sommes-nous">Découvrir Coolok</a> · <a href="/simulateur-locatif">Estimer mes revenus</a></p></div></aside></div><aside class="article-side"><div class="side-card"><p class="side-title">Combien rapporte votre bien ?</p><p>Fourchettes observées par commune, puis audit chiffré sous 48 h.</p>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif' })}<p class="side-alt"><a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.related && page.related.length ? `<div class="side-card side-links"><p class="side-title">À lire aussi</p><ul>${page.related.map((r) => `<li><a href="${esc(r.url)}">${esc(r.h1)}</a></li>`).join('')}</ul></div>` : ''}</aside></div>` });
-  blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Nos derniers guides' });
+  // Les guides déjà proposés dans « À lire aussi » ne reviennent pas dans la grille : le même titre
+  // listé deux fois dans une page est un bloc répété (blog/conciergerie-courte-duree, 25/09/2026).
+  blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Nos derniers guides', exclude: (page.related || []).map((r) => r.url) });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
   const schemas = [schema.article(site, page), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));

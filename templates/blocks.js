@@ -86,7 +86,7 @@ B.trustbar = (b, ctx) => {
   return `<section class="trustbar" aria-label="Chiffres clés"><div class="container"><ul>${items.map((t) => `<li>${t.href ? `<a href="${esc(t.href)}"${/^https?:/.test(t.href) ? ' rel="noopener nofollow" target="_blank"' : ''}>` : ''}<strong>${esc(t.value)}</strong><span>${esc(t.label)}</span>${t.href ? '</a>' : ''}</li>`).join('')}</ul></div></section>`;
 };
 
-B.rich = (b, ctx) => `${sectionOpen(b, 'rich')}<div class="prose${b.narrow ? ' narrow' : ''}">${heading(b, 2)}${b.intro ? `<p class="lead">${inline(b.intro)}</p>` : ''}${mdHtml(b.md, ctx)}${b.cta ? `<p class="cta-inline">${btn(b.cta)}</p>` : ''}</div>${sectionClose}`;
+B.rich = (b, ctx) => `${sectionOpen(b, 'rich')}<div class="prose${b.narrow ? ' narrow' : ''}">${heading(b, 2)}${b.intro ? `<p class="lead">${inline(b.intro)}</p>` : ''}${mdHtml(b.md, ctx)}${b.cta ? `<p class="cta-inline${b.cta2 ? ' cta-row' : ''}">${btn(b.cta)}${b.cta2 ? btn(Object.assign({ style: 'ghost' }, b.cta2)) : ''}</p>` : ''}</div>${sectionClose}`;
 
 B.cards = (b, ctx) => {
   const cols = b.cols || 3;
@@ -130,14 +130,25 @@ B.logos = (b, ctx) => {
 
 B.pricing = (b, ctx) => {
   const o = ctx.site.org;
-  return `${sectionOpen(b, 'pricing')}${heading(Object.assign({ h2: 'Une commission unique, tout compris' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="price-card"><div class="price-head"><span class="price-value">${esc(o.commissionDisplay)}</span><span class="price-unit">${esc(b.unit || 'des revenus locatifs, au résultat')}</span></div><ul class="check-list two-cols">${(b.included || ctx.site.included).map((x) => `<li>${ic('check')}${inline(x)}</li>`).join('')}</ul>${b.note ? `<p class="price-note">${inline(b.note)}</p>` : ''}<div class="cta-row">${btn(b.cta || ctx.site.defaultCta)}${b.cta2 ? btn(Object.assign({ style: 'secondary' }, b.cta2)) : ''}</div></div>${sectionClose}`;
+  // Second bouton par défaut : un contact direct à côté du prix (rendez-vous de 30 minutes avec le
+  // fondateur), pour que le bloc tarif porte aussi une action de contact. `cta2: false` le retire.
+  // Libellé court : « Réserver un appel de 30 min » passait sur deux lignes dans la carte à 375 px.
+  const cta2 = b.cta2 === undefined ? { label: 'Réserver un appel', href: o.calendly, icon: 'calendar' } : b.cta2;
+  return `${sectionOpen(b, 'pricing')}${heading(Object.assign({ h2: 'Une commission unique, tout compris' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="price-card"><div class="price-head"><span class="price-value">${esc(o.commissionDisplay)}</span><span class="price-unit">${esc(b.unit || 'des revenus locatifs, au résultat')}</span></div><ul class="check-list two-cols">${(b.included || ctx.site.included).map((x) => `<li>${ic('check')}${inline(x)}</li>`).join('')}</ul>${b.note ? `<p class="price-note">${inline(b.note)}</p>` : ''}<div class="cta-row">${btn(b.cta || ctx.site.defaultCta)}${cta2 ? btn(Object.assign({ style: 'secondary' }, cta2)) : ''}</div></div>${sectionClose}`;
 };
 
 B.faq = (b, ctx) => {
   const items = b.items || ctx.page.faq || [];
   if (!items.length) return '';
-  return `${sectionOpen(b, 'faq')}${heading(Object.assign({ h2: 'Questions fréquentes' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="faq-list">${items.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3>${icon('chevron')}</summary><div class="faq-answer">${/<[a-z]/.test(q.a) ? q.a : mdHtml(q.a, ctx)}</div></details>`).join('')}</div>${sectionClose}`;
+  // Relance de fin de FAQ, comme dans les guides : la question suivante du visiteur a un canal direct.
+  const o = ctx.site.org;
+  const more = b.more === false ? '' : `<p class="faq-more">Une question qui n'est pas dans la liste ? <a href="${esc(o.whatsappUrl)}" rel="noopener" target="_blank">Posez-la sur WhatsApp</a> ou <a href="tel:${esc(o.telephoneRaw)}">appelez le ${esc(o.telephoneDisplay)}</a>.</p>`;
+  return `${sectionOpen(b, 'faq')}${heading(Object.assign({ h2: 'Questions fréquentes' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="faq-list">${items.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3>${icon('chevron')}</summary><div class="faq-answer">${/<[a-z]/.test(q.a) ? q.a : mdHtml(q.a, ctx)}</div></details>`).join('')}</div>${more}${sectionClose}`;
 };
+
+// Rappel d'action inséré par le gabarit entre deux blocs (pages.js, rythmerActions) : un titre, une
+// phrase, deux boutons dont toujours un contact direct (WhatsApp, rendez-vous, téléphone).
+B.midcta = (b, ctx) => `${sectionOpen(b, 'midcta-section')}<aside class="mid-cta"><div><p class="mid-cta-title">${inline(b.title)}</p>${b.text ? `<p>${inline(b.text)}</p>` : ''}</div><div class="cta-row">${(b.ctas || []).map((c) => btn(c, 'btn-sm')).join('')}</div></aside>${sectionClose}`;
 
 B.cta = (b, ctx) => `<section class="cta-band cta-${esc(b.variant || 'dark')}${b.anchor ? '' : ''}"${b.anchor ? ` id="${esc(b.anchor)}"` : ''}><div class="container cta-inner"><div>${b.h2 ? `<h2>${inline(b.h2)}</h2>` : ''}${b.text ? `<p>${inline(b.text)}</p>` : ''}</div><div class="cta-row">${(b.ctas || [ctx.site.defaultCta]).map((c) => btn(c)).join('')}</div></div></section>`;
 
@@ -150,7 +161,7 @@ B.articles = (b, ctx) => {
 
 B.logements = (b, ctx) => {
   const list = (b.items || ctx.site.logements).slice(0, b.limit || 8);
-  return `${sectionOpen(b, 'logements')}${heading(Object.assign({ h2: 'Des logements que nous faisons vivre' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="grid grid-4 logement-grid">${list.map((l) => `<figure class="logement-card"><img src="${esc(l.src)}" alt="${esc(l.alt)}" width="640" height="480" loading="lazy"><figcaption><span class="logement-place">${esc(l.place)}</span><strong>${esc(l.title)}</strong>${l.text ? `<p>${inline(l.text)}</p>` : ''}</figcaption></figure>`).join('')}</div>${b.cta ? `<p class="section-cta">${btn(b.cta)}</p>` : ''}${sectionClose}`;
+  return `${sectionOpen(b, 'logements')}${heading(Object.assign({ h2: 'Des logements que nous faisons vivre' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="grid grid-4 logement-grid">${list.map((l) => `<figure class="logement-card"><img src="${esc(l.src)}" alt="${esc(l.alt)}" width="640" height="480" loading="lazy"><figcaption><span class="logement-place">${esc(l.place)}</span><strong>${esc(l.title)}</strong>${l.text ? `<p>${inline(l.text)}</p>` : ''}</figcaption></figure>`).join('')}</div>${b.cta ? `<p class="section-cta${b.cta2 ? ' cta-row' : ''}">${btn(b.cta)}${b.cta2 ? btn(b.cta2) : ''}</p>` : ''}${sectionClose}`;
 };
 
 B.contactForm = (b, ctx) => {

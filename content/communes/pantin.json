@@ -65,7 +65,7 @@
     ],
     [
      "Hiérarchie des quartiers par prix",
-     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Quatre Chemins-Jaurès 5 392, Quatre Chemins-Diderot 4 702.",
+     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Haut Pantin-Charles Auray 5 848, Quatre Chemins-Jaurès 5 392, Quatre Chemins-Diderot 4 702, Courtillières 4 585.",
      "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
     ],
     [
@@ -109,7 +109,7 @@
     {
      "icon": "euro",
      "title": "Les Quatre Chemins",
-     "text": "Les prix d'achat les plus accessibles de Pantin. Le positionnement doit être franc : trajet détaillé, photos récentes, prix cohérent avec le temps de marche jusqu'au métro."
+     "text": "Des prix d'achat parmi les plus accessibles de Pantin. Le positionnement doit être franc : trajet détaillé, photos récentes, prix cohérent avec le temps de marche jusqu'au métro."
     }
    ]
   },

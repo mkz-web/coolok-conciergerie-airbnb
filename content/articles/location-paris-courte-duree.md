@@ -4,7 +4,7 @@ seo_title: "Location courte durée Paris : règles 2026 et alternatives"
 meta_description: "90 jours, enregistrement, compensation, amendes : les règles 2026 de la location courte durée à Paris, et où la rentabilité s'est déplacée en Île-de-France."
 slug: location-paris-courte-duree
 date: 2025-09-03
-updated: 2025-09-03
+updated: 2026-09-26
 category: "Réglementation"
 image: /assets/img/articles/location-paris-courte-duree.webp
 image_alt: "Location courte durée à Paris : les règles 2026 et où va la rentabilité"
@@ -49,7 +49,7 @@ Louer sa résidence principale reste le seul cas simple à Paris : pas de change
 
 Pour transformer un logement parisien en meublé de tourisme permanent, il faut une autorisation de changement d'usage. À Paris, elle est subordonnée à **compensation** : convertir en habitation une surface équivalente, dans le même quartier administratif que le local transformé, et jusqu'à **3 m² pour 1 m²** dans les zones de compensation renforcée définies par le règlement municipal (délibération 2025 DLH 44, février 2025). Concrètement, il faut acheter des mètres carrés de bureaux ou de commerces et les transformer en logement, dans un quartier où le m² se négocie autour de 10 700 € (prix médian tous biens à Paris, Figaro Immobilier au 1er août 2026). Faites la multiplication : pour un studio de 25 m² en zone renforcée, la compensation représente jusqu'à 75 m² à recréer. C'est un dispositif calibré pour les opérateurs institutionnels, pas pour un particulier.
 
-Le risque de passer outre n'est pas théorique : l'amende civile peut atteindre **100 000 € par local** transformé sans autorisation, et la Ville de Paris dispose d'équipes de contrôle dédiées ainsi que, depuis les décrets de mars 2026, d'un accès aux données d'activité des plateformes (« API meublés »). Le détail du dispositif national est dans notre guide de la [loi Le Meur](/blog/loi-le-meur), et les règles générales du meublé de tourisme dans notre guide des [règles de la location courte durée](/blog/lcd-guide-complet).
+Le risque de passer outre n'est pas théorique : l'amende civile peut atteindre **100 000 € par local** transformé sans autorisation, et la Ville de Paris dispose d'équipes de contrôle dédiées ainsi que, depuis les décrets n° 2026-196 et 2026-197 du 19 mars 2026, d'un accès aux données d'activité des plateformes (« API meublés »). Le détail du dispositif national est dans notre guide de la [loi Le Meur](/blog/loi-le-meur), et les règles générales du meublé de tourisme dans notre guide des [règles de la location courte durée](/blog/lcd-guide-complet).
 
 ## Combien rapporte encore une nuit à Paris ?
 
@@ -64,7 +64,7 @@ Voici le déplacement que nous constatons sur le terrain : la demande ne s'arrê
 | Secteur | Prix moyen affiché/nuit | Prix au m² | La règle du jeu |
 |---|---|---|---|
 | Paris intra-muros | ~190 € (relevé sept. 2026) | 10 726 € | 90 jours (résidence principale) ou compensation (dédié) |
-| [Vincennes](/conciergerie-airbnb-vincennes) | 100 à 200 € | 8 874 € | Autorisation sans compensation |
+| [Vincennes](/conciergerie-airbnb-vincennes) | 100 à 200 € | 8 874 € | Autorisation sans compensation pour les deux premiers biens d'un particulier, résidence principale limitée à 90 jours |
 | [Joinville-le-Pont](/conciergerie-airbnb-joinville-le-pont) | 75 à 150 € | 7 264 € | Autorisation sans compensation |
 | [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | 4 453 € | Autorisation Val d'Europe Agglomération, sans compensation pour les particuliers |
 
@@ -108,7 +108,7 @@ Pour une résidence principale bien placée : oui, dans la limite du plafond (à
 
 ### Où faire de la location courte durée autour de Paris avec moins de contraintes ?
 
-Dans les communes à autorisation simple, sans compensation : Vincennes, Joinville-le-Pont, Nogent, Montreuil côté petite couronne Est, ou la couronne Disney (Serris, Chessy, Bussy-Saint-Georges), où la demande touristique est forte toute l'année. Chaque commune a ses règles : vérifiez en mairie, ou demandez-nous la synthèse pour votre projet.
+Dans les communes à autorisation simple, sans compensation pour un particulier : Vincennes (jusqu'au deuxième bien, résidence principale limitée à 90 jours comme à Paris), Joinville-le-Pont, Nogent, Montreuil côté petite couronne Est, ou la couronne Disney (Serris, Chessy, Bussy-Saint-Georges), où la demande touristique est forte toute l'année. Chaque commune a ses règles : vérifiez en mairie, ou demandez-nous la synthèse pour votre projet.
 
 ## Sources
 
@@ -117,6 +117,9 @@ Dans les communes à autorisation simple, sans compensation : Vincennes, Joinvil
 - [Ville de Paris : la location meublée touristique, les règles à suivre](https://www.paris.fr/pages/meubles-touristiques-3637).
 - [Location limitée à 90 jours à Paris](https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653), Ville de Paris (délibération 2024 DLH 398).
 - [Loi n° 2024-1039 du 19 novembre 2024, dite loi Le Meur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711), Légifrance.
+- [Décret n° 2026-196 du 19 mars 2026 relatif à la location de meublés de tourisme](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053703509), Légifrance.
+- [Décret n° 2026-197 du 19 mars 2026 portant création du traitement « API meublés »](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053703549), Légifrance.
+- [API meublés, liste des communes demandant les données d'activité](https://apimeubles.finances.gouv.fr/communes-list), Paris comprise (consultée le 26 septembre 2026).
 - [Guide pratique 2025 de la réglementation des meublés de tourisme](https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf), ministère de la Transition écologique (septembre 2025).
 - Relevé Airbnb du 23 juillet 2026 (14 logements entiers Paris intra-muros, 7 nuits du 14 au 21 septembre 2026, frais inclus) ; données villes coolok.co (relevé AirDNA croisé).
 

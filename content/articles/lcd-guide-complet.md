@@ -16,7 +16,7 @@ tribune_a_valider: true
 ## L'essentiel
 
 - **Plafond de 120 jours par année civile** pour une résidence principale, abaissable à 90 jours par délibération motivée de la commune (article L324-1-1 du code du tourisme, Légifrance, lu le 3 septembre 2026). Cinq communes de notre périmètre l'appliquent : Paris, Vincennes, Vanves, Roissy-en-France et Montévrain.
-- **Le changement d'usage ne s'applique plus « de plein droit » nulle part.** Dans sa version en vigueur au 21 février 2026, l'article L631-7 du code de la construction et de l'habitation ne le prévoit que dans les communes classées en zone tendue, et seulement si le conseil municipal ou l'intercommunalité l'a voté.
+- **Le changement d'usage ne s'applique plus « de plein droit » nulle part.** Dans sa version en vigueur au 21 février 2026, l'article L631-7 du code de la construction et de l'habitation ne le prévoit que dans les communes classées en zone tendue, et seulement si le conseil municipal ou l'intercommunalité l'a voté ; dans les autres communes, l'article L631-9 permet de l'instaurer par délibération motivée.
 - **Le numéro d'enregistrement national n'était pas encore délivrable le 3 septembre 2026** : prévu par la loi au plus tard le 20 mai 2026, il est annoncé pour le quatrième trimestre 2026 par service-public.gouv.fr (actualité A18880 du 27 juillet 2026) et la Direction générale des entreprises.
 - **DPE** : classe A à E exigée depuis le 21 novembre 2024 pour toute autorisation de changement d'usage, classe A à D au 1er janvier 2034 pour tous les meublés de tourisme, sauf la résidence principale du loueur (loi n° 2024-1039, article 3).
 - **Amendes** : 10 000 € à défaut de déclaration, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours, jusqu'à 100 000 € par local loué sans autorisation de changement d'usage.
@@ -67,7 +67,7 @@ C'est le point que la plupart des guides ratent : la réglementation ne regarde 
 
 ### Vous louez votre résidence principale
 
-C'est le cas le plus protégé : aucune autorisation de changement d'usage, une déclaration en mairie, un plafond de jours, et une exemption explicite de l'obligation de décence énergétique de 2034. Votre seul vrai sujet est le décompte des nuits, plus le numéro d'enregistrement déjà exigé dans certaines communes.
+C'est le cas le plus protégé : aucune autorisation de changement d'usage, pas de déclaration en mairie hors des communes qui ont instauré l'enregistrement (en attendant le téléservice national), un plafond de jours, et une exemption explicite de l'obligation de décence énergétique de 2034. Votre seul vrai sujet est le décompte des nuits, plus le numéro d'enregistrement déjà exigé dans certaines communes.
 
 ### Vous louez un logement dédié
 

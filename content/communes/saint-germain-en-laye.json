@@ -13,7 +13,7 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Yvelines, lisière de forêt",
-  "lead": "La commune compte 14,6 % d'habitants de nationalité étrangère, contre 7,7 % en France (INSEE, recensement 2022), et son lycée international réunit quatorze sections nationales. Ici, la demande n'est pas une nuit d'hôtel : c'est une installation."
+  "lead": "La commune compte 14,6 % d'habitants de nationalité étrangère, contre 7,7 % en France (INSEE, recensement 2022), et son lycée international réunit quatorze sections internationales. Ici, la demande n'est pas une nuit d'hôtel : c'est une installation."
  },
  "data": {
   "prix_nuitee": "100 à 220 €",
@@ -35,7 +35,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Une demande d'installation plus qu'une demande de tourisme",
-   "md": "Le lycée international rassemble quatorze sections nationales, 1 057 lycéens à la rentrée 2024 et environ 2 200 élèves sur site de la maternelle à la terminale. Sciences Po Saint-Germain-en-Laye accueille 1 100 étudiants en 2025-2026, contre 82 à son ouverture. Les cadres et professions intellectuelles supérieures représentent 44,5 % des actifs, et le RER A place La Défense à dix-huit ou vingt et une minutes. Ce sont ces éléments, plus que le patrimoine, qui produisent des nuitées.\n\nLa conséquence est claire pour un propriétaire : votre meilleur client n'est pas un couple en week-end, c'est une famille qui arrive pour trois semaines, en repérage scolaire ou en attente d'un déménagement. Ce type de séjour demande un logement complet, avec une vraie cuisine, une machine à laver, du rangement et un bureau, plutôt qu'un décor photogénique.\n\nL'exploitation change également de nature : moins de rotations, un linge et une maintenance à tenir dans la durée, une relation plus longue avec le voyageur. Le patrimoine reste un complément agréable, sans être le moteur : le musée d'Archéologie nationale n'avait accueilli que 110 161 visiteurs en 2019, dernier chiffre publié que nous ayons pu vérifier. En revanche, la Fête des Loges, du 26 juin au 16 août 2026 pour sa 373e édition, occupe tout l'été."
+   "md": "Le lycée international rassemble quatorze sections internationales, 1 057 lycéens à la rentrée 2024 et environ 2 200 élèves sur site de la maternelle à la terminale. Sciences Po Saint-Germain-en-Laye accueille 1 100 étudiants en 2025-2026, contre 82 à son ouverture. Les cadres et professions intellectuelles supérieures représentent 44,5 % des actifs, et le RER A place La Défense à dix-huit ou vingt et une minutes. Ce sont ces éléments, plus que le patrimoine, qui produisent des nuitées.\n\nLa conséquence est claire pour un propriétaire : votre meilleur client n'est pas un couple en week-end, c'est une famille qui arrive pour trois semaines, en repérage scolaire ou en attente d'un déménagement. Ce type de séjour demande un logement complet, avec une vraie cuisine, une machine à laver, du rangement et un bureau, plutôt qu'un décor photogénique.\n\nL'exploitation change également de nature : moins de rotations, un linge et une maintenance à tenir dans la durée, une relation plus longue avec le voyageur. Le patrimoine reste un complément agréable, sans être le moteur : le musée d'Archéologie nationale n'avait accueilli que 110 161 visiteurs en 2019, dernier chiffre publié que nous ayons pu vérifier. En revanche, la Fête des Loges, du 26 juin au 16 août 2026 pour sa 373e édition, occupe tout l'été."
   },
   {
    "type": "table",
@@ -65,8 +65,8 @@
     ],
     [
      "Lycée international de Saint-Germain-en-Laye (2 bis rue du Fer à Cheval)",
-     "14 sections internationales (américaine, allemande, britannique, chinoise, danoise, espagnole, italienne, japonaise, néerlandaise, norvégienne, polonaise, portugaise, russe).",
-     "Académie de Versailles (effectif 2024) ; Wikipedia (sections) ; prospectus British Section (effectifs tous niveaux, non daté) (rentrée 2024)"
+     "14 sections internationales (américaine, allemande, britannique, chinoise, danoise, espagnole, italienne, japonaise, néerlandaise, norvégienne, polonaise, portugaise, russe, suédoise).",
+     "Académie de Versailles (effectif 2024) ; site du Lycée international (sections, lu le 26/09/2026) ; prospectus British Section (effectifs tous niveaux, non daté) (rentrée 2024)"
     ],
     [
      "Sciences Po Saint-Germain-en-Laye (IEP, 5 rue Pasteur, quartier Pereire)",

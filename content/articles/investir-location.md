@@ -4,7 +4,7 @@ seo_title: "Investissement locatif Airbnb : le guide Île-de-France 2026"
 meta_description: "Taux à 3,24 %, communes autorisées, fiscalité LMNP, budget réel : où et comment réussir un investissement locatif Airbnb en Île-de-France en 2026."
 slug: investir-location
 date: 2025-08-14
-updated: 2025-08-14
+updated: 2026-09-26
 category: "Rentabilité et investissement"
 image: /assets/img/articles/investir-location.webp
 image_alt: "Investissement locatif Airbnb : réussir en Île-de-France en 2026"

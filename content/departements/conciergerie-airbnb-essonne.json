@@ -30,7 +30,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi en Essonne",
-   "md": "À notre connaissance, au 3 septembre 2026, aucune règle départementale n'encadre le meublé de tourisme en Essonne : seule Évry-Courcouronnes a instauré une autorisation temporaire de changement d'usage, en vigueur depuis le 1er janvier 2026, et aucune commune du département n'a abaissé sous 120 jours le plafond applicable à une résidence principale. Comme il n'existe aucune liste officielle des communes ayant délibéré, nous écrivons au service urbanisme de votre mairie avant toute publication et nous vous transmettons sa réponse écrite.",
+   "md": "À notre connaissance, au 3 septembre 2026, aucune règle départementale n'encadre le meublé de tourisme en Essonne : Évry-Courcouronnes et Athis-Mons ont instauré une autorisation temporaire de changement d'usage, en vigueur depuis le 1er janvier 2026 pour la première et depuis le 1er janvier 2025 pour la seconde, et aucune commune du département n'a abaissé sous 120 jours le plafond applicable à une résidence principale. Comme il n'existe aucune liste officielle des communes ayant délibéré, nous écrivons au service urbanisme de votre mairie avant toute publication et nous vous transmettons sa réponse écrite.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -86,7 +86,7 @@
     ],
     [
      "Athis-Mons",
-     "Autorisation temporaire sans compensation selon un recensement privé du 9 août 2026, non confirmé par une page officielle",
+     "Autorisation temporaire de 3 ans, renouvelable dans la limite de 9 ans, sans compensation, 3 logements au plus par propriétaire, depuis le 1er janvier 2025",
      "120 jours par année civile",
      "3 % de part votée, plafond 4,60 EUR avant taxes additionnelles"
     ],
@@ -97,7 +97,7 @@
      "Fixée par la commune ou son agglomération"
     ]
    ],
-   "source": "Annexe du décret 2025-1267 du 22 décembre 2025, règlement d'Évry-Courcouronnes adopté le 26 juin 2025, recherches sur les sites officiels de Massy, fichier DELTA de la DGFiP au 1er janvier 2026 et portail de la taxe de séjour de Grand Paris Sud. Relevé Coolok du 3 septembre 2026."
+   "source": "Annexe du décret 2025-1267 du 22 décembre 2025, règlement d'Évry-Courcouronnes adopté le 26 juin 2025, règlement d'Athis-Mons applicable au 1er janvier 2025, recherches sur les sites officiels de Massy, fichier DELTA de la DGFiP au 1er janvier 2026 et portail de la taxe de séjour de Grand Paris Sud. Relevé Coolok du 3 septembre 2026."
   },
   {
    "type": "callout",
@@ -126,7 +126,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en meublé de tourisme en Essonne ?",
-   "a": "Cela dépend de votre commune, et d'elle seule. Évry-Courcouronnes exige une autorisation temporaire de deux ans depuis le 1er janvier 2026. À Massy, aucune délibération n'a été trouvée au 3 septembre 2026. Ailleurs, l'absence de trace ne prouve rien : nous interrogeons le service urbanisme avant chaque mise en ligne, et nous vous transmettons la réponse."
+   "a": "Cela dépend de votre commune, et d'elle seule. Évry-Courcouronnes exige une autorisation temporaire de deux ans depuis le 1er janvier 2026, Athis-Mons une autorisation temporaire de trois ans depuis le 1er janvier 2025. À Massy, aucune délibération n'a été trouvée au 3 septembre 2026. Ailleurs, l'absence de trace ne prouve rien : nous interrogeons le service urbanisme avant chaque mise en ligne, et nous vous transmettons la réponse."
   },
   {
    "q": "Coolok intervient-il vraiment en Essonne ?",

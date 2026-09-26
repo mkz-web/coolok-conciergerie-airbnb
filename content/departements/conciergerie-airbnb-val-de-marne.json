@@ -22,7 +22,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui fait tourner le marché val-de-marnais",
-   "md": "La demande vient d'un empilement de moteurs très différents, tous mesurés. Le donjon et le château de Vincennes ont accueilli 164 004 visiteurs en 2025 selon le Centre des monuments nationaux, en bordure d'un bois que la Ville de Paris crédite de 11 millions de visiteurs par an. À Charenton-le-Pont, la grande salle de spectacle voisine, à 2,6 km à vol d'oiseau de la station Liberté, annonce environ 140 événements et 1,5 million de spectateurs par an. À Villejuif, Gustave Roussy a suivi 52 257 patients et réalisé 277 092 consultations en 2024, dont 24 000 nouveaux patients. Et la Marne est redevenue baignable : 50 000 baigneurs recensés à l'été 2025 sur les deux sites de Joinville-le-Pont et de Maisons-Alfort.\n\nPour un propriétaire, l'amplitude des prix d'achat est frappante à l'intérieur d'un même département. Les estimations Figaro Immobilier au 1er juillet 2026 vont de 9 178 EUR le mètre carré à Saint-Mandé à 4 160 EUR à Chennevières-sur-Marne, en passant par 7 364 EUR à Charenton-le-Pont et 5 068 EUR à Ivry-sur-Seine. Le niveau de vie médian suit la même courbe, de 37 610 EUR à Nogent-sur-Marne à 22 210 EUR à Ivry-sur-Seine au recensement INSEE 2023.\n\nEn exploitation, la contrainte dominante n'est pas l'autorisation, qui s'obtient sans compensation dans la quasi-totalité du département : ce sont les plafonds. Vincennes limite à 30 % la part de meublés par immeuble et exige une compensation à partir du troisième bien ; Charenton-le-Pont autorise un seul logement par foyer fiscal ; Villejuif en autorise deux, à condition d'être propriétaire depuis plus de cinq ans."
+   "md": "La demande vient d'un empilement de moteurs très différents, tous mesurés. Le donjon et le château de Vincennes ont accueilli 164 004 visiteurs en 2025 selon le Centre des monuments nationaux, en bordure d'un bois que la Ville de Paris crédite de 11 millions de visiteurs par an. À Charenton-le-Pont, la grande salle de spectacle voisine, à 2,6 km à vol d'oiseau de la station Liberté, annonce environ 140 événements et 1,5 million de spectateurs par an. À Villejuif, Gustave Roussy a suivi 52 257 patients et réalisé 277 092 consultations en 2024, dont 24 000 nouveaux patients. Et la Marne est redevenue baignable : 50 000 baigneurs recensés à l'été 2025 sur les deux sites de Joinville-le-Pont et de Maisons-Alfort.\n\nPour un propriétaire, l'amplitude des prix d'achat est frappante à l'intérieur d'un même département. Les estimations Figaro Immobilier au 1er juillet 2026 vont de 9 178 EUR le mètre carré à Saint-Mandé à 4 160 EUR à Chennevières-sur-Marne, en passant par 7 364 EUR à Charenton-le-Pont et 5 068 EUR à Ivry-sur-Seine. Le niveau de vie médian suit la même courbe, de 37 610 EUR à Nogent-sur-Marne à 22 210 EUR à Ivry-sur-Seine au recensement INSEE 2023.\n\nEn exploitation, la contrainte dominante n'est pas l'autorisation, qui s'obtient sans compensation dans la quasi-totalité du département : ce sont les plafonds. Vincennes limite à 30 % la part de meublés par immeuble et exige une compensation à partir du troisième bien d'un particulier, dès le premier pour une société ; Charenton-le-Pont autorise un seul logement par foyer fiscal ; Villejuif en autorise deux, à condition d'être propriétaire depuis plus de cinq ans."
   },
   {
    "type": "table",
@@ -130,7 +130,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi dans le Val-de-Marne",
-   "md": "Dans le Val-de-Marne, trois établissements publics territoriaux appliquent chacun leur règlement, et aucun n'impose de compensation en dehors de Vincennes à partir du troisième bien : l'autorisation de changement d'usage est en revanche exigée partout pour un logement autre que votre résidence principale. Les vrais verrous sont les quotas, d'un logement par foyer fiscal à Charenton-le-Pont à deux autorisations par loueur à Alfortville, à Chennevières-sur-Marne et à Villejuif, et ce sont eux que nous contrôlons en premier lors de l'étude de votre dossier.",
+   "md": "Dans le Val-de-Marne, trois établissements publics territoriaux appliquent chacun leur règlement, et, dans les douze communes que nous couvrons, aucun n'impose de compensation à une personne physique en dehors de Vincennes à partir du troisième bien : l'autorisation de changement d'usage est en revanche exigée partout pour un logement autre que votre résidence principale. Les vrais verrous sont les quotas, d'un logement par foyer fiscal à Charenton-le-Pont à deux autorisations par loueur à Alfortville, à Chennevières-sur-Marne et à Villejuif, et ce sont eux que nous contrôlons en premier lors de l'étude de votre dossier.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -186,7 +186,7 @@
     ],
     [
      "Villejuif",
-     "Deux logements par propriétaire, réservés aux propriétaires depuis plus de 5 ans d'un logement de plus de 5 ans",
+     "Deux logements par propriétaire, réservés aux propriétaires depuis plus de 5 ans d'un logement construit depuis au moins 5 ans",
      "5 ans renouvelables deux fois, soit 15 ans au maximum",
      "120 jours par année civile"
     ],
@@ -261,7 +261,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en meublé de tourisme dans le Val-de-Marne ?",
-   "a": "Oui, pour tout logement autre que votre résidence principale, dans les douze communes que nous couvrons. Elle s'obtient sans compensation partout, sauf à Vincennes à partir du troisième bien. Le point à vérifier en priorité n'est donc pas l'autorisation elle-même mais le quota communal, qui peut limiter votre projet à un seul logement."
+   "a": "Oui, pour tout logement autre que votre résidence principale, dans les douze communes que nous couvrons. Pour une personne physique, elle s'obtient sans compensation partout, sauf à Vincennes à partir du troisième bien ; une société y compense dès le premier. Le point à vérifier en priorité n'est donc pas l'autorisation elle-même mais le quota communal, qui peut limiter votre projet à un seul logement."
   },
   {
    "q": "Combien de logements puis-je louer en courte durée dans le Val-de-Marne ?",

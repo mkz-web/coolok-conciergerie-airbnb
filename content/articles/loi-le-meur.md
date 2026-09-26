@@ -51,7 +51,7 @@ Tout dépend de ce que vous louez, et d'où vous le louez.
 | Votre situation | Ce que la loi exige | Le point de vigilance |
 |---|---|---|
 | Résidence principale (occupée au moins 8 mois par an) | Déclaration avec enregistrement ; plafond de 120 jours par an, que la commune peut réduire jusqu'à 90 | À Paris, 90 jours depuis le 1er janvier 2025 |
-| Résidence secondaire ou logement dédié | Enregistrement, plus un changement d'usage si votre commune l'a instauré (depuis la loi Le Meur, le dispositif relève d'une délibération locale ; la quasi-totalité de Paris et de la petite couronne l'applique) | La compensation, quand elle existe, change toute l'équation |
+| Résidence secondaire ou logement dédié | Enregistrement, plus un changement d'usage si votre commune l'a instauré (depuis la loi Le Meur, le dispositif relève d'une délibération locale ; Paris et la quasi-totalité de la petite couronne l'appliquent) | La compensation, quand elle existe, change toute l'équation |
 | Meublé classé | Mêmes obligations, fiscalité plus douce (abattement 50 %) | Le classement ne dispense d'aucune autorisation |
 
 Avant tout projet, posez-vous ces cinq questions, dans l'ordre :

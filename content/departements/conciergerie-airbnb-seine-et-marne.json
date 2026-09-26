@@ -166,7 +166,7 @@
     ],
     [
      "Pays de Fontainebleau",
-     "4 % du coût HT voté, plafonné à 4,00 EUR avant taxes additionnelles",
+     "13 % du coût HT par personne et par nuit (4 % voté), plafond 13,00 EUR",
      "tarif voté par l'agglomération",
      "Fontainebleau"
     ],
@@ -177,7 +177,7 @@
      "Melun"
     ]
    ],
-   "source": "Délibérations des collectivités et fichier DELTA de la DGFiP au 1er janvier 2026, relevés le 3 septembre 2026. En Seine-et-Marne, trois taxes additionnelles s'ajoutent partout au tarif voté (département 10 %, région 15 %, Île-de-France Mobilités 200 %), soit un multiplicateur de 3,25."
+   "source": "Délibérations des collectivités et fichier DELTA de la DGFiP au 1er janvier 2026, relevés le 3 septembre 2026. En Seine-et-Marne, trois taxes additionnelles s'ajoutent partout au tarif voté (département 10 %, Société du Grand Paris 15 %, Île-de-France Mobilités 200 %), soit un multiplicateur de 3,25."
   },
   {
    "type": "checklist",
@@ -214,7 +214,7 @@
   },
   {
    "q": "Vaut-il mieux investir près des parcs ou au sud de la Seine-et-Marne ?",
-   "a": "Le nord offre un volume de demande sans équivalent mais un prix d'achat plus élevé, une réglementation qui s'est durcie et une taxe de séjour de 16,25 %. Le sud coûte moins cher à l'achat, n'impose aucune autorisation à ce jour et taxe cinq fois moins, avec une demande plus étalée et moins massive. Les deux fonctionnent avec des stratégies opposées."
+   "a": "Le nord offre un volume de demande sans équivalent mais un prix d'achat plus élevé, une réglementation qui s'est durcie et une taxe de séjour de 16,25 %. Le sud coûte moins cher à l'achat, n'impose aucune autorisation à ce jour et taxe jusqu'à cinq fois moins, avec une demande plus étalée et moins massive. Les deux fonctionnent avec des stratégies opposées."
   },
   {
    "q": "Quelle taxe de séjour paie-t-on en Seine-et-Marne ?",

@@ -45,12 +45,12 @@
    "rows": [
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
-     "7 771 habitants (6 875 en 2021, 5 131 en 2015); +37,95 % entre 2017 et 2023; 2e commune de plus de 2 000 habitants en plus forte croissance du 77 (+5,5 % par an)",
+     "7 771 habitants (6 875 en 2021, 5 131 en 2015) ; +37,95 % entre 2017 et 2023 ; 2e commune de plus de 2 000 habitants en plus forte croissance du 77 (+5,5 % par an)",
      "INSEE, populations de référence 2023 (fichier dep77) et note PopRef 2023 Seine-et-Marne (2025-12-29)"
     ],
     [
      "Parc de logements et part des résidences secondaires",
-     "3 694 logements en 2023 (2 508 en 2017); résidences principales 85,9 %, résidences secondaires et logements occasionnels 7,4 % (6,3 % en 2017), vacants 6,7 %",
+     "3 694 logements en 2023 (2 508 en 2017) ; résidences principales 85,9 %, résidences secondaires et logements occasionnels 7,4 % (6,3 % en 2017), vacants 6,7 %",
      "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-02-05)"
     ],
     [
@@ -60,13 +60,13 @@
     ],
     [
      "Gare de Marne-la-Vallée Chessy sur la commune (place des Passagers du Vent)",
-     "4 448 487 voyageurs SNCF en 2024; RER A terminus, Châtelet en 45 min environ; TGV/OUIGO province-province; CDG TGV en 10 min; navettes Disney gratuites depuis la gare",
-     "SNCF Open Data; SNCF Connect; Disneyland Paris FAQ (2026-09-03)"
+     "4 448 487 voyageurs SNCF en 2024 ; RER A terminus, Châtelet en 45 min environ ; TGV et OUIGO sur les liaisons entre villes de province ; CDG TGV en 10 min ; navettes Disney gratuites depuis la gare",
+     "SNCF Open Data ; SNCF Connect ; Disneyland Paris FAQ (2026-09-03)"
     ],
     [
      "Accès routier",
-     "A4 sortie 14 Parcs Disney / Val d'Europe (RD 344P); Orly à 46 km par la route (environ 40 min hors trafic)",
-     "Wikipedia (fiche A4); Rome2rio (2025)"
+     "A4 sortie 14 Parcs Disney / Val d'Europe (RD 344P) ; Orly à 46 km par la route (environ 40 min hors trafic)",
+     "Wikipedia (fiche A4) ; Rome2rio (2025)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -92,7 +92,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Chessy",
-   "md": "- **Changement d'usage** : oui **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : En deca de 120 nuitées par an, la location de la résidence principale est dispensée d'autorisation préalable de changement d'usage.\n- **Numéro d'enregistrement** : obligatoire, Obligatoire dès le premier jour de mise en location, quel que soit le type de propriétaire (personne physique ou morale) et que le bien soit une résidence principale ou secondaire.\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://www.valdeuropeagglo.fr/je-suis-un-particulier-je-loue-de-120-jours-an/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : En deçà de 120 nuitées par an, la location de la résidence principale est dispensée d'autorisation préalable de changement d'usage.\n- **Numéro d'enregistrement** : obligatoire dès le premier jour de mise en location, quel que soit le type de propriétaire (personne physique ou morale) et que le bien soit une résidence principale ou secondaire.\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://www.valdeuropeagglo.fr/je-suis-un-particulier-je-loue-de-120-jours-an/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -184,7 +184,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Chessy ?",
-   "a": "Le numéro d'enregistrement est obligatoire sur toute annonce depuis le 20 mai 2026, résidence principale comprise. Une autorisation de changement d'usage peut s'y ajouter selon la décision de la commune. Nous vérifions votre situation exacte avant la mise en ligne, et nous vous le disons si le projet n'est pas possible."
+   "a": "Oui. Le numéro d'enregistrement est déjà obligatoire sur toute annonce dès le premier jour de location, résidence principale comprise ; il devra être renouvelé sur le téléservice national prévu par la loi Le Meur, dont l'ouverture est annoncée pour le quatrième trimestre 2026. Pour une résidence secondaire, une autorisation de changement d'usage s'y ajoute. Nous vérifions votre situation exacte avant la mise en ligne, et nous vous le disons si le projet n'est pas possible."
   },
   {
    "q": "Prenez-vous en charge les arrivées tardives après la fermeture des parcs ?",

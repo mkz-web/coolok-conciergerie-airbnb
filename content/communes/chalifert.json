@@ -45,28 +45,28 @@
    "rows": [
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
-     "1 584 habitants (population totale 1 597); 339 habitants en 1968; 62 % de la population a entre 25 et 64 ans",
-     "INSEE, populations de référence 2023; dossier complet (POP T1) (2025-12-29)"
+     "1 584 habitants (population totale 1 597) ; 339 habitants en 1968 ; 62 % de la population a entre 25 et 64 ans",
+     "INSEE, populations de référence 2023 ; dossier complet (POP T1) (2025-12-29)"
     ],
     [
      "Parc de logements",
-     "717 logements en 2023 (567 en 2017); résidences principales 89,2 %, résidences secondaires et occasionnels 2,5 %, vacants 8,3 % (10,4 % en 2017)",
+     "717 logements en 2023 (567 en 2017) ; résidences principales 89,2 %, résidences secondaires et occasionnels 2,5 %, vacants 8,3 % (10,4 % en 2017)",
      "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
     ],
     [
      "Position par rapport au parc et aux communes voisines",
-     "commune limitrophe de Chessy (centres distants de 1,2 km) et de Coupvray (1,5 km); parc Disneyland a environ 5,9 km par la route, 7 min en taxi; Esbly (gare ligne P) à 3,2 km.",
-     "annuaire-mairie.fr (distances entre communes); Rome2rio (2025)"
+     "commune limitrophe de Chessy (centres distants de 1,2 km) et de Coupvray (1,5 km) ; parc Disneyland à environ 5,9 km par la route, 7 min en taxi ; Esbly (gare ligne P) à 3,2 km.",
+     "annuaire-mairie.fr (distances entre communes) ; Rome2rio (2025)"
     ],
     [
      "Transports en commun",
-     "aucune gare sur la commune; lignes de bus 2223, 2233 et 2263 du réseau Marne-la-Vallée (Île-de-France Mobilités) vers Chessy et Esbly.",
-     "Wikipedia (fiche commune, source IDFM); Moovit (2026-09-03)"
+     "aucune gare sur la commune ; lignes de bus 2223, 2233 et 2263 du réseau Marne-la-Vallée (Île-de-France Mobilités) vers Chessy et Esbly.",
+     "Wikipedia (fiche commune, source IDFM) ; Moovit (2026-09-03)"
     ],
     [
      "Canal de Meaux à Chalifert et bords de Marne",
-     "canal de 12,6 km construit de 1837 à 1846, 3 ecluses (Meaux, Lesches, Chalifert), tunnel-canal de 294 m sous la butte de Chalifert, toujours en activité (peniches de granulats).",
-     "Inventaire du patrimoine Île-de-France; Wikipedia; lesblygeois.fr (viaduc, blog local) (2024-07-12)"
+     "canal de 12,6 km construit de 1837 à 1846, 3 écluses (Meaux, Lesches, Chalifert), tunnel-canal de 294 m sous la butte de Chalifert, toujours en activité (péniches de granulats).",
+     "Inventaire du patrimoine Île-de-France ; Wikipedia ; lesblygeois.fr (viaduc, blog local) (2024-07-12)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -77,7 +77,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Chalifert",
-   "md": "- **Changement d'usage** : non **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle de droit commun rappelée par l'office de tourisme de Marne et Gondoire : résidence principale limitée à 120 jours par an, résidence secondaire louable sans limite de durée dès lors que la déclaration en mairie.\n- **Numéro d'enregistrement** : non exigé à ce jour, Pas de numéro d'enregistrement au 03/09/2026. Déclaration en mairie par cerfa 14004*04, recepisse transmis à Marne et Gondoire pour la taxe de séjour.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/) et [document de référence](https://www.chalifert.fr/?s=meubl%C3%A9)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle de droit commun rappelée par l'office de tourisme de Marne et Gondoire : résidence principale limitée à 120 jours par an, résidence secondaire louable sans limite de durée dès lors que la déclaration en mairie est faite.\n- **Numéro d'enregistrement** : non exigé à ce jour. Pas de numéro d'enregistrement au 03/09/2026. Déclaration en mairie par cerfa 14004*04, récépissé transmis à Marne et Gondoire pour la taxe de séjour.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/) et [document de référence](https://www.chalifert.fr/?s=meubl%C3%A9)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -157,7 +157,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Chalifert ?",
-   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, y compris pour une résidence principale. Une procédure locale de changement d'usage peut exister : nous la vérifions auprès de la commune avant la mise en ligne."
+   "a": "Pas de numéro d'enregistrement à ce jour : au 3 septembre 2026, la commune n'en délivre pas et la location se déclare en mairie par le formulaire cerfa 14004. Le numéro deviendra obligatoire sur chaque annonce, y compris pour une résidence principale, à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026. Aucune autorisation de changement d'usage n'est exigée à ce jour : nous le vérifions auprès de la commune avant la mise en ligne."
   },
   {
    "q": "Le volume de demande est-il suffisant ?",

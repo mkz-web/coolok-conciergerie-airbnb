@@ -9,6 +9,7 @@ category: "Réglementation"
 image: /assets/img/articles/location-paris-courte-duree.webp
 image_alt: "Location courte durée à Paris : les règles 2026 et où va la rentabilité"
 keywords: ["location courte durée paris", "réglementation airbnb paris", "changement d'usage paris", "louer son appartement sur airbnb", "location saisonnière paris"]
+tribune_a_valider: true
 ---
 # Location courte durée à Paris : les règles 2026 et où va la rentabilité
 
@@ -40,7 +41,7 @@ Détail très concret, souvent découvert trop tard : depuis le 24 janvier 2025,
 
 Louer sa résidence principale reste le seul cas simple à Paris : pas de changement d'usage, une déclaration en ligne, un numéro à afficher, et le compteur de 90 jours. Trois règles de survie :
 
-1. **Déclarez avant de publier.** L'enregistrement est généralisé partout en France depuis le 20 mai 2026 (loi Le Meur) ; à Paris, il conditionne l'annonce depuis des années. Une annonce sans numéro valide, c'est une amende qui peut atteindre 10 000 €, et 20 000 € en cas de fausse déclaration.
+1. **Déclarez avant de publier.** La loi Le Meur généralise l'enregistrement à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; à Paris, il conditionne l'annonce depuis des années. Une annonce sans numéro valide, c'est une amende qui peut atteindre 10 000 €, et 20 000 € en cas de fausse déclaration.
 2. **Suivez le compteur multi-plateformes.** 90 jours, c'est le total toutes plateformes confondues, pas 90 jours par site.
 3. **Vendez les bonnes nuits.** C'est le point que presque tout le monde rate : quand le droit de louer est plafonné, la tarification devient l'essentiel du revenu. 90 nuits placées sur les périodes de forte demande (salons, événements sportifs, vacances internationales, fashion weeks) ne rapportent pas la même chose que 90 nuits au fil de l'eau. Un plafond ne plafonne pas votre prix moyen.
 
@@ -83,8 +84,6 @@ Ce que je dis aux propriétaires, c'est de raisonner en ratio coût-bénéfice, 
 
 Le flou coûte toujours plus cher que la règle. Mon travail, c'est de vous donner les chiffres et le cadre avant que vous vous engagiez. Après, la décision vous appartient, et elle est solide. »
 
-*Tribune reconstituée d'après les transcripts de réunion de Thierry (article/_VOIX-thierry-moraldo.md), à valider par lui avant publication.*
-
 ## FAQ : vos questions sur la location courte durée à Paris
 
 ### Combien de jours peut-on louer sa résidence principale à Paris en 2026 ?
@@ -93,7 +92,7 @@ Le flou coûte toujours plus cher que la règle. Mon travail, c'est de vous donn
 
 ### Faut-il un numéro d'enregistrement pour louer en courte durée à Paris ?
 
-Oui, pour tous les meublés de tourisme, résidence principale comprise : le numéro doit figurer sur chaque annonce. L'enregistrement est généralisé à toute la France depuis le 20 mai 2026 ; défaut d'enregistrement et fausse déclaration sont sanctionnés (jusqu'à 10 000 € et 20 000 € respectivement).
+Oui, pour tous les meublés de tourisme, résidence principale comprise : le numéro doit figurer sur chaque annonce. L'enregistrement sera généralisé à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; défaut d'enregistrement et fausse déclaration sont sanctionnés (jusqu'à 10 000 € et 20 000 € respectivement).
 
 ### Peut-on encore transformer un logement en meublé de tourisme à Paris ?
 
@@ -123,4 +122,4 @@ Dans les communes à autorisation simple, sans compensation : Vincennes, Joinvil
 
 ---
 
-**Votre bien est à Paris ou aux portes de Paris ?** Faites le calcul réel en 60 secondes avec notre [simulateur de revenus locatifs](/simulateur-locatif) : estimation chiffrée sur votre commune, plafond compris, sans engagement. C'est la même étude que nous menons avant d'accepter un mandat.
+**Votre bien est à Paris ou aux portes de Paris ?** Faites le calcul réel en deux minutes avec notre [simulateur de revenus locatifs](/simulateur-locatif) : estimation chiffrée sur votre commune, plafond compris, sans engagement. C'est la même étude que nous menons avant d'accepter un mandat.

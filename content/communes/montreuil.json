@@ -44,7 +44,7 @@
    "rows": [
     [
      "Population municipale",
-     "111 934 habitants en 2023; densité 12 549 hab/km2; 54 472 logements; 1,8 % de résidences secondaires; 35,4 % de propriétaires; niveau de vie médian 24 100 EUR",
+     "111 934 habitants en 2023 ; densité 12 549 hab/km2 ; 54 472 logements ; 1,8 % de résidences secondaires ; 35,4 % de propriétaires ; niveau de vie médian 24 100 EUR",
      "INSEE, RP2023, comparateur de territoires (géographie au 01/01/2026, consulté le 03/09/2026)"
     ],
     [
@@ -58,14 +58,14 @@
      "MeilleursAgents (page Île-de-France) et Figaro Immobilier (02/09/2026 et 01/08/2026)"
     ],
     [
-     "Hierarchie des quartiers par prix (indice de la demande)",
-     "Bas Montreuil-Bobillot 6 615 EUR/m2, Bas Montreuil-République 6 440, Centre-Ville-Jean Moulin 6 010, Bas Montreuil-Etienne Marcel-Chanzy 5 966, Signac-Murs à Peches 5 205, Bel.",
+     "Hiérarchie des quartiers par prix (indice de la demande)",
+     "Bas Montreuil-Bobillot 6 615 EUR/m2, Bas Montreuil-République 6 440, Centre-Ville-Jean Moulin 6 010, Bas Montreuil-Étienne Marcel-Chanzy 5 966, Signac-Murs à Pêches 5 205, Bel Air-Grands Pêchers 3 943.",
      "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
     ],
     [
      "Métro ligne 9",
-     "3 stations à Montreuil (Robespierre, Croix de Chavaux, Mairie de Montreuil); Nation à 7 stations de Mairie de Montreuil (environ 8 minutes), République 13 stations.",
-     "RATP (stations); metroparis.paris et Moovit (temps de parcours) (consulté le 03/09/2026)"
+     "3 stations à Montreuil (Robespierre, Croix de Chavaux, Mairie de Montreuil) ; Nation à 7 stations de Mairie de Montreuil (environ 8 minutes), République à 13 stations.",
+     "RATP (stations) ; metroparis.paris et Moovit (temps de parcours) (consulté le 03/09/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Montreuil",
-   "md": "- **Changement d'usage** : oui **Compensation** : non (compensation limitée a la commune des Lilas, art. 4)\n- **Si vous louez votre résidence principale** : 120 jours (règlement Est Ensemble art. 2; 90 jours uniquement à Romainville); aucune délibération de Montreuil à 90 jours trouvée.\n- **À prévoir dans votre dossier** : logement decent, DPE A a E (L631-10), attestation sur l'honneur de conformité au règlement de copropriété, interdiction pour les logements sociaux, subventionnes ou en accession encadrée (art. 5).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://www.est-ensemble.fr/meuble-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non (compensation limitée à la commune des Lilas, art. 4)\n- **Si vous louez votre résidence principale** : 120 jours (règlement Est Ensemble art. 2 ; 90 jours uniquement à Romainville) ; aucune délibération de Montreuil à 90 jours trouvée.\n- **À prévoir dans votre dossier** : logement décent, DPE A à E (L631-10), attestation sur l'honneur de conformité au règlement de copropriété, interdiction pour les logements sociaux, subventionnés ou en accession encadrée (art. 5).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://www.est-ensemble.fr/meuble-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

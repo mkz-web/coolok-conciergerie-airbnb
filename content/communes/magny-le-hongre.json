@@ -45,17 +45,17 @@
    "rows": [
     [
      "Population municipale 2023",
-     "9 060 habitants (+4,8 % depuis 2017; 4 954 en 2006); niveau de vie médian 32 740 EUR",
+     "9 060 habitants (+4,8 % depuis 2017 ; 4 954 en 2006) ; niveau de vie médian 32 740 EUR",
      "INSEE, dossier complet commune (2026-08-01)"
     ],
     [
-     "Profil sociodemographique",
-     "51 % de diplomes du supérieur, age médian 32 ans (données INSEE 2023 relayées)",
+     "Profil sociodémographique",
+     "51 % de diplômés du supérieur, âge médian 32 ans (données INSEE 2023 relayées)",
      "Habity (retraitement INSEE) (2025-12)"
     ],
     [
      "Parc de logements et résidences secondaires",
-     "4 149 logements en 2023 (3 683 en 2017); résidences principales 84,3 %, résidences secondaires et occasionnels 4,0 % (1,6 % en 2017, part multipliée par 2,5), vacants 11,7 %",
+     "4 149 logements en 2023 (3 683 en 2017) ; résidences principales 84,3 %, résidences secondaires et occasionnels 4,0 % (1,6 % en 2017, part multipliée par 2,5), vacants 11,7 %",
      "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-08-01)"
     ],
     [
@@ -66,7 +66,7 @@
     [
      "Hôtels partenaires Disney sur la commune (liste mairie)",
      "Campanile, Explorers, Vienna House Dream Castle (399 chambres selon l'hôtel), Vienna House Magic Circus / Grand Magic, B&B, Radisson Blu : tous à 5 min en bus des parcs Disney.",
-     "Mairie de Magny-le-Hongre (page Welcome); site Dream Castle (2026-03-16)"
+     "Mairie de Magny-le-Hongre (page Welcome) ; site Dream Castle (2026-03-16)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -77,7 +77,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Magny-le-Hongre",
-   "md": "- **Changement d'usage** : oui **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120; non\n- **Numéro d'enregistrement** : obligatoire, declaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -162,7 +162,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Magny-le-Hongre ?",
-   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, résidence principale comprise, et la commune peut instituer une autorisation de changement d'usage. Nous vérifions votre cas précis avant toute mise en ligne."
+   "a": "Oui. La commune exige déjà un numéro d'enregistrement sur chaque annonce, obtenu sur Déclaloc via Val d'Europe Agglomération, résidence principale comprise ; il devra être renouvelé sur le téléservice national prévu par la loi Le Meur, dont l'ouverture est annoncée pour le quatrième trimestre 2026. Pour une résidence secondaire, une autorisation de changement d'usage s'y ajoute. Nous vérifions votre cas précis avant toute mise en ligne."
   },
   {
    "q": "Comment organisez-vous le ménage d'une grande maison ?",

@@ -45,28 +45,28 @@
    "rows": [
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
-     "6 980 habitants (population totale 7 061); 7 049 en 2022, 7 564 en 2016; l'une des plus fortes decroissances du 77 parmi les communes de plus de 2 000 habitants (-1,2 % par an.",
-     "INSEE, populations de référence 2023; note PopRef 2023 Seine-et-Marne (2025-12-29)"
+     "6 980 habitants (population totale 7 061) ; 7 049 en 2022, 7 564 en 2016 ; l'une des plus fortes décroissances du 77 parmi les communes de plus de 2 000 habitants (-1,2 % par an).",
+     "INSEE, populations de référence 2023 ; note PopRef 2023 Seine-et-Marne (2025-12-29)"
     ],
     [
      "Part des résidences secondaires et logements occasionnels",
-     "31,7 % en 2023 contre 7,6 % en 2017; résidences principales 62,1 %; vacants 6,3 %; 4 463 logements en 2023 (3 171 en 2017).",
+     "31,7 % en 2023 contre 7,6 % en 2017 ; résidences principales 62,1 % ; vacants 6,3 % ; 4 463 logements en 2023 (3 171 en 2017).",
      "INSEE, dossier complet commune (LOG T1, LOG T2) (2025-09-02)"
     ],
     [
      "Hébergement touristique au 1er janvier 2025",
-     "2 hôtels 3 étoiles (177 chambres); 1 camping 3 étoiles de 584 emplacements; 3 résidences de tourisme et assimiles totalisant 7 673 places-lits (chiffre stable depuis 2023)",
+     "2 hôtels 3 étoiles (177 chambres) ; 1 camping 3 étoiles de 584 emplacements ; 3 résidences de tourisme et assimilées totalisant 7 673 places-lits (chiffre stable depuis 2023)",
      "INSEE, dossier complet commune (tourisme 2025) et page Tourisme 2023 (2025-09-02)"
     ],
     [
-     "Center Parcs Villages Nature Paris (rue du Pre des Merlans, a cheval sur Bailly-Romainvilliers et Villeneuve-le-Comte)",
-     "1 061 hébergements après l'extension de 2025 (193 nouveaux cottages dont 85 premium; 34 % de la gamme en VIP); 868 a l'ouverture en 2017.",
-     "L'Echo touristique; Mesinfos; Disneyland Paris FAQ; Wikipedia (2025-07-07)"
+     "Center Parcs Villages Nature Paris (rue du Pré des Merlans, à cheval sur Bailly-Romainvilliers et Villeneuve-le-Comte)",
+     "1 061 hébergements après l'extension de 2025 (193 nouveaux cottages dont 85 premium ; 34 % de la gamme en VIP) ; 868 à l'ouverture en 2017.",
+     "L'Écho touristique ; Mesinfos ; Disneyland Paris FAQ ; Wikipedia (2025-07-07)"
     ],
     [
      "Hôtels de la commune (liste mairie)",
-     "Marriott's Village d'Île-de-France (allée de l'Orme Rond, villas, 185 unites, ouvert en 2003).",
-     "Mairie de Bailly-Romainvilliers (page Hôtels); Expedia (Marriott 185) (2024-09-09)"
+     "Marriott's Village d'Île-de-France (allée de l'Orme Rond, villas, 185 unités, ouvert en 2003).",
+     "Mairie de Bailly-Romainvilliers (page Hôtels) ; Expedia (Marriott 185) (2024-09-09)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -77,7 +77,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Bailly-Romainvilliers",
-   "md": "- **Changement d'usage** : oui **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120; non\n- **Numéro d'enregistrement** : obligatoire, declaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -162,7 +162,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer à Bailly-Romainvilliers ?",
-   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, y compris pour une résidence principale. Une autorisation de changement d'usage peut s'ajouter selon la décision de la commune : nous le vérifions pour votre adresse avant la mise en ligne."
+   "a": "Oui. La commune exige déjà un numéro d'enregistrement sur chaque annonce, obtenu sur Déclaloc via Val d'Europe Agglomération, y compris pour une résidence principale ; il devra être renouvelé sur le téléservice national prévu par la loi Le Meur, dont l'ouverture est annoncée pour le quatrième trimestre 2026. Pour une résidence secondaire, une autorisation de changement d'usage s'y ajoute : nous le vérifions pour votre adresse avant la mise en ligne."
   },
   {
    "q": "Le parking est-il vraiment un critère ?",

@@ -21,7 +21,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Pourquoi un logement dédié ne se loue quasiment plus à Paris",
-   "md": "La demande voyageurs n'a jamais été le problème dans la capitale : c'est l'offre que la Ville a décidé de fermer. Le règlement municipal sur les changements d'usage, adopté par le Conseil de Paris en février 2025 et publié le 3 mars 2025, pose un principe unique en Île-de-France : transformer un logement en meublé de tourisme oblige à créer, en échange, une surface d'habitation équivalente dans le même quartier administratif. Dans neuf arrondissements, Paris Centre, les 5e, 6e, 7e, 8e, 9e, 10e, 11e et 18e, cette compensation passe au triple, soit trois mètres carrés créés pour un mètre carré transformé (exposé des motifs de la délibération qui a créé l'annexe 6, PDF officiel lu le 3 septembre 2026).\n\nPour un particulier, cette exigence équivaut à un refus. Acheter des mètres carrés de bureaux et les remettre en habitation dans le même quartier n'est pas un projet de propriétaire, c'est un projet d'aménageur. La Ville a par ailleurs écarté le régime d'autorisation temporaire que la loi rend possible depuis novembre 2024 : il n'existe donc aucune porte de sortie à trois ou cinq ans, contrairement à ce que proposent la plupart des communes voisines.\n\nReste votre résidence principale, celle que vous habitez au moins huit mois par an. Elle se loue sans autorisation, mais 90 jours par année civile depuis le 1er janvier 2025 (délibération 2024 DLH 398 du 19 décembre 2024), et non 120 comme presque partout ailleurs. Quatre-vingt-dix nuits, cela signifie que chaque nuit pèse le double : le prix, les photos et la note de l'annonce comptent davantage qu'ailleurs, et le dépassement se sanctionne jusqu'à 10 000 EUR par année concernée (paris.fr, consulté le 3 septembre 2026)."
+   "md": "La demande voyageurs n'a jamais été le problème dans la capitale : c'est l'offre que la Ville a décidé de fermer. Le règlement municipal sur les changements d'usage, adopté par le Conseil de Paris en février 2025 et publié le 3 mars 2025, pose un principe unique en Île-de-France : transformer un logement en meublé de tourisme oblige à créer, en échange, une surface d'habitation équivalente dans le même quartier administratif. Dans neuf arrondissements, Paris Centre, les 5e, 6e, 7e, 8e, 9e, 10e, 11e et 18e, cette compensation passe au triple, soit trois mètres carrés créés pour un mètre carré transformé (exposé des motifs de la délibération qui a créé l'annexe 6, PDF officiel lu le 3 septembre 2026).\n\nPour un particulier, cette exigence équivaut à un refus. Acheter des mètres carrés de bureaux et les remettre en habitation dans le même quartier n'est pas un projet de propriétaire, c'est un projet d'aménageur. La Ville a par ailleurs écarté le régime d'autorisation temporaire que la loi rend possible depuis novembre 2024 : il n'existe donc aucune porte de sortie à trois ou cinq ans, contrairement à ce que proposent la plupart des communes voisines.\n\nReste votre résidence principale, celle que vous habitez au moins huit mois par an. Elle se loue sans autorisation, mais dans la limite de 90 jours par année civile depuis le 1er janvier 2025 (délibération 2024 DLH 398 du 19 décembre 2024), et non 120 comme presque partout ailleurs. Quatre-vingt-dix nuits, cela signifie que chaque nuit pèse le double : le prix, les photos et la note de l'annonce comptent davantage qu'ailleurs, et le dépassement se sanctionne jusqu'à 10 000 EUR par année concernée (paris.fr, consulté le 3 septembre 2026)."
   },
   {
    "type": "callout",
@@ -29,7 +29,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Paris",
-   "md": "- **Changement d'usage** : oui **Compensation** : oui\n- **Si vous louez votre résidence principale** : 90; Jusqu'à 10 000 EUR par année de dépassement (paris.fr).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://entreprendre.service-public.gouv.fr/actualites/A17929) et [document de référence](https://taxedesejour.paris.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : oui\n- **Si vous louez votre résidence principale** : 90 jours par année civile au maximum, et jusqu'à 10 000 EUR d'amende par année de dépassement (paris.fr).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://entreprendre.service-public.gouv.fr/actualites/A17929) et [portail de la taxe de séjour](https://taxedesejour.paris.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -96,12 +96,12 @@
     [
      "[Charenton-le-Pont](/conciergerie-airbnb-charenton-le-pont)",
      "Autorisation temporaire de 2 ans non reconductible, un logement par foyer fiscal, sociétés exclues",
-     "Métro 8, Accor Arena à une station"
+     "Métro 8, stations Charenton-Écoles et Liberté"
     ],
     [
      "[Montreuil](/conciergerie-airbnb-montreuil)",
      "Autorisation personnelle de 3 ans sans compensation, accord tacite quand le dossier est complet, aucun numéro communal à ce jour",
-     "Métro 9, Nation à sept stations de Mairie de Montreuil"
+     "Métro 9, Nation à six stations de Mairie de Montreuil"
     ],
     [
      "[Clichy](/conciergerie-airbnb-clichy)",

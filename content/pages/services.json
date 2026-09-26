@@ -30,7 +30,7 @@
    "type": "cards",
    "bg": "cream",
    "h2": "Les outils que nous mettons derrière votre annonce",
-   "intro": "Les outils c'est bien, avec des données c'est mieux, et avec l'expertise ça change tout. Nous mesurons et optimisons chaque détail.",
+   "intro": "Les outils, c'est bien ; avec des données, c'est mieux ; et avec l'expertise, ça change tout. Nous mesurons et optimisons chaque détail.",
    "cols": 3,
    "items": [
     { "icon": "chart", "title": "Tarification dynamique", "text": "PriceLabs pour la grille tarifaire, AirDNA pour les données de marché : les prix suivent la demande réelle de votre commune, les vacances scolaires et les événements locaux." },
@@ -62,7 +62,7 @@
  ],
  "faq": [
   { "q": "Faut-il équiper le logement avant la mise en ligne ?", "a": "Le logement doit être meublé, propre et fonctionnel, avec un couchage de qualité et une cuisine équipée. Lors de la visite, nous vous remettons la liste des manques constatés, chiffrée, avec ce qui est indispensable et ce qui peut attendre. Vous décidez de ce que vous achetez." },
-  { "q": "Qui s'occupe des déclarations et de la taxe de séjour ?", "a": "Nous vous expliquons toutes les étapes pour l'enregistrement en mairie et nous suivons la collecte de la taxe de séjour par les plateformes, qui la reversent directement aux communes dans la plupart des cas. Votre déclaration fiscale de revenus reste la vôtre, vous avez à votre portée toutes les informations nécessaires." },
+  { "q": "Qui s'occupe des déclarations et de la taxe de séjour ?", "a": "Nous vous expliquons toutes les étapes pour l'enregistrement en mairie et nous suivons la collecte de la taxe de séjour par les plateformes, qui la reversent directement aux communes dans la plupart des cas. Votre déclaration fiscale de revenus reste la vôtre : vous avez à votre portée toutes les informations nécessaires." },
   { "q": "Que se passe-t-il en cas de dégradation ?", "a": "Nous constatons, documentons avec photos, et instruisons la demande auprès de la plateforme et de sa garantie hôte dans les délais. Les réparations sont coordonnées par des artisans qualifiés, sur devis validé par vous quand le montant dépasse un petit entretien." },
   { "q": "Faites-vous les séjours professionnels et les moyennes durées ?", "a": "Nous accueillons les séjours professionnels de quelques nuits, très fréquents autour des pôles d'affaires et hospitaliers d'Île-de-France, dans le cadre du meublé de tourisme, à hauteur de 90 jours consécutifs. Les baux de plusieurs mois relèvent de la location classique ou du bail mobilité, qui ne sont pas notre métier." },
   { "q": "Intervenez-vous partout en Île-de-France ?", "a": "Nous couvrons les huit départements, avec des équipes rodées autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne, à Versailles et en petite couronne Est. Pour une commune plus éloignée, nous vérifions d'abord que nous pouvons y tenir la qualité de ménage et des opérations avant de nous engager." }

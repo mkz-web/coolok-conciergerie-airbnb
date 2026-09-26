@@ -29,7 +29,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui fait tourner un logement dans la boucle",
-   "md": "La commune la plus peuplée du Val-de-Marne est aussi l'une des moins équipées en hébergement : 3 hôtels et 104 chambres au 1er janvier 2026, soit 1,4 chambre pour mille habitants (INSEE). Le bâti explique le reste : 33 % de maisons et 61,7 % de ménages propriétaires (INSEE, recensement 2023). Quatre gares du RER A desservent le territoire, avec Châtelet-Les Halles atteint en 18 minutes depuis Saint-Maur-Créteil et un train toutes les 5 minutes en heure de pointe (Ville de Saint-Maur, rapport de présentation du PLU).\n\nCe contexte fabrique une clientèle particulière : des gens qui restent. Une famille qui vend, achète, fait des travaux ou arrive en mutation ne cherche pas deux nuits, elle cherche trois semaines. Votre calcul change du tout au tout : moins de rotations, moins de ménages facturés, un prix par nuit plus modeste mais un calendrier moins troué. Les repères de marché dont nous disposons situent la nuitée entre 85 et 175 euros pour une occupation de 65 à 75 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, deux points méritent votre attention. Les prix vont de 4 972 euros le mètre carré à La Pie à 6 575 aux Mûriers (Figaro Immobilier, estimations au 1er juillet 2026) : deux biens de surface identique ne se positionnent pas de la même façon. Et le chantier de la ligne 15 Sud, dont l'ouverture est annoncée pour l'automne 2027 (Société des grands projets, 25 juin 2026), alimente déjà lui-même une demande de logement temporaire."
+   "md": "La plus peuplée des douze communes du Val-de-Marne que nous suivons est aussi l'une des moins équipées en hébergement : 3 hôtels et 104 chambres au 1er janvier 2026, soit 1,4 chambre pour mille habitants (INSEE). Le bâti explique le reste : 33 % de maisons et 61,7 % de ménages propriétaires (INSEE, recensement 2023). Quatre gares du RER A desservent le territoire, avec Châtelet-Les Halles atteint en 18 minutes depuis Saint-Maur-Créteil et un train toutes les 5 minutes en heure de pointe (Ville de Saint-Maur, rapport de présentation du PLU).\n\nCe contexte fabrique une clientèle particulière : des gens qui restent. Une famille qui vend, achète, fait des travaux ou arrive en mutation ne cherche pas deux nuits, elle cherche trois semaines. Votre calcul change du tout au tout : moins de rotations, moins de ménages facturés, un prix par nuit plus modeste mais un calendrier moins troué. Les repères de marché dont nous disposons situent la nuitée entre 85 et 175 euros pour une occupation de 65 à 75 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, deux points méritent votre attention. Les prix vont de 4 972 euros le mètre carré à La Pie à 6 575 aux Mûriers (Figaro Immobilier, estimations au 1er juillet 2026) : deux biens de surface identique ne se positionnent pas de la même façon. Et le chantier de la ligne 15 Sud, dont l'ouverture est annoncée pour l'automne 2027 (Société des grands projets, 25 juin 2026), alimente déjà lui-même une demande de logement temporaire."
   },
   {
    "type": "table",
@@ -43,29 +43,29 @@
    ],
    "rows": [
     [
-     "Quatre gares du RER A sur la commune (Saint-Maur-Creteil, Le Parc de Saint-Maur, Champigny, La Varenne-Chennevieres) ; temps de parcours Saint-Maur-Creteil vers Châtelet-Les Halles ; fréquence",
-     "18 minutes vers Châtelet; près de 140 passages par jour et par sens, un train toutes les 5 minutes en pointe",
-     "Ville de Saint-Maur-des-Fosses, PLU rapport de présentation (gares : saint-maur.com, venir et circuler) (2023)"
+     "Quatre gares du RER A sur la commune (Saint-Maur-Créteil, Le Parc de Saint-Maur, Champigny, La Varenne-Chennevières) ; temps de parcours Saint-Maur-Créteil vers Châtelet-Les Halles ; fréquence",
+     "18 minutes vers Châtelet ; près de 140 passages par jour et par sens, un train toutes les 5 minutes en pointe",
+     "Ville de Saint-Maur-des-Fossés, PLU rapport de présentation (gares : saint-maur.com, venir et circuler) (2023)"
     ],
     [
-     "Gare Saint-Maur-Creteil de la ligne 15 Sud : gare la plus profonde de France, escalier monumental ; gains de temps annonces ; mise en service reportée a l'automne 2027 par la Société des grands projets le 25/06/2026",
-     "quais à 52 m; Villejuif Louis-Aragon en 11 minutes contre 46, Issy RER en 24 minutes contre 1h05; ouverture automne 2027",
-     "DRIEAT Île-de-France (gains : saint-maur.com; report : Le Figaro et Citoyens.com du 25 et 26/06/2026 citant la SGP) (2026-06-25)"
+     "Gare Saint-Maur-Créteil de la ligne 15 Sud : gare la plus profonde de France, escalier monumental ; gains de temps annoncés ; mise en service reportée à l'automne 2027 par la Société des grands projets le 25/06/2026",
+     "quais à 52 m ; Villejuif Louis-Aragon en 11 minutes contre 46, Issy RER en 24 minutes contre 1h05 ; ouverture automne 2027",
+     "DRIEAT Île-de-France (gains : saint-maur.com ; report : Le Figaro et Citoyens.com du 25 et 26/06/2026 citant la SGP) (2026-06-25)"
     ],
     [
      "Population 2023 (la plus peuplée des 12 communes), propriétaires, résidences principales, emplois, niveau de vie",
-     "76 572 habitants; 61,7 % de propriétaires; 91 % de résidences principales sur 38 912 logements; 20 881 emplois; niveau de vie médian 37 390 EUR",
+     "76 572 habitants ; 61,7 % de propriétaires ; 91 % de résidences principales sur 38 912 logements ; 20 881 emplois ; niveau de vie médian 37 390 EUR",
      "INSEE, comparateur de territoires RP2023 (2026-08)"
     ],
     [
-     "Prix immobilier médian tous biens (-3 % sur 1 an), maisons 5 719 EUR/m2 ; prix par quartier : Les Muriers 6 575, La Varenne 6 562, Le Vieux-Saint-Maur 6 509, Adamville 6 344, Le Parc 6 232, Saint-Maur-Creteil 5 961, Champignol 5 688, La Pie 4 972 EUR/m2",
+     "Prix immobilier médian tous biens (-3 % sur 1 an), maisons 5 719 EUR/m2 ; prix par quartier : Les Mûriers 6 575, La Varenne 6 562, Le Vieux-Saint-Maur 6 509, Adamville 6 344, Le Parc 6 232, Saint-Maur-Créteil 5 961, Champignol 5 688, La Pie 4 972 EUR/m2",
      "6 509 EUR/m2",
      "Figaro Immobilier, estimations au 01/07/2026 (2026-07-01)"
     ],
     [
-     "Coupe du monde d'epée dames (escrime) au centre sportif Pierre Brossolette, retour après 12 ans d'absence : qualifications le vendredi, individuel le samedi, équipes le dimanche",
+     "Coupe du monde d'épée dames (escrime) au centre sportif Pierre Brossolette, retour après 12 ans d'absence : qualifications le vendredi, individuel le samedi, équipes le dimanche",
      "du 22 au 24 mai 2026",
-     "Ville de Saint-Maur-des-Fosses (2026-04-22)"
+     "Ville de Saint-Maur-des-Fossés (2026-04-22)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Saint-Maur-des-Fossés",
-   "md": "- **Changement d'usage** : oui, « uniquement pour les résidences secondaires : obtenir une autorisation de changement d'usage, delivrée par M. le Maire » (saint-maur.com, page taxe de séjour mise à jour le 14/01/2022). **Compensation** : non trouve; APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toutes les locations depuis le 01/01/2019 (numéro à 13 chiffres à afficher sur les annonces), via saintmaur.taxesejour.fr (DeclaLoc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,00 EUR, soit 13,00 EUR toutes taxes\n- **À prévoir dans votre dossier** : non trouvées en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://saintmaur.taxesejour.fr) et [document de référence](https://www.saint-maur.com/demarches/taxe-de-sejour)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, « uniquement pour les résidences secondaires : obtenir une autorisation de changement d'usage, délivrée par M. le Maire » (saint-maur.com, page taxe de séjour mise à jour le 14/01/2022).\n- **Compensation** : information non trouvée ; selon l'APUR (mars 2025) : pas de compensation dans le territoire hors Vincennes\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national) ; aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : oui, obligatoire pour toutes les locations depuis le 01/01/2019 (numéro à 13 chiffres à afficher sur les annonces), via saintmaur.taxesejour.fr (Déclaloc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace de 4,00 EUR, soit 13,00 EUR toutes taxes\n- **À prévoir dans votre dossier** : liste des pièces non trouvée en ligne\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://saintmaur.taxesejour.fr) et [document de référence](https://www.saint-maur.com/demarches/taxe-de-sejour)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

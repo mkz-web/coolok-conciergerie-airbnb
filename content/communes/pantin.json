@@ -13,7 +13,7 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Seine-Saint-Denis, berges de l'Ourcq",
-  "lead": "Près de 8 500 emplois ont été créés ou transformés le long du canal de l'Ourcq (Fédération des entreprises publiques locales, dossier de février 2022). Vos voyageurs viennent y travailler, répéter ou assister à un concert. Le calendrier se remplit donc en semaine, pas au mois d'août."
+  "lead": "Près de 8 500 emplois occupent des locaux créés ou transformés le long du canal de l'Ourcq (Fédération des entreprises publiques locales, dossier de février 2022). Vos voyageurs viennent y travailler, répéter ou assister à un concert. Le calendrier se remplit donc en semaine, pas au mois d'août."
  },
  "data": {
   "prix_nuitee": "70 à 150 €",
@@ -44,7 +44,7 @@
    "rows": [
     [
      "Population municipale",
-     "61 929 habitants en 2023; densité 12 361 hab/km2; 28 931 logements; 2,9 % de résidences secondaires; 27,2 % de propriétaires; niveau de vie médian 21 820 EUR",
+     "61 929 habitants en 2023 ; densité 12 361 hab/km2 ; 28 931 logements ; 2,9 % de résidences secondaires ; 27,2 % de propriétaires ; niveau de vie médian 21 820 EUR",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -54,18 +54,18 @@
     ],
     [
      "Prix immobilier",
-     "Médian tous biens 5 967 EUR/m2 (-4 % sur 1 an, -5 % sur 5 ans), ancien 5 690, neuf 6 128; loyer médian 26 EUR/m2",
+     "Médian tous biens 5 967 EUR/m2 (-4 % sur 1 an, -5 % sur 5 ans), ancien 5 690, neuf 6 128 ; loyer médian 26 EUR/m2",
      "Figaro Immobilier (estimations au 01/08/2026)"
     ],
     [
-     "Hierarchie des quartiers par prix",
-     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Quatre Chemins-Jaures 5 392, Quatre Chemins-Diderot 4 702, Courtillieres 4.",
+     "Hiérarchie des quartiers par prix",
+     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Quatre Chemins-Jaurès 5 392, Quatre Chemins-Diderot 4 702.",
      "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
     ],
     [
-     "Emplois crées le long du canal de l'Ourcq",
-     "Près de 8 500 emplois dans des locaux crées ou transformés le long du canal : 4 000 dans la ZAC des Grands Moulins, 850 chez BETC (Magasins generaux), 300 dans les laboratoires.",
-     "Federation des EPL (Trophées, dossier Semip) (21/02/2022)"
+     "Emplois créés le long du canal de l'Ourcq",
+     "Près de 8 500 emplois dans des locaux créés ou transformés le long du canal : 4 000 dans la ZAC des Grands Moulins, 850 chez BETC (Magasins généraux), 300 dans les laboratoires.",
+     "Fédération des EPL (Trophées, dossier Semip) (21/02/2022)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Pantin",
-   "md": "- **Changement d'usage** : oui **Compensation** : non : la page de la Ville écrit que la procédure d'autorisation avec compensation n'est pas appliquée à Pantin\n- **Si vous louez votre résidence principale** : 120 jours (page mairie et règlement EPT); aucune délibération à 90 jours trouvée; le règlement Est Ensemble lu le 03/09/2026 confirme les 120 jours (autorisation exigée au-delà de 120 jours pour une résidence.\n- **À prévoir dans votre dossier** : dossier : formulaire de changement d'usage 2025, plan du local, titre de propriété, DPE, attestation sur l'honneur de conformité au règlement de copropriété, Kbis pour une société; interdiction dans le parc social\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://pratique.pantin.fr/commerces-entreprises-et-artisanat-dart/developpement-economique/meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non : la page de la Ville écrit que la procédure d'autorisation avec compensation n'est pas appliquée à Pantin\n- **Si vous louez votre résidence principale** : 120 jours (page mairie et règlement EPT) ; aucune délibération à 90 jours trouvée ; le règlement Est Ensemble lu le 03/09/2026 confirme les 120 jours (autorisation exigée au-delà de 120 jours pour une résidence principale).\n- **À prévoir dans votre dossier** : formulaire de changement d'usage 2025, plan du local, titre de propriété, DPE, attestation sur l'honneur de conformité au règlement de copropriété, Kbis pour une société ; interdiction dans le parc social\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://pratique.pantin.fr/commerces-entreprises-et-artisanat-dart/developpement-economique/meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

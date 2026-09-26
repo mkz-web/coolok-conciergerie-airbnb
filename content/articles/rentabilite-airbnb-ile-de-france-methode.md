@@ -17,7 +17,7 @@ tribune_a_valider: true
 
 - **Trois chiffres, jamais un seul** : le rendement brut (recettes rapportées au prix de revient), le rendement net (après charges), le cashflow (ce qui reste une fois le crédit payé). Seul le troisième se dépense.
 - **Le rendement brut ne décide de rien.** Sur un T2 de 45 m² à Serris acheté 180 000 € (base 4 000 €/m², donnée publiée sur notre page commune, relevé AirDNA croisé du 9 juillet 2026), il va de 11,3 % à 27,3 % selon l'hypothèse de remplissage retenue.
-- **Un prix affiché n'est pas un revenu.** Prix de liste médian relevé le 3 septembre 2026, logement entier, 7 nuits en octobre 2026, frais inclus : 125 € la nuit à Serris, 112 € à Vincennes, 79 € à Fontainebleau, 68 € à Reims.
+- **Un prix affiché n'est pas un revenu.** Prix de liste médian relevé le 3 septembre 2026 pour un logement entier, sur 7 nuits en octobre 2026, frais inclus : 125 € la nuit à Serris, 112 € à Vincennes, 79 € à Fontainebleau, 68 € à Reims.
 - **La taxe de séjour varie de 1 à 5 dans un même département** : 3,25 % du prix de la nuitée à Melun contre 16,25 % du prix hors taxes en Val d'Europe et dans les communes taxées du Val-de-Marne (relevés du 3 septembre 2026). Elle est encaissée pour la commune, ce n'est jamais votre revenu.
 - **Au-delà de 15 000 € de recettes annuelles**, le micro-BIC d'un meublé non classé ne s'applique plus (abattement ramené à 30 %, plafond à 15 000 € par la loi n° 2024-1039 dite loi Le Meur) : le régime réel devient le cadre par défaut.
 - **Le calcul se fait après la mairie.** Plafond de jours, changement d'usage, compensation et plan local d'urbanisme décident avant le premier tableur.
@@ -116,7 +116,7 @@ La carte francilienne, relevée sur les délibérations, est dans notre guide de
 
 Nous refusons des dossiers. Les cas qui reviennent le plus souvent :
 
-- **La commune impose une compensation.** Paris et une large part de l'ouest de la petite couronne, dont Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Suresnes, Saint-Cloud, Malakoff et Puteaux. Pour un particulier, l'équation ne se rattrape pas.
+- **La commune impose une compensation.** C'est le cas de Paris et d'une large part de l'ouest de la petite couronne, dont Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Suresnes, Saint-Cloud, Malakoff et Puteaux. Pour un particulier, l'équation ne se rattrape pas.
 - **Le plan local d'urbanisme bloque l'adresse.** À Bussy-Saint-Georges, il n'existe ni changement d'usage ni numéro communal, mais la location d'une résidence secondaire en meublé de tourisme n'est autorisée que dans certaines zones du plan local d'urbanisme (vérifié le 3 septembre 2026). La première vérification porte sur l'adresse, pas sur le bien.
 - **L'autorisation est contingentée.** Montévrain, mitoyenne du Val d'Europe, applique depuis le 1er janvier 2026 une autorisation temporaire de trois ans, une seule par propriétaire, un quota chiffré par zone et un plafond abaissé à 90 nuitées.
 - **La copropriété interdit le meublé de tourisme.** Depuis la loi Le Meur, le loueur informe le syndic et le sujet passe en assemblée générale.
@@ -167,7 +167,7 @@ Trois niveaux se cumulent : le cadre national (déclaration du meublé, plafond 
 ## Sources
 
 - [Loi n° 2024-1039 du 19 novembre 2024 dite loi Le Meur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711), Légifrance, consultée le 3 septembre 2026
-- [Loi n° 2025-127 du 14 février 2025 de finances, article 84](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051168007), Légifrance, consultée le 3 septembre 2026
+- [Loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 84](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051168007), Légifrance, consultée le 3 septembre 2026
 - [service-public.gouv.fr, fiche F2043, location d'un meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), consultée le 3 septembre 2026
 - [Guide pratique de la réglementation des meublés de tourisme](https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf), ministère de la Transition écologique, septembre 2025
 - [Observatoire Crédit Logement/CSA, 2e trimestre 2026](https://lobservatoire.creditlogement.fr/publications/analyse-marche-immobilier-2eme-trimestre-2026/), juillet 2026 (taux moyen 3,24 %, 3,30 % sur 25 ans en juin)

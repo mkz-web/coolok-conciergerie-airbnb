@@ -17,7 +17,7 @@
   "name": "Coolok",
   "legalName": "Coolok Services SASU",
   "tagline": "Conciergerie Airbnb et location courte durée en Île-de-France. Votre bien loué et rentabilisé, sans y passer vos soirées.",
-  "description": "Coolok est une conciergerie Airbnb et location courte durée en Île-de-France : annonce, tarification dynamique, accueil des voyageurs, ménage et maintenance, pour une commission unique de 20 % HT au résultat.",
+  "description": "Coolok est une conciergerie Airbnb et de location courte durée en Île-de-France : annonce, tarification dynamique, accueil des voyageurs, ménage et maintenance, pour une commission unique de 20 % HT au résultat.",
   "email": "contact@coolok.co",
   "telephoneRaw": "+33673937501",
   "telephoneDisplay": "06 73 93 75 01",
@@ -38,7 +38,7 @@
   "priceRange": "20 % HT des revenus locatifs",
   "commission": 20,
   "commissionDisplay": "20 % HT",
-  "commissionText": "Commission unique de 20 % HT des revenus locatifs, tout compris, sans frais caché, payée au résultat.",
+  "commissionText": "Commission unique de 20 % HT des revenus locatifs, tout compris, sans frais cachés, payée au résultat.",
   "rating": {
    "value": 4.8,
    "count": 21,
@@ -54,7 +54,7 @@
  "founder": {
   "name": "Thierry Moraldo",
   "jobTitle": "fondateur de Coolok",
-  "description": "Investisseur immobilier depuis plus de 10 ans, fondateur de Coolok Services, conciergerie Airbnb et location courte durée basée à Joinville-le-Pont (Val-de-Marne).",
+  "description": "Investisseur immobilier depuis plus de 10 ans, fondateur de Coolok Services, conciergerie Airbnb et de location courte durée basée à Joinville-le-Pont (Val-de-Marne).",
   "bio": "Investisseur immobilier depuis plus de 10 ans et propriétaire-bailleur avant d'être concierge, Thierry a fondé Coolok pour que la location courte durée rapporte à ceux qui possèdent, sans leur voler leurs soirées. Il réalise lui-même chaque audit chiffré.",
   "image": "/assets/img/thierry-moraldo.webp",
   "sameAs": [
@@ -132,7 +132,7 @@
  ],
  "trustShort": [
   "4,8/5 sur 21 avis Google",
-  "20 % HT tout compris, sans frais caché",
+  "20 % HT tout compris, sans frais cachés",
   "Audit chiffré sous 48 h"
  ],
  "included": [
@@ -647,7 +647,7 @@
   }
  },
  "llms": {
-  "intro": "Coolok (Coolok Services) est une conciergerie Airbnb et location courte durée en Île-de-France, fondée par Thierry Moraldo et basée à Joinville-le-Pont (Val-de-Marne). Délégation complète pour propriétaires bailleurs : annonce, tarification dynamique, sélection et accueil des voyageurs 24/7, ménage professionnel, maintenance. Commission unique de 20 % HT au résultat, sans frais caché. Note Google 4,8/5 sur 21 avis (septembre 2026). Site officiel : https://www.coolok.co",
+  "intro": "Coolok (Coolok Services) est une conciergerie Airbnb et de location courte durée en Île-de-France, fondée par Thierry Moraldo et basée à Joinville-le-Pont (Val-de-Marne). Délégation complète pour propriétaires bailleurs : annonce, tarification dynamique, sélection et accueil des voyageurs 24/7, ménage professionnel, maintenance. Commission unique de 20 % HT au résultat, sans frais cachés. Note Google 4,8/5 sur 21 avis (septembre 2026). Site officiel : https://www.coolok.co",
   "zonesIntro": "Zones couvertes : les 8 départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris / Val d'Europe / Marne-la-Vallée (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers, Bussy-Saint-Georges, Chalifert), Fontainebleau, le Val-de-Marne (Joinville-le-Pont, Vincennes, Saint-Maur-des-Fossés, Nogent-sur-Marne, Charenton-le-Pont), la petite couronne Est (Montreuil, Pantin), Clichy, Versailles et Saint-Germain-en-Laye, ainsi que Reims.",
   "keyPages": [
    "/",

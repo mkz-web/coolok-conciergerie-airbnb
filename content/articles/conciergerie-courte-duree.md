@@ -21,7 +21,7 @@ tribune_a_valider: true
 > - Le modèle dominant : une **commission de 15 à 30 % des revenus** (souvent autour de 20 %), ménage refacturé au voyageur. Coolok applique **20 % HT, tout compris, au résultat**, ménage refacturé au voyageur ([grille détaillée](/tarifs)).
 > - Une conciergerie n'est **pas une agence immobilière** : elle intervient par contrat de prestation de services, sans carte professionnelle au titre de la loi Hoguet, et ne signe aucun bail à votre place.
 > - Le temps compte avant le pourcentage : **20 à 30 heures par mois** pour exploiter un meublé loué toute l'année en direct (estimation Coolok, septembre 2026 ; aucune étude publique ne chiffre ce poste).
-> - Depuis la **loi Le Meur**, la conformité (enregistrement généralisé depuis le 20 mai 2026, plafonds, DPE, fiscalité) fait partie du métier : une conciergerie sérieuse la suit avec vous.
+> - Depuis la **loi Le Meur**, la conformité (enregistrement obligatoire partout dès l'ouverture du téléservice national fin 2026, plafonds, DPE, fiscalité) fait partie du métier : une conciergerie sérieuse la suit avec vous.
 >
 > *Fourchettes relevées sur les pages tarifs publiques des conciergeries françaises en juin 2026 ; données Apur relayées par paris.fr, mars 2025 ; loi n° 2024-1039 du 19 novembre 2024 sur Légifrance.*
 
@@ -83,11 +83,11 @@ L'objection que nous entendons le plus souvent : « 20 %, c'est ce que je gagner
 
 En autogestion, vous fixez un prix au pifomètre (souvent le même toute l'année), vous répondez quand vous pouvez, votre annonce décroche dans le classement, et chaque rotation vous coûte une demi-journée. En délégation, le prix suit la demande, la réponse part en minutes, l'annonce grimpe, et les heures que vous y passiez redeviennent les vôtres. Selon le bien et la zone, l'optimisation compense tout ou partie de la commission : c'est exactement le calcul de [rentabilité réelle](/blog/rentabilite-airbnb-ile-de-france-methode) qu'il faut poser avant de décider, chiffres en main, pas au ressenti.
 
-Et si vous hésitez encore sur le choix du prestataire lui-même, notre guide [meilleure conciergerie Airbnb : les 12 questions à poser avant de signer](/blog/meilleure-conciergerie-airbnb) donne la grille de lecture d'un contrat, ligne par ligne.
+Et si vous hésitez encore sur le choix du prestataire lui-même, notre guide [meilleure conciergerie Airbnb : les 10 questions à poser avant de signer](/blog/meilleure-conciergerie-airbnb) donne la grille de lecture d'un contrat, ligne par ligne.
 
 ## Réglementation 2026 : la conformité fait partie du service
 
-Depuis la [loi Le Meur](/blog/loi-le-meur), la location courte durée est un terrain réglementé commune par commune : numéro d'enregistrement obligatoire sur chaque annonce partout en France depuis le 20 mai 2026, plafond de 120 jours par an pour la résidence principale (que la commune peut abaisser à 90, comme à Paris depuis le 1er janvier 2025), exigences de DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme au 1er janvier 2034), abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés.
+Depuis la [loi Le Meur](/blog/loi-le-meur), la location courte durée est un terrain réglementé commune par commune : numéro d'enregistrement exigé sur chaque annonce dans certaines communes, et partout en France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026, plafond de 120 jours par an pour la résidence principale (que la commune peut abaisser à 90, comme à Paris depuis le 1er janvier 2025), exigences de DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme au 1er janvier 2034, hors résidence principale du loueur), abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés.
 
 Concrètement, pour vous : une conciergerie sérieuse ne « pose pas une annonce », elle vérifie d'abord que votre projet est conforme dans votre commune, elle fait les démarches d'enregistrement avec vous, et elle suit les plafonds de nuits. En 2026, ce travail administratif n'est plus une option, c'est le socle. Une offre qui n'en parle pas est une offre incomplète.
 
@@ -117,8 +117,6 @@ Ces zones ne se valent pas au même prix. Sur les prix de liste relevés sur Air
 Ce que les gens sous-estiment, c'est le boulot qu'il y a derrière une annonce qui tourne bien. Répondre vite, ajuster les prix, tenir la qualité du ménage, apaiser le voyageur compliqué du 15 août. Ce n'est pas de la magie, c'est de l'huile de coude et de la méthode, toutes les semaines. Un concierge qui promet tout ça pour trois fois rien, posez-vous la question de ce qu'il ne fera pas.
 
 Mon conseil, même si vous ne signez pas avec nous : exigez des chiffres, les vôtres. Un professionnel qui connaît son secteur doit pouvoir vous dire ce que votre bien peut faire, et vous le prouver en cours de route, relevés à l'appui. Le reste, c'est du discours. »
-
-*Tribune reconstituée d'après les transcripts de réunion de Thierry (article/_VOIX-thierry-moraldo.md), à valider par lui avant publication.*
 
 ## Questions fréquentes
 

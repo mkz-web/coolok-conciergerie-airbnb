@@ -17,11 +17,11 @@ tribune_a_valider: false
 > **L'essentiel en 2 minutes**
 >
 > - Il n'existe pas de classement indépendant des conciergeries Airbnb : sur la première page Google de « meilleure conciergerie Airbnb » relevée le 20 août 2026, au moins cinq résultats sur neuf sont publiés par des conciergeries, et deux comparatifs sont édités chacun par une conciergerie qui s'y classe elle-même.
-> - La commission affichée (15 à 30 % des revenus, souvent autour de 20 %, pages tarifs publiques, juillet 2026) ne dit presque rien de votre revenu net : tout se joue dans l'assiette de calcul, le ménage, le HT ou TTC.
+> - La commission affichée (15 à 30 % des revenus, souvent autour de 20 %, pages tarifs publiques, juin 2026) ne dit presque rien de votre revenu net : tout se joue dans l'assiette de calcul, le ménage, le HT ou TTC.
 > - Ce que les classements ne comparent jamais : la propriété de l'annonce et des avis, l'exclusivité, le préavis de résiliation, les pénalités de sortie, le circuit de reversement des loyers.
 > - La bonne méthode tient en une phrase : posez 10 questions, exigez les réponses. Une conciergerie qui refuse de répondre avant la signature vous a déjà répondu.
 >
-> *Sources : SERP et volumes DataForSEO relevés le 20 août 2026 ; fourchettes tarifaires issues des pages tarifs publiques (juillet 2026) ; lois Hoguet et Le Meur sur Légifrance.*
+> *Sources : SERP et volumes DataForSEO relevés le 20 août 2026 ; fourchettes tarifaires issues des pages tarifs publiques (juin 2026) ; lois Hoguet et Le Meur sur Légifrance.*
 
 Tapez « meilleure conciergerie Airbnb » dans Google. Regardez qui signe les classements qui s'affichent : pour l'essentiel, des conciergeries. Sur la première page relevée le 20 août 2026, deux comparatifs placent même leur propre auteur dans le palmarès. Demander à un classement quelle est la meilleure conciergerie, c'est demander au boulanger si son pain est bon.
 
@@ -33,7 +33,7 @@ Un comparatif type aligne la zone couverte, la liste des services, une note d'av
 
 Les avis publiés mesurent l'expérience des voyageurs : le ménage, l'accueil, la literie. Ils ne disent rien de ce qui vous concerne, vous : la clarté des relevés, la rapidité des reversements, la facilité de résiliation. Une conciergerie peut collectionner les 5 étoiles côté voyageurs et accumuler les litiges côté propriétaires. Si vous cherchez des avis sur une conciergerie Airbnb, cherchez des avis de propriétaires, pas de vacanciers.
 
-Quant à la commission affichée, [le tarif réel d'une conciergerie Airbnb](/blog/tarif-conciergerie-airbnb) se joue ailleurs : dans l'assiette, les frais annexes et la TVA. Nous y avons consacré un article complet. Retenez l'ordre de grandeur : 15 à 30 % des revenus selon les acteurs, souvent autour de 20 % (pages tarifs publiques, juillet 2026).
+Quant à la commission affichée, [le tarif réel d'une conciergerie Airbnb](/blog/tarif-conciergerie-airbnb) se joue ailleurs : dans l'assiette, les frais annexes et la TVA. Nous y avons consacré un article complet. Retenez l'ordre de grandeur : 15 à 30 % des revenus selon les acteurs, souvent autour de 20 % (pages tarifs publiques, juin 2026).
 
 D'où la méthode de cet article. Avant de comparer des noms, comparez des réponses. Par écrit. Une conciergerie sérieuse, qui assume [ce que couvre une conciergerie de location courte durée](/blog/conciergerie-courte-duree), répond à ces 10 questions en un rendez-vous.
 
@@ -41,9 +41,9 @@ D'où la méthode de cet article. Avant de comparer des noms, comparez des répo
 
 **1. Votre commission se calcule sur quoi, exactement ?** Sur les revenus bruts encaissés par la plateforme ? Sur le montant après frais Airbnb ? Les frais de ménage entrent-ils dans l'assiette ? Et le pourcentage annoncé est-il HT ou TTC ? Si le prestataire est assujetti à la TVA à 20 %, un « 20 % HT » devient 24 % TTC. Comparer deux commissions sans connaître l'assiette, c'est comparer deux loyers sans savoir si les charges sont comprises.
 
-**2. Pouvez-vous me partager une simulation sur 12 mois ?** Pas une projection sur juillet-août : une année complète, basse saison et périodes creuses comprises, présentée comme une hypothèse de travail et non une promesse. Une simulation complète doit contenir : les prix à la nuitée, frais de plateforme, ménage, commission, taux d'occupation, chiffre d'affaires annuel versé. Sans ces éléments, impossible d'avancer.
+**2. Pouvez-vous me partager une simulation sur 12 mois ?** Pas une projection sur juillet-août : une année complète, basse saison et périodes creuses comprises, présentée comme une hypothèse de travail et non une promesse. Une simulation complète doit contenir : les prix à la nuitée, les frais de plateforme, le ménage, la commission, le taux d'occupation, le chiffre d'affaires annuel versé. Sans ces éléments, impossible d'avancer.
 
-**3. Quand et comment mes loyers me sont-ils reversés ?** Qui encaisse en premier : la plateforme vers vous, ou la conciergerie pour vous ? À quelle fréquence tombe le virement ? Avec quel justificatif ? Et si la conciergerie encaisse les fonds en votre nom, demandez-lui comment elle se situe au regard de la loi Hoguet, qui encadre la gestion pour le compte d'autrui (carte professionnelle, garantie financière). Vous n'avez pas besoin d'être juriste : vous avez besoin d'une réponse claire et écrite.
+**3. Quand et comment mes loyers me sont-ils reversés ?** Qui encaisse en premier : vous, directement depuis la plateforme, ou la conciergerie, pour votre compte ? À quelle fréquence tombe le virement ? Avec quel justificatif ? Et si la conciergerie encaisse les fonds en votre nom, demandez-lui comment elle se situe au regard de la loi Hoguet, qui encadre la gestion pour le compte d'autrui (carte professionnelle, garantie financière). Vous n'avez pas besoin d'être juriste : vous avez besoin d'une réponse claire et écrite.
 
 ## Votre annonce : les questions 4 à 7
 
@@ -51,17 +51,17 @@ D'où la méthode de cet article. Avant de comparer des noms, comparez des répo
 
 **5. Que récupérez-vous à la fin du contrat ?** Les réservations déjà enregistrées, le calendrier, les coordonnées de vos voyageurs réguliers, les données de performance de votre bien : le contrat doit dire noir sur blanc ce qui vous est restitué, sous quelle forme et sous quel délai. La sortie se négocie à l'entrée. Après, vous ne pesez plus rien.
 
-**6. Quelle est la portée exacte de l'exclusivité ?** Certains mandats vous interdisent de louer en direct, de confier le bien à un autre prestataire, parfois même d'occuper votre propre logement sur certaines périodes. Aucune de ces clauses n'est anormale en soi : ce qui est anormal, c'est de la découvrir après signature. Faites préciser le périmètre, la durée, et les exceptions.
+**6. Quelle est la portée exacte de l'exclusivité ?** Certains mandats vous interdisent de louer en direct, de confier le bien à un autre prestataire, parfois même d'occuper votre propre logement sur certaines périodes. Aucune de ces clauses n'est anormale en soi : ce qui est anormal, c'est de les découvrir après signature. Faites préciser le périmètre, la durée, et les exceptions.
 
 **7. Durée, reconduction, préavis, pénalités : que dit le contrat, mot pour mot ?** Les litiges rapportés par des propriétaires sur les forums juridiques (2025-2026) reviennent sur ces clauses : reconduction tacite d'année en année, préavis à envoyer en recommandé plusieurs mois avant l'échéance, indemnités de rupture calculées sur des nuitées futures. Lisez ces lignes avant toutes les autres. Et vérifiez que la conciergerie connaît la réglementation de votre commune : depuis la [loi Le Meur](/blog/loi-le-meur), toute commune peut désormais durcir ses règles sur le meublé de tourisme (changement d'usage, quotas, plafond de jours). Un gestionnaire qui l'ignore vous expose.
 
 ## Le terrain : les questions 8 à 10
 
-**8. Quelle est votre réelle expertise de mon marché local, et quels résultats obtenez-vous ?** Oubliez les grands discours sur la taille de leur catalogue. Ce qui compte pour vous, c'est la maîtrise parfaite de votre secteur. Une conciergerie qui s'occupe réellement de biens à [Clichy](/conciergerie-airbnb-clichy) connaît les prix de la rue, la clientèle qui s'y déplace, les saisons creuses locales. C'est cette finesse stratégique, des métriques chiffrées et concrètes (taux d'occupation, prix à la nuitée, CA annuel estimé), qui maximisera vos revenus dès le premier jour.
+**8. Quelle est votre réelle expertise de mon marché local, et quels résultats obtenez-vous ?** Oubliez les grands discours sur la taille de leur catalogue. Ce qui compte pour vous, c'est la maîtrise parfaite de votre secteur. Une conciergerie qui s'occupe réellement de biens à [Clichy](/conciergerie-airbnb-clichy) connaît les prix de la rue, la clientèle qui s'y déplace, les saisons creuses locales. C'est cette finesse stratégique, appuyée sur des métriques chiffrées et concrètes (taux d'occupation, prix à la nuitée, CA annuel estimé), qui maximisera vos revenus dès le premier jour.
 
 **9. Qui fait le ménage, et qui le contrôle ?** Équipe interne ou sous-traitant ? Qui vérifie après chaque passage ? Qui paie le second nettoyage quand un voyageur laisse le logement en mauvais état ? Le ménage est un motif récurrent de mauvais avis en location courte durée : c'est un sujet d'organisation, pas un détail d'intendance.
 
-**10. Qui répond aux voyageurs et qui prend en charge les dégâts ?** Délai de réponse, astreinte de nuit et de week-end, procédure en cas de sinistre. Puis les assurances : la couverture des biens confiés, et ce que sa police exclut. Les garanties doivent être comprises pour être bien appliquées.
+**10. Qui répond aux voyageurs et qui prend en charge les dégâts ?** Demandez le délai de réponse, l'astreinte de nuit et de week-end, la procédure en cas de sinistre. Puis les assurances : la couverture des biens confiés, et ce que la police de la conciergerie exclut. Les garanties doivent être comprises pour être bien appliquées.
 
 ## Le tableau de bord : 10 questions, 10 signaux d'alerte
 
@@ -92,7 +92,7 @@ Cette grille ne désigne pas un gagnant national. C'est voulu : la meilleure con
 
 Parlons franchement : nous sommes une conciergerie, cet article est donc écrit par un acteur du marché. C'est exactement pour cela qu'il ne contient aucun classement. À la place, nous acceptons la réciproque : posez-nous les 10 questions, y compris les plus sèches.
 
-Quelques réponses d'avance. Notre commission est de 20 % HT, au résultat : pas de revenus, pas de commission. L'offre est unique et globale (annonce, tarification dynamique, voyageurs, coordination ménage et linge, consommables), parce qu'un service à la carte finit en salade niçoise où personne ne maîtrise plus rien. Et l'étude de rentabilité est offerte, sans engagement. Pour le reste : posez les questions, nous répondrons par écrit, comme n'importe quel prestataire devrait le faire.
+Quelques réponses d'avance. Notre commission est de 20 % HT, au résultat : pas de revenus, pas de commission. L'offre est unique et globale (annonce, tarification dynamique, voyageurs, coordination du ménage et du linge, consommables), parce qu'un service à la carte finit en salade niçoise où personne ne maîtrise plus rien. Et l'étude de rentabilité est offerte, sans engagement. Pour le reste : posez les questions, nous répondrons par écrit, comme n'importe quel prestataire devrait le faire.
 
 ## Le mot de Thierry Moraldo, fondateur de Coolok
 
@@ -110,7 +110,7 @@ Il n'existe pas de classement indépendant : la plupart des comparatifs en ligne
 
 ### Quel est le prix moyen d'une conciergerie Airbnb ?
 
-Le plus souvent une commission de 15 à 30 % des revenus, autour de 20 %, ménage facturé au voyageur en sus (pages tarifs publiques, juillet 2026). Le taux affiché ne suffit pas : vérifiez l'assiette de calcul et le HT ou TTC, qui peuvent faire varier le coût réel de plusieurs points.
+C'est le plus souvent une commission de 15 à 30 % des revenus, autour de 20 %, ménage facturé au voyageur en sus (pages tarifs publiques, juin 2026). Le taux affiché ne suffit pas : vérifiez l'assiette de calcul et le HT ou TTC, qui peuvent faire varier le coût réel de plusieurs points.
 
 ### Est-ce rentable d'avoir une conciergerie ?
 
@@ -127,7 +127,7 @@ Cela dépend de la commune, de la réglementation locale et du bien : la locatio
 ## Sources
 
 - SERP Google France « meilleure conciergerie airbnb » et volumes de recherche : relevés le 20 août 2026 via DataForSEO (9 résultats organiques analysés, People Also Ask compris).
-- Fourchettes tarifaires (commission 15 à 30 %, ménage, HT/TTC) : pages tarifs publiques des conciergeries, relevé de juillet 2026, détaillé dans notre article [tarif d'une conciergerie Airbnb](/blog/tarif-conciergerie-airbnb).
+- Fourchettes tarifaires (commission 15 à 30 %, ménage, HT/TTC) : pages tarifs publiques des conciergeries, relevé de juin 2026, détaillé dans notre article [tarif d'une conciergerie Airbnb](/blog/tarif-conciergerie-airbnb).
 - Loi n° 70-9 du 2 janvier 1970 (loi Hoguet), réglementant les activités relatives à certaines opérations portant sur les immeubles : [Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512228).
 - Loi n° 2024-1039 du 19 novembre 2024 visant à renforcer les outils de régulation des meublés de tourisme (loi Le Meur) : [Légifrance](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711).
 - Litiges et retours d'expérience de propriétaires : témoignages publiés sur des forums juridiques et de consommateurs français, 2025-2026.

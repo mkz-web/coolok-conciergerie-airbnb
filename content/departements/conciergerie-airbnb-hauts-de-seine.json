@@ -14,7 +14,7 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Conciergerie Airbnb Hauts-de-Seine",
-  "lead": "Dans les Hauts-de-Seine, la question n'est pas de savoir si votre logement plaira aux voyageurs. C'est de savoir si votre commune et votre statut de détention l'autorisent. Deux territoires se partagent le département avec deux règlements distincts, et le simple fait de détenir votre bien en société suffit à faire basculer le dossier dans la compensation."
+  "lead": "Dans les Hauts-de-Seine, la question n'est pas de savoir si votre logement plaira aux voyageurs. C'est de savoir si votre commune et votre statut de détention l'autorisent. Les deux territoires où nous intervenons appliquent deux règlements distincts, et le simple fait de détenir votre bien en société suffit à faire basculer le dossier dans la compensation."
  },
  "linkText": "Où louer reste permis dans le 92",
  "sections": [
@@ -42,7 +42,7 @@
      "80 à 160 €",
      "76 à 86 %",
      "1 800 à 4 100 €",
-     "MODERE"
+     "MODÉRÉ"
     ],
     [
      "[Vanves](/conciergerie-airbnb-vanves)",
@@ -56,7 +56,7 @@
      "80 à 165 €",
      "72 à 82 %",
      "1 700 à 4 000 €",
-     "MODERE"
+     "MODÉRÉ"
     ]
    ],
    "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
@@ -165,7 +165,7 @@
     {
      "icon": "shield",
      "title": "Acheter en société sans le vérifier",
-     "text": "Dans les deux territoires du département, une personne morale déclenche la compensation, même pour un seul logement. La forme juridique doit être choisie après lecture du règlement, jamais avant."
+     "text": "Dans les deux territoires où nous intervenons, une personne morale déclenche la compensation, même pour un seul logement. La forme juridique doit être choisie après lecture du règlement, jamais avant."
     },
     {
      "icon": "home",

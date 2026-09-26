@@ -44,28 +44,28 @@
    "rows": [
     [
      "Population municipale",
-     "93 941 habitants en 2023 (3e ville des Hauts-de-Seine); densité 19 490 hab/km2; 47 659 logements; 4,0 % de résidences secondaires; 8,5 % de logements vacants.",
+     "93 941 habitants en 2023 (3e ville des Hauts-de-Seine) ; densité 19 490 hab/km2 ; 47 659 logements ; 4,0 % de résidences secondaires ; 8,5 % de logements vacants.",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
      "Emplois au lieu de travail",
-     "24 589 emplois en 2023 pour 93 941 habitants (ratio 0,26, le plus bas du lot) : ville résidentielle tournée vers Paris et La Défense",
+     "24 589 emplois en 2023 pour 93 941 habitants (ratio 0,26) : ville résidentielle tournée vers Paris et La Défense",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
-     "Gare d'Asnieres-sur-Seine (lignes J et L)",
-     "Paris-Saint-Lazare en 5 minutes (ligne J) ou 7 minutes (ligne L); La Défense en 5 minutes (ligne L).",
-     "Wikipedia (page relue, données SNCF); Transilien lignes J et L (desserte) (consulté le 03/09/2026)"
+     "Gare d'Asnières-sur-Seine (lignes J et L)",
+     "Paris-Saint-Lazare en 5 minutes (ligne J) ou 7 minutes (ligne L) ; La Défense en 5 minutes (ligne L).",
+     "Wikipedia (page relue, données SNCF) ; Transilien lignes J et L (desserte) (consulté le 03/09/2026)"
     ],
     [
      "Métro 13 et tramway T1",
-     "Stations de métro 13 Gabriel Peri (Asnieres-Gennevilliers), Les Agnettes et Les Courtilles.",
-     "DRIEAT Île-de-France; Ville d'Asnieres (transports) (15/10/2019 ; consulté le 03/09/2026)"
+     "Stations de métro 13 Gabriel Péri (Asnières-Gennevilliers), Les Agnettes et Les Courtilles.",
+     "DRIEAT Île-de-France ; Ville d'Asnières (transports) (15/10/2019 ; consulté le 03/09/2026)"
     ],
     [
      "Grand Paris Express ligne 15 Ouest",
-     "4 gares desserviront Asnieres : Les Grésillons (RER C), Les Agnettes (métro 13), Bois-Colombes (ligne J), Becon-les-Bruyeres (ligne L); mise en service prévue en 2031.",
-     "Société des grands projets (page relue); Ville-Rail & Transports (13/08/2026); Ville d'Asnieres (17/07/2026 et 13/08/2026)"
+     "4 gares desserviront Asnières : Les Grésillons (RER C), Les Agnettes (métro 13), Bois-Colombes (ligne J), Bécon-les-Bruyères (ligne L) ; mise en service prévue en 2031.",
+     "Société des grands projets (page relue) ; Ville-Rail & Transports (13/08/2026) ; Ville d'Asnières (17/07/2026 et 13/08/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Asnières-sur-Seine",
-   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021 **Compensation** : non pour un logement par personne physique; oui au-delà et pour toute personne morale (SCI assimilée)\n- **Si vous louez votre résidence principale** : 120 jours (règlement EPT art. 2); aucune délibération à 90 jours trouvée\n- **À prévoir dans votre dossier** : identiques à Clichy (règlement commun) : logement decent, attestation de ne pas exploiter un autre meublé dans la commune, pas de subvention habitat depuis 10 ans, DPE A a E\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/asnieressurseine.php) et [document de référence](https://asnieres-sur-seine.fr/sortir-a-asnieres/tourisme-et-patrimoine/tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021\n- **Compensation** : non pour un logement par personne physique ; oui au-delà et pour toute personne morale (SCI assimilée)\n- **Si vous louez votre résidence principale** : 120 jours (règlement EPT art. 2) ; aucune délibération abaissant ce plafond à 90 jours n'a été trouvée\n- **À prévoir dans votre dossier** : les mêmes pièces qu'à Clichy (règlement commun) : logement décent, attestation de ne pas exploiter un autre meublé dans la commune, pas de subvention habitat depuis 10 ans, DPE de A à E\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/asnieressurseine.php) et [document de référence](https://asnieres-sur-seine.fr/sortir-a-asnieres/tourisme-et-patrimoine/tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

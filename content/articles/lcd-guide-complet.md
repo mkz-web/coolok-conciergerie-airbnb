@@ -52,7 +52,7 @@ Vanves assume ce durcissement avec ses propres comptes, publiés dans la délib�
 Trois précisions qui évitent des erreurs coûteuses :
 
 1. **Le plafond ne vise que la résidence principale.** Un logement dédié n'a pas de plafond de jours, il a un autre problème : l'autorisation de changement d'usage.
-2. **Louer entre 90 et 120 jours ne bascule pas le bien dans le changement d'usage**, déclenché au delà de 120 jours ; le dépassement du plafond communal reste sanctionnable jusqu'à 15 000 €.
+2. **Louer entre 90 et 120 jours ne bascule pas le bien dans le changement d'usage**, déclenché au-delà de 120 jours ; le dépassement du plafond communal reste sanctionnable jusqu'à 15 000 €.
 3. **Le décompte se fait par année civile**, et les plateformes bloquent les annonces qui atteignent la limite communale.
 
 ## Votre situation commande, pas votre bien
@@ -71,7 +71,7 @@ C'est le cas le plus protégé : aucune autorisation de changement d'usage, une 
 
 ### Vous louez un logement dédié
 
-Tout dépend d'une question : votre commune a-t-elle instauré l'autorisation de changement d'usage, et avec ou sans compensation. Une autorisation simple, c'est un dossier : DPE de classe A à E, plan du logement, titre de propriété, attestation de copropriété. Une compensation, c'est un mur financier, puisqu'il faut transformer en logement une surface équivalente dans le même secteur, jusqu'au triple à Paris.
+Tout dépend d'une question : votre commune a-t-elle instauré l'autorisation de changement d'usage, et avec ou sans compensation ? Une autorisation simple, c'est un dossier : DPE de classe A à E, plan du logement, titre de propriété, attestation de copropriété. Une compensation, c'est un mur financier, puisqu'il faut transformer en logement une surface équivalente dans le même secteur, jusqu'au triple à Paris.
 
 Le détail local change tout. À [Montreuil](/conciergerie-airbnb-montreuil) et à [Pantin](/conciergerie-airbnb-pantin), le silence de l'administration sur un dossier complet vaut accord tacite (règlement d'Est Ensemble du 8 juillet 2024). À [Versailles](/conciergerie-airbnb-versailles), l'absence de réponse sous deux mois vaut refus, et seul le propriétaire peut déposer la demande : nous préparons le dossier, vous le signez.
 
@@ -115,7 +115,7 @@ Ces montants sont refacturés au voyageur, mais ils pèsent sur votre prix affic
 | Fausse déclaration ou faux numéro d'enregistrement | 20 000 € | Loi n° 2024-1039 |
 | Dépassement du plafond de jours | 15 000 € (contre 10 000 € auparavant) | Loi n° 2024-1039 |
 | Location sans autorisation de changement d'usage | 100 000 € par local, plus une astreinte pouvant atteindre 1 000 € par jour et par mètre carré | Article L651-2 du code de la construction et de l'habitation |
-| Meublé non conforme au DPE à partir du 1er janvier 2034 | 5 000 € par local, plus une astreinte de 100 € par jour de retard | Loi n° 2024-1039, article 3 |
+| Meublé non conforme au DPE à partir du 1er janvier 2034 | 5 000 € par local, plus une astreinte de 100 € par jour de retard dans la transmission du DPE au maire | Loi n° 2024-1039, article 3 |
 
 *Source : loi n° 2024-1039 du 19 novembre 2024 et code de la construction et de l'habitation, Légifrance, vérifiés le 3 septembre 2026.*
 

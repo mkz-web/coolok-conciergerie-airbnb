@@ -45,12 +45,12 @@
    "rows": [
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
-     "10 326 habitants (population totale 10 443); +14,23 % entre 2017 et 2023; 9 988 en 2022",
+     "10 326 habitants (population totale 10 443) ; +14,23 % entre 2017 et 2023 ; 9 988 en 2022",
      "INSEE, populations de référence 2023 (2025-12-29)"
     ],
     [
      "Part des résidences secondaires et logements occasionnels",
-     "18,2 % en 2023 (15,9 % en 2017); résidences principales 73,2 %; vacants 8,6 %",
+     "18,2 % en 2023 (15,9 % en 2017) ; résidences principales 73,2 % ; vacants 8,6 %",
      "INSEE, dossier complet commune (LOG T2) (2025-11-06)"
     ],
     [
@@ -65,8 +65,8 @@
     ],
     [
      "La Vallée Village, sur la commune",
-     "près de 7 millions de visiteurs par an, plus de 120 boutiques de marques a prix degriffes; clientèle internationale (Chine 23 % des visiteurs hors zone euro en 2012)",
-     "Mesinfos.fr 15/01/2026; Le Parisien 13/11/2012 (2026-01-15)"
+     "près de 7 millions de visiteurs par an, plus de 120 boutiques de marques à prix dégriffés ; clientèle internationale (Chine 23 % des visiteurs hors zone euro en 2012)",
+     "Mesinfos.fr 15/01/2026 ; Le Parisien 13/11/2012 (2026-01-15)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -92,7 +92,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Serris",
-   "md": "- **Changement d'usage** : oui **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : 120; non\n- **Numéro d'enregistrement** : obligatoire, Tous propriétaires, résidence principale comprise, dès le premier jour de location.\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : 120 ; non\n- **Numéro d'enregistrement** : obligatoire pour tous les propriétaires, résidence principale comprise, dès le premier jour de location.\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -184,7 +184,7 @@
   },
   {
    "q": "Faut-il déclarer mon logement à la mairie de Serris ?",
-   "a": "Oui. Le numéro d'enregistrement est obligatoire sur toute annonce de meublé de tourisme depuis le 20 mai 2026, y compris pour une résidence principale, et selon la commune une autorisation de changement d'usage peut s'y ajouter. Nous préparons ces démarches avec vous avant la mise en ligne."
+   "a": "Oui. Le numéro d'enregistrement est déjà obligatoire sur toute annonce de meublé de tourisme dès le premier jour de location, y compris pour une résidence principale ; il devra être renouvelé sur le téléservice national prévu par la loi Le Meur, dont l'ouverture est annoncée pour le quatrième trimestre 2026. Pour une résidence secondaire, une autorisation de changement d'usage s'y ajoute. Nous préparons ces démarches avec vous avant la mise en ligne."
   },
   {
    "q": "Y a-t-il trop d'offre à Serris ?",

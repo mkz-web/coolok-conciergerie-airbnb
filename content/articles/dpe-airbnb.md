@@ -24,7 +24,7 @@ keywords: ["dpe airbnb", "dpe location saisonnière", "dpe location meublée", "
 
 Le DPE d'une location Airbnb est devenu le sujet où l'on lit tout et son contraire. « Obligatoire depuis 2025. » « Pas obligatoire en saisonnier. » « Il vous faut au moins un F aujourd'hui, un E en 2028. » Ces trois affirmations circulent en première page de Google en juillet 2026, et elles ne peuvent pas être vraies en même temps.
 
-La confusion a une cause précise : il n'existe pas un calendrier DPE, il en existe **deux**. Un pour le bail d'habitation classique, un pour le meublé de tourisme. Ni les mêmes dates, ni les mêmes seuils, ni les mêmes sanctions. Le texte législatif et le calendrier de la loi Climat & Résilience forment deux ensembles distincts. Cet article remet les deux calendriers côte à côte, à partir du texte de loi et des fiches officielles, rien d'autre : vous saurez ce qui s'applique à votre bien, à quelle date, et ce que vous pouvez vérifier gratuitement avant de payer quoi que ce soit.
+La confusion a une cause précise : il n'existe pas un calendrier DPE, il en existe **deux**. Un pour le bail d'habitation classique, un pour le meublé de tourisme. Ni les mêmes dates, ni les mêmes seuils, ni les mêmes sanctions. Le texte de la loi Le Meur et le calendrier de la loi Climat et résilience forment deux ensembles distincts. Cet article remet les deux calendriers côte à côte, à partir du texte de loi et des fiches officielles, rien d'autre : vous saurez ce qui s'applique à votre bien, à quelle date, et ce que vous pouvez vérifier gratuitement avant de payer quoi que ce soit.
 
 ## DPE Airbnb : ce que la loi impose vraiment aux meublés de tourisme
 
@@ -61,7 +61,7 @@ Ce tableau règle au passage un fantasme tenace : « je ne peux plus louer mon F
 
 Pour savoir ce qui s'applique à votre bien, une seule question à trois branches.
 
-**Cas 1 : vous louez votre résidence principale** (jusqu'à 120 jours par an, parfois 90 selon la commune). Aucune exigence de classe DPE aujourd'hui, et l'obligation de décence énergétique de 2034 vous exempte explicitement. C'est le cas le plus protégé par la loi.
+**Cas 1 : vous louez votre résidence principale** (jusqu'à 120 jours par an, parfois 90 selon la commune). Aucune exigence de classe DPE aujourd'hui, et vous êtes explicitement exempté de l'obligation de décence énergétique de 2034. C'est le cas le plus protégé par la loi.
 
 **Cas 2 : vous louez (ou voulez louer) une résidence secondaire dans une commune à autorisation de changement d'usage.** C'est le régime en vigueur à Paris et très largement dans la petite couronne (92, 93, 94), et la loi du 19 novembre 2024 permet désormais à n'importe quelle commune de l'instaurer par délibération motivée. Là, le DPE A-E n'est pas une échéance lointaine : c'est une pièce du dossier, dès aujourd'hui. Un bien classé F ou G n'entre plus sur le marché.
 
@@ -73,7 +73,7 @@ Attention : ces règles communales bougent chaque année par délibération, et 
 
 Réflexe fréquent quand on découvre ces obligations : commander un nouveau DPE. Parfois indispensable, souvent prématuré. Trois vérifications ne coûtent rien et peuvent changer la donne.
 
-**1. La date de votre DPE.** Un DPE se garde 10 ans, mais tous ceux réalisés entre le 1er janvier 2018 et le 30 juin 2021 sont **caducs depuis le 1er janvier 2025**. Réalisé depuis juillet 2021 : encore valable. C'est la première ligne à lire sur le document, avant même la lettre.
+**1. La date de votre DPE.** Un DPE se garde 10 ans, mais tous ceux réalisés entre le 1er janvier 2018 et le 30 juin 2021 sont **caducs depuis le 1er janvier 2025**. Un DPE réalisé depuis juillet 2021 est encore valable. C'est la première ligne à lire sur le document, avant même la lettre.
 
 **2. La surface.** Depuis le 1er juillet 2024, les seuils des étiquettes sont recalibrés pour les logements de **40 m² ou moins**, dont l'ancienne méthode surestimait la consommation au mètre carré. Si votre DPE date d'avant la réforme, une attestation téléchargeable gratuitement sur le site de l'Ademe remplace l'étiquette initiale par la nouvelle. Un studio classé F peut en ressortir E sans un euro de travaux. Sur le marché francilien de la courte durée, où les petites surfaces dominent, cette réforme est passée trop inaperçue.
 
@@ -125,4 +125,4 @@ Elle est explicitement exemptée de l'obligation de décence énergétique de 20
 
 ---
 
-*Thierry Moraldo est le fondateur de Coolok, conciergerie Airbnb en Île-de-France (couronne Disney, Val d'Europe, est parisien). Ancien propriétaire bailleur, il accompagne les propriétaires de la mise en conformité réglementaire jusqu'à la gestion complète de leur location courte durée.*
+*Thierry Moraldo est le fondateur de Coolok, conciergerie Airbnb en Île-de-France (couronne Disney, Val d'Europe, Est parisien). Ancien propriétaire bailleur, il accompagne les propriétaires de la mise en conformité réglementaire jusqu'à la gestion complète de leur location courte durée.*

@@ -9,6 +9,7 @@ category: "Tarifs et contrat"
 image: /assets/img/articles/tarif-conciergerie-airbnb.webp
 image_alt: "Tarif d'une conciergerie Airbnb : ce que vous payez vraiment"
 keywords: ["tarif conciergerie airbnb", "prix conciergerie airbnb", "commission conciergerie airbnb", "combien coûte une conciergerie airbnb"]
+tribune_a_valider: true
 ---
 # Tarif d'une conciergerie Airbnb : ce que vous payez vraiment
 
@@ -17,7 +18,7 @@ keywords: ["tarif conciergerie airbnb", "prix conciergerie airbnb", "commission 
 > - Le pourcentage affiché par une conciergerie (souvent autour de 20 %) ne représente presque jamais ce que vous payez réellement, parce qu'il ne couvre qu'un poste sur trois.
 > - Les **trois postes** d'un tarif : la **commission** (15 à 30 % des revenus), les **prestations indirectes** (ménage, blanchisserie, consommables, etc.), les **frais ponctuels** (mise en route, photos).
 > - Un piège à 4 points de commission : le pourcentage est-il annoncé **HT ou TTC** ? La TVA à 20 % change le calcul (un 20 % HT devient 24 % TTC).
-> - Le seul chiffre qui compte n'est pas le pourcentage affiché, c'est votre **taux tout compris** : sur 100 euros encaissés par le voyageur, combien arrivent sur votre compte.
+> - Le seul chiffre qui compte n'est pas le pourcentage affiché, c'est votre **taux tout compris** : sur 100 euros payés par le voyageur, combien arrivent sur votre compte.
 >
 > *Fourchettes observées sur le marché français en juin 2026 (pages tarifs publiques des principales conciergeries).*
 
@@ -29,7 +30,7 @@ Quand vous lisez « 20 % » sur un site, vous croyez payer une seule chose. En r
 
 1. **La commission sur vos revenus.** C'est le seul que tout le monde compare, et le seul qui apparaît dans les comparatifs.
 2. **Les prestations refacturées.** Ménage, linge, kit d'accueil. Selon les offres, elles sont facturées au coût réel, ou avec une marge. Vous ne les voyez pas toujours.
-3. **Les frais ponctuels.** Mise en route, photos, paramétrage, parfois un boîtier à clé connecté. Souvent au démarrage.
+3. **Les frais ponctuels.** Mise en route, photos, paramétrage, parfois un boîtier à clé connecté. Ils sont souvent facturés au démarrage.
 
 Le point clé n'est pas d'accuser qui que ce soit : certaines conciergeries refacturent tout au coût réel, d'autres prennent une marge sur les extras. Le seul moyen de savoir, c'est de calculer votre taux tout compris (méthode plus bas).
 
@@ -51,7 +52,7 @@ Le modèle dominant en France reste la commission, autour de 20 %, ménage factu
 | Poste | Fourchette de marché | Qui paie le plus souvent |
 |---|---|---|
 | Commission | 15 à 30 % des revenus (souvent ~20 %) | Vous, sur vos revenus |
-| Ménage | grille tarifaire selon typologie de logement et par rotation | Le voyageur (parfois vous) |
+| Ménage | grille tarifaire selon la typologie du logement et par rotation | Le voyageur (parfois vous) |
 | Check-in et remise des clés | 15 à 25 euros par arrivée | Le voyageur ou vous |
 | Mise en route (photos, annonce) | forfait ponctuel au démarrage | Vous |
 
@@ -94,7 +95,7 @@ Quelques questions simples vous donnent en une minute le vrai niveau de transpar
 
 Une conciergerie à l'aise avec ces questions vous répondra sans détour. C'est, depuis 2024, l'un des bons signaux de sérieux sur le marché.
 
-Petit contre-intuitif utile : un pourcentage affiché **plus bas n'est pas toujours moins cher**. Un « 15 % » peut s'accompagner de marges sur les extras qui le font dépasser un « 22 % » tout compris. D'où l'intérêt de comparer le taux tout compris, jamais le chiffre de façade.
+Petit point contre-intuitif utile : un pourcentage affiché **plus bas n'est pas toujours moins cher**. Un « 15 % » peut s'accompagner de marges sur les extras qui le font dépasser un « 22 % » tout compris. D'où l'intérêt de comparer le taux tout compris, jamais le chiffre de façade.
 
 ## Comment Coolok facture
 
@@ -112,17 +113,15 @@ Ce que cela couvre : création et optimisation de l'annonce, tarification dynami
 >
 > Mon métier, c'est un marathon, pas un sprint, et un client satisfait, c'est un client qui parle de vous. Alors je préfère vous dire la vérité sur le prix dès le départ, quitte à ne pas être le moins cher affiché. Demandez-moi le calcul sur votre bien, pas un slogan : des chiffres, les vôtres, basés sur les données du marché.
 
-> *Tribune reconstituée d'après les transcripts de réunion de Thierry (voir article/_VOIX-thierry-moraldo.md), à relire et valider par lui avant publication.*
-
 ## FAQ
 
 ### Combien coûte une conciergerie Airbnb en moyenne en 2026 ?
 
-Le plus souvent une commission de 15 à 30 % des revenus, autour de 20 %, ou un forfait de 150 à 500 euros par mois. Il faut y ajouter les frais variables (ménage, check-in, linge), souvent refacturés au voyageur.
+C'est le plus souvent une commission de 15 à 30 % des revenus, autour de 20 %, ou un forfait de 150 à 500 euros par mois. Il faut y ajouter les frais variables (ménage, check-in, linge), souvent refacturés au voyageur.
 
 ### Comment se rémunère une conciergerie Airbnb ?
 
-Deux modèles principaux : la commission sur les revenus (la conciergerie touche un pourcentage de ce que vous encaissez) ou le forfait mensuel fixe. La commission aligne les intérêts, le forfait est dû même sans réservation.
+Il existe deux modèles principaux : la commission sur les revenus (la conciergerie touche un pourcentage de ce que vous encaissez) ou le forfait mensuel fixe. La commission aligne les intérêts, le forfait est dû même sans réservation.
 
 ### Pourquoi une conciergerie à 15 % peut-elle coûter plus cher qu'une à 25 % ?
 
@@ -148,4 +147,4 @@ Additionnez tout ce que le voyageur a payé (revenus + ménage + frais d'accueil
 
 ---
 
-**Envie de connaître votre taux tout compris et ce qu'une conciergerie changerait pour VOTRE bien ?** Faites le calcul en 60 secondes avec notre [simulateur de revenus](/simulateur-locatif). Pour aller plus loin, découvrez [comment fonctionne notre conciergerie](/blog/conciergerie-courte-duree).
+**Envie de connaître votre taux tout compris et ce qu'une conciergerie changerait pour VOTRE bien ?** Faites le calcul en deux minutes avec notre [simulateur de revenus](/simulateur-locatif). Pour aller plus loin, découvrez [comment fonctionne notre conciergerie](/blog/conciergerie-courte-duree).

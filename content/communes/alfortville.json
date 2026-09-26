@@ -43,18 +43,18 @@
    ],
    "rows": [
     [
-     "Gare Le Vert de Maisons (ligne 15 Sud + RER D), parvis côté Alfortville avenue de la Liberté ; mise en service ligne 15 Sud reportée a l'automne 2027",
-     "jusqu'à 90 000 voyageurs par jour; plus de 26 000 habitants à 1 km; quais à 35 à 37 m",
+     "Gare Le Vert de Maisons (ligne 15 Sud + RER D), parvis côté Alfortville avenue de la Liberté ; mise en service ligne 15 Sud reportée à l'automne 2027",
+     "jusqu'à 90 000 voyageurs par jour ; plus de 26 000 habitants à 1 km ; quais à 35 à 37 m",
      "Société des grands projets (report : Le Figaro 25/06/2026) (2026-07-17)"
     ],
     [
-     "Quartier de gare Le Vert de Maisons (APUR) : habitants, emplois, population étudiante de l'université Paris-Est Creteil, offre de logements en forte hausse",
+     "Quartier de gare Le Vert de Maisons (APUR) : habitants, emplois, population étudiante de l'université Paris-Est Créteil, offre de logements en forte hausse",
      "21 000 habitants et 11 400 emplois salariés dans le quartier de gare",
      "Atelier parisien d'urbanisme (2026-06-19)"
     ],
     [
      "Population 2023 (+0,6 % par an), résidences principales, propriétaires, niveau de vie, chômage",
-     "45 531 habitants; 92,1 % de résidences principales sur 23 821 logements; 31,5 % de propriétaires; niveau de vie médian 25 220 EUR; taux de chômage 14 %",
+     "45 531 habitants ; 92,1 % de résidences principales sur 23 821 logements ; 31,5 % de propriétaires ; niveau de vie médian 25 220 EUR ; taux de chômage 14 %",
      "INSEE, comparateur de territoires RP2023 (2026-08)"
     ],
     [
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Alfortville",
-   "md": "- **Changement d'usage** : oui, résidences secondaires uniquement (« cette demande d'autorisation de changement d'usage ne concerne que les résidences secondaires ») **Compensation** : non (autorisation temporaire, aucune compensation prévue par la délibération ni par la page communale)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national); aucune délibération à 90 jours trouvée\n- **Numéro d'enregistrement** : non : « à ce jour Alfortville n'imposé pas l'obligation de numéro d'enregistrement à publier dans chaque annonce » (page mairie lue le 03/09/2026).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée; 16,25 % avec les taxes additionnelles; plafond communal = tarif palace 4,90 EUR, soit 15,93 EUR toutes taxes\n- **À prévoir dans votre dossier** : maximum 2 autorisations par loueur; déclaration sur l'honneur que le logement est decent (R111-2 CCH); attestation sur l'honneur que le règlement de copropriété ne s'oppose pas au changement d'usage (a défaut accord de la copropriété).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.alfortville.fr/demarches-declarer-son-meuble-de-tourisme) et [document de référence](https://www.alfortville.fr/IMG/pdf/formulaire_de_demande_de_changement_d_usage_meuble_de_tourisme.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, résidences secondaires uniquement (« cette demande d'autorisation de changement d'usage ne concerne que les résidences secondaires »)\n- **Compensation** : non (autorisation temporaire, aucune compensation prévue par la délibération ni par la page communale)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national) ; aucune délibération abaissant ce plafond à 90 jours n'a été trouvée\n- **Numéro d'enregistrement** : non : « à ce jour Alfortville n'impose pas l'obligation de numéro d'enregistrement à publier dans chaque annonce » (page mairie lue le 03/09/2026).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace, 4,90 EUR, soit 15,93 EUR toutes taxes comprises\n- **À prévoir dans votre dossier** : maximum 2 autorisations par loueur ; déclaration sur l'honneur que le logement est décent (R111-2 CCH) ; attestation sur l'honneur que le règlement de copropriété ne s'oppose pas au changement d'usage (à défaut, accord de la copropriété).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.alfortville.fr/demarches-declarer-son-meuble-de-tourisme) et [document de référence](https://www.alfortville.fr/IMG/pdf/formulaire_de_demande_de_changement_d_usage_meuble_de_tourisme.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

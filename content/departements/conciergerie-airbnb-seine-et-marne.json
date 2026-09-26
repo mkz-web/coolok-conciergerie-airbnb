@@ -27,7 +27,7 @@
   {
    "type": "table",
    "bg": "cream",
-   "h2": "Nos communes dans la Seine-et-Marne, marché par marché",
+   "h2": "Nos communes en Seine-et-Marne, marché par marché",
    "intro": "Huit communes suivies, du pied des parcs jusqu'au sud du département. Les fourchettes viennent de nos observations de marché, la colonne Régime de notre relevé réglementaire du 3 septembre 2026.",
    "head": [
     "Commune",
@@ -56,21 +56,21 @@
      "75 à 155 €",
      "68 à 80 %",
      "1 500 à 3 600 €",
-     "modere"
+     "modéré"
     ],
     [
      "[Bailly-Romainvilliers](/conciergerie-airbnb-bailly-romainvilliers)",
      "70 à 145 €",
      "67 à 78 %",
      "1 400 à 3 400 €",
-     "modere"
+     "modéré"
     ],
     [
      "[Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges)",
      "70 à 140 €",
      "70 à 80 %",
      "1 400 à 3 400 €",
-     "modere"
+     "modéré"
     ],
     [
      "[Chalifert](/conciergerie-airbnb-chalifert)",
@@ -102,7 +102,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi en Seine-et-Marne",
-   "md": "En Seine-et-Marne, aucune règle départementale ne s'applique : les quatre communes du Val d'Europe (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers) exigent une autorisation de changement d'usage depuis le 1er juin 2024, avec compensation pour les sociétés à Chessy et à Serris, alors que Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun n'imposent aucune autorisation de ce type au 3 septembre 2026. Le plafond de la résidence principale reste fixé à 120 jours dans tout le département, et notre équipe interroge le service urbanisme concerné avant chaque publication d'annonce.",
+   "md": "En Seine-et-Marne, aucune règle départementale ne s'applique : les quatre communes du Val d'Europe que nous couvrons (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers) exigent une autorisation de changement d'usage depuis le 1er juin 2024, avec compensation pour les sociétés à Chessy et à Serris, alors que Bussy-Saint-Georges, Chalifert, Fontainebleau et Melun n'imposent aucune autorisation de ce type au 3 septembre 2026. Le plafond de la résidence principale reste fixé à 120 jours dans tout le département, et notre équipe interroge le service urbanisme concerné avant chaque publication d'annonce.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -189,7 +189,7 @@
     "Votre statut de détention : à Chessy et à Serris, une société qui achète dans certaines zones d'aménagement se voit imposer une compensation, un particulier non",
     "Le zonage du plan local d'urbanisme, décisif à Bussy-Saint-Georges où la location d'une résidence secondaire n'est permise que dans certaines zones",
     "La classe du diagnostic de performance énergétique : A à E exigée pour toute nouvelle autorisation de changement d'usage, A à D à compter du 1er janvier 2034",
-    "Le règlement de copropriété et l'information du syndic, obligatoires depuis la loi du 19 novembre 2024"
+    "La compatibilité avec le règlement de copropriété, et l'information du syndic, obligatoire depuis la loi du 19 novembre 2024"
    ],
    "cta": {
     "label": "Recevoir mon audit chiffré",

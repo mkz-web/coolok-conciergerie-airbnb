@@ -45,12 +45,12 @@
    "rows": [
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
-     "27 498 habitants (population totale 27 798); commune la plus peuplée de la communauté d'agglomération de Marne et Gondoire; +4,8 % en 10 ans",
-     "INSEE, populations de référence 2023; Wikipedia (rang dans l'agglo) (2025-12-29)"
+     "27 498 habitants (population totale 27 798) ; commune la plus peuplée de la communauté d'agglomération de Marne et Gondoire ; +4,8 % en 10 ans",
+     "INSEE, populations de référence 2023 ; Wikipedia (rang dans l'agglo) (2025-12-29)"
     ],
     [
      "Parc de logements",
-     "12 394 logements en 2023; résidences principales 92,8 %, résidences secondaires et occasionnels 2,6 % (1,1 % en 2017), vacants 4,6 %",
+     "12 394 logements en 2023 ; résidences principales 92,8 %, résidences secondaires et occasionnels 2,6 % (1,1 % en 2017), vacants 4,6 %",
      "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
     ],
     [
@@ -60,13 +60,13 @@
     ],
     [
      "Gare RER A de Bussy-Saint-Georges",
-     "3 298 143 voyageurs en 2019, 2 338 585 en 2021 (RATP); Châtelet-Les Halles en environ 35 min (mairie); Marne-la-Vallée Chessy en 6 à 7 min, un train toutes les 15 min (Rome2rio).",
-     "Mairie de Bussy-Saint-Georges; RATP via Wikipedia; Rome2rio (2025-02-14)"
+     "3 298 143 voyageurs en 2019, 2 338 585 en 2021 (RATP) ; Châtelet-Les Halles en environ 35 min (mairie) ; Marne-la-Vallée Chessy en 6 à 7 min, un train toutes les 15 min (Rome2rio).",
+     "Mairie de Bussy-Saint-Georges ; RATP via Wikipedia ; Rome2rio (2025-02-14)"
     ],
     [
-     "Ecoquartier du Sycomore (est de la commune)",
-     "117 ha, 4 500 logements à terme (dont au moins un quart de logements sociaux familiaux) pour environ 12 000 habitants, 12 ha de parcs autour de la fermé du Genitoy, bus a haut.",
-     "Mairie (site officiel); avis IGEDD 2022; germe&JAM (2025-02-27)"
+     "Écoquartier du Sycomore (est de la commune)",
+     "117 ha, 4 500 logements à terme (dont au moins un quart de logements sociaux familiaux) pour environ 12 000 habitants, 12 ha de parcs autour de la ferme du Génitoy, bus à haut niveau de service.",
+     "Mairie (site officiel) ; avis IGEDD 2022 ; germe&JAM (2025-02-27)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -77,7 +77,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Bussy-Saint-Georges",
-   "md": "- **Changement d'usage** : non **Compensation** : Non\n- **Si vous louez votre résidence principale** : La location de la résidence principale (logement occupe au moins 8 mois par an) est autorisée moins de 120 jours par année civile, quelle que soit la localisation dans la ville.\n- **Numéro d'enregistrement** : non exigé à ce jour, Aucun numéro d'enregistrement communal au 03/09/2026. La déclaration se fait par cerfa 14004*04 en mairie, qui délivré un recepisse.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/) et [document de référence](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : La location de la résidence principale (logement occupé au moins 8 mois par an) est autorisée moins de 120 jours par année civile, quelle que soit la localisation dans la ville.\n- **Numéro d'enregistrement** : non exigé à ce jour. Aucun numéro d'enregistrement communal au 03/09/2026. La déclaration se fait par cerfa 14004*04 en mairie, qui délivre un récépissé.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix de la nuitée\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/) et [document de référence](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -162,7 +162,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Bussy-Saint-Georges ?",
-   "a": "Le numéro d'enregistrement est obligatoire sur chaque annonce depuis le 20 mai 2026, résidence principale comprise, et une autorisation de changement d'usage peut s'ajouter selon la décision de la commune. Nous vérifions votre adresse avant toute mise en ligne."
+   "a": "Pas de numéro d'enregistrement à ce jour : au 3 septembre 2026, la commune n'en délivre pas et la location se déclare en mairie par le formulaire cerfa 14004. Le numéro deviendra obligatoire sur chaque annonce, résidence principale comprise, à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026. Aucune autorisation de changement d'usage n'est exigée à ce jour, mais le zonage du plan local d'urbanisme compte : nous vérifions votre adresse avant toute mise en ligne."
   },
   {
    "q": "Les séjours professionnels sont-ils rentables ?",

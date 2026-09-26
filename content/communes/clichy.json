@@ -44,7 +44,7 @@
    "rows": [
     [
      "Population municipale",
-     "64 410 habitants en 2023; densité 20 912 hab/km2 (la plus forte du lot); 33 557 logements; 4,0 % de résidences secondaires; 28,2 % de propriétaires; niveau de vie médian 26 070 EUR",
+     "64 410 habitants en 2023 ; densité 20 912 hab/km2 (la plus forte de nos communes des Hauts-de-Seine) ; 33 557 logements ; 4,0 % de résidences secondaires ; 28,2 % de propriétaires ; niveau de vie médian 26 070 EUR",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -54,18 +54,18 @@
     ],
     [
      "Siège mondial de L'Oréal, 41 rue Martre",
-     "1 800 salariés au siège (direction générale, marques grand public) et 2 200 salariés au Campus Charles-Zviak (immeuble Rio, 33 500 m2, limite Clichy/Saint-Ouen, recherche.",
+     "1 800 salariés au siège (direction générale, marques grand public) et 2 200 salariés au Campus Charles-Zviak (immeuble Rio, 33 500 m2, limite Clichy/Saint-Ouen, recherche).",
      "Le Parisien (20/09/2016)"
     ],
     [
      "Autres sièges à Clichy",
-     "Amazon France (Amazon France Transport 1,37 Md EUR de CA 2025, Amazon France Logistique 1,19 Md EUR, Amazon Online France 0,67 Md EUR, sièges à Clichy), Société BIC (siège depuis.",
-     "Le Figaro Entreprises (registre); Wikipedia pour BIC et Monoprix (comptes 2025, consulté le 03/09/2026)"
+     "Amazon France (Amazon France Transport 1,37 Md EUR de CA 2025, Amazon France Logistique 1,19 Md EUR, Amazon Online France 0,67 Md EUR, sièges à Clichy), Société BIC (siège social).",
+     "Le Figaro Entreprises (registre) ; Wikipedia pour BIC et Monoprix (comptes 2025, consulté le 03/09/2026)"
     ],
     [
      "Hôpital Beaujon (AP-HP), 100 boulevard du Général Leclerc",
-     "370 lits, 167 666 prises en charge, 91 007 consultations, 37 442 hospitalisations, 34 612 passages aux urgences, 1 585 naissances, 97 greffes hepatiques, 9 centres maladies rares",
-     "AP-HP, site de l'hôpital (page relue) (chiffres clés en ligne, relus le 03/09/2026 (année de référence non precisée sur la page))"
+     "370 lits, 167 666 prises en charge, 91 007 consultations, 37 442 hospitalisations, 34 612 passages aux urgences, 1 585 naissances, 97 greffes hépatiques, 9 centres de maladies rares",
+     "AP-HP, site de l'hôpital (page relue) (chiffres clés en ligne, relus le 03/09/2026 (année de référence non précisée sur la page))"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -76,7 +76,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Clichy",
-   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021 **Compensation** : non pour une personne physique dans la limite d'un logement (autorisation a titre personnel); oui au-delà d'un logement, et dès le premier logement pour toute personne morale, SCI comprise (art. 2.1)\n- **Si vous louez votre résidence principale** : 120 jours (page Ville et règlement EPT art. 2); aucune délibération à 90 jours trouvée\n- **À prévoir dans votre dossier** : logement decent, pas de subvention habitat dans les 10 ans, pas de logement HLM ni conventionne, pas d'arrete d'insalubrite; attestation sur l'honneur de ne pas exploiter un autre meublé touristique dans la commune; DPE A a E (L631-10)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.ville-clichy.fr/489-hebergements-touristiques-le-point-sur-la-reglementation.htm) et [document de référence](https://taxe.3douest.com/includes/download/s9Ag1V-Reglement-changement-dusage-locaux-dhabitation-modifie-applicable-au-01102023-nouveau-avec-compression.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021\n- **Compensation** : non pour une personne physique dans la limite d'un logement (autorisation à titre personnel) ; oui au-delà d'un logement, et dès le premier logement pour toute personne morale, SCI comprise (art. 2.1)\n- **Si vous louez votre résidence principale** : 120 jours (page Ville et règlement EPT art. 2) ; aucune délibération abaissant ce plafond à 90 jours n'a été trouvée\n- **À prévoir dans votre dossier** : logement décent, pas de subvention habitat dans les 10 ans, pas de logement HLM ni conventionné, pas d'arrêté d'insalubrité ; attestation sur l'honneur de ne pas exploiter un autre meublé touristique dans la commune ; DPE de A à E (L631-10)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.ville-clichy.fr/489-hebergements-touristiques-le-point-sur-la-reglementation.htm) et [document de référence](https://taxe.3douest.com/includes/download/s9Ag1V-Reglement-changement-dusage-locaux-dhabitation-modifie-applicable-au-01102023-nouveau-avec-compression.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

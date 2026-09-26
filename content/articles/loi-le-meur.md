@@ -1,7 +1,7 @@
 ---
 title: "Loi Le Meur : ce qui change vraiment pour votre location courte durée"
 seo_title: "Loi Le Meur : ce qui change pour la location courte durée"
-meta_description: "Plafond 90 jours, changement d'usage, DPE, amendes : ce que la loi Le Meur change vraiment pour les propriétaires en location courte durée."
+meta_description: "Plafond de 90 jours, changement d'usage, DPE, amendes : ce que la loi Le Meur change vraiment pour les propriétaires en location courte durée."
 slug: loi-le-meur
 date: 2026-07-23
 updated: 2026-07-23
@@ -14,7 +14,7 @@ keywords: ["loi le meur", "loi le meur 2026", "loi le meur location courte duré
 
 > **L'essentiel en 2 minutes**
 >
-> - La **loi n° 2024-1039 du 19 novembre 2024**, dite loi Le Meur, généralise l'enregistrement de tous les meublés de tourisme, résidence principale comprise : numéro obligatoire sur chaque annonce, partout en France depuis le 20 mai 2026. Les décrets n° 2026-196 et 2026-197 du 19 mars 2026 (en vigueur le 21 mars) ouvrent en parallèle aux communes l'accès aux données d'activité des plateformes (« API meublés »).
+> - La **loi n° 2024-1039 du 19 novembre 2024**, dite loi Le Meur, généralise l'enregistrement de tous les meublés de tourisme, résidence principale comprise : numéro obligatoire sur chaque annonce, partout en France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 (la loi fixait le 20 mai 2026 au plus tard). Les décrets n° 2026-196 et 2026-197 du 19 mars 2026 (en vigueur le 21 mars) ouvrent en parallèle aux communes l'accès aux données d'activité des plateformes (« API meublés »).
 > - **Plafond résidence principale** : chaque commune peut l'abaisser de 120 à 90 jours par an. Paris applique les 90 jours depuis le 1er janvier 2025 (délibération 2024 DLH 398).
 > - **Amendes relevées** : jusqu'à 20 000 € pour fausse déclaration ou faux numéro, 15 000 € en cas de dépassement du plafond, 100 000 € par local en cas de changement d'usage sans autorisation (montant relevé par la loi Le Meur dans le cadre du dispositif répressif local).
 > - **DPE** : classe A à E exigée pour toute nouvelle autorisation de changement d'usage, classe A à D pour tous les meublés de tourisme au 1er janvier 2034 (la résidence principale du loueur reste exclue de cette obligation).
@@ -32,9 +32,9 @@ Ce qui change concrètement :
 
 | Ce qui change | Avant | Depuis la loi Le Meur |
 |---|---|---|
-| Enregistrement | Numéro exigé seulement dans certaines communes | Obligatoire partout depuis le 20 mai 2026, numéro affiché sur chaque annonce |
+| Enregistrement | Numéro exigé seulement dans certaines communes | Obligatoire partout à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026, numéro affiché sur chaque annonce |
 | Plafond résidence principale | 120 jours par an partout | La commune peut l'abaisser jusqu'à 90 jours par délibération motivée |
-| DPE | Pas d'exigence propre aux meublés de tourisme | Classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous au 1er janvier 2034 |
+| DPE | Pas d'exigence propre aux meublés de tourisme | Classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous, hors résidence principale, au 1er janvier 2034 |
 | Micro-BIC meublé non classé | Abattement 50 %, plafond 77 700 € | Abattement 30 %, plafond 15 000 € (revenus 2025) |
 | Micro-BIC meublé classé | Abattement 71 %, plafond 188 700 € | Abattement 50 %, plafond 77 700 € |
 | Dépassement du plafond de jours | Amende civile jusqu'à 10 000 € | Jusqu'à 15 000 € |
@@ -68,7 +68,7 @@ Gardez cette check-list : elle vaut pour un bien que vous possédez comme pour u
 
 C'est la peur qu'on entend partout depuis fin 2024. Elle mérite une réponse honnête, en deux temps.
 
-Oui, le socle national s'est durci : enregistrement partout, fiscalité micro-BIC moins favorable, DPE à horizon 2034, amendes doublées. Ce socle s'applique à tous, il est absorbable : une déclaration, un numéro sur l'annonce, un diagnostic à anticiper.
+Oui, le socle national s'est durci : enregistrement partout, fiscalité micro-BIC moins favorable, DPE à horizon 2034, amendes relevées. Ce socle s'applique à tous, il est absorbable : une déclaration, un numéro sur l'annonce, un diagnostic à anticiper.
 
 Mais ce qui casse réellement une rentabilité, ce sont trois mesures **locales** : le plafond abaissé à 90 jours, la compensation, le quota d'autorisations. Or aucune de ces trois mesures ne s'applique automatiquement. Chacune exige une délibération de la commune ou de l'intercommunalité. La loi Le Meur n'a pas éteint la location courte durée : elle a redessiné la carte des endroits où elle vaut la peine. Point.
 
@@ -90,7 +90,7 @@ Une autorisation sans compensation, c'est un dossier à monter, pas un investiss
 
 ### Les communes restées au régime national
 
-Dans une grande partie de la grande couronne, aucune restriction locale ne s'applique aujourd'hui : ni plafond réduit, ni changement d'usage, ni quota. Dans nos relevés de juin 2026 : Bussy-Saint-Georges, Lagny-sur-Marne, Montévrain, Champs-sur-Marne, Torcy, Noisiel et Lognes côté Seine-et-Marne nord, Provins, Avon, Bois-le-Roi et Barbizon plus au sud, Melun (dont le règlement a été annulé par le tribunal administratif), Rambouillet et Poissy dans les Yvelines. Meaux est dans ce groupe avec une réserve : la commune est habilitée à durcir.
+Dans une grande partie de la grande couronne, aucune restriction locale ne s'applique aujourd'hui : ni plafond réduit, ni changement d'usage, ni quota. Dans nos relevés de juin 2026 : Bussy-Saint-Georges (sous réserve du zonage de son plan local d'urbanisme), Lagny-sur-Marne, Champs-sur-Marne, Torcy, Noisiel et Lognes côté Seine-et-Marne nord, Provins, Avon, Bois-le-Roi et Barbizon plus au sud, Melun (dont le règlement a été annulé par le tribunal administratif), Rambouillet et Poissy dans les Yvelines. Meaux est dans ce groupe avec une réserve : la commune est habilitée à durcir.
 
 Là, le seul cadre est le socle national : déclaration, enregistrement, fiscalité, DPE à horizon 2034. Détail qui compte, précisé par le guide pratique du ministère : même quand une commune abaisse le plafond à 90 jours, louer sa résidence principale entre 90 et 120 jours ne fait pas basculer le bien dans le changement d'usage, qui reste déclenché au-delà de 120 jours. Le dépassement du plafond fixé par la commune reste, lui, sanctionnable.
 
@@ -103,7 +103,7 @@ Avant de trancher entre deux communes, passez-les au [simulateur de revenus loca
 | 21 novembre 2024 | Entrée en vigueur de la loi. DPE classe A à E exigé pour toute nouvelle autorisation de changement d'usage. Les nouveaux règlements de copropriété doivent se prononcer explicitement sur le meublé de tourisme. |
 | 1er janvier 2025 | Nouvelle fiscalité micro-BIC (applicable aux revenus 2025, déclarés en 2026). Paris passe à 90 jours. À la même date, les logements classés G deviennent interdits à la location longue durée (loi Climat et résilience) : les meublés de tourisme ne sont pas concernés avant 2034. |
 | 20-21 mars 2026 | Publication et entrée en vigueur des décrets n° 2026-196 et 2026-197 : les communes qui appliquent l'enregistrement accèdent aux données d'activité transmises par les plateformes (« API meublés »). |
-| 20 mai 2026 | Enregistrement généralisé à toutes les communes via le téléservice national (date butoir fixée par la loi, alignée sur le règlement européen 2024/1028). L'amende de dépassement du plafond passe de 10 000 € à 15 000 €. |
+| 20 mai 2026 | Date butoir fixée par la loi pour généraliser l'enregistrement à toutes les communes via le téléservice national (alignée sur le règlement européen 2024/1028) ; l'ouverture du téléservice est annoncée pour le quatrième trimestre 2026. L'amende de dépassement du plafond passe de 10 000 € à 15 000 €. |
 | 1er janvier 2034 | Tous les meublés de tourisme (hors résidence principale du loueur) doivent respecter la décence énergétique, soit en pratique une classe A à D. Amende jusqu'à 5 000 € par local. |
 
 *Source : loi n° 2024-1039, décrets n° 2026-196 et 2026-197, Légifrance.*
@@ -128,7 +128,7 @@ C'est la loi n° 2024-1039 du 19 novembre 2024 « visant à renforcer les outils
 
 ### Quels sont les principaux impacts pour les meublés de tourisme ?
 
-Quatre impacts concrets : un numéro d'enregistrement obligatoire sur chaque annonce (généralisé depuis le 20 mai 2026), des plafonds et autorisations qui dépendent désormais de votre commune, un calendrier DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous en 2034) et un abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés, dès les revenus 2025.
+Quatre impacts concrets : un numéro d'enregistrement obligatoire sur chaque annonce (généralisé à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026), des plafonds et autorisations qui dépendent désormais de votre commune, un calendrier DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme hors résidence principale en 2034) et un abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés, dès les revenus 2025.
 
 ### La loi Le Meur est-elle rétroactive ?
 
@@ -160,4 +160,4 @@ Trois choses : le copropriétaire qui loue en meublé de tourisme doit en inform
 
 ---
 
-**Votre commune est-elle encore rentable ?** Le calcul prend 60 secondes : indiquez la commune et le type de bien dans notre [simulateur de revenus locatifs](/simulateur-locatif), et repartez avec une estimation chiffrée, sans engagement. C'est le même outil que nous utilisons avant d'accepter un client.
+**Votre commune est-elle encore rentable ?** Le calcul prend deux minutes : indiquez la commune et le type de bien dans notre [simulateur de revenus locatifs](/simulateur-locatif), et repartez avec une estimation chiffrée, sans engagement. C'est le même outil que nous utilisons avant d'accepter un client.

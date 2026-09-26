@@ -85,7 +85,7 @@ Trois mots, trois choses différentes : les confondre est la première cause de 
 
 | La démarche | À quoi elle sert | Qui l'exige |
 |---|---|---|
-| **Déclaration du meublé de tourisme** | Signaler l'activité à la mairie, base de la taxe de séjour (cerfa 14004*04) | Toutes les communes, hors résidence principale |
+| **Déclaration du meublé de tourisme** | Signaler l'activité à la mairie, base de la taxe de séjour (cerfa 14004*04) | Les communes sans enregistrement, hors résidence principale ; ailleurs, la déclaration se fait avec l'enregistrement |
 | **Autorisation de changement d'usage** | Autoriser un local d'habitation à être loué à une clientèle de passage, dossier avec DPE classe A à E | Seulement les communes qui l'ont votée |
 | **Numéro d'enregistrement à 13 caractères** | Identifier chaque annonce et permettre le décompte automatique des nuits | Les communes équipées d'un téléservice, en attendant le national |
 

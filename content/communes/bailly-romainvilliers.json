@@ -84,7 +84,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Bailly-Romainvilliers",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5,00 % du coût HT de la nuitée, plafonné à 4,90 EUR\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,90 EUR, soit 15,93 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",

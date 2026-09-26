@@ -14,13 +14,19 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Marne-la-Vallée, Seine-et-Marne",
-  "lead": "Bussy est souvent la commune du premier achat en location courte durée : des prix d'entrée plus bas que le Val d'Europe, le RER A direct, et une demande double, familiale le week-end, professionnelle en semaine."
+  "lead": "Bussy est souvent la commune du premier achat en location courte durée : des prix d'entrée plus bas qu'à Serris ou à Chessy, le RER A direct, et une demande double, familiale le week-end, professionnelle en semaine."
  },
  "data": {
   "prix_nuitee": "70 à 140 €",
   "revenu_mensuel": "1 400 à 3 400 €",
   "taux_occupation": "70 à 80 %",
-  "prix_m2": "3 500 €/m²",
+  "prix_m2": "4 353 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/bussy-saint-georges/ville-77058"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Bussy-Saint-Georges (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 140 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

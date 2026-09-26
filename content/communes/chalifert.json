@@ -14,13 +14,19 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Marne-la-Vallée, Seine-et-Marne",
-  "lead": "Chalifert est un village en bord de Marne, à quelques minutes de la couronne Disney. Le prix d'achat y est le plus bas de la zone, et la clientèle y vient chercher exactement ce que les communes du parc n'offrent pas : le calme."
+  "lead": "Chalifert est un village en bord de Marne, à quelques minutes de la couronne Disney. Le prix d'achat y est parmi les plus bas de la zone, et la clientèle y vient chercher exactement ce que les communes du parc n'offrent pas : le calme."
  },
  "data": {
   "prix_nuitee": "75 à 155 €",
   "revenu_mensuel": "1 300 à 3 200 €",
   "taux_occupation": "59 à 69 %",
-  "prix_m2": "3 100 €/m²",
+  "prix_m2": "3 563 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/chalifert/ville-77075"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Chalifert (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 59 à 69 %, soit 1 300 à 3 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

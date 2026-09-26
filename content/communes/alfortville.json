@@ -5,21 +5,27 @@
  "slug": "alfortville",
  "dept": "94",
  "title": "Conciergerie Airbnb Alfortville (94), confluence | Coolok",
- "description": "Coolok exploite votre logement à Alfortville : le ticket d'entrée du Val-de-Marne, gare du Grand Paris Express en 2027. Commission 20 % HT tout compris.",
- "h1": "Conciergerie Airbnb à Alfortville, le ticket d'entrée du Val-de-Marne",
+ "description": "Coolok exploite votre logement à Alfortville : un prix d'achat parmi les plus bas du Val-de-Marne, gare du Grand Paris Express en 2027. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Alfortville, l'un des prix d'achat les plus bas du Val-de-Marne",
  "image": "/assets/img/heros/alfortville.webp",
  "imageAlt": "Berge de la Seine à Alfortville près du confluent avec la Marne, lumière du soir",
  "imageWidth": 1200,
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Confluence Seine et Marne, Val-de-Marne",
-  "lead": "Alfortville s'échange autour de 5 089 euros le mètre carré, en repli de 8 % sur un an (Figaro Immobilier, estimation au 1er juillet 2026). C'est le prix d'achat le plus accessible de nos communes riveraines de Paris, et c'est aussi le calendrier le plus lent à remplir. Cette page dit les deux."
+  "lead": "Alfortville s'échange autour de 5 089 euros le mètre carré, en repli de 8 % sur un an (Figaro Immobilier, estimation au 1er juillet 2026). C'est l'un des prix d'achat les plus accessibles de nos communes proches de Paris, au niveau d'Ivry-sur-Seine (5 068 euros à la même date), et c'est aussi le calendrier le plus lent à remplir. Cette page dit les deux."
  },
  "data": {
   "prix_nuitee": "70 à 145 €",
   "revenu_mensuel": "1 100 à 2 700 €",
   "taux_occupation": "53 à 63 %",
-  "prix_m2": "4 800 €/m²",
+  "prix_m2": "5 089 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er juillet 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/alfortville/ville-94002"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Alfortville (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 145 € la nuit, avec un taux d'occupation observé de 53 à 63 %, soit 1 100 à 2 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
@@ -29,7 +35,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Un prix d'achat bas et un calendrier à travailler",
-   "md": "La ville réunit 45 531 habitants, 92,1 % de résidences principales et seulement 31,5 % de ménages propriétaires, pour un niveau de vie médian de 25 220 euros (INSEE, recensement 2023). Un seul établissement hôtelier y est recensé, le Huatian Chinagora et ses 187 chambres au confluent (INSEE, parc hôtelier au 1er janvier 2026). La demande d'hébergement vient des deux gares du RER D, du bassin d'emploi du quartier de gare, que l'APUR chiffre à 21 000 habitants et 11 400 emplois salariés (note du 19 juin 2026), et des déplacements vers Créteil et la gare de Lyon.\n\nL'équation du propriétaire est franche : le bien s'achète moins cher qu'alentour, donc chaque euro encaissé pèse davantage dans le rendement. La contrepartie est mesurée elle aussi. Les repères de marché retenus pour la ville donnent 70 à 145 euros la nuit pour une occupation de 53 à 63 % (données AirDNA croisées, relevé du 9 juillet 2026), la fourchette d'occupation la plus basse de nos communes du Val-de-Marne.\n\nCela impose un choix d'exploitation, et il vaut mieux le faire tôt : viser la durée plutôt que le week-end. Le signal existe, les résidences secondaires et logements occasionnels étant passés de 233 à 318 entre 2017 et 2023, soit une hausse de 36,5 % (INSEE). Le cadre local ne freine pas : sur le territoire Grand Paris Sud Est Avenir, l'autorisation de changement d'usage est temporaire, donc jamais assortie d'une compensation."
+   "md": "La ville réunit 45 531 habitants, 92,1 % de résidences principales et seulement 31,5 % de ménages propriétaires, pour un niveau de vie médian de 25 220 euros (INSEE, recensement 2023). Un seul établissement hôtelier y est recensé, le Huatian Chinagora et ses 187 chambres au confluent (INSEE, parc hôtelier au 1er janvier 2026). La demande d'hébergement vient des deux gares du RER D, du bassin d'emploi du quartier de gare, que l'APUR chiffre à 21 000 habitants et 11 400 emplois salariés (note du 19 juin 2026), et des déplacements vers Créteil et la gare de Lyon.\n\nL'équation du propriétaire est franche : le bien s'achète moins cher qu'à Maisons-Alfort ou à Charenton-le-Pont, donc chaque euro encaissé pèse davantage dans le rendement. La contrepartie est mesurée elle aussi. Les repères de marché retenus pour la ville donnent 70 à 145 euros la nuit pour une occupation de 53 à 63 % (données AirDNA croisées, relevé du 9 juillet 2026), la fourchette d'occupation la plus basse de nos communes du Val-de-Marne.\n\nCela impose un choix d'exploitation, et il vaut mieux le faire tôt : viser la durée plutôt que le week-end. Le signal existe, les résidences secondaires et logements occasionnels étant passés de 233 à 318 entre 2017 et 2023, soit une hausse de 36,5 % (INSEE). Le cadre local ne freine pas : sur le territoire Grand Paris Sud Est Avenir, l'autorisation de changement d'usage est temporaire, donc jamais assortie d'une compensation."
   },
   {
    "type": "table",

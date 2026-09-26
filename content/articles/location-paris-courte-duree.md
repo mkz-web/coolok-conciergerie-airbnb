@@ -47,7 +47,7 @@ Louer sa résidence principale reste le seul cas simple à Paris : pas de change
 
 ## Logement dédié : le mur de la compensation
 
-Pour transformer un logement parisien en meublé de tourisme permanent, il faut une autorisation de changement d'usage. À Paris, elle est subordonnée à **compensation** : convertir en habitation une surface équivalente, dans le même quartier administratif que le local transformé, et jusqu'à **3 m² pour 1 m²** dans les zones de compensation renforcée définies par le règlement municipal (délibération 2025 DLH 44, février 2025). Concrètement, il faut acheter des mètres carrés de bureaux ou de commerces et les transformer en logement, dans un quartier où le m² se négocie autour de 9 500 € (données notariales, début 2026). Faites la multiplication : pour un studio de 25 m² en zone renforcée, la compensation représente jusqu'à 75 m² à recréer. C'est un dispositif calibré pour les opérateurs institutionnels, pas pour un particulier.
+Pour transformer un logement parisien en meublé de tourisme permanent, il faut une autorisation de changement d'usage. À Paris, elle est subordonnée à **compensation** : convertir en habitation une surface équivalente, dans le même quartier administratif que le local transformé, et jusqu'à **3 m² pour 1 m²** dans les zones de compensation renforcée définies par le règlement municipal (délibération 2025 DLH 44, février 2025). Concrètement, il faut acheter des mètres carrés de bureaux ou de commerces et les transformer en logement, dans un quartier où le m² se négocie autour de 10 700 € (prix médian tous biens à Paris, Figaro Immobilier au 1er août 2026). Faites la multiplication : pour un studio de 25 m² en zone renforcée, la compensation représente jusqu'à 75 m² à recréer. C'est un dispositif calibré pour les opérateurs institutionnels, pas pour un particulier.
 
 Le risque de passer outre n'est pas théorique : l'amende civile peut atteindre **100 000 € par local** transformé sans autorisation, et la Ville de Paris dispose d'équipes de contrôle dédiées ainsi que, depuis les décrets de mars 2026, d'un accès aux données d'activité des plateformes (« API meublés »). Le détail du dispositif national est dans notre guide de la [loi Le Meur](/blog/loi-le-meur), et les règles générales du meublé de tourisme dans notre guide des [règles de la location courte durée](/blog/lcd-guide-complet).
 
@@ -63,14 +63,14 @@ Voici le déplacement que nous constatons sur le terrain : la demande ne s'arrê
 
 | Secteur | Prix moyen affiché/nuit | Prix au m² | La règle du jeu |
 |---|---|---|---|
-| Paris intra-muros | ~190 € (relevé sept. 2026) | ~9 500 € | 90 jours (résidence principale) ou compensation (dédié) |
-| [Vincennes](/conciergerie-airbnb-vincennes) | 100 à 200 € | ~8 500 € | Autorisation sans compensation |
-| [Joinville-le-Pont](/conciergerie-airbnb-joinville-le-pont) | 75 à 150 € | ~5 800 € | Autorisation sans compensation |
-| [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | ~4 000 € | Autorisation Val d'Europe Agglomération, sans compensation pour les particuliers |
+| Paris intra-muros | ~190 € (relevé sept. 2026) | 10 726 € | 90 jours (résidence principale) ou compensation (dédié) |
+| [Vincennes](/conciergerie-airbnb-vincennes) | 100 à 200 € | 8 874 € | Autorisation sans compensation |
+| [Joinville-le-Pont](/conciergerie-airbnb-joinville-le-pont) | 75 à 150 € | 7 264 € | Autorisation sans compensation |
+| [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | 4 453 € | Autorisation Val d'Europe Agglomération, sans compensation pour les particuliers |
 
-*Fourchettes publiées sur nos pages villes (relevé AirDNA croisé) ; Paris : relevé Airbnb du 23/07/2026 et données notariales début 2026. Réglementation à vérifier en mairie à la date du projet.*
+*Fourchettes publiées sur nos pages villes (relevé AirDNA croisé) ; Paris : relevé Airbnb du 23/07/2026. Prix au m² : prix médians tous biens Figaro Immobilier au 1er août 2026 (Joinville-le-Pont : 1er juillet 2026, valeur publiée sur sa page). Réglementation à vérifier en mairie à la date du projet.*
 
-La lecture est limpide : à dix minutes de RER du même bassin de voyageurs, le m² coûte 30 à 60 % de moins et la règle est praticable. C'est exactement la logique que suivent les propriétaires que nous accompagnons : capter la demande parisienne, sans le rationnement parisien.
+La lecture est limpide : de Vincennes au Val d'Europe, sur la même ligne A du RER et pour le même bassin de voyageurs, le m² coûte de 17 à 58 % de moins qu'à Paris et la règle est praticable. C'est exactement la logique que suivent les propriétaires que nous accompagnons : capter la demande parisienne, sans le rationnement parisien.
 
 ## Ce que Coolok fait pour les propriétaires parisiens et limitrophes
 

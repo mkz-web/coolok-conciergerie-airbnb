@@ -19,7 +19,13 @@
   "prix_nuitee": "70 à 150 €",
   "revenu_mensuel": "1 500 à 3 700 €",
   "taux_occupation": "72 à 82 %",
-  "prix_m2": "5 200 €/m²",
+  "prix_m2": "5 967 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/pantin/ville-93055"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Pantin (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 150 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 500 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

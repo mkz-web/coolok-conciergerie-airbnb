@@ -16,7 +16,7 @@ tribune_a_valider: true
 ## L'essentiel
 
 - **Trois chiffres, jamais un seul** : le rendement brut (recettes rapportées au prix de revient), le rendement net (après charges), le cashflow (ce qui reste une fois le crédit payé). Seul le troisième se dépense.
-- **Le rendement brut ne décide de rien.** Sur un T2 de 45 m² à Serris acheté 180 000 € (base 4 000 €/m², donnée publiée sur notre page commune, relevé AirDNA croisé du 9 juillet 2026), il va de 11,3 % à 27,3 % selon l'hypothèse de remplissage retenue.
+- **Le rendement brut ne décide de rien.** Sur un T2 de 45 m² à Serris acheté environ 200 000 € (base 4 453 €/m², prix médian publié sur notre page commune d'après Figaro Immobilier au 1er août 2026), il va de 10,2 % à 24,6 % selon l'hypothèse de remplissage retenue.
 - **Un prix affiché n'est pas un revenu.** Prix de liste médian relevé le 3 septembre 2026 pour un logement entier, sur 7 nuits en octobre 2026, frais inclus : 125 € la nuit à Serris, 112 € à Vincennes, 79 € à Fontainebleau, 68 € à Reims.
 - **La taxe de séjour varie de 1 à 5 dans un même département** : 3,25 % du prix de la nuitée à Melun contre 16,25 % du prix hors taxes en Val d'Europe et dans les communes taxées du Val-de-Marne (relevés du 3 septembre 2026). Elle est encaissée pour la commune, ce n'est jamais votre revenu.
 - **Au-delà de 15 000 € de recettes annuelles**, le micro-BIC d'un meublé non classé ne s'applique plus (abattement ramené à 30 %, plafond à 15 000 € par la loi n° 2024-1039 dite loi Le Meur) : le régime réel devient le cadre par défaut.
@@ -48,17 +48,17 @@ Chaque ligne porte son origine : mesure sourcée, ou hypothèse de travail à re
 
 | Ligne du calcul | Montant | Origine |
 |---|---|---|
-| Prix d'achat, T2 de 45 m² à 4 000 €/m² | 180 000 € | prix au m² de notre [page Serris](/conciergerie-airbnb-serris), relevé du 9 juillet 2026 |
-| Emprunt de 170 000 € sur 25 ans à 3,30 % | environ 830 €/mois hors assurance | taux moyen de juin 2026, Observatoire Crédit Logement/CSA |
+| Prix d'achat, T2 de 45 m² à 4 453 €/m² | 200 385 €, arrondi à 200 000 € | prix médian de notre [page Serris](/conciergerie-airbnb-serris), Figaro Immobilier au 1er août 2026 |
+| Emprunt de 190 000 € sur 25 ans à 3,30 % | environ 930 €/mois hors assurance | taux moyen de juin 2026, Observatoire Crédit Logement/CSA |
 | Recettes brutes annuelles, hypothèse basse | 20 400 € (1 700 €/mois) | bas de la fourchette publiée pour Serris (1 700 à 4 100 €/mois) |
 | Commission de conciergerie, 20 % HT | 4 080 €/an | notre [tarif](/tarifs), au résultat |
 | Reste avant charges du bien et impôt | 16 320 €/an | calcul |
-| Crédit sur douze mois | 9 960 €/an | calcul |
-| **Marge disponible pour les charges du bien** | **6 360 €/an, soit 530 €/mois** | calcul |
+| Crédit sur douze mois | 11 160 €/an | calcul |
+| **Marge disponible pour les charges du bien** | **5 160 €/an, soit 430 €/mois** | calcul |
 
-Lecture. Il reste 6 360 € par an pour payer la copropriété, la taxe foncière, l'assurance, l'énergie, le linge, la comptabilité et la provision pour casse. Sous ce seuil, le cashflow est positif. Au-dessus, il ne l'est pas. Vous n'avez pas besoin d'un simulateur pour trancher, vous avez besoin de vos quatre factures.
+Lecture. Il reste 5 160 € par an pour payer la copropriété, la taxe foncière, l'assurance, l'énergie, le linge, la comptabilité et la provision pour casse. Sous ce seuil, le cashflow est positif. Au-dessus, il ne l'est pas. Vous n'avez pas besoin d'un simulateur pour trancher, vous avez besoin de vos quatre factures.
 
-Avec l'hypothèse haute de la même fourchette (4 100 € par mois, soit 49 200 € par an), la marge disponible passe à 29 400 € par an, et le rendement brut de 11,3 % à 27,3 % sur le même bien, sans qu'une seule charge ait été payée. C'est pour cela qu'un rendement brut ne se compare pas d'une annonce à l'autre.
+Avec l'hypothèse haute de la même fourchette (4 100 € par mois, soit 49 200 € par an), la marge disponible passe à 28 200 € par an, et le rendement brut de 10,2 % à 24,6 % sur le même bien, sans qu'une seule charge ait été payée. C'est pour cela qu'un rendement brut ne se compare pas d'une annonce à l'autre.
 
 Pour tester votre hypothèse de remplissage : à 125 € la nuit affichés à Serris (relevé du 3 septembre 2026), quatorze nuits vendues dans le mois représentent 1 750 € encaissés par la plateforme, frais de ménage compris. Si votre calcul suppose vingt-cinq nuits vendues chaque mois de l'année, écrivez-le noir sur blanc : c'est cette ligne qui porte tout le reste.
 
@@ -138,7 +138,7 @@ Et une chose que la plupart des gens sous-estiment : le travail derrière une lo
 
 ### Est-ce rentable de faire du Airbnb ?
 
-Cela dépend de trois variables mesurables : vos recettes, vos charges d'exploitation et votre mensualité de crédit. Sur notre exemple d'un T2 à Serris acheté 180 000 €, l'hypothèse basse de recettes (20 400 € par an, relevé du 9 juillet 2026) laisse 6 360 € par an pour les charges du bien. Sous ce seuil, le cashflow est positif.
+Cela dépend de trois variables mesurables : vos recettes, vos charges d'exploitation et votre mensualité de crédit. Sur notre exemple d'un T2 à Serris acheté environ 200 000 €, l'hypothèse basse de recettes (20 400 € par an, relevé du 9 juillet 2026) laisse 5 160 € par an pour les charges du bien. Sous ce seuil, le cashflow est positif.
 
 ### Quelle est la ville la plus rentable sur Airbnb en France ?
 
@@ -146,7 +146,7 @@ Nous n'avons pas mesuré de classement national et nous ne publions pas un chiff
 
 ### Où Airbnb marche le mieux en Île-de-France ?
 
-Là où la demande est continue et le prix d'achat encore raisonnable. La couronne Disney affiche les prix de liste les plus élevés de notre périmètre hors Paris (125 € à Serris, 140 € à Chessy le 3 septembre 2026) pour un prix au mètre carré autour de 4 000 € à Serris, contre environ 7 800 € à Versailles et 8 500 € à Vincennes (9 juillet 2026).
+Là où la demande est continue et le prix d'achat encore raisonnable. La couronne Disney affiche les prix de liste les plus élevés de notre périmètre hors Paris (125 € à Serris, 140 € à Chessy le 3 septembre 2026) pour un prix médian au mètre carré de 4 453 € à Serris, contre 6 814 € à Versailles et 8 874 € à Vincennes (Figaro Immobilier, 1er août 2026).
 
 ### Quel pourcentage de commission prend Airbnb ?
 
@@ -173,5 +173,5 @@ Trois niveaux se cumulent : le cadre national (déclaration du meublé, plafond 
 - [Observatoire Crédit Logement/CSA, 2e trimestre 2026](https://lobservatoire.creditlogement.fr/publications/analyse-marche-immobilier-2eme-trimestre-2026/), juillet 2026 (taux moyen 3,24 %, 3,30 % sur 25 ans en juin)
 - Relevé Airbnb de MKZ Consulting pour Coolok, 3 septembre 2026 : 204 annonces de logements entiers sur 7 communes, 7 nuits en octobre et décembre 2026, prix de liste frais inclus
 - Délibérations de Val d'Europe Agglomération, Marne et Gondoire, Melun, Pays de Fontainebleau et Paris Est Marne & Bois, relevées le 3 septembre 2026 (changement d'usage, quotas, taxe de séjour)
-- Données par commune publiées sur coolok.co (prix au m², nuitée, recettes, relevé AirDNA croisé), extraction du 9 juillet 2026
+- Données par commune publiées sur coolok.co : nuitée et recettes (relevé AirDNA croisé, extraction du 9 juillet 2026), prix au m² ([Figaro Immobilier, prix médian tous biens à Serris](https://immobilier.lefigaro.fr/prix-immobilier/serris/ville-77449), estimation au 1er août 2026)
 - Relevé des pages tarifs publiques des conciergeries françaises, juin 2026 (commission de 15 à 30 %)

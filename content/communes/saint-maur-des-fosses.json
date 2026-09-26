@@ -19,7 +19,13 @@
   "prix_nuitee": "85 à 175 €",
   "revenu_mensuel": "1 700 à 3 900 €",
   "taux_occupation": "65 à 75 %",
-  "prix_m2": "6 500 €/m²",
+  "prix_m2": "6 509 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er juillet 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/saint-maur-des-fosses/ville-94068"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Maur-des-Fossés (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 85 à 175 € la nuit, avec un taux d'occupation observé de 65 à 75 %, soit 1 700 à 3 900 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

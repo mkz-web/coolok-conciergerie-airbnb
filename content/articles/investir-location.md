@@ -17,13 +17,13 @@ tribune_a_valider: true
 >
 > - En 2026, un investissement locatif Airbnb se joue **à la mairie avant la banque** : la commune décide du plafond de jours, du changement d'usage et de la compensation. Une compensation signifie un projet à écarter, sauf cas très particulier.
 > - Les **taux de crédit** se sont stabilisés autour de **3,24 % en moyenne au 2e trimestre 2026** (3,30 % sur 25 ans en juin) selon l'Observatoire Crédit Logement/CSA.
-> - Le paradoxe francilien : Paris affiche ~9 500 €/m², la couronne Disney 3 500 à 4 200 €/m² (données publiées sur nos pages villes, relevé AirDNA croisé), pour des nuitées de 70 à 180 €. **Le rendement se cache là où le m² est raisonnable et la demande touristique constante.**
+> - Le paradoxe francilien : Paris affiche 10 726 €/m², la couronne Disney 3 467 à 4 858 €/m² (prix médians Figaro Immobilier au 1er août 2026, repris sur nos pages villes), pour des nuitées de 70 à 180 €. **Le rendement se cache là où le m² est raisonnable et la demande touristique constante.**
 > - Fiscalité 2026 : le **LMNP au réel** reste l'ami de l'exploitant (amortissements, charges et commission de conciergerie déductibles), mais depuis février 2025 les amortissements sont **réintégrés dans la plus-value** à la revente (loi de finances 2025, art. 84).
 > - Notre relevé Airbnb du 23 juillet 2026 : prix de liste médian **~120 €/nuit à Serris** (19 logements entiers, 7 nuits en septembre, frais inclus). La demande Disney n'est pas une théorie, elle s'affiche.
 >
 > *Sources : Observatoire Crédit Logement/CSA (juillet 2026), Légifrance, données villes coolok.co, relevé Airbnb du 23/07/2026.*
 
-Le même voyageur, la même semaine de septembre. À Paris, il paie environ 190 € la nuit. À Serris, à 35 minutes de RER, environ 120 € (notre relevé Airbnb du 23 juillet 2026, logements entiers, frais inclus). Paris gagne ? Regardez maintenant le prix d'achat : environ 9 500 €/m² côté parisien, 4 000 €/m² à Serris. Pour un investisseur, le match s'inverse : la nuitée parisienne se vend 1,6 fois plus cher, mais le mètre carré coûte 2,4 fois plus cher à acheter. Et ce n'est même pas le vrai sujet. Le vrai sujet, c'est qu'à Paris, la réglementation a fermé la porte aux logements dédiés à la location courte durée, pendant que des dizaines de communes franciliennes l'ont laissée ouverte. En 2026, réussir un investissement locatif Airbnb, c'est d'abord choisir le bon terrain de jeu. Voici la méthode, dans l'ordre.
+Le même voyageur, la même semaine de septembre. À Paris, il paie environ 190 € la nuit. À Serris, à 35 minutes de RER, environ 120 € (notre relevé Airbnb du 23 juillet 2026, logements entiers, frais inclus). Paris gagne ? Regardez maintenant le prix d'achat : 10 726 €/m² côté parisien, 4 453 €/m² à Serris (prix médians Figaro Immobilier au 1er août 2026). Pour un investisseur, le match s'inverse : la nuitée parisienne se vend 1,6 fois plus cher, mais le mètre carré coûte 2,4 fois plus cher à acheter. Et ce n'est même pas le vrai sujet. Le vrai sujet, c'est qu'à Paris, la réglementation a fermé la porte aux logements dédiés à la location courte durée, pendant que des dizaines de communes franciliennes l'ont laissée ouverte. En 2026, réussir un investissement locatif Airbnb, c'est d'abord choisir le bon terrain de jeu. Voici la méthode, dans l'ordre.
 
 ## Étape 1 : la mairie d'abord, le bien ensuite
 
@@ -41,20 +41,20 @@ Le portrait-robot du bon spot : une demande touristique ou professionnelle const
 
 | Commune | Prix moyen affiché/nuit | Taux d'occupation | Prix au m² | Profil |
 |---|---|---|---|---|
-| [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | 70 à 80 % | ~4 000 € | Double moteur Disney + Vallée Village |
-| [Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges) | 70 à 140 € | 70 à 80 % | ~3 500 € | Le ticket d'entrée du secteur Disney, logements récents |
-| Vincennes | 100 à 200 € | 75 à 85 % | ~8 500 € | Portes de Paris, clientèle mixte affaires et tourisme |
-| Versailles | 110 à 250 € | 69 à 79 % | ~7 800 € | Destination mondiale, saisonnalité marquée au printemps-été |
+| [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | 70 à 80 % | 4 453 € | Double moteur Disney + Vallée Village |
+| [Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges) | 70 à 140 € | 70 à 80 % | 4 353 € | Porte d'entrée du secteur Disney par le RER A, logements récents |
+| Vincennes | 100 à 200 € | 75 à 85 % | 8 874 € | Portes de Paris, clientèle mixte affaires et tourisme |
+| Versailles | 110 à 250 € | 69 à 79 % | 6 814 € | Destination mondiale, saisonnalité marquée au printemps-été |
 
-*Données publiées sur les pages villes coolok.co (relevé AirDNA croisé) ; réglementation à vérifier en mairie à la date de votre projet.*
+*Données publiées sur les pages villes coolok.co : nuitées et taux d'occupation (relevé AirDNA croisé), prix au m² (prix médians Figaro Immobilier au 1er août 2026) ; réglementation à vérifier en mairie à la date de votre projet.*
 
-Lecture honnête du tableau : Vincennes et Versailles offrent des nuitées plus chères, mais le m² à l'achat y coûte le double. La couronne Disney offre le meilleur rapport entre prix d'entrée, demande annuelle (Disneyland Paris attire des visiteurs toute l'année, y compris hors vacances scolaires) et cadre réglementaire praticable. C'est la raison pour laquelle c'est notre zone la plus demandée, pas une préférence sentimentale.
+Lecture honnête du tableau : Vincennes et Versailles offrent des nuitées plus chères, mais le m² à l'achat y coûte 1,5 fois (Versailles) à 2 fois (Vincennes) plus cher qu'à Serris. La couronne Disney offre le meilleur rapport entre prix d'entrée, demande annuelle (Disneyland Paris attire des visiteurs toute l'année, y compris hors vacances scolaires) et cadre réglementaire praticable. C'est la raison pour laquelle c'est notre zone la plus demandée, pas une préférence sentimentale.
 
 ## Étape 3 : le budget et le financement en 2026
 
 Côté crédit, le marché s'est posé : taux moyen de 3,24 % au 2e trimestre 2026, 3,30 % sur 25 ans en juin, durée moyenne de 251 mois (Observatoire Crédit Logement/CSA, juillet 2026). Ni l'argent gratuit de 2021, ni le pic de 2023 : un coût du crédit lisible, qui se calcule sereinement.
 
-Exemple indicatif, pour fixer les ordres de grandeur : un T2 de 45 m² à Serris autour de 180 000 € (sur la base de ~4 000 €/m²). Avec les frais d'acquisition et un apport couvrant environ 10 à 15 % de l'opération, resterait un emprunt d'environ 170 000 € : soit une mensualité d'environ 830 € hors assurance sur 25 ans à 3,30 % (calcul d'annuité standard). En face, la fourchette de revenus bruts que nous publions pour Serris va de 1 700 à 4 100 € par mois selon la saison, le bien et sa gestion, avant charges, commission et fiscalité. L'écart entre ces deux colonnes, une fois les charges réelles posées, c'est précisément ce que notre [méthode de calcul de rentabilité](/blog/rentabilite-airbnb-ile-de-france-methode) vous apprend à chiffrer poste par poste, et ce que le [simulateur](/simulateur-locatif) estime pour votre commune en deux minutes.
+Exemple indicatif, pour fixer les ordres de grandeur : un T2 de 45 m² à Serris autour de 200 000 € (sur la base de 4 453 €/m², prix médian au 1er août 2026). Avec les frais d'acquisition et un apport couvrant environ 10 à 15 % de l'opération, resterait un emprunt d'environ 190 000 € : soit une mensualité d'environ 930 € hors assurance sur 25 ans à 3,30 % (calcul d'annuité standard). En face, la fourchette de revenus bruts que nous publions pour Serris va de 1 700 à 4 100 € par mois selon la saison, le bien et sa gestion, avant charges, commission et fiscalité. L'écart entre ces deux colonnes, une fois les charges réelles posées, c'est précisément ce que notre [méthode de calcul de rentabilité](/blog/rentabilite-airbnb-ile-de-france-methode) vous apprend à chiffrer poste par poste, et ce que le [simulateur](/simulateur-locatif) estime pour votre commune en deux minutes.
 
 Un mot sur le meublé : comptez aussi l'ameublement et la mise en exploitation (mobilier, literie de qualité, photos). C'est ce qui transforme un appartement en produit qui se réserve.
 
@@ -97,7 +97,7 @@ Et je le redis aux investisseurs pressés : c'est un marathon, pas un sprint. Le
 
 ### Quel budget pour un investissement locatif Airbnb en Île-de-France ?
 
-En couronne Disney, les prix constatés tournent autour de 3 500 à 4 200 €/m² (données publiées sur nos pages villes), soit un T2 autour de 150 000 à 200 000 € hors frais, contre le double aux portes de Paris. Ajoutez les frais d'acquisition, l'ameublement et la mise en exploitation.
+En couronne Disney, les prix médians vont de 3 467 à 4 858 €/m² (Figaro Immobilier au 1er août 2026, repris sur nos pages villes), soit un T2 de 45 m² autour de 156 000 à 219 000 € hors frais, contre le double aux portes de Paris. Ajoutez les frais d'acquisition, l'ameublement et la mise en exploitation.
 
 ### L'investissement Airbnb est-il encore rentable en 2026 ?
 
@@ -122,11 +122,11 @@ L'ancien bien placé offre en général un meilleur prix au m² et du cachet ; l
 ## Sources
 
 - [Observatoire Crédit Logement/CSA, analyse du 2e trimestre 2026](https://lobservatoire.creditlogement.fr/publications/analyse-marche-immobilier-2eme-trimestre-2026/) (taux, durées, activité ; juillet 2026).
+- [Figaro Immobilier, prix de l'immobilier à Serris](https://immobilier.lefigaro.fr/prix-immobilier/serris/ville-77449), estimation au 1er août 2026 (prix médian tous biens) ; même source pour Paris et les autres communes citées.
 - [Loi n° 2025-127 du 14 février 2025 de finances pour 2025](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051168007), article 84 (plus-values LMNP), Légifrance.
 - [Loi n° 2024-1039 du 19 novembre 2024, dite loi Le Meur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711), Légifrance (fiscalité micro-BIC, outils communaux).
 - [Guide pratique 2025 de la réglementation des meublés de tourisme](https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf), ministère de la Transition écologique (septembre 2025).
 - Données villes coolok.co (fourchettes AirDNA croisées, publiées sur les pages communes) ; relevé Airbnb du 23 juillet 2026 (logements entiers, 7 nuits du 14 au 21 septembre 2026, frais inclus : médiane ~120 €/nuit à Serris sur 19 annonces, ~190 €/nuit à Paris sur 14 annonces).
-- Notaires du Grand Paris, données notariales et DVF (niveaux de prix début 2026).
 
 ---
 

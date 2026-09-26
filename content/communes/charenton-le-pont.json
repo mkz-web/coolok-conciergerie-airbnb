@@ -5,8 +5,8 @@
  "slug": "charenton-le-pont",
  "dept": "94",
  "title": "Conciergerie Airbnb Charenton-le-Pont (94), Bercy | Coolok",
- "description": "Accor Arena à une station de métro et un seul meublé autorisé par foyer fiscal : Coolok exploite votre bien à Charenton-le-Pont. 20 % HT tout compris.",
- "h1": "Conciergerie Airbnb à Charenton-le-Pont, à une station de l'Accor Arena",
+ "description": "L'Accor Arena à 2,6 km et un seul meublé autorisé par foyer fiscal : Coolok exploite votre bien à Charenton-le-Pont. 20 % HT tout compris.",
+ "h1": "Conciergerie Airbnb à Charenton-le-Pont, aux portes de Bercy",
  "image": "/assets/img/heros/charenton-le-pont.webp",
  "imageAlt": "Quai des Carrières à Charenton-le-Pont au bord de la Seine en fin de journée",
  "imageWidth": 1200,
@@ -19,7 +19,13 @@
   "prix_nuitee": "90 à 180 €",
   "revenu_mensuel": "2 000 à 4 600 €",
   "taux_occupation": "74 à 84 %",
-  "prix_m2": "7 800 €/m²",
+  "prix_m2": "7 364 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er juillet 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/charenton-le-pont/ville-94018"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Charenton-le-Pont (94) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 90 à 180 € la nuit, avec un taux d'occupation observé de 74 à 84 %, soit 2 000 à 4 600 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
@@ -29,7 +35,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Une demande qui se lit dans un calendrier",
-   "md": "La ligne 8 relie Liberté à Bercy en une station. De l'autre côté, l'Accor Arena affiche 20 300 places et environ 140 événements par an pour près de 1,5 million de spectateurs (Paris Entertainment Company, 2026). Un concert complet un mardi soir crée, de ce côté du périphérique, un besoin de nuitées que la saisonnalité classique ne laisse pas prévoir. Ces dates sont publiques et connues des mois à l'avance : c'est un calendrier de tarification déjà écrit.\n\nLa commune ne vit pas que du spectacle. Elle compte 14 844 emplois pour 28 830 habitants, avec un indicateur de concentration d'emploi de 102,2 (INSEE, recensement 2023), autrement dit plus d'emplois que d'actifs résidents. Le siège d'EssilorLuxottica et les sites de Natixis alimentent une clientèle de semaine. Et la zone d'aménagement Charenton-Bercy, environ 400 000 mètres carrés déclarés d'utilité publique le 25 février 2025, promet des années de chantier, donc des équipes en déplacement long.\n\nDeux réserves à poser franchement. L'hôtellerie est dense pour une ville de cette taille : 3 hôtels et 445 chambres au 1er janvier 2026, soit 15,4 chambres pour 1 000 habitants (INSEE). Il faut donc proposer autre chose qu'une chambre. Et le prix médian au mètre carré recule de 10 % sur un an, à 7 364 EUR au 1er juillet 2026 (Figaro Immobilier) : si vous achetez pour louer, l'arbitrage se calcule sur ce niveau, pas sur la tendance des cinq années passées."
+   "md": "Depuis la station Liberté (ligne 8), l'Accor Arena se trouve à 2,6 km à vol d'oiseau, avec une correspondance à Daumesnil pour rejoindre Bercy par la ligne 6. De l'autre côté du périphérique, la salle affiche 20 300 places et environ 140 événements par an pour près de 1,5 million de spectateurs (Paris Entertainment Company, 2026). Un concert complet un mardi soir crée, de ce côté du périphérique, un besoin de nuitées que la saisonnalité classique ne laisse pas prévoir. Ces dates sont publiques et connues des mois à l'avance : c'est un calendrier de tarification déjà écrit.\n\nLa commune ne vit pas que du spectacle. Elle compte 14 844 emplois pour 28 830 habitants, avec un indicateur de concentration d'emploi de 102,2 (INSEE, recensement 2023), autrement dit plus d'emplois que d'actifs résidents. Le siège d'EssilorLuxottica et les sites de Natixis alimentent une clientèle de semaine. Et la zone d'aménagement Charenton-Bercy, environ 400 000 mètres carrés déclarés d'utilité publique le 25 février 2025, promet des années de chantier, donc des équipes en déplacement long.\n\nDeux réserves à poser franchement. L'hôtellerie est dense pour une ville de cette taille : 3 hôtels et 445 chambres au 1er janvier 2026, soit 15,4 chambres pour 1 000 habitants (INSEE). Il faut donc proposer autre chose qu'une chambre. Et le prix médian au mètre carré recule de 10 % sur un an, à 7 364 EUR au 1er juillet 2026 (Figaro Immobilier) : si vous achetez pour louer, l'arbitrage se calcule sur ce niveau, pas sur la tendance des cinq années passées."
   },
   {
    "type": "table",
@@ -43,13 +49,13 @@
    ],
    "rows": [
     [
-     "Accor Arena (8 boulevard de Bercy, Paris 12e, à une station de la ligne 8 depuis Liberté) : capacité, événements et spectateurs par an",
+     "Accor Arena (8 boulevard de Bercy, Paris 12e, à 2,6 km à vol d'oiseau de la station Liberté, ligne 8 puis ligne 6 depuis Daumesnil) : capacité, événements et spectateurs par an",
      "20 300 places, environ 140 événements et 1,5 million de spectateurs par an.",
      "Paris Entertainment Company (exploitant) ; capacité et volume annuel : Fnac Spectacles et page LinkedIn Accor Arena (2026)"
     ],
     [
      "Calendrier Accor Arena 2026-2027 utile pour la tarification : Lauryn Hill 02/09/2026, UFC Fight Night 05/09, The Neighbourhood 08/09, Katseye 09/09, Tears for Fears 11/10, Christophe Maé 19 et 20/11/2026 (complets), NBA Paris Games 14/01/2027, Gracie Abrams 08/04/2027, Jorja Smith 27/05/2027, Tame Impala 12 et 13/06/2027",
-     "10 dates annoncées",
+     "12 soirées annoncées pour 10 spectacles",
      "BigShow (billetterie officielle vérifiée), jds.fr, lagenda-concerts.fr (2026-09-02)"
     ],
     [
@@ -93,7 +99,7 @@
     {
      "icon": "train",
      "title": "Le quartier Liberté",
-     "text": "La station la plus proche de Bercy : un spectateur qui sort d'un concert à 23 h 30 rentre à pied ou en un arrêt. C'est l'argument le plus vendeur de la commune."
+     "text": "La station charentonnaise la plus proche de Bercy, à 2,6 km à vol d'oiseau de l'Accor Arena : après un concert, le retour se fait à pied ou en métro avec une correspondance à Daumesnil. C'est l'argument le plus vendeur de la commune."
     },
     {
      "icon": "map",
@@ -176,7 +182,7 @@
   },
   {
    "q": "Les concerts à Bercy changent-ils vraiment mes revenus ?",
-   "a": "Ils déplacent la demande sur des dates précises plutôt qu'ils n'augmentent le volume annuel. Une salle de 20 300 places qui affiche complet un soir de semaine crée un besoin de nuitées à une station de métro. Tout l'enjeu est d'avoir ouvert la date et fixé le bon prix avant les autres."
+   "a": "Ils déplacent la demande sur des dates précises plutôt qu'ils n'augmentent le volume annuel. Une salle de 20 300 places qui affiche complet un soir de semaine crée un besoin de nuitées jusqu'à Charenton, à 2,6 km à vol d'oiseau. Tout l'enjeu est d'avoir ouvert la date et fixé le bon prix avant les autres."
   },
   {
    "q": "Quelle taxe de séjour s'applique à Charenton-le-Pont ?",

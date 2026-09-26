@@ -20,7 +20,14 @@
   "prix_nuitee": "75 à 155 €",
   "revenu_mensuel": "1 500 à 3 600 €",
   "taux_occupation": "68 à 80 %",
-  "prix_m2": "4 400 €/m²",
+  "prix_m2": "4 151 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/magny-le-hongre/ville-77268",
+   "representativite": "1 sur 5"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Magny-le-Hongre (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 68 à 80 %, soit 1 500 à 3 600 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

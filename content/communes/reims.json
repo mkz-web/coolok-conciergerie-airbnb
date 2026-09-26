@@ -19,7 +19,13 @@
   "prix_nuitee": "65 à 130 €",
   "revenu_mensuel": "1 100 à 2 800 €",
   "taux_occupation": "55 à 68 %",
-  "prix_m2": "2 800 €/m²",
+  "prix_m2": "3 325 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/reims/ville-51454"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Reims (51) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 65 à 130 € la nuit, avec un taux d'occupation observé de 55 à 68 %, soit 1 100 à 2 800 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

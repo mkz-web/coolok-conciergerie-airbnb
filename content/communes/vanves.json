@@ -19,7 +19,13 @@
   "prix_nuitee": "85 à 170 €",
   "revenu_mensuel": "1 800 à 4 200 €",
   "taux_occupation": "73 à 83 %",
-  "prix_m2": "7 200 €/m²",
+  "prix_m2": "7 992 €/m²",
+  "prix_m2_source": {
+   "editeur": "Figaro Immobilier",
+   "indicateur": "prix médian tous biens",
+   "date": "1er août 2026",
+   "url": "https://immobilier.lefigaro.fr/prix-immobilier/vanves/ville-92075"
+  },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
  "dataIntro": "Coolok exploite votre meublé de tourisme à Vanves (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 85 à 170 € la nuit, avec un taux d'occupation observé de 73 à 83 %, soit 1 800 à 4 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",

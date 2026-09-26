@@ -280,6 +280,8 @@ for (const page of allPages) {
   const main = (html.match(/<main id="contenu">([\s\S]*)<\/main>/) || [])[1] || '';
   const mainText = stripTags(main);
   const words = wordCount(main);
+  const m2s = page.data && page.data.prix_m2 ? page.data.prix_m2_source || {} : null;
+  if (m2s && !(m2s.url && m2s.date && m2s.editeur && m2s.indicateur)) err(page.url, 'prix au m² sans source datée : renseigner data.prix_m2_source (editeur, indicateur, date, url)');
   if (!page.title) err(page.url, 'title manquant'); else if (page.title.length > 65) err(page.url, `title de ${page.title.length} caractères (max 65)`); else if (page.title.length < 20) warn(page.url, 'title très court');
   if (!page.description) err(page.url, 'meta description manquante'); else if (page.description.length > 160) err(page.url, `meta de ${page.description.length} caractères (max 160)`); else if (page.description.length < 70) warn(page.url, `meta courte (${page.description.length})`);
   const h1n = (main.match(/<h1[\s>]/g) || []).length;

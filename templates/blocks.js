@@ -238,9 +238,13 @@ B.datacard = (b, ctx) => {
     ['Prix par nuit observé', d.prix_nuitee],
     ['Taux d\'occupation observé', d.taux_occupation],
     ['Revenu mensuel estimé (logement entier)', d.revenu_mensuel],
-    ['Prix moyen à l\'achat', d.prix_m2],
+    ['Prix médian à l\'achat', d.prix_m2],
   ].filter((r) => r[1]);
-  return `${sectionOpen(b, 'datacard-section')}<div class="datacard">${heading(Object.assign({ h2: `${ctx.page.name} en chiffres` }, b), 2)}${b.intro ? `<p>${inline(b.intro)}</p>` : ''}<dl class="stats-grid stats-4">${rows.map((r) => `<div class="stat"><dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl><p class="source">${inline(b.source || d.source || ctx.site.dataSource)}</p>${b.cta ? `<p class="cta-inline">${btn(b.cta)}</p>` : ''}</div>${sectionClose}`;
+  // Le prix d'achat ne vient pas d'AirDNA (qui ne mesure que la location) : il porte sa propre source datée,
+  // exigée par build.js dès que prix_m2 est renseigné.
+  const s = d.prix_m2 && d.prix_m2_source;
+  const sourceM2 = s ? ` Prix d'achat : ${s.indicateur} estimé par [${s.editeur}](${s.url}) au ${s.date}${s.representativite ? `, avec un indice de représentativité du marché de ${s.representativite} selon l'éditeur` : ''}.` : '';
+  return `${sectionOpen(b, 'datacard-section')}<div class="datacard">${heading(Object.assign({ h2: `${ctx.page.name} en chiffres` }, b), 2)}${b.intro ? `<p>${inline(b.intro)}</p>` : ''}<dl class="stats-grid stats-4">${rows.map((r) => `<div class="stat"><dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl><p class="source">${inline((b.source || d.source || ctx.site.dataSource) + sourceM2)}</p>${b.cta ? `<p class="cta-inline">${btn(b.cta)}</p>` : ''}</div>${sectionClose}`;
 };
 
 function renderBlocks(blocks, ctx) {

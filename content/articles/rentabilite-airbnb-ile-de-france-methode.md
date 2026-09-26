@@ -4,7 +4,7 @@ seo_title: "Rentabilité Airbnb en Île-de-France : la méthode de calcul"
 meta_description: "Brut, net, cashflow : la méthode de calcul de la rentabilité Airbnb en Île-de-France, un exemple chiffré à Serris et les 5 pièges qui faussent le résultat."
 slug: rentabilite-airbnb-ile-de-france-methode
 date: 2026-05-24
-updated: 2026-09-03
+updated: 2026-09-26
 category: "Rentabilité et investissement"
 image: /assets/img/articles/rentabilite-airbnb-ile-de-france-methode.webp
 image_alt: "Calculer la rentabilité d'un Airbnb en Île-de-France : brut, net et cashflow"
@@ -116,7 +116,7 @@ La carte francilienne, relevée sur les délibérations, est dans notre guide de
 
 Nous refusons des dossiers. Les cas qui reviennent le plus souvent :
 
-- **La commune impose une compensation.** C'est le cas de Paris et d'une large part de l'ouest de la petite couronne, dont Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Suresnes, Saint-Cloud, Malakoff et Puteaux. Pour un particulier, l'équation ne se rattrape pas.
+- **La commune impose une compensation.** C'est le cas de Paris et d'une large part de l'ouest de la petite couronne, dont Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Saint-Cloud, Malakoff et Puteaux. Pour un particulier, l'équation ne se rattrape pas.
 - **Le plan local d'urbanisme bloque l'adresse.** À Bussy-Saint-Georges, il n'existe ni changement d'usage ni numéro communal, mais la location d'une résidence secondaire en meublé de tourisme n'est autorisée que dans certaines zones du plan local d'urbanisme (vérifié le 3 septembre 2026). La première vérification porte sur l'adresse, pas sur le bien.
 - **L'autorisation est contingentée.** Montévrain, mitoyenne du Val d'Europe, applique depuis le 1er janvier 2026 une autorisation temporaire de trois ans, une seule par propriétaire, un quota chiffré par zone et un plafond abaissé à 90 nuitées.
 - **La copropriété interdit le meublé de tourisme.** Depuis la loi Le Meur, le loueur informe le syndic et le sujet passe en assemblée générale.

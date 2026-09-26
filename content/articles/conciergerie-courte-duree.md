@@ -4,7 +4,7 @@ seo_title: "Conciergerie location courte durée : 20 % HT, Île-de-France"
 meta_description: "Ce que fait vraiment une conciergerie de location courte durée, ce qu'elle coûte en 2026 (15 à 30 % sur le marché, 20 % HT chez Coolok) et comment la choisir."
 slug: conciergerie-courte-duree
 date: 2026-07-23
-updated: 2026-09-03
+updated: 2026-09-26
 category: "Conciergerie"
 image: /assets/img/articles/conciergerie-courte-duree.webp
 image_alt: "Conciergerie location courte durée : le guide complet 2026"

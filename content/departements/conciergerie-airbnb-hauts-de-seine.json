@@ -22,7 +22,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui nourrit la demande dans les Hauts-de-Seine",
-   "md": "Ici, la demande vient du travail et des salons, pas du tourisme de loisirs. Clichy comptait 39 130 emplois pour 64 410 habitants au recensement INSEE 2023, avec le siège mondial de L'Oréal, les sièges français d'Amazon, de BIC et de Monoprix, et l'hôpital Beaujon et ses 370 lits. Vanves accueille sur son territoire le Pavillon 7 du parc des expositions de la porte de Versailles, dont l'exploitant Viparis annonce plus de 5,5 millions de visiteurs et plus de 200 événements par an sur l'ensemble du site. Asnières-sur-Seine, troisième ville du département avec 93 941 habitants, joue une autre carte : Paris Saint-Lazare en 5 minutes, La Défense en 5 minutes, et jusqu'à 24 trains par heure aux heures de pointe.\n\nPour un propriétaire, le ticket d'entrée diffère fortement. Le mètre carré médian tous biens s'établissait à 8 053 EUR à Clichy au 1er août 2026 selon Figaro Immobilier, contre un marché plus abordable à Asnières. Vanves affiche par ailleurs 5,3 % de résidences secondaires et de logements occasionnels au recensement INSEE 2023, la part la plus élevée des trois communes que nous exploitons dans le département.\n\nDans l'exploitation, tout se joue sur le règlement de votre territoire. Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation (sauf à Colombes et à Gennevilliers, où la compensation s'applique dès le premier logement), mais l'impose au-delà et pour toute société, société civile immobilière comprise. Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux pour tout meublé, et limite ailleurs l'autorisation à trois ans non reconductibles."
+   "md": "Ici, la demande vient du travail et des salons, pas du tourisme de loisirs. Clichy comptait 39 130 emplois pour 64 410 habitants au recensement INSEE 2023, avec le siège mondial de L'Oréal, les sièges français d'Amazon, de BIC et de Monoprix, et l'hôpital Beaujon et ses 370 lits. Vanves accueille sur son territoire le Pavillon 7 du parc des expositions de la porte de Versailles, dont l'exploitant Viparis annonce plus de 5,5 millions de visiteurs et plus de 200 événements par an sur l'ensemble du site. Asnières-sur-Seine, troisième ville du département avec 93 941 habitants, joue une autre carte : Paris Saint-Lazare en 5 minutes, La Défense en 5 minutes, et jusqu'à 24 trains par heure aux heures de pointe.\n\nPour un propriétaire, le ticket d'entrée diffère fortement. Le mètre carré médian tous biens s'établissait à 8 053 EUR à Clichy au 1er août 2026 selon Figaro Immobilier, contre un marché plus abordable à Asnières. Vanves affiche par ailleurs 5,3 % de résidences secondaires et de logements occasionnels au recensement INSEE 2023, la part la plus élevée des trois communes que nous exploitons dans le département.\n\nDans l'exploitation, tout se joue sur le règlement de votre territoire. Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation (sauf à Colombes et à Gennevilliers, où la compensation s'applique dès le premier logement), mais l'impose au-delà et pour toute société, société civile immobilière comprise. Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux pour tout meublé, et limite ailleurs l'autorisation à trois ans (un an à Marnes-la-Coquette), toute reconduction passant par une nouvelle demande."
   },
   {
    "type": "table",
@@ -67,7 +67,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi dans les Hauts-de-Seine",
-   "md": "Dans les Hauts-de-Seine, la règle vient de votre territoire et non du département : Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation à Asnières-sur-Seine et à Clichy, tandis que Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux et limite ailleurs l'autorisation à trois ans non reconductibles. Toute personne morale, société civile immobilière incluse, est soumise à compensation dans les deux territoires, ce que nous contrôlons avec vos statuts en main avant de signer.",
+   "md": "Dans les Hauts-de-Seine, la règle vient de votre territoire et non du département : Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation à Asnières-sur-Seine et à Clichy, tandis que Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux et limite ailleurs l'autorisation à trois ans (un an à Marnes-la-Coquette), toute reconduction passant par une nouvelle demande. Toute personne morale, société civile immobilière incluse, est soumise à compensation dans les deux territoires, ce que nous contrôlons avec vos statuts en main avant de signer.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -123,7 +123,7 @@
     ],
     [
      "Grand Paris Seine Ouest : Chaville, Meudon, Sèvres, Ville-d'Avray, Marnes-la-Coquette",
-     "Un logement sans compensation, autorisation de 3 ans non reconductible",
+     "Un logement sans compensation, autorisation de 3 ans (1 an à Marnes-la-Coquette), toute reconduction passant par une nouvelle demande",
      "Compensation exigée",
      "120 jours par année civile"
     ],
@@ -135,12 +135,12 @@
     ],
     [
      "Vanves",
-     "Un logement sans compensation, autorisation de 3 ans non reconductible",
+     "Un logement sans compensation, autorisation de 3 ans, toute reconduction passant par une nouvelle demande",
      "Compensation exigée",
      "90 jours depuis le 1er janvier 2026"
     ]
    ],
-   "source": "Règlement de l'établissement public territorial Boucle Nord de Seine approuvé le 24 juin 2021 et modifié le 21 septembre 2023, règlement de Grand Paris Seine Ouest du 26 juin 2018 applicable au 1er janvier 2019, délibération du conseil municipal de Vanves du 24 juin 2025. Documents lus le 3 septembre 2026."
+   "source": "Règlement de l'établissement public territorial Boucle Nord de Seine approuvé le 24 juin 2021 et modifié le 21 septembre 2023, règlement de Grand Paris Seine Ouest adopté le 25 juin 2025 et applicable depuis le 1er septembre 2025 (lu le 26 septembre 2026), délibération du conseil municipal de Vanves du 24 juin 2025. Documents lus le 3 septembre 2026."
   },
   {
    "type": "callout",
@@ -191,7 +191,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer en meublé de tourisme dans les Hauts-de-Seine ?",
-   "a": "Oui, pour tout logement autre que votre résidence principale, dans les communes que nous exploitons. À Clichy et à Asnières-sur-Seine, elle est accordée sans compensation pour un logement par personne physique depuis le 1er octobre 2021. À Vanves, elle dure trois ans et n'est pas reconductible. Le dossier passe par le service urbanisme de la commune."
+   "a": "Oui, pour tout logement autre que votre résidence principale, dans les communes que nous exploitons. À Clichy et à Asnières-sur-Seine, elle est accordée sans compensation pour un logement par personne physique depuis le 1er octobre 2021. À Vanves, elle dure trois ans, et toute reconduction passe par une nouvelle demande. Le dossier passe par le service urbanisme de la commune."
   },
   {
    "q": "Ma SCI peut-elle louer en courte durée dans les Hauts-de-Seine ?",

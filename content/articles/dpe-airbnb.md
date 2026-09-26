@@ -4,7 +4,7 @@ seo_title: "DPE Airbnb obligatoire ? Le vrai calendrier 2026-2034"
 meta_description: "Bail classique : G interdit depuis 2025. Meublé de tourisme : DPE A-E à l'autorisation, A-D en 2034. Les deux calendriers DPE, texte de loi à l'appui."
 slug: dpe-airbnb
 date: 2026-08-17
-updated: 2026-08-17
+updated: 2026-09-26
 category: "Réglementation"
 image: /assets/img/articles/dpe-airbnb.webp
 image_alt: "DPE et Airbnb : obligatoire ou pas ? Le vrai calendrier"

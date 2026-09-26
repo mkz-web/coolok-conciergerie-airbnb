@@ -82,7 +82,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Vanves",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : non pour une personne physique dans la limite d'un logement ; oui au-delà d'un logement et pour toute personne morale (art. 6)\n- **Si vous louez votre résidence principale** : 90 jours depuis le 01/01/2026. Délibération lue intégralement le 03/09/2026 : point 7 du conseil municipal du 24/06/2025 (convocation du 18/06/2025), intitulé « Abaissement à 90 jours du nombre maximal de jours ».\n- **À prévoir dans votre dossier** : logement décent, pas de logement subventionné par GPSO ni conventionné ; DPE A à E (L631-10) ; attestation copropriété (L631-7-1 A)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/vanves.php) et [document de référence](https://www.vanves.fr/app/uploads/2025/07/LISTE-DES-DELIBERATIONS-CM-24-06-2025.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non pour une personne physique dans la limite d'un logement ; oui au-delà d'un logement et pour toute personne morale (art. 5 du [règlement de Grand Paris Seine Ouest](https://www.seineouest.fr/app/uploads/2025/09/Reglement-changement-usage-GPSO.pdf) en vigueur depuis le 1er septembre 2025)\n- **Si vous louez votre résidence principale** : 90 jours depuis le 01/01/2026. Délibération lue intégralement le 03/09/2026 : point 7 du conseil municipal du 24/06/2025 (convocation du 18/06/2025), intitulé « Abaissement à 90 jours du nombre maximal de jours ».\n- **À prévoir dans votre dossier** : logement décent, pas de logement social, conventionné avec l'Anah ou aidé dans le cadre d'une opération programmée d'amélioration de l'habitat (sauf remboursement des aides) ; DPE A à E (L631-10) ; attestation copropriété (L631-7-1 A)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/vanves.php) et [document de référence](https://www.vanves.fr/app/uploads/2025/07/LISTE-DES-DELIBERATIONS-CM-24-06-2025.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprendre la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -178,7 +178,7 @@
   },
   {
    "q": "Faut-il une autorisation pour louer un second logement à Vanves ?",
-   "a": "Hors résidence principale, l'autorisation de changement d'usage est obligatoire. Elle est accordée sans compensation à une personne physique, pour un seul logement et pour trois ans non reconductibles. Toute société est soumise à compensation. Ce cadre est le plus strict de nos communes des Hauts-de-Seine : nous vous disons franchement si votre projet n'est pas tenable."
+   "a": "Hors résidence principale, l'autorisation de changement d'usage est obligatoire. Elle est accordée sans compensation à une personne physique, pour un seul logement et pour trois ans, toute reconduction passant par une nouvelle demande. Toute société est soumise à compensation. Ce cadre est le plus strict de nos communes des Hauts-de-Seine : nous vous disons franchement si votre projet n'est pas tenable."
   },
   {
    "q": "Quelle taxe de séjour s'applique à Vanves ?",

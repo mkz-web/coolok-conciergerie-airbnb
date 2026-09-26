@@ -4,7 +4,7 @@ seo_title: "Location courte durée : les nouvelles règles 2026 (90 jours)"
 meta_description: "Plafond de 120 ou 90 jours, enregistrement, changement d'usage, DPE, amendes : les nouvelles règles de la location courte durée, commune par commune."
 slug: lcd-guide-complet
 date: 2025-11-11
-updated: 2026-09-03
+updated: 2026-09-26
 category: "Réglementation"
 image: /assets/img/articles/lcd-guide-complet.webp
 image_alt: "Location courte durée : les nouvelles règles 2026 et la règle des 90 jours"
@@ -129,7 +129,7 @@ Voici le classement que nous utilisons avant d'accepter un mandat. Il ne remplac
 |---|---|---|
 | **Aucune autorisation** | Déclaration en mairie, plafond de 120 jours pour la résidence principale | [Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges) (filtre par zone du plan local d'urbanisme), [Chalifert](/conciergerie-airbnb-chalifert), [Saint-Germain-en-Laye](/conciergerie-airbnb-saint-germain-en-laye), Fontainebleau, Melun, Massy |
 | **Autorisation sans compensation** | Un dossier à monter, une durée limitée, un DPE de classe A à E | [Montreuil](/conciergerie-airbnb-montreuil) et [Pantin](/conciergerie-airbnb-pantin), [Clichy](/conciergerie-airbnb-clichy) et [Asnières-sur-Seine](/conciergerie-airbnb-asnieres-sur-seine), [Versailles](/conciergerie-airbnb-versailles), [Villejuif](/conciergerie-airbnb-villejuif), [Saint-Maur-des-Fossés](/conciergerie-airbnb-saint-maur-des-fosses), [Joinville-le-Pont](/conciergerie-airbnb-joinville-le-pont), [Nogent-sur-Marne](/conciergerie-airbnb-nogent-sur-marne), [Magny-le-Hongre](/conciergerie-airbnb-magny-le-hongre), [Bailly-Romainvilliers](/conciergerie-airbnb-bailly-romainvilliers), [Reims](/conciergerie-airbnb-reims), Enghien-les-Bains |
-| **Compensation, quota ou 90 jours** | L'équation change : à vérifier avant tout achat | [Paris](/conciergerie-airbnb-paris) (compensation jusqu'au triple de la surface dans neuf arrondissements, 90 jours), [Vincennes](/conciergerie-airbnb-vincennes) (90 jours, compensation au 3e bien), [Vanves](/conciergerie-airbnb-vanves) (90 jours, autorisation de 3 ans non reconductible), [Charenton-le-Pont](/conciergerie-airbnb-charenton-le-pont) (un logement par foyer fiscal), [Chessy](/conciergerie-airbnb-chessy) et [Serris](/conciergerie-airbnb-serris) (compensation pour les sociétés dans certaines ZAC), Roissy-en-France, Montévrain |
+| **Compensation, quota ou 90 jours** | L'équation change : à vérifier avant tout achat | [Paris](/conciergerie-airbnb-paris) (compensation jusqu'au triple de la surface dans neuf arrondissements, 90 jours), [Vincennes](/conciergerie-airbnb-vincennes) (90 jours, compensation au 3e bien), [Vanves](/conciergerie-airbnb-vanves) (90 jours, autorisation de 3 ans, reconduction sur nouvelle demande), [Charenton-le-Pont](/conciergerie-airbnb-charenton-le-pont) (un logement par foyer fiscal), [Chessy](/conciergerie-airbnb-chessy) et [Serris](/conciergerie-airbnb-serris) (compensation pour les sociétés dans certaines ZAC), Roissy-en-France, Montévrain |
 
 *Relevés MKZ Consulting du 3 septembre 2026, à partir des délibérations et des pages officielles des communes et de leurs intercommunalités. Ces régimes se créent et se durcissent par simple délibération : la vérification en mairie reste indispensable avant tout engagement.*
 

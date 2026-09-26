@@ -4,7 +4,7 @@ seo_title: "Loi Le Meur : ce qui change pour la location courte durée"
 meta_description: "Plafond de 90 jours, changement d'usage, DPE, amendes : ce que la loi Le Meur change vraiment pour les propriétaires en location courte durée."
 slug: loi-le-meur
 date: 2026-07-23
-updated: 2026-07-23
+updated: 2026-09-26
 category: "Réglementation"
 image: /assets/img/articles/loi-le-meur.webp
 image_alt: "Loi Le Meur : ce qui change vraiment pour votre location courte durée"
@@ -78,7 +78,7 @@ Voici la carte réelle, telle qu'elle ressort des délibérations communales et 
 
 ### Les communes qui ont durci
 
-Paris cumule le plafond de 90 jours et un changement d'usage avec compensation. L'ouest de la petite couronne a suivi la même ligne : Boulogne-Billancourt et Puteaux ajoutent la compensation au plafond réduit, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Suresnes, Saint-Cloud et Malakoff exigent la compensation. Ailleurs, quelques cas isolés : Fontenay-sous-Bois (compensation depuis le 1er mai 2025), Les Lilas (compensation), Romainville (90 jours), Roissy-en-France (quota d'une autorisation par personne).
+Paris cumule le plafond de 90 jours et un changement d'usage avec compensation. L'ouest de la petite couronne a suivi la même ligne : Puteaux ajoute la compensation au plafond réduit, Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Saint-Cloud et Malakoff exigent la compensation. Suresnes reste plus souple : un particulier peut y obtenir, pour un seul logement, une autorisation de trois ans sans compensation, non reconductible. Ailleurs, quelques cas isolés : Fontenay-sous-Bois (compensation depuis le 1er mai 2025), Les Lilas (compensation), Romainville (90 jours), Roissy-en-France (quota d'une autorisation par personne).
 
 Dans ces communes, l'investissement en logement dédié est structurellement pénalisé. C'est la limite honnête de notre thèse : là où la compensation s'applique, l'équation change réellement, et aucun montage ne l'annule.
 

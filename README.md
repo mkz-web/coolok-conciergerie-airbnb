@@ -1,6 +1,6 @@
 # Coolok, conciergerie Airbnb en Île-de-France : le site et son générateur
 
-> Code © MKZ Consulting, contenus, textes et images © Coolok Services. Tous droits réservés : ce dépôt est public pour la transparence et la référence, il n'accorde aucune licence de réutilisation du code ni des contenus. Site en production : https://www.coolok.co
+> Code © MKZ Consulting, contenus, textes et images © Coolok Services, à l'exception des photos de lieux publiées par leurs auteurs sous licence libre, listées avec leur auteur, leur licence et leur source dans `content/credits-photos.json` et créditées sur chaque page qui les affiche. Tous droits réservés pour le reste : ce dépôt est public pour la transparence et la référence, il n'accorde aucune licence de réutilisation du code ni des contenus. Site en production : https://www.coolok.co
 
 Ce dépôt contient le site de [Coolok](https://www.coolok.co), conciergerie Airbnb et location courte durée en Île-de-France, et le générateur statique qui le produit. La première partie présente l'entreprise, son offre et ses pages. La seconde documente le code : générateur Node sans aucune dépendance, contrôles de livraison bloquants, déploiement sur Cloudflare Workers.
 

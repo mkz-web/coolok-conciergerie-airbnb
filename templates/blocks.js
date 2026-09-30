@@ -59,6 +59,18 @@ function sectionOpen(block, cls) {
 }
 const sectionClose = '</div></section>';
 
+// Crédit d'une photo sous licence libre (registre content/credits-photos.json, écrit par le skill
+// photos-libres). La licence CC BY et CC BY-SA exige l'auteur, la licence et un lien vers l'œuvre :
+// on les affiche au plus près de la photo, et build.js refuse une photo du registre sans son crédit.
+// Les licences CC gardent leur nom international ; le domaine public se dit en français.
+const libelleLicence = (l) => String(l || '').replace(/^Public domain$/i, 'Domaine public');
+
+function creditPhoto(src, ctx) {
+  const c = ctx && ctx.data && ctx.data.credits && ctx.data.credits[src];
+  if (!c) return '';
+  return `<span class="credit-photo" data-credit="${esc(src)}">Photo : <a href="${esc(c.source)}" rel="noopener nofollow" target="_blank">${esc(c.auteur)}</a>, <a href="${esc(c.licenceUrl)}" rel="license noopener nofollow" target="_blank">${esc(libelleLicence(c.licence))}</a>, via ${esc(c.plateforme)}</span>`;
+}
+
 function mdHtml(text, ctx) {
   if (!text) return '';
   return md.render(text, { shiftHeadings: 0 }).html;
@@ -77,7 +89,7 @@ B.hero = (b, ctx) => {
     ${b.ctas && b.ctas.length ? `<div class="cta-row">${b.ctas.map((c, i) => btn(c, i === 0 ? '' : '')).join('')}</div>` : ''}
     ${trust ? `<ul class="trust-list">${trust}</ul>` : ''}
   </div>
-  ${img ? `<figure class="hero-media"><img src="${esc(img.src)}" alt="${esc(img.alt || '')}" width="${img.width || 960}" height="${img.height || 640}" fetchpriority="high" decoding="async"></figure>` : ''}
+  ${img ? `<figure class="hero-media"><img src="${esc(img.src)}" alt="${esc(img.alt || '')}" width="${img.width || 960}" height="${img.height || 640}" fetchpriority="high" decoding="async">${creditPhoto(img.src, ctx) ? `<figcaption>${creditPhoto(img.src, ctx)}</figcaption>` : ''}</figure>` : ''}
 </div></section>`;
 };
 
@@ -213,7 +225,21 @@ B.simulateur = (b, ctx) => {
 </div>${sectionClose}`;
 };
 
-B.image = (b, ctx) => `${sectionOpen(b, 'image-section')}<figure class="figure"><img src="${esc(b.src)}" alt="${esc(b.alt || '')}" width="${b.width || 1200}" height="${b.height || 700}" loading="lazy">${b.caption ? `<figcaption>${inline(b.caption)}</figcaption>` : ''}</figure>${sectionClose}`;
+B.image = (b, ctx) => {
+  const credit = creditPhoto(b.src, ctx);
+  const legende = [b.caption ? inline(b.caption) : '', credit].filter(Boolean).join(' ');
+  return `${sectionOpen(b, 'image-section')}<figure class="figure"><img src="${esc(b.src)}" alt="${esc(b.alt || '')}" width="${b.width || 1200}" height="${b.height || 700}" loading="lazy">${legende ? `<figcaption>${legende}</figcaption>` : ''}</figure>${sectionClose}`;
+};
+
+// Liste complète des crédits photos (mentions légales) : titre, auteur, licence, source et
+// modifications, ce que la légende courte sous chaque photo ne peut pas porter.
+B.creditsPhotos = (b, ctx) => {
+  const items = Object.entries((ctx.data && ctx.data.credits) || {}).sort((x, y) => String(x[1].sujet).localeCompare(String(y[1].sujet), 'fr'));
+  if (!items.length) return '';
+  const modif = (m) => (m ? ' ' + esc(m.charAt(0).toUpperCase() + m.slice(1)) + '.' : '');
+  const lien = (href, texte, rel) => `<a href="${esc(href)}" rel="${rel || 'noopener nofollow'}" target="_blank">${esc(texte)}</a>`;
+  return `${sectionOpen(b, 'rich')}<div class="prose">${heading(b, 2)}${b.intro ? `<p>${inline(b.intro)}</p>` : ''}<ul class="credits-list">${items.map(([, c]) => `<li><strong>${esc(c.sujet)}</strong> : photo ${lien(c.source, '« ' + c.titre + ' »')} de ${c.auteurUrl ? lien(c.auteurUrl, c.auteur) : esc(c.auteur)}, ${/^Public domain$/i.test(c.licence) ? 'placée dans le ' + lien(c.licenceUrl, 'domaine public', 'license noopener nofollow') + ' par son auteur' : 'sous licence ' + lien(c.licenceUrl, c.licence, 'license noopener nofollow')}, via ${esc(c.plateforme)}.${modif(c.modifications)}</li>`).join('')}</ul></div>${sectionClose}`;
+};
 
 B.checklist = (b, ctx) => `${sectionOpen(b, 'checklist')}<div class="prose">${heading(b, 2)}${b.intro ? `<p>${inline(b.intro)}</p>` : ''}<ul class="check-list">${(b.items || []).map((x) => `<li>${ic('check')}${inline(x)}</li>`).join('')}</ul>${b.cta ? `<p class="cta-inline">${btn(b.cta)}</p>` : ''}</div>${sectionClose}`;
 
@@ -255,4 +281,4 @@ function renderBlocks(blocks, ctx) {
   }).join('\n');
 }
 
-module.exports = { B, renderBlocks, btn, ic, ICONS };
+module.exports = { B, renderBlocks, btn, ic, ICONS, creditPhoto };

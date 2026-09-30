@@ -111,6 +111,10 @@ address{font-style:normal}
 .hero h1{margin-bottom:.75rem}
 .hero .lead{font-size:var(--fs-1);color:var(--ink)}
 .hero-media img{border-radius:var(--radius);box-shadow:var(--shadow);aspect-ratio:3/2;object-fit:cover;width:100%}
+.hero-media figcaption,.article-hero-media figcaption{margin-top:.5rem;text-align:right;line-height:1.4}
+.credit-photo{font-size:.78rem;color:var(--muted)}
+.credit-photo a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.credits-list li{margin-bottom:.6rem;overflow-wrap:anywhere}
 .trust-list{list-style:none;padding:0;margin:1.25rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;font-size:.92rem;color:var(--muted)}
 .trust-list li{display:flex;align-items:center;margin:0}
 .trust-list .ic{color:var(--gold-2)}

@@ -16,7 +16,7 @@ Le build ÉCHOUE si : title > 65 caractères, meta description > 160, H1 absent 
 - `content/pages/<nom>.json` : accueil, services, tarifs, simulateur, contact, équipe, logements, blog, hub, mentions légales, merci, 404.
 - `content/communes/<slug>.json` (type commune), `content/departements/<slug>.json` (type departement), `content/zones/<slug>.json` (type zone).
 - `content/articles/<slug>.md` : guides (Markdown + frontmatter).
-- Images : `/assets/img/heros/<slug>.webp` pour les pages, `/assets/img/articles/<slug>.webp` pour les guides. Si l'image n'existe pas encore, laisser le chemin prévu ET remplir `imageBrief` (une phrase, hors Paris, photo éditoriale réaliste, bleu nuit et or) : l'agent images la produira. Le build signale les images absentes : réutiliser provisoirement `/assets/img/heros/salon-bleu.webp` si nécessaire.
+- Images : `/assets/img/heros/<slug>.webp` pour les pages, `/assets/img/articles/<slug>.webp` pour les guides. Pour une page de lieu, préférer une VRAIE photo sous licence libre (skill `photos-libres` : recherche, filtres juridiques, récupération) : son crédit vit dans `content/credits-photos.json`, écrit par le script, jamais à la main ; le gabarit l'affiche sous la photo et dans les mentions légales, et le build refuse une photo du registre sans crédit. Jamais une photo libre pour montrer un logement, l'équipe ou un client : celles-là viennent de Coolok. Si l'image n'existe pas encore, laisser le chemin prévu ET remplir `imageBrief` (une phrase, hors Paris, photo éditoriale réaliste, bleu nuit et or) : l'agent images la produira. Le build signale les images absentes : réutiliser provisoirement `/assets/img/heros/salon-bleu.webp` si nécessaire.
 
 ## 3. Champs d'une page JSON
 ```

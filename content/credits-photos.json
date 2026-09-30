@@ -1,0 +1,727 @@
+{
+ "_lisezmoi": "Crédits des photos sous licence libre utilisées par le site. Une entrée par fichier publié, écrite par recuperer-photo.mjs (skill photos-libres). Le site affiche le crédit à côté de chaque photo et la liste complète dans les mentions légales. Ne pas éditer à la main sans relire la licence à la source.",
+ "photos": {
+  "/assets/img/heros/alfortville.webp": {
+   "sujet": "Quai Pierre-Cosmi, Alfortville",
+   "titre": "Alfortville (94) Quai Pierre Cosmi Passerelle industrielle d'Ivry-Charenton 195",
+   "auteur": "GFreihalter",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:GFreihalter",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Alfortville_(94)_Quai_Pierre_Cosmi_Passerelle_industrielle_d%27Ivry-Charenton_195.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Alfortville (94) Quai Pierre Cosmi Passerelle industrielle d'Ivry-Charenton 195.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 800,
+   "octets": 110688,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/asnieres-sur-seine.webp": {
+   "sujet": "Hôtel de ville d'Asnières-sur-Seine",
+   "titre": "Mairie Asnières",
+   "auteur": "Brumathechec",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Brumathechec&action=edit&redlink=1",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mairie_Asni%C3%A8res.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Mairie Asnières.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 117390,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/bailly-romainvilliers.webp": {
+   "sujet": "Église Notre-Dame-de-l'Assomption, Bailly-Romainvilliers",
+   "titre": "Église Notre Dame Assomption - Bailly-Romainvilliers (FR77) - 2025-08-12 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre_Dame_Assomption_-_Bailly-Romainvilliers_(FR77)_-_2025-08-12_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Église Notre Dame Assomption - Bailly-Romainvilliers (FR77) - 2025-08-12 - 1.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 116696,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/bussy-saint-georges.webp": {
+   "sujet": "Étang de la Broce, Bussy-Saint-Georges",
+   "titre": "Panoramique de l'étang de la Broce",
+   "auteur": "Tangopaso",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Tangopaso",
+   "licence": "Public domain",
+   "licenceUrl": "https://commons.wikimedia.org/wiki/File:Panoramique_de_l%27%C3%A9tang_de_la_Broce.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Panoramique_de_l%27%C3%A9tang_de_la_Broce.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Panoramique de l'étang de la Broce.jpg",
+   "modifications": "redimensionnée à 1920 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1920,
+   "hauteur": 548,
+   "octets": 121800,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « Public domain » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "domaine public : lire le motif sur la page source (PD-self convient, un PD-US seul ne vaut pas en France)",
+    "domaine public sans URL de licence : le lien de licence pointe vers la page du fichier, qui porte la déclaration"
+   ]
+  },
+  "/assets/img/heros/chalifert.webp": {
+   "sujet": "Canal de Chalifert",
+   "titre": "Canal Chalifert - Chalifert (FR77) - 2025-08-03 - 3",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Canal_Chalifert_-_Chalifert_(FR77)_-_2025-08-03_-_3.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Canal Chalifert - Chalifert (FR77) - 2025-08-03 - 3.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 118666,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/charenton-le-pont.webp": {
+   "sujet": "La Seine à Charenton-le-Pont",
+   "titre": "Seine Charenton-le-Pont",
+   "auteur": "Adiborg",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Adiborg&action=edit&redlink=1",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Seine_Charenton-le-Pont.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Seine Charenton-le-Pont.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 802,
+   "octets": 102720,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/chennevieres-sur-marne.webp": {
+   "sujet": "Église Saint-Pierre-et-Saint-Paul, Chennevières-sur-Marne",
+   "titre": "Eglise Ss Pierre et Paul de Chennevières",
+   "auteur": "Melusane",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Melusane&action=edit&redlink=1",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Eglise_Ss_Pierre_et_Paul_de_Chennevi%C3%A8res.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Eglise Ss Pierre et Paul de Chennevières.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1200,
+   "hauteur": 800,
+   "octets": 114030,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/chessy.webp": {
+   "sujet": "Château de Chessy",
+   "titre": "Chessy Château",
+   "auteur": "Lipton1989",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Lipton1989&action=edit&redlink=1",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Chessy_Ch%C3%A2teau.png",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Chessy Château.png",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 675,
+   "octets": 120920,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/clichy.webp": {
+   "sujet": "Jardin du pavillon Vendôme, Clichy",
+   "titre": "Clichy - Jardin du Pavillon Vendôme - IMG 20190710 112029 09",
+   "auteur": "Claude villetaneuse",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Claude_villetaneuse",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Clichy_-_Jardin_du_Pavillon_Vend%C3%B4me_-_IMG_20190710_112029_09.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Clichy - Jardin du Pavillon Vendôme - IMG 20190710 112029 09.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 116558,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-essonne.webp": {
+   "sujet": "Halle de Milly-la-Forêt (Essonne)",
+   "titre": "La Halle de Milly-la-Forêt",
+   "auteur": "Amelieg148",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Amelieg148&action=edit&redlink=1",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:La_Halle_de_Milly-la-For%C3%AAt.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:La Halle de Milly-la-Forêt.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 118648,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-hauts-de-seine.webp": {
+   "sujet": "Temple de l'Amour, île de la Jatte (Hauts-de-Seine)",
+   "titre": "Temple de l'Amour a Neuilly 001",
+   "auteur": "Moonik",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Moonik",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Temple_de_l%27Amour_a_Neuilly_001.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Temple de l'Amour a Neuilly 001.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 574,
+   "octets": 115656,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-seine-et-marne.webp": {
+   "sujet": "Bords du Loing, Moret-sur-Loing (Seine-et-Marne)",
+   "titre": "Moret-Loing-et-Orvanne (77) Bords du Loing 975",
+   "auteur": "GFreihalter",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:GFreihalter",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Moret-Loing-et-Orvanne_(77)_Bords_du_Loing_975.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Moret-Loing-et-Orvanne (77) Bords du Loing 975.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1020,
+   "hauteur": 680,
+   "octets": 121380,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-seine-saint-denis.webp": {
+   "sujet": "Murs à pêches, Montreuil (Seine-Saint-Denis)",
+   "titre": "Espace Vert Murs Pêches - Montreuil (FR93) - 2024-06-19 - 2",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Espace_Vert_Murs_P%C3%AAches_-_Montreuil_(FR93)_-_2024-06-19_-_2.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Espace Vert Murs Pêches - Montreuil (FR93) - 2024-06-19 - 2.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 121042,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-val-d-oise.webp": {
+   "sujet": "Lac d'Enghien, Enghien-les-Bains (Val-d'Oise)",
+   "titre": "Lac Enghien - Enghien-les-Bains (FR95) - 2022-08-13 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lac_Enghien_-_Enghien-les-Bains_(FR95)_-_2022-08-13_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Lac Enghien - Enghien-les-Bains (FR95) - 2022-08-13 - 1.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 900,
+   "octets": 97986,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-val-de-marne.webp": {
+   "sujet": "Hôtel de ville du Perreux-sur-Marne (Val-de-Marne)",
+   "titre": "Mairie Perreux Marne 28",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mairie_Perreux_Marne_28.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Mairie Perreux Marne 28.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1200,
+   "hauteur": 800,
+   "octets": 120604,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/dept-yvelines.webp": {
+   "sujet": "Montfort-l'Amaury vu du château (Yvelines)",
+   "titre": "Montfort-l'Amaury @ Château de Montfort",
+   "auteur": "Rémih",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:R%C3%A9mih",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Montfort-l%27Amaury_@_Ch%C3%A2teau_de_Montfort.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Montfort-l'Amaury @ Château de Montfort.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 674,
+   "octets": 93016,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/fontainebleau.webp": {
+   "sujet": "Grotte des Montussiennes, forêt de Fontainebleau",
+   "titre": "Forêt de Fontainebleau-Grotte des Montussiennes VN-20180525",
+   "auteur": "Daniel VILLAFRUELA",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Daniel_VILLAFRUELA",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:For%C3%AAt_de_Fontainebleau-Grotte_des_Montussiennes_VN-20180525.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Forêt de Fontainebleau-Grotte des Montussiennes VN-20180525.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 576,
+   "octets": 104968,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/ivry-sur-seine.webp": {
+   "sujet": "Hôtel de ville d'Ivry-sur-Seine",
+   "titre": "Hôtel Ville - Ivry-sur-Seine (FR94) - 2023-02-05 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Ivry-sur-Seine_(FR94)_-_2023-02-05_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel Ville - Ivry-sur-Seine (FR94) - 2023-02-05 - 1.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 93990,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/joinville-le-pont.webp": {
+   "sujet": "La Marne à Joinville-le-Pont",
+   "titre": "Établissement Nautique Société Nautique Marne - Joinville-le-Pont (FR94) - 2021-02-03 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89tablissement_Nautique_Soci%C3%A9t%C3%A9_Nautique_Marne_-_Joinville-le-Pont_(FR94)_-_2021-02-03_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Établissement Nautique Société Nautique Marne - Joinville-le-Pont (FR94) - 2021-02-03 - 1.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 122774,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/magny-le-hongre.webp": {
+   "sujet": "Étang de la Boiserie, Magny-le-Hongre",
+   "titre": "Étang Boiserie - Magny-le-Hongre (FR77) - 2025-08-09 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89tang_Boiserie_-_Magny-le-Hongre_(FR77)_-_2025-08-09_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Étang Boiserie - Magny-le-Hongre (FR77) - 2025-08-09 - 1.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 98152,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/maisons-alfort.webp": {
+   "sujet": "Hôtel de ville de Maisons-Alfort",
+   "titre": "Hôtel Ville - Maisons-Alfort (FR94) - 2021-03-05 - 2",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Maisons-Alfort_(FR94)_-_2021-03-05_-_2.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel Ville - Maisons-Alfort (FR94) - 2021-03-05 - 2.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1200,
+   "hauteur": 736,
+   "octets": 107860,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/melun.webp": {
+   "sujet": "Hôtel de ville de Melun",
+   "titre": "Melun - Hôtel de ville - 20051111",
+   "auteur": "Tej",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Tej&action=edit&redlink=1",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Melun_-_H%C3%B4tel_de_ville_-_20051111.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Melun - Hôtel de ville - 20051111.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 900,
+   "octets": 116636,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/montreuil.webp": {
+   "sujet": "Église Saint-Pierre-et-Saint-Paul, Montreuil",
+   "titre": "Église Sts Pierre Paul & Justice Paix - Montreuil (FR93) - 2020-10-22 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Sts_Pierre_Paul_%26_Justice_Paix_-_Montreuil_(FR93)_-_2020-10-22_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Église Sts Pierre Paul & Justice Paix - Montreuil (FR93) - 2020-10-22 - 1.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1200,
+   "hauteur": 701,
+   "octets": 105576,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/nogent-sur-marne.webp": {
+   "sujet": "Port de Nogent-sur-Marne",
+   "titre": "Port Nogent - Nogent-sur-Marne (FR94) - 2025-03-22 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Port_Nogent_-_Nogent-sur-Marne_(FR94)_-_2025-03-22_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Port Nogent - Nogent-sur-Marne (FR94) - 2025-03-22 - 1.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 115260,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/pantin.webp": {
+   "sujet": "Hôtel de ville de Pantin",
+   "titre": "Hôtel Ville - Pantin (FR93) - 2022-07-12 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Pantin_(FR93)_-_2022-07-12_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel Ville - Pantin (FR93) - 2022-07-12 - 1.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "largeur": 864,
+   "hauteur": 643,
+   "octets": 109442,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/reims.webp": {
+   "sujet": "Palais du Tau et cathédrale Notre-Dame de Reims",
+   "titre": "Palais du Tau and Cathédrale Notre-Dame de Reims, East View 20140306",
+   "auteur": "DXR / Daniel Vorndran",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:DXR",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Palais_du_Tau_and_Cath%C3%A9drale_Notre-Dame_de_Reims,_East_View_20140306.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Palais du Tau and Cathédrale Notre-Dame de Reims, East View 20140306.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1020,
+   "hauteur": 730,
+   "octets": 117614,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/saint-germain-en-laye.webp": {
+   "sujet": "Place du Marché-Neuf, Saint-Germain-en-Laye",
+   "titre": "Place Marché Neuf - Saint-Germain-en-Laye (FR78) - 2024-06-08 - 1",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Place_March%C3%A9_Neuf_-_Saint-Germain-en-Laye_(FR78)_-_2024-06-08_-_1.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Place Marché Neuf - Saint-Germain-en-Laye (FR78) - 2024-06-08 - 1.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 114646,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/saint-mande.webp": {
+   "sujet": "Lac de Saint-Mandé, bois de Vincennes",
+   "titre": "Lac Saint Mandé - Paris XII (FR75) - 2022-02-19 - 4",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lac_Saint_Mand%C3%A9_-_Paris_XII_(FR75)_-_2022-02-19_-_4.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Lac Saint Mandé - Paris XII (FR75) - 2022-02-19 - 4.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 108852,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/saint-maur-des-fosses.webp": {
+   "sujet": "Hôtel de ville de Saint-Maur-des-Fossés",
+   "titre": "Hôtel ville St Maur Fossés 11",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_St_Maur_Foss%C3%A9s_11.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel ville St Maur Fossés 11.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 56)",
+   "largeur": 1200,
+   "hauteur": 773,
+   "octets": 120010,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/saint-maurice.webp": {
+   "sujet": "Moulin de la Chaussée, Saint-Maurice",
+   "titre": "Moulin Chaussée - Saint-Maurice (FR94) - 2026-08-11 - 5",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Moulin_Chauss%C3%A9e_-_Saint-Maurice_(FR94)_-_2026-08-11_-_5.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Moulin Chaussée - Saint-Maurice (FR94) - 2026-08-11 - 5.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 648,
+   "octets": 114622,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/serris.webp": {
+   "sujet": "Église Saint-Michel, Serris",
+   "titre": "Église Saint Michel - Serris (FR77) - 2025-08-09 - 4",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint_Michel_-_Serris_(FR77)_-_2025-08-09_-_4.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Église Saint Michel - Serris (FR77) - 2025-08-09 - 4.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70)",
+   "largeur": 1020,
+   "hauteur": 765,
+   "octets": 109552,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/val-d-europe.webp": {
+   "sujet": "Parc du Bicheret, Chessy (Val d'Europe)",
+   "titre": "Parc du Bicheret Chessy",
+   "auteur": "Lipton1989",
+   "auteurUrl": "https://commons.wikimedia.org/w/index.php?title=User:Lipton1989&action=edit&redlink=1",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Parc_du_Bicheret_Chessy.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Parc du Bicheret Chessy.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 78)",
+   "largeur": 1200,
+   "hauteur": 675,
+   "octets": 80078,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/vanves.webp": {
+   "sujet": "Hôtel de ville de Vanves",
+   "titre": "Hôtel ville Vanves 2",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_Vanves_2.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel ville Vanves 2.jpg",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "largeur": 1020,
+   "hauteur": 674,
+   "octets": 121970,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/versailles.webp": {
+   "sujet": "Hôtel de ville de Versailles",
+   "titre": "Versailles Hôtel de Ville June 2010",
+   "auteur": "King of Hearts",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:King_of_Hearts",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Versailles_H%C3%B4tel_de_Ville_June_2010.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Versailles Hôtel de Ville June 2010.jpg",
+   "modifications": "redimensionnée à 1200 px de large et convertie en WebP (qualité 56)",
+   "largeur": 1200,
+   "hauteur": 798,
+   "octets": 117846,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/villejuif.webp": {
+   "sujet": "Parc Pablo-Neruda, Villejuif",
+   "titre": "Villejuif parc Pablo-Neruda et mairie",
+   "auteur": "besopha",
+   "auteurUrl": "https://www.flickr.com/photos/26700188@N05",
+   "licence": "CC BY-SA 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Villejuif_parc_Pablo-Neruda_et_mairie.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Villejuif parc Pablo-Neruda et mairie.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "largeur": 864,
+   "hauteur": 578,
+   "octets": 121766,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 2.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  },
+  "/assets/img/heros/vincennes.webp": {
+   "sujet": "Hôtel de ville de Vincennes",
+   "titre": "Hôtel Ville - Vincennes (FR94) - 2020-10-17 - 2",
+   "auteur": "Chabe01",
+   "auteurUrl": "https://commons.wikimedia.org/wiki/User:Chabe01",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Vincennes_(FR94)_-_2020-10-17_-_2.jpg",
+   "plateforme": "Wikimedia Commons",
+   "fichierSource": "File:Hôtel Ville - Vincennes (FR94) - 2020-10-17 - 2.jpg",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "largeur": 864,
+   "hauteur": 651,
+   "octets": 119186,
+   "recupereLe": "2026-09-30",
+   "verifications": [
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
+   ]
+  }
+ }
+}

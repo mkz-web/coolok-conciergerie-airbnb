@@ -39,7 +39,7 @@ const FORBIDDEN = [
   { re: new RegExp("usufruit[^.]{0,60}60 jours|60 jours[^.]{0,60}usufruit", "i"), why: "limite d usage personnel de 60 jours, contredite par le contrat" },
   { re: new RegExp("50\\s?000\\s?(EUR|euros)[^.]{0,80}enregistrement|enregistrement[^.]{0,80}50\\s?000\\s?(EUR|euros)", "i"), why: "montant d amende faux (la loi Le Meur prevoit 10 000 EUR)" },
   { re: new RegExp("\\b(ton|ta|tes|toi)\\s+(bien|marge|logement|annonce|projet|prix|calcul)\\b|\\btu\\s+(peux|dois|as|vas|veux|fais|gagnes|loues)\\b", "i"), why: "tutoiement (le site vouvoie)" },
-  { re: /\b2025\b(?!.*(bilan|dernière année|année complète|depuis|janvier|novembre|mai|loi|décret|arrêté|Le Meur|source|publié|mis à jour))/i, why: 'date 2025 non contextualisée', warn: true },
+  { re: /\b2025\b(?!.*(bilan|dernière année|année complète|depuis|janvier|novembre|mai|loi|décret|arrêté|Le Meur|source|publié|mis à jour|Wikimedia))/i, why: 'date 2025 non contextualisée', warn: true },
 ];
 
 const errors = [];
@@ -175,6 +175,19 @@ const zones = allPages.filter((p) => p.type === 'zone').map((p) => Object.assign
 const articles = allPages.filter((p) => p.type === 'article' && !p.draft).map((a) => Object.assign(a, { dateLabel: dateLabel(a.datePublished), dateModifiedLabel: dateLabel(a.dateModified) })).sort((a, b) => (b.datePublished || '').localeCompare(a.datePublished || ''));
 for (const a of articles) a.related = (a.relatedUrls || []).map((u) => pagesByUrl[u]).filter(Boolean).map((p) => ({ url: p.url, h1: p.h1 }));
 const data = { communes, departements, zones, articles, pages: pagesByUrl };
+
+// Photos réelles sous licence libre (skill photos-libres) : registre des crédits, affiché sous chaque
+// photo et listé dans les mentions légales. Une entrée incomplète ou hors licence bloque le build,
+// comme une photo du registre affichée sans son crédit (contrôle dans la boucle des pages).
+const creditsFile = path.join(ROOT, 'content', 'credits-photos.json');
+data.credits = fs.existsSync(creditsFile) ? readJson(creditsFile).photos || {} : {};
+for (const [src, c] of Object.entries(data.credits)) {
+  const manque = ['sujet', 'titre', 'auteur', 'licence', 'licenceUrl', 'source', 'plateforme'].filter((k) => !c[k]);
+  if (manque.length) err('credits-photos.json', `${src} : champ(s) manquant(s) ${manque.join(', ')}`);
+  if (!/^(CC0|CC BY \d|CC BY-SA \d|Public domain)/i.test(c.licence || '') || /\b(NC|ND)\b/.test(c.licence || '')) err('credits-photos.json', `${src} : licence hors liste blanche (${c.licence})`);
+  if (!fs.existsSync(path.join(ROOT, src))) err('credits-photos.json', `${src} : fichier absent`);
+}
+for (const p of allPages) if (p.image && data.credits[p.image]) p.imageCredit = data.credits[p.image];
 
 // plan du site automatique si absent
 if (!pagesByUrl['/plan-du-site']) {
@@ -328,6 +341,7 @@ for (const page of allPages) {
     const src = (im.match(/src="([^"]+)"/) || [])[1] || '';
     if (src.startsWith('/assets/') && !fs.existsSync(path.join(OUT, src))) err(page.url, `image absente : ${src}`);
     if (/alt=""/.test(im) && !/logo/i.test(src)) warn(page.url, `image sans alt : ${src}`);
+    if (data.credits[src] && !main.includes(`data-credit="${src}"`)) err(page.url, `photo sous licence affichée sans son crédit : ${src}`);
   }
   if (!['legal', 'merci', '404', 'sitemap', 'contact', 'blog-index'].includes(page.type) && words < 300) warn(page.url, `page courte : ${words} mots`);
   if (['commune', 'departement', 'zone', 'hub'].includes(page.type) && (page.faq || []).length < 4) warn(page.url, `FAQ de ${(page.faq || []).length} question(s)`);

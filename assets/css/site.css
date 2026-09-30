@@ -110,6 +110,7 @@ address{font-style:normal}
 .hero-inner{display:grid;gap:2rem;align-items:center}
 .hero h1{margin-bottom:.75rem}
 .hero .lead{font-size:var(--fs-1);color:var(--ink)}
+.hero-media,.article-hero-media{margin:0}
 .hero-media img{border-radius:var(--radius);box-shadow:var(--shadow);aspect-ratio:3/2;object-fit:cover;width:100%}
 .hero-media figcaption,.article-hero-media figcaption{margin-top:.5rem;text-align:right;line-height:1.4}
 .credit-photo{font-size:.78rem;color:var(--muted)}

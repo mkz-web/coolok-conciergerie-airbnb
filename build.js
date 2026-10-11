@@ -227,6 +227,26 @@ for (const [src, c] of Object.entries(data.credits)) {
 }
 for (const p of allPages) if (p.image && data.credits[p.image]) p.imageCredit = data.credits[p.image];
 
+// Deux fichiers d'image identiques à l'octet sont une illustration réutilisée sous deux noms (vu le
+// 11/10/2026 : deux guides avec la même image, et l'image Open Graph par défaut copiée d'un article).
+{
+  const crypto = require('crypto');
+  const parEmpreinte = {};
+  const marche = (d) => {
+    for (const f of fs.readdirSync(d)) {
+      const p = path.join(d, f);
+      if (fs.statSync(p).isDirectory()) marche(p);
+      else if (/\.(webp|png|jpe?g|svg|avif)$/i.test(f)) {
+        const h = crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+        (parEmpreinte[h] = parEmpreinte[h] || []).push(path.relative(ROOT, p).split(path.sep).join('/'));
+      }
+    }
+  };
+  const dossierImages = path.join(ROOT, 'assets', 'img');
+  if (fs.existsSync(dossierImages)) marche(dossierImages);
+  for (const fichiers of Object.values(parEmpreinte)) if (fichiers.length > 1) err('assets/img', `image en double : ${fichiers.join(' = ')}`);
+}
+
 // plan du site automatique si absent
 if (!pagesByUrl['/plan-du-site']) {
   const item = (p) => ({ title: p.h1 || p.title, href: p.url });

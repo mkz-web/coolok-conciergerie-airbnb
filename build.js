@@ -65,7 +65,9 @@ function dateLabel(iso) { if (!iso) return ''; const [y, m, d] = iso.split('-').
 // ---------- Site
 const site = readJson(path.join(ROOT, 'content', 'site.json'));
 site.env = ENV;
-site.buildDate = new Date().toISOString().slice(0, 10);
+// Date LOCALE du poste, jamais toISOString (date UTC) : entre minuit et 2 h à Paris, un build se datait de la veille (vu le 11/10/2026).
+function dateLocale(d) { return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
+site.buildDate = dateLocale(new Date());
 site.buildYear = site.buildDate.slice(0, 4);
 if (ENV !== 'prod') site.baseUrl = site.devBaseUrl || site.baseUrl;
 
@@ -79,6 +81,8 @@ site.assets.css = `/assets/site.${hash8(css)}.css`;
 site.assets.js = `/assets/site.${hash8(js)}.js`;
 fs.writeFileSync(path.join(OUT, site.assets.css), css);
 fs.writeFileSync(path.join(OUT, site.assets.js), js);
+// /favicon.ico à la racine : navigateurs et robots le demandent sans lire la balise link (404 mesuré sur la préprod le 11/10/2026).
+fs.copyFileSync(path.join(ROOT, 'assets', 'favicon.ico'), path.join(OUT, 'favicon.ico'));
 
 // ---------- Contenu
 const allPages = [];
@@ -168,12 +172,44 @@ for (const p of allPages) {
   pagesByUrl[p.url] = p;
 }
 
+// ---------- Date de modification réelle de chaque page (lastmod du sitemap, dateModified du JSON-LD)
+// Avant le 11/10/2026, toute page sans date portait la date de build : chaque déploiement annonçait 48 pages
+// modifiées sur 57, et Google finit par ignorer un lastmod qui bouge sans raison. La date vient du dernier commit
+// qui a touché le fichier de contenu (git), de la date du jour si le fichier est modifié et pas encore commité,
+// et de la date du fichier sur un poste sans git. Un changement d'une donnée partagée (site.json) ne la fait pas
+// bouger : c'est voulu, le texte de la page n'a pas changé.
+function datesGit() {
+  const { execFileSync } = require('child_process');
+  const opts = { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] };
+  const dates = {}; const modifies = new Set();
+  try {
+    for (const l of execFileSync('git', ['status', '--porcelain', '--', 'content'], opts).split('\n')) if (l.trim()) modifies.add(l.slice(3).trim());
+    let cur = null;
+    for (const l of execFileSync('git', ['log', '--format=%cs', '--name-only', '--', 'content'], opts).split('\n')) {
+      const t = l.trim();
+      if (!t) continue;
+      if (/^\d{4}-\d{2}-\d{2}$/.test(t)) cur = t; else if (cur && !dates[t]) dates[t] = cur;
+    }
+  } catch (e) { return null; }
+  return { dates, modifies };
+}
+const git = datesGit();
+for (const p of allPages) {
+  if (p.dateModified) continue;
+  const rel = path.relative(ROOT, p._file).split(path.sep).join('/');
+  if (git && git.modifies.has(rel)) p.dateModified = site.buildDate;
+  else if (git && git.dates[rel]) p.dateModified = git.dates[rel];
+  else p.dateModified = dateLocale(fs.statSync(p._file).mtime);
+}
+
 // ---------- Données dérivées
 const communes = allPages.filter((p) => p.type === 'commune').map((p) => Object.assign(p, { slug: p.slug || p.url.replace(/^\/conciergerie-airbnb-/, ''), deptName: (site.departements[p.dept] || {}).name })).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
 const departements = allPages.filter((p) => p.type === 'departement').map((p) => Object.assign(p, { slug: p.slug || p.url.slice(1) })).sort((a, b) => String(a.code).localeCompare(String(b.code)));
 const zones = allPages.filter((p) => p.type === 'zone').map((p) => Object.assign(p, { slug: p.slug || p.url.slice(1) }));
 const articles = allPages.filter((p) => p.type === 'article' && !p.draft).map((a) => Object.assign(a, { dateLabel: dateLabel(a.datePublished), dateModifiedLabel: dateLabel(a.dateModified) })).sort((a, b) => (b.datePublished || '').localeCompare(a.datePublished || ''));
 for (const a of articles) a.related = (a.relatedUrls || []).map((u) => pagesByUrl[u]).filter(Boolean).map((p) => ({ url: p.url, h1: p.h1 }));
+// L'index du blog change quand un guide change : sa date suit le guide le plus récent.
+for (const p of allPages) if (p.type === 'blog-index') p.dateModified = articles.reduce((m, a) => (a.dateModified > m ? a.dateModified : m), p.dateModified);
 const data = { communes, departements, zones, articles, pages: pagesByUrl };
 
 // Photos réelles sous licence libre (skill photos-libres) : registre des crédits, affiché sous chaque

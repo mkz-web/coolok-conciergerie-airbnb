@@ -145,7 +145,9 @@ export default {
     // sortaient en max-age=0) : c'est donc ici que se règle le cache.
     if (ct.includes('text/html')) extra['Cache-Control'] = 'public, max-age=0, must-revalidate';
     else if (/\.[0-9a-f]{8}\.(css|js)$/.test(path)) extra['Cache-Control'] = 'public, max-age=31536000, immutable';
-    else if (path.startsWith('/assets/')) extra['Cache-Control'] = 'public, max-age=86400';
+    else if (path.startsWith('/assets/') || path === '/favicon.ico') extra['Cache-Control'] = 'public, max-age=86400';
+    // Le chemin /404 lui-même répondait 200 (404.html servi comme une page ordinaire, mesuré le 11/10/2026) : le statut suit le sens de la page.
+    if (path === '/404' && res.status === 200) return withHeaders(new Response(res.body, { status: 404, headers: res.headers }), extra);
     return withHeaders(res, extra);
   },
 };

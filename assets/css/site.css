@@ -17,6 +17,8 @@
 }
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + 16px)}
+/* L'attribut hidden doit gagner sur toute règle display (étapes et champ « autre commune » du simulateur restaient affichés, mesuré le 11/10/2026). */
+[hidden]{display:none!important}
 body{margin:0;font-family:var(--font);font-size:var(--fs-0);line-height:1.6;color:var(--ink);background:var(--white);overflow-x:hidden}
 img,svg,video{max-width:100%;height:auto;display:block}
 h1,h2,h3,h4{line-height:1.2;color:var(--green);margin:0 0 .5em;font-weight:700;overflow-wrap:anywhere}
@@ -95,9 +97,15 @@ address{font-style:normal}
   .nav-toggle{display:none}
   .nav-panel{display:flex;position:static;border:0;box-shadow:none;padding:0;max-height:none;overflow:visible;align-items:center;gap:1.25rem}
   .nav-list{display:flex;gap:.25rem}
-  .nav-list a{padding:.5rem .6rem;border:0;font-size:.95rem;border-radius:8px}
+  .nav-list a{padding:.5rem .6rem;border:0;font-size:.95rem;border-radius:8px;white-space:nowrap}
   .nav-list a:hover{background:var(--cream)}
-  .nav-actions{flex-direction:row;align-items:center;margin:0;gap:1rem}
+  .nav-actions{flex-direction:row;align-items:center;margin:0;gap:1rem;white-space:nowrap}
+}
+/* Entre 1024 et 1139 px la barre horizontale ne tient pas sur une ligne (en-tête mesuré à 97 px au lieu de 68 le 11/10/2026) : liens resserrés. */
+@media(min-width:1024px) and (max-width:1139px){
+  .nav-list a{padding:.5rem .4rem;font-size:.9rem}
+  .nav-panel{gap:.75rem}
+  .nav-actions{gap:.6rem}
 }
 /* Fil d'Ariane */
 .breadcrumb{font-size:.85rem;padding:.6rem 0;background:var(--cream-2)}

@@ -70,8 +70,23 @@
         p.classList.toggle('is-active', k === n);
         p.classList.toggle('is-done', k < n);
       });
-      var top = sim.getBoundingClientRect().top + window.pageYOffset - 90;
-      if (window.pageYOffset > top) window.scrollTo({ top: top, behavior: 'smooth' });
+      // Replace le haut du simulateur sous ce qui masque le haut de l'écran (en-tête collant,
+      // bandeau de consentement tant qu'il est affiché en haut). Défilement instantané : un
+      // défilement progressif est annulé par la prise de focus qui suit (mesuré le 11/10/2026).
+      var masque = 0;
+      [document.querySelector('.site-header'), document.querySelector('#iubenda-cs-banner .iubenda-cs-container')].forEach(function (el) {
+        if (!el) return;
+        var r = el.getBoundingClientRect();
+        if (r.height > 0 && r.top < 1 && r.bottom > masque) masque = r.bottom;
+      });
+      var top = Math.max(0, sim.getBoundingClientRect().top + window.pageYOffset - masque - 16);
+      if (window.pageYOffset > top) {
+        var html = document.documentElement;
+        var avant = html.style.scrollBehavior;
+        html.style.scrollBehavior = 'auto';
+        window.scrollTo(0, top);
+        html.style.scrollBehavior = avant;
+      }
       var first = $('input:not([type=hidden]),select,textarea', steps[n - 1]);
       if (first && n !== 2) first.focus({ preventScroll: true });
     }

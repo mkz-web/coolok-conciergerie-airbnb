@@ -83,6 +83,8 @@ fs.writeFileSync(path.join(OUT, site.assets.css), css);
 fs.writeFileSync(path.join(OUT, site.assets.js), js);
 // /favicon.ico à la racine : navigateurs et robots le demandent sans lire la balise link (404 mesuré sur la préprod le 11/10/2026).
 fs.copyFileSync(path.join(ROOT, 'assets', 'favicon.ico'), path.join(OUT, 'favicon.ico'));
+// Fichiers servis tels quels à la racine (assets/racine/) : clé IndexNow (publique par construction), fichiers de vérification.
+for (const f of fs.existsSync(path.join(ROOT, 'assets', 'racine')) ? fs.readdirSync(path.join(ROOT, 'assets', 'racine')) : []) fs.copyFileSync(path.join(ROOT, 'assets', 'racine', f), path.join(OUT, f));
 
 // ---------- Contenu
 const allPages = [];

@@ -48,7 +48,7 @@ Ce que Coolok ne fait pas : ni prestation à la carte (pas de ménage seul, pas 
 - Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter une annonce.
 - À titre de comparaison, les commissions relevées sur les pages tarifs publiques du marché français en juin 2026 vont de 15 à 30 %.
 
-Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en trois questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h. La page tarifs détaillée arrive avec la migration du site vers cette version : sa source est dans ce dépôt, [content/pages/tarifs.json](content/pages/tarifs.json).
+Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en trois questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h. Le détail des prix, ce qui est inclus et des exemples chiffrés : [page tarifs](https://www.coolok.co/tarifs).
 
 ## Où Coolok intervient
 
@@ -56,7 +56,7 @@ Chaque page de zone porte ses propres données : prix par nuit observé, taux d'
 
 | Département | Page | Communes |
 |---|---|---|
-| Seine-et-Marne (77) | [Conciergerie Airbnb en Seine-et-Marne](https://www.coolok.co/conciergerie-airbnb-seine-et-marne) | [Chessy](https://www.coolok.co/conciergerie-airbnb-chessy), [Serris](https://www.coolok.co/conciergerie-airbnb-serris), [Magny-le-Hongre](https://www.coolok.co/conciergerie-airbnb-magny-le-hongre), [Bailly-Romainvilliers](https://www.coolok.co/conciergerie-airbnb-bailly-romainvilliers), [Bussy-Saint-Georges](https://www.coolok.co/conciergerie-airbnb-bussy-saint-georges), [Chalifert](https://www.coolok.co/conciergerie-airbnb-chalifert), Fontainebleau et Melun (pages à venir avec la migration) |
+| Seine-et-Marne (77) | [Conciergerie Airbnb en Seine-et-Marne](https://www.coolok.co/conciergerie-airbnb-seine-et-marne) | [Chessy](https://www.coolok.co/conciergerie-airbnb-chessy), [Serris](https://www.coolok.co/conciergerie-airbnb-serris), [Magny-le-Hongre](https://www.coolok.co/conciergerie-airbnb-magny-le-hongre), [Bailly-Romainvilliers](https://www.coolok.co/conciergerie-airbnb-bailly-romainvilliers), [Bussy-Saint-Georges](https://www.coolok.co/conciergerie-airbnb-bussy-saint-georges), [Chalifert](https://www.coolok.co/conciergerie-airbnb-chalifert), [Fontainebleau](https://www.coolok.co/conciergerie-airbnb-fontainebleau), [Melun](https://www.coolok.co/conciergerie-airbnb-melun) |
 | Val-de-Marne (94) | [Conciergerie Airbnb dans le Val-de-Marne](https://www.coolok.co/conciergerie-airbnb-val-de-marne) | [Vincennes](https://www.coolok.co/conciergerie-airbnb-vincennes), [Saint-Mandé](https://www.coolok.co/conciergerie-airbnb-saint-mande), [Joinville-le-Pont](https://www.coolok.co/conciergerie-airbnb-joinville-le-pont), [Nogent-sur-Marne](https://www.coolok.co/conciergerie-airbnb-nogent-sur-marne), [Saint-Maur-des-Fossés](https://www.coolok.co/conciergerie-airbnb-saint-maur-des-fosses), [Charenton-le-Pont](https://www.coolok.co/conciergerie-airbnb-charenton-le-pont), [Saint-Maurice](https://www.coolok.co/conciergerie-airbnb-saint-maurice), [Maisons-Alfort](https://www.coolok.co/conciergerie-airbnb-maisons-alfort), [Alfortville](https://www.coolok.co/conciergerie-airbnb-alfortville), [Ivry-sur-Seine](https://www.coolok.co/conciergerie-airbnb-ivry-sur-seine), [Villejuif](https://www.coolok.co/conciergerie-airbnb-villejuif), [Chennevières-sur-Marne](https://www.coolok.co/conciergerie-airbnb-chennevieres-sur-marne) |
 | Seine-Saint-Denis (93) | [Conciergerie Airbnb en Seine-Saint-Denis](https://www.coolok.co/conciergerie-airbnb-seine-saint-denis) | [Montreuil](https://www.coolok.co/conciergerie-airbnb-montreuil), [Pantin](https://www.coolok.co/conciergerie-airbnb-pantin) |
 | Hauts-de-Seine (92) | [Conciergerie Airbnb dans les Hauts-de-Seine](https://www.coolok.co/conciergerie-airbnb-hauts-de-seine) | [Clichy](https://www.coolok.co/conciergerie-airbnb-clichy), [Vanves](https://www.coolok.co/conciergerie-airbnb-vanves), [Asnières-sur-Seine](https://www.coolok.co/conciergerie-airbnb-asnieres-sur-seine) |
@@ -66,7 +66,7 @@ Chaque page de zone porte ses propres données : prix par nuit observé, taux d'
 | Val-d'Oise (95) | [Conciergerie Airbnb dans le Val-d'Oise](https://www.coolok.co/conciergerie-airbnb-val-d-oise) | grande couronne nord |
 | Marne (51) | [Conciergerie à Reims](https://www.coolok.co/conciergerie-airbnb-reims) | Reims, au pied de la cathédrale |
 
-La page dédiée au Val d'Europe, à Marne-la-Vallée et à Disneyland Paris arrive avec la migration : sa source est dans [content/zones/val-d-europe.json](content/zones/val-d-europe.json).
+La page dédiée au Val d'Europe, à Marne-la-Vallée et à Disneyland Paris : [conciergerie Airbnb au Val d'Europe](https://www.coolok.co/conciergerie-airbnb-val-d-europe).
 
 ## Les guides de la location courte durée
 
@@ -93,7 +93,7 @@ Tous les guides : [www.coolok.co/blog](https://www.coolok.co/blog).
 
 ## Le dépôt : un site statique sans dépendance, déployé sur Cloudflare Workers
 
-Refonte du site www.coolok.co en HTML statique, généré par un script Node sans aucune dépendance et servi par un Worker Cloudflare. Version de développement en ligne : https://coolok-dev.mkzcons.workers.dev/ (fermée aux robots, canonicals pointant déjà vers www.coolok.co).
+Site www.coolok.co en HTML statique, généré par un script Node sans aucune dépendance et servi par le Worker Cloudflare `coolok`, en production depuis le 11 octobre 2026. Version de développement : https://coolok-dev.mkzcons.workers.dev/ (Worker `coolok-dev`, fermée aux robots, canonicals pointant vers www.coolok.co).
 
 ## Démarrer
 
@@ -185,12 +185,16 @@ Le Worker expose `POST /api/lead`. Chaque demande est écrite dans la table Soft
 
 Secrets attendus sur le Worker : `SOFTR_API_KEY`, `SOFTR_DB`, `SOFTR_TABLE`, `SOFTR_FIELDS` (correspondance champ vers identifiant Softr), et facultativement `LEAD_WEBHOOK` pour une notification par email. Un pot de miel bloque les robots sans message d'erreur, et le consentement est obligatoire.
 
-## Migration vers www.coolok.co (non faite)
+## Migration vers www.coolok.co (faite le 11 octobre 2026)
 
-1. Construire en production : `node build.js --env prod` (active le tracking GA4, GTM, Clarity, Hotjar, pixel et la bannière iubenda, ouvre robots.txt).
-2. Déployer sur un Worker de production, puis attacher le domaine `www.coolok.co` au Worker (Cloudflare, onglet Domaines et routes du Worker), après avoir retiré la route du Worker `coolok-seo-edge` qui sert aujourd'hui le site Softr.
-3. Vérifier les 301 : elles sont dans `worker/index.js` et dans `content/site.json`, elles reprennent les redirections déjà en place plus les deux fusions d'articles décidées à la refonte.
-4. Dérouler le skill `livraison-web` : `node verify-livraison.js https://www.coolok.co`, passe mobile 375 px, puis soumission du sitemap et demandes d'indexation dans Search Console.
+Ce qui a été fait, dans l'ordre, et ce qui se rejoue pour chaque mise en production :
+
+1. Build de production hors du dépôt : `node build.js --env prod --out <dossier>` (tracking GA4, GTM, Clarity, Hotjar, pixel et bannière iubenda actifs, robots.txt ouvert).
+2. Worker de production `coolok` : `node deploy.js --name coolok --dist <dossier>`. Ses secrets Softr (`SOFTR_API_KEY`, `SOFTR_DB`, `SOFTR_TABLE`, `SOFTR_FIELDS`) survivent aux déploiements suivants ; ils ont été posés une fois avec `--secret`. Recette sur l'hôte technique `coolok.mkzcons.workers.dev` (noindex automatique), un lead de test envoyé puis effacé de la table « Leads site », le pot de miel vérifié.
+3. Bascule : les quatre routes Workers de la zone (`www.coolok.co/*`, `/`, `/robots.txt`, `/llms.txt`) repointées de `coolok-seo-edge` vers `coolok` par l'API (`PUT /zones/{zone}/workers/routes/{id}`), puis purge du cache de la zone. Retour arrière : les mêmes routes repointées vers `coolok-seo-edge`, le site Softr est toujours là derrière. Les deux règles de redirection de zone (apex vers www, slash final) restent en place. Le réglage `email_obfuscation` de la zone a été coupé le même jour : il chiffrait l'adresse de contact pour les robots.
+4. Après bascule : recette `livraison-web` en mode live sur www.coolok.co avec `--miroir https://coolok.mkzcons.workers.dev` (0 erreur), sitemap resoumis dans Search Console, 57 URL envoyées à IndexNow (clé servie à la racine depuis `assets/racine/`), demandes d'indexation des pages nouvelles.
+
+Deux particularités du domaine, mesurées ce jour-là : Cloudflare Web Analytics injecte son beacon dans chaque page HTML servie sur www.coolok.co (autorisé dans la CSP du worker, sinon la console se remplit d'erreurs et la mesure ne part pas), et la comparaison du servi au build doit ignorer cette balise.
 
 ## Décisions de fond, avec leur mesure
 

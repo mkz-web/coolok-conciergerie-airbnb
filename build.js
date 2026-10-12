@@ -9,7 +9,8 @@
  *           assets/ (css, js, img). Sorties : dist/ complet (HTML, sitemap, robots, llms, _headers, _redirects, manifest).
  * Le build ÉCHOUE (code 1) si une règle de livraison n'est pas respectée : title > 65, meta > 160, H1 absent ou multiple,
  * mot interdit, tiret long, lien interne mort, image absente, JSON-LD invalide, action absente sur plus de 8 000 caractères
- * (action = simulateur, contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire : le motif de la recette).
+ * (action = simulateur, contact, téléphone, e-mail, WhatsApp, rendez-vous, formulaire : le motif de la recette),
+ * bandeau de consentement incomplet, traceur chargé sans blocage préalable ou pixel publicitaire hors finalité Marketing.
  */
 const fs = require('fs');
 const path = require('path');
@@ -65,6 +66,48 @@ function dateLabel(iso) { if (!iso) return ''; const [y, m, d] = iso.split('-').
 // ---------- Site
 const site = readJson(path.join(ROOT, 'content', 'site.json'));
 site.env = ENV;
+
+// ---------- Bandeau de consentement (12/10/2026) : la bascule du 11/10 avait perdu toute la configuration iubenda du site
+// Softr. Restait une croix « Fermez cet avis pour consentir », sans Refuser ni Personnaliser ni retrait possible, et la
+// croix lâchait GA4, GTM, Clarity, Hotjar et deux pixels Meta. Règles : CNIL (accepter et refuser avec la même simplicité,
+// retrait aussi simple et accessible à tout moment, recommandation 2020-092 : choix conservé 6 mois) et doc iubenda.
+function controlerConsentement(t) {
+  if (!t) return;
+  const c = t.iubendaConfig || {};
+  const b = c.banner || {};
+  const exige = [
+    [c.perPurposeConsent === true, 'perPurposeConsent: true (choix par finalité)'],
+    [b.acceptButtonDisplay === true, 'banner.acceptButtonDisplay: true (bouton Accepter)'],
+    [b.rejectButtonDisplay === true, 'banner.rejectButtonDisplay: true (bouton Refuser au même niveau)'],
+    [b.customizeButtonDisplay === true, 'banner.customizeButtonDisplay: true (bouton Personnaliser)'],
+    [b.closeButtonDisplay === false || b.closeButtonRejects === true, 'banner.closeButtonDisplay: false ou closeButtonRejects: true (une croix ne vaut jamais consentement)'],
+    [!!c.floatingPreferencesButtonDisplay, 'floatingPreferencesButtonDisplay (retrait du consentement à tout moment)'],
+    [!!(c.preferenceCookie && c.preferenceCookie.expireAfter > 0 && c.preferenceCookie.expireAfter <= 183), 'preferenceCookie.expireAfter de 1 à 183 jours (choix conservé 6 mois)'],
+    [c.askConsentAtCookiePolicyUpdate === true, 'askConsentAtCookiePolicyUpdate: true (nouveau consentement si la politique change)'],
+    [!!(c.siteId && c.cookiePolicyId), 'siteId et cookiePolicyId'],
+  ];
+  exige.filter(([ok]) => !ok).forEach(([, m]) => err('bandeau cookies (site.json tracking.iubendaConfig)', 'option manquante ou fausse : ' + m));
+}
+controlerConsentement(site.tracking);
+// Un traceur se reconnaît à son hôte ; un pixel publicitaire (Meta, ou le conteneur GTM qui en porte un) exige la finalité 5.
+const TRACEUR = /googletagmanager\.com|clarity\.ms|hotjar\.com|connect\.facebook\.net/;
+const PUBLICITAIRE = /connect\.facebook\.net|googletagmanager\.com\/gtm\.js/;
+function controlerTraceurs(url, html) {
+  const scripts = html.match(/<script\b[^>]*>[\s\S]*?<\/script>/g) || [];
+  let vus = 0;
+  for (const s of scripts) {
+    if (/application\/ld\+json/.test(s) || !TRACEUR.test(s)) continue;
+    vus++;
+    const ouvrante = s.slice(0, s.indexOf('>') + 1);
+    if (!/type="text\/plain"/.test(ouvrante) || !/class="_iub_cs_activate"/.test(ouvrante)) err(url, 'traceur chargé sans blocage préalable : ' + ouvrante.slice(0, 90));
+    const p = (ouvrante.match(/data-iub-purposes="([^"]*)"/) || [])[1];
+    const finalites = p ? p.split(',').map((x) => x.trim()) : [];
+    if (!finalites.length) err(url, 'traceur sans finalité iubenda (data-iub-purposes) : ' + s.slice(0, 90));
+    else if (PUBLICITAIRE.test(s) && !finalites.includes('5')) err(url, `pixel publicitaire hors finalité Marketing (5) : data-iub-purposes="${p}"`);
+  }
+  if (vus && !html.includes('iubenda-cs-preferences-link')) err(url, 'traceurs présents sans lien de préférences cookies dans la page');
+  if (vus && !html.includes('_iub.csConfiguration')) err(url, 'traceurs présents sans bandeau de consentement');
+}
 // Date LOCALE du poste, jamais toISOString (date UTC) : entre minuit et 2 h à Paris, un build se datait de la veille (vu le 11/10/2026).
 function dateLocale(d) { return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
 site.buildDate = dateLocale(new Date());
@@ -348,6 +391,7 @@ for (const page of allPages) {
   const html = layout.render(site, page, body, jsonld);
 
   // Contrôles
+  controlerTraceurs(page.url, html);
   const main = (html.match(/<main id="contenu">([\s\S]*)<\/main>/) || [])[1] || '';
   const mainText = stripTags(main);
   const words = wordCount(main);

@@ -130,6 +130,8 @@ Le déploiement lit la variable d'environnement `CLOUDFLARE_API_TOKEN_COOLOK` et
 | Balise HTML échappée visible | interdite (« <strong> » affiché en toutes lettres) |
 | Acronyme ou nom de domaine accentué | interdits (« INSée », « sante.defense.gouv.fr ») |
 | Phrase coupée sur un mot-outil | interdite (« 41,7 % de. ») |
+| Bandeau de consentement (`tracking.iubendaConfig`) | boutons Accepter, Refuser et Personnaliser, choix par finalité, aucune croix qui vaille consentement, bouton de préférences permanent, choix conservé 6 mois au plus, nouveau consentement si la politique change |
+| Traceur dans une page de production (GA4, GTM, Clarity, Hotjar, Meta) | bloqué avant consentement (`type="text/plain"`, classe `_iub_cs_activate`, `data-iub-purposes`), pixel Meta et conteneur GTM en finalité Marketing (5), lien « Préférences cookies » présent |
 
 Avertissements non bloquants : page de moins de 300 mots, FAQ de moins de 4 questions, image sans alt, première action après 1 500 caractères, date 2025 non contextualisée.
 
@@ -147,6 +149,8 @@ Deux réglages propres à Coolok, à garder tels quels dans chaque recette :
 
 - `--cta` : sur ce site, le simulateur de revenus EST l'action principale (événement clé GA4 `simulateur_complete`), le motif par défaut du script ne le compte pas. Mesuré le 25/09/2026 sur le même build : 42 erreurs au motif par défaut, 19 au motif Coolok, dont 13 pages géographiques réellement au-delà de 8 000 caractères sans action. Toujours comparer un avant et un après au même motif.
 - `--noindex` : `/merci-contact` et `/merci-simulateur` sont volontairement hors index (pages de conversion GA4, absentes du sitemap). L'option rend leur `noindex` obligatoire : s'il disparaît, la recette sort en erreur.
+
+Le bandeau de consentement ne se juge qu'en production (le build de dev ne charge ni iubenda ni traceur) et dans un navigateur à l'état vierge, aucun cookie ni stockage : avant tout choix, aucune requête vers googletagmanager.com, clarity.ms, hotjar.com ou facebook.net ; « Refuser » ne charge rien et fait apparaître le bouton de préférences ; « Mesure » seule charge GA4, Clarity et Hotjar ; le lien « Préférences cookies » du pied de page rouvre le panneau. Finalités iubenda : 4 = Mesure, 5 = Marketing ; un script à plusieurs finalités ne part que si toutes sont acceptées. La finalité Marketing n'apparaît dans le panneau que si la politique iubenda déclare un service publicitaire.
 
 Résultat attendu au 25/09/2026 : 0 erreur, 1 attention (la page 404 n'a pas de JSON-LD, ce qui est normal). `check-duplication.js` mesure ce que deux pages du même type partagent réellement, hors blocs communs par construction (tarif, avis, bandes et rappels d'action, relance de fin de FAQ, grilles de liens). Le seuil de recette est de 30 % : au-delà, le script sort en code 1. Mesure de référence sur l'ancien site : 63 % entre communes et 81 % entre départements ; sur ce site au 25/09/2026, 11,8 % entre communes, 5,4 % entre départements, 6,1 % entre guides.
 

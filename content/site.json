@@ -643,6 +643,24 @@
    "lang": "fr",
    "storage": {
     "useSiteId": true
+   },
+   "perPurposeConsent": true,
+   "askConsentAtCookiePolicyUpdate": true,
+   "floatingPreferencesButtonDisplay": "bottom-left",
+   "whitelabel": false,
+   "preferenceCookie": {
+    "expireAfter": 180
+   },
+   "banner": {
+    "acceptButtonDisplay": true,
+    "rejectButtonDisplay": true,
+    "customizeButtonDisplay": true,
+    "closeButtonDisplay": false,
+    "closeButtonRejects": true,
+    "explicitWithdrawal": true,
+    "listPurposes": true,
+    "position": "float-top-center",
+    "showTitle": false
    }
   }
  },

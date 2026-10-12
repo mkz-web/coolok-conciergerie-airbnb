@@ -367,6 +367,8 @@ tr:last-child td{border-bottom:0}
 .site-footer li{margin:.3rem 0}
 .site-footer a{color:#eef2ee;text-decoration:none}
 .site-footer a:hover{color:var(--gold);text-decoration:underline}
+.footer-linkbtn{background:none;border:0;padding:0;margin:0;font:inherit;color:#eef2ee;cursor:pointer;min-height:0}
+.footer-linkbtn:hover{color:var(--gold);text-decoration:underline}
 .footer-brand img{height:44px;width:auto;margin-bottom:1rem;background:var(--cream);padding:6px;border-radius:8px}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.15);margin-top:2rem;padding-top:1.25rem;font-size:.82rem;color:#b9c4bb}
 @media(min-width:768px){.site-footer{padding-bottom:3rem}}
@@ -375,6 +377,11 @@ tr:last-child td{border-bottom:0}
 .sticky-cta .btn-primary{flex:1}
 .sticky-cta .btn-ghost,.sticky-cta .btn-whatsapp{width:48px;padding:0;flex:none}
 .wa-bubble{display:none}
+/* Bouton de préférences cookies iubenda (en bas à gauche) : sur mobile, il se posait sur le bouton principal de la barre
+   d'actions (mesuré à 375 px le 12/10/2026). On le remonte au-dessus de la barre et on le porte à 44 px de cible. */
+@media(max-width:767px){
+  html body .iubenda-tp-btn:not(.iubenda-floatable-tb-btn)[data-tp-float][data-tp-float="bottom-left"]{bottom:68px!important;width:44px!important;height:44px!important;min-width:44px!important;min-height:44px!important}
+}
 @media(min-width:768px){
   .sticky-cta{display:none}
   .wa-bubble{display:flex;position:fixed;right:24px;bottom:88px;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.2);z-index:850}

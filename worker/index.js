@@ -53,6 +53,9 @@ async function readBody(request) {
   return o;
 }
 
+// Durée minimale passée sur la page avant un envoi de formulaire (en dessous : robot).
+const DUREE_MIN_MS = 3000;
+
 const CTRL = new RegExp('[' + String.fromCharCode(0) + '-' + String.fromCharCode(31) + ']+', 'g');
 const clean = (v, max) => String(v == null ? '' : v).replace(CTRL, ' ').trim().slice(0, max || 500);
 
@@ -64,8 +67,19 @@ async function handleLead(request, env, url) {
   const wantsJson = (request.headers.get('accept') || '').includes('application/json');
   const done = () => wantsJson ? json({ ok: true, redirect }) : Response.redirect(url.origin + redirect, 303);
 
+  const refus = (msg) => wantsJson ? json({ ok: false, error: msg }, 422) : new Response(msg + '.', { status: 422 });
+  const filtre = (raison) => console.log(JSON.stringify({ event: 'lead-filtre', raison, kind, pays: request.headers.get('cf-ipcountry') || '' }));
+
   // pot de miel : un robot qui remplit le champ caché reçoit un succès silencieux
-  if (clean(body.website, 50)) return done();
+  if (clean(body.website, 50)) { filtre('pot-de-miel'); return done(); }
+
+  // Durée passée sur la page, mesurée par le script du site avec l'horloge du visiteur (aucun
+  // décalage d'horloge possible). Absente : envoi direct sans exécuter la page (les deux spams
+  // mesurés le 12/10/2026 avaient l'URL et le référent vides), ou page ouverte avant un déploiement,
+  // d'où le message. Trop courte : succès simulé, rien n'est écrit.
+  const duree = Number(clean(body.duree, 12));
+  if (!clean(body.duree, 12) || !Number.isFinite(duree)) { filtre('sans-duree'); return refus('Rechargez la page puis réessayez, ou écrivez-nous à contact@coolok.co'); }
+  if (duree < DUREE_MIN_MS) { filtre('trop-rapide'); return done(); }
 
   const lead = {
     kind,
@@ -84,7 +98,6 @@ async function handleLead(request, env, url) {
     user_agent: clean(request.headers.get('user-agent'), 200),
   };
   lead.nom_complet = (lead.prenom + ' ' + lead.nom).trim();
-  const refus = (msg) => wantsJson ? json({ ok: false, error: msg }, 422) : new Response(msg + '.', { status: 422 });
   const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(lead.email);
   if (kind === 'contact') {
     // Contact : téléphone facultatif ; l'e-mail reste obligatoire (il sert de « Répondre à » dans l'e-mail de notification).

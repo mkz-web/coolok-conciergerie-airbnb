@@ -1,6 +1,7 @@
-/* Coolok : script du site. Aucune dépendance. Progressive enhancement : tout fonctionne sans lui sauf le simulateur interactif. */
+/* Coolok : script du site. Aucune dépendance. Sans lui, la navigation fonctionne ; les formulaires (contact et simulateur) le demandent. */
 (function () {
   'use strict';
+  var t0 = Date.now(); // durée passée sur la page, envoyée avec chaque formulaire (filtre anti-robots du Worker)
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
@@ -36,6 +37,8 @@
   $$('form.lead-form').forEach(function (form) {
     form.addEventListener('submit', function (e) {
       if (!form.checkValidity()) { form.reportValidity(); e.preventDefault(); return; }
+      var duree = $('input[name="duree"]', form);
+      if (duree) duree.value = String(Date.now() - t0);
       if (!window.fetch) return; // envoi natif
       e.preventDefault();
       var btn = $('button[type="submit"]', form);

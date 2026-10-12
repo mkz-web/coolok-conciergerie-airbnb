@@ -173,7 +173,7 @@ site/
   lib/                  html.js (échappement, slugs), md.js (Markdown), schema.js (JSON-LD + validateur)
   templates/            layout.js (head, header, footer), blocks.js (bibliothèque de blocs), pages.js (composition par type)
   assets/css/site.css   feuille de style unique, mobile first, sans police web externe
-  assets/js/site.js     menu, formulaires, simulateur (le site fonctionne sans JavaScript, sauf le simulateur)
+  assets/js/site.js     menu, formulaires, simulateur (la navigation fonctionne sans JavaScript, pas les formulaires)
   assets/img/           images optimisées en WebP (heros, articles, logements, partenaires, logo)
   worker/index.js       Worker : assets, redirections 301, en-têtes de sécurité, API des formulaires
   dist/                 sortie du build (jamais éditée à la main)
@@ -188,6 +188,8 @@ Le dossier `site/` est un dépôt git depuis le 9 septembre 2026 (branche `main`
 Le Worker expose `POST /api/lead`. Chaque demande est écrite dans la table Softr « Leads site » (identifiants de base et de table dans les secrets du Worker), visible dans le studio Softr de Coolok, puis le visiteur est redirigé vers `/merci-contact` ou `/merci-simulateur`, pages qui déclenchent les événements clés GA4 déjà configurés.
 
 Secrets attendus sur le Worker : `SOFTR_API_KEY`, `SOFTR_DB`, `SOFTR_TABLE`, `SOFTR_FIELDS` (correspondance champ vers identifiant Softr), et facultativement `LEAD_WEBHOOK` pour une notification par email. Un pot de miel bloque les robots sans message d'erreur, et le consentement est obligatoire.
+
+Filtre anti-robots, sans service tiers : le script du site envoie avec chaque formulaire la durée passée sur la page (champ caché `duree`, mesurée avec l'horloge du visiteur). Sans cette durée, le Worker refuse l'envoi (422, message qui invite à recharger la page ou à écrire à contact@coolok.co) ; en dessous de 3 secondes, il simule un succès sans rien écrire. Chaque envoi écarté est journalisé (`lead-filtre`, avec sa raison et le pays). Les formulaires demandent donc JavaScript ; sans lui, un message renvoie vers l'e-mail et le téléphone.
 
 ## Migration vers www.coolok.co (faite le 11 octobre 2026)
 

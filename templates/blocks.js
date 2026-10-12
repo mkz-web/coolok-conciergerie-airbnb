@@ -180,7 +180,7 @@ B.contactForm = (b, ctx) => {
   const s = ctx.site;
   return `${sectionOpen(b, 'contact-section')}<div class="contact-grid"><div class="contact-side">${heading(Object.assign({ h2: 'Parlons de votre bien' }, b), 2)}${b.intro ? paragraphs(b.intro) : ''}<ul class="contact-list"><li>${ic('phone')}<a href="tel:${esc(s.org.telephoneRaw)}">${esc(s.org.telephoneDisplay)}</a></li><li>${ic('check')}<a href="${esc(s.org.whatsappUrl)}" rel="noopener" target="_blank">WhatsApp, réponse rapide</a></li><li>${ic('calendar')}<a href="${esc(s.org.calendly)}" rel="noopener" target="_blank">Réserver un appel de 30 minutes</a></li><li>${ic('doc')}<a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a></li></ul></div>
 <form class="lead-form" method="post" action="/api/lead" data-kind="contact">
-  <input type="hidden" name="kind" value="contact"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+  <input type="hidden" name="kind" value="contact"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
   <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label><label>Nom<input type="text" name="nom" required autocomplete="family-name"></label></div>
   <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone (facultatif)<input type="tel" name="telephone" autocomplete="tel" inputmode="tel"></label></div>
   <label>Commune du bien<input type="text" name="commune" autocomplete="address-level2" placeholder="Ex. : Serris, Vincennes, Versailles"></label>
@@ -188,6 +188,7 @@ B.contactForm = (b, ctx) => {
   <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte au sujet de ma demande (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
   <button class="btn btn-primary btn-lg" type="submit">${esc(b.submit || 'Envoyer ma demande')}</button>
   <p class="form-note">${esc(b.note || 'Réponse sous 24 h ouvrées. Aucun engagement.')}</p>
+  <noscript><p class="callout callout-info">Le formulaire demande JavaScript. Écrivez-nous à <a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a> ou appelez le ${esc(s.org.telephoneDisplay)}.</p></noscript>
 </form></div>${sectionClose}`;
 };
 
@@ -197,7 +198,7 @@ B.simulateur = (b, ctx) => {
   return `${sectionOpen(b, 'simulateur-section')}<div class="sim" id="simulateur" data-communes='${esc(JSON.stringify(communes))}'>
   <ol class="sim-progress" aria-label="Étapes"><li class="is-active" data-step="1"><span>1</span> Votre bien</li><li data-step="2"><span>2</span> Estimation</li><li data-step="3"><span>3</span> Votre audit chiffré</li></ol>
   <form class="lead-form sim-form" method="post" action="/api/lead" data-kind="simulateur" novalidate>
-    <input type="hidden" name="kind" value="simulateur"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="estimation" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <input type="hidden" name="kind" value="simulateur"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="estimation" value=""><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
     <fieldset class="sim-step" data-step="1"><legend>Étape 1 sur 3 : votre bien</legend>
       <label>Commune du bien<select name="commune" required><option value="">Choisissez une commune</option>${options}<option value="autre">Autre commune d'Île-de-France</option></select></label>
       <label class="sim-autre" hidden>Précisez la commune<input type="text" name="commune_autre" autocomplete="address-level2"></label>

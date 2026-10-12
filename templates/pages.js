@@ -261,8 +261,8 @@ function articlePage(site, page, data) {
   // listé deux fois dans une page est un bloc répété (blog/conciergerie-courte-duree, 25/09/2026).
   blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Nos derniers guides', exclude: (page.related || []).map((r) => r.url) });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
-  // Les fiches du fondateur et de l'éditeur voyagent avec l'article : un @id cité doit se lire dans la page.
-  const schemas = [schema.article(site, page), schema.person(site), schema.editeur(site), schema.breadcrumb(site, page.breadcrumb)];
+  // La page, le site, le fondateur et l'éditeur voyagent avec l'article : un @id cité doit se lire dans la page.
+  const schemas = [schema.webPage(site, page), schema.article(site, page), schema.person(site), schema.editeur(site), schema.website(site), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
   return { blocks, schemas };
 }

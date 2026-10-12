@@ -216,7 +216,7 @@ function blogIndexPage(site, page, data) {
     blocks.push({ type: 'html', html: `<section class="section articles bg-white"><div class="container"><h2 class="section-title is-left" id="${esc(cat.toLowerCase().replace(/[^a-z0-9]+/g, '-'))}">${esc(cat)}</h2><div class="grid grid-3 article-grid">${cats[cat].map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-meta">${esc(a.dateLabel)} · ${a.readingTime} min de lecture</span></a></article>`).join('')}</div></div></section>` });
   }
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Des questions sur votre projet ?', text: 'Le fondateur vous répond, chiffres en main.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
-  const schemas = [schema.webPage(site, page, { '@type': 'CollectionPage', mainEntity: schema.itemList(site, page.h1, arts.map((a) => ({ name: a.h1, url: a.url, type: 'Article', date: a.datePublished, image: a.image, description: a.description }))) }), schema.person(site), schema.breadcrumb(site, page.breadcrumb)];
+  const schemas = [schema.webPage(site, page, { '@type': 'CollectionPage', mainEntity: schema.itemList(site, page.h1, arts.map((a) => ({ name: a.h1, url: a.url, type: 'Article', date: a.datePublished, image: a.image, description: a.description }))) }), schema.person(site), schema.editeur(site), schema.breadcrumb(site, page.breadcrumb)];
   return { blocks, schemas };
 }
 
@@ -261,8 +261,8 @@ function articlePage(site, page, data) {
   // listé deux fois dans une page est un bloc répété (blog/conciergerie-courte-duree, 25/09/2026).
   blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Nos derniers guides', exclude: (page.related || []).map((r) => r.url) });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
-  // La fiche du fondateur voyage avec l'article : l'auteur cité par @id doit se lire dans la page.
-  const schemas = [schema.article(site, page), schema.person(site), schema.breadcrumb(site, page.breadcrumb)];
+  // Les fiches du fondateur et de l'éditeur voyagent avec l'article : un @id cité doit se lire dans la page.
+  const schemas = [schema.article(site, page), schema.person(site), schema.editeur(site), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
   return { blocks, schemas };
 }

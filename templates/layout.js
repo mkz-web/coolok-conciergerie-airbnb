@@ -102,11 +102,14 @@ function head(site, page, jsonld) {
   const canonical = schema.abs(site, page.canonical || page.url);
   const img = page.image ? schema.abs(site, page.image) : schema.abs(site, site.assets.ogDefault);
   const robots = page.noindex || site.env !== 'prod' ? '<meta name="robots" content="noindex, nofollow">' : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">';
+  // Jeton de validation de la propriété Search Console, repris de l'ancien site : Google revérifie régulièrement
+  // sa présence et retire la validation s'il disparaît.
+  const gsv = site.env === 'prod' && site.tracking && site.tracking.googleSiteVerification ? `\n<meta name="google-site-verification" content="${esc(site.tracking.googleSiteVerification)}">` : '';
   return `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(page.title)}</title>
 <meta name="description" content="${esc(page.description)}">
-${robots}
+${robots}${gsv}
 <link rel="canonical" href="${esc(canonical)}">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:type" content="${page.type === 'article' ? 'article' : 'website'}">

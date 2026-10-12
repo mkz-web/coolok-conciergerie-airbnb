@@ -84,8 +84,15 @@ async function handleLead(request, env, url) {
     user_agent: clean(request.headers.get('user-agent'), 200),
   };
   lead.nom_complet = (lead.prenom + ' ' + lead.nom).trim();
-  if (!lead.prenom || !lead.email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(lead.email) || !lead.telephone) {
-    return wantsJson ? json({ ok: false, error: 'Prénom, email et téléphone sont obligatoires' }, 422) : new Response('Prénom, email et téléphone sont obligatoires.', { status: 422 });
+  const refus = (msg) => wantsJson ? json({ ok: false, error: msg }, 422) : new Response(msg + '.', { status: 422 });
+  const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(lead.email);
+  if (kind === 'contact') {
+    // Contact : téléphone facultatif ; l'e-mail reste obligatoire (il sert de « Répondre à » dans l'e-mail de notification).
+    if (!lead.prenom || !emailOk) return refus('Prénom et email sont obligatoires');
+  } else {
+    if (!lead.prenom || !emailOk || !lead.telephone) return refus('Prénom, email et téléphone sont obligatoires');
+    const surface = Number(lead.surface.replace(',', '.'));
+    if (!lead.commune || !(surface >= 9 && surface <= 600)) return refus('Commune et surface du bien sont obligatoires');
   }
   if (lead.consent !== 'oui') return wantsJson ? json({ ok: false, error: 'Merci de cocher la case de consentement' }, 422) : new Response('Consentement requis.', { status: 422 });
 

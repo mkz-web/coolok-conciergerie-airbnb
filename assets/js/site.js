@@ -126,24 +126,31 @@
       out('source', 'Fourchettes observées par Coolok sur les logements entiers de ' + c.n + ' (données de marché AirDNA croisées avec les plateformes, mise à jour 2026). Estimation indicative, hors charges et commission.');
       $('input[name="estimation"]', form).value = c.n + ' : ' + (c.r || '') + ' (' + type + ', ' + chambres + ' ch.)';
     }
-    if (select && autre) select.addEventListener('change', function () { autre.hidden = select.value !== 'autre'; });
+    // « Autre commune » : le nom devient obligatoire dès que le champ est affiché.
+    function syncAutre() {
+      if (!select || !autre) return;
+      var oui = select.value === 'autre';
+      autre.hidden = !oui;
+      $('input', autre).required = oui;
+    }
+    if (select && autre) { select.addEventListener('change', syncAutre); syncAutre(); }
+    // Signale le premier champ invalide d'une étape (une seule bulle, sur le bon champ).
+    function valide(step) {
+      var bad = $$('input,select,textarea', step).filter(function (el) { return !el.checkValidity(); })[0];
+      if (bad) bad.reportValidity();
+      return !bad;
+    }
     $$('[data-next]', form).forEach(function (b) {
       b.addEventListener('click', function () {
         var n = Number(b.getAttribute('data-next'));
-        var cur = steps[n - 2];
-        var ok = true;
-        $$('input,select,textarea', cur).forEach(function (el) { if (!el.checkValidity()) { ok = false; el.reportValidity(); } });
-        if (!ok) return;
+        if (!valide(steps[n - 2])) return;
         if (n === 2) estimate();
         go(n);
       });
     });
     $$('[data-prev]', form).forEach(function (b) { b.addEventListener('click', function () { go(Number(b.getAttribute('data-prev'))); }); });
     form.addEventListener('submit', function (e) {
-      var s3 = steps[2];
-      var ok = true;
-      $$('input,select,textarea', s3).forEach(function (el) { if (!el.checkValidity()) { ok = false; el.reportValidity(); } });
-      if (!ok) e.preventDefault();
+      if (!valide(steps[2])) e.preventDefault();
     }, true);
   }
 

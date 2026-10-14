@@ -66,7 +66,25 @@
     var progress = $$('.sim-progress li', sim);
     var select = $('select[name="commune"]', form);
     var autre = $('.sim-autre', form);
+    // Pages de campagne (data-suivi) : un événement par étape atteinte, une fois par visite. GA4 mesure où l'on
+    // décroche ; Meta reçoit ViewContent (estimation vue), signal d'optimisation tant que les Lead sont trop rares
+    // (environ 50 par semaine et par ensemble de publicités). gtag et fbq n'existent qu'après consentement.
+    var suivi = sim.getAttribute('data-suivi');
+    var signales = {};
+    function signaler(n) {
+      if (!suivi || signales[n] || (n !== 2 && n !== 3)) return;
+      signales[n] = true;
+      var nom = n === 2 ? 'simulateur_estimation' : 'simulateur_formulaire';
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: nom, suivi: suivi });
+      if (typeof window.gtag === 'function') window.gtag('event', nom, { suivi: suivi });
+      if (typeof window.fbq === 'function') {
+        if (n === 2) window.fbq('track', 'ViewContent', { content_name: 'estimation' });
+        else window.fbq('trackCustom', 'FormulaireAudit');
+      }
+    }
     function go(n) {
+      signaler(n);
       steps.forEach(function (s) { s.hidden = s.getAttribute('data-step') !== String(n); });
       progress.forEach(function (p) {
         var k = Number(p.getAttribute('data-step'));

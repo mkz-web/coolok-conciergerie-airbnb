@@ -146,7 +146,7 @@ for (const p of allPages.filter((x) => x.base)) {
   const propres = Object.assign({}, p);
   Object.assign(p, JSON.parse(JSON.stringify(Object.assign({}, b, { _file: undefined }))), propres);
   if (!p.noindex) err(p.url, 'page de campagne sans noindex : elle dupliquerait ' + p.base);
-  if (p.host && !workerSrc.includes(`'${p.host}': '${p.url}'`)) err(p.url, `sous-domaine ${p.host} absent de CAMPAGNES dans worker/index.js`);
+  if (p.host && !(workerSrc.includes(`'${p.host}': {`) && workerSrc.includes(`'${p.hostPath || '/'}': '${p.url}'`))) err(p.url, `${p.host}${p.hostPath || '/'} -> ${p.url} absent de CAMPAGNES dans worker/index.js`);
 }
 
 function extractArticleSections(html, headings) {

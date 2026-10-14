@@ -4,5 +4,7 @@
  "base": "/simulateur-locatif",
  "host": "estimation.coolok.co",
  "noindex": true,
- "leadPage": "estimation.coolok.co (campagne Meta)"
+ "leadPage": "estimation.coolok.co (campagne Meta)",
+ "bandeauEnBas": true,
+ "avis": ["Anne-Laure", "Virginie", "Nicolas"]
 }

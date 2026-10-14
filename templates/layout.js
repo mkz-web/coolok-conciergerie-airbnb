@@ -57,7 +57,10 @@ function footer(site, page) {
   const col = (title, items) => `<div class="footer-col"><h2 class="footer-title">${esc(title)}</h2><ul>${items.map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join('')}</ul></div>`;
   // Page de campagne : pied de page réduit à l'identité et aux liens légaux, bouton collant vers le simulateur de la page.
   const cols = page.host ? '' : site.nav.footer.map((c) => col(c.title, c.items)).join('');
-  const ctaHref = page.host ? '#simulateur' : site.nav.cta.href;
+  // Sur la page merci de campagne, plus de simulateur : le bouton collant propose l'appel avec le fondateur.
+  const collant = !page.host ? { href: site.nav.cta.href, label: site.nav.cta.shortLabel || site.nav.cta.label, icon: 'calc' }
+    : page.type === 'merci' ? { href: site.org.calendly, label: 'Réserver un appel', icon: 'calendar', ext: true }
+    : { href: '#simulateur', label: site.nav.cta.shortLabel || site.nav.cta.label, icon: 'calc' };
   const social = (site.org.sameAs || []).map((u) => {
     const n = /facebook/.test(u) ? 'Facebook' : /linkedin/.test(u) ? 'LinkedIn' : /instagram/.test(u) ? 'Instagram' : 'Site';
     return `<a href="${esc(u)}" rel="noopener nofollow" target="_blank">${n}</a>`;
@@ -81,7 +84,7 @@ function footer(site, page) {
   </div>
 </footer>
 <div class="sticky-cta" aria-label="Actions rapides">
-  <a class="btn btn-primary" href="${esc(ctaHref)}">${icon('calc')}<span>${esc(site.nav.cta.shortLabel || site.nav.cta.label)}</span></a>
+  <a class="btn btn-primary" href="${esc(collant.href)}"${collant.ext ? ' rel="noopener" target="_blank"' : ''}>${icon(collant.icon)}<span>${esc(collant.label)}</span></a>
   <a class="btn btn-ghost" href="tel:${esc(site.org.telephoneRaw)}" aria-label="Appeler Coolok">${icon('phone')}</a>
   <a class="btn btn-whatsapp" href="${esc(site.org.whatsappUrl)}" aria-label="Écrire à Coolok sur WhatsApp" rel="noopener" target="_blank">${icon('whatsapp')}</a>
 </div>
@@ -92,10 +95,13 @@ function footer(site, page) {
 // 5 = Marketing (publicité, suivi des conversions). Un script à plusieurs finalités ne part que si TOUTES sont acceptées :
 // le conteneur GTM porte un second pixel Meta (balise HTML, événements PageView et Lead) en plus d'un Clarity, d'où « 4,5 ».
 // build.js refuse un traceur sans blocage préalable et un pixel publicitaire hors finalité 5.
-function tracking(site) {
+function tracking(site, page) {
   if (site.env !== 'prod' || !site.tracking) return '';
   const t = site.tracking;
-  const iub = `<script type="text/javascript">var _iub = _iub || []; _iub.csConfiguration = ${JSON.stringify(t.iubendaConfig)};</script>
+  // Page de campagne (bandeauEnBas) : le bandeau se pose en bas de l'écran pour laisser visibles le titre et la promesse
+  // de l'annonce (en haut, il couvrait 51 % d'un écran de 375 × 812, mesuré le 14/10/2026). Seule la position change.
+  const conf = page && page.bandeauEnBas ? Object.assign({}, t.iubendaConfig, { banner: Object.assign({}, t.iubendaConfig.banner, { position: 'float-bottom-center' }) }) : t.iubendaConfig;
+  const iub = `<script type="text/javascript">var _iub = _iub || []; _iub.csConfiguration = ${JSON.stringify(conf)};</script>
 <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/${t.iubendaSiteId}.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>`;
   const ga = `<script data-iub-purposes="4" class="_iub_cs_activate" type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id=${t.ga4}"></script>
@@ -109,7 +115,7 @@ function tracking(site) {
 
 function head(site, page, jsonld) {
   // Page de campagne : servie à la racine de son sous-domaine (noindex), elle se désigne elle-même.
-  const canonical = page.host ? `https://${page.host}/` : schema.abs(site, page.canonical || page.url);
+  const canonical = page.host ? `https://${page.host}${page.hostPath || '/'}` : schema.abs(site, page.canonical || page.url);
   const img = page.image ? schema.abs(site, page.image) : schema.abs(site, site.assets.ogDefault);
   const robots = page.noindex || site.env !== 'prod' ? '<meta name="robots" content="noindex, nofollow">' : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">';
   // Jeton de validation de la propriété Search Console, repris de l'ancien site : Google revérifie régulièrement
@@ -135,11 +141,11 @@ ${robots}${gsv}
 <meta name="theme-color" content="${site.theme.color}">
 <link rel="icon" href="${esc(site.assets.favicon)}" type="image/png">
 <link rel="apple-touch-icon" href="${esc(site.assets.appleIcon || site.assets.favicon)}">
-${page.image && page.type !== 'article' ? `<link rel="preload" as="image" href="${esc(page.image)}" fetchpriority="high">` : ''}
+${page.image && page.type !== 'article' && !page.host ? `<link rel="preload" as="image" href="${esc(page.image)}" fetchpriority="high">` : ''}
 <link rel="stylesheet" href="${esc(site.assets.css)}">
 <link rel="alternate" type="text/plain" href="${site.baseUrl}/llms.txt" title="llms.txt">
 ${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}
-${tracking(site)}`;
+${tracking(site, page)}`;
 }
 
 function render(site, page, bodyHtml, jsonld) {

@@ -195,7 +195,15 @@ B.contactForm = (b, ctx) => {
 B.simulateur = (b, ctx) => {
   const communes = ctx.data.communes.filter((c) => c.data && c.data.revenu_mensuel).map((c) => ({ n: c.name, s: c.slug, d: c.dept, r: c.data.revenu_mensuel, p: c.data.prix_nuitee, o: c.data.taux_occupation, u: c.url }));
   const options = communes.map((c) => `<option value="${esc(c.s)}">${esc(c.n)} (${esc(c.d)})</option>`).join('');
-  return `${sectionOpen(b, 'simulateur-section')}<div class="sim" id="simulateur" data-communes='${esc(JSON.stringify(communes))}'>
+  // Options des pages de campagne : preuve (le fondateur et la note Google à l'étape où l'on demande le téléphone),
+  // nomFacultatif (le Worker n'exige que le prénom), suivi (événements d'étape GA4 et Meta, assets/js/site.js),
+  // compact (barre de progression masquée sur mobile, l'intitulé de l'étape suffit), alt (lien de rendez-vous sous le formulaire).
+  const f = ctx.site.founder;
+  const r = ctx.site.org.rating;
+  const preuve = b.preuve ? `<div class="sim-preuve"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="56" height="56" loading="lazy"><p><strong>${esc(f.name)}, le fondateur, étudie votre bien lui-même et vous rappelle.</strong>${r ? ` <span class="stars" aria-hidden="true">★★★★★</span> ${esc(String(r.value).replace('.', ','))}/5 sur ${r.count} avis Google` : ''}</p></div>` : '';
+  const nom = b.nomFacultatif ? '<label>Nom (facultatif)<input type="text" name="nom" autocomplete="family-name"></label>' : '<label>Nom<input type="text" name="nom" required autocomplete="family-name"></label>';
+  const alt = b.alt ? `\n  <p class="sim-alt">${inline(b.alt.text)} <a href="${esc(b.alt.href)}" rel="noopener" target="_blank">${inline(b.alt.label)}</a></p>` : '';
+  return `${sectionOpen(b, 'simulateur-section')}<div class="sim${b.compact ? ' sim-compact' : ''}" id="simulateur"${b.suivi ? ` data-suivi="${esc(b.suivi)}"` : ''} data-communes='${esc(JSON.stringify(communes))}'>
   <ol class="sim-progress" aria-label="Étapes"><li class="is-active" data-step="1"><span>1</span> Votre bien</li><li data-step="2"><span>2</span> Estimation</li><li data-step="3"><span>3</span> Votre audit chiffré</li></ol>
   <form class="lead-form sim-form" method="post" action="/api/lead" data-kind="simulateur" novalidate>
     <input type="hidden" name="kind" value="simulateur"><input type="hidden" name="page" value="${esc(ctx.page.leadPage || ctx.page.url)}"><input type="hidden" name="estimation" value=""><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
@@ -213,7 +221,7 @@ B.simulateur = (b, ctx) => {
       <div class="cta-row"><button class="btn btn-primary btn-lg" type="button" data-next="3">Recevoir mon audit chiffré gratuit</button><button class="btn btn-ghost" type="button" data-prev="1">Modifier mon bien</button></div>
     </fieldset>
     <fieldset class="sim-step" data-step="3" hidden><legend>Étape 3 sur 3 : où envoyer votre audit ?</legend>
-      <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label><label>Nom<input type="text" name="nom" required autocomplete="family-name"></label></div>
+      ${preuve}<div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label>${nom}</div>
       <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="telephone" required autocomplete="tel" inputmode="tel"></label></div>
       <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="Adresse approximative, état du bien, dates où vous l'utilisez"></textarea></label>
       <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte pour cet audit (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
@@ -221,7 +229,7 @@ B.simulateur = (b, ctx) => {
       <p class="form-note">Audit réalisé par Thierry Moraldo, fondateur de Coolok. Gratuit, sans engagement, sans démarchage.</p>
       <p class="cta-inline"><button class="btn btn-ghost btn-sm" type="button" data-prev="2">Retour</button></p>
     </fieldset>
-  </form>
+  </form>${alt}
   <noscript><p class="callout callout-info">Le simulateur interactif demande JavaScript. Vous pouvez aussi <a href="/contact">nous écrire</a> ou appeler le ${esc(ctx.site.org.telephoneDisplay)} : nous faisons l'estimation avec vous.</p></noscript>
 </div>${sectionClose}`;
 };

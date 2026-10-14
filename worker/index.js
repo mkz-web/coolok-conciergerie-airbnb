@@ -30,17 +30,19 @@ const SECURITY = {
   'Content-Security-Policy': "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline' https://cdn.iubenda.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.iubenda.com https://cs.iubenda.com https://www.clarity.ms https://scripts.clarity.ms https://static.hotjar.com https://script.hotjar.com https://connect.facebook.net https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.iubenda.com https://www.facebook.com https://api.calendly.com; frame-src https://calendly.com https://*.iubenda.com https://www.googletagmanager.com https://*.hotjar.com; upgrade-insecure-requests",
 };
 
-// Sous-domaines de campagne publicitaire : chacun sert à sa racine une page d'atterrissage du build (champ host d'une
-// page de contenu, build.js vérifie la correspondance), plus le formulaire, les assets et les pages merci. Tout le
-// reste repart vers le site principal ; rien n'y est indexable. Sur le site principal, le chemin de la page renvoie
-// vers son sous-domaine, pour qu'elle n'y existe pas en double.
+// Sous-domaines de campagne publicitaire : pour chaque hôte, chemin public -> page du build (champs host et hostPath
+// d'une page de contenu, build.js vérifie la correspondance). La page merci de campagne est servie sous le chemin
+// /merci-simulateur, pour que les événements clés GA4 et le Lead Meta du GTM (déclenchés sur ce chemin) restent
+// valables. Le formulaire, les assets et /merci-contact sont servis aussi ; tout le reste repart vers le site principal,
+// et rien n'y est indexable. Sur le site principal, le chemin d'une page de campagne renvoie vers son adresse publique.
 const SITE = 'https://www.coolok.co';
 const CAMPAGNES = {
-  'estimation.coolok.co': '/campagne/audit-airbnb',
+  'estimation.coolok.co': { '/': '/campagne/audit-airbnb', '/merci-simulateur': '/campagne/audit-airbnb-merci' },
 };
-const PAGE_CAMPAGNE = Object.fromEntries(Object.entries(CAMPAGNES).map(([h, p]) => [p, h]));
+const PAGE_CAMPAGNE = {};
+for (const [h, chemins] of Object.entries(CAMPAGNES)) for (const [publique, interne] of Object.entries(chemins)) PAGE_CAMPAGNE[interne] = 'https://' + h + publique;
 function servieSurCampagne(path) {
-  return path === '/' || path === '/api/lead' || path === '/merci-simulateur' || path === '/merci-contact' || path === '/favicon.ico' || path.startsWith('/assets/');
+  return path === '/api/lead' || path === '/merci-contact' || path === '/favicon.ico' || path.startsWith('/assets/');
 }
 
 function isTechnicalHost(host) {
@@ -163,14 +165,15 @@ export default {
     if (campagne) {
       const ferme = { 'X-Robots-Tag': 'noindex, nofollow' };
       if (path === '/robots.txt') return new Response('User-agent: *\nDisallow: /api/\n', { headers: Object.assign({ 'content-type': 'text/plain; charset=utf-8' }, ferme) });
-      // Redirection temporaire : une campagne change souvent de page, un 301 resterait dans le cache des navigateurs.
-      if (path === campagne) return Response.redirect(url.origin + '/' + url.search, 302);
-      if (!servieSurCampagne(path)) return Response.redirect(SITE + (REDIRECTS[path] || path) + url.search, 302);
+      // Redirections temporaires : une campagne change souvent de page, un 301 resterait dans le cache des navigateurs.
+      if (PAGE_CAMPAGNE[path]) return Response.redirect(PAGE_CAMPAGNE[path] + url.search, 302);
+      const interne = campagne[path];
+      if (!interne && !servieSurCampagne(path)) return Response.redirect(SITE + (REDIRECTS[path] || path) + url.search, 302);
       if (path === '/api/lead') {
         if (request.method !== 'POST') return json({ ok: false, error: 'POST attendu' }, 405, ferme);
         return handleLead(request, env, url);
       }
-      const res = await env.ASSETS.fetch(path === '/' ? new Request(url.origin + campagne + url.search, request) : request);
+      const res = await env.ASSETS.fetch(interne ? new Request(url.origin + interne + url.search, request) : request);
       const extra = Object.assign({}, ferme);
       const ct = res.headers.get('content-type') || '';
       if (ct.includes('text/html')) extra['Cache-Control'] = 'public, max-age=0, must-revalidate';
@@ -180,7 +183,7 @@ export default {
     }
     // Page de campagne demandée sur le site principal : elle n'existe que sur son sous-domaine (les hôtes techniques
     // la servent, pour la recette).
-    if (PAGE_CAMPAGNE[path] && !dev) return Response.redirect('https://' + PAGE_CAMPAGNE[path] + '/' + url.search, 301);
+    if (PAGE_CAMPAGNE[path] && !dev) return Response.redirect(PAGE_CAMPAGNE[path] + url.search, 301);
 
     if (REDIRECTS[path]) return Response.redirect(url.origin + REDIRECTS[path] + url.search, 301);
     if (path.length > 1 && path.endsWith('/')) { let p = path; while (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1); return Response.redirect(url.origin + p + url.search, 301); }

@@ -181,8 +181,16 @@ function simulateurPage(site, page, data) {
 
 // Page d'atterrissage d'une campagne publicitaire (sous-domaine dédié, noindex) : le simulateur et ses explications,
 // sans fil d'Ariane ni grille de guides, pour que le visiteur reste sur l'action et que chaque demande reste attribuable.
+// Mobile d'abord (mesuré à 375 × 812 le 14/10/2026 : héros de 869 px, premier champ du simulateur à 1 109 px) : héros
+// resserré sans photo ni boutons, le simulateur juste dessous et compact, l'appel avec le fondateur en lien sous le
+// formulaire, puis les avis Google choisis (champ avis).
 function campagnePage(site, page, data) {
-  const blocks = [heroFor(site, page), { type: 'simulateur', bg: 'cream' }, ...(page.sections || [])];
+  const hero = Object.assign(heroFor(site, page), { variant: 'campagne', image: null, ctas: [] });
+  const alt = { text: 'Vous préférez en parler ?', label: 'Réserver 30 minutes avec Thierry', href: site.org.calendly };
+  const blocks = [hero, { type: 'simulateur', bg: 'cream', tight: true, compact: true, preuve: true, nomFacultatif: true, suivi: 'campagne', alt }];
+  const avis = (page.avis || []).map((n) => site.testimonials.find((t) => t.name === n)).filter(Boolean);
+  if (avis.length) blocks.push({ type: 'testimonials', bg: 'white', items: avis, limit: avis.length });
+  blocks.push(...(page.sections || []));
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white' });
   return { blocks, schemas: [] };
@@ -282,7 +290,9 @@ function legalPage(site, page, data) {
 }
 
 function merciPage(site, page, data) {
-  const blocks = [{ type: 'html', html: `<section class="section merci"><div class="container narrow"><h1>${inline(page.h1)}</h1>${paragraphs(page.text)}<ul class="check-list">${(page.next || []).map((n) => `<li>${ic('check')}${inline(n)}</li>`).join('')}</ul><div class="cta-row">${(page.ctas || []).map((c) => btn(c)).join('')}</div></div></section>` }, { type: 'articles', bg: 'cream', limit: 3, h2: 'En attendant notre réponse' }];
+  const blocks = [{ type: 'html', html: `<section class="section merci"><div class="container narrow"><h1>${inline(page.h1)}</h1>${paragraphs(page.text)}<ul class="check-list">${(page.next || []).map((n) => `<li>${ic('check')}${inline(n)}</li>`).join('')}</ul><div class="cta-row">${(page.ctas || []).map((c) => btn(c)).join('')}</div></div></section>` }];
+  // Page merci de campagne (articles: false) : l'appel avec le fondateur plutôt que des guides qui font quitter la page.
+  if (page.articles !== false) blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'En attendant notre réponse' });
   return { blocks, schemas: [schema.webPage(site, page)] };
 }
 

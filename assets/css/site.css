@@ -133,6 +133,10 @@ address{font-style:normal}
 .trust-list .ic{color:var(--gold-2)}
 @media(min-width:900px){.hero-inner{grid-template-columns:1.1fr .9fr}}
 .hero-compact{background:var(--cream)}
+/* Page de campagne : héros resserré sans photo, le simulateur entre dans le premier écran mobile */
+.hero-campagne{padding:1.25rem 0 1.5rem;background:var(--cream)}
+.hero-campagne .hero-inner{grid-template-columns:1fr;max-width:860px}
+.hero-campagne .trust-list{margin-top:.75rem}
 /* Chiffres clés */
 .trustbar{background:var(--green);color:var(--cream)}
 .trustbar ul{list-style:none;margin:0;padding:1rem 0;display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
@@ -357,6 +361,12 @@ tr:last-child td{border-bottom:0}
 .sim-result-details li{margin:.3rem 0}
 .sim-result-note{font-size:.82rem;color:var(--muted);margin:0}
 .sim-help{font-size:.92rem;color:var(--muted)}
+.sim-preuve{display:grid;grid-template-columns:56px 1fr;gap:.75rem;align-items:center;background:var(--cream);border:1px solid var(--line-2);border-radius:var(--radius);padding:.75rem 1rem}
+.sim-preuve img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--gold-3)}
+.sim-preuve p{margin:0;font-size:.92rem;line-height:1.45}
+.sim-alt{margin:1rem 0 0;text-align:center;font-size:.95rem;color:var(--muted)}
+.sim-alt a{display:inline-flex;align-items:center;min-height:44px;font-weight:700;color:var(--green)}
+@media(max-width:639px){.sim-compact .sim-progress{display:none}}
 /* Pied de page */
 .site-footer{background:var(--green);color:#d9dfd9;padding:3rem 0 6rem;font-size:.92rem}
 .footer-grid{display:grid;gap:2rem;grid-template-columns:1fr}

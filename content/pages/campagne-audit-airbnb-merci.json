@@ -1,0 +1,14 @@
+{
+ "url": "/campagne/audit-airbnb-merci",
+ "type": "merci",
+ "base": "/merci-simulateur",
+ "host": "estimation.coolok.co",
+ "hostPath": "/merci-simulateur",
+ "noindex": true,
+ "articles": false,
+ "text": "Thierry Moraldo étudie votre bien et vous recontacte sous 48 h ouvrées avec des chiffres, pas des promesses. Pour gagner du temps, vous pouvez déjà réserver un appel de 30 minutes avec lui.",
+ "ctas": [
+  { "label": "Réserver mon appel avec Thierry", "href": "https://calendly.com/contact-coolok/30min", "style": "primary", "icon": "calendar" },
+  { "label": "Écrire sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20services%20de%20conciergerie.", "style": "secondary" }
+ ]
+}

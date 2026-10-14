@@ -136,6 +136,19 @@ for (const f of listFiles(path.join(ROOT, 'content', 'communes'), '.json')) allP
 for (const f of listFiles(path.join(ROOT, 'content', 'departements'), '.json')) allPages.push(Object.assign({ type: 'departement', _file: f }, readJson(f)));
 for (const f of listFiles(path.join(ROOT, 'content', 'zones'), '.json')) allPages.push(Object.assign({ type: 'zone', _file: f }, readJson(f)));
 
+// Page d'atterrissage de campagne (champ base) : elle reprend le contenu d'une page du site et ne surcharge que ses
+// propres champs, pour qu'une correction de la page d'origine (chiffres, FAQ) passe aussi dans la campagne. Servie à la
+// racine d'un sous-domaine dédié (champ host) par le Worker, jamais indexée : le Worker doit connaître le même couple.
+const workerSrc = fs.readFileSync(path.join(ROOT, 'worker', 'index.js'), 'utf8');
+for (const p of allPages.filter((x) => x.base)) {
+  const b = allPages.find((x) => x.url === p.base && !x.base);
+  if (!b) { err(p._file, `page de base introuvable : ${p.base}`); continue; }
+  const propres = Object.assign({}, p);
+  Object.assign(p, JSON.parse(JSON.stringify(Object.assign({}, b, { _file: undefined }))), propres);
+  if (!p.noindex) err(p.url, 'page de campagne sans noindex : elle dupliquerait ' + p.base);
+  if (p.host && !workerSrc.includes(`'${p.host}': '${p.url}'`)) err(p.url, `sous-domaine ${p.host} absent de CAMPAGNES dans worker/index.js`);
+}
+
 function extractArticleSections(html, headings) {
   // sépare les sections spéciales (L'essentiel, Le mot de Thierry, Questions fréquentes, Sources) du corps
   html = html.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\s*/, '');
@@ -451,7 +464,9 @@ for (const page of allPages) {
   // écriture
   const rel = page.type === '404' ? '404.html' : page.url === '/' ? 'index.html' : page.url.replace(/^\//, '') + '.html';
   ensureDir(path.dirname(path.join(OUT, rel)));
-  fs.writeFileSync(path.join(OUT, rel), html);
+  // Page de campagne : sur son sous-domaine, le Worker ne sert que la page, le formulaire, les assets et les pages
+  // merci ; ses liens vers le reste du site pointent donc vers le site principal (contrôlés plus haut en relatif).
+  fs.writeFileSync(path.join(OUT, rel), page.host ? html.replace(/(href=")\/(?!\/|assets\/|favicon)/g, '$1' + site.baseUrl + '/') : html);
   manifest.push({ url: page.url, type: page.type, title: page.title, titleLen: page.title ? page.title.length : 0, descLen: page.description ? page.description.length : 0, h1: page.h1, words, chars: mainText.length, faq: (page.faq || []).length, noindex: !!page.noindex || page.type === '404', file: rel });
   if (!['legal', 'merci', '404', 'sitemap'].includes(page.type) && !page.noindex) {
     llmsFull.push({ url: page.url, type: page.type, h1: page.h1 || page.title, text: htmlToText(main) });

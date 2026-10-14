@@ -179,6 +179,15 @@ function simulateurPage(site, page, data) {
   return { blocks, schemas };
 }
 
+// Page d'atterrissage d'une campagne publicitaire (sous-domaine dédié, noindex) : le simulateur et ses explications,
+// sans fil d'Ariane ni grille de guides, pour que le visiteur reste sur l'action et que chaque demande reste attribuable.
+function campagnePage(site, page, data) {
+  const blocks = [heroFor(site, page), { type: 'simulateur', bg: 'cream' }, ...(page.sections || [])];
+  if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
+  if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white' });
+  return { blocks, schemas: [] };
+}
+
 function contactPage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, Object.assign(heroFor(site, page), { ctas: page.hero && page.hero.ctas ? page.hero.ctas : [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, { label: 'WhatsApp', href: site.org.whatsappUrl, style: 'secondary' }] }), { type: 'contactForm', bg: 'cream', h2: page.formTitle || 'Écrivez-nous', intro: page.formIntro }, ...(page.sections || [])];
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white' });
@@ -294,6 +303,7 @@ const COMPOSERS = {
   service: servicePage,
   tarifs: servicePage,
   simulateur: simulateurPage,
+  campagne: campagnePage,
   contact: contactPage,
   equipe: equipePage,
   logements: logementsPage,

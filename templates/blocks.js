@@ -198,7 +198,7 @@ B.simulateur = (b, ctx) => {
   return `${sectionOpen(b, 'simulateur-section')}<div class="sim" id="simulateur" data-communes='${esc(JSON.stringify(communes))}'>
   <ol class="sim-progress" aria-label="Étapes"><li class="is-active" data-step="1"><span>1</span> Votre bien</li><li data-step="2"><span>2</span> Estimation</li><li data-step="3"><span>3</span> Votre audit chiffré</li></ol>
   <form class="lead-form sim-form" method="post" action="/api/lead" data-kind="simulateur" novalidate>
-    <input type="hidden" name="kind" value="simulateur"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="estimation" value=""><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <input type="hidden" name="kind" value="simulateur"><input type="hidden" name="page" value="${esc(ctx.page.leadPage || ctx.page.url)}"><input type="hidden" name="estimation" value=""><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
     <fieldset class="sim-step" data-step="1"><legend>Étape 1 sur 3 : votre bien</legend>
       <label>Commune du bien<select name="commune" required><option value="">Choisissez une commune</option>${options}<option value="autre">Autre commune d'Île-de-France</option></select></label>
       <label class="sim-autre" hidden>Précisez la commune<input type="text" name="commune_autre" autocomplete="address-level2"></label>

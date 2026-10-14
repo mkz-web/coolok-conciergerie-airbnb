@@ -3,6 +3,7 @@
  * Déployé par deploy.js avec le dossier dist/ en assets statiques (binding ASSETS).
  * Dépendances : aucune. Secrets optionnels : SOFTR_API_KEY, SOFTR_DB, SOFTR_TABLE, LEAD_WEBHOOK.
  * Hôte technique (*.workers.dev, *.pages.dev) : jamais indexable (X-Robots-Tag + robots.txt fermé).
+ * Sous-domaine de campagne (CAMPAGNES) : une page d'atterrissage à sa racine, jamais indexable (X-Robots-Tag).
  */
 
 const REDIRECTS = {
@@ -28,6 +29,19 @@ const SECURITY = {
   'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
   'Content-Security-Policy': "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline' https://cdn.iubenda.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.iubenda.com https://cs.iubenda.com https://www.clarity.ms https://scripts.clarity.ms https://static.hotjar.com https://script.hotjar.com https://connect.facebook.net https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.iubenda.com https://www.facebook.com https://api.calendly.com; frame-src https://calendly.com https://*.iubenda.com https://www.googletagmanager.com https://*.hotjar.com; upgrade-insecure-requests",
 };
+
+// Sous-domaines de campagne publicitaire : chacun sert à sa racine une page d'atterrissage du build (champ host d'une
+// page de contenu, build.js vérifie la correspondance), plus le formulaire, les assets et les pages merci. Tout le
+// reste repart vers le site principal ; rien n'y est indexable. Sur le site principal, le chemin de la page renvoie
+// vers son sous-domaine, pour qu'elle n'y existe pas en double.
+const SITE = 'https://www.coolok.co';
+const CAMPAGNES = {
+  'estimation.coolok.co': '/campagne/audit-airbnb',
+};
+const PAGE_CAMPAGNE = Object.fromEntries(Object.entries(CAMPAGNES).map(([h, p]) => [p, h]));
+function servieSurCampagne(path) {
+  return path === '/' || path === '/api/lead' || path === '/merci-simulateur' || path === '/merci-contact' || path === '/favicon.ico' || path.startsWith('/assets/');
+}
 
 function isTechnicalHost(host) {
   return /\.(workers|pages)\.dev$/i.test(host) || /^localhost/i.test(host);
@@ -89,7 +103,8 @@ async function handleLead(request, env, url) {
     type_bien: clean(body.type_bien, 20), surface: clean(body.surface, 6), chambres: clean(body.chambres, 3), couchages: clean(body.couchages, 3), situation: clean(body.situation, 30),
     estimation: clean(body.estimation, 200),
     message: clean(body.message, 2000),
-    page: clean(body.page, 200), url: clean(body.url, 300), referrer: clean(body.referrer, 300),
+    // L'adresse porte les paramètres de campagne (utm_*, fbclid) : 600 caractères pour ne pas les tronquer.
+    page: clean(body.page, 200), url: clean(body.url, 600), referrer: clean(body.referrer, 300),
     consent: clean(body.consent, 5) ? 'oui' : 'non',
     date: new Date().toISOString(),
     nom_complet: '',
@@ -143,6 +158,29 @@ export default {
     const host = url.hostname;
     const dev = isTechnicalHost(host);
     const path = url.pathname;
+    const campagne = CAMPAGNES[host];
+
+    if (campagne) {
+      const ferme = { 'X-Robots-Tag': 'noindex, nofollow' };
+      if (path === '/robots.txt') return new Response('User-agent: *\nDisallow: /api/\n', { headers: Object.assign({ 'content-type': 'text/plain; charset=utf-8' }, ferme) });
+      // Redirection temporaire : une campagne change souvent de page, un 301 resterait dans le cache des navigateurs.
+      if (path === campagne) return Response.redirect(url.origin + '/' + url.search, 302);
+      if (!servieSurCampagne(path)) return Response.redirect(SITE + (REDIRECTS[path] || path) + url.search, 302);
+      if (path === '/api/lead') {
+        if (request.method !== 'POST') return json({ ok: false, error: 'POST attendu' }, 405, ferme);
+        return handleLead(request, env, url);
+      }
+      const res = await env.ASSETS.fetch(path === '/' ? new Request(url.origin + campagne + url.search, request) : request);
+      const extra = Object.assign({}, ferme);
+      const ct = res.headers.get('content-type') || '';
+      if (ct.includes('text/html')) extra['Cache-Control'] = 'public, max-age=0, must-revalidate';
+      else if (/\.[0-9a-f]{8}\.(css|js)$/.test(path)) extra['Cache-Control'] = 'public, max-age=31536000, immutable';
+      else extra['Cache-Control'] = 'public, max-age=86400';
+      return withHeaders(res, extra);
+    }
+    // Page de campagne demandée sur le site principal : elle n'existe que sur son sous-domaine (les hôtes techniques
+    // la servent, pour la recette).
+    if (PAGE_CAMPAGNE[path] && !dev) return Response.redirect('https://' + PAGE_CAMPAGNE[path] + '/' + url.search, 301);
 
     if (REDIRECTS[path]) return Response.redirect(url.origin + REDIRECTS[path] + url.search, 301);
     if (path.length > 1 && path.endsWith('/')) { let p = path; while (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1); return Response.redirect(url.origin + p + url.search, 301); }

@@ -188,6 +188,22 @@ caption{text-align:left;font-weight:700;color:var(--green);padding:0 0 .5rem;cap
 th,td{padding:.7rem .9rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
 th{background:var(--cream);color:var(--green);border-bottom:2px solid var(--gold);font-weight:700}
 tr:last-child td{border-bottom:0}
+/* Sous 768 px, chaque ligne devient une carte et chaque cellule affiche son en-tête (attribut data-label
+   posé par lib/md.js et par le bloc table). Mesuré le 19/10/2026 à 375 px : les 71 tableaux du site
+   cachaient 177 à 208 px de leur contenu (min-width de 520 px), 37 n'affichaient qu'une colonne, sans
+   aucun indice de défilement, pour des tableaux jusqu'à 2 424 px de haut. L'en-tête reste lisible par
+   les lecteurs d'écran (masqué comme .sr-only). */
+@media(max-width:767px){
+  .table-wrap table{display:block;min-width:0;border:0;border-radius:0;background:transparent;font-size:1rem}
+  .table-wrap thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .table-wrap caption,.table-wrap tbody,.table-wrap tr,.table-wrap td{display:block}
+  .table-wrap tr{background:var(--white);border:1px solid var(--line-2);border-radius:12px;overflow:hidden}
+  .table-wrap tr+tr{margin-top:.75rem}
+  .table-wrap tr td{padding:.6rem .9rem;border-bottom:1px solid var(--line);overflow-wrap:break-word}
+  .table-wrap tr td:first-child{background:var(--cream);border-bottom:2px solid var(--gold);color:var(--green);font-weight:700}
+  .table-wrap tr td:last-child{border-bottom:0}
+  .table-wrap td:not([data-label=""])::before{content:attr(data-label) "\a0: ";font-weight:700;color:var(--muted)}
+}
 /* Encarts */
 .callout{display:flex;gap:1rem;background:var(--white);border:1px solid var(--line-2);border-left:6px solid var(--gold);border-radius:var(--radius);padding:1.25rem;box-shadow:var(--shadow-2)}
 /* Enfant flex : sans min-width:0, un mot insécable (adresse web en texte) imposait sa largeur (Charenton, 452 px pour 375, 25/09/2026) */

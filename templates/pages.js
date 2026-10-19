@@ -21,7 +21,19 @@ const ACTION_ECART_MIN = 1200; // jamais un rappel collé à une action qui vien
 const RE_ACTION = /href="(?:\/simulateur-locatif|\/contact)[#?"]|href="(?:tel|mailto):|wa\.me\/|calendly\.com/g;
 const RE_CONTACT = /href="\/contact[#?"]|href="(?:tel|mailto):|wa\.me\/|calendly\.com/g;
 
-function longueurTexte(html) { return stripTags(html).length; }
+// Un tableau se lit en cartes sous 768 px (site.css) : chaque cellule y affiche son en-tête et prend
+// sa propre boîte. Mesuré le 19/10/2026 à 375 px sur les 71 tableaux du site : la prose fait 1,52
+// caractère par pixel, et une cellule en carte occupe l'équivalent de 53 caractères en plus de son
+// texte et de son étiquette (erreur de l'estimation : 12 % au plus). Sans ce poids, le rythme ne
+// voyait que le texte des tableaux et laissait s'allonger l'écart entre deux actions sur les pages
+// qui en portent.
+const POIDS_CELLULE = 55;
+function poidsTableaux(html) {
+  let n = 0;
+  for (const m of html.matchAll(/<td[^>]*data-label="([^"]*)"/g)) n += m[1].length + POIDS_CELLULE;
+  return n;
+}
+function longueurTexte(html) { return stripTags(html).length + poidsTableaux(html); }
 
 function mesurerActions(html, re) {
   const pos = [];
@@ -40,6 +52,8 @@ function rappelsAction(site, page) {
     { title: `Combien rapporterait votre logement ${lieu} ?`, text: 'Fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.', ctas: [simu, wa] },
     { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
     { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
+    // Quatrième rappel : une page à grands tableaux en porte quatre à 375 px (Val-de-Marne, 19/10/2026).
+    { title: `Un audit chiffré de votre logement ${lieu}`, text: 'Gratuit et sans engagement, réalisé par le fondateur sous 48 h.', ctas: [simu, { label: 'Nous contacter', href: '/contact', style: 'ghost' }] },
   ];
 }
 
@@ -237,21 +251,52 @@ function blogIndexPage(site, page, data) {
   return { blocks, schemas };
 }
 
-function insertMidCtas(html, site, page) {
+// Entre les boutons du héros d'un guide et le début de son corps, à 375 px : image et marges (348 px,
+// 155 sans image), résumé « L'essentiel » (60 px plus 0,85 px par caractère) et sommaire (140 px plus
+// 0,95 px par caractère), mesurés le 19/10/2026 sur les 10 guides, soit 1 556 à 2 400 px que le
+// compteur ignorait : le premier rappel du corps arrivait à plus de 5 000 px de ces boutons sur trois
+// guides. Converti en caractères de prose (1,52 par pixel), c'est le point de départ du compteur.
+const DENSITE_PROSE = 1.52;
+function departArticle(page, tldr) {
+  const titres = [...String(page.bodyHtml || '').matchAll(/<h2 [^>]*>([\s\S]*?)<\/h2>/g)].map((m) => stripTags(m[1]));
+  const sommaire = titres.length >= 3 ? 140 + 0.95 * titres.reduce((s, t) => s + t.length, 0) : 0;
+  const px = (page.image ? 348 : 155) + (tldr ? 60 + 0.85 * stripTags(tldr).length : 0) + sommaire;
+  return Math.round(px * DENSITE_PROSE);
+}
+
+function insertMidCtas(html, site, page, depart) {
   // insère un encart d'action avant un <h2> dès que 6 500 caractères de texte se sont écoulés depuis la dernière action
   const parts = html.split(/(?=<h2 |<h3 |<h4 |<p>|<ul>|<ol>|<blockquote>|<div class="table-wrap">)/);
-  let acc = 0;
+  let acc = depart || 0;
   const out = [];
   const ctas = page.midCtas || [
     { title: 'Combien rapporterait votre bien ?', text: 'Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h.', label: 'Estimer mes revenus', href: '/simulateur-locatif' },
     { title: 'Une question sur votre situation ?', text: 'Réponse directe, sans démarchage.', label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl },
+    // Troisième et quatrième rappels, repris des pages géographiques : un guide long en porte
+    // jusqu'à quatre à 375 px, et deux encarts identiques dans une page sont un bloc répété.
+    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', label: 'Réserver un appel de 30 min', href: site.org.calendly },
+    { title: 'Une question sur la location courte durée ?', text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw },
     { title: 'Tarif tout compris, 20 % HT', text: 'Ce qui est inclus, ce qui ne l\'est jamais, et comment comparer.', label: 'Voir nos tarifs', href: '/tarifs' },
   ];
-  let k = 0;
+  // Seuls les encarts qui mènent à une action (simulateur, contact, téléphone, e-mail, WhatsApp,
+  // rendez-vous) servent le rythme : « Voir nos tarifs » ne remet pas à zéro le compteur de la
+  // recette, et un troisième rappel dans un guide faisait échouer le build (8 926 caractères sans
+  // action, 19/10/2026). Il n'était jamais apparu dans les 10 guides.
+  const rotation = ctas.filter((c) => new RegExp(RE_ACTION.source).test(`href="${esc(c.href)}"`));
+  // Un titre ne se sépare jamais de ce qui le suit : un rappel posé entre un H2 et son premier H3
+  // coupait la lecture (même jour, guide rentabilité).
+  const unites = [];
   for (const p of parts) {
-    const len = stripTags(p).length;
+    const prec = unites[unites.length - 1];
+    if (prec !== undefined && /^<h[2-4] /.test(prec) && /<\/h[2-4]>\s*$/.test(prec)) unites[unites.length - 1] = prec + p;
+    else unites.push(p);
+  }
+  let k = 0;
+  for (const p of unites) {
+    const len = longueurTexte(p);
     if (acc > 0 && ((acc + len > 3800 && /^<h[23] /.test(p)) || acc > 4800)) {
-      const c = ctas[k % ctas.length]; k++;
+      const liste = rotation.length ? rotation : ctas;
+      const c = liste[k % liste.length]; k++;
       out.push(`<aside class="mid-cta"><div><strong>${inline(c.title)}</strong><p>${inline(c.text)}</p></div>${btn({ label: c.label, href: c.href, style: 'primary' }, 'btn-sm')}</aside>`);
       acc = 0;
     }
@@ -268,7 +313,7 @@ function articlePage(site, page, data) {
   // Les items viennent déjà rendus par le Markdown (build.js) : les repasser dans inline() les
   // ré-échappait, et « <strong> » s'affichait en toutes lettres au lecteur (mesuré le 03/09/2026).
   const tldr = page.tldr && page.tldr.length ? `<div class="tldr"><p class="tldr-title">L'essentiel</p><ul>${page.tldr.map((t) => `<li>${ic('check')}${t}</li>`).join('')}</ul></div>` : '';
-  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page) }];
+  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page, departArticle(page, tldr)) }];
   if (page.tribune) blocks.push({ type: 'html', html: `<figure class="founder-quote in-article${page.tribunePending ? ' pending' : ''}"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="120" height="120" loading="lazy"><blockquote>${ic('quote', 'ic-quote')}<p class="quote-title">${esc(page.tribuneTitle || 'Le mot de Thierry')}</p>${paragraphs(page.tribune)}</blockquote><figcaption><strong>${esc(f.name)}</strong>, ${esc(f.jobTitle)}${page.tribunePending ? ' <span class="badge">à valider</span>' : ''}</figcaption></figure>` });
   blocks.push({ type: 'html', html: `<aside class="mid-cta"><div><strong>Vous avez un bien en tête ?</strong><p>Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h, gratuit.</p></div>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary' }, 'btn-sm')}</aside>` });
   if ((page.faq || []).length) blocks.push({ type: 'html', html: `<section class="faq in-article"><h2 id="questions-frequentes">${esc(page.faqTitle || 'Questions fréquentes')}</h2><div class="faq-list">${page.faq.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3></summary><div class="faq-answer">${md.render(q.a).html}</div></details>`).join('')}</div><p class="faq-more">Une question qui n'est pas dans la liste ? <a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Posez-la sur WhatsApp</a> ou <a href="tel:${esc(site.org.telephoneRaw)}">appelez le ${esc(site.org.telephoneDisplay)}</a>.</p></section>` });

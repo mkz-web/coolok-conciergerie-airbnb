@@ -58,6 +58,8 @@ Chaque ligne porte son origine : mesure sourcée, ou hypothèse de travail à re
 
 Lecture. Il reste 5 160 € par an pour payer la copropriété, la taxe foncière, l'assurance, l'énergie, le linge, la comptabilité et la provision pour casse. Sous ce seuil, le cashflow est positif. Au-dessus, il ne l'est pas. Vous n'avez pas besoin d'un simulateur pour trancher, vous avez besoin de vos quatre factures.
 
+Le même T2 recalculé sur les prix réellement signés en 2025, avec les nuits d'octobre et de janvier et les règles de chaque commune du secteur, est détaillé dans notre article sur la [rentabilité d'un Airbnb au Val d'Europe](/blog/rentabilite-airbnb-val-d-europe).
+
 Avec l'hypothèse haute de la même fourchette (4 100 € par mois, soit 49 200 € par an), la marge disponible passe à 28 200 € par an, et le rendement brut de 10,2 % à 24,6 % sur le même bien, sans qu'une seule charge ait été payée. C'est pour cela qu'un rendement brut ne se compare pas d'une annonce à l'autre.
 
 Pour tester votre hypothèse de remplissage : à 125 € la nuit affichés à Serris (relevé du 3 septembre 2026), quatorze nuits vendues dans le mois représentent 1 750 € encaissés par la plateforme, frais de ménage compris. Si votre calcul suppose vingt-cinq nuits vendues chaque mois de l'année, écrivez-le noir sur blanc : c'est cette ligne qui porte tout le reste.

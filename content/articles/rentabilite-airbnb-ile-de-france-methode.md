@@ -120,7 +120,7 @@ Nous refusons des dossiers. Les cas qui reviennent le plus souvent :
 
 - **La commune impose une compensation.** C'est le cas de Paris et d'une large part de l'ouest de la petite couronne, dont Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Issy-les-Moulineaux, Courbevoie, Saint-Cloud, Malakoff et Puteaux. Pour un particulier, l'équation ne se rattrape pas.
 - **Le plan local d'urbanisme bloque l'adresse.** À Bussy-Saint-Georges, il n'existe ni changement d'usage ni numéro communal, mais la location d'une résidence secondaire en meublé de tourisme n'est autorisée que dans certaines zones du plan local d'urbanisme (vérifié le 3 septembre 2026). La première vérification porte sur l'adresse, pas sur le bien.
-- **L'autorisation est contingentée.** Montévrain, mitoyenne du Val d'Europe, applique depuis le 1er janvier 2026 une autorisation temporaire de trois ans, une seule par propriétaire, un quota chiffré par zone et un plafond abaissé à 90 nuitées.
+- **L'autorisation est contingentée.** Montévrain, mitoyenne du Val d'Europe, applique depuis le 1er janvier 2026 une autorisation temporaire de trois ans, une seule par propriétaire, avec un quota chiffré par zone. Même une résidence principale y est soumise dès le 91e jour de location dans l'année, la commune ayant abaissé le plafond de 120 à 90 jours.
 - **La copropriété interdit le meublé de tourisme.** Depuis la loi Le Meur, le loueur informe le syndic et le sujet passe en assemblée générale.
 - **Vous avez besoin d'un revenu régulier.** Une recette qui varie du simple au double selon les mois ne convient pas à un budget tendu, même si sa moyenne annuelle est supérieure.
 
@@ -175,5 +175,7 @@ Trois niveaux se cumulent : le cadre national (déclaration du meublé, plafond 
 - [Observatoire Crédit Logement/CSA, 2e trimestre 2026](https://lobservatoire.creditlogement.fr/publications/analyse-marche-immobilier-2eme-trimestre-2026/), juillet 2026 (taux moyen 3,24 %, 3,30 % sur 25 ans en juin)
 - Relevé Airbnb de MKZ Consulting pour Coolok, 3 septembre 2026 : 204 annonces de logements entiers sur 7 communes, 7 nuits en octobre et décembre 2026, prix de liste frais inclus
 - Délibérations de Val d'Europe Agglomération, Marne et Gondoire, Melun, Pays de Fontainebleau et Paris Est Marne & Bois, relevées le 3 septembre 2026 (changement d'usage, quotas, taxe de séjour)
+- [Règlement de la ville de Montévrain fixant les conditions de délivrance des autorisations de changement d'usage](https://www.montevrain.fr/app/uploads/2025/10/DEL2025.051anx_reglement-ville-de-Montevrain-1.pdf), annexé à la délibération 2025.051 du 25 septembre 2025, consulté le 19 octobre 2026
+- [Délibération 2025.053 de Montévrain abaissant à 90 jours le plafond de location d'une résidence principale](https://www.montevrain.fr/app/uploads/2025/12/DEL2025.053-ABAISSEMENT-90-JOURS-RESIDENCES-PPALES.pdf), 25 septembre 2025, consultée le 19 octobre 2026
 - Données par commune publiées sur coolok.co : nuitée et recettes (relevé AirDNA croisé, extraction du 9 juillet 2026), prix au m² ([Figaro Immobilier, prix médian tous biens à Serris](https://immobilier.lefigaro.fr/prix-immobilier/serris/ville-77449), estimation au 1er août 2026)
 - Relevé des pages tarifs publiques des conciergeries françaises, juin 2026 (commission de 15 à 30 %)

@@ -10,7 +10,7 @@
  "imageHeight": 744,
  "hero": {
   "eyebrow": "Simulateur gratuit",
-  "lead": "Trois questions sur votre bien, aucune adresse exacte à donner : vous voyez immédiatement les revenus observés dans votre commune, puis vous décidez si vous voulez l'audit chiffré du fondateur.",
+  "lead": "Quelques questions sur votre bien, sans adresse exacte : vous voyez immédiatement les revenus observés dans votre commune. L'adresse ne vous est demandée que pour l'audit chiffré du fondateur.",
   "ctas": [
    { "label": "Commencer la simulation", "href": "#simulateur", "style": "primary", "icon": "calc" },
    { "label": "Parler à Thierry directement", "href": "https://calendly.com/contact-coolok/30min", "style": "secondary", "icon": "calendar" }
@@ -54,7 +54,7 @@
  ],
  "faq": [
   { "q": "Le simulateur est-il vraiment gratuit ?", "a": "Oui, l'estimation comme l'audit chiffré. Nous ne demandons ni carte bancaire ni engagement, et vous n'entrerez pas dans une séquence de démarchage : Thierry vous rappelle une fois, avec des chiffres." },
-  { "q": "Pourquoi ne demandez-vous pas l'adresse exacte de mon bien ?", "a": "Parce qu'elle n'est pas nécessaire pour un ordre de grandeur : la commune, la typologie et la capacité suffisent. Vous pouvez préciser l'adresse plus tard, au moment de l'audit, si vous le souhaitez." },
+  { "q": "Faut-il donner l'adresse exacte de mon bien ?", "a": "Pas pour l'estimation : la commune, la typologie et la capacité suffisent à un ordre de grandeur. Pour l'audit chiffré, oui : il porte sur votre logement, pas sur la commune en général. Thierry a donc besoin de l'adresse complète, du nombre de chambres et du nombre de salles de bain, demandés avant l'envoi de la demande." },
   { "q": "Combien rapporte un T2 en location courte durée en Île-de-France ?", "a": "Cela dépend fortement de la commune. Sur les prix de liste relevés le 3 septembre 2026 pour sept nuits en octobre, la médiane des logements entiers, toutes tailles confondues, s'affichait à 125 EUR par nuit à Serris, 116 EUR à Versailles, 112 EUR à Vincennes et 81 EUR à Melun, frais inclus. Le simulateur vous donne la fourchette de revenus mensuels correspondante." },
   { "q": "Vos chiffres tiennent-ils compte de la réglementation ?", "a": "L'estimation automatique, non : elle donne le marché. L'audit, oui : nous vérifions le régime de votre commune, parce qu'un plafond de nuits ou une autorisation de changement d'usage change complètement le calcul. Notre guide sur la [loi Le Meur](/blog/loi-le-meur) détaille le cadre national." },
   { "q": "Que se passe-t-il si ma commune n'est pas dans la liste ?", "a": "Choisissez « Autre commune d'Île-de-France » et précisez son nom : nous n'avons pas publié de fourchette pour toutes les communes, mais nous savons faire l'estimation à la main. C'est Thierry qui s'en charge, sous 48 h ouvrées." }

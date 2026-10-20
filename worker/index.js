@@ -102,7 +102,8 @@ async function handleLead(request, env, url) {
     prenom: clean(body.prenom, 80), nom: clean(body.nom, 80),
     email: clean(body.email, 120).toLowerCase(), telephone: clean(body.telephone, 40),
     commune: clean(body.commune === 'autre' ? body.commune_autre : body.commune, 80),
-    type_bien: clean(body.type_bien, 20), surface: clean(body.surface, 6), chambres: clean(body.chambres, 3), couchages: clean(body.couchages, 3), situation: clean(body.situation, 30),
+    type_bien: clean(body.type_bien, 20), surface: clean(body.surface, 6), chambres: clean(body.chambres, 3), salles_de_bain: clean(body.salles_de_bain, 3), couchages: clean(body.couchages, 3), situation: clean(body.situation, 30),
+    adresse: clean(body.adresse, 200),
     estimation: clean(body.estimation, 200),
     message: clean(body.message, 2000),
     // L'adresse porte les paramètres de campagne (utm_*, fbclid) : 600 caractères pour ne pas les tronquer.
@@ -123,6 +124,11 @@ async function handleLead(request, env, url) {
     if (!lead.prenom || !emailOk || !lead.telephone) return refus('Prénom, email et téléphone sont obligatoires');
     const surface = Number(lead.surface.replace(',', '.'));
     if (!lead.commune || !(surface >= 9 && surface <= 600)) return refus('Commune et surface du bien sont obligatoires');
+    // Demande de Thierry du 20/10/2026 : pas d'audit sans le nombre de chambres, le nombre de salles de bain et
+    // l'adresse complète du logement (un chiffre au moins : numéro ou code postal). Une page ouverte avant ce
+    // déploiement n'a pas ces champs, d'où l'invitation à recharger.
+    if (!/^\d+$/.test(lead.chambres) || !/^[1-9]\d*$/.test(lead.salles_de_bain)) return refus("Nombre de chambres et de salles de bain obligatoires (rechargez la page si ces champs ne s'affichent pas)");
+    if (lead.adresse.length < 8 || !/\d/.test(lead.adresse)) return refus("Adresse complète du logement obligatoire : numéro, rue et code postal (rechargez la page si ce champ ne s'affiche pas)");
   }
   if (lead.consent !== 'oui') return wantsJson ? json({ ok: false, error: 'Merci de cocher la case de consentement' }, 422) : new Response('Consentement requis.', { status: 422 });
 

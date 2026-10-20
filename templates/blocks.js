@@ -211,7 +211,8 @@ B.simulateur = (b, ctx) => {
       <label>Commune du bien<select name="commune" required><option value="">Choisissez une commune</option>${options}<option value="autre">Autre commune d'Île-de-France</option></select></label>
       <label class="sim-autre" hidden>Précisez la commune<input type="text" name="commune_autre" autocomplete="address-level2"></label>
       <div class="form-row"><label>Type de bien<select name="type_bien" required><option value="appartement">Appartement</option><option value="maison">Maison</option></select></label><label>Surface (m²)<input type="number" name="surface" required min="9" max="600" inputmode="numeric"></label></div>
-      <div class="form-row"><label>Chambres<select name="chambres" required><option value="0">Studio</option><option value="1" selected>1 chambre</option><option value="2">2 chambres</option><option value="3">3 chambres</option><option value="4">4 chambres et plus</option></select></label><label>Voyageurs maximum<select name="couchages" required><option value="2" selected>2</option><option value="4">4</option><option value="6">6</option><option value="8">8 et plus</option></select></label></div>
+      <div class="form-row"><label>Chambres<select name="chambres" required><option value="">Choisissez</option><option value="0">Studio, sans chambre</option><option value="1">1 chambre</option><option value="2">2 chambres</option><option value="3">3 chambres</option><option value="4">4 chambres</option><option value="5">5 chambres et plus</option></select></label><label>Salles de bain<select name="salles_de_bain" required><option value="">Choisissez</option><option value="1">1 salle de bain</option><option value="2">2 salles de bain</option><option value="3">3 salles de bain</option><option value="4">4 salles de bain et plus</option></select></label></div>
+      <label>Voyageurs maximum<select name="couchages" required><option value="2" selected>2</option><option value="4">4</option><option value="6">6</option><option value="8">8 et plus</option></select></label>
       <label>Situation actuelle<select name="situation" required><option value="vide">Le bien est vide ou en achat</option><option value="airbnb-solo">Déjà loué en courte durée, en solo</option><option value="conciergerie">Déjà confié à une autre conciergerie</option><option value="classique">Loué en location classique</option><option value="secondaire">Résidence secondaire que j'utilise parfois</option></select></label>
       <button class="btn btn-primary btn-lg" type="button" data-next="2">Voir mon estimation</button>
     </fieldset>
@@ -220,10 +221,11 @@ B.simulateur = (b, ctx) => {
       <p class="sim-help">Cette fourchette est celle des logements entiers de la commune, toutes typologies confondues. Un audit chiffré tient compte de votre bien précis, de la réglementation de votre commune et de vos dates d'usage personnel.</p>
       <div class="cta-row"><button class="btn btn-primary btn-lg" type="button" data-next="3">Recevoir mon audit chiffré gratuit</button><button class="btn btn-ghost" type="button" data-prev="1">Modifier mon bien</button></div>
     </fieldset>
-    <fieldset class="sim-step" data-step="3" hidden><legend>Étape 3 sur 3 : où envoyer votre audit ?</legend>
-      ${preuve}<div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label>${nom}</div>
+    <fieldset class="sim-step" data-step="3" hidden><legend>Étape 3 sur 3 : le logement et vos coordonnées</legend>
+      ${preuve}<label>Adresse complète du logement à auditer<input type="text" name="adresse" required minlength="8" maxlength="200" pattern=".*[0-9].*" title="Numéro, rue et code postal du logement" autocomplete="off" placeholder="Ex. : 12 rue de la Gare, 77700 Serris"></label>
+      <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label>${nom}</div>
       <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="telephone" required autocomplete="tel" inputmode="tel"></label></div>
-      <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="Adresse approximative, état du bien, dates où vous l'utilisez"></textarea></label>
+      <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="État du bien, dates où vous l'utilisez"></textarea></label>
       <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte pour cet audit (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
       <button class="btn btn-primary btn-lg" type="submit">Recevoir mon audit sous 48 h</button>
       <p class="form-note">Audit réalisé par Thierry Moraldo, fondateur de Coolok. Gratuit, sans engagement, sans démarchage.</p>

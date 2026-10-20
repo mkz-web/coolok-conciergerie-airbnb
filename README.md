@@ -48,7 +48,7 @@ Ce que Coolok ne fait pas : ni prestation à la carte (pas de ménage seul, pas 
 - Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter une annonce.
 - À titre de comparaison, les commissions relevées sur les pages tarifs publiques du marché français en juin 2026 vont de 15 à 30 %.
 
-Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en trois questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h. Le détail des prix, ce qui est inclus et des exemples chiffrés : [page tarifs](https://www.coolok.co/tarifs).
+Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en quelques questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h, pour lequel l'adresse du logement est demandée. Le détail des prix, ce qui est inclus et des exemples chiffrés : [page tarifs](https://www.coolok.co/tarifs).
 
 ## Où Coolok intervient
 
@@ -188,6 +188,8 @@ Le dossier `site/` est un dépôt git depuis le 9 septembre 2026 (branche `main`
 Le Worker expose `POST /api/lead`. Chaque demande est écrite dans la table Softr « Leads site » (identifiants de base et de table dans les secrets du Worker), visible dans le studio Softr de Coolok, puis le visiteur est redirigé vers `/merci-contact` ou `/merci-simulateur`, pages qui déclenchent les événements clés GA4 déjà configurés.
 
 Secrets attendus sur le Worker : `SOFTR_API_KEY`, `SOFTR_DB`, `SOFTR_TABLE`, `SOFTR_FIELDS` (correspondance champ vers identifiant Softr), et facultativement `LEAD_WEBHOOK` pour une notification par email. Un pot de miel bloque les robots sans message d'erreur, et le consentement est obligatoire.
+
+Champs obligatoires. Contact : prénom, e-mail, message et consentement, téléphone facultatif. Simulateur, depuis le 20 octobre 2026 : à l'étape 1, commune (et son nom pour « Autre commune »), surface de 9 à 600 m², nombre de chambres (studio compris) et nombre de salles de bain, ces deux listes sans valeur présélectionnée ; à l'étape 3, adresse complète du logement (au moins un chiffre : numéro ou code postal), prénom, nom, e-mail, téléphone et consentement. L'estimation de l'étape 2 reste affichée sans adresse : l'adresse n'est demandée que pour l'audit chiffré. Les règles vivent dans le gabarit (`templates/blocks.js`) et dans le Worker (`worker/index.js`, 422 sinon) ; un champ neuf demande aussi sa colonne dans la table et son entrée dans `SOFTR_FIELDS`, posées avant le déploiement du Worker.
 
 Filtre anti-robots, sans service tiers : le script du site envoie avec chaque formulaire la durée passée sur la page (champ caché `duree`, mesurée avec l'horloge du visiteur). Sans cette durée, le Worker refuse l'envoi (422, message qui invite à recharger la page ou à écrire à contact@coolok.co) ; en dessous de 3 secondes, il simule un succès sans rien écrire. Chaque envoi écarté est journalisé (`lead-filtre`, avec sa raison et le pays). Les formulaires demandent donc JavaScript ; sans lui, un message renvoie vers l'e-mail et le téléphone.
 

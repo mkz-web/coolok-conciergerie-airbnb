@@ -4,7 +4,7 @@ seo_title: "Location courte durée : les nouvelles règles 2026 (90 jours)"
 meta_description: "Plafond de 120 ou 90 jours, enregistrement, changement d'usage, DPE, amendes : les nouvelles règles de la location courte durée, commune par commune."
 slug: lcd-guide-complet
 date: 2025-11-11
-updated: 2026-09-26
+updated: 2026-10-20
 category: "Réglementation"
 image: /assets/img/articles/lcd-guide-complet.webp
 image_alt: "Location courte durée : les nouvelles règles 2026 et la règle des 90 jours"
@@ -19,7 +19,7 @@ tribune_a_valider: true
 - **Le changement d'usage ne s'applique plus « de plein droit » nulle part.** Dans sa version en vigueur au 21 février 2026, l'article L631-7 du code de la construction et de l'habitation ne le prévoit que dans les communes classées en zone tendue, et seulement si le conseil municipal ou l'intercommunalité l'a voté ; dans les autres communes, l'article L631-9 permet de l'instaurer par délibération motivée.
 - **Le numéro d'enregistrement national n'était pas encore délivrable le 3 septembre 2026** : prévu par la loi au plus tard le 20 mai 2026, il est annoncé pour le quatrième trimestre 2026 par service-public.gouv.fr (actualité A18880 du 27 juillet 2026) et la Direction générale des entreprises.
 - **DPE** : classe A à E exigée depuis le 21 novembre 2024 pour toute autorisation de changement d'usage, classe A à D au 1er janvier 2034 pour tous les meublés de tourisme, sauf la résidence principale du loueur (loi n° 2024-1039, article 3).
-- **Amendes** : 10 000 € à défaut de déclaration, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours, jusqu'à 100 000 € par local loué sans autorisation de changement d'usage.
+- **Amendes** : 10 000 € à défaut de déclaration sur le téléservice national, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours, jusqu'à 100 000 € par local loué sans autorisation de changement d'usage. Avant l'ouverture du téléservice, le montant applicable aux démarches communales n'est pas tranché par les sources que nous avons lues.
 - **La commune décide plus que la loi** : Bussy-Saint-Georges, Chalifert, Saint-Germain-en-Laye, Fontainebleau et Melun n'exigeaient aucune autorisation le 3 septembre 2026, quand Paris impose une compensation pouvant atteindre trois fois la surface transformée.
 
 ## Nouvelles règles de la location courte durée : deux idées reçues à jeter
@@ -33,11 +33,11 @@ La location courte durée n'est pas interdite en France : elle est encadrée. Ce
 | Décidé par la loi, partout en France | Décidé par votre commune ou son intercommunalité |
 |---|---|
 | Plafond de 120 jours pour une résidence principale | Abaissement du plafond à 90 jours |
-| Déclaration du meublé de tourisme en mairie | Autorisation de changement d'usage, avec ou sans compensation |
+| Déclaration du meublé de tourisme sur un téléservice national, annoncé pour le quatrième trimestre 2026 (démarches de la commune d'ici là) | Autorisation de changement d'usage, avec ou sans compensation |
 | DPE classe A à E pour toute autorisation, classe A à D pour tous en 2034 | Quota d'autorisations, durée de l'autorisation, périmètre par quartier |
 | Fiscalité, sanctions, information du syndic | Numéro d'enregistrement local, tarif de la taxe de séjour |
 
-*Sources : loi n° 2024-1039, articles L324-1-1 du code du tourisme et L631-7 du code de la construction et de l'habitation, guide pratique 2025 du ministère de la Transition écologique. Vérifié le 3 septembre 2026.*
+*Sources : loi n° 2024-1039, articles L324-1-1 du code du tourisme et L631-7 du code de la construction et de l'habitation, guide pratique 2025 du ministère de la Transition écologique. Vérifié le 3 septembre 2026 ; déclaration relue sur Légifrance le 19 octobre 2026.*
 
 Le socle national tient en quelques lignes ; tout le reste se joue en mairie. Avant d'acheter ou de basculer un bien, faites le calcul sur votre commune avec notre [simulateur de revenus locatifs](/simulateur-locatif).
 
@@ -111,15 +111,17 @@ Ces montants sont refacturés au voyageur, mais ils pèsent sur votre prix affic
 
 | Manquement | Montant maximal | Base |
 |---|---|---|
-| Défaut de déclaration ou d'enregistrement | 10 000 € | Loi n° 2024-1039 |
+| Défaut de déclaration sur le téléservice national | 10 000 € | Loi n° 2024-1039 |
 | Fausse déclaration ou faux numéro d'enregistrement | 20 000 € | Loi n° 2024-1039 |
 | Dépassement du plafond de jours | 15 000 € (contre 10 000 € auparavant) | Loi n° 2024-1039 |
 | Location sans autorisation de changement d'usage | 100 000 € par local, plus une astreinte pouvant atteindre 1 000 € par jour et par mètre carré | Article L651-2 du code de la construction et de l'habitation |
 | Meublé non conforme au DPE à partir du 1er janvier 2034 | 5 000 € par local, plus une astreinte de 100 € par jour de retard dans la transmission du DPE au maire | Loi n° 2024-1039, article 3 |
 
-*Source : loi n° 2024-1039 du 19 novembre 2024 et code de la construction et de l'habitation, Légifrance, vérifiés le 3 septembre 2026.*
+*Source : loi n° 2024-1039 du 19 novembre 2024 et code de la construction et de l'habitation, Légifrance, vérifiés le 3 septembre 2026 ; article L324-1-1 du code du tourisme relu le 19 octobre 2026.*
 
-Un montant périmé circule encore, y compris sur des pages officielles : l'ancien plafond de l'amende pour changement d'usage, soit la moitié du montant actuel. Une page d'office de tourisme du Val-de-Marne l'affichait toujours le 3 septembre 2026, et ce chiffre est parfois recopié en sanction du défaut d'enregistrement, alors que la loi prévoit 10 000 €.
+Un montant périmé circule encore, y compris sur des pages officielles : l'ancien plafond de l'amende pour changement d'usage, soit la moitié du montant actuel. Une page d'office de tourisme du Val-de-Marne l'affichait toujours le 3 septembre 2026, et ce chiffre est parfois recopié en sanction du défaut d'enregistrement.
+
+Les plafonds de 10 000 € et de 20 000 € visent la déclaration sur le téléservice national. Avant son ouverture, le montant applicable aux démarches communales n'est pas tranché par les sources que nous avons lues : la fiche F2043 de service-public, vérifiée le 21 mai 2026, cite encore 450 € pour une déclaration simple manquante et 5 000 € pour un défaut d'enregistrement.
 
 ## La carte de lecture, commune par commune
 
@@ -167,7 +169,7 @@ Oui. Une clause d'habitation bourgeoise exclusive s'y oppose déjà. Et depuis l
 
 ### Quelles sont les amendes en cas de non-respect ?
 
-Jusqu'à 10 000 € à défaut de déclaration, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours et 100 000 € par local loué sans autorisation de changement d'usage, avec une astreinte pouvant atteindre 1 000 € par jour et par mètre carré. S'y ajoute, à partir de 2034, une amende de 5 000 € par local pour un meublé non conforme au DPE.
+Jusqu'à 10 000 € à défaut de déclaration sur le téléservice national, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours et 100 000 € par local loué sans autorisation de changement d'usage, avec une astreinte pouvant atteindre 1 000 € par jour et par mètre carré. S'y ajoute, à partir de 2034, une amende de 5 000 € par local pour un meublé non conforme au DPE. Avant l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026, le montant applicable aux démarches communales n'est pas tranché par les sources que nous avons lues.
 
 ### Comment savoir si ma commune applique la limite de 90 jours ?
 
@@ -177,7 +179,7 @@ En appelant le service urbanisme de la mairie, ou en cherchant la mention « meu
 
 - [Loi n° 2024-1039 du 19 novembre 2024 sur les meublés de tourisme](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711), Légifrance, consultée le 3 septembre 2026
 - [Article L631-7 du code de la construction et de l'habitation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546358), version en vigueur au 21 février 2026, Légifrance, consulté le 3 septembre 2026
-- [Article L324-1-1 du code du tourisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050650414), Légifrance, consulté le 3 septembre 2026
+- [Article L324-1-1 du code du tourisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050650414), Légifrance, consulté le 3 septembre 2026, relu le 19 octobre 2026
 - [Fiche F2043, résidence secondaire louée en meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), service-public.gouv.fr, consultée le 3 septembre 2026
 - [Actualité A18880 sur le calendrier de l'enregistrement](https://www.service-public.gouv.fr/particuliers/actualites/A18880), service-public.gouv.fr, mise à jour du 27 juillet 2026
 - [Guide pratique 2025 de la réglementation des meublés de tourisme](https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf), ministère de la Transition écologique, septembre 2025

@@ -4,7 +4,7 @@ seo_title: "Conciergerie location courte durée : 20 % HT, Île-de-France"
 meta_description: "Ce que fait vraiment une conciergerie de location courte durée, ce qu'elle coûte en 2026 (15 à 30 % sur le marché, 20 % HT chez Coolok) et comment la choisir."
 slug: conciergerie-courte-duree
 date: 2026-07-23
-updated: 2026-09-26
+updated: 2026-10-20
 category: "Conciergerie"
 image: /assets/img/articles/conciergerie-courte-duree.webp
 image_alt: "Conciergerie location courte durée : le guide complet 2026"
@@ -16,12 +16,12 @@ tribune_a_valider: true
 
 > **L'essentiel en 2 minutes**
 >
-> - Une **conciergerie de location courte durée** prend en charge l'exploitation complète d'un meublé de tourisme : annonce, prix, voyageurs, ménage, conformité. Vous restez propriétaire et décisionnaire, elle opère.
+> - Une **conciergerie de location courte durée** prend en charge l'exploitation complète d'un meublé de tourisme : annonce, prix, voyageurs, ménage, suivi de la conformité. Vous restez propriétaire et décisionnaire, elle opère.
 > - Le marché s'est professionnalisé : à Paris, **31 % des annonces Airbnb relèvent de multiloueurs** (investisseurs et conciergeries) en août 2024, contre 21 % en 2020 (Apur, données relayées par paris.fr, mise à jour de mars 2025).
 > - Le modèle dominant : une **commission de 15 à 30 % des revenus** (souvent autour de 20 %), ménage refacturé au voyageur. Coolok applique **20 % HT, tout compris, au résultat**, ménage refacturé au voyageur ([grille détaillée](/tarifs)).
 > - Une conciergerie n'est **pas une agence immobilière** : elle intervient par contrat de prestation de services, sans carte professionnelle au titre de la loi Hoguet, et ne signe aucun bail à votre place.
 > - Le temps compte avant le pourcentage : **20 à 30 heures par mois** pour exploiter un meublé loué toute l'année en direct (estimation Coolok, septembre 2026 ; aucune étude publique ne chiffre ce poste).
-> - Depuis la **loi Le Meur**, la conformité (enregistrement obligatoire partout dès l'ouverture du téléservice national fin 2026, plafonds, DPE, fiscalité) fait partie du métier : une conciergerie sérieuse la suit avec vous.
+> - Depuis la **loi Le Meur**, la conformité (enregistrement obligatoire partout dès l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026, plafonds, DPE, fiscalité) fait partie du métier : une conciergerie sérieuse la suit avec vous.
 >
 > *Fourchettes relevées sur les pages tarifs publiques des conciergeries françaises en juin 2026 ; données Apur relayées par paris.fr, mars 2025 ; loi n° 2024-1039 du 19 novembre 2024 sur Légifrance.*
 
@@ -58,7 +58,7 @@ Remettre des clés, c'est la partie visible. Le travail réel se joue sur tout l
 
 | Moment | Ce que la conciergerie prend en charge |
 |---|---|
-| **Avant la mise en location** | Étude du marché local et du bien, conformité administrative (déclaration, numéro d'enregistrement, règles de la commune), photos professionnelles, rédaction de l'annonce, diffusion multi-plateformes (Airbnb, Booking) |
+| **Avant la mise en location** | Étude du marché local et du bien, vérification des règles de la commune, explication des étapes de la déclaration et du numéro d'enregistrement (la loi demande au loueur de déclarer en personne), photos professionnelles, rédaction de l'annonce, diffusion multi-plateformes (Airbnb, Booking) |
 | **À chaque réservation** | Vérification des profils voyageurs, communication avant séjour, accueil ou arrivée autonome sécurisée, caution et règlement intérieur |
 | **Pendant le séjour** | Assistance voyageurs, gestion des imprévus et petites réparations, coordination des intervenants |
 | **Après chaque départ** | Contrôle qualité du logement, ménage professionnel et linge, gestion des avis, ajustement des prix pour les séjours suivants, reporting au propriétaire |
@@ -89,7 +89,7 @@ Et si vous hésitez encore sur le choix du prestataire lui-même, notre guide [m
 
 Depuis la [loi Le Meur](/blog/loi-le-meur), la location courte durée est un terrain réglementé commune par commune : numéro d'enregistrement exigé sur chaque annonce dans certaines communes, et partout en France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026, plafond de 120 jours par an pour la résidence principale (que la commune peut abaisser à 90, comme à Paris depuis le 1er janvier 2025), exigences de DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme au 1er janvier 2034, hors résidence principale du loueur), abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés.
 
-Concrètement, pour vous : une conciergerie sérieuse ne « pose pas une annonce », elle vérifie d'abord que votre projet est conforme dans votre commune, elle fait les démarches d'enregistrement avec vous, et elle suit les plafonds de nuits. En 2026, ce travail administratif n'est plus une option, c'est le socle. Une offre qui n'en parle pas est une offre incomplète.
+Concrètement, pour vous : une conciergerie sérieuse ne « pose pas une annonce », elle vérifie d'abord que votre projet est conforme dans votre commune, elle vous explique les démarches d'enregistrement, que la loi vous demande de faire en personne, et elle suit les plafonds de nuits. En 2026, ce travail administratif n'est plus une option, c'est le socle. Une offre qui n'en parle pas est une offre incomplète.
 
 ## Comment choisir sa conciergerie : les 6 questions à poser
 
@@ -122,7 +122,7 @@ Mon conseil, même si vous ne signez pas avec nous : exigez des chiffres, les v�
 
 ### Comment fonctionne une conciergerie Airbnb ?
 
-Elle exploite votre logement meublé à votre place, du premier jour au dernier départ : étude du marché local, conformité et enregistrement, photos et annonce, diffusion sur Airbnb et Booking.com, tarification ajustée à la demande, sélection et accueil des voyageurs, ménage et linge entre deux séjours, assistance pendant le séjour, gestion des avis et relevé mensuel. Vous gardez la propriété, le calendrier et le cadre (prix plancher, profils acceptés) ; elle exécute.
+Elle exploite votre logement meublé à votre place, du premier jour au dernier départ : étude du marché local, vérification des règles de la commune, photos et annonce, diffusion sur Airbnb et Booking.com, tarification ajustée à la demande, sélection et accueil des voyageurs, ménage et linge entre deux séjours, assistance pendant le séjour, gestion des avis et relevé mensuel. Vous gardez la propriété, le calendrier et le cadre (prix plancher, profils acceptés) ; elle exécute. La déclaration du meublé, elle, ne se délègue pas : la loi vous demande de la faire en personne, et la conciergerie vous en explique les étapes.
 
 ### Quels sont les tarifs d'une conciergerie en 2026 ?
 

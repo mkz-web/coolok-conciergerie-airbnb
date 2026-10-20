@@ -4,7 +4,7 @@ seo_title: "Location courte durée Paris : règles 2026 et alternatives"
 meta_description: "90 jours, enregistrement, compensation, amendes : les règles 2026 de la location courte durée à Paris, et où la rentabilité s'est déplacée en Île-de-France."
 slug: location-paris-courte-duree
 date: 2025-09-03
-updated: 2026-09-26
+updated: 2026-10-20
 category: "Réglementation"
 image: /assets/img/articles/location-paris-courte-duree.webp
 image_alt: "Location courte durée à Paris : les règles 2026 et où va la rentabilité"
@@ -41,7 +41,7 @@ Détail très concret, souvent découvert trop tard : depuis le 24 janvier 2025,
 
 Louer sa résidence principale reste le seul cas simple à Paris : pas de changement d'usage, une déclaration en ligne, un numéro à afficher, et le compteur de 90 jours. Trois règles de survie :
 
-1. **Déclarez avant de publier.** La loi Le Meur généralise l'enregistrement à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; à Paris, il conditionne l'annonce depuis des années. Une annonce sans numéro valide, c'est une amende qui peut atteindre 10 000 €, et 20 000 € en cas de fausse déclaration.
+1. **Déclarez avant de publier.** La loi Le Meur généralise l'enregistrement à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; à Paris, il conditionne l'annonce depuis des années. La déclaration se fait par vous : la Ville précise qu'elle ne peut pas être réalisée au nom de la conciergerie. Côté amendes, le texte en vigueur depuis le 20 mai 2026 prévoit, pour la déclaration sur le téléservice national, jusqu'à 10 000 € en cas d'absence et 20 000 € en cas de fausse déclaration ; pour le numéro délivré aujourd'hui par la Ville, paris.fr (page mise à jour le 25 mars 2026) indique encore 5 000 €, et aucune source que nous avons lue ne tranche le montant applicable avant l'ouverture du téléservice.
 2. **Suivez le compteur multi-plateformes.** 90 jours, c'est le total toutes plateformes confondues, pas 90 jours par site.
 3. **Vendez les bonnes nuits.** C'est le point que presque tout le monde rate : quand le droit de louer est plafonné, la tarification devient l'essentiel du revenu. 90 nuits placées sur les périodes de forte demande (salons, événements sportifs, vacances internationales, fashion weeks) ne rapportent pas la même chose que 90 nuits au fil de l'eau. Un plafond ne plafonne pas votre prix moyen.
 
@@ -74,7 +74,7 @@ La lecture est limpide : de Vincennes au Val d'Europe, sur la même ligne A du R
 
 ## Ce que Coolok fait pour les propriétaires parisiens et limitrophes
 
-Pour une résidence principale à Paris : exploitation dans les règles (enregistrement, compteur de nuits multi-plateformes) et surtout **l'optimisation des 90 nuits autorisées**, en les positionnant sur les périodes les plus chères de l'année. Pour un projet d'investissement : nous vous disons franchement quand Paris intra-muros ne passe pas, et nous chiffrons les alternatives en petite couronne Est et couronne Disney, où nos équipes opèrent au quotidien. Le fonctionnement complet d'une délégation est détaillé dans notre guide de la [conciergerie de location courte durée](/blog/conciergerie-courte-duree) ; la commission Coolok est de 20 % HT, au résultat.
+Pour une résidence principale à Paris : exploitation dans les règles (numéro d'enregistrement, que vous obtenez vous-même sur le téléservice de la Ville, et compteur de nuits multi-plateformes) et surtout **l'optimisation des 90 nuits autorisées**, en les positionnant sur les périodes les plus chères de l'année. Pour un projet d'investissement : nous vous disons franchement quand Paris intra-muros ne passe pas, et nous chiffrons les alternatives en petite couronne Est et couronne Disney, où nos équipes opèrent au quotidien. Le fonctionnement complet d'une délégation est détaillé dans notre guide de la [conciergerie de location courte durée](/blog/conciergerie-courte-duree) ; la commission Coolok est de 20 % HT, au résultat.
 
 ## Le mot de Thierry Moraldo, fondateur de Coolok
 
@@ -92,7 +92,7 @@ Le flou coûte toujours plus cher que la règle. Mon travail, c'est de vous donn
 
 ### Faut-il un numéro d'enregistrement pour louer en courte durée à Paris ?
 
-Oui, pour tous les meublés de tourisme, résidence principale comprise : le numéro doit figurer sur chaque annonce. L'enregistrement sera généralisé à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; défaut d'enregistrement et fausse déclaration sont sanctionnés (jusqu'à 10 000 € et 20 000 € respectivement).
+Oui, pour tous les meublés de tourisme, résidence principale comprise : le numéro doit figurer sur chaque annonce. L'enregistrement sera généralisé à toute la France à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026 ; le texte en vigueur prévoit, pour la déclaration sur ce téléservice, jusqu'à 10 000 € en cas d'absence et 20 000 € en cas de fausse déclaration. Pour le numéro délivré aujourd'hui par la Ville, le montant applicable n'est pas tranché par les sources que nous avons lues : paris.fr indique encore 5 000 €.
 
 ### Peut-on encore transformer un logement en meublé de tourisme à Paris ?
 

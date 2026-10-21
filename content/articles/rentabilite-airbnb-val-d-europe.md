@@ -4,6 +4,7 @@ seo_title: "Rentabilité Airbnb au Val d'Europe : le calcul d'un T2 (2026)"
 meta_description: "Rentabilité d'un Airbnb au Val d'Europe : le calcul d'un T2 à Serris sur douze mois, prix signés 2025, nuits d'octobre et de janvier, taxe de séjour, 120 nuits."
 slug: rentabilite-airbnb-val-d-europe
 date: 2026-10-19
+updated: 2026-10-21
 category: "Rentabilité et investissement"
 image: /assets/img/articles/rentabilite-airbnb-val-d-europe.webp
 image_alt: "Un propriétaire, clés en main, sur le balcon de son appartement dans une ville nouvelle du Val d'Europe, face à un feu d'artifice au loin"
@@ -26,7 +27,7 @@ Pour un investissement locatif au Val d'Europe, la rentabilité d'un Airbnb ne s
 
 ## Le Val d'Europe n'est pas une commune, c'est un calendrier
 
-Le secteur vit au rythme de Disneyland Paris. Le Festival Halloween Disney court du 26 septembre au 1er novembre 2026, le Noël Enchanté Disney du 7 novembre 2026 au 6 janvier 2027, et le second parc est devenu Disney Adventure World le 29 mars 2026 avec l'ouverture du Monde de La Reine des Neiges. Disneyland Paris ne publie plus sa fréquentation ; le rapport TEA/AECOM sur l'année 2023 comptait plus de 16 millions de visiteurs cumulés sur les deux parcs.
+Le secteur vit au rythme de Disneyland Paris. Le Festival Halloween Disney court du 26 septembre au 1er novembre 2026, le Noël Enchanté Disney du 7 novembre 2026 au 6 janvier 2027, et le second parc est devenu Disney Adventure World le 29 mars 2026 avec l'ouverture du Monde de La Reine des Neiges. Disneyland Paris ne publie plus sa fréquentation ; le dernier index TEA paru, publié le 23 octobre 2025, compte 15,8 millions de visites sur les deux parcs en 2024 (10,2 millions au Parc Disneyland, 5,6 millions au second parc).
 
 Ce calendrier se voit dans les prix. Nous avons relevé le 16 septembre 2026, sur Airbnb, le prix de liste de logements entiers pour sept nuits et deux adultes, à deux périodes.
 
@@ -68,7 +69,7 @@ Oui, 24 % TTC, c'est près d'un quart des recettes. C'est aussi zéro euro les m
 
 Un mot sur le prix d'achat. Notre page Serris publie 4 453 €/m² (prix médian tous biens estimé par Figaro Immobilier au 1er août 2026) ; ici nous partons du prix signé des appartements, 4 808 €/m² sur 87 ventes de 2025, soit 216 000 € au lieu d'environ 200 000 € pour 45 m². À apport égal, ce sont 16 000 € de plus à emprunter, environ 950 € de crédit par an au taux d'août 2026. La différence vient du prix d'achat ; la demande est la même.
 
-Une ligne change tout : le nombre de nuits. Pour une résidence principale, la loi plafonne la location à 120 nuits par an : 120 nuits à 110 €, ce sont 13 200 € de recettes au lieu de 26 400 €. À Bussy-Saint-Georges, au-delà de 120 nuits, le logement n'est plus une résidence principale (elle doit être occupée au moins huit mois par an) : il se déclare en mairie comme meublé de tourisme avec le formulaire cerfa n° 14004*04, et son adresse doit se trouver dans une zone où le plan local d'urbanisme l'autorise. Sans cette déclaration, vous restez aux 120 nuits du calcul ci-dessus. Pour une résidence secondaire, c'est zéro nuit sans autorisation. La rentabilité se joue là, avant le premier tableur.
+Une ligne change tout : le nombre de nuits. Pour une résidence principale, la loi plafonne la location à 120 nuits par an : 120 nuits à 110 €, ce sont 13 200 € de recettes au lieu de 26 400 €. À Bussy-Saint-Georges, la Ville autorise la location d'une résidence principale moins de 120 jours par an dans tous les quartiers, avec la seule taxe de séjour comme formalité. Au-delà, le logement n'est plus une résidence principale (elle doit être occupée au moins huit mois par an) : il relève du régime de la résidence secondaire, louable seulement dans les zones UA, UB (hors secteur UBa), UC et UG du plan local d'urbanisme, après une déclaration préalable de changement de destination (formulaire cerfa n° 16702*03) puis la déclaration du meublé en mairie (cerfa n° 14004*04). Sans ces démarches, vous restez sous les 120 nuits du calcul ci-dessus. Pour une résidence secondaire, c'est zéro nuit sans autorisation. La rentabilité se joue là, avant le premier tableur.
 
 Vous avez déjà un bien qui tourne ? [Envoyez-nous vos relevés](/contact) : nous faisons un bilan ensemble de vos chiffres.
 
@@ -76,11 +77,11 @@ Vous avez déjà un bien qui tourne ? [Envoyez-nous vos relevés](/contact) : no
 
 Le secteur n'a pas une règle, il en a trois. Val d'Europe Agglomération a voté le 14 décembre 2023 un règlement des meublés de tourisme applicable à ses dix communes (Bailly-Romainvilliers, Chessy, Coupvray, Esbly, Magny-le-Hongre, Montry, Saint-Germain-sur-Morin, Serris, Villeneuve-le-Comte, Villeneuve-Saint-Denis), en vigueur depuis le 1er juin 2024. Montévrain, mitoyenne, a le sien depuis le 1er janvier 2026.
 
-[Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges), membre de Marne et Gondoire, n'applique ni changement d'usage ni numéro communal. Mais son plan local d'urbanisme n'autorise la location d'une résidence secondaire en meublé de tourisme que dans certaines zones (relevé du 3 septembre 2026) : la première vérification porte sur l'adresse.
+[Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges), membre de Marne et Gondoire, n'applique ni autorisation de changement d'usage ni numéro communal. Mais son plan local d'urbanisme n'autorise la location d'une résidence secondaire en meublé de tourisme que dans quatre zones, après une démarche d'urbanisme (page de la Ville mise à jour le 28 septembre 2026) : la première vérification porte sur l'adresse.
 
 | Votre situation | Val d'Europe Agglomération (dix communes) | Montévrain |
 |---|---|---|
-| Résidence principale | Numéro d'enregistrement sur declaloc.fr ; pas d'autorisation de changement d'usage en deçà de 120 nuits par an | Autorisation obligatoire à partir du 91e jour de location |
+| Résidence principale | Numéro d'enregistrement sur declaloc.fr ; pas d'autorisation de changement d'usage en deçà de 120 nuits par an | Plafond abaissé à 90 jours par an depuis le 1er janvier 2026 ; au-delà, autorisation de changement d'usage obligatoire dès le 91e jour |
 | Résidence secondaire d'un particulier | Enregistrement plus autorisation temporaire de changement d'usage : « un logement par personne par commune », « pour une durée de 1 an renouvelable » | Autorisation temporaire de trois ans, une seule par propriétaire, nominative, caduque en cas de vente |
 | Société (SCI, SARL, SAS) | Dans les huit autres communes, déclaration et numéro d'enregistrement seulement. À Chessy et Serris, seules communes où le détail du régime des sociétés est publié : autorisation de changement d'usage sans compensation hors zone 1 ; en zone 1 (ZAC des Studios et des Congrès à Chessy, ZAC du Pré de Claye à Serris, Centre Urbain de Serris et Chessy), compensation obligatoire depuis le 1er décembre 2024 | Même régime temporaire de trois ans, personnes physiques et morales |
 | Quota | Aucun quota chiffré publié | 188 autorisations en ville nouvelle, 11 dans le bourg, 104 dans les quartiers pavillonnaires, liste d'attente au-delà |
@@ -94,7 +95,7 @@ La compensation pèse sur toute société qui achète dans le centre urbain de S
 
 Montévrain compte ses meublés. La commune recensait 294 meublés de tourisme au 22 juillet 2025 contre 24 en 2020, et a fixé des quotas par zone. Quand le quota d'une zone est atteint, la demande est placée en liste d'attente. Un bien acheté sans autorisation en poche peut rester un bien à louer en longue durée.
 
-Les sanctions affichées par l'agglomération vont jusqu'à 50 000 € en cas d'infraction au changement d'usage, 80 000 € pour une fausse déclaration et 5 000 € sans numéro d'enregistrement. Le cadre national (enregistrement obligatoire partout dès la mise en service du téléservice, prévue au quatrième trimestre 2026) est détaillé dans notre guide de la [loi Le Meur](/blog/loi-le-meur).
+Les sanctions affichées par l'agglomération vont jusqu'à 50 000 € en cas d'infraction au changement d'usage, 80 000 € pour une fausse déclaration et 5 000 € sans numéro d'enregistrement. La fiche officielle de service-public indique aujourd'hui jusqu'à 100 000 € pour une location sans l'autorisation de changement d'usage exigée : c'est ce plafond-là qu'il faut garder en tête. Le cadre national (enregistrement obligatoire partout dès la mise en service du téléservice, prévue au quatrième trimestre 2026) est détaillé dans notre guide de la [loi Le Meur](/blog/loi-le-meur).
 
 ## La taxe de séjour au Val d'Europe : 16,25 % qui ne sont pas à vous
 
@@ -187,18 +188,19 @@ Non : un seul T2 au Val d'Europe n'y suffit pas. Ce qui reste après commission 
 - [Communiqué de Val d'Europe Agglomération repris par TendanceHotellerie](https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/23356-article/meubles-de-tourisme-au-val-d-europe-nouvelle-reglementation), 26 novembre 2024 (régime des personnes morales et périmètre de compensation)
 - [Plateforme de la taxe de séjour de Val d'Europe Agglomération](https://valdeurope.taxesejour.fr/), tarifs applicables au 1er janvier 2026, consultée le 16 septembre 2026
 - [Règlement de la ville de Montévrain fixant les conditions de délivrance des autorisations de changement d'usage](https://www.montevrain.fr/app/uploads/2025/10/DEL2025.051anx_reglement-ville-de-Montevrain-1.pdf), annexé à la délibération 2025.051 du 25 septembre 2025
+- [Délibération 2025.053 de Montévrain abaissant à 90 jours le plafond de location d'une résidence principale](https://www.montevrain.fr/app/uploads/2025/12/DEL2025.053-ABAISSEMENT-90-JOURS-RESIDENCES-PPALES.pdf), 25 septembre 2025, en vigueur au 1er janvier 2026, consultée le 21 octobre 2026
 - [Communes membres de Marne et Gondoire](https://www.marneetgondoire.fr/fonctionnement/communes-membres-113.html), consultée le 16 septembre 2026
 - [Observatoire Crédit Logement/CSA, analyse du marché d'août 2026](https://lobservatoire.creditlogement.fr/publications/analyse-marche-immobilier-aout-2026/), 31 août 2026 (3,31 % en moyenne, 3,35 % sur 25 ans)
 - [Disneyland Paris News, communiqués du 8 septembre 2026](https://news.disneylandparis.com/2026/09/08/), Festival Halloween Disney et Noël Enchanté Disney
 - [À la découverte de Disney Adventure World](https://news.disneylandparis.com/a-la-decouverte-de-walt-disney-studios/), Disneyland Paris News
-- [TEA/AECOM Theme Index 2023](https://aecom.com/wp-content/uploads/documents/reports/AECOM-Theme-Index-2023.pdf), fréquentation 2023 des parcs européens
+- [Themed Entertainment Association, publication du TEA Global Experience Index 2024](https://www.teaconnect.org/news/official-release-2024-tea-global-experience-indextm), 23 octobre 2025 (tableau Europe, Moyen-Orient et Afrique : 10 214 000 visites au Parc Disneyland, 5 598 000 au second parc en 2024)
 - [service-public.gouv.fr, mettre son logement en location : les règles évoluent en 2026](https://www.service-public.gouv.fr/particuliers/actualites/A18880), 27 juillet 2026, consultée le 19 octobre 2026 (téléservice national prévu au quatrième trimestre 2026, plafond micro-BIC de 15 000 € pour les revenus 2025 et 2026)
-- [service-public.gouv.fr, fiche F2043, résidence secondaire en meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), vérifiée le 21 mai 2026 par l'éditeur, consultée le 19 octobre 2026
+- [service-public.gouv.fr, fiche F2043, résidence secondaire en meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), vérifiée le 21 mai 2026 par l'éditeur, consultée le 19 octobre 2026 (amende jusqu'à 100 000 € sans autorisation de changement d'usage)
 - [service-public.gouv.fr, fiche F33175, résidence principale en meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F33175), vérifiée le 21 mai 2026 par l'éditeur, consultée le 19 octobre 2026
 - [Formulaire cerfa n° 14004*04, déclaration en mairie des meublés de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/R14321), consulté le 19 octobre 2026
 - [Loi n° 2024-1039 du 19 novembre 2024 dite loi Le Meur](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711), Légifrance
 - Relevé Airbnb de MKZ Consulting pour Coolok du 16 septembre 2026 : 63 annonces relevées sur quatre recherches (Serris, Chessy, Magny-le-Hongre pour la semaine du 10 au 17 octobre 2026, Serris pour celle du 16 au 23 janvier 2027), dont 59 logements entiers retenus (hôtels, chambres et maisons de ville écartés), 7 nuits, 2 adultes, prix de liste frais inclus
 - Fourchettes par commune publiées sur coolok.co (nuitée, occupation, revenu mensuel estimé), estimations Coolok issues d'un relevé AirDNA croisé du 9 juillet 2026 ; prix au m² publié sur la page Serris de coolok.co (4 453 €/m², prix médian tous biens estimé par Figaro Immobilier au 1er août 2026), relu le 19 octobre 2026
 - Tarif Coolok, 20 % HT au résultat, coolok.co/tarifs
-- Plan local d'urbanisme de Bussy-Saint-Georges, zones où le meublé de tourisme d'une résidence secondaire est autorisé, relevé du 3 septembre 2026 auprès de la commune
+- [Ville de Bussy-Saint-Georges, meublés de tourisme](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/), page mise à jour le 28 septembre 2026, consultée le 21 octobre 2026 (résidence principale, zones du plan local d'urbanisme, cerfa 16702*03 et 14004*04)
 - Forfait de ménage de 50 € par séjour retiré des prix de liste pour approcher un prix nu : hypothèse de la méthode Coolok, non mesurée dans cet article

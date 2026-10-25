@@ -309,7 +309,12 @@ function insertMidCtas(html, site, page, depart) {
 function articlePage(site, page, data) {
   const body = page.bodyHtml;
   const f = site.founder;
-  const byline = `<p class="byline">Par <a href="/qui-sommes-nous">${esc(f.name)}</a>, ${esc(f.jobTitle)} · Publié le ${esc(page.dateLabel)}${page.dateModified && page.dateModified !== page.datePublished ? ` · Mis à jour le ${esc(page.dateModifiedLabel)}` : ''} · ${page.readingTime} min de lecture</p>`;
+  // La date de mise à jour passe en premier : Google affichait la date de publication en résultat
+  // (« 11 nov. 2025 » pour un guide mis à jour le 20/10/2026, mesuré le 25/10/2026).
+  const temps = (iso, label) => `<time datetime="${esc(String(iso).slice(0, 10))}">${esc(label)}</time>`;
+  const majour = page.dateModified && page.dateModified !== page.datePublished;
+  const dates = majour ? `Mis à jour le ${temps(page.dateModified, page.dateModifiedLabel)} · Publié le ${temps(page.datePublished, page.dateLabel)}` : `Publié le ${temps(page.datePublished, page.dateLabel)}`;
+  const byline = `<p class="byline">Par <a href="/qui-sommes-nous">${esc(f.name)}</a>, ${esc(f.jobTitle)} · ${dates} · ${page.readingTime} min de lecture</p>`;
   // Les items viennent déjà rendus par le Markdown (build.js) : les repasser dans inline() les
   // ré-échappait, et « <strong> » s'affichait en toutes lettres au lecteur (mesuré le 03/09/2026).
   const tldr = page.tldr && page.tldr.length ? `<div class="tldr"><p class="tldr-title">L'essentiel</p><ul>${page.tldr.map((t) => `<li>${ic('check')}${t}</li>`).join('')}</ul></div>` : '';

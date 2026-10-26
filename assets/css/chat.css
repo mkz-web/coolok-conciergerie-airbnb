@@ -31,7 +31,7 @@ html.chat-ouvert,html.chat-ouvert body{overflow:hidden}
 .chat-sources p{color:var(--muted)}
 .chat-sources-liste{list-style:none;padding:0!important;margin:.25rem 0 0!important}
 .chat-sources-liste li+li{margin-top:.15rem}
-.chat-sources-liste a{display:inline-block;padding:.35rem 0}
+.chat-sources-liste a{display:inline-flex;align-items:center;min-height:44px;padding:.35rem 0}
 .chat-attente p{display:inline;color:var(--muted)}
 .chat-points::after{content:'…';display:inline-block;width:1.2em;color:var(--muted);animation:chat-points 1.2s steps(4,end) infinite;overflow:hidden;vertical-align:bottom;white-space:nowrap}
 @keyframes chat-points{0%{width:0}100%{width:1.2em}}

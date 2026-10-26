@@ -210,9 +210,11 @@
         if (!panneau.hidden) champ.focus({ preventScroll: true });
       });
   }
+  // Hauteur en border-box (socle CSS) : scrollHeight ne compte pas les bordures. Sans elles, le champ débordait de 2 px
+  // dès deux lignes et affichait une barre de défilement sur ordinateur (mesuré sur coolok-dev le 26/10/2026).
   function ajusterChamp() {
     champ.style.height = 'auto';
-    champ.style.height = Math.min(champ.scrollHeight, 128) + 'px';
+    champ.style.height = Math.min(champ.scrollHeight + champ.offsetHeight - champ.clientHeight, 128) + 'px';
   }
   champ.addEventListener('input', ajusterChamp);
   champ.addEventListener('keydown', function (e) {

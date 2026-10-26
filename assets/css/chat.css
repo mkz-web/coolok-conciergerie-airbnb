@@ -35,7 +35,7 @@ html.chat-ouvert,html.chat-ouvert body{overflow:hidden}
 .chat-attente p{display:inline;color:var(--muted)}
 .chat-points::after{content:'…';display:inline-block;width:1.2em;color:var(--muted);animation:chat-points 1.2s steps(4,end) infinite;overflow:hidden;vertical-align:bottom;white-space:nowrap}
 @keyframes chat-points{0%{width:0}100%{width:1.2em}}
-.chat-suggestions{display:flex;flex-wrap:wrap;gap:.5rem;padding:.75rem 1rem 0;background:var(--cream)}
+.chat-suggestions{display:flex;flex-wrap:wrap;gap:.5rem}
 .chat-suggestions[hidden]{display:none}
 .chat-suggestion{min-height:44px;padding:.5rem .9rem;border:1px solid var(--line-2);border-radius:99px;background:var(--white);color:var(--green);font:600 .95rem/1.3 var(--font);text-align:left;cursor:pointer}
 .chat-suggestion:hover{background:var(--gold-soft)}
@@ -59,7 +59,7 @@ html.chat-ouvert,html.chat-ouvert body{overflow:hidden}
 @media(min-width:768px){
   .chat-lanceur{right:24px;bottom:16px;width:auto;height:56px;padding:0 1.15rem 0 1rem}
   .chat-lanceur-texte{position:static;width:auto;height:auto;overflow:visible;clip:auto}
-  .chat-panneau{inset:auto 24px 84px auto;width:400px;height:min(640px,calc(100vh - 168px));border-radius:var(--radius);box-shadow:0 18px 48px rgba(24,48,32,.25);overflow:hidden}
+  .chat-panneau{inset:auto 24px 84px auto;width:400px;height:min(640px,calc(100vh - 108px));border-radius:var(--radius);box-shadow:0 18px 48px rgba(24,48,32,.25);overflow:hidden}
   html.chat-ouvert,html.chat-ouvert body{overflow:visible}
   html.chat-ouvert .wa-bubble{display:none}
 }

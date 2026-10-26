@@ -65,7 +65,7 @@
   var boutonRappel = el('button', { type: 'button', 'class': 'chat-action', texte: 'Être rappelé par ' + cfg.prenom });
   var lienWa = el('a', { 'class': 'chat-action', href: cfg.whatsapp, target: '_blank', rel: 'noopener', texte: 'WhatsApp' });
   var actions = el('div', { 'class': 'chat-actions' }, [boutonRappel, cfg.whatsapp ? lienWa : null]);
-  var panneau = el('section', { id: 'chat-panneau', 'class': 'chat-panneau', role: 'dialog', 'aria-labelledby': 'chat-titre', hidden: true }, [entete, fil, suggestions, saisie, actions]);
+  var panneau = el('section', { id: 'chat-panneau', 'class': 'chat-panneau', role: 'dialog', 'aria-labelledby': 'chat-titre', hidden: true }, [entete, fil, saisie, actions]);
   document.body.appendChild(lanceur);
   document.body.appendChild(panneau);
 
@@ -77,13 +77,18 @@
     return m;
   }
   if (cfg.accueil) message('assistant', [el('p', { texte: cfg.accueil })]);
+  // Suggestions dans le fil, sous l'accueil : posées entre le fil et la saisie, elles ne laissaient au fil que 81 px sur
+  // un portable de 654 px de haut, et l'accueil s'y lisait coupé (mesuré sur coolok-dev le 26/10/2026).
+  if (cfg.suggestions.length) fil.appendChild(suggestions);
 
   // ---------- Ouverture et fermeture
   function ouvrir() {
     panneau.hidden = false;
     lanceur.setAttribute('aria-expanded', 'true');
     document.documentElement.classList.add('chat-ouvert');
-    defilerEnBas();
+    // Avant la première question, le fil s'ouvre en haut : l'accueil se lit depuis sa première ligne.
+    if (fil.querySelector('.chat-msg-visiteur')) defilerEnBas();
+    else fil.scrollTop = 0;
     champ.focus({ preventScroll: true });
     signaler('chat_ouverture');
   }

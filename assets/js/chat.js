@@ -51,7 +51,9 @@
   var lanceur = el('button', { type: 'button', 'class': 'chat-lanceur', 'aria-expanded': 'false', 'aria-controls': 'chat-panneau', html: ICONES.bulle }, [el('span', { 'class': 'chat-lanceur-texte', texte: 'Une question ?' })]);
   var titre = el('h2', { id: 'chat-titre', 'class': 'chat-titre' }, [cfg.titre + ' ', el('span', { 'class': 'chat-badge', texte: 'IA' })]);
   var fermer = el('button', { type: 'button', 'class': 'chat-fermer', 'aria-label': "Fermer l'assistant", html: ICONES.fermer });
-  var entete = el('div', { 'class': 'chat-entete' }, [el('div', null, [titre, el('p', { 'class': 'chat-mention', texte: cfg.mention })]), fermer]);
+  // La mention renvoie au point « Assistant du site » des données personnelles (questions transmises à Anthropic).
+  var mention = el('p', { 'class': 'chat-mention' }, [cfg.mention + ' ', el('a', { href: '/mentions-legales#donnees-personnelles', texte: 'Données personnelles' })]);
+  var entete = el('div', { 'class': 'chat-entete' }, [el('div', null, [titre, mention]), fermer]);
   var fil = el('div', { 'class': 'chat-fil', role: 'log', 'aria-live': 'polite', 'aria-label': 'Conversation' });
   var suggestions = el('div', { 'class': 'chat-suggestions' });
   cfg.suggestions.forEach(function (s) {

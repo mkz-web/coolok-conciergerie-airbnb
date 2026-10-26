@@ -666,7 +666,7 @@
   }
  },
  "chat": {
-  "environnements": ["dev"],
+  "environnements": ["dev", "prod"],
   "titre": "Assistant Coolok",
   "accueil": "Bonjour, je réponds à vos questions sur Coolok et la location courte durée en Île-de-France, à partir des pages de ce site. Pour un avis sur votre logement, Thierry vous répond en direct.",
   "mention": "Assistant d'intelligence artificielle : ses réponses peuvent contenir des erreurs. Vérifiez-les sur les pages citées.",

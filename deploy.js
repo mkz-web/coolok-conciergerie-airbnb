@@ -3,7 +3,9 @@
 /*
  * Déploiement du site Coolok sur Cloudflare Workers (assets statiques + worker/index.js), sans wrangler.
  * ---------------------------------------------------------------------------------------------------
- * Exécution : node deploy.js [--name coolok-dev] [--dist dist] [--secret CLE=VALEUR ...] [--no-subdomain] [--worker-first all|api]
+ * Exécution : node deploy.js [--name coolok-dev] [--dist dist] [--secret CLE=VALEUR ...] [--secret-env CLE=VARIABLE ...] [--no-subdomain] [--worker-first all|api]
+ *   --secret-env CLE=VARIABLE : pose le secret CLE avec la valeur de la variable d'environnement VARIABLE (jamais affichée ni
+ *   passée en ligne de commande) ; échoue si la variable est absente ou vide.
  *   --worker-first all (défaut) : toute requête passe par le worker (en-têtes, redirections, noindex sur hôte technique) ;
  *   --worker-first api : seuls /api/* passent par le worker, les assets sont servis directement (production à fort trafic).
  * Runtime minimal : Node >= 18 (fetch, FormData, Blob, crypto natifs). Dépendances : aucune.
@@ -30,9 +32,31 @@ function accountId() {
   console.error('Identifiant de compte Cloudflare manquant : --account, CLOUDFLARE_ACCOUNT_ID_COOLOK ou .deploy.json'); process.exit(1);
 }
 const ACCOUNT = accountId();
+// Liaisons vers le Secrets Store du compte (secrets partagés au niveau du compte, lus dans le Worker par
+// `await env.NOM.get()`), par Worker, dans le fichier local .deploy.json (identifiants hors du dépôt public) :
+// { "secretsStore": { "coolok-dev": [{ "name": "ANTHROPIC_API_KEY", "store_id": "...", "secret_name": "..." }] } }.
+// Une liaison absente du téléversement disparaît du Worker : elle se redéclare donc à chaque déploiement.
+function liaisonsSecretsStore() {
+  const local = path.join(__dirname, '.deploy.json');
+  if (!fs.existsSync(local)) return [];
+  let j;
+  try { j = JSON.parse(fs.readFileSync(local, 'utf8')); } catch (e) { return []; }
+  return ((j.secretsStore || {})[NAME] || []).map((s) => {
+    if (!s.name || !s.store_id || !s.secret_name) { console.error(`.deploy.json : liaison Secrets Store incomplète pour ${NAME} (name, store_id, secret_name)`); process.exit(1); }
+    return { type: 'secrets_store_secret', name: s.name, store_id: s.store_id, secret_name: s.secret_name };
+  });
+}
+const SECRETS_STORE = liaisonsSecretsStore();
 const TOKEN = process.env.CLOUDFLARE_API_TOKEN_COOLOK;
 const secrets = [];
 args.forEach((a, i) => { if (a === '--secret' && args[i + 1]) { const [k, ...v] = args[i + 1].split('='); secrets.push({ name: k, text: v.join('=') }); } });
+args.forEach((a, i) => {
+  if (a !== '--secret-env' || !args[i + 1]) return;
+  const [k, variable] = args[i + 1].split('=');
+  const valeur = process.env[variable || ''] || '';
+  if (!k || !valeur.trim()) { console.error(`--secret-env ${k} : variable d'environnement ${variable || '(non nommée)'} absente ou vide.`); process.exit(1); }
+  secrets.push({ name: k, text: valeur.trim() });
+});
 if (!TOKEN) { console.error('CLOUDFLARE_API_TOKEN_COOLOK manquant.'); process.exit(1); }
 if (!fs.existsSync(DIST)) { console.error('dist absent : lancer node build.js d\'abord.'); process.exit(1); }
 
@@ -98,7 +122,10 @@ async function cf(method, url, body, headers) {
     compatibility_date: '2025-09-01',
     compatibility_flags: ['nodejs_compat'],
     assets: { jwt, config: { html_handling: 'auto-trailing-slash', not_found_handling: '404-page', run_worker_first: opt('worker-first', 'all') === 'api' ? ['/api/*'] : true } },
-    bindings: [{ type: 'assets', name: 'ASSETS' }],
+    // CHAT_LIMITE : limitation de débit de l'assistant (POST /api/chat), 8 questions par minute et par adresse IP, compteur
+    // propre à chaque point de présence Cloudflare et approximatif (doc Workers « Rate Limiting »). Le plafond de dépense
+    // reste celui de l'espace de travail de la clé Anthropic.
+    bindings: [{ type: 'assets', name: 'ASSETS' }, { type: 'ratelimit', name: 'CHAT_LIMITE', namespace_id: '2610', simple: { limit: 8, period: 60 } }, ...SECRETS_STORE],
     observability: { enabled: true },
   };
   const fd = new FormData();
@@ -106,6 +133,7 @@ async function cf(method, url, body, headers) {
   fd.append('index.js', new Blob([fs.readFileSync(path.join(__dirname, 'worker', 'index.js'))], { type: 'application/javascript+module' }), 'index.js');
   const put = await cf('PUT', `${API}/accounts/${ACCOUNT}/workers/scripts/${NAME}`, fd);
   console.log(`script ${NAME} déployé (version ${put.result && put.result.id ? put.result.id : 'ok'})`);
+  for (const s of SECRETS_STORE) console.log(`liaison Secrets Store ${s.name} -> ${s.secret_name}`);
 
   // 4. secrets
   for (const s of secrets) {

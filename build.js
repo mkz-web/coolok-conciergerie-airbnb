@@ -18,6 +18,7 @@ const crypto = require('crypto');
 const { esc, stripTags, wordCount, slugify, truncate } = require('./lib/html');
 const md = require('./lib/md');
 const schema = require('./lib/schema');
+const chat = require('./lib/chat');
 const layout = require('./templates/layout');
 const blocks = require('./templates/blocks');
 const pages = require('./templates/pages');
@@ -124,6 +125,17 @@ site.assets.css = `/assets/site.${hash8(css)}.css`;
 site.assets.js = `/assets/site.${hash8(js)}.js`;
 fs.writeFileSync(path.join(OUT, site.assets.css), css);
 fs.writeFileSync(path.join(OUT, site.assets.js), js);
+// Assistant du site (prototype du 26/10/2026) : servi seulement dans les environnements listés par site.json
+// (chat.environnements). Hors de ces environnements, le build ne produit ni son script, ni sa feuille de style, ni son index.
+const CHAT = !!(site.chat && (site.chat.environnements || []).includes(ENV));
+if (CHAT) {
+  const cjs = fs.readFileSync(path.join(ROOT, 'assets', 'js', 'chat.js'));
+  const ccss = fs.readFileSync(path.join(ROOT, 'assets', 'css', 'chat.css'));
+  site.assets.chatJs = `/assets/chat.${hash8(cjs)}.js`;
+  site.assets.chatCss = `/assets/chat.${hash8(ccss)}.css`;
+  fs.writeFileSync(path.join(OUT, site.assets.chatJs), cjs);
+  fs.writeFileSync(path.join(OUT, site.assets.chatCss), ccss);
+}
 // /favicon.ico à la racine : navigateurs et robots le demandent sans lire la balise link (404 mesuré sur la préprod le 11/10/2026).
 fs.copyFileSync(path.join(ROOT, 'assets', 'favicon.ico'), path.join(OUT, 'favicon.ico'));
 // Fichiers servis tels quels à la racine (assets/racine/) : clé IndexNow (publique par construction), fichiers de vérification.
@@ -492,6 +504,54 @@ fs.writeFileSync(path.join(OUT, 'llms.txt'), llms);
 const order = { home: 0, service: 1, tarifs: 2, simulateur: 3, equipe: 4, logements: 5, hub: 6, zone: 7, departement: 8, commune: 9, 'blog-index': 10, article: 11 };
 llmsFull.sort((a, b) => (order[a.type] || 50) - (order[b.type] || 50) || a.url.localeCompare(b.url));
 fs.writeFileSync(path.join(OUT, 'llms-full.txt'), `# ${site.org.name} : texte intégral du site\n\n> ${L.intro}\n\nGénéré le ${site.buildDate}. Index : ${site.baseUrl}/llms.txt · Sitemap : ${site.baseUrl}/sitemap.xml · Licence : ${L.licence}\n\n` + llmsFull.map((p) => `\n\n---\n\n# ${p.h1}\nURL : ${schema.abs(site, p.url)}\n\n${p.text.replace(/^# .*\n/, '')}`).join('') + '\n');
+
+// Index de l'assistant : lu par le Worker (binding ASSETS), jamais servi au public (le Worker répond 404 sur /_chat/).
+if (CHAT) {
+  const o = site.org;
+  const virgule = (n) => String(n).replace('.', ',');
+  const [ay, am, ad] = String(o.rating.date || '').split('-').map(Number);
+  const faits = [
+    o.description,
+    'Tarif : ' + o.commissionText,
+    // Libellé du site lui-même (section « Un seul tarif, tout compris » de /services et de l'accueil) : la page /tarifs
+    // précise ce que paie le voyageur (ménage et linge refacturés), ce que l'assistant doit pouvoir rapporter tel quel.
+    'Liste publiée sous « Un seul tarif, tout compris » (/services et /) : ' + site.included.join(' ; ') + '. Le détail de ce qui est inclus, de ce que paie le voyageur et de ce que vous payez est sur /tarifs.',
+    `Fondateur : ${site.founder.name}, ${site.founder.description.charAt(0).toLowerCase() + site.founder.description.slice(1)}`,
+    `Avis Google : ${virgule(o.rating.value)} sur 5, sur ${o.rating.count} avis (relevé du ${ad} ${MONTHS[am - 1]} ${ay}).`,
+    'Zones d\'intervention : ' + site.areaServed.join(', ') + '.',
+    'Audit chiffré gratuit, reçu sous 48 h, demandé par le simulateur de revenus : /simulateur-locatif.',
+    `Contact : téléphone ${o.telephoneDisplay}, e-mail ${o.email}, WhatsApp, rendez-vous téléphonique de 30 minutes avec ${site.founder.name.split(' ')[0]}, formulaire /contact.`,
+    'Pages utiles : /tarifs, /services, /simulateur-locatif, /contact, /qui-sommes-nous, /blog (guides).',
+  ];
+  const geoChat = [...departements, ...zones, ...communes].filter((p) => !p.noindex && !p.draft);
+  const connaissances = chat.construireConnaissances({
+    coeur: llmsFull.filter((p) => !['commune', 'departement', 'zone', 'article', 'blog-index'].includes(p.type)),
+    geo: geoChat,
+    guides: articles.filter((a) => !a.noindex),
+    faits,
+    date: site.buildDate,
+  });
+  const details = chat.construireDetails(geoChat);
+  for (const r of FORBIDDEN.filter((x) => !x.warn)) { const m = connaissances.match(r.re); if (m) warn('/_chat/index.json', `${r.why} dans la fiche de connaissances : « ${connaissances.slice(Math.max(0, m.index - 40), m.index + 40).replace(/\s+/g, ' ')} »`); }
+  // Palier de prix : au-delà de 100 000 jetons par requête, Claude Haiku 5.5 coûte cinq fois plus cher. Mesuré le 26/10/2026 :
+  // 2,2 caractères par jeton sur ce texte. La fiche doit laisser la place aux détails, passages et à l'historique.
+  if (connaissances.length > 160 * 1024) err('/_chat/index.json', `fiche de connaissances de ${(connaissances.length / 1024).toFixed(0)} Ko : au-delà de 160 Ko (environ 75 000 jetons), la requête risque de passer le palier de 100 000 jetons`);
+  const index = chat.construireIndex({
+    connaissances,
+    details,
+    pages: llmsFull,
+    interdits: FORBIDDEN.filter((f) => !f.warn).map((f) => f.re),
+    faits,
+    contact: { telephone: o.telephoneDisplay, telephoneRaw: o.telephoneRaw, whatsapp: o.whatsappUrl, calendly: o.calendly, prenom: site.founder.name.split(' ')[0] },
+    date: site.buildDate,
+  });
+  if (index.blocs.length < 50) err('/_chat/index.json', `index de l'assistant trop maigre : ${index.blocs.length} blocs`);
+  for (const f of faits) for (const r of FORBIDDEN.filter((x) => !x.warn)) if (r.re.test(f)) err('/_chat/index.json', `${r.why} dans un fait de l'assistant : « ${f.slice(0, 80)} »`);
+  ensureDir(path.join(OUT, '_chat'));
+  const brut = JSON.stringify(index);
+  fs.writeFileSync(path.join(OUT, '_chat', 'index.json'), brut);
+  console.log(`  assistant : ${index.blocs.length} blocs, ${Object.keys(index.termes).length} termes, ${(brut.length / 1024).toFixed(0)} Ko ; fiche de connaissances ${(connaissances.length / 1024).toFixed(0)} Ko (environ ${Math.round(connaissances.length / 2200)} k jetons, à 2,2 caractères par jeton mesurés) ; détail de ${details.length} pages géographiques, ${(details.reduce((s, d) => s + d.texte.length, 0) / 1024).toFixed(0)} Ko`);
+}
 
 // _headers et _redirects
 fs.writeFileSync(path.join(OUT, '_headers'), `/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n`);

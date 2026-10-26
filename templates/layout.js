@@ -113,6 +113,23 @@ function tracking(site, page) {
   return [iub, ga, gtm, clarity, hotjar, fb].join('\n');
 }
 
+// Assistant du site : présent quand build.js a produit ses fichiers (environnement listé dans site.json chat.environnements),
+// jamais sur une page de campagne (atterrissage sans distraction) ni sur une page merci.
+function chatActif(site, page) {
+  return !!(site.assets.chatJs && site.chat && !page.host && page.type !== 'merci');
+}
+function chatScript(site, page) {
+  if (!chatActif(site, page)) return '';
+  const c = site.chat;
+  const a = {
+    src: site.assets.chatJs, defer: true, 'data-chat': true,
+    'data-titre': c.titre, 'data-accueil': c.accueil, 'data-mention': c.mention, 'data-suggestions': JSON.stringify(c.suggestions || []),
+    'data-whatsapp': site.org.whatsappUrl, 'data-telephone': site.org.telephoneDisplay, 'data-telephone-raw': site.org.telephoneRaw,
+    'data-prenom': site.founder.name.split(' ')[0],
+  };
+  return '\n<script ' + Object.entries(a).map(([k, v]) => (v === true ? k : `${k}="${esc(v)}"`)).join(' ') + '></script>';
+}
+
 function head(site, page, jsonld) {
   // Page de campagne : servie à la racine de son sous-domaine (noindex), elle se désigne elle-même.
   const canonical = page.host ? `https://${page.host}${page.hostPath || '/'}` : schema.abs(site, page.canonical || page.url);
@@ -142,7 +159,7 @@ ${robots}${gsv}
 <link rel="icon" href="${esc(site.assets.favicon)}" type="image/png">
 <link rel="apple-touch-icon" href="${esc(site.assets.appleIcon || site.assets.favicon)}">
 ${page.image && page.type !== 'article' && !page.host ? `<link rel="preload" as="image" href="${esc(page.image)}" fetchpriority="high">` : ''}
-<link rel="stylesheet" href="${esc(site.assets.css)}">
+<link rel="stylesheet" href="${esc(site.assets.css)}">${chatActif(site, page) ? `\n<link rel="stylesheet" href="${esc(site.assets.chatCss)}">` : ''}
 <link rel="alternate" type="text/plain" href="${site.baseUrl}/llms.txt" title="llms.txt">
 ${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}
 ${tracking(site, page)}`;
@@ -161,7 +178,7 @@ ${header(site, page)}
 ${bodyHtml}
 </main>
 ${footer(site, page)}
-<script src="${esc(site.assets.js)}" defer></script>
+<script src="${esc(site.assets.js)}" defer></script>${chatScript(site, page)}
 </body>
 </html>`;
 }

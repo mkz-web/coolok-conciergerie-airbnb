@@ -665,6 +665,17 @@
    }
   }
  },
+ "chat": {
+  "environnements": ["dev"],
+  "titre": "Assistant Coolok",
+  "accueil": "Bonjour, je réponds à vos questions sur Coolok et la location courte durée en Île-de-France, à partir des pages de ce site. Pour un avis sur votre logement, Thierry vous répond en direct.",
+  "mention": "Assistant d'intelligence artificielle : ses réponses peuvent contenir des erreurs. Vérifiez-les sur les pages citées.",
+  "suggestions": [
+   "Combien coûte la conciergerie ?",
+   "La location courte durée est-elle autorisée dans ma commune ?",
+   "Combien peut rapporter mon logement ?"
+  ]
+ },
  "llms": {
   "intro": "Coolok (Coolok Services) est une conciergerie Airbnb et de location courte durée en Île-de-France, fondée par Thierry Moraldo et basée à Joinville-le-Pont (Val-de-Marne). Délégation complète pour propriétaires bailleurs : annonce, tarification dynamique, sélection et accueil des voyageurs 24/7, ménage professionnel, maintenance. Commission unique de 20 % HT au résultat, sans frais cachés. Note Google 4,8/5 sur 22 avis (octobre 2026). Site officiel : https://www.coolok.co",
   "zonesIntro": "Zones couvertes : les 8 départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris / Val d'Europe / Marne-la-Vallée (Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers, Bussy-Saint-Georges, Chalifert), Fontainebleau, le Val-de-Marne (Joinville-le-Pont, Vincennes, Saint-Maur-des-Fossés, Nogent-sur-Marne, Charenton-le-Pont), la petite couronne Est (Montreuil, Pantin), Clichy, Versailles et Saint-Germain-en-Laye, ainsi que Reims.",

@@ -6,6 +6,10 @@ node_modules/
 
 # Secrets et fichiers locaux
 .env
+.env.*
+.dev.vars
+*.pem
+*.key
 .deploy.json
 *.log
 Thumbs.db

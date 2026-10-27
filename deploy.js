@@ -125,7 +125,9 @@ async function cf(method, url, body, headers) {
     // CHAT_LIMITE : limitation de débit de l'assistant (POST /api/chat), 8 questions par minute et par adresse IP, compteur
     // propre à chaque point de présence Cloudflare et approximatif (doc Workers « Rate Limiting »). Le plafond de dépense
     // reste celui de l'espace de travail de la clé Anthropic.
-    bindings: [{ type: 'assets', name: 'ASSETS' }, { type: 'ratelimit', name: 'CHAT_LIMITE', namespace_id: '2610', simple: { limit: 8, period: 60 } }, ...SECRETS_STORE],
+    // LEAD_LIMITE : 5 envois de formulaire par minute et par adresse IP (POST /api/lead) ; chaque envoi accepté écrit
+    // une ligne dans la table Softr et envoie un e-mail à Thierry (durcissement du 27/10/2026).
+    bindings: [{ type: 'assets', name: 'ASSETS' }, { type: 'ratelimit', name: 'CHAT_LIMITE', namespace_id: '2610', simple: { limit: 8, period: 60 } }, { type: 'ratelimit', name: 'LEAD_LIMITE', namespace_id: '2611', simple: { limit: 5, period: 60 } }, ...SECRETS_STORE],
     observability: { enabled: true },
   };
   const fd = new FormData();

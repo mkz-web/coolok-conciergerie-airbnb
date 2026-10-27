@@ -2,7 +2,7 @@
  * Worker Cloudflare du site Coolok (assets statiques + API des formulaires).
  * Déployé par deploy.js avec le dossier dist/ en assets statiques (binding ASSETS).
  * Dépendances : aucune. Secrets optionnels : SOFTR_API_KEY, SOFTR_DB, SOFTR_TABLE, LEAD_WEBHOOK, ANTHROPIC_API_KEY (assistant).
- * Binding optionnel : CHAT_LIMITE (limitation de débit de l'assistant, posé par deploy.js).
+ * Bindings optionnels : CHAT_LIMITE et LEAD_LIMITE (limitation de débit de l'assistant et des formulaires, posés par deploy.js).
  * Hôte technique (*.workers.dev, *.pages.dev) : jamais indexable (X-Robots-Tag + robots.txt fermé).
  * Sous-domaine de campagne (CAMPAGNES) : une page d'atterrissage à sa racine, jamais indexable (X-Robots-Tag).
  */
@@ -28,7 +28,7 @@ const SECURITY = {
   'X-Frame-Options': 'SAMEORIGIN',
   'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
   'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
-  'Content-Security-Policy': "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline' https://cdn.iubenda.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.iubenda.com https://cs.iubenda.com https://www.clarity.ms https://scripts.clarity.ms https://static.hotjar.com https://script.hotjar.com https://connect.facebook.net https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.iubenda.com https://www.facebook.com https://api.calendly.com; frame-src https://calendly.com https://*.iubenda.com https://www.googletagmanager.com https://*.hotjar.com; upgrade-insecure-requests",
+  'Content-Security-Policy': "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline' https://cdn.iubenda.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.iubenda.com https://cs.iubenda.com https://www.clarity.ms https://scripts.clarity.ms https://static.hotjar.com https://script.hotjar.com https://connect.facebook.net https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.clarity.ms https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.iubenda.com https://www.facebook.com https://api.calendly.com; frame-src https://calendly.com https://*.iubenda.com https://www.googletagmanager.com https://*.hotjar.com; upgrade-insecure-requests",
 };
 
 // Sous-domaines de campagne publicitaire : pour chaque hôte, chemin public -> page du build (champs host et hostPath
@@ -50,6 +50,13 @@ function isTechnicalHost(host) {
   return /\.(workers|pages)\.dev$/i.test(host) || /^localhost/i.test(host);
 }
 
+// Diagnostic de l'assistant (jetons, texte brut d'une réponse écartée par les règles, réglage d'essai) : préproduction
+// seulement. L'hôte technique du Worker de production (coolok.<compte>.workers.dev) sert la clé de production et le
+// diagnostic y exposait le texte que les règles venaient de retirer (mesuré le 27/10/2026) : il n'y a plus droit.
+function isDiagnosticHost(host) {
+  return /^coolok-dev\./i.test(host) || /^localhost/i.test(host);
+}
+
 function withHeaders(res, extra) {
   const r = new Response(res.body, res);
   for (const [k, v] of Object.entries(SECURITY)) if (!r.headers.has(k)) r.headers.set(k, v);
@@ -58,15 +65,48 @@ function withHeaders(res, extra) {
 }
 
 function json(obj, status, extra) {
-  return new Response(JSON.stringify(obj), { status: status || 200, headers: Object.assign({ 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' }, extra || {}) });
+  return new Response(JSON.stringify(obj), { status: status || 200, headers: Object.assign({ 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' }, extra || {}) });
 }
 
-async function readBody(request) {
+// Taille maximale d'un corps : un formulaire rempli pèse moins de 8 Ko (le fil de l'assistant joint à une demande de
+// rappel est coupé à 1 950 caractères par la page), une conversation de dix messages moins de 40 Ko. Au-delà, le corps
+// n'est pas lu jusqu'au bout : un envoi de plusieurs mégaoctets occupait la mémoire de l'isolat avant tout contrôle.
+const MAX_CORPS_LEAD = 32 * 1024;
+const MAX_CORPS_CHAT = 64 * 1024;
+
+async function lireOctets(request, max) {
+  const trop = () => Object.assign(new Error('Corps trop volumineux'), { trop: true });
+  if (Number(request.headers.get('content-length') || 0) > max) throw trop();
+  if (!request.body) return new Uint8Array(0);
+  const lecteur = request.body.getReader();
+  const morceaux = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await lecteur.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > max) { lecteur.cancel().catch(() => {}); throw trop(); }
+    morceaux.push(value);
+  }
+  const octets = new Uint8Array(total);
+  let pos = 0;
+  for (const m of morceaux) { octets.set(m, pos); pos += m.byteLength; }
+  return octets;
+}
+
+// Corps JSON ou formulaire, rendu en objet. Lève une erreur marquée « trop » au-delà de max octets, une erreur simple
+// pour un corps illisible ou qui n'est pas un objet (un JSON « null » faisait planter le Worker, mesuré le 27/10/2026).
+async function readBody(request, max) {
+  const octets = await lireOctets(request, max);
   const ct = request.headers.get('content-type') || '';
-  if (ct.includes('application/json')) return await request.json();
-  const fd = await request.formData();
-  const o = {};
-  for (const [k, v] of fd.entries()) o[k] = typeof v === 'string' ? v : '';
+  let o;
+  if (ct.includes('application/json')) o = JSON.parse(new TextDecoder().decode(octets));
+  else {
+    const fd = await new Response(octets, { headers: { 'content-type': ct } }).formData();
+    o = {};
+    for (const [k, v] of fd.entries()) o[k] = typeof v === 'string' ? v : '';
+  }
+  if (!o || typeof o !== 'object' || Array.isArray(o)) throw new Error('Corps illisible');
   return o;
 }
 
@@ -77,15 +117,31 @@ const CTRL = new RegExp('[' + String.fromCharCode(0) + '-' + String.fromCharCode
 const clean = (v, max) => String(v == null ? '' : v).replace(CTRL, ' ').trim().slice(0, max || 500);
 
 async function handleLead(request, env, url) {
+  const wantsJson = (request.headers.get('accept') || '').includes('application/json');
+  const refus = (msg, statut) => wantsJson ? json({ ok: false, error: msg }, statut || 422) : new Response(msg + '.', { status: statut || 422 });
+  const ecarte = (raison, kind) => console.log(JSON.stringify({ event: 'lead-filtre', raison, kind: kind || '', pays: request.headers.get('cf-ipcountry') || '' }));
+
+  // Origine : un navigateur envoie l'en-tête Origin sur tout POST. Une page d'un autre site qui ferait envoyer le
+  // formulaire par ses propres visiteurs est refusée (leurs adresses IP échapperaient à la limite de débit). Sans
+  // en-tête (envoi hors navigateur), les filtres suivants s'appliquent.
+  const origine = request.headers.get('origin');
+  if (origine && origine !== url.origin) { ecarte('origine'); return refus('Envoi refusé : utilisez le formulaire du site, ou écrivez-nous à contact@coolok.co', 403); }
+  // Débit : chaque envoi accepté crée une ligne dans la table et un e-mail chez Thierry ; une rafale est coupée avant
+  // même la lecture du corps.
+  if (env.LEAD_LIMITE) {
+    const { success } = await env.LEAD_LIMITE.limit({ key: 'lead:' + (request.headers.get('cf-connecting-ip') || 'inconnue') });
+    if (!success) { ecarte('debit'); return refus("Plusieurs envois d'affilée : patientez une minute, ou écrivez-nous à contact@coolok.co", 429); }
+  }
   let body;
-  try { body = await readBody(request); } catch (e) { return json({ ok: false, error: 'Corps illisible' }, 400); }
+  try { body = await readBody(request, MAX_CORPS_LEAD); } catch (e) {
+    if (e.trop) { ecarte('trop-volumineux'); return refus('Envoi trop volumineux', 413); }
+    return json({ ok: false, error: 'Corps illisible' }, 400);
+  }
   const kind = clean(body.kind, 20) === 'simulateur' ? 'simulateur' : 'contact';
   const redirect = kind === 'simulateur' ? '/merci-simulateur' : '/merci-contact';
-  const wantsJson = (request.headers.get('accept') || '').includes('application/json');
   const done = () => wantsJson ? json({ ok: true, redirect }) : Response.redirect(url.origin + redirect, 303);
 
-  const refus = (msg) => wantsJson ? json({ ok: false, error: msg }, 422) : new Response(msg + '.', { status: 422 });
-  const filtre = (raison) => console.log(JSON.stringify({ event: 'lead-filtre', raison, kind, pays: request.headers.get('cf-ipcountry') || '' }));
+  const filtre = (raison) => ecarte(raison, kind);
 
   // pot de miel : un robot qui remplit le champ caché reçoit un succès silencieux
   if (clean(body.website, 50)) { filtre('pot-de-miel'); return done(); }
@@ -293,7 +349,9 @@ function lireHistorique(messages) {
   if (!msgs.length || msgs.some((m) => !m.role || !m.content)) return { erreur: 'Conversation illisible' };
   for (let i = 0; i < msgs.length; i++) if (msgs[i].role !== (i % 2 ? 'assistant' : 'user')) return { erreur: 'Conversation illisible' };
   if (msgs[msgs.length - 1].role !== 'user') return { erreur: 'Conversation illisible' };
-  if (msgs[msgs.length - 1].content.length > CHAT_MAX_QUESTION) return { erreur: `Question trop longue : ${CHAT_MAX_QUESTION} caractères au plus` };
+  // Toutes les questions, pas seulement la dernière : l'historique vient de la page, et une question ancienne de plusieurs
+  // milliers de caractères passait la limite et gonflait chaque requête facturée (mesuré par le banc le 27/10/2026).
+  if (msgs.some((m) => m.role === 'user' && m.content.length > CHAT_MAX_QUESTION)) return { erreur: `Question trop longue : ${CHAT_MAX_QUESTION} caractères au plus` };
   for (const m of msgs) if (m.role === 'assistant') m.content = m.content.slice(0, CHAT_MAX_REPONSE);
   return { msgs };
 }
@@ -333,8 +391,11 @@ async function handleChat(request, env, url, dev) {
     if (!success) { journal({ statut: 429, raison: 'debit' }); return json({ ok: false, erreur: "Beaucoup de questions d'affilée : patientez une minute" }, 429); }
   }
   let body;
-  try { body = await request.json(); } catch (e) { return json({ ok: false, erreur: 'Corps illisible' }, 400); }
-  const duree = Number(body && body.duree);
+  try { body = await readBody(request, MAX_CORPS_CHAT); } catch (e) {
+    if (e.trop) { journal({ statut: 413, raison: 'taille' }); return json({ ok: false, erreur: 'Conversation trop longue : rechargez la page' }, 413); }
+    return json({ ok: false, erreur: 'Corps illisible' }, 400);
+  }
+  const duree = Number(body.duree);
   if (!Number.isFinite(duree) || duree < DUREE_MIN_MS) { journal({ statut: 422, raison: 'duree' }); return json({ ok: false, erreur: 'Rechargez la page puis réessayez' }, 422); }
   const h = lireHistorique(body.messages);
   if (h.erreur) return json({ ok: false, erreur: h.erreur }, 422);
@@ -359,8 +420,8 @@ async function handleChat(request, env, url, dev) {
   const parAdresse = new Map(index.pages.map((p) => [p.u, p]));
   const sourcesDe = (adresses) => [...new Set(adresses)].filter((u) => parAdresse.has(u)).map((u) => ({ titre: parAdresse.get(u).t, url: u }));
   const c = index.contact;
-  // Hôte technique (préproduction) seulement : jetons consommés (cache compris), pages des passages et texte brut d'une
-  // réponse écartée, pour mesurer le coût et relire les replis. Jamais sur le site public.
+  // Préproduction seulement (isDiagnosticHost) : jetons consommés (cache compris), pages des passages et texte brut d'une
+  // réponse écartée, pour mesurer le coût et relire les replis. Jamais sur le site public ni sur l'hôte technique de la prod.
   const mesure = (o) => (dev ? { mesure: Object.assign({ details: details.map((d) => d.u), extraits: passages.map((bl) => index.pages[bl.p].u + (bl.s ? ' : ' + bl.s : '')) }, o) } : {});
   const repli = (raison, extra, brut) => {
     const adresses = passages.slice(0, 3).map((bl) => index.pages[bl.p].u);
@@ -453,7 +514,7 @@ export default {
     }
     if (path === '/api/chat') {
       if (request.method !== 'POST') return json({ ok: false, erreur: 'POST attendu' }, 405);
-      return handleChat(request, env, url, dev);
+      return handleChat(request, env, url, isDiagnosticHost(host));
     }
     // Index de l'assistant : lu par le Worker seulement (binding ASSETS), jamais servi.
     if (path.startsWith('/_chat/')) return withHeaders(new Response('Not found', { status: 404, headers: { 'content-type': 'text/plain; charset=utf-8' } }), dev ? { 'X-Robots-Tag': 'noindex, nofollow' } : {});

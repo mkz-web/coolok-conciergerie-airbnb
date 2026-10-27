@@ -313,8 +313,11 @@ tr:last-child td{border-bottom:0}
    au bandeau des chiffres de l'accueil (0 px) et à 128 px du titre suivant (sa marge, celle de la section et
    celle du titre), vu par Mickaël le 27/10/2026 ; les blocs voisins rendent donc leur marge côté sommaire. */
 .toc{padding:clamp(2rem,4vw,3rem) 0}
-.toc-inline{padding:0 0 1.5rem}
 .hero:has(+.toc),.section:not(.bg-cream):not(.bg-dark):has(+.toc){padding-bottom:0}
+.hero:has(+.toc) .hero-text>:last-child{margin-bottom:0}
+/* Sommaire d'article : 2rem dessous comme l'encadré « L'essentiel » au-dessus, quel que soit le bloc qui suit. */
+.toc-inline{padding:0 0 2rem}
+.article-body .toc-inline+*{margin-top:0}
 .toc+.section:not(.bg-cream):not(.bg-dark){padding-top:0}
 .toc+.section .prose>h2:first-child{margin-top:0}
 .toc-box{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.25rem 1.5rem;max-width:860px;margin:0 auto}

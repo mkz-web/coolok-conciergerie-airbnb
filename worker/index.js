@@ -116,10 +116,35 @@ const DUREE_MIN_MS = 3000;
 const CTRL = new RegExp('[' + String.fromCharCode(0) + '-' + String.fromCharCode(31) + ']+', 'g');
 const clean = (v, max) => String(v == null ? '' : v).replace(CTRL, ' ').trim().slice(0, max || 500);
 
+// Liens dans un formulaire. Le lead frauduleux du 28/10/2026 (envoyé depuis un vrai navigateur, durée et adresse de
+// page remplies, domaine d'e-mail déposé le matin même) portait « le logement est décrit ici : » suivi d'une page
+// d'hameçonnage, que l'e-mail de notification rend cliquable chez Thierry. Aucun des leads réels reçus depuis la
+// bascule ne contenait de lien. Règle : aucun lien dans les champs d'identité et d'adresse ; dans le message, seulement
+// vers une annonce de location (Airbnb, Abritel, Booking...) ou vers le site. Un lien est une adresse en http(s) ou
+// hxxp(s), un « www. », ou un nom de domaine nu suivi d'un chemin ou terminé par une extension courante. Les extensions
+// qui forment des mots français (de, me, es, ca, be, it, to...) sont exclues : « à Paris.De plus », point sans espace
+// tapé sur un téléphone, n'est pas un lien. Un domaine précédé de @ est une adresse e-mail, pas un lien.
+const RE_LIEN = /(?:h(?:tt|xx)ps?:\/\/|www\.)[^\s<>"']+|(?<![@\p{L}\p{N}._-])(?:[a-z0-9-]+\.)+(?:[a-z]{2,}(?=\/)|(?:com|net|org|info|biz|fr|eu|uk|io|co|id|ly|gl|gd|cc|tk|ml|ga|cf|gq|xyz|top|online|site|website|app|page|link|click|live|shop|store|club|icu|ru|cn|tv|ws|pw|vip|cloud|dev)(?![\p{L}\p{N}-]))[^\s<>"']*/giu;
+// Hôte exact ou sous-domaine d'un hôte de la liste, ancré en fin : « airbnb.fr.domaine-piege.com » ne passe pas.
+const HOTES_ANNONCES = /(?:^|\.)(?:airbnb\.(?:fr|com|ca|be|ch|de|es|it|co\.uk)|abnb\.me|abritel\.fr|vrbo\.com|booking\.com|leboncoin\.fr|gites-de-france\.com|clevacances\.com|coolok\.co|coolok\.fr)$/;
+// Hôte d'un lien : sans protocole, sans identifiant (« airbnb.fr@domaine-piege.com » vise domaine-piege.com), sans
+// chemin ni port, sans la ponctuation qui termine la phrase.
+const hoteDe = (lien) => lien.replace(/^h(?:tt|xx)ps?:\/\//i, '').split(/[/?#]/)[0].split('@').pop().split(':')[0].replace(/[.,;!)\]]+$/, '').toLowerCase();
+// Premier lien refusé d'un lead (son hôte), ou chaîne vide.
+function lienRefuse(lead) {
+  for (const k of ['prenom', 'nom', 'telephone', 'commune', 'adresse', 'message']) {
+    for (const lien of lead[k].match(RE_LIEN) || []) {
+      const hote = hoteDe(lien);
+      if (k !== 'message' || !HOTES_ANNONCES.test(hote)) return (hote || lien).slice(0, 100);
+    }
+  }
+  return '';
+}
+
 async function handleLead(request, env, url) {
   const wantsJson = (request.headers.get('accept') || '').includes('application/json');
   const refus = (msg, statut) => wantsJson ? json({ ok: false, error: msg }, statut || 422) : new Response(msg + '.', { status: statut || 422 });
-  const ecarte = (raison, kind) => console.log(JSON.stringify({ event: 'lead-filtre', raison, kind: kind || '', pays: request.headers.get('cf-ipcountry') || '' }));
+  const ecarte = (raison, kind, extra) => console.log(JSON.stringify(Object.assign({ event: 'lead-filtre', raison, kind: kind || '', pays: request.headers.get('cf-ipcountry') || '' }, extra)));
 
   // Origine : un navigateur envoie l'en-tête Origin sur tout POST. Une page d'un autre site qui ferait envoyer le
   // formulaire par ses propres visiteurs est refusée (leurs adresses IP échapperaient à la limite de débit). Sans
@@ -141,7 +166,7 @@ async function handleLead(request, env, url) {
   const redirect = kind === 'simulateur' ? '/merci-simulateur' : '/merci-contact';
   const done = () => wantsJson ? json({ ok: true, redirect }) : Response.redirect(url.origin + redirect, 303);
 
-  const filtre = (raison) => ecarte(raison, kind);
+  const filtre = (raison, extra) => ecarte(raison, kind, extra);
 
   // pot de miel : un robot qui remplit le champ caché reçoit un succès silencieux
   if (clean(body.website, 50)) { filtre('pot-de-miel'); return done(); }
@@ -173,6 +198,10 @@ async function handleLead(request, env, url) {
     user_agent: clean(request.headers.get('user-agent'), 200),
   };
   lead.nom_complet = (lead.prenom + ' ' + lead.nom).trim();
+  // Avant les champs obligatoires et le consentement : un envoi sans consentement qui porte un lien prouve le filtre en
+  // ligne sans créer de lead (recette-durcissement.mjs). Refus visible : une personne réelle peut retirer le lien.
+  const hote = lienRefuse(lead);
+  if (hote) { filtre('lien', { hote }); return refus('Pour votre sécurité, les liens ne sont acceptés que vers une annonce Airbnb, Abritel ou Booking : décrivez le logement en quelques mots, ou envoyez vos documents à contact@coolok.co'); }
   const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(lead.email);
   if (kind === 'contact') {
     // Contact : téléphone facultatif ; l'e-mail reste obligatoire (il sert de « Répondre à » dans l'e-mail de notification).

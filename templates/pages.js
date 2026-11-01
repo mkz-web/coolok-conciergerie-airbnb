@@ -257,11 +257,35 @@ function blogIndexPage(site, page, data) {
 // compteur ignorait : le premier rappel du corps arrivait à plus de 5 000 px de ces boutons sur trois
 // guides. Converti en caractères de prose (1,52 par pixel), c'est le point de départ du compteur.
 const DENSITE_PROSE = 1.52;
+// Barre « Résumer avec l'IA » posée au-dessus de « L'essentiel » : 161 px et 20 px de marge à 375 px, mesurés
+// le 01/11/2026 sur les 10 guides (libellé sur une ligne, puces sur deux rangées).
+const BARRE_IA_PX = 181;
 function departArticle(page, tldr) {
   const titres = [...String(page.bodyHtml || '').matchAll(/<h2 [^>]*>([\s\S]*?)<\/h2>/g)].map((m) => stripTags(m[1]));
   const sommaire = titres.length >= 3 ? 140 + 0.95 * titres.reduce((s, t) => s + t.length, 0) : 0;
-  const px = (page.image ? 348 : 155) + (tldr ? 60 + 0.85 * stripTags(tldr).length : 0) + sommaire;
+  const px = (page.image ? 348 : 155) + BARRE_IA_PX + (tldr ? 60 + 0.85 * stripTags(tldr).length : 0) + sommaire;
   return Math.round(px * DENSITE_PROSE);
+}
+
+// Barre « Résumer avec l'IA » des articles, la même que sur TrouveTonAppart et MKZ (skill barre-resume-ia) :
+// chaque puce ouvre l'assistant avec une invite qui contient l'URL canonique de la page, l'assistant va la lire.
+// Aucun de ces liens n'est documenté par son éditeur : re-mesurer chaque puce en cliquant depuis une page servie,
+// dans un navigateur connecté, avant tout déploiement qui les touche et dès qu'une puce semble morte.
+// ChatGPT exige « q » seul (hints=search emporte l'invite) ET noreferrer (avec un referrer tiers il refuse
+// d'envoyer) ; les trois autres sont mesurés verts sans noreferrer, d'où le rel réglé par assistant.
+// Pas de Gemini : gemini.google.com ne prend aucune invite par URL, et une puce porte le nom du service où elle mène.
+// La barre est du chrome, pas du contenu : build.js la retire du texte des fichiers llms et de l'index de l'assistant.
+const ASSISTANTS_IA = [
+  ['Claude', (q) => `https://claude.ai/new?q=${q}`],
+  ['ChatGPT', (q) => `https://chatgpt.com/?q=${q}`, 'noopener noreferrer nofollow'],
+  ['Perplexity', (q) => `https://www.perplexity.ai/search?q=${q}`],
+  ['Mistral', (q) => `https://chat.mistral.ai/chat?q=${q}`],
+];
+function barreIa(site, page) {
+  const url = schema.abs(site, page.canonical || page.url);
+  const q = encodeURIComponent(`Lis ${url} et fais-m'en un résumé clair : qui est concerné, les chiffres clés et les démarches à suivre. Puis réponds à mes questions dessus.`);
+  const puces = ASSISTANTS_IA.map(([nom, href, rel]) => `<a class="chip-ia" href="${esc(href(q))}" target="_blank" rel="${rel || 'noopener nofollow'}" aria-label="Résumer avec ${nom} (nouvel onglet)">${nom}</a>`).join('');
+  return `<div class="barre-ia" role="group" aria-label="Résumer cette page avec une intelligence artificielle"><span class="barre-ia-titre">Pressé&nbsp;? Faites-le lire à votre assistant IA&nbsp;:</span>${puces}</div>`;
 }
 
 function insertMidCtas(html, site, page, depart) {
@@ -318,7 +342,7 @@ function articlePage(site, page, data) {
   // Les items viennent déjà rendus par le Markdown (build.js) : les repasser dans inline() les
   // ré-échappait, et « <strong> » s'affichait en toutes lettres au lecteur (mesuré le 03/09/2026).
   const tldr = page.tldr && page.tldr.length ? `<div class="tldr"><p class="tldr-title">L'essentiel</p><ul>${page.tldr.map((t) => `<li>${ic('check')}${t}</li>`).join('')}</ul></div>` : '';
-  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page, departArticle(page, tldr)) }];
+  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${barreIa(site, page)}${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page, departArticle(page, tldr)) }];
   if (page.tribune) blocks.push({ type: 'html', html: `<figure class="founder-quote in-article${page.tribunePending ? ' pending' : ''}"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="120" height="120" loading="lazy"><blockquote>${ic('quote', 'ic-quote')}<p class="quote-title">${esc(page.tribuneTitle || 'Le mot de Thierry')}</p>${paragraphs(page.tribune)}</blockquote><figcaption><strong>${esc(f.name)}</strong>, ${esc(f.jobTitle)}${page.tribunePending ? ' <span class="badge">à valider</span>' : ''}</figcaption></figure>` });
   blocks.push({ type: 'html', html: `<aside class="mid-cta"><div><strong>Vous avez un bien en tête ?</strong><p>Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h, gratuit.</p></div>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary' }, 'btn-sm')}</aside>` });
   if ((page.faq || []).length) blocks.push({ type: 'html', html: `<section class="faq in-article"><h2 id="questions-frequentes">${esc(page.faqTitle || 'Questions fréquentes')}</h2><div class="faq-list">${page.faq.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3></summary><div class="faq-answer">${md.render(q.a).html}</div></details>`).join('')}</div><p class="faq-more">Une question qui n'est pas dans la liste ? <a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Posez-la sur WhatsApp</a> ou <a href="tel:${esc(site.org.telephoneRaw)}">appelez le ${esc(site.org.telephoneDisplay)}</a>.</p></section>` });

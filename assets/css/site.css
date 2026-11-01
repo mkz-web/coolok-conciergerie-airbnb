@@ -309,6 +309,13 @@ tr:last-child td{border-bottom:0}
 .tldr ul{list-style:none;margin:0;padding:0}
 .tldr li{display:block;position:relative;padding-left:1.65em;margin:.45rem 0}
 .tldr .ic{color:var(--gold-2);position:absolute;left:0;top:.15em;margin-right:0}
+/* Barre « Résumer avec l'IA » des articles : libellé sur sa propre ligne, puces de 44 px qui passent à la ligne sur
+   mobile. Cadre blanc et puces vertes : un outil de lecture, à ne pas confondre avec les actions dorées du site. */
+.barre-ia{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem .7rem;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1.1rem 1rem;margin:0 0 1.25rem}
+.barre-ia-titre{flex-basis:100%;font-size:.92rem;font-weight:600;color:var(--muted)}
+.chip-ia{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:99px;border:1px solid var(--line-2);background:var(--white);color:var(--green);font-weight:700;font-size:.93rem;text-decoration:none;transition:background .15s,color .15s}
+.chip-ia:hover{background:var(--green);border-color:var(--green);color:var(--white)}
+.chip-ia:focus-visible{outline:3px solid var(--gold-3);outline-offset:2px}
 /* Sommaire en bloc : le même espace au-dessus et au-dessous du cadre, porté par le seul sommaire. Il était collé
    au bandeau des chiffres de l'accueil (0 px) et à 128 px du titre suivant (sa marge, celle de la section et
    celle du titre), vu par Mickaël le 27/10/2026 ; les blocs voisins rendent donc leur marge côté sommaire. */

@@ -357,6 +357,7 @@ function htmlToText(html) {
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<nav class="toc"[\s\S]*?<\/nav>/gi, ' ')
+    .replace(/<div class="barre-ia"[\s\S]*?<\/div>/gi, ' ')
     .replace(/<(h1)[^>]*>/gi, '\n# ').replace(/<(h2)[^>]*>/gi, '\n\n## ').replace(/<(h3)[^>]*>/gi, '\n\n### ').replace(/<(h4)[^>]*>/gi, '\n\n#### ')
     .replace(/<\/(h1|h2|h3|h4)>/gi, '\n')
     .replace(/<li[^>]*>/gi, '\n- ').replace(/<\/(p|div|section|tr|blockquote|figure|figcaption|dt|dd|summary|details|article|aside|header)>/gi, '\n').replace(/<br\s*\/?>/gi, '\n')

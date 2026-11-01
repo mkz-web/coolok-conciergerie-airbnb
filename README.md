@@ -208,11 +208,12 @@ Une campagne publicitaire atterrit sur un sous-domaine dédié, jamais sur une p
 
 ## Barre « Résumer avec l'IA » des guides
 
-Chaque guide porte, au-dessus de « L'essentiel », une rangée de quatre liens : Claude, ChatGPT, Perplexity, Mistral (`barreIa()` dans `templates/pages.js`, depuis le 1er novembre 2026). Chacun ouvre l'assistant avec une invite qui contient l'adresse canonique du guide ; l'assistant va lire la page et la cite.
+Chaque guide porte, au-dessus de « L'essentiel », une rangée de trois liens : Claude, ChatGPT, Perplexity (`barreIa()` dans `templates/pages.js`, depuis le 1er novembre 2026). Chacun ouvre l'assistant avec une invite qui contient l'adresse canonique du guide ; l'assistant va lire la page et la cite.
 
-- **Adresses** : `claude.ai/new?q=`, `chatgpt.com/?q=` (jamais `hints=search`, qui fait perdre l'invite, et toujours `rel="noopener noreferrer nofollow"` : avec un référent ChatGPT refuse d'envoyer), `www.perplexity.ai/search?q=`, `chat.mistral.ai/chat?q=`. Aucune n'est documentée par son éditeur : elles se re-mesurent en cliquant la vraie puce depuis une page servie, dans un navigateur connecté, avant tout déploiement qui les touche.
-- **Mesuré le 1er novembre 2026 depuis www.coolok.co** : ChatGPT envoie l'invite même sans compte et répond après avoir lu le guide ; Claude pré-remplit le champ pour un utilisateur connecté ; Perplexity exécute la requête et cite le guide en source ; Mistral demande désormais une connexion dès qu'une invite arrive par l'adresse (sa page d'accueil reste ouverte sans compte).
-- **Hors contenu** : la barre est retirée du texte de `llms-full.txt` et de l'index de l'assistant (`htmlToText()` de `build.js`). Sa hauteur à 375 px (181 px avec sa marge) entre dans le point de départ du rythme des rappels d'action des guides.
+- **Adresses** : `claude.ai/new?q=`, `chatgpt.com/?q=` (jamais `hints=search`, qui fait perdre l'invite, et toujours `rel="noopener noreferrer nofollow"` : avec un référent ChatGPT refuse d'envoyer), `www.perplexity.ai/search?q=`. Aucune n'est documentée par son éditeur : elles se re-mesurent en cliquant la vraie puce depuis une page servie, dans un navigateur connecté, avant tout déploiement qui les touche.
+- **Mesuré le 1er novembre 2026 depuis www.coolok.co** : ChatGPT envoie l'invite même sans compte et répond après avoir lu le guide ; Claude pré-remplit le champ pour un utilisateur connecté ; Perplexity exécute la requête et cite le guide en source.
+- **Écartés** : Gemini (aucune invite acceptée par l'adresse) et Mistral, retiré le jour même : `chat.mistral.ai/chat?q=` renvoie désormais vers la page de connexion dès qu'une invite arrive par l'adresse (sa page d'accueil reste ouverte sans compte), et rien ne garantit que l'invite revienne après connexion. Un lien porte le nom du service où il mène et y arrive avec sa demande, ou il n'existe pas.
+- **Hors contenu** : la barre est retirée du texte de `llms-full.txt` et de l'index de l'assistant (`htmlToText()` de `build.js`). Sa hauteur à 375 px (128 px avec sa marge, puces sur une rangée) entre dans le point de départ du rythme des rappels d'action des guides.
 
 ## Assistant du site
 

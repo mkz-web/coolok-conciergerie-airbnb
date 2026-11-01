@@ -257,9 +257,10 @@ function blogIndexPage(site, page, data) {
 // compteur ignorait : le premier rappel du corps arrivait à plus de 5 000 px de ces boutons sur trois
 // guides. Converti en caractères de prose (1,52 par pixel), c'est le point de départ du compteur.
 const DENSITE_PROSE = 1.52;
-// Barre « Résumer avec l'IA » posée au-dessus de « L'essentiel » : 161 px et 20 px de marge à 375 px, mesurés
-// le 01/11/2026 sur les 10 guides (libellé sur une ligne, puces sur deux rangées).
-const BARRE_IA_PX = 181;
+// Barre « Résumer avec l'IA » posée au-dessus de « L'essentiel » : 108 px et 20 px de marge à 375 px, mesurés
+// le 01/11/2026 sur les 10 guides avec ses trois puces (libellé sur une ligne, puces sur une rangée ; deux rangées
+// et 161 px à 360 px).
+const BARRE_IA_PX = 128;
 function departArticle(page, tldr) {
   const titres = [...String(page.bodyHtml || '').matchAll(/<h2 [^>]*>([\s\S]*?)<\/h2>/g)].map((m) => stripTags(m[1]));
   const sommaire = titres.length >= 3 ? 140 + 0.95 * titres.reduce((s, t) => s + t.length, 0) : 0;
@@ -274,12 +275,14 @@ function departArticle(page, tldr) {
 // ChatGPT exige « q » seul (hints=search emporte l'invite) ET noreferrer (avec un referrer tiers il refuse
 // d'envoyer) ; les trois autres sont mesurés verts sans noreferrer, d'où le rel réglé par assistant.
 // Pas de Gemini : gemini.google.com ne prend aucune invite par URL, et une puce porte le nom du service où elle mène.
+// Pas de Mistral depuis le 01/11/2026 (décision de Mickaël, sur les trois sites) : chat.mistral.ai renvoie vers sa
+// page de connexion dès qu'une invite arrive par l'URL, mesuré dans deux navigateurs, et rien ne garantit que
+// l'invite revienne après connexion.
 // La barre est du chrome, pas du contenu : build.js la retire du texte des fichiers llms et de l'index de l'assistant.
 const ASSISTANTS_IA = [
   ['Claude', (q) => `https://claude.ai/new?q=${q}`],
   ['ChatGPT', (q) => `https://chatgpt.com/?q=${q}`, 'noopener noreferrer nofollow'],
   ['Perplexity', (q) => `https://www.perplexity.ai/search?q=${q}`],
-  ['Mistral', (q) => `https://chat.mistral.ai/chat?q=${q}`],
 ];
 function barreIa(site, page) {
   const url = schema.abs(site, page.canonical || page.url);

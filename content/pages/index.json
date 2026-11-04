@@ -88,6 +88,21 @@
     { "title": "Toutes nos zones et communes", "href": "/conciergerie-airbnb-ile-de-france", "text": "Le catalogue complet, département par département" }
    ]
   },
+  {
+   "type": "links",
+   "bg": "white",
+   "h2": "Nos conciergeries par commune",
+   "intro": "Six exemples, chacun avec sa clientèle, son calendrier et sa règle locale. Pour trouver votre commune, ouvrez [le catalogue complet](/conciergerie-airbnb-ile-de-france).",
+   "cols": 3,
+   "items": [
+    { "title": "Conciergerie Airbnb à Versailles", "href": "/conciergerie-airbnb-versailles", "text": "Château, spectacles et clientèle internationale" },
+    { "title": "Conciergerie Airbnb à Fontainebleau", "href": "/conciergerie-airbnb-fontainebleau", "text": "Château, forêt et INSEAD, trois demandes distinctes" },
+    { "title": "Conciergerie Airbnb à Melun", "href": "/conciergerie-airbnb-melun", "text": "Nuitées de semaine, un seul hôtel" },
+    { "title": "Conciergerie Airbnb à Montreuil", "href": "/conciergerie-airbnb-montreuil", "text": "Hôpital, salons et bureaux, la semaine" },
+    { "title": "Conciergerie Airbnb à Vincennes", "href": "/conciergerie-airbnb-vincennes", "text": "90 jours, 30 % de meublés par immeuble au plus" },
+    { "title": "Conciergerie Airbnb à Chessy", "href": "/conciergerie-airbnb-chessy", "text": "Le parc, la gare, les arrivées tardives" }
+   ]
+  },
   { "type": "articles", "bg": "cream", "limit": 3, "h2": "Nos guides pour décider", "intro": "Tarifs, réglementation, rentabilité : ce qu'un propriétaire doit savoir avant de louer." },
   { "type": "logos", "bg": "white", "h2": "Nos outils et partenaires", "intro": "Nous associons l'excellence des outils métiers à la force d'un réseau local pour garantir des résultats concrets." },
   {
@@ -102,8 +117,8 @@
   }
  ],
  "faq": [
-  { "q": "Combien coûte une conciergerie Airbnb chez Coolok ?", "a": "Une commission unique de **20 % HT** des revenus encaissés. Nous sommes payés au résultat : pas de revenus, pas de commission. Le ménage est facturé au voyageur selon la typologie du logement. Sur le marché français, les commissions relevées sur les pages tarifs publiques en juin 2026 vont de 15 à 30 %. Notre grille complète est sur la page [tarifs](/tarifs)." },
-  { "q": "Combien mon logement peut-il rapporter en location courte durée ?", "a": "Cela dépend de votre commune, de la taille du bien et de son emplacement. À titre de repère, le prix de liste médian d'un logement entier relevé sur Airbnb le 3 septembre 2026 pour sept nuits en octobre était de 125 EUR par nuit à Serris, 112 EUR à Vincennes, 79 EUR à Fontainebleau, frais inclus. Le [simulateur](/simulateur-locatif) vous donne une photographie du marché en deux minutes, puis Thierry vous envoie un audit chiffré sous 48 h." },
+  { "q": "Combien coûte une conciergerie Airbnb chez Coolok ?", "a": "Une commission unique de **20 % HT** des revenus encaissés. Nous sommes payés au résultat : pas de revenus, pas de commission. Le ménage est facturé au voyageur selon la typologie du logement. Sur 17 conciergeries actives en France qui publient leur tarif, relevées le 4 novembre 2026, les taux vont de 12 à 30 %, et 10 affichent 20 %. Notre grille complète est sur la page [tarifs](/tarifs)." },
+  { "q": "Combien mon logement peut-il rapporter en location courte durée ?", "a": "Cela dépend de votre commune, de la taille du bien et de son emplacement. À titre de repère, le prix de liste médian d'un logement entier relevé sur Airbnb le 3 septembre 2026 pour sept nuits en octobre était de 125 EUR par nuit à Serris, 112 EUR à Vincennes, 79 EUR à Fontainebleau, frais inclus. Le [simulateur Airbnb](/simulateur-locatif) vous donne une photographie du marché en deux minutes, puis Thierry vous envoie un audit chiffré sous 48 h." },
   { "q": "Sur quelles plateformes diffusez-vous mon logement ?", "a": "Airbnb et Booking.com, qui concentrent l'essentiel de la demande en Île-de-France, avec des calendriers synchronisés pour éviter toute double réservation. La grille de prix est ajustée en temps réel à partir des données de marché de votre commune." },
   { "q": "Puis-je continuer à utiliser mon logement quand je veux ?", "a": "Oui. Vous avez accès aux dates disponibles dans le calendrier partagé et nous nous occupons du reste. Prévenez-nous simplement en amont pour faire le nécessaire à temps." },
   { "q": "Quelle est la durée d'engagement ?", "a": "Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter en puissance une annonce. Vous gardez le contrôle de votre activité en toute sérénité, nous optimisons vos revenus." },

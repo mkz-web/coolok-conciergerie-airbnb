@@ -46,7 +46,7 @@ Ce que Coolok ne fait pas : ni prestation à la carte (pas de ménage seul, pas 
 - 20 % HT des revenus que votre logement encaisse réellement, sans frais d'entrée ni forfait mensuel.
 - Le ménage est facturé au voyageur selon la typologie du logement.
 - Le contrat court sur douze mois, le temps d'une saison complète : c'est la durée nécessaire pour construire l'historique de réservations et les avis qui font monter une annonce.
-- À titre de comparaison, les commissions relevées sur les pages tarifs publiques du marché français en juin 2026 vont de 15 à 30 %.
+- À titre de comparaison, sur 17 conciergeries actives en France qui publient leur tarif, relevées le 4 novembre 2026, les taux vont de 12 à 30 %, et 10 affichent 20 %.
 
 Le [simulateur de revenus Airbnb](https://www.coolok.co/simulateur-locatif) donne en quelques questions, sans adresse exacte, la fourchette de revenus observée dans votre commune, puis Thierry envoie l'audit chiffré sous 48 h, pour lequel l'adresse du logement est demandée. Le détail des prix, ce qui est inclus et des exemples chiffrés : [page tarifs](https://www.coolok.co/tarifs).
 
@@ -72,7 +72,7 @@ La page dédiée au Val d'Europe, à Marne-la-Vallée et à Disneyland Paris : [
 
 Neuf guides écrits pour les propriétaires, chiffrés et sourcés, avec le mot du fondateur et une FAQ :
 
-- [Conciergerie location courte durée : le guide complet 2026](https://www.coolok.co/blog/conciergerie-courte-duree)
+- [Conciergerie location courte durée et saisonnière : le guide complet 2026](https://www.coolok.co/blog/conciergerie-courte-duree)
 - [Tarif d'une conciergerie Airbnb : ce que vous payez vraiment](https://www.coolok.co/blog/tarif-conciergerie-airbnb)
 - [Meilleure conciergerie Airbnb : les 10 questions à poser avant de signer](https://www.coolok.co/blog/meilleure-conciergerie-airbnb)
 - [Loi Le Meur : ce qui change vraiment pour votre location courte durée](https://www.coolok.co/blog/loi-le-meur)
@@ -206,6 +206,10 @@ Une campagne publicitaire atterrit sur un sous-domaine dédié, jamais sur une p
 - **Mesure** : un seul jeu de traceurs, celui du site. GA4 : dimension « Nom d'hôte » ; la page merci du sous-domaine déclenche les mêmes événements clés (`simulateur_complete`) et l'événement `Lead` du pixel Meta du conteneur GTM, qui se déclenche sur le chemin `/merci-simulateur` quel que soit l'hôte. Table des leads : colonne « Page » à la valeur `leadPage`, colonne « URL » avec les paramètres de campagne (le Worker garde 600 caractères), colonne « Statut » pour la qualité. Les traceurs restent soumis au consentement ; la table compte toutes les demandes. Événements d'étape (pages de campagne seulement, une fois par visite, après consentement) : GA4 `simulateur_estimation` et `simulateur_formulaire`, Meta `ViewContent` (estimation vue, signal d'optimisation tant que les `Lead` n'atteignent pas la cinquantaine par semaine et par ensemble de publicités) et `FormulaireAudit`, plus les mêmes noms poussés dans le `dataLayer`.
 - **Recette** : `node ../_build/tester-sous-domaine-campagne.mjs <dist>` (25 cas, Worker importé avec un env vide), puis la recette locale avec les pages de campagne déclarées dans `--noindex`. Toujours mettre l'URL racine du sous-domaine dans les annonces : une règle de zone renvoie tout chemin à barre finale vers www.coolok.co, quel que soit l'hôte.
 
+## Bloc de guides des pages
+
+Le bloc `articles` (`templates/blocks.js`) affiche trois guides sur la plupart des pages. Il prend d'abord les adresses de `guidesPrioritaires` (`content/site.json`), puis les autres par date de publication : le troisième emplacement revient au dernier paru. Sans cette liste, chaque publication retirait les liens d'une cinquantaine de pages au guide le plus ancien des trois. Changer de guide prioritaire est donc une décision de maillage : recompter les pages sources de chaque guide avant et après.
+
 ## Barre « Résumer avec l'IA » des guides
 
 Chaque guide porte, au-dessus de « L'essentiel », une rangée de trois liens : Claude, ChatGPT, Perplexity (`barreIa()` dans `templates/pages.js`, depuis le 1er novembre 2026). Chacun ouvre l'assistant avec une invite qui contient l'adresse canonique du guide ; l'assistant va lire la page et la cite.
@@ -222,7 +226,7 @@ Une fenêtre de questions-réponses, en bas à droite de chaque page sauf les pa
 - **Ce que sait le modèle, en trois niveaux** (`lib/chat.js`, construits au build dans `/_chat/index.json`, lu par le Worker et jamais servi au public) :
   1. une **fiche de connaissances** toujours présente et mise en cache : pages principales en entier, et pour chaque commune, département et zone ses chiffres avec leurs sources et l'encadré « Ce que dit la loi », plus l'essentiel de chaque guide (99 Ko, 44 800 jetons mesurés). La fiche ne doit pas dépasser 160 Ko : le build échoue au-delà, car une requête de plus de 100 000 jetons coûte cinq fois plus cher ;
   2. le **détail complet** (tableaux, prix relevés, questions fréquentes) des pages de commune, département ou zone que la conversation vise : page consultée, ou nom cité dans la question ou la précédente, trois au plus ;
-  3. quatre **passages** retrouvés par un classement BM25 dans le texte des pages (corps des guides surtout), sections « Sources » et « Nos derniers guides » exclues.
+  3. quatre **passages** retrouvés par un classement BM25 dans le texte des pages (corps des guides surtout), sections « Sources » et « Les guides à lire avant de décider » exclues.
 - **Worker** : `POST /api/chat` (même origine exigée, durée passée sur la page d'au moins 3 secondes, question de 600 caractères au plus, historique de 10 messages) envoie tout cela au modèle avec des consignes (rapporter les données du site telles qu'elles sont écrites, citer la page par son adresse entre parenthèses, ne jamais parler d'« extraits », aucun montant d'amende, aucun revenu promis, vouvoiement, pas de « gérer »), puis passe la réponse aux règles du build : une réponse qui en enfreint une est remplacée par un renvoi vers les pages et vers Thierry. Les adresses citées deviennent les sources si la page existe ; une adresse inventée est retirée du texte. Une réponse coupée par la limite de jetons s'arrête à sa dernière phrase complète. Limitation de débit : binding `CHAT_LIMITE` posé par `deploy.js`, 8 questions par minute et par adresse IP. Aucune conversation n'est stockée ; les journaux ne portent que des compteurs.
 - **Modèle** : Claude Haiku 5.5, le plus petit modèle Claude, en effort `low` avec sa réflexion par défaut. Mesuré le 26 octobre 2026 sur 17 vraies questions : 0,00126 $ par réponse (fiche lue en cache), 2,8 s de délai médian, aucune consigne enfreinte. Réflexion coupée (réglage d'essai de la préproduction, `essai: { reflexion: "coupee" }`) : 0,00115 $ et 2,0 s, mais un montant d'amende donné malgré la consigne ; écartée.
 - **Secret** : `ANTHROPIC_API_KEY` sur le Worker, en secret classique (réglages du Worker, « Variables et secrets », type Secret) ; sans lui, la route répond 503 et la fenêtre affiche WhatsApp et le téléphone. `node deploy.js --name coolok-dev --dist <dossier> --secret-env ANTHROPIC_API_KEY=<variable d'environnement>` le pose sans l'afficher. Le Worker lit aussi une liaison vers le Secrets Store du compte (`await env.ANTHROPIC_API_KEY.get()`), que `deploy.js` sait déclarer depuis `.deploy.json` (`secretsStore`), mais Cloudflare a refusé cette liaison au jeton de déploiement le 26 octobre 2026 (« Secrets store binding authorization failed », code 10021) : à n'utiliser qu'avec un jeton qui en a le droit, prouvé par un déploiement.

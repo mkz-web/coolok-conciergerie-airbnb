@@ -20,7 +20,7 @@ tribune_a_valider: true
 - **Le numéro d'enregistrement national n'était pas encore délivrable le 3 septembre 2026** : prévu par la loi au plus tard le 20 mai 2026, il est annoncé pour le quatrième trimestre 2026 par service-public.gouv.fr (actualité A18880 du 27 juillet 2026) et la Direction générale des entreprises.
 - **DPE** : classe A à E exigée depuis le 21 novembre 2024 pour toute autorisation de changement d'usage, classe A à D au 1er janvier 2034 pour tous les meublés de tourisme, sauf la résidence principale du loueur (loi n° 2024-1039, article 3).
 - **Amendes** : 10 000 € à défaut de déclaration sur le téléservice national, 20 000 € pour une fausse déclaration ou un faux numéro, 15 000 € pour un dépassement du plafond de jours, jusqu'à 100 000 € par local loué sans autorisation de changement d'usage. Avant l'ouverture du téléservice, le montant applicable aux démarches communales n'est pas tranché par les sources que nous avons lues.
-- **La commune décide plus que la loi** : Bussy-Saint-Georges, Chalifert, Saint-Germain-en-Laye, Fontainebleau et Melun n'exigeaient aucune autorisation le 3 septembre 2026, quand Paris impose une compensation pouvant atteindre trois fois la surface transformée.
+- **La commune décide plus que la loi** : Bussy-Saint-Georges, Chalifert, Saint-Germain-en-Laye, [Fontainebleau](/conciergerie-airbnb-fontainebleau) et [Melun](/conciergerie-airbnb-melun) n'exigeaient aucune autorisation le 3 septembre 2026, quand Paris impose une compensation pouvant atteindre trois fois la surface transformée.
 
 ## Nouvelles règles de la location courte durée : deux idées reçues à jeter
 
@@ -39,7 +39,7 @@ La location courte durée n'est pas interdite en France : elle est encadrée. Ce
 
 *Sources : loi n° 2024-1039, articles L324-1-1 du code du tourisme et L631-7 du code de la construction et de l'habitation, guide pratique 2025 du ministère de la Transition écologique. Vérifié le 3 septembre 2026 ; déclaration relue sur Légifrance le 19 octobre 2026.*
 
-Le socle national tient en quelques lignes ; tout le reste se joue en mairie. Avant d'acheter ou de basculer un bien, faites le calcul sur votre commune avec notre [simulateur de revenus locatifs](/simulateur-locatif).
+Le socle national tient en quelques lignes ; tout le reste se joue en mairie. Avant d'acheter ou de basculer un bien, regardez la fourchette observée sur votre commune avec notre [simulateur de revenus Airbnb](/simulateur-locatif), puis faites vérifier votre cas par l'audit chiffré.
 
 ## La règle des 90 jours pour les locations courte durée
 

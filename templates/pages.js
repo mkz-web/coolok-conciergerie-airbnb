@@ -49,7 +49,7 @@ function rappelsAction(site, page) {
   const wa = { label: 'Poser une question sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost' };
   const simu = { label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' };
   return [
-    { title: `Combien rapporterait votre logement ${lieu} ?`, text: 'Fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.', ctas: [simu, wa] },
+    { title: `Combien rapporterait votre logement ${lieu} ?`, text: page.data && page.data.revenu_mensuel ? 'Notre [simulateur Airbnb](/simulateur-locatif) donne la fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.' : 'Notre [simulateur Airbnb](/simulateur-locatif) part de votre commune et de votre logement, puis Thierry vous envoie un audit chiffré sous 48 h, sans engagement.', ctas: [simu, wa] },
     { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
     { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
     // Quatrième rappel : une page à grands tableaux en porte quatre à 375 px (Val-de-Marne, 19/10/2026).
@@ -161,7 +161,7 @@ function geoPage(site, page, data) {
 function servicePage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, heroFor(site, page), { type: 'toc' }, ...(page.sections || [])];
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
-  if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle });
+  if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || 'Questions fréquentes' });
   if (page.ctaBand !== false) blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Et si votre bien travaillait pour vous ?', text: 'Estimation gratuite en 2 minutes, audit chiffré sous 48 h par le fondateur.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
   if (page.articles !== false) blocks.push({ type: 'articles', bg: 'white', limit: 3 });
   const schemas = [schema.webPage(site, page), schema.breadcrumb(site, page.breadcrumb)];
@@ -353,7 +353,7 @@ function articlePage(site, page, data) {
   blocks.push({ type: 'html', html: `<aside class="author-box"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="96" height="96" loading="lazy"><div><p class="author-name">${esc(f.name)}</p><p>${esc(f.bio)}</p><p><a href="/qui-sommes-nous">Découvrir Coolok</a> · <a href="/simulateur-locatif">Estimer mes revenus</a></p></div></aside></div><aside class="article-side"><div class="side-card"><p class="side-title">Combien rapporte votre bien ?</p><p>Fourchettes observées par commune, puis audit chiffré sous 48 h.</p>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif' })}<p class="side-alt"><a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.related && page.related.length ? `<div class="side-card side-links"><p class="side-title">À lire aussi</p><ul>${page.related.map((r) => `<li><a href="${esc(r.url)}">${esc(r.h1)}</a></li>`).join('')}</ul></div>` : ''}</aside></div>` });
   // Les guides déjà proposés dans « À lire aussi » ne reviennent pas dans la grille : le même titre
   // listé deux fois dans une page est un bloc répété (blog/conciergerie-courte-duree, 25/09/2026).
-  blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Nos derniers guides', exclude: (page.related || []).map((r) => r.url) });
+  blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Les guides à lire avant de décider', exclude: (page.related || []).map((r) => r.url) });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
   // La page, le site, le fondateur et l'éditeur voyagent avec l'article : un @id cité doit se lire dans la page.
   const schemas = [schema.webPage(site, page), schema.article(site, page), schema.person(site), schema.editeur(site), schema.website(site), schema.breadcrumb(site, page.breadcrumb)];

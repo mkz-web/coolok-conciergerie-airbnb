@@ -57,7 +57,7 @@ Chaque bloc accepte `bg` (`white` | `cream` | `dark`), `anchor` (id d'ancre) et 
 | `faq` | `h2`, `intro`, `items[]` | préférer le champ `faq` de la page (schéma FAQPage automatique) |
 | `cta` | `variant` (dark, gold), `h2`, `text`, `ctas[]` | bande d'action intermédiaire |
 | `links` | `h2`, `intro`, `cols`, `items[]` {title, href, text} | grilles de pages (communes, zones) |
-| `articles` | `h2`, `limit`, `exclude[]` | guides connexes |
+| `articles` | `h2`, `limit`, `exclude[]` | guides connexes : `guidesPrioritaires` de `site.json` d'abord, puis par date |
 | `logements` | `h2`, `intro`, `limit`, `cta` | galerie des biens confiés |
 | `checklist` | `h2`, `intro`, `items[]`, `cta` | liste de vérification |
 | `image` | `src`, `alt`, `caption`, `width`, `height` | illustration seule |

@@ -4,7 +4,7 @@ seo_title: "Rentabilité Airbnb en Île-de-France : la méthode de calcul"
 meta_description: "Brut, net, cashflow : la méthode de calcul de la rentabilité Airbnb en Île-de-France, un exemple chiffré à Serris et les 5 pièges qui faussent le résultat."
 slug: rentabilite-airbnb-ile-de-france-methode
 date: 2026-05-24
-updated: 2026-09-26
+updated: 2026-11-04
 category: "Rentabilité et investissement"
 image: /assets/img/articles/rentabilite-airbnb-ile-de-france-methode.webp
 image_alt: "Calculer la rentabilité d'un Airbnb en Île-de-France : brut, net et cashflow"
@@ -18,7 +18,7 @@ tribune_a_valider: true
 - **Trois chiffres, jamais un seul** : le rendement brut (recettes rapportées au prix de revient), le rendement net (après charges), le cashflow (ce qui reste une fois le crédit payé). Seul le troisième se dépense.
 - **Le rendement brut ne décide de rien.** Sur un T2 de 45 m² à Serris acheté environ 200 000 € (base 4 453 €/m², prix médian publié sur notre page commune d'après Figaro Immobilier au 1er août 2026), il va de 10,2 % à 24,6 % selon l'hypothèse de remplissage retenue.
 - **Un prix affiché n'est pas un revenu.** Prix de liste médian relevé le 3 septembre 2026 pour un logement entier, sur 7 nuits en octobre 2026, frais inclus : 125 € la nuit à Serris, 112 € à Vincennes, 79 € à Fontainebleau, 68 € à Reims.
-- **La taxe de séjour varie de 1 à 5 dans un même département** : 3,25 % du prix de la nuitée à Melun contre 16,25 % du prix hors taxes en Val d'Europe et dans les communes taxées du Val-de-Marne (relevés du 3 septembre 2026). Elle est encaissée pour la commune, ce n'est jamais votre revenu.
+- **La taxe de séjour varie de 1 à 5 dans un même département** : 3,25 % du prix de la nuitée à [Melun](/conciergerie-airbnb-melun) contre 16,25 % du prix hors taxes en Val d'Europe et dans les communes taxées du Val-de-Marne (relevés du 3 septembre 2026). Elle est encaissée pour la commune, ce n'est jamais votre revenu.
 - **Au-delà de 15 000 € de recettes annuelles**, le micro-BIC d'un meublé non classé ne s'applique plus (abattement ramené à 30 %, plafond à 15 000 € par la loi n° 2024-1039 dite loi Le Meur) : le régime réel devient le cadre par défaut.
 - **Le calcul se fait après la mairie.** Plafond de jours, changement d'usage, compensation et plan local d'urbanisme décident avant le premier tableur.
 
@@ -56,7 +56,9 @@ Chaque ligne porte son origine : mesure sourcée, ou hypothèse de travail à re
 | Crédit sur douze mois | 11 160 €/an | calcul |
 | **Marge disponible pour les charges du bien** | **5 160 €/an, soit 430 €/mois** | calcul |
 
-Lecture. Il reste 5 160 € par an pour payer la copropriété, la taxe foncière, l'assurance, l'énergie, le linge, la comptabilité et la provision pour casse. Sous ce seuil, le cashflow est positif. Au-dessus, il ne l'est pas. Vous n'avez pas besoin d'un simulateur pour trancher, vous avez besoin de vos quatre factures.
+Ce tableau compte la commission hors taxes et ne retire aucun frais de plateforme. Si vous ne récupérez pas la TVA, comptez 4 896 € de commission et 4 344 € de marge, soit 362 € par mois ; si la fourchette inclut des frais de plateforme, la marge baisse encore.
+
+Lecture. Il reste 5 160 € par an (4 344 € sans récupération de la TVA) pour payer la copropriété, la taxe foncière, l'assurance, l'énergie, le linge, la comptabilité et la provision pour casse. Sous ce seuil, le cashflow est positif. Au-dessus, il ne l'est pas. Vous n'avez pas besoin d'un simulateur pour trancher, vous avez besoin de vos quatre factures.
 
 Le même T2 recalculé sur les prix réellement signés en 2025, avec les nuits d'octobre et de janvier et les règles de chaque commune du secteur, est détaillé dans notre article sur la [rentabilité d'un Airbnb au Val d'Europe](/blog/rentabilite-airbnb-val-d-europe).
 
@@ -80,7 +82,7 @@ Elle n'apparaît dans aucun calcul de coin de table et elle pèse pourtant sur l
 
 ### Piège 4 : ne chiffrer ni son temps ni la délégation
 
-Une location courte durée bien tenue demande, selon notre estimation, 20 à 30 heures par mois et par logement : annonce, tarification, réponses, arrivées, ménage, linge, incidents. Si vous faites tout seul, valorisez ces heures. Si vous déléguez, la commission du marché va de 15 à 30 % des revenus, le plus souvent autour de 20 % (pages tarifs publiques des conciergeries françaises, juin 2026). Les deux colonnes doivent figurer au tableur.
+Une location courte durée bien tenue demande, selon notre estimation, 20 à 30 heures par mois et par logement : annonce, tarification, réponses, arrivées, ménage, linge, incidents. Si vous faites tout seul, valorisez ces heures. Si vous déléguez, la commission va de 12 à 30 % des revenus sur 17 conciergeries relevées le 4 novembre 2026, et 10 affichent 20 %. Les deux colonnes doivent figurer au tableur.
 
 ### Piège 5 : oublier la fiscalité, et surtout la sortie
 
@@ -140,7 +142,7 @@ Et une chose que la plupart des gens sous-estiment : le travail derrière une lo
 
 ### Est-ce rentable de faire du Airbnb ?
 
-Cela dépend de trois variables mesurables : vos recettes, vos charges d'exploitation et votre mensualité de crédit. Sur notre exemple d'un T2 à Serris acheté environ 200 000 €, l'hypothèse basse de recettes (20 400 € par an, relevé du 9 juillet 2026) laisse 5 160 € par an pour les charges du bien. Sous ce seuil, le cashflow est positif.
+Cela dépend de trois variables mesurables : vos recettes, vos charges d'exploitation et votre mensualité de crédit. Sur notre exemple d'un T2 à Serris acheté environ 200 000 €, l'hypothèse basse de recettes (20 400 € par an, relevé du 9 juillet 2026) laisse 5 160 € par an pour les charges du bien, ou 4 344 € si vous ne récupérez pas la TVA sur la commission. Sous ce seuil, le cashflow est positif.
 
 ### Quelle est la ville la plus rentable sur Airbnb en France ?
 
@@ -156,7 +158,7 @@ Le taux appliqué à votre logement figure sur votre relevé de versement et dan
 
 ### Quel est le coût d'une conciergerie Airbnb ?
 
-La commission du marché français va de 15 à 30 % des revenus, le plus souvent autour de 20 %, avec des frais variables souvent refacturés au voyageur (pages tarifs publiques, juin 2026). Chez Coolok, elle est de 20 % HT au résultat. Le seul comparatif valable reste le taux tout compris, détaillé dans notre guide du [tarif d'une conciergerie](/blog/tarif-conciergerie-airbnb).
+Sur 17 conciergeries actives en France qui publient leur tarif, relevées le 4 novembre 2026, la commission va de 12 à 30 % des revenus, et 10 affichent 20 %. Chez Coolok, elle est de 20 % HT au résultat. Le seul comparatif valable reste le taux tout compris, détaillé dans notre guide du [tarif d'une conciergerie](/blog/tarif-conciergerie-airbnb).
 
 ### Est-ce que la conciergerie Airbnb est rentable pour le propriétaire ?
 
@@ -178,4 +180,4 @@ Trois niveaux se cumulent : le cadre national (déclaration du meublé, plafond 
 - [Règlement de la ville de Montévrain fixant les conditions de délivrance des autorisations de changement d'usage](https://www.montevrain.fr/app/uploads/2025/10/DEL2025.051anx_reglement-ville-de-Montevrain-1.pdf), annexé à la délibération 2025.051 du 25 septembre 2025, consulté le 19 octobre 2026
 - [Délibération 2025.053 de Montévrain abaissant à 90 jours le plafond de location d'une résidence principale](https://www.montevrain.fr/app/uploads/2025/12/DEL2025.053-ABAISSEMENT-90-JOURS-RESIDENCES-PPALES.pdf), 25 septembre 2025, consultée le 19 octobre 2026
 - Données par commune publiées sur coolok.co : nuitée et recettes (relevé AirDNA croisé, extraction du 9 juillet 2026), prix au m² ([Figaro Immobilier, prix médian tous biens à Serris](https://immobilier.lefigaro.fr/prix-immobilier/serris/ville-77449), estimation au 1er août 2026)
-- Relevé des pages tarifs publiques des conciergeries françaises, juin 2026 (commission de 15 à 30 %)
+- Relevé d'une page de 17 conciergeries actives en France qui publient leur tarif, MKZ Consulting pour Coolok, 4 novembre 2026 (commission de 12 à 30 %)

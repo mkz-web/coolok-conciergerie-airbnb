@@ -91,7 +91,7 @@ Faites ces trois vérifications dans l'ordre. Il est tout à fait possible que v
 
 Regardez la convergence des deux calendriers : en 2034, tout se rejoint sur la classe D. Un bien classé A-D sera louable en courte durée, louable en longue durée, et vendable sans décote énergétique. Un bien E ou pire perdra ses options une à une. La lettre du DPE rejoint donc l'emplacement et le prix d'achat dans les critères de départ d'un investissement locatif, au même titre que la [rentabilité, qui se calcule méthodiquement](/blog/rentabilite-airbnb-ile-de-france-methode) avant de s'improviser.
 
-C'est le calcul que nous faisons avec chaque propriétaire : ce que le bien peut encaisser par nuit, ce que la réglementation lui permet, et jusqu'à quand. Pour la première partie de la réponse, notre [simulateur de revenus](/simulateur-locatif) vous donne une estimation en quelques minutes, commune par commune.
+C'est le calcul que nous faisons avec chaque propriétaire : ce que le bien peut encaisser par nuit, ce que la réglementation lui permet, et jusqu'à quand. Pour la première partie de la réponse, notre [simulateur Airbnb](/simulateur-locatif) vous donne une estimation en quelques minutes, commune par commune.
 
 ## FAQ : vos questions sur le DPE en location courte durée
 

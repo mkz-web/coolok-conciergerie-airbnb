@@ -125,4 +125,4 @@ Dans les communes à autorisation simple, sans compensation pour un particulier 
 
 ---
 
-**Votre bien est à Paris ou aux portes de Paris ?** Faites le calcul réel en deux minutes avec notre [simulateur de revenus locatifs](/simulateur-locatif) : estimation chiffrée sur votre commune, plafond compris, sans engagement. C'est la même étude que nous menons avant d'accepter un mandat.
+**Votre bien est à Paris ou aux portes de Paris ?** Deux minutes dans notre [simulateur de revenus Airbnb](/simulateur-locatif) : la fourchette publiée pour les communes aux portes de Paris, puis un audit chiffré sous 48 h, plafond compris, sans engagement. C'est la même étude que nous menons avant d'accepter un mandat.

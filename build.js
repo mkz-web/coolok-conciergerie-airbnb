@@ -401,7 +401,7 @@ for (const page of allPages) {
   const h2re = /<h2 id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/g;
   let m;
   while ((m = h2re.exec(joined))) h2s.push({ id: m[1], text: stripTags(m[2]) });
-  const tocItems = h2s.filter((h) => !/^(questions fréquentes|sources|nos derniers guides|pour aller plus loin|ce que disent|nos conciergeries autour|les communes que nous)/i.test(h.text));
+  const tocItems = h2s.filter((h) => !/^(questions fréquentes|sources|les guides à lire|pour aller plus loin|ce que disent|nos conciergeries autour|les communes que nous)/i.test(h.text));
   if (tocIdx >= 0) rendered[tocIdx] = (textLen > 10000 && tocItems.length >= 3) ? blocks.renderBlocks([{ type: 'toc', items: tocItems, inline: composed.blocks[tocIdx].inline }], ctx) : '';
   const body = rendered.filter(Boolean).join('\n');
 

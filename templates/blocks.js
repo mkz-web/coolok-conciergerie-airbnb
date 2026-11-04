@@ -167,7 +167,11 @@ B.cta = (b, ctx) => `<section class="cta-band cta-${esc(b.variant || 'dark')}${b
 B.links = (b, ctx) => `${sectionOpen(b, 'links')}${heading(b, 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<ul class="link-grid grid-${b.cols || 3}">${(b.items || []).map((l) => `<li><a href="${esc(l.href)}"><strong>${esc(l.title)}</strong>${l.text ? `<span>${inline(l.text)}</span>` : ''}</a></li>`).join('')}</ul>${sectionClose}`;
 
 B.articles = (b, ctx) => {
-  const list = ctx.data.articles.filter((a) => a.url !== ctx.page.url && !(b.exclude || []).includes(a.url)).slice(0, b.limit || 3);
+  // Les guides prioritaires (site.json) passent devant, le reste suit par date : sans cela, chaque
+  // publication retirait les liens d'une cinquantaine de pages au guide le plus ancien des trois.
+  const candidats = ctx.data.articles.filter((a) => a.url !== ctx.page.url && !(b.exclude || []).includes(a.url));
+  const prioritaires = (ctx.site.guidesPrioritaires || []).map((u) => candidats.find((a) => a.url === u)).filter(Boolean);
+  const list = prioritaires.concat(candidats.filter((a) => !prioritaires.includes(a))).slice(0, b.limit || 3);
   return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lire le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
 };
 

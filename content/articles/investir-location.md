@@ -44,7 +44,7 @@ Le portrait-robot du bon spot : une demande touristique ou professionnelle const
 | [Serris (Val d'Europe)](/conciergerie-airbnb-serris) | 80 à 170 € | 70 à 80 % | 4 453 € | Double moteur Disney + Vallée Village |
 | [Bussy-Saint-Georges](/conciergerie-airbnb-bussy-saint-georges) | 70 à 140 € | 70 à 80 % | 4 353 € | Porte d'entrée du secteur Disney par le RER A, logements récents |
 | Vincennes | 100 à 200 € | 75 à 85 % | 8 874 € | Portes de Paris, clientèle mixte affaires et tourisme |
-| Versailles | 110 à 250 € | 69 à 79 % | 6 814 € | Destination mondiale, saisonnalité marquée au printemps-été |
+| [Versailles](/conciergerie-airbnb-versailles) | 110 à 250 € | 69 à 79 % | 6 814 € | Destination mondiale, saisonnalité marquée au printemps-été |
 
 *Données publiées sur les pages villes coolok.co : nuitées et taux d'occupation (relevé AirDNA croisé), prix au m² (prix médians Figaro Immobilier au 1er août 2026) ; réglementation à vérifier en mairie à la date de votre projet.*
 
@@ -54,7 +54,7 @@ Lecture honnête du tableau : Vincennes et Versailles offrent des nuitées plus 
 
 Côté crédit, le marché s'est posé : taux moyen de 3,24 % au 2e trimestre 2026, 3,30 % sur 25 ans en juin, durée moyenne de 251 mois (Observatoire Crédit Logement/CSA, juillet 2026). Ni l'argent gratuit de 2021, ni le pic de 2023 : un coût du crédit lisible, qui se calcule sereinement.
 
-Exemple indicatif, pour fixer les ordres de grandeur : un T2 de 45 m² à Serris autour de 200 000 € (sur la base de 4 453 €/m², prix médian au 1er août 2026). Avec les frais d'acquisition et un apport couvrant environ 10 à 15 % de l'opération, resterait un emprunt d'environ 190 000 € : soit une mensualité d'environ 930 € hors assurance sur 25 ans à 3,30 % (calcul d'annuité standard). En face, la fourchette de revenus bruts que nous publions pour Serris va de 1 700 à 4 100 € par mois selon la saison, le bien et sa gestion, avant charges, commission et fiscalité. L'écart entre ces deux colonnes, une fois les charges réelles posées, c'est précisément ce que notre [méthode de calcul de rentabilité](/blog/rentabilite-airbnb-ile-de-france-methode) vous apprend à chiffrer poste par poste, et ce que le [simulateur](/simulateur-locatif) estime pour votre commune en deux minutes.
+Exemple indicatif, pour fixer les ordres de grandeur : un T2 de 45 m² à Serris autour de 200 000 € (sur la base de 4 453 €/m², prix médian au 1er août 2026). Avec les frais d'acquisition et un apport couvrant environ 10 à 15 % de l'opération, resterait un emprunt d'environ 190 000 € : soit une mensualité d'environ 930 € hors assurance sur 25 ans à 3,30 % (calcul d'annuité standard). En face, la fourchette de revenus bruts que nous publions pour Serris va de 1 700 à 4 100 € par mois selon la saison, le bien et sa gestion, avant charges, commission et fiscalité. L'écart entre ces deux colonnes, une fois les charges réelles posées, c'est précisément ce que notre [méthode de calcul de rentabilité](/blog/rentabilite-airbnb-ile-de-france-methode) vous apprend à chiffrer poste par poste ; notre [simulateur Airbnb](/simulateur-locatif) vous donne la colonne des revenus en deux minutes, si votre commune fait partie des 26 dont la fourchette est publiée.
 
 Un mot sur le meublé : comptez aussi l'ameublement et la mise en exploitation (mobilier, literie de qualité, photos). C'est ce qui transforme un appartement en produit qui se réserve.
 
@@ -101,7 +101,7 @@ En couronne Disney, les prix médians vont de 3 467 à 4 858 €/m² (Figaro Imm
 
 ### L'investissement Airbnb est-il encore rentable en 2026 ?
 
-Oui, à condition de choisir une commune sans compensation, un bien adapté à la demande locale et une exploitation professionnelle (prix dynamiques, avis, occupation). La rentabilité se calcule poste par poste avant l'achat : c'est l'objet de notre méthode et de notre simulateur, pas d'une promesse générique.
+Oui, à condition de choisir une commune sans compensation, un bien adapté à la demande locale et une exploitation professionnelle (prix dynamiques, avis, occupation). La rentabilité se calcule poste par poste avant l'achat : c'est l'objet de notre méthode et de notre audit chiffré, pas d'une promesse générique.
 
 ### LMNP : micro-BIC ou régime réel en 2026 ?
 
@@ -130,4 +130,4 @@ L'ancien bien placé offre en général un meilleur prix au m² et du cachet ; l
 
 ---
 
-**Avant de visiter, simulez.** Indiquez la commune et le type de bien dans notre [simulateur de revenus locatifs](/simulateur-locatif) : vous obtenez une estimation chiffrée et l'avis d'un expert local, sans engagement. C'est l'étude que nous faisons avant d'accepter un mandat, autant la faire avant votre achat.
+**Avant de visiter, simulez.** Indiquez la commune et le type de bien dans notre [simulateur de revenus Airbnb](/simulateur-locatif) : vous obtenez une estimation chiffrée et l'avis d'un expert local, sans engagement. C'est l'étude que nous faisons avant d'accepter un mandat, autant la faire avant votre achat.

@@ -47,9 +47,9 @@
     ["Revenus locatifs du mois", "2 300 EUR", "2 280 EUR"],
     ["Commission Coolok, 20 % HT", "460 EUR HT", "456 EUR HT"],
     ["Ménage (refacturé au voyageur)", "0 EUR pour vous", "0 EUR pour vous"],
-    ["Reste avant charges et impôts", "1 840 EUR", "1 824 EUR"]
+    ["Reste avant frais de plateforme, TVA sur la commission, charges et impôts", "1 840 EUR", "1 824 EUR"]
    ],
-   "source": "Calcul indicatif MKZ Consulting pour Coolok, 3 septembre 2026. Prix de liste médians relevés sur Airbnb : Serris 125 EUR, Vincennes 112 EUR par nuit frais inclus, ramenés ici hors frais de ménage. Hors charges de copropriété, énergie, assurance, fiscalité."
+   "source": "Calcul indicatif MKZ Consulting pour Coolok, 3 septembre 2026. Prix de liste médians relevés sur Airbnb, toutes tailles : Serris 125 EUR, Vincennes 112 EUR par nuit frais inclus ; prix retenus ici par hypothèse selon le logement, hors frais de ménage. Hors charges de copropriété, énergie, assurance, fiscalité. Ces revenus, tirés de prix affichés, sont pris comme base de la commission sans en retirer les frais de plateforme. Si vous ne récupérez pas la TVA, la commission s'élève alors à 552 EUR TTC à Serris et 547,20 EUR TTC à Vincennes."
   },
   {
    "type": "checklist",
@@ -72,7 +72,7 @@
    "variant": "info",
    "icon": "euro",
    "title": "Le marché, pour situer notre taux",
-   "md": "Sur les pages tarifs publiques des conciergeries françaises relevées en juin 2026, les commissions vont de **15 à 30 % des revenus**, le plus souvent autour de 20 %, avec des modèles très différents : forfait mensuel dû même sans réservation, frais d'installation, ménage prélevé à vos dépens. Nous avons choisi un taux unique tout compris pour que la comparaison soit enfin lisible.",
+   "md": "Sur 17 conciergeries actives en France qui publient leur tarif, relevées le 4 novembre 2026, les commissions vont de **12 à 30 % des revenus**, et 10 affichent 20 %. Le même taux ne recouvre pas le même prix : 10 ne précisent pas sur la page lue s'il est HT ou TTC, et la base change, avant ou après frais de plateforme ([le calcul complet dans notre guide](/blog/tarif-conciergerie-airbnb)). Nous avons choisi un taux unique tout compris pour que la comparaison soit enfin lisible.",
    "cta": { "label": "Estimer mes revenus et recevoir un devis", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
   },
   {

@@ -94,7 +94,7 @@ Dans une grande partie de la grande couronne, aucune restriction locale ne s'app
 
 Là, le seul cadre est le socle national : déclaration, enregistrement, fiscalité, DPE à horizon 2034. Détail qui compte, précisé par le guide pratique du ministère : même quand une commune abaisse le plafond à 90 jours, louer sa résidence principale entre 90 et 120 jours ne fait pas basculer le bien dans le changement d'usage, qui reste déclenché au-delà de 120 jours. Le dépassement du plafond fixé par la commune reste, lui, sanctionnable.
 
-Avant de trancher entre deux communes, passez-les au [simulateur de revenus locatifs](/simulateur-locatif) : un expert local vous accompagnera dans l'estimation et ses explications.
+Avant de trancher entre deux communes, passez-les au [simulateur de revenus Airbnb](/simulateur-locatif) : un expert local vous accompagnera dans l'estimation et ses explications.
 
 ## DPE, fiscalité, copropriété : le calendrier à retenir
 
@@ -160,4 +160,4 @@ Trois choses : le copropriétaire qui loue en meublé de tourisme doit en inform
 
 ---
 
-**Votre commune est-elle encore rentable ?** Le calcul prend deux minutes : indiquez la commune et le type de bien dans notre [simulateur de revenus locatifs](/simulateur-locatif), et repartez avec une estimation chiffrée, sans engagement. C'est le même outil que nous utilisons avant d'accepter un client.
+**Votre commune est-elle encore rentable ?** Commencez par notre [simulateur de revenus Airbnb](/simulateur-locatif) pour voir la fourchette observée, puis l'audit chiffré vérifie la réglementation et le calcul net, sans engagement.

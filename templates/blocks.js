@@ -126,7 +126,7 @@ B.quote = (b, ctx) => {
   const author = b.author || f.name;
   const role = b.role || f.jobTitle;
   const img = b.image || f.image;
-  return `${sectionOpen(b, 'quote-section')}<figure class="founder-quote${b.pending ? ' pending' : ''}"><img src="${esc(img)}" alt="${esc(author)}" width="120" height="120" loading="lazy"><blockquote>${ic('quote', 'ic-quote')}${paragraphs(b.text)}</blockquote><figcaption><strong>${esc(author)}</strong>, ${esc(role)}${b.pending ? ' <span class="badge">à valider</span>' : ''}</figcaption></figure>${sectionClose}`;
+  return `${sectionOpen(b, 'quote-section')}<figure class="founder-quote"><img src="${esc(img)}" alt="${esc(author)}" width="120" height="120" loading="lazy"><blockquote>${ic('quote', 'ic-quote')}${paragraphs(b.text)}</blockquote><figcaption><strong>${esc(author)}</strong>, ${esc(role)}</figcaption></figure>${sectionClose}`;
 };
 
 B.testimonials = (b, ctx) => {

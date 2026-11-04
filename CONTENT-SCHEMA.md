@@ -7,7 +7,7 @@ Le build ÉCHOUE si : title > 65 caractères, meta description > 160, H1 absent 
 ## 1. Règles d'écriture (non négociables)
 - Vouvoiement. Aucun tiret long ni demi-cadratin : virgule, deux-points, parenthèses, point. Aucun « gestion locative » (dire délégation, conciergerie, pilotage locatif).
 - Chaque chiffre porte sa source et sa date dans la phrase ou dans un champ `source`. Rien d'inventé. Les chiffres de marché viennent des fichiers de recherche indiqués dans le brief (R8 réglementation, R9 faits, R10 marché, données Ville tarif dans `data`).
-- Le fondateur ne dit que le réel : une citation neuve dans `quote.text` porte `"pending": true` (affiche un badge « à valider ») sauf si elle reprend un verbatim tracé.
+- Le fondateur ne dit que le réel : une citation neuve dans `quote.text` porte `"pending": true` sauf si elle reprend un verbatim tracé. Ce champ et `tribune_a_valider` ne s'affichent plus au visiteur depuis le 4 novembre 2026 : ils notent ce qui reste à faire valider.
 - Marque : commission 20 % HT tout compris, +40 % de revenus en moyenne face à une gestion en solo, audit chiffré sous 48 h, 4,8/5 sur 21 avis Google. Ne pas répéter ces chiffres dans le corps des sections : ils sont déjà dans la barre de confiance, la tarification et les bandes d'action. Une seule promesse par page.
 - Texte unique par page : deux pages géo ne partagent jamais un paragraphe. Ce qui est commun (services, tarif, avis) est fourni par les blocs automatiques ou reformulé dans l'angle de la page.
 - Markdown autorisé dans `md`, `text`, `lead`, `a` (FAQ) : `**gras**`, `*italique*`, `[ancre](/url)`, listes `- `, tableaux GFM, titres `###` (jamais `##` dans un bloc rich qui a déjà un `h2`).

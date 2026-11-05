@@ -89,7 +89,7 @@ tribune_a_valider: true                 // si la tribune n'est pas un verbatim v
 ---
 ```
 Corps : pas de `# H1` (le titre vient du frontmatter). Sections `##` et `###`. Sections spéciales reconnues par leur titre `##` :
-- `## L'essentiel` : liste à puces de 4 à 6 points chiffrés (rendue en encadré en tête d'article).
+- `## L'essentiel` : liste à puces de 4 à 6 points chiffrés (rendue en encadré en tête d'article). Un texte écrit après la liste reste dans le corps, en introduction, avant la première section.
 - `## Le mot de Thierry Moraldo, fondateur de Coolok` : paragraphes à la première personne (rendus en citation du fondateur).
 - `## Questions fréquentes` : chaque question en `###`, réponse en paragraphes (schéma FAQPage automatique).
 - `## Sources` : liste de liens `- [Nom de la source](https://…), date`.

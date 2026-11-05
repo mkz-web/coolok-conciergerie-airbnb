@@ -120,8 +120,7 @@ Elle est explicitement exemptée de l'obligation de décence énergétique de 20
 - [Loi n° 2024-1039 du 19 novembre 2024](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711) visant à renforcer les outils de régulation des meublés de tourisme à l'échelle locale, JORF n° 0274 du 20 novembre 2024, notamment articles 3 (articles L. 324-2-2 du code du tourisme et L. 631-10 du code de la construction et de l'habitation), 4 (plafond de jours, article L. 324-1-1 du code du tourisme) et 5 (changement d'usage), Légifrance.
 - [Faire de sa résidence secondaire une location de vacances (meublé de tourisme)](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), fiche F2043, service-public.gouv.fr.
 - [Diagnostic de performance énergétique (DPE)](https://www.service-public.gouv.fr/particuliers/vosdroits/F16096), fiche F16096, service-public.gouv.fr : validité, calendrier de la location longue durée, réforme des surfaces ≤ 40 m² (1er juillet 2024), coefficient de conversion de l'électricité (1er janvier 2026).
-
-*Points de droit vérifiés sur ces sources le 23 juillet 2026. Cet article présente le cadre général : il ne remplace pas une vérification en mairie pour votre commune, ni un conseil juridique individualisé.*
+- Points de droit vérifiés sur ces sources le 23 juillet 2026. Cet article présente le cadre général : il ne remplace pas une vérification en mairie pour votre commune, ni un conseil juridique individualisé.
 
 ---
 

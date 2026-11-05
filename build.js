@@ -175,7 +175,12 @@ function extractArticleSections(html, headings) {
     const m = p.match(/^<h2 id="([^"]+)">([^<]+)<\/h2>/);
     const title = m ? stripTags(m[2]).toLowerCase() : '';
     if (/^(l'essentiel|tl;dr|à retenir|en bref)/.test(title)) {
-      out.tldr = (p.match(/<li>([\s\S]*?)<\/li>/g) || []).map((li) => li.replace(/<\/?li>/g, ''));
+      // Seule la première liste fait le résumé. Ce qui l'entoure reste dans le corps : l'introduction de deux guides, écrite sous ce titre, n'était pas servie.
+      const section = p.replace(m[0], '');
+      const liste = section.match(/<ul>[\s\S]*?<\/ul>/);
+      out.tldr = ((liste ? liste[0] : section).match(/<li>([\s\S]*?)<\/li>/g) || []).map((li) => li.replace(/<\/?li>/g, ''));
+      const reste = (liste ? section.replace(liste[0], '') : section).trim();
+      if (reste) out.body.push(reste);
     } else if (/^(le mot de thierry|tribune|le regard du fondateur|la parole du fondateur)/.test(title)) {
       out.tribuneTitle = stripTags(m[2]);
       out.tribune = (p.replace(m[0], '').match(/<p>([\s\S]*?)<\/p>/g) || []).map((x) => stripTags(x)).join('\n\n');

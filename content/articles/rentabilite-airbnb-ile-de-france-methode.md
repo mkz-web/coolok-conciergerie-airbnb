@@ -22,7 +22,7 @@ tribune_a_valider: true
 - **Au-delà de 15 000 € de recettes annuelles**, le micro-BIC d'un meublé non classé ne s'applique plus (abattement ramené à 30 %, plafond à 15 000 € par la loi n° 2024-1039 dite loi Le Meur) : le régime réel devient le cadre par défaut.
 - **Le calcul se fait après la mairie.** Plafond de jours, changement d'usage, compensation et plan local d'urbanisme décident avant le premier tableur.
 
-Un propriétaire nous envoie une capture d'écran : « le simulateur annonce 3 200 € par mois ». Trois questions plus tard, le chiffre a fondu : c'était un prix de liste multiplié par trente nuits, taxe de séjour et frais de ménage compris, sans un euro de charge en face. Ce n'est pas un revenu, c'est un plafond théorique. La rentabilité d'une location courte durée ne se lit pas sur un chiffre, elle se calcule sur trois, dans l'ordre.
+Prenez un prix de liste, multipliez-le par trente nuits, taxe de séjour et frais de ménage compris, sans un euro de charge en face : ce n'est pas un revenu, c'est un plafond théorique. La rentabilité d'une location courte durée ne se lit pas sur un chiffre, elle se calcule sur trois, dans l'ordre.
 
 ## Trois chiffres, pas un
 

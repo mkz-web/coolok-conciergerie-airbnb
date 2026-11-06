@@ -641,9 +641,19 @@ async function handleChat(request, env, url, dev, ctx) {
   const regle = index.regles.find((re) => re.test(texte));
   if (regle) return repli('regle', Object.assign({ regle: regle.source.slice(0, 40) }, usage), texte);
   // Adresses de pages citées : gardées si la page existe ; une adresse inconnue entre parenthèses est retirée du texte.
+  // Une parenthèse peut citer plusieurs pages, « (/a, /b) » ou « (/a et /b) » : avant le 07/11/2026, seule la forme à une
+  // page était lue, et la première page d'une liste sortait des sources (vu dans la première réponse du journal des
+  // conversations, /conciergerie-airbnb-serris absente). Dans une liste, les pages connues restent, les inventées partent,
+  // et la parenthèse disparaît si aucune n'est connue.
   const adresses = [];
-  texte = texte.replace(/\s?\((\/[a-z0-9\-/]*)\)/g, (m, adr) => { const a = adr.length > 1 ? adr.replace(/\/+$/, '') : adr; if (parAdresse.has(a)) { adresses.push(a); return m; } return ''; });
-  for (const m of texte.matchAll(/(?:^|[\s«"'])(\/[a-z][a-z0-9-]*(?:\/[a-z0-9-]+)*)/g)) if (parAdresse.has(m[1])) adresses.push(m[1]);
+  const normaliser = (adr) => (adr.length > 1 ? adr.replace(/\/+$/, '') : adr);
+  texte = texte.replace(/\s?\((\/[a-z0-9\-/]*(?:(?:\s*,\s*|\s+et\s+)\/[a-z0-9\-/]*)*)\)/g, (m, liste) => {
+    const connues = [...new Set(liste.split(/\s*,\s*|\s+et\s+/).map(normaliser).filter((a) => parAdresse.has(a)))];
+    adresses.push(...connues);
+    if (!connues.length) return '';
+    return m.slice(0, m.indexOf('(')) + '(' + connues.join(', ') + ')';
+  });
+  for (const m of texte.matchAll(/(?:^|[\s(«"'])(\/[a-z][a-z0-9-]*(?:\/[a-z0-9-]+)*)/g)) if (parAdresse.has(m[1])) adresses.push(m[1]);
   const sources = sourcesDe(adresses);
   const vocabulaire = /(?<!\p{L})g[eèé]r(?:er|e|es|ons|ez|ent|é|ée|és|ées|ant)(?!\p{L})/iu.test(texte);
   journal(Object.assign({ statut: 200, tours: questions.length, passages: passages.length, sources: sources.length, page, vocabulaire }, usage));

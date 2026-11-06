@@ -47,6 +47,8 @@ function liaisonsSecretsStore() {
   });
 }
 const SECRETS_STORE = liaisonsSecretsStore();
+// Planifications par Worker (format cron, heure UTC) : purge du journal des conversations à la 17e minute de chaque heure.
+const PLANIFICATIONS = { coolok: ['17 * * * *'] };
 const TOKEN = process.env.CLOUDFLARE_API_TOKEN_COOLOK;
 const secrets = [];
 args.forEach((a, i) => { if (a === '--secret' && args[i + 1]) { const [k, ...v] = args[i + 1].split('='); secrets.push({ name: k, text: v.join('=') }); } });
@@ -136,6 +138,16 @@ async function cf(method, url, body, headers) {
   const put = await cf('PUT', `${API}/accounts/${ACCOUNT}/workers/scripts/${NAME}`, fd);
   console.log(`script ${NAME} déployé (version ${put.result && put.result.id ? put.result.id : 'ok'})`);
   for (const s of SECRETS_STORE) console.log(`liaison Secrets Store ${s.name} -> ${s.secret_name}`);
+  // 3 bis. Tâche planifiée : purge horaire du journal des conversations de l'assistant (scheduled de worker/index.js),
+  // sur le Worker de production seulement : la préproduction écrit dans la même table, la purge de la production la couvre.
+  // La planification est reposée à chaque déploiement, pour qu'elle ne dépende d'aucun réglage fait à la main.
+  if (PLANIFICATIONS[NAME]) {
+    await cf('PUT', `${API}/accounts/${ACCOUNT}/workers/scripts/${NAME}/schedules`, JSON.stringify(PLANIFICATIONS[NAME].map((cron) => ({ cron }))), { 'content-type': 'application/json' });
+    const lu = await cf('GET', `${API}/accounts/${ACCOUNT}/workers/scripts/${NAME}/schedules`);
+    const poses = ((lu.result && lu.result.schedules) || []).map((s) => s.cron);
+    if (PLANIFICATIONS[NAME].some((c) => !poses.includes(c))) throw new Error(`planification attendue ${PLANIFICATIONS[NAME].join(', ')}, relue ${poses.join(', ') || 'aucune'}`);
+    console.log(`planification ${NAME} : ${poses.join(', ')}`);
+  }
 
   // 4. secrets
   for (const s of secrets) {

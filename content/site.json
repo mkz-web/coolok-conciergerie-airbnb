@@ -670,7 +670,7 @@
   "environnements": ["dev", "prod"],
   "titre": "Assistant Coolok",
   "accueil": "Bonjour, je réponds à vos questions sur Coolok et la location courte durée en Île-de-France, à partir des pages de ce site. Pour un avis sur votre logement, Thierry vous répond en direct.",
-  "mention": "Assistant d'intelligence artificielle : ses réponses peuvent contenir des erreurs. Vérifiez-les sur les pages citées.",
+  "mention": "Assistant d'intelligence artificielle : vérifiez ses réponses sur les pages citées. Échanges conservés six mois : n'y écrivez aucune donnée personnelle.",
   "suggestions": [
    "Combien coûte la conciergerie ?",
    "La location courte durée est-elle autorisée dans ma commune ?",

@@ -1,7 +1,8 @@
 /* Coolok : assistant du site (prototype du 26/10/2026). Aucune dépendance.
    Crée sa propre interface, envoie les questions à /api/chat et les demandes de rappel à /api/lead (même circuit que le
    formulaire de contact : table Softr, e-mail à Thierry, page /merci-contact). La conversation ne vit qu'en mémoire :
-   rien n'est écrit sur l'appareil du visiteur, rien n'est conservé après la fermeture de la page. */
+   rien n'est écrit sur l'appareil du visiteur. Côté serveur, chaque question servie et sa réponse sont gardées six mois
+   dans le journal des conversations (worker/index.js), sous un numéro tiré au hasard à l'ouverture de la page. */
 (function () {
   'use strict';
   var script = document.currentScript || document.querySelector('script[data-chat]');
@@ -21,6 +22,10 @@
 
   var MAX_QUESTION = 600;
   var historique = []; // { role: 'user' | 'assistant', content }
+  // Numéro de la conversation pour le journal du serveur : tiré au hasard à l'ouverture de la page, gardé en mémoire
+  // (rien sur l'appareil), il regroupe les questions d'une même visite. tours : rang de la question dans la visite.
+  var conversation = window.crypto && typeof window.crypto.randomUUID === 'function' ? window.crypto.randomUUID() : (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 12));
+  var tours = 0;
   var enCours = false;
   var reponses = 0;
   var rappelPropose = false;
@@ -175,6 +180,7 @@
     if (!question || enCours) return;
     message('visiteur', [el('p', { texte: question })]);
     historique.push({ role: 'user', content: question });
+    tours++;
     suggestions.hidden = true;
     champ.value = '';
     ajusterChamp();
@@ -189,7 +195,7 @@
         return fetch('/api/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify({ messages: historique.slice(-10), page: location.pathname, duree: String(Date.now() - t0) })
+          body: JSON.stringify({ messages: historique.slice(-10), page: location.pathname, duree: String(Date.now() - t0), conversation: conversation, tour: tours })
         });
       })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { statut: r.status, j: j }; }); })
@@ -203,12 +209,14 @@
           return;
         }
         historique.pop();
+        tours--;
         if (res.j && res.j.indisponible) message('assistant', [contactsDirects("L'assistant n'est pas disponible pour le moment. " + cfg.prenom + ' vous répond sur')], 'chat-erreur');
         else message('assistant', [contactsDirects((res.j && res.j.erreur ? res.j.erreur + '. ' : "La réponse n'a pas pu arriver. ") + 'Réessayez dans un instant, ou écrivez à ' + cfg.prenom + ' sur')], 'chat-erreur');
       })
       .catch(function () {
         if (attente.parentNode) fil.removeChild(attente);
         historique.pop();
+        tours--;
         message('assistant', [contactsDirects("La réponse n'a pas pu arriver. Vérifiez votre connexion, ou écrivez à " + cfg.prenom + ' sur')], 'chat-erreur');
       })
       .then(function () {

@@ -3,6 +3,7 @@
  * Déployé par deploy.js avec le dossier dist/ en assets statiques (binding ASSETS).
  * Dépendances : aucune. Secrets optionnels : SOFTR_API_KEY, SOFTR_DB, SOFTR_TABLE, LEAD_WEBHOOK, ANTHROPIC_API_KEY (assistant).
  * Bindings optionnels : CHAT_LIMITE et LEAD_LIMITE (limitation de débit de l'assistant et des formulaires, posés par deploy.js).
+ * Tâche planifiée (scheduled) : purge du journal des conversations de l'assistant, table Softr « Conversations assistant ».
  * Hôte technique (*.workers.dev, *.pages.dev) : jamais indexable (X-Robots-Tag + robots.txt fermé).
  * Sous-domaine de campagne (CAMPAGNES) : une page d'atterrissage à sa racine, jamais indexable (X-Robots-Tag).
  */
@@ -252,7 +253,8 @@ async function handleLead(request, env, url) {
 // build). Fichier /_chat/index.json lu par le binding ASSETS, jamais servi au public. La réponse passe ensuite les mêmes
 // règles que le build (montant d'amende faux, tiret long, tutoiement...) : une réponse qui en enfreint une est remplacée
 // par un renvoi vers les pages et vers Thierry. Les sources sont les adresses de pages citées par le modèle, gardées
-// seulement si la page existe. Aucune conversation n'est stockée : seuls des compteurs partent dans les journaux.
+// seulement si la page existe. Les journaux techniques ne reçoivent que des compteurs ; le texte des échanges va dans le
+// journal des conversations (table Softr, plus bas), six mois au plus.
 // Modèle : Claude Haiku 5.5, le plus petit modèle Claude actuel (choix confirmé le 26/10/2026 sur une série de questions
 // réelles : les manques venaient des données fournies, pas du modèle).
 // Sans le secret ANTHROPIC_API_KEY, la route répond 503 et la fenêtre affiche les contacts directs.
@@ -406,7 +408,140 @@ async function cleAnthropic(env) {
   return '';
 }
 
-async function handleChat(request, env, url, dev) {
+// ---------- Journal des conversations (demande de Mickaël du 07/11/2026 : comprendre ce que les visiteurs demandent)
+// Chaque question servie (réponse ou repli) devient une ligne de la table Softr « Conversations assistant », dans la base
+// des leads (mêmes secrets SOFTR_API_KEY et SOFTR_DB). Table et champs sont retrouvés par leur nom (liste des tables de
+// l'API Softr, une fois par isolat) : aucun identifiant de plus dans les secrets ni dans ce dépôt public. Rien ne vient
+// de l'appareil ni du réseau du visiteur, ni adresse IP ni navigateur : seulement le pays donné par Cloudflare (pour
+// reconnaître les robots) et un numéro de conversation tiré au hasard par la page à son ouverture, gardé en mémoire.
+// E-mails et numéros de téléphone écrits dans un texte sont masqués avant l'écriture (la question part telle quelle au
+// modèle, seule la copie gardée est masquée). L'écriture part après la réponse (waitUntil) : une panne de Softr ne
+// retarde ni ne casse l'assistant, elle est journalisée (event chat-journal). Purge : tâche planifiée du Worker de
+// production (scheduled, plus bas ; planification posée par deploy.js), qui efface les lignes de plus de six mois,
+// durée annoncée au point 5.8 des mentions légales.
+const SOFTR_API = 'https://tables-api.softr.io/api/v1';
+const JOURNAL_TABLE = 'Conversations assistant';
+const JOURNAL_CHAMPS = { question: 'Question', reponse: 'Réponse', date: 'Date', conversation: 'Conversation', tour: 'Tour', page: 'Page', sources: 'Sources', issue: 'Issue', ecartee: 'Réponse écartée', hote: 'Hôte', pays: 'Pays' };
+const JOURNAL_CONSERVATION_JOURS = 183; // six mois
+// Plafond d'appels d'une purge : un Worker de l'offre gratuite a droit à 50 sous-requêtes par invocation. La purge
+// tourne toutes les heures, très au-dessus du rythme des questions : ce qui reste part au passage suivant.
+const PURGE_MAX_SUPPRESSIONS = 40;
+const PURGE_PAGE = 50;
+let journalTable = null; // { id, champs: { cle: identifiant du champ } }, lue une fois par isolat
+let journalEchec = 0; // heure du dernier échec de lecture : pas de nouvel essai avant 5 minutes
+
+const nfc = (s) => String(s == null ? '' : s).normalize('NFC');
+async function tableJournal(env) {
+  if (journalTable) return journalTable;
+  if (Date.now() - journalEchec < 5 * 60000) throw new Error('table non relue depuis un échec récent');
+  try {
+    const H = { 'Softr-Api-Key': env.SOFTR_API_KEY };
+    const r = await fetch(`${SOFTR_API}/databases/${env.SOFTR_DB}/tables`, { headers: H });
+    if (!r.ok) throw new Error('liste des tables : ' + r.status);
+    const j = await r.json();
+    const t = (j.data || []).find((x) => nfc(x.name) === nfc(JOURNAL_TABLE));
+    if (!t) throw new Error(`table « ${JOURNAL_TABLE} » absente de la base`);
+    let champs = t.fields;
+    if (!Array.isArray(champs)) {
+      const r2 = await fetch(`${SOFTR_API}/databases/${env.SOFTR_DB}/tables/${t.id}`, { headers: H });
+      if (!r2.ok) throw new Error('champs de la table : ' + r2.status);
+      champs = ((await r2.json()).data || {}).fields || [];
+    }
+    const ids = {};
+    for (const [cle, nom] of Object.entries(JOURNAL_CHAMPS)) {
+      const f = champs.find((x) => nfc(x.name) === nfc(nom));
+      if (!f) throw new Error(`champ « ${nom} » absent de la table`);
+      ids[cle] = f.id;
+    }
+    journalTable = { id: t.id, champs: ids };
+    return journalTable;
+  } catch (e) { journalEchec = Date.now(); throw e; }
+}
+
+// Masquage avant écriture : adresse e-mail, numéro français (06 12 34 56 78, 0612345678, +33 6 12 34 56 78) ou
+// international écrit avec son indicatif. Un code postal, une surface, un montant ou une date ne sont pas touchés. Les
+// coordonnées publiques de Coolok restent lisibles (le repli cite le téléphone de Thierry : masqué, la ligne gardée ne
+// disait plus ce que le visiteur avait lu, vu par le banc le 07/11/2026).
+const RE_EMAIL = /[^\s@<>()[\]"',;:]+@[^\s@<>()[\]"',;:]+\.[a-z]{2,}/giu;
+const RE_TELEPHONE = /(?<![\p{N}+])(?:(?:\+|00)\d{1,3}[\s.-]?(?:\(0\)[\s.-]?)?\d(?:[\s.-]?\d){5,13}|0[1-9](?:[\s.-]?\d{2}){4})(?!\p{N})/gu;
+// Numéro réduit à ses chiffres significatifs : +33 6 12..., 0033 6 12..., +33 (0)6 12... et 06 12... donnent 612...
+function chiffresTelephone(s) {
+  let d = String(s || '').replace('(0)', '').replace(/\D/g, '');
+  if (d.startsWith('0033')) d = d.slice(4);
+  else if (d.startsWith('33') && d.length >= 11) d = d.slice(2);
+  if (d.startsWith('0')) d = d.slice(1);
+  return d;
+}
+function masquer(t, telephonesPublics) {
+  const publics = new Set((telephonesPublics || []).map(chiffresTelephone).filter(Boolean));
+  return String(t == null ? '' : t)
+    .replace(RE_EMAIL, (m) => (/@coolok\.(?:co|fr)$/i.test(m) ? m : '[e-mail]'))
+    .replace(RE_TELEPHONE, (m) => (publics.has(chiffresTelephone(m)) ? m : '[téléphone]'));
+}
+
+// Écrit une ligne ; ne lève jamais (appelée hors du chemin de la réponse).
+async function journaliser(env, e) {
+  if (!env.SOFTR_API_KEY || !env.SOFTR_DB) return { ecrit: false, raison: 'secrets' };
+  try {
+    const t = await tableJournal(env);
+    const c = t.champs;
+    const m = (texte) => masquer(texte, e.telephonesPublics);
+    const fields = {
+      [c.question]: m(e.question), [c.reponse]: m(e.reponse), [c.date]: e.date,
+      [c.conversation]: e.conversation, [c.tour]: e.tour, [c.page]: e.page, [c.sources]: e.sources.join(', '),
+      [c.issue]: e.issue, [c.ecartee]: m(e.ecartee), [c.hote]: e.hote, [c.pays]: e.pays,
+    };
+    const r = await fetch(`${SOFTR_API}/databases/${env.SOFTR_DB}/tables/${t.id}/records`, {
+      method: 'POST',
+      headers: { 'Softr-Api-Key': env.SOFTR_API_KEY, 'content-type': 'application/json' },
+      body: JSON.stringify({ fields }),
+    });
+    const detail = r.ok ? '' : (await r.text()).slice(0, 200);
+    console.log(JSON.stringify({ event: 'chat-journal', statut: r.status, tour: e.tour, issue: e.issue, detail }));
+    return { ecrit: r.ok, statut: r.status };
+  } catch (err) {
+    console.log(JSON.stringify({ event: 'chat-journal', erreur: String((err && err.message) || err).slice(0, 200) }));
+    return { ecrit: false, raison: 'erreur' };
+  }
+}
+
+// Purge : lignes dont la date est antérieure de plus de six mois, et lignes sans date (le Worker en écrit toujours une,
+// mais une ligne ajoutée à la main sans date ne serait sinon jamais effacée) jugées sur leur date de création. Une date
+// illisible compte comme ancienne : une valeur dégénérée ne doit pas échapper à la purge.
+async function purgerJournal(env, maintenant) {
+  const bilan = { event: 'chat-purge', supprimees: 0, echecs: 0, gardees: 0, reste: false };
+  if (!env.SOFTR_API_KEY || !env.SOFTR_DB) { bilan.erreur = 'secrets Softr absents'; console.log(JSON.stringify(bilan)); return bilan; }
+  try {
+    const t = await tableJournal(env);
+    const limite = maintenant - JOURNAL_CONSERVATION_JOURS * 86400000;
+    bilan.limite = new Date(limite).toISOString();
+    const base = `${SOFTR_API}/databases/${env.SOFTR_DB}/tables/${t.id}/records`;
+    const H = { 'Softr-Api-Key': env.SOFTR_API_KEY, 'content-type': 'application/json' };
+    const filtre = { condition: { operator: 'OR', conditions: [
+      { operator: 'LESS_THAN', leftSide: t.champs.date, rightSide: bilan.limite },
+      { operator: 'IS_EMPTY', leftSide: t.champs.date },
+    ] } };
+    let offset = 0;
+    for (let page = 0; page < 3; page++) {
+      const r = await fetch(base + '/search', { method: 'POST', headers: H, body: JSON.stringify({ filter: filtre, paging: { offset, limit: PURGE_PAGE } }) });
+      if (!r.ok) throw new Error('recherche : ' + r.status);
+      const lignes = (await r.json()).data || [];
+      for (const l of lignes) {
+        const d = l.fields ? l.fields[t.champs.date] : '';
+        const quand = Date.parse(d || l.createdAt || '');
+        if (Number.isFinite(quand) && quand >= limite) { bilan.gardees++; offset++; continue; }
+        if (bilan.supprimees + bilan.echecs >= PURGE_MAX_SUPPRESSIONS) { bilan.reste = true; break; }
+        const s = await fetch(base + '/' + encodeURIComponent(l.id), { method: 'DELETE', headers: { 'Softr-Api-Key': env.SOFTR_API_KEY } });
+        if (s.ok) bilan.supprimees++; else { bilan.echecs++; offset++; }
+      }
+      if (bilan.reste || lignes.length < PURGE_PAGE) break;
+    }
+  } catch (err) { bilan.erreur = String((err && err.message) || err).slice(0, 200); }
+  console.log(JSON.stringify(bilan));
+  return bilan;
+}
+
+async function handleChat(request, env, url, dev, ctx) {
   const t0 = Date.now();
   const journal = (o) => console.log(JSON.stringify(Object.assign({ event: 'chat', ms: Date.now() - t0 }, o)));
   if (request.headers.get('origin') !== url.origin) { journal({ statut: 403, raison: 'origine' }); return json({ ok: false, erreur: 'Origine refusée' }, 403); }
@@ -434,6 +569,16 @@ async function handleChat(request, env, url, dev) {
   const page = clean(body.page, 200).split('?')[0].split('#')[0];
   const questions = h.msgs.filter((m) => m.role === 'user');
   const question = questions[questions.length - 1].content;
+  // Journal des conversations : numéro tiré par la page (une page ouverte avant le 07/11/2026 n'en envoie pas : numéro
+  // tiré ici, marqué « sans-numero ») et rang de la question dans la visite (l'historique envoyé s'arrête à cinq questions).
+  const idConversation = /^[a-z0-9-]{8,40}$/i.test(String(body.conversation || '')) ? String(body.conversation).toLowerCase() : 'sans-numero-' + crypto.randomUUID().slice(0, 8);
+  const rang = Number(body.tour);
+  const tour = Number.isInteger(rang) && rang >= questions.length && rang <= 999 ? rang : questions.length;
+  const noter = (issue, reponse, sources, ecartee) => {
+    const contact = index.contact || {};
+    const p = journaliser(env, { question, reponse, sources: sources.map((s) => s.url), issue, ecartee: ecartee || '', date: new Date().toISOString(), conversation: idConversation, tour, page, hote: url.hostname, pays: request.headers.get('cf-ipcountry') || '', telephonesPublics: [contact.telephone, contact.telephoneRaw] });
+    if (ctx && typeof ctx.waitUntil === 'function') ctx.waitUntil(p);
+  };
   const passages = chercherPassages(index, question, questions.length > 1 ? questions[questions.length - 2].content : '', page);
   const pageVue = index.pages.find((p) => p.u === page);
   const details = chercherDetails(index, question, questions.length > 1 ? questions[questions.length - 2].content : '', page);
@@ -456,7 +601,9 @@ async function handleChat(request, env, url, dev) {
     const adresses = passages.slice(0, 3).map((bl) => index.pages[bl.p].u);
     journal(Object.assign({ statut: 200, raison, passages: passages.length, page }, extra || {}));
     const sources = sourcesDe(adresses).slice(0, 2);
-    return json(Object.assign({ ok: true, filtre: raison, reponse: `Je préfère ne pas répondre précisément à cette question ici, pour ne pas vous donner une information inexacte. ${sources.length ? 'Les pages ci-dessous en parlent, et ' : ''}${c.prenom} peut vous répondre directement sur WhatsApp ou au ${c.telephone}.`, sources }, mesure(Object.assign({ brut: brut || '' }, extra))));
+    const reponse = `Je préfère ne pas répondre précisément à cette question ici, pour ne pas vous donner une information inexacte. ${sources.length ? 'Les pages ci-dessous en parlent, et ' : ''}${c.prenom} peut vous répondre directement sur WhatsApp ou au ${c.telephone}.`;
+    noter('repli : ' + raison, reponse, sources, brut);
+    return json(Object.assign({ ok: true, filtre: raison, reponse, sources }, mesure(Object.assign({ brut: brut || '' }, extra))));
   };
   // Préproduction seulement : réglage d'essai pour comparer la réflexion basse (par défaut) et la réflexion coupée.
   const essai = dev && body.essai && body.essai.reflexion === 'coupee';
@@ -500,11 +647,16 @@ async function handleChat(request, env, url, dev) {
   const sources = sourcesDe(adresses);
   const vocabulaire = /(?<!\p{L})g[eèé]r(?:er|e|es|ons|ez|ent|é|ée|és|ées|ant)(?!\p{L})/iu.test(texte);
   journal(Object.assign({ statut: 200, tours: questions.length, passages: passages.length, sources: sources.length, page, vocabulaire }, usage));
+  noter('réponse' + (usage.coupe ? ' coupée' : '') + (vocabulaire ? ', verbe gérer' : ''), texte, sources);
   return json(Object.assign({ ok: true, reponse: texte, sources }, mesure(Object.assign({ vocabulaire }, usage))));
 }
 
 export default {
-  async fetch(request, env) {
+  // Purge du journal des conversations, planifiée par deploy.js sur le Worker de production.
+  async scheduled(controller, env, ctx) {
+    ctx.waitUntil(purgerJournal(env, (controller && controller.scheduledTime) || Date.now()));
+  },
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const host = url.hostname;
     const dev = isTechnicalHost(host);
@@ -543,7 +695,7 @@ export default {
     }
     if (path === '/api/chat') {
       if (request.method !== 'POST') return json({ ok: false, erreur: 'POST attendu' }, 405);
-      return handleChat(request, env, url, isDiagnosticHost(host));
+      return handleChat(request, env, url, isDiagnosticHost(host), ctx);
     }
     // Index de l'assistant : lu par le Worker seulement (binding ASSETS), jamais servi.
     if (path.startsWith('/_chat/')) return withHeaders(new Response('Not found', { status: 404, headers: { 'content-type': 'text/plain; charset=utf-8' } }), dev ? { 'X-Robots-Tag': 'noindex, nofollow' } : {});

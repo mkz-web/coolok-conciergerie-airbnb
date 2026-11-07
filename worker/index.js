@@ -154,8 +154,9 @@ function lienRefuse(lead) {
 const RE_PAYANT = /^(?:cpc|ppc|cpm|cpa|sea|sem|ads?|display|retargeting|paid(?:[ _-]?(?:search|social|media|ads?))?|(?:search|social)[ _-]?paid)$/;
 const RE_SRC_GOOGLE = /^(?:google|adwords|gads|google[ _-]?ads)$/;
 const RE_SRC_MICROSOFT = /^(?:bing|microsoft|bing[ _-]?ads|microsoft[ _-]?ads)$/;
-// Meta remplit utm_source par {{site_source_name}} : fb, ig, an (Audience Network), msg (Messenger).
-const RE_SRC_META = /^(?:facebook|fb|instagram|ig|an|msg|messenger|meta|facebook[ _-]?ads|meta[ _-]?ads)$/;
+// Meta remplit utm_source par {{site_source_name}} : fb, ig, an (Audience Network), msg (Messenger), th (Threads),
+// d'après sa page d'aide 2360940870872492 relue le 07/11/2026 ; son outil de paramètres écrit « Facebook » ou « Instagram ».
+const RE_SRC_META = /^(?:facebook|fb|instagram|ig|an|msg|messenger|th|threads|meta|facebook[ _-]?ads|meta[ _-]?ads)$/;
 // Assistants IA : nom écrit par l'assistant dans utm_source (ChatGPT ajoute utm_source=chatgpt.com, lead du 19/10/2026)
 // ou hôte du référent, sans « www. ».
 const IA_ORIGINES = [

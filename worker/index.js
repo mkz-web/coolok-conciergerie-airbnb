@@ -131,15 +131,75 @@ const HOTES_ANNONCES = /(?:^|\.)(?:airbnb\.(?:fr|com|ca|be|ch|de|es|it|co\.uk)|a
 // Hôte d'un lien : sans protocole, sans identifiant (« airbnb.fr@domaine-piege.com » vise domaine-piege.com), sans
 // chemin ni port, sans la ponctuation qui termine la phrase.
 const hoteDe = (lien) => lien.replace(/^h(?:tt|xx)ps?:\/\//i, '').split(/[/?#]/)[0].split('@').pop().split(':')[0].replace(/[.,;!)\]]+$/, '').toLowerCase();
-// Premier lien refusé d'un lead (son hôte), ou chaîne vide.
+// Premier lien refusé d'un lead (son hôte), ou chaîne vide. La page (champ caché rempli par le site) est lue comme le
+// message : l'e-mail de Thierry l'affiche, et la page de campagne y écrit son sous-domaine (estimation.coolok.co).
 function lienRefuse(lead) {
-  for (const k of ['prenom', 'nom', 'telephone', 'commune', 'adresse', 'message']) {
+  for (const k of ['prenom', 'nom', 'telephone', 'commune', 'adresse', 'message', 'page']) {
     for (const lien of lead[k].match(RE_LIEN) || []) {
       const hote = hoteDe(lien);
-      if (k !== 'message' || !HOTES_ANNONCES.test(hote)) return (hote || lien).slice(0, 100);
+      if ((k !== 'message' && k !== 'page') || !HOTES_ANNONCES.test(hote)) return (hote || lien).slice(0, 100);
     }
   }
   return '';
+}
+
+// Origine d'une demande (07/11/2026, demande de Mickaël : repérer dans l'e-mail de Thierry les demandes venues d'une
+// campagne payante, Google Ads ou Meta, avant de les rappeler). Lue sur ce que le formulaire envoie déjà : l'adresse de
+// la page (utm_*, gclid, fbclid...) et son référent ; rien n'est déposé ni lu chez le visiteur. Limite : sur
+// www.coolok.co, un visiteur arrivé par une annonce qui change de page avant d'envoyer perd ces paramètres et sort en
+// « Site » ; la page de campagne porte le formulaire sur sa page d'arrivée, elle est mesurée à coup sûr. Le sous-domaine
+// de campagne vaut annonce payante même sans utm_medium. Source et campagne viennent de l'adresse, donc du visiteur :
+// elles ne gardent que lettres, chiffres, espace, tiret et tiret bas, car elles vont dans l'objet et le corps de
+// l'e-mail, où un point ou une barre ferait d'un texte un lien cliquable.
+const RE_PAYANT = /^(?:cpc|ppc|cpm|cpa|sea|sem|ads?|display|retargeting|paid(?:[ _-]?(?:search|social|media|ads?))?|(?:search|social)[ _-]?paid)$/;
+const RE_SRC_GOOGLE = /^(?:google|adwords|gads|google[ _-]?ads)$/;
+const RE_SRC_MICROSOFT = /^(?:bing|microsoft|bing[ _-]?ads|microsoft[ _-]?ads)$/;
+// Meta remplit utm_source par {{site_source_name}} : fb, ig, an (Audience Network), msg (Messenger).
+const RE_SRC_META = /^(?:facebook|fb|instagram|ig|an|msg|messenger|meta|facebook[ _-]?ads|meta[ _-]?ads)$/;
+// Assistants IA : nom écrit par l'assistant dans utm_source (ChatGPT ajoute utm_source=chatgpt.com, lead du 19/10/2026)
+// ou hôte du référent, sans « www. ».
+const IA_ORIGINES = [
+  [/^(?:chatgpt(?:\.com)?|chat\.openai\.com|openai(?:\.com)?)$/, 'ChatGPT'],
+  [/^perplexity(?:\.ai)?$/, 'Perplexity'],
+  [/^claude(?:\.ai)?$/, 'Claude'],
+  [/^gemini(?:\.google\.com)?$/, 'Gemini'],
+  [/^copilot(?:\.microsoft\.com)?$/, 'Copilot'],
+  [/^(?:chat\.mistral\.ai|mistral)$/, 'Le Chat de Mistral'],
+];
+const RE_HOTES_SITE = /(?:^|\.)coolok\.(?:co|fr)$|\.workers\.dev$|^localhost$/;
+const RE_REF_GOOGLE = /(?:^|\.)google\.[a-z.]+$/;
+const RE_REF_BING = /(?:^|\.)bing\.com$/;
+const RE_REF_MOTEURS = /(?:^|\.)(?:duckduckgo\.com|qwant\.com|ecosia\.org|search\.yahoo\.com|search\.brave\.com|startpage\.com|lilo\.org)$/;
+const RE_REF_META = /(?:^|\.)(?:facebook\.com|fb\.com|instagram\.com|messenger\.com)$/;
+const RE_REF_LINKEDIN = /(?:^|\.)(?:linkedin\.com|lnkd\.in)$/;
+const motsSurs = (v, max) => String(v == null ? '' : v).replace(/[^\p{L}\p{N} _-]+/gu, ' ').replace(/\s+/g, ' ').trim().slice(0, max);
+function origineLead(adresse, referent) {
+  let u = null;
+  let r = null;
+  try { u = new URL(adresse); } catch (e) { /* adresse absente ou illisible */ }
+  try { r = new URL(referent); } catch (e) { /* aucun référent */ }
+  const q = u ? u.searchParams : new URLSearchParams();
+  const src = (q.get('utm_source') || '').trim().toLowerCase();
+  const surCampagne = !!(u && CAMPAGNES[u.hostname]);
+  const payant = surCampagne || RE_PAYANT.test((q.get('utm_medium') || '').trim().toLowerCase());
+  const hoteRef = r ? r.hostname.toLowerCase().replace(/^www\./, '') : '';
+  const ia = (v) => { for (const [re, nom] of IA_ORIGINES) if (v && re.test(v)) return nom; return ''; };
+  let o;
+  if (q.has('gclid') || q.has('gbraid') || q.has('wbraid') || (RE_SRC_GOOGLE.test(src) && payant)) o = 'Google Ads';
+  else if (q.has('msclkid') || (RE_SRC_MICROSOFT.test(src) && payant)) o = 'Microsoft Ads';
+  else if (RE_SRC_META.test(src) || q.has('fbclid')) o = payant ? 'Meta Ads' : 'Facebook ou Instagram';
+  else if (ia(src) || ia(hoteRef)) o = ia(src) || ia(hoteRef);
+  else if (motsSurs(src, 30)) o = (payant ? 'Campagne ' : 'Lien ') + motsSurs(src, 30);
+  else if (surCampagne) o = 'Campagne, source non précisée';
+  else if (!hoteRef || RE_HOTES_SITE.test(hoteRef)) o = 'Site';
+  else if (RE_REF_GOOGLE.test(hoteRef)) o = 'Recherche Google';
+  else if (RE_REF_BING.test(hoteRef)) o = 'Recherche Bing';
+  else if (RE_REF_MOTEURS.test(hoteRef)) o = 'Autre moteur de recherche';
+  else if (RE_REF_META.test(hoteRef)) o = 'Facebook ou Instagram';
+  else if (RE_REF_LINKEDIN.test(hoteRef)) o = 'LinkedIn';
+  else o = 'Lien externe';
+  const campagne = [motsSurs(q.get('utm_campaign'), 40), motsSurs(q.get('utm_content'), 40)].filter(Boolean).join(', ');
+  return campagne ? o + ' (' + campagne + ')' : o;
 }
 
 async function handleLead(request, env, url) {
@@ -199,6 +259,7 @@ async function handleLead(request, env, url) {
     user_agent: clean(request.headers.get('user-agent'), 200),
   };
   lead.nom_complet = (lead.prenom + ' ' + lead.nom).trim();
+  lead.origine = origineLead(lead.url, lead.referrer);
   // Avant les champs obligatoires et le consentement : un envoi sans consentement qui porte un lien prouve le filtre en
   // ligne sans créer de lead (recette-durcissement.mjs). Refus visible : une personne réelle peut retirer le lien.
   const hote = lienRefuse(lead);
@@ -242,7 +303,7 @@ async function handleLead(request, env, url) {
       results.webhook = r.status;
     } catch (e) { results.webhookError = String(e.message || e); }
   }
-  console.log(JSON.stringify({ event: 'lead', kind, commune: lead.commune, page: lead.page, results }));
+  console.log(JSON.stringify({ event: 'lead', kind, commune: lead.commune, page: lead.page, origine: lead.origine, results }));
   if (results.softrError && !results.webhook) console.log('lead non enregistré : ' + results.softrError);
   return done();
 }

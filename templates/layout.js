@@ -121,11 +121,15 @@ function chatActif(site, page) {
 function chatScript(site, page) {
   if (!chatActif(site, page)) return '';
   const c = site.chat;
+  // Mots de la mention qui portent le lien vers les données personnelles : ils doivent y figurer tels quels.
+  if (c.mentionLien && !String(c.mention || '').includes(c.mentionLien)) throw new Error(`site.json chat.mentionLien « ${c.mentionLien} » absent de chat.mention`);
   const a = {
     src: site.assets.chatJs, defer: true, 'data-chat': true,
-    'data-titre': c.titre, 'data-accueil': c.accueil, 'data-mention': c.mention, 'data-suggestions': JSON.stringify(c.suggestions || []),
+    'data-titre': c.titre, 'data-accueil': c.accueil, 'data-mention': c.mention, ...(c.mentionLien ? { 'data-mention-lien': c.mentionLien } : {}), 'data-suggestions': JSON.stringify(c.suggestions || []),
     'data-whatsapp': site.org.whatsappUrl, 'data-telephone': site.org.telephoneDisplay, 'data-telephone-raw': site.org.telephoneRaw,
     'data-prenom': site.founder.name.split(' ')[0],
+    // Liens de la barre sous la saisie (« rappel », « whatsapp ») ; les deux quand site.json n'en dit rien.
+    'data-actions': (Array.isArray(c.actions) ? c.actions : ['rappel', 'whatsapp']).join(','),
   };
   return '\n<script ' + Object.entries(a).map(([k, v]) => (v === true ? k : `${k}="${esc(v)}"`)).join(' ') + '></script>';
 }

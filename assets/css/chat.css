@@ -57,6 +57,13 @@ html.chat-ouvert,html.chat-ouvert body{overflow:hidden}
 .chat-rappel .chat-consent input{margin-top:.25rem;width:20px;height:20px;flex:none}
 .chat-rappel-boutons{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin-top:.5rem}
 .chat-rappel .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+/* Panneau allégé (07/11/2026, comme MKZ) : en-tête resserré, suggestions en pastilles compactes rangées côte à côte.
+   Cible de 44 px gardée au doigt ; 36 px à la souris. */
+.chat-entete{padding:.6rem 1rem}
+.chat-mention{font-size:.8rem}
+.chat-suggestions{gap:.4rem}
+.chat-suggestion{padding:.35rem .8rem;font-size:.875rem;font-weight:500}
+@media(pointer:fine){.chat-suggestion{min-height:36px}}
 @media(min-width:768px){
   .chat-lanceur{right:24px;bottom:16px;width:auto;height:56px;padding:0 1.15rem 0 1rem}
   .chat-lanceur-texte{position:static;width:auto;height:auto;overflow:visible;clip:auto}

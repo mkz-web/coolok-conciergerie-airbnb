@@ -12,10 +12,14 @@
     titre: script.getAttribute('data-titre') || 'Assistant Coolok',
     accueil: script.getAttribute('data-accueil') || '',
     mention: script.getAttribute('data-mention') || '',
+    mentionLien: script.getAttribute('data-mention-lien') || '',
     whatsapp: script.getAttribute('data-whatsapp') || '',
     telephone: script.getAttribute('data-telephone') || '',
     telephoneRaw: script.getAttribute('data-telephone-raw') || '',
     prenom: script.getAttribute('data-prenom') || 'Thierry',
+    // Liens de la barre sous la saisie. Panneau allégé du 07/11/2026 (comme MKZ) : « rappel » seul dans site.json ;
+    // WhatsApp et téléphone restent proposés quand une réponse n'arrive pas (contactsDirects).
+    actions: (script.getAttribute('data-actions') || 'rappel,whatsapp').split(',').map(function (s) { return s.trim(); }),
     suggestions: []
   };
   try { cfg.suggestions = JSON.parse(script.getAttribute('data-suggestions') || '[]'); } catch (e) { cfg.suggestions = []; }
@@ -56,8 +60,13 @@
   var lanceur = el('button', { type: 'button', 'class': 'chat-lanceur', 'aria-expanded': 'false', 'aria-controls': 'chat-panneau', html: ICONES.bulle }, [el('span', { 'class': 'chat-lanceur-texte', texte: 'Une question ?' })]);
   var titre = el('h2', { id: 'chat-titre', 'class': 'chat-titre' }, [cfg.titre + ' ', el('span', { 'class': 'chat-badge', texte: 'IA' })]);
   var fermer = el('button', { type: 'button', 'class': 'chat-fermer', 'aria-label': "Fermer l'assistant", html: ICONES.fermer });
-  // La mention renvoie au point « Assistant du site » des données personnelles (questions transmises à Anthropic).
-  var mention = el('p', { 'class': 'chat-mention' }, [cfg.mention + ' ', el('a', { href: '/mentions-legales#donnees-personnelles', texte: 'Données personnelles' })]);
+  // La mention renvoie au point « Assistant du site » des données personnelles (questions transmises à Anthropic). Le lien
+  // se pose sur les mots data-mention-lien quand ils y figurent (une ligne de moins à 375 px), sinon il s'ajoute à la fin.
+  var LIEN_DONNEES = '/mentions-legales#donnees-personnelles';
+  var iLien = cfg.mentionLien ? cfg.mention.indexOf(cfg.mentionLien) : -1;
+  var mention = el('p', { 'class': 'chat-mention' }, iLien > -1
+    ? [cfg.mention.slice(0, iLien), el('a', { href: LIEN_DONNEES, texte: cfg.mentionLien }), cfg.mention.slice(iLien + cfg.mentionLien.length)]
+    : [cfg.mention + ' ', el('a', { href: LIEN_DONNEES, texte: 'Données personnelles' })]);
   var entete = el('div', { 'class': 'chat-entete' }, [el('div', null, [titre, mention]), fermer]);
   var fil = el('div', { 'class': 'chat-fil', role: 'log', 'aria-live': 'polite', 'aria-label': 'Conversation' });
   var suggestions = el('div', { 'class': 'chat-suggestions' });
@@ -71,7 +80,7 @@
   var saisie = el('form', { 'class': 'chat-saisie' }, [el('label', { 'for': 'chat-question', 'class': 'sr-only', texte: 'Votre question' }), champ, bouton]);
   var boutonRappel = el('button', { type: 'button', 'class': 'chat-action', texte: 'Être rappelé par ' + cfg.prenom });
   var lienWa = el('a', { 'class': 'chat-action', href: cfg.whatsapp, target: '_blank', rel: 'noopener', texte: 'WhatsApp' });
-  var actions = el('div', { 'class': 'chat-actions' }, [boutonRappel, cfg.whatsapp ? lienWa : null]);
+  var actions = el('div', { 'class': 'chat-actions' }, [cfg.actions.indexOf('rappel') > -1 ? boutonRappel : null, cfg.whatsapp && cfg.actions.indexOf('whatsapp') > -1 ? lienWa : null]);
   var panneau = el('section', { id: 'chat-panneau', 'class': 'chat-panneau', role: 'dialog', 'aria-labelledby': 'chat-titre', hidden: true }, [entete, fil, saisie, actions]);
   document.body.appendChild(lanceur);
   document.body.appendChild(panneau);

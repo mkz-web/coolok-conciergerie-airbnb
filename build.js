@@ -44,10 +44,21 @@ const FORBIDDEN = [
   { re: /\b2025\b(?!.*(bilan|dernière année|année complète|depuis|janvier|novembre|mai|loi|décret|arrêté|Le Meur|source|publié|mis à jour|Wikimedia))/i, why: 'date 2025 non contextualisée', warn: true },
 ];
 
+// Libellés d'action (boutons, liens de carte, boutons de l'assistant) à l'impératif, vouvoiement : « Estimez vos
+// revenus », jamais « Estimer mes revenus » (décision du 11/11/2026, appliquée aux 1 136 actions du site). Les libellés
+// nominaux (« Tous les guides », « WhatsApp », « Retour ») restent permis. Liste fermée de verbes : une règle générale
+// sur la terminaison prendrait « Votre » ou « Notre » pour des infinitifs.
+const RE_LIBELLE_ACTION = /<(?:a|button)\b[^>]*\bclass="btn\b[^"]*"[^>]*>([\s\S]*?)<\/(?:a|button)>|<span class="card-link">([\s\S]*?)<\/span>/g;
+const INFINITIF_ACTION = /^(?:Nous\s+)?(Estimer|Lire|Réserver|Poser|Comprendre|Discuter|Voir|Écrire|Appeler|Recevoir|Modifier|Parler|Envoyer|Découvrir|Demander|Commencer|Être|Obtenir|Calculer|Simuler|Contacter|Prendre|Consulter|Télécharger|Accéder|Confier|Lancer|Trouver|Vérifier|Choisir|Suivre|Rejoindre|Profiter|Tester|Essayer|Laisser|Comparer|Planifier|Explorer|Parcourir|Faire|Rappeler|Échanger|Contacter|Rencontrer|Commander|Souscrire|Activer|Continuer|Valider|Passer|Aller|Retourner|Revenir)\b/;
+
 const errors = [];
 const warnings = [];
 const err = (p, m) => errors.push(`${p} : ${m}`);
 const warn = (p, m) => warnings.push(`${p} : ${m}`);
+// Les boutons de l'assistant sont créés par son script, hors du HTML contrôlé page par page.
+for (const m of fs.readFileSync(path.join(ROOT, 'assets/js/chat.js'), 'utf8').matchAll(/(?:texte:|textContent\s*=)\s*'([^']+)'/g)) {
+  if (INFINITIF_ACTION.test(m[1].trim())) err('assets/js/chat.js', `libellé de bouton à l'infinitif, l'écrire à l'impératif : « ${m[1].slice(0, 60)} »`);
+}
 
 function readJson(f) { return JSON.parse(fs.readFileSync(f, 'utf8')); }
 function listFiles(dir, ext) { return fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(ext)).map((f) => path.join(dir, f)) : []; }
@@ -252,7 +263,9 @@ for (const p of allPages) {
 // modifiées sur 57, et Google finit par ignorer un lastmod qui bouge sans raison. La date vient du dernier commit
 // qui a touché le fichier de contenu (git), de la date du jour si le fichier est modifié et pas encore commité,
 // et de la date du fichier sur un poste sans git. Un changement d'une donnée partagée (site.json) ne la fait pas
-// bouger : c'est voulu, le texte de la page n'a pas changé.
+// bouger : c'est voulu, le texte de la page n'a pas changé. Un commit dont le titre porte « [forme] » (libellés de
+// boutons, typographie) ne la fait pas bouger non plus : la page garde la date du dernier changement de fond
+// (11/11/2026, passage des boutons à l'impératif dans 47 fichiers de contenu).
 function datesGit() {
   const { execFileSync } = require('child_process');
   const opts = { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] };
@@ -260,10 +273,11 @@ function datesGit() {
   try {
     for (const l of execFileSync('git', ['status', '--porcelain', '--', 'content'], opts).split('\n')) if (l.trim()) modifies.add(l.slice(3).trim());
     let cur = null;
-    for (const l of execFileSync('git', ['log', '--format=%cs', '--name-only', '--', 'content'], opts).split('\n')) {
+    for (const l of execFileSync('git', ['log', '--format=@@%cs %s', '--name-only', '--', 'content'], opts).split('\n')) {
       const t = l.trim();
       if (!t) continue;
-      if (/^\d{4}-\d{2}-\d{2}$/.test(t)) cur = t; else if (cur && !dates[t]) dates[t] = cur;
+      const c = t.match(/^@@(\d{4}-\d{2}-\d{2})(?: (.*))?$/);
+      if (c) cur = (c[2] || '').includes('[forme]') ? null : c[1]; else if (cur && !dates[t]) dates[t] = cur;
     }
   } catch (e) { return null; }
   return { dates, modifies };
@@ -437,6 +451,10 @@ for (const page of allPages) {
     const hay = (mainText + ' ' + page.title + ' ' + page.description).replace(/https?:\/\/\S+/g, ' ').replace(/[\w.-]+\.(fr|com|org|gouv\.fr|net)\/\S*/g, ' ');
     const mm = hay.match(f.re);
     if (mm) (f.warn ? warn : err)(page.url, `${f.why} : « ${hay.slice(Math.max(0, mm.index - 40), mm.index + 40).replace(/\s+/g, ' ')} »`);
+  }
+  for (const m of html.matchAll(RE_LIBELLE_ACTION)) {
+    const t = stripTags(m[1] || m[2] || '').replace(/\s+/g, ' ').trim();
+    if (INFINITIF_ACTION.test(t)) err(page.url, `libellé d'action à l'infinitif, l'écrire à l'impératif (« Estimez vos revenus ») : « ${t.slice(0, 60)} »`);
   }
   // Un objet interpolé dans une chaîne est un défaut de génération, jamais un contenu voulu (17 pages le 03/09/2026).
   if (mainText.includes('[object Object]')) err(page.url, 'valeur non convertie en texte : « [object Object] »');

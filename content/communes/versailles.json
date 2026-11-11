@@ -85,7 +85,7 @@
    "title": "Les prix affichés à Versailles aujourd'hui",
    "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Versailles pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 116 EUR par nuit, frais inclus (moyenne 127 EUR, fourchette 56 à 235 EUR), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
-    "label": "Recevoir mon audit chiffré",
+    "label": "Recevez votre audit chiffré",
     "href": "/simulateur-locatif",
     "style": "primary",
     "icon": "calc"
@@ -99,7 +99,7 @@
    "title": "Ce que dit la loi à Versailles",
    "md": "- **Changement d'usage** : oui, obligatoire depuis le 30/06/2018 (délibération du 14/12/2017 citée par le règlement pour les meublés déclarés avant cette date)\n- **Compensation** : non pour le premier logement qualifié de résidence secondaire d'une même personne physique (autorisation temporaire 9 ans, personnelle, non cessible).\n- **Si vous louez votre résidence principale** : 120 jours (articles 3 et 11 du règlement municipal lus le 03/09/2026 : autorisation obligatoire dès la première nuitée pour une résidence secondaire et à partir du 121e jour pour une résidence principale).\n- **À prévoir dans votre dossier** : seul le propriétaire peut déposer la demande, ni mandataire, ni locataire, ni agence de location professionnelle (art. 6) ; la Ville peut refuser si le nombre de locaux transformés est déjà trop important dans la zone (art. 8).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.versailles.fr/239/economie-et-commerces/tourisme-de-loisirs-et-d-affaires/hebergement-touristique.htm) et [document de référence](https://www.versailles.fr/fileadmin/www.versailles.fr/MEDIA/economie_commerces/hebergement_touristique/pdf/Reglement_enregistrement_et_changement_d_usage_2026.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
-    "label": "Comprendre la loi Le Meur",
+    "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
     "style": "secondary"
    }
@@ -172,7 +172,7 @@
     "Accompagnement du dossier d'autorisation, que la mairie exige au nom du propriétaire lui-même"
    ],
    "cta": {
-    "label": "Voir le détail de nos services",
+    "label": "Découvrez nos services en détail",
     "href": "/services",
     "style": "secondary"
    }

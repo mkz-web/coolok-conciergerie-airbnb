@@ -59,7 +59,7 @@ function footer(site, page) {
   const cols = page.host ? '' : site.nav.footer.map((c) => col(c.title, c.items)).join('');
   // Sur la page merci de campagne, plus de simulateur : le bouton collant propose l'appel avec le fondateur.
   const collant = !page.host ? { href: site.nav.cta.href, label: site.nav.cta.shortLabel || site.nav.cta.label, icon: 'calc' }
-    : page.type === 'merci' ? { href: site.org.calendly, label: 'Réserver un appel', icon: 'calendar', ext: true }
+    : page.type === 'merci' ? { href: site.org.calendly, label: 'Réservez un appel', icon: 'calendar', ext: true }
     : { href: '#simulateur', label: site.nav.cta.shortLabel || site.nav.cta.label, icon: 'calc' };
   const social = (site.org.sameAs || []).map((u) => {
     const n = /facebook/.test(u) ? 'Facebook' : /linkedin/.test(u) ? 'LinkedIn' : /instagram/.test(u) ? 'Instagram' : 'Site';

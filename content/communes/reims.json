@@ -85,7 +85,7 @@
    "title": "Les prix affichés à Reims aujourd'hui",
    "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Reims pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 68 EUR par nuit, frais inclus (moyenne 72 EUR, fourchette 32 à 132 EUR), sur 22 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
-    "label": "Recevoir mon audit chiffré",
+    "label": "Recevez votre audit chiffré",
     "href": "/simulateur-locatif",
     "style": "primary",
     "icon": "calc"
@@ -99,7 +99,7 @@
    "title": "Ce que dit la loi à Reims",
    "md": "- **Changement d'usage** : oui\n- **Compensation** : non\n- **Si vous louez votre résidence principale** : 120 jours par an\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://reims.taxesejour.fr/) et [document de référence](https://reims.taxesejour.fr/portail/172581/download)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
-    "label": "Comprendre la loi Le Meur",
+    "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
     "style": "secondary"
    }
@@ -172,7 +172,7 @@
     "Arrivée autonome pour les voyageurs qui descendent du dernier TGV de la soirée"
    ],
    "cta": {
-    "label": "Voir le détail de nos services",
+    "label": "Découvrez nos services en détail",
     "href": "/services",
     "style": "secondary"
    }

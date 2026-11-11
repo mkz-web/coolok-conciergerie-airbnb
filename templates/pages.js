@@ -46,14 +46,14 @@ function mesurerActions(html, re) {
 
 function rappelsAction(site, page) {
   const lieu = page.inName || 'à ' + page.name;
-  const wa = { label: 'Poser une question sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost' };
-  const simu = { label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' };
+  const wa = { label: 'Posez votre question sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost' };
+  const simu = { label: 'Estimez vos revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' };
   return [
     { title: `Combien rapporterait votre logement ${lieu} ?`, text: page.data && page.data.revenu_mensuel ? 'Notre [simulateur Airbnb](/simulateur-locatif) donne la fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.' : 'Notre [simulateur Airbnb](/simulateur-locatif) part de votre commune et de votre logement, puis Thierry vous envoie un audit chiffré sous 48 h, sans engagement.', ctas: [simu, wa] },
-    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
-    { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
+    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réservez un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
+    { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrivez-nous sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
     // Quatrième rappel : une page à grands tableaux en porte quatre à 375 px (Val-de-Marne, 19/10/2026).
-    { title: `Un audit chiffré de votre logement ${lieu}`, text: 'Gratuit et sans engagement, réalisé par le fondateur sous 48 h.', ctas: [simu, { label: 'Nous contacter', href: '/contact', style: 'ghost' }] },
+    { title: `Un audit chiffré de votre logement ${lieu}`, text: 'Gratuit et sans engagement, réalisé par le fondateur sous 48 h.', ctas: [simu, { label: 'Contactez-nous', href: '/contact', style: 'ghost' }] },
   ];
 }
 
@@ -89,7 +89,7 @@ function rythmerActions(blocks, site, page, data) {
 function defaultCtas(site, page) {
   return [
     Object.assign({}, site.defaultCta),
-    { label: 'Nous contacter', href: '/contact', style: 'secondary' },
+    { label: 'Contactez-nous', href: '/contact', style: 'secondary' },
   ];
 }
 
@@ -130,7 +130,7 @@ function relatedLinks(page, data) {
 
 function geoPage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, heroFor(site, page)];
-  if (page.data && page.data.revenu_mensuel && page.showData !== false) blocks.push({ type: 'datacard', intro: page.dataIntro, source: page.data.source, cta: { label: 'Estimer mes revenus ' + (page.inName || 'à ' + page.name), href: '/simulateur-locatif', style: 'primary' } });
+  if (page.data && page.data.revenu_mensuel && page.showData !== false) blocks.push({ type: 'datacard', intro: page.dataIntro, source: page.data.source, cta: { label: 'Estimez vos revenus ' + (page.inName || 'à ' + page.name), href: '/simulateur-locatif', style: 'primary' } });
   blocks.push({ type: 'toc' });
   blocks.push(...(page.sections || []));
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
@@ -140,7 +140,7 @@ function geoPage(site, page, data) {
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || `Questions fréquentes sur la location courte durée ${page.inName || 'à ' + page.name}` });
   const rel = relatedLinks(page, data);
   if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discuter sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discutez sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
   blocks.push({ type: 'articles', bg: 'white', limit: 3, h2: 'Pour aller plus loin' });
   const rythmes = rythmerActions(blocks, site, page, data);
 
@@ -162,7 +162,7 @@ function servicePage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, heroFor(site, page), { type: 'toc' }, ...(page.sections || [])];
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || 'Questions fréquentes' });
-  if (page.ctaBand !== false) blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Et si votre bien travaillait pour vous ?', text: 'Estimation gratuite en 2 minutes, audit chiffré sous 48 h par le fondateur.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
+  if (page.ctaBand !== false) blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Et si votre bien travaillait pour vous ?', text: 'Estimation gratuite en 2 minutes, audit chiffré sous 48 h par le fondateur.', ctas: [site.defaultCta, { label: 'Contactez-nous', href: '/contact', style: 'ghost-light' }] }));
   if (page.articles !== false) blocks.push({ type: 'articles', bg: 'white', limit: 3 });
   const schemas = [schema.webPage(site, page), schema.breadcrumb(site, page.breadcrumb)];
   if (page.type === 'service' || page.type === 'tarifs') schemas.push(schema.service(site, page, (site.areaServed || []).map((n) => ({ '@type': 'AdministrativeArea', name: n }))));
@@ -200,7 +200,7 @@ function simulateurPage(site, page, data) {
 // formulaire, puis les avis Google choisis (champ avis).
 function campagnePage(site, page, data) {
   const hero = Object.assign(heroFor(site, page), { variant: 'campagne', image: null, ctas: [] });
-  const alt = { text: 'Vous préférez en parler ?', label: 'Réserver 30 minutes avec Thierry', href: site.org.calendly };
+  const alt = { text: 'Vous préférez en parler ?', label: 'Réservez 30 minutes avec Thierry', href: site.org.calendly };
   const blocks = [hero, { type: 'simulateur', bg: 'cream', tight: true, compact: true, preuve: true, nomFacultatif: true, suivi: 'campagne', alt }];
   const avis = (page.avis || []).map((n) => site.testimonials.find((t) => t.name === n)).filter(Boolean);
   if (avis.length) blocks.push({ type: 'testimonials', bg: 'white', items: avis, limit: avis.length });
@@ -211,7 +211,7 @@ function campagnePage(site, page, data) {
 }
 
 function contactPage(site, page, data) {
-  const blocks = [{ type: 'breadcrumb' }, Object.assign(heroFor(site, page), { ctas: page.hero && page.hero.ctas ? page.hero.ctas : [{ label: 'Réserver un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, { label: 'WhatsApp', href: site.org.whatsappUrl, style: 'secondary' }] }), { type: 'contactForm', bg: 'cream', h2: page.formTitle || 'Écrivez-nous', intro: page.formIntro }, ...(page.sections || [])];
+  const blocks = [{ type: 'breadcrumb' }, Object.assign(heroFor(site, page), { ctas: page.hero && page.hero.ctas ? page.hero.ctas : [{ label: 'Réservez un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, { label: 'WhatsApp', href: site.org.whatsappUrl, style: 'secondary' }] }), { type: 'contactForm', bg: 'cream', h2: page.formTitle || 'Écrivez-nous', intro: page.formIntro }, ...(page.sections || [])];
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white' });
   const schemas = [schema.webPage(site, page, { '@type': 'ContactPage' }), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
@@ -223,7 +223,7 @@ function equipePage(site, page, data) {
   if (page.quote) blocks.push(Object.assign({ type: 'quote', bg: 'cream' }, page.quote));
   blocks.push({ type: 'testimonials', bg: 'white', limit: 3 });
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'cream' });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Un projet de location courte durée ?', text: 'Parlez-en directement au fondateur : appel de 30 minutes, gratuit.', ctas: [{ label: 'Réserver un appel', href: site.org.calendly, style: 'primary', icon: 'calendar' }, site.defaultCta] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Un projet de location courte durée ?', text: 'Parlez-en directement au fondateur : appel de 30 minutes, gratuit.', ctas: [{ label: 'Réservez un appel', href: site.org.calendly, style: 'primary', icon: 'calendar' }, site.defaultCta] }));
   const schemas = [schema.webPage(site, page, { '@type': 'AboutPage' }), schema.person(site), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));
   return { blocks, schemas };
@@ -232,7 +232,7 @@ function equipePage(site, page, data) {
 function logementsPage(site, page, data) {
   const blocks = [{ type: 'breadcrumb' }, heroFor(site, page), { type: 'logements', bg: 'white', h2: page.galleryTitle || 'Huit logements, huit histoires', intro: page.galleryIntro, limit: 12 }, ...(page.sections || [])];
   blocks.push({ type: 'testimonials', bg: 'cream', limit: 3 });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Votre logement pourrait figurer ici', text: 'Estimation gratuite, puis un audit chiffré sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Votre logement pourrait figurer ici', text: 'Estimation gratuite, puis un audit chiffré sous 48 h.', ctas: [site.defaultCta, { label: 'Contactez-nous', href: '/contact', style: 'ghost-light' }] }));
   const schemas = [schema.webPage(site, page, { '@type': 'CollectionPage' }), schema.breadcrumb(site, page.breadcrumb)];
   return { blocks, schemas };
 }
@@ -246,7 +246,7 @@ function blogIndexPage(site, page, data) {
   for (const cat of Object.keys(cats)) {
     blocks.push({ type: 'html', html: `<section class="section articles bg-white"><div class="container"><h2 class="section-title is-left" id="${esc(cat.toLowerCase().replace(/[^a-z0-9]+/g, '-'))}">${esc(cat)}</h2><div class="grid grid-3 article-grid">${cats[cat].map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-meta">${esc(a.dateLabel)} · ${a.readingTime} min de lecture</span></a></article>`).join('')}</div></div></section>` });
   }
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Des questions sur votre projet ?', text: 'Le fondateur vous répond, chiffres en main.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Des questions sur votre projet ?', text: 'Le fondateur vous répond, chiffres en main.', ctas: [site.defaultCta, { label: 'Contactez-nous', href: '/contact', style: 'ghost-light' }] }));
   const schemas = [schema.webPage(site, page, { '@type': 'CollectionPage', mainEntity: schema.itemList(site, page.h1, arts.map((a) => ({ name: a.h1, url: a.url, type: 'Article', date: a.datePublished, image: a.image, description: a.description }))) }), schema.person(site), schema.editeur(site), schema.breadcrumb(site, page.breadcrumb)];
   return { blocks, schemas };
 }
@@ -297,13 +297,13 @@ function insertMidCtas(html, site, page, depart) {
   let acc = depart || 0;
   const out = [];
   const ctas = page.midCtas || [
-    { title: 'Combien rapporterait votre bien ?', text: 'Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h.', label: 'Estimer mes revenus', href: '/simulateur-locatif' },
-    { title: 'Une question sur votre situation ?', text: 'Réponse directe, sans démarchage.', label: 'Écrire sur WhatsApp', href: site.org.whatsappUrl },
+    { title: 'Combien rapporterait votre bien ?', text: 'Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h.', label: 'Estimez vos revenus', href: '/simulateur-locatif' },
+    { title: 'Une question sur votre situation ?', text: 'Réponse directe, sans démarchage.', label: 'Écrivez-nous sur WhatsApp', href: site.org.whatsappUrl },
     // Troisième et quatrième rappels, repris des pages géographiques : un guide long en porte
     // jusqu'à quatre à 375 px, et deux encarts identiques dans une page sont un bloc répété.
-    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', label: 'Réserver un appel de 30 min', href: site.org.calendly },
-    { title: 'Une question sur la location courte durée ?', text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', label: 'Appeler le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw },
-    { title: 'Tarif tout compris, 20 % HT', text: 'Ce qui est inclus, ce qui ne l\'est jamais, et comment comparer.', label: 'Voir nos tarifs', href: '/tarifs' },
+    { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', label: 'Réservez un appel de 30 min', href: site.org.calendly },
+    { title: 'Une question sur la location courte durée ?', text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw },
+    { title: 'Tarif tout compris, 20 % HT', text: 'Ce qui est inclus, ce qui ne l\'est jamais, et comment comparer.', label: 'Consultez nos tarifs', href: '/tarifs' },
   ];
   // Seuls les encarts qui mènent à une action (simulateur, contact, téléphone, e-mail, WhatsApp,
   // rendez-vous) servent le rythme : « Voir nos tarifs » ne remet pas à zéro le compteur de la
@@ -345,16 +345,16 @@ function articlePage(site, page, data) {
   // Les items viennent déjà rendus par le Markdown (build.js) : les repasser dans inline() les
   // ré-échappait, et « <strong> » s'affichait en toutes lettres au lecteur (mesuré le 03/09/2026).
   const tldr = page.tldr && page.tldr.length ? `<div class="tldr"><p class="tldr-title">L'essentiel</p><ul>${page.tldr.map((t) => `<li>${ic('check')}${t}</li>`).join('')}</ul></div>` : '';
-  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${barreIa(site, page)}${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page, departArticle(page, tldr)) }];
+  const blocks = [{ type: 'breadcrumb' }, { type: 'html', html: `<header class="article-hero"><div class="container"><div class="article-hero-text"><p class="eyebrow">${esc(page.category || 'Guide')}</p><h1>${inline(page.h1)}</h1>${page.chapo ? `<p class="lead">${inline(page.chapo)}</p>` : ''}${byline}<p class="cta-row article-cta">${btn({ label: 'Estimez vos revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' }, 'btn-sm')}<a class="btn btn-ghost btn-sm" href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.image ? `<figure class="article-hero-media"><img src="${esc(page.image)}" alt="${esc(page.imageAlt || '')}" width="${page.imageWidth || 1200}" height="${page.imageHeight || 700}" fetchpriority="high">${creditPhoto(page.image, { data }) ? `<figcaption>${creditPhoto(page.image, { data })}</figcaption>` : ''}</figure>` : ''}</div></header>` }, { type: 'html', html: `<div class="container article-layout"><div class="prose article-body">${barreIa(site, page)}${tldr}` }, { type: 'toc', inline: true }, { type: 'html', html: insertMidCtas(body, site, page, departArticle(page, tldr)) }];
   if (page.tribune) blocks.push({ type: 'html', html: `<figure class="founder-quote in-article"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="120" height="120" loading="lazy"><blockquote>${ic('quote', 'ic-quote')}<p class="quote-title">${esc(page.tribuneTitle || 'Le mot de Thierry')}</p>${paragraphs(page.tribune)}</blockquote><figcaption><strong>${esc(f.name)}</strong>, ${esc(f.jobTitle)}</figcaption></figure>` });
-  blocks.push({ type: 'html', html: `<aside class="mid-cta"><div><strong>Vous avez un bien en tête ?</strong><p>Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h, gratuit.</p></div>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif', style: 'primary' }, 'btn-sm')}</aside>` });
+  blocks.push({ type: 'html', html: `<aside class="mid-cta"><div><strong>Vous avez un bien en tête ?</strong><p>Fourchettes observées par commune, puis audit chiffré par le fondateur sous 48 h, gratuit.</p></div>${btn({ label: 'Estimez vos revenus', href: '/simulateur-locatif', style: 'primary' }, 'btn-sm')}</aside>` });
   if ((page.faq || []).length) blocks.push({ type: 'html', html: `<section class="faq in-article"><h2 id="questions-frequentes">${esc(page.faqTitle || 'Questions fréquentes')}</h2><div class="faq-list">${page.faq.map((q) => `<details class="faq-item"><summary><h3>${inline(q.q)}</h3></summary><div class="faq-answer">${md.render(q.a).html}</div></details>`).join('')}</div><p class="faq-more">Une question qui n'est pas dans la liste ? <a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Posez-la sur WhatsApp</a> ou <a href="tel:${esc(site.org.telephoneRaw)}">appelez le ${esc(site.org.telephoneDisplay)}</a>.</p></section>` });
   if ((page.sources || []).length) blocks.push({ type: 'html', html: `<section class="sources"><h2 id="sources">Sources</h2><ul>${page.sources.map((s) => `<li>${s.href ? `<a href="${esc(s.href)}" rel="noopener nofollow" target="_blank">${esc(s.label)}</a>` : esc(s.label)}${s.date ? `, ${esc(s.date)}` : ''}</li>`).join('')}</ul></section>` });
-  blocks.push({ type: 'html', html: `<aside class="author-box"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="96" height="96" loading="lazy"><div><p class="author-name">${esc(f.name)}</p><p>${esc(f.bio)}</p><p><a href="/qui-sommes-nous">Découvrir Coolok</a> · <a href="/simulateur-locatif">Estimer mes revenus</a></p></div></aside></div><aside class="article-side"><div class="side-card"><p class="side-title">Combien rapporte votre bien ?</p><p>Fourchettes observées par commune, puis audit chiffré sous 48 h.</p>${btn({ label: 'Estimer mes revenus', href: '/simulateur-locatif' })}<p class="side-alt"><a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.related && page.related.length ? `<div class="side-card side-links"><p class="side-title">À lire aussi</p><ul>${page.related.map((r) => `<li><a href="${esc(r.url)}">${esc(r.h1)}</a></li>`).join('')}</ul></div>` : ''}</aside></div>` });
+  blocks.push({ type: 'html', html: `<aside class="author-box"><img src="${esc(f.image)}" alt="${esc(f.name)}" width="96" height="96" loading="lazy"><div><p class="author-name">${esc(f.name)}</p><p>${esc(f.bio)}</p><p><a href="/qui-sommes-nous">Découvrez Coolok</a> · <a href="/simulateur-locatif">Estimez vos revenus</a></p></div></aside></div><aside class="article-side"><div class="side-card"><p class="side-title">Combien rapporte votre bien ?</p><p>Fourchettes observées par commune, puis audit chiffré sous 48 h.</p>${btn({ label: 'Estimez vos revenus', href: '/simulateur-locatif' })}<p class="side-alt"><a href="${esc(site.org.whatsappUrl)}" rel="noopener" target="_blank">Une question ? WhatsApp</a></p></div>${page.related && page.related.length ? `<div class="side-card side-links"><p class="side-title">À lire aussi</p><ul>${page.related.map((r) => `<li><a href="${esc(r.url)}">${esc(r.h1)}</a></li>`).join('')}</ul></div>` : ''}</aside></div>` });
   // Les guides déjà proposés dans « À lire aussi » ne reviennent pas dans la grille : le même titre
   // listé deux fois dans une page est un bloc répété (blog/conciergerie-courte-duree, 25/09/2026).
   blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'Les guides à lire avant de décider', exclude: (page.related || []).map((r) => r.url) });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Nous contacter', href: '/contact', style: 'ghost-light' }] }));
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: 'Passez du calcul à l\'action', text: 'Estimation gratuite en 2 minutes, audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Contactez-nous', href: '/contact', style: 'ghost-light' }] }));
   // La page, le site, le fondateur et l'éditeur voyagent avec l'article : un @id cité doit se lire dans la page.
   const schemas = [schema.webPage(site, page), schema.article(site, page), schema.person(site), schema.editeur(site), schema.website(site), schema.breadcrumb(site, page.breadcrumb)];
   if ((page.faq || []).length) schemas.push(schema.faqPage(site, page, page.faq));

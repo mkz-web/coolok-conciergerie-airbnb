@@ -104,7 +104,7 @@
  "dataSource": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, mise à jour juillet 2026. Estimations indicatives, hors charges et commission.",
  "guidesPrioritaires": ["/blog/tarif-conciergerie-airbnb", "/blog/conciergerie-courte-duree"],
  "defaultCta": {
-  "label": "Estimer mes revenus",
+  "label": "Estimez vos revenus",
   "href": "/simulateur-locatif",
   "style": "primary",
   "icon": "calc"
@@ -358,8 +358,8 @@
    }
   ],
   "cta": {
-   "label": "Estimer mes revenus",
-   "shortLabel": "Estimer mes revenus",
+   "label": "Estimez vos revenus",
+   "shortLabel": "Estimez vos revenus",
    "href": "/simulateur-locatif"
   },
   "footer": [

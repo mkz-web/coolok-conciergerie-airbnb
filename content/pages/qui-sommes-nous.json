@@ -12,8 +12,8 @@
   "eyebrow": "Qui sommes-nous",
   "lead": "Coolok Services a été créée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans. Il a été propriétaire-bailleur avant d'être concierge : c'est de là que vient la façon dont nous travaillons.",
   "ctas": [
-   { "label": "Réserver un appel avec Thierry", "href": "https://calendly.com/contact-coolok/30min", "style": "primary", "icon": "calendar" },
-   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "secondary", "icon": "calc" }
+   { "label": "Réservez un appel avec Thierry", "href": "https://calendly.com/contact-coolok/30min", "style": "primary", "icon": "calendar" },
+   { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "secondary", "icon": "calc" }
   ]
  },
  "sections": [

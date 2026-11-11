@@ -56,9 +56,9 @@
     { "title": "Mise en place", "text": "Signature du mandat de douze mois, visite, photos, équipements, boîtier connecté, annonce, prix. Le logement part en ligne dès que l'annonce est complète." },
     { "title": "Exploitation et suivi", "text": "Réservations, séjours, ménage, maintenance. Vous suivez tout via votre tableau de bord et vous bloquez vos dates quand vous le souhaitez." }
    ],
-   "cta": { "label": "Demander mon audit chiffré", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+   "cta": { "label": "Demandez votre audit chiffré", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
   },
-  { "type": "pricing", "bg": "cream", "h2": "Un seul tarif, tout compris", "intro": "Notre offre est globale parce que la qualité d'accueil ne se découpe pas en tranches.", "cta2": { "label": "Voir la grille détaillée", "href": "/tarifs", "style": "secondary" } }
+  { "type": "pricing", "bg": "cream", "h2": "Un seul tarif, tout compris", "intro": "Notre offre est globale parce que la qualité d'accueil ne se découpe pas en tranches.", "cta2": { "label": "Consultez la grille détaillée", "href": "/tarifs", "style": "secondary" } }
  ],
  "faq": [
   { "q": "Faut-il équiper le logement avant la mise en ligne ?", "a": "Le logement doit être meublé, propre et fonctionnel, avec un couchage de qualité et une cuisine équipée. Lors de la visite, nous vous remettons la liste des manques constatés, chiffrée, avec ce qui est indispensable et ce qui peut attendre. Vous décidez de ce que vous achetez." },

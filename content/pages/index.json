@@ -20,8 +20,8 @@
    "h2": "Coolok en trois phrases",
    "narrow": true,
    "md": "Coolok Services est une conciergerie de meublés de tourisme basée à Joinville-le-Pont, dans le Val-de-Marne, fondée par Thierry Moraldo, investisseur immobilier depuis plus de dix ans. Nous proposons les meilleurs services pour que votre logement excelle sur Airbnb et Booking.com, dans les huit départements d'Île-de-France, avec un ancrage fort autour de Disneyland Paris et du Val d'Europe, dans le Val-de-Marne et à Versailles.\n\nUne seule offre, tout compris : nous prenons 20 % HT des revenus que votre logement encaisse réellement. Pas de forfait mensuel, pas de frais d'installation, pas d'option facturée en cours de route. Tous nos clients sont Superhôtes sur Airbnb.",
-   "cta": { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
-   "cta2": { "label": "Découvrir Coolok et son fondateur", "href": "/qui-sommes-nous", "style": "ghost" }
+   "cta": { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+   "cta2": { "label": "Découvrez Coolok et son fondateur", "href": "/qui-sommes-nous", "style": "ghost" }
   },
   {
    "type": "steps",
@@ -33,7 +33,7 @@
     { "title": "Nous préparons l'annonce et le logement", "text": "Photos professionnelles, annonce rédigée, équipements et linge conseillés, boîtier à clé connecté, diffusion sur Airbnb et Booking.com avec calendriers synchronisés, grille de prix construite sur les données de votre marché local." },
     { "title": "Vous encaissez et nous travaillons", "text": "Sélection des voyageurs, assistance 24/7, ménage et linge entre chaque séjour, maintenance, échanges avec les voyageurs. Vous recevez votre argent et nous nous occupons du reste." }
    ],
-   "cta": { "label": "Demander mon audit Airbnb", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+   "cta": { "label": "Demandez votre audit Airbnb", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
   },
   {
    "type": "cards",
@@ -47,7 +47,7 @@
     { "icon": "key", "title": "Voyageurs et accueil", "text": "Profils vérifiés, arrivée autonome avec boîtier à clé connecté Igloohome ou TTLock, assistance 24/7 pendant le séjour." },
     { "icon": "clean", "title": "Ménage, linge, maintenance", "text": "Ménage professionnel et linge hôtelier entre chaque séjour, contrôle qualité, petites réparations coordonnées avec nos artisans." }
    ],
-   "cta": { "label": "Voir le détail de nos services", "href": "/services", "style": "secondary" }
+   "cta": { "label": "Découvrez nos services en détail", "href": "/services", "style": "secondary" }
   },
   {
    "type": "callout",
@@ -57,7 +57,7 @@
    "icon": "law",
    "title": "La conformité fait partie du service",
    "md": "La loi Le Meur (loi n° 2024-1039 du 19 novembre 2024) généralise le numéro d'enregistrement sur chaque annonce de meublé de tourisme, résidence principale comprise : exigé aujourd'hui dans certaines communes, il le sera partout à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026. Selon votre commune, une autorisation de changement d'usage peut s'ajouter. Nous vérifions votre situation avant de mettre le logement en ligne et nous vous disons franchement quand ce n'est pas possible.",
-   "cta": { "label": "Comprendre la loi Le Meur", "href": "/blog/loi-le-meur", "style": "secondary" }
+   "cta": { "label": "Comprenez la loi Le Meur", "href": "/blog/loi-le-meur", "style": "secondary" }
   },
   {
    "type": "logements",
@@ -65,8 +65,8 @@
    "h2": "Des logements que nous faisons vivre",
    "intro": "Studios en bord de Marne, maisons familiales près des parcs, appartements d'architecte : chaque bien a sa clientèle.",
    "limit": 4,
-   "cta": { "label": "Voir tous les logements", "href": "/logements", "style": "secondary" },
-   "cta2": { "label": "Estimer les revenus de mon logement", "href": "/simulateur-locatif", "style": "primary" }
+   "cta": { "label": "Parcourez tous les logements", "href": "/logements", "style": "secondary" },
+   "cta2": { "label": "Estimez les revenus de votre logement", "href": "/simulateur-locatif", "style": "primary" }
   },
   { "type": "testimonials", "bg": "white", "intro": "Six avis publics laissés par des propriétaires que nous accompagnons." },
   { "type": "pricing", "bg": "cream", "note": "Le ménage est facturé au voyageur selon la typologie du logement. Aucun frais d'entrée, aucun forfait mensuel." },
@@ -111,8 +111,8 @@
    "h2": "Combien votre bien peut-il vous rapporter ?",
    "text": "Deux minutes pour l'estimation, 48 heures pour l'audit chiffré du fondateur. Gratuit, sans engagement, sans démarchage.",
    "ctas": [
-    { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
-    { "label": "Réserver un appel de 30 min", "href": "https://calendly.com/contact-coolok/30min", "style": "ghost-light", "icon": "calendar" }
+    { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+    { "label": "Réservez un appel de 30 min", "href": "https://calendly.com/contact-coolok/30min", "style": "ghost-light", "icon": "calendar" }
    ]
   }
  ],

@@ -145,7 +145,7 @@ B.pricing = (b, ctx) => {
   // Second bouton par défaut : un contact direct à côté du prix (rendez-vous de 30 minutes avec le
   // fondateur), pour que le bloc tarif porte aussi une action de contact. `cta2: false` le retire.
   // Libellé court : « Réserver un appel de 30 min » passait sur deux lignes dans la carte à 375 px.
-  const cta2 = b.cta2 === undefined ? { label: 'Réserver un appel', href: o.calendly, icon: 'calendar' } : b.cta2;
+  const cta2 = b.cta2 === undefined ? { label: 'Réservez un appel', href: o.calendly, icon: 'calendar' } : b.cta2;
   return `${sectionOpen(b, 'pricing')}${heading(Object.assign({ h2: 'Une commission unique, tout compris' }, b), 2, 'section-title')}${b.intro ? `<p class="section-intro">${inline(b.intro)}</p>` : ''}<div class="price-card"><div class="price-head"><span class="price-value">${esc(o.commissionDisplay)}</span><span class="price-unit">${esc(b.unit || 'des revenus locatifs, au résultat')}</span></div><ul class="check-list two-cols">${(b.included || ctx.site.included).map((x) => `<li>${ic('check')}${inline(x)}</li>`).join('')}</ul>${b.note ? `<p class="price-note">${inline(b.note)}</p>` : ''}<div class="cta-row">${btn(b.cta || ctx.site.defaultCta)}${cta2 ? btn(Object.assign({ style: 'secondary' }, cta2)) : ''}</div></div>${sectionClose}`;
 };
 
@@ -172,7 +172,7 @@ B.articles = (b, ctx) => {
   const candidats = ctx.data.articles.filter((a) => a.url !== ctx.page.url && !(b.exclude || []).includes(a.url));
   const prioritaires = (ctx.site.guidesPrioritaires || []).map((u) => candidats.find((a) => a.url === u)).filter(Boolean);
   const list = prioritaires.concat(candidats.filter((a) => !prioritaires.includes(a))).slice(0, b.limit || 3);
-  return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lire le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
+  return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lisez le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
 };
 
 B.logements = (b, ctx) => {
@@ -182,7 +182,7 @@ B.logements = (b, ctx) => {
 
 B.contactForm = (b, ctx) => {
   const s = ctx.site;
-  return `${sectionOpen(b, 'contact-section')}<div class="contact-grid"><div class="contact-side">${heading(Object.assign({ h2: 'Parlons de votre bien' }, b), 2)}${b.intro ? paragraphs(b.intro) : ''}<ul class="contact-list"><li>${ic('phone')}<a href="tel:${esc(s.org.telephoneRaw)}">${esc(s.org.telephoneDisplay)}</a></li><li>${ic('check')}<a href="${esc(s.org.whatsappUrl)}" rel="noopener" target="_blank">WhatsApp, réponse rapide</a></li><li>${ic('calendar')}<a href="${esc(s.org.calendly)}" rel="noopener" target="_blank">Réserver un appel de 30 minutes</a></li><li>${ic('doc')}<a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a></li></ul></div>
+  return `${sectionOpen(b, 'contact-section')}<div class="contact-grid"><div class="contact-side">${heading(Object.assign({ h2: 'Parlons de votre bien' }, b), 2)}${b.intro ? paragraphs(b.intro) : ''}<ul class="contact-list"><li>${ic('phone')}<a href="tel:${esc(s.org.telephoneRaw)}">${esc(s.org.telephoneDisplay)}</a></li><li>${ic('check')}<a href="${esc(s.org.whatsappUrl)}" rel="noopener" target="_blank">WhatsApp, réponse rapide</a></li><li>${ic('calendar')}<a href="${esc(s.org.calendly)}" rel="noopener" target="_blank">Réservez un appel de 30 minutes</a></li><li>${ic('doc')}<a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a></li></ul></div>
 <form class="lead-form" method="post" action="/api/lead" data-kind="contact">
   <input type="hidden" name="kind" value="contact"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
   <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label><label>Nom<input type="text" name="nom" required autocomplete="family-name"></label></div>
@@ -190,7 +190,7 @@ B.contactForm = (b, ctx) => {
   <label>Commune du bien<input type="text" name="commune" autocomplete="address-level2" placeholder="Ex. : Serris, Vincennes, Versailles"></label>
   <label>Votre message<textarea name="message" rows="4" required placeholder="Type de bien, situation actuelle, ce que vous attendez de nous"></textarea></label>
   <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte au sujet de ma demande (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
-  <button class="btn btn-primary btn-lg" type="submit">${esc(b.submit || 'Envoyer ma demande')}</button>
+  <button class="btn btn-primary btn-lg" type="submit">${esc(b.submit || 'Envoyez votre demande')}</button>
   <p class="form-note">${esc(b.note || 'Réponse sous 24 h ouvrées. Aucun engagement.')}</p>
   <noscript><p class="callout callout-info">Le formulaire demande JavaScript. Écrivez-nous à <a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a> ou appelez le ${esc(s.org.telephoneDisplay)}.</p></noscript>
 </form></div>${sectionClose}`;
@@ -218,12 +218,12 @@ B.simulateur = (b, ctx) => {
       <div class="form-row"><label>Chambres<select name="chambres" required><option value="">Choisissez</option><option value="0">Studio, sans chambre</option><option value="1">1 chambre</option><option value="2">2 chambres</option><option value="3">3 chambres</option><option value="4">4 chambres</option><option value="5">5 chambres et plus</option></select></label><label>Salles de bain<select name="salles_de_bain" required><option value="">Choisissez</option><option value="1">1 salle de bain</option><option value="2">2 salles de bain</option><option value="3">3 salles de bain</option><option value="4">4 salles de bain et plus</option></select></label></div>
       <label>Voyageurs maximum<select name="couchages" required><option value="2" selected>2</option><option value="4">4</option><option value="6">6</option><option value="8">8 et plus</option></select></label>
       <label>Situation actuelle<select name="situation" required><option value="vide">Le bien est vide ou en achat</option><option value="airbnb-solo">Déjà loué en courte durée, en solo</option><option value="conciergerie">Déjà confié à une autre conciergerie</option><option value="classique">Loué en location classique</option><option value="secondaire">Résidence secondaire que j'utilise parfois</option></select></label>
-      <button class="btn btn-primary btn-lg" type="button" data-next="2">Voir mon estimation</button>
+      <button class="btn btn-primary btn-lg" type="button" data-next="2">Découvrez votre estimation</button>
     </fieldset>
     <fieldset class="sim-step" data-step="2" hidden><legend>Étape 2 sur 3 : votre estimation indicative</legend>
       <div class="sim-result" aria-live="polite"><p class="sim-result-title">Revenus mensuels observés à <span data-out="commune"></span></p><p class="sim-result-value" data-out="revenu"></p><ul class="sim-result-details"><li>Prix par nuit observé : <strong data-out="prix"></strong></li><li>Taux d'occupation observé : <strong data-out="occ"></strong></li><li data-out="hint"></li></ul><p class="sim-result-note" data-out="source"></p></div>
       <p class="sim-help">Cette fourchette est celle des logements entiers de la commune, toutes typologies confondues. Un audit chiffré tient compte de votre bien précis, de la réglementation de votre commune et de vos dates d'usage personnel.</p>
-      <div class="cta-row"><button class="btn btn-primary btn-lg" type="button" data-next="3">Recevoir mon audit chiffré gratuit</button><button class="btn btn-ghost" type="button" data-prev="1">Modifier mon bien</button></div>
+      <div class="cta-row"><button class="btn btn-primary btn-lg" type="button" data-next="3">Recevez votre audit chiffré gratuit</button><button class="btn btn-ghost" type="button" data-prev="1">Modifiez votre bien</button></div>
     </fieldset>
     <fieldset class="sim-step" data-step="3" hidden><legend>Étape 3 sur 3 : le logement et vos coordonnées</legend>
       ${preuve}<label>Adresse complète du logement à auditer<input type="text" name="adresse" required minlength="8" maxlength="200" pattern=".*[0-9].*" title="Numéro, rue et code postal du logement" autocomplete="off" placeholder="Ex. : 12 rue de la Gare, 77700 Serris"></label>
@@ -231,7 +231,7 @@ B.simulateur = (b, ctx) => {
       <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="telephone" required autocomplete="tel" inputmode="tel"></label></div>
       <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="État du bien, dates où vous l'utilisez"></textarea></label>
       <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte pour cet audit (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
-      <button class="btn btn-primary btn-lg" type="submit">Recevoir mon audit sous 48 h</button>
+      <button class="btn btn-primary btn-lg" type="submit">Recevez votre audit sous 48 h</button>
       <p class="form-note">Audit réalisé par Thierry Moraldo, fondateur de Coolok. Gratuit, sans engagement, sans démarchage.</p>
       <p class="cta-inline"><button class="btn btn-ghost btn-sm" type="button" data-prev="2">Retour</button></p>
     </fieldset>

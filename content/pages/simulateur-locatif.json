@@ -12,8 +12,8 @@
   "eyebrow": "Simulateur gratuit",
   "lead": "Quelques questions sur votre bien, sans adresse exacte : vous voyez immédiatement les revenus observés dans votre commune. L'adresse ne vous est demandée que pour l'audit chiffré du fondateur.",
   "ctas": [
-   { "label": "Commencer la simulation", "href": "#simulateur", "style": "primary", "icon": "calc" },
-   { "label": "Parler à Thierry directement", "href": "https://calendly.com/contact-coolok/30min", "style": "secondary", "icon": "calendar" }
+   { "label": "Lancez la simulation", "href": "#simulateur", "style": "primary", "icon": "calc" },
+   { "label": "Parlez directement à Thierry", "href": "https://calendly.com/contact-coolok/30min", "style": "secondary", "icon": "calendar" }
   ]
  },
  "sections": [
@@ -49,7 +49,7 @@
     "Le calcul net de la commission, pour comparer avec ce que vous rapporte votre situation actuelle",
     "Un avis franc quand la location courte durée n'est pas le bon choix pour votre bien"
    ],
-   "cta": { "label": "Recevoir mon audit chiffré", "href": "#simulateur", "style": "primary", "icon": "calc" }
+   "cta": { "label": "Recevez votre audit chiffré", "href": "#simulateur", "style": "primary", "icon": "calc" }
   }
  ],
  "faq": [

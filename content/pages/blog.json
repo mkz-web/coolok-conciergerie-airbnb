@@ -33,8 +33,8 @@
   "h2": "Une question qui n'est pas traitée ici ?",
   "text": "Posez-la directement au fondateur : réponse sous 24 h ouvrées, chiffres à l'appui.",
   "ctas": [
-   { "label": "Nous contacter", "href": "/contact", "style": "primary" },
-   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "ghost-light", "icon": "calc" }
+   { "label": "Contactez-nous", "href": "/contact", "style": "primary" },
+   { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "ghost-light", "icon": "calc" }
   ]
  }
 }

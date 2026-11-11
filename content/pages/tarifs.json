@@ -64,7 +64,7 @@
     "Qui est propriétaire de l'annonce et des avis à la fin du contrat ?",
     "Que se passe-t-il si le logement ne se loue pas : payez-vous quand même quelque chose ?"
    ],
-   "cta": { "label": "Lire le guide complet des tarifs", "href": "/blog/tarif-conciergerie-airbnb", "style": "secondary" }
+   "cta": { "label": "Lisez le guide complet des tarifs", "href": "/blog/tarif-conciergerie-airbnb", "style": "secondary" }
   },
   {
    "type": "callout",
@@ -73,7 +73,7 @@
    "icon": "euro",
    "title": "Le marché, pour situer notre taux",
    "md": "Sur 17 conciergeries actives en France qui publient leur tarif, relevées le 4 novembre 2026, les commissions vont de **12 à 30 % des revenus**, et 10 affichent 20 %. Le même taux ne recouvre pas le même prix : 10 ne précisent pas sur la page lue s'il est HT ou TTC, et la base change, avant ou après frais de plateforme ([le calcul complet dans notre guide](/blog/tarif-conciergerie-airbnb)). Nous avons choisi un taux unique tout compris pour que la comparaison soit enfin lisible.",
-   "cta": { "label": "Estimer mes revenus et recevoir un devis", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
+   "cta": { "label": "Estimez vos revenus et recevez un devis", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" }
   },
   {
    "type": "cards",
@@ -101,8 +101,8 @@
   "h2": "Un devis chiffré sur votre logement, sous 48 h",
   "text": "Vous donnez votre commune et votre logement, Thierry vous envoie la fourchette de revenus, la commission et ce qui reste net. Gratuit, sans engagement.",
   "ctas": [
-   { "label": "Estimer mes revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
-   { "label": "Poser une question sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20tarifs%20de%20conciergerie.", "style": "ghost-light" }
+   { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
+   { "label": "Posez votre question sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20tarifs%20de%20conciergerie.", "style": "ghost-light" }
   ]
  }
 }

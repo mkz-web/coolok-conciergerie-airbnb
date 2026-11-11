@@ -78,7 +78,7 @@
   var champ = el('textarea', { id: 'chat-question', 'class': 'chat-champ', rows: '1', maxlength: String(MAX_QUESTION), placeholder: 'Posez votre question', autocomplete: 'off' });
   var bouton = el('button', { type: 'submit', 'class': 'chat-envoyer', 'aria-label': 'Envoyer la question', html: ICONES.envoyer });
   var saisie = el('form', { 'class': 'chat-saisie' }, [el('label', { 'for': 'chat-question', 'class': 'sr-only', texte: 'Votre question' }), champ, bouton]);
-  var boutonRappel = el('button', { type: 'button', 'class': 'chat-action', texte: 'Être rappelé par ' + cfg.prenom });
+  var boutonRappel = el('button', { type: 'button', 'class': 'chat-action', texte: 'Faites-vous rappeler par ' + cfg.prenom });
   var lienWa = el('a', { 'class': 'chat-action', href: cfg.whatsapp, target: '_blank', rel: 'noopener', texte: 'WhatsApp' });
   var actions = el('div', { 'class': 'chat-actions' }, [cfg.actions.indexOf('rappel') > -1 ? boutonRappel : null, cfg.whatsapp && cfg.actions.indexOf('whatsapp') > -1 ? lienWa : null]);
   var panneau = el('section', { id: 'chat-panneau', 'class': 'chat-panneau', role: 'dialog', 'aria-labelledby': 'chat-titre', hidden: true }, [entete, fil, saisie, actions]);
@@ -250,7 +250,7 @@
   function proposerRappel() {
     if (rappelPropose) return;
     rappelPropose = true;
-    var b = el('button', { type: 'button', 'class': 'chat-suggestion', texte: 'Être rappelé par ' + cfg.prenom });
+    var b = el('button', { type: 'button', 'class': 'chat-suggestion', texte: 'Faites-vous rappeler par ' + cfg.prenom });
     b.addEventListener('click', ouvrirRappel);
     message('assistant', [el('p', { texte: 'Pour un avis sur votre logement, ' + cfg.prenom + ' peut vous rappeler avec le fil de cette conversation.' }), b]);
   }
@@ -265,7 +265,7 @@
     if (formRappel && formRappel.parentNode) { formRappel.querySelector('input').focus(); return; }
     var id = function (n) { return 'chat-rappel-' + n; };
     var erreur = el('p', { 'class': 'form-error', role: 'alert', hidden: true });
-    var envoi = el('button', { type: 'submit', 'class': 'btn btn-primary chat-rappel-envoyer', texte: 'Envoyer ma demande' });
+    var envoi = el('button', { type: 'submit', 'class': 'btn btn-primary chat-rappel-envoyer', texte: 'Envoyez votre demande' });
     var annuler = el('button', { type: 'button', 'class': 'chat-action', texte: 'Annuler' });
     formRappel = el('form', { 'class': 'chat-rappel', novalidate: true }, [
       el('p', { texte: 'Laissez vos coordonnées : ' + cfg.prenom + ' vous recontacte, avec le fil de cette conversation.' }),
@@ -300,7 +300,7 @@
         })
         .catch(function (err) {
           envoi.disabled = false;
-          envoi.textContent = 'Envoyer ma demande';
+          envoi.textContent = 'Envoyez votre demande';
           erreur.textContent = 'L’envoi a échoué (' + err.message + '). Vous pouvez écrire à ' + cfg.prenom + ' sur WhatsApp ou réessayer.';
           erreur.hidden = false;
         });

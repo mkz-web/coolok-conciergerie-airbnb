@@ -86,7 +86,7 @@
    "title": "Les prix affichés à Serris aujourd'hui",
    "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Serris pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 125 EUR par nuit, frais inclus (moyenne 123 EUR, fourchette 79 à 222 EUR), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
-    "label": "Recevoir mon audit chiffré",
+    "label": "Recevez votre audit chiffré",
     "href": "/simulateur-locatif",
     "style": "primary",
     "icon": "calc"
@@ -100,7 +100,7 @@
    "title": "Ce que dit la loi à Serris",
    "md": "- **Changement d'usage** : oui\n- **Compensation** : Oui, pour les personnes morales en zone 1 uniquement.\n- **Si vous louez votre résidence principale** : 120 jours par an, au-delà autorisation de changement d'usage (FAQ de Val d'Europe Agglomération) ; aucune délibération abaissant ce plafond à 90 jours n'a été trouvée\n- **Numéro d'enregistrement** : obligatoire pour tous les propriétaires, résidence principale comprise, dès le premier jour de location.\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,90 EUR, soit 15,93 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
-    "label": "Comprendre la loi Le Meur",
+    "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
     "style": "secondary"
    }
@@ -173,7 +173,7 @@
     "Suivi des avis voyageurs : sur ce marché, la note fait le prix"
    ],
    "cta": {
-    "label": "Voir le détail de nos services",
+    "label": "Découvrez nos services en détail",
     "href": "/services",
     "style": "secondary"
    }

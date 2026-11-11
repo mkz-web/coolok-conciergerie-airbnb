@@ -55,13 +55,13 @@
   "text": "Estimation en deux minutes, audit chiffré du fondateur sous 48 h, sans engagement.",
   "ctas": [
    {
-    "label": "Estimer mes revenus",
+    "label": "Estimez vos revenus",
     "href": "/simulateur-locatif",
     "style": "primary",
     "icon": "calc"
    },
    {
-    "label": "Nous contacter",
+    "label": "Contactez-nous",
     "href": "/contact",
     "style": "ghost-light"
    }

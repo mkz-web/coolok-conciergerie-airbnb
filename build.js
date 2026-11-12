@@ -336,6 +336,8 @@ for (const [src, c] of Object.entries(data.credits)) {
   if (manque.length) err('credits-photos.json', `${src} : champ(s) manquant(s) ${manque.join(', ')}`);
   if (!/^(CC0|CC BY \d|CC BY-SA \d|Public domain)/i.test(c.licence || '') || /\b(NC|ND)\b/.test(c.licence || '')) err('credits-photos.json', `${src} : licence hors liste blanche (${c.licence})`);
   if (!fs.existsSync(path.join(ROOT, src))) err('credits-photos.json', `${src} : fichier absent`);
+  // Variante haute définition (srcset du héros) : même photo, plus large que le fichier de base, présente sur le disque.
+  if (c.varianteHd && (!fs.existsSync(path.join(ROOT, c.varianteHd)) || !(c.largeurHd > c.largeur))) err('credits-photos.json', `${src} : variante haute définition absente ou pas plus large (${c.varianteHd})`);
 }
 for (const p of allPages) if (p.image && data.credits[p.image]) p.imageCredit = data.credits[p.image];
 

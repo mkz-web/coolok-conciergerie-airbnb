@@ -138,6 +138,8 @@ Avertissements non bloquants : page de moins de 300 mots, FAQ de moins de 4 ques
 
 Typographie posée par le build (fonction `insecables` de `build.js`, depuis le 12 novembre 2026) : une espace insécable avant « : ; ! ? », après « et avant », et entre un nombre et « € » ou « % », dans le seul texte affiché entre les balises (jamais dans un script, un style, du code ni un attribut, donc ni le JSON-LD ni la meta description). Le contenu s'écrit avec des espaces ordinaires. Raison : sans elle, un titre de carte ou une entrée de sommaire commençait sa deuxième ligne par « : ».
 
+Photos des héros en haute définition (depuis le 12 novembre 2026) : une photo du registre `content/credits-photos.json` peut porter une variante plus large (champs `varianteHd`, `largeurHd`, `hauteurHd`), que le gabarit sert en `srcset` (`srcsetHd` de `templates/blocks.js`, `sizes` « 480 px au-delà de 900 px, 92vw en dessous »). Le navigateur ne la charge que si l'écran en a besoin : un héros affiché sur 707 px à 768 px en densité 2 demande 1 061 px, alors que les fichiers de base, plafonnés à 120 Ko à leur récupération, font 864 à 1 020 px. Les 22 variantes de 1 200 px (WebP qualité 78, 168 à 380 Ko) viennent de `_build/images-hd/agrandir-photos-commons.mjs` du dossier client : licence relue sur Commons, même photo au même format exigés. Le build refuse une variante absente ou pas plus large que la base.
+
 ## Recette avant toute livraison
 
 La recette se juge sur un build de PRODUCTION écrit hors du dépôt : le build de dev pose `noindex` partout et produit une erreur par page. Commande complète, à lancer depuis PowerShell (Git Bash réécrit les arguments qui commencent par une barre) :

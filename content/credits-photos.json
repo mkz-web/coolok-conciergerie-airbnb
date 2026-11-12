@@ -31,15 +31,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Mairie_Asni%C3%A8res.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Mairie Asnières.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 117390,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/asnieres-sur-seine-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/bailly-romainvilliers.webp": {
    "sujet": "Église Notre-Dame-de-l'Assomption, Bailly-Romainvilliers",
@@ -51,15 +55,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre_Dame_Assomption_-_Bailly-Romainvilliers_(FR77)_-_2025-08-12_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Église Notre Dame Assomption - Bailly-Romainvilliers (FR77) - 2025-08-12 - 1.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 56) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 116696,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/bailly-romainvilliers-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/bussy-saint-georges.webp": {
    "sujet": "Étang de la Broce, Bussy-Saint-Georges",
@@ -93,15 +101,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Canal_Chalifert_-_Chalifert_(FR77)_-_2025-08-03_-_3.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Canal Chalifert - Chalifert (FR77) - 2025-08-03 - 3.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 118666,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/chalifert-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/charenton-le-pont.webp": {
    "sujet": "La Seine à Charenton-le-Pont",
@@ -173,15 +185,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Clichy_-_Jardin_du_Pavillon_Vend%C3%B4me_-_IMG_20190710_112029_09.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Clichy - Jardin du Pavillon Vendôme - IMG 20190710 112029 09.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 56) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 116558,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/clichy-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/dept-essonne.webp": {
    "sujet": "Halle de Milly-la-Forêt (Essonne)",
@@ -193,15 +209,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:La_Halle_de_Milly-la-For%C3%AAt.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:La Halle de Milly-la-Forêt.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 118648,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/dept-essonne-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/dept-hauts-de-seine.webp": {
    "sujet": "Temple de l'Amour, île de la Jatte (Hauts-de-Seine)",
@@ -213,15 +233,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Temple_de_l%27Amour_a_Neuilly_001.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Temple de l'Amour a Neuilly 001.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 574,
    "octets": 115656,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/dept-hauts-de-seine-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 797
   },
   "/assets/img/heros/dept-seine-et-marne.webp": {
    "sujet": "Bords du Loing, Moret-sur-Loing (Seine-et-Marne)",
@@ -233,15 +257,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Moret-Loing-et-Orvanne_(77)_Bords_du_Loing_975.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Moret-Loing-et-Orvanne (77) Bords du Loing 975.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 680,
    "octets": 121380,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/dept-seine-et-marne-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 800
   },
   "/assets/img/heros/dept-seine-saint-denis.webp": {
    "sujet": "Murs à pêches, Montreuil (Seine-Saint-Denis)",
@@ -253,15 +281,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Espace_Vert_Murs_P%C3%AAches_-_Montreuil_(FR93)_-_2024-06-19_-_2.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Espace Vert Murs Pêches - Montreuil (FR93) - 2024-06-19 - 2.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 121042,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/dept-seine-saint-denis-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/dept-val-d-oise.webp": {
    "sujet": "Lac d'Enghien, Enghien-les-Bains (Val-d'Oise)",
@@ -333,15 +365,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:For%C3%AAt_de_Fontainebleau-Grotte_des_Montussiennes_VN-20180525.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Forêt de Fontainebleau-Grotte des Montussiennes VN-20180525.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 576,
    "octets": 104968,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/fontainebleau-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 800
   },
   "/assets/img/heros/ivry-sur-seine.webp": {
    "sujet": "Hôtel de ville d'Ivry-sur-Seine",
@@ -353,15 +389,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Ivry-sur-Seine_(FR94)_-_2023-02-05_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Hôtel Ville - Ivry-sur-Seine (FR94) - 2023-02-05 - 1.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 93990,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/ivry-sur-seine-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/joinville-le-pont.webp": {
    "sujet": "La Marne à Joinville-le-Pont",
@@ -373,15 +413,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:%C3%89tablissement_Nautique_Soci%C3%A9t%C3%A9_Nautique_Marne_-_Joinville-le-Pont_(FR94)_-_2021-02-03_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Établissement Nautique Société Nautique Marne - Joinville-le-Pont (FR94) - 2021-02-03 - 1.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 122774,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/joinville-le-pont-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/magny-le-hongre.webp": {
    "sujet": "Étang de la Boiserie, Magny-le-Hongre",
@@ -393,15 +437,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:%C3%89tang_Boiserie_-_Magny-le-Hongre_(FR77)_-_2025-08-09_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Étang Boiserie - Magny-le-Hongre (FR77) - 2025-08-09 - 1.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 98152,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/magny-le-hongre-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/maisons-alfort.webp": {
    "sujet": "Hôtel de ville de Maisons-Alfort",
@@ -473,15 +521,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Port_Nogent_-_Nogent-sur-Marne_(FR94)_-_2025-03-22_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Port Nogent - Nogent-sur-Marne (FR94) - 2025-03-22 - 1.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 115260,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/nogent-sur-marne-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/pantin.webp": {
    "sujet": "Hôtel de ville de Pantin",
@@ -493,15 +545,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Pantin_(FR93)_-_2022-07-12_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Hôtel Ville - Pantin (FR93) - 2022-07-12 - 1.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 643,
    "octets": 109442,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/pantin-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 893
   },
   "/assets/img/heros/reims.webp": {
    "sujet": "Palais du Tau et cathédrale Notre-Dame de Reims",
@@ -513,15 +569,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Palais_du_Tau_and_Cath%C3%A9drale_Notre-Dame_de_Reims,_East_View_20140306.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Palais du Tau and Cathédrale Notre-Dame de Reims, East View 20140306.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 730,
    "octets": 117614,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 3.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/reims-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 859
   },
   "/assets/img/heros/saint-germain-en-laye.webp": {
    "sujet": "Place du Marché-Neuf, Saint-Germain-en-Laye",
@@ -533,15 +593,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Place_March%C3%A9_Neuf_-_Saint-Germain-en-Laye_(FR78)_-_2024-06-08_-_1.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Place Marché Neuf - Saint-Germain-en-Laye (FR78) - 2024-06-08 - 1.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 114646,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/saint-germain-en-laye-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/saint-mande.webp": {
    "sujet": "Lac de Saint-Mandé, bois de Vincennes",
@@ -553,15 +617,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Lac_Saint_Mand%C3%A9_-_Paris_XII_(FR75)_-_2022-02-19_-_4.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Lac Saint Mandé - Paris XII (FR75) - 2022-02-19 - 4.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 108852,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/saint-mande-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/saint-maur-des-fosses.webp": {
    "sujet": "Hôtel de ville de Saint-Maur-des-Fossés",
@@ -593,15 +661,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Moulin_Chauss%C3%A9e_-_Saint-Maurice_(FR94)_-_2026-08-11_-_5.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Moulin Chaussée - Saint-Maurice (FR94) - 2026-08-11 - 5.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 648,
    "octets": 114622,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/saint-maurice-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/serris.webp": {
    "sujet": "Église Saint-Michel, Serris",
@@ -613,15 +685,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint_Michel_-_Serris_(FR77)_-_2025-08-09_-_4.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Église Saint Michel - Serris (FR77) - 2025-08-09 - 4.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 765,
    "octets": 109552,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/serris-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 900
   },
   "/assets/img/heros/val-d-europe.webp": {
    "sujet": "Parc du Bicheret, Chessy (Val d'Europe)",
@@ -653,15 +729,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_Vanves_2.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Hôtel ville Vanves 2.jpg",
-   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62)",
+   "modifications": "redimensionnée à 1020 px de large et convertie en WebP (qualité 62) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 1020,
    "hauteur": 674,
    "octets": 121970,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/vanves-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 793
   },
   "/assets/img/heros/versailles.webp": {
    "sujet": "Hôtel de ville de Versailles",
@@ -693,15 +773,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:Villejuif_parc_Pablo-Neruda_et_mairie.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Villejuif parc Pablo-Neruda et mairie.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 78) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 578,
    "octets": 121766,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 2.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 2.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/villejuif-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 803
   },
   "/assets/img/heros/vincennes.webp": {
    "sujet": "Hôtel de ville de Vincennes",
@@ -713,15 +797,19 @@
    "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Ville_-_Vincennes_(FR94)_-_2020-10-17_-_2.jpg",
    "plateforme": "Wikimedia Commons",
    "fichierSource": "File:Hôtel Ville - Vincennes (FR94) - 2020-10-17 - 2.jpg",
-   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70)",
+   "modifications": "redimensionnée à 864 px de large et convertie en WebP (qualité 70) ; variante de 1 200 px de large en WebP (qualité 78) pour les écrans haute définition",
    "largeur": 864,
    "hauteur": 651,
    "octets": 119186,
    "recupereLe": "2026-09-30",
    "verifications": [
     "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-09-30",
-    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression"
-   ]
+    "aucune restriction déclarée, aucun modèle bloquant, aucune catégorie de suppression",
+    "licence « CC BY-SA 4.0 » relue sur l'API Commons le 2026-11-12 pour la variante haute définition"
+   ],
+   "varianteHd": "/assets/img/heros/vincennes-1200w.webp",
+   "largeurHd": 1200,
+   "hauteurHd": 904
   }
  }
 }

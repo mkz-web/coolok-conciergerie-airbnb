@@ -72,6 +72,15 @@ function creditPhoto(src, ctx) {
   return `<span class="credit-photo" data-credit="${esc(src)}">Photo&nbsp;: <a href="${esc(c.source)}" rel="noopener nofollow" target="_blank">${esc(c.auteur)}</a>, <a href="${esc(c.licenceUrl)}" rel="license noopener nofollow" target="_blank">${esc(libelleLicence(c.licence))}</a>, via ${esc(c.plateforme)}</span>`;
 }
 
+// Variante haute définition d'une photo du registre (champ varianteHd, 12/11/2026) : le navigateur ne la charge que
+// si l'écran en a besoin (héros affiché sur 707 px à 768 px en densité 2, soit 1 061 px demandés) ; le téléphone
+// garde le fichier léger. Largeur affichée : 92vw sous 900 px (gouttières de 4vw), 480 px au plus au-delà.
+function srcsetHd(src, ctx) {
+  const c = ctx && ctx.data && ctx.data.credits && ctx.data.credits[src];
+  if (!c || !c.varianteHd || !c.largeur || !c.largeurHd) return '';
+  return ` srcset="${esc(src)} ${c.largeur}w, ${esc(c.varianteHd)} ${c.largeurHd}w" sizes="(min-width: 900px) 480px, 92vw"`;
+}
+
 function mdHtml(text, ctx) {
   if (!text) return '';
   return md.render(text, { shiftHeadings: 0 }).html;
@@ -90,7 +99,7 @@ B.hero = (b, ctx) => {
     ${b.ctas && b.ctas.length ? `<div class="cta-row">${b.ctas.map((c, i) => btn(c, i === 0 ? '' : '')).join('')}</div>` : ''}
     ${trust ? `<ul class="trust-list">${trust}</ul>` : ''}
   </div>
-  ${img ? `<figure class="hero-media"><img src="${esc(img.src)}" alt="${esc(img.alt || '')}" width="${img.width || 960}" height="${img.height || 640}" fetchpriority="high" decoding="async">${creditPhoto(img.src, ctx) ? `<figcaption>${creditPhoto(img.src, ctx)}</figcaption>` : ''}</figure>` : ''}
+  ${img ? `<figure class="hero-media"><img src="${esc(img.src)}"${srcsetHd(img.src, ctx)} alt="${esc(img.alt || '')}" width="${img.width || 960}" height="${img.height || 640}" fetchpriority="high" decoding="async">${creditPhoto(img.src, ctx) ? `<figcaption>${creditPhoto(img.src, ctx)}</figcaption>` : ''}</figure>` : ''}
 </div></section>`;
 };
 

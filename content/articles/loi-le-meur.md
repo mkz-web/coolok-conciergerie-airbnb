@@ -128,7 +128,7 @@ C'est la loi n° 2024-1039 du 19 novembre 2024 « visant à renforcer les outils
 
 ### Quels sont les principaux impacts pour les meublés de tourisme ?
 
-Quatre impacts concrets : un numéro d'enregistrement obligatoire sur chaque annonce (généralisé à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026), des plafonds et autorisations qui dépendent désormais de votre commune, un calendrier DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme hors résidence principale en 2034) et un abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés, dès les revenus 2025.
+Quatre impacts concrets : un numéro d'enregistrement obligatoire sur chaque annonce (généralisé à l'ouverture du téléservice national, annoncée pour le quatrième trimestre 2026), des plafonds et autorisations qui dépendent désormais de votre commune, un calendrier DPE (classe A à E pour une nouvelle autorisation de changement d'usage, A à D pour tous les meublés de tourisme hors résidence principale en 2034) et un abattement micro-BIC ramené à 30 % avec un plafond de 15 000 € pour les meublés non classés, dès les revenus 2025. Pour obtenir ce numéro, notre guide explique comment [déclarer votre meublé de tourisme](/blog/declaration-meuble-de-tourisme), étape par étape.
 
 ### La loi Le Meur est-elle rétroactive ?
 

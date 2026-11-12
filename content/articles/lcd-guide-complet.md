@@ -161,7 +161,7 @@ Oui, mais pas votre résidence principale. Un logement dédié, résidence secon
 
 ### Faut-il un numéro d'enregistrement pour louer en courte durée ?
 
-Cela dépend encore de votre commune. Au 3 septembre 2026, le téléservice national n'était pas ouvert aux loueurs, son ouverture étant annoncée pour le quatrième trimestre 2026. Les communes qui ont voté leur propre dispositif, comme Paris, Clichy, Vanves, Versailles, Villejuif ou le Val d'Europe, délivrent déjà un numéro à 13 caractères à porter sur chaque annonce.
+Cela dépend encore de votre commune. Au 3 septembre 2026, le téléservice national n'était pas ouvert aux loueurs, son ouverture étant annoncée pour le quatrième trimestre 2026. Les communes qui ont voté leur propre dispositif, comme Paris, Clichy, Vanves, Versailles, Villejuif ou le Val d'Europe, délivrent déjà un numéro à 13 caractères à porter sur chaque annonce. La démarche commune par commune, et le dossier à préparer avant l'ouverture du téléservice, sont détaillés dans notre guide de la [déclaration de meublé de tourisme](/blog/declaration-meuble-de-tourisme).
 
 ### Est-ce qu'une copropriété peut interdire Airbnb ?
 
@@ -181,7 +181,7 @@ En appelant le service urbanisme de la mairie, ou en cherchant la mention « meu
 - [Article L631-7 du code de la construction et de l'habitation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546358), version en vigueur au 21 février 2026, Légifrance, consulté le 3 septembre 2026
 - [Article L324-1-1 du code du tourisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050650414), Légifrance, consulté le 3 septembre 2026, relu le 19 octobre 2026
 - [Fiche F2043, résidence secondaire louée en meublé de tourisme](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043), service-public.gouv.fr, consultée le 3 septembre 2026
-- [Actualité A18880 sur le calendrier de l'enregistrement](https://www.service-public.gouv.fr/particuliers/actualites/A18880), service-public.gouv.fr, mise à jour du 27 juillet 2026
+- [Actualité A18880 sur le calendrier de l'enregistrement](https://www.service-public.gouv.fr/particuliers/actualites/A18880), service-public.gouv.fr, publiée le 27 juillet 2026
 - [Guide pratique 2025 de la réglementation des meublés de tourisme](https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf), ministère de la Transition écologique, septembre 2025
 - [Décision n° 2025-1186 QPC du 19 mars 2026](https://www.conseil-constitutionnel.fr/decision/2026/20251186QPC.htm), Conseil constitutionnel
 - [Location limitée à 90 jours à Paris](https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653), Ville de Paris, délibération 2024 DLH 398

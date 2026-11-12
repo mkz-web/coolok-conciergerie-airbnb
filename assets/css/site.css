@@ -472,4 +472,14 @@ p,li,figcaption{text-wrap:pretty}
 /* Encadrés : icône au-dessus du texte sur petit écran, pour que leurs boutons tiennent sur une ligne ; la marge
    droite compense la bordure gauche de 6 px, sinon le texte n'est plus centré. */
 @media(max-width:519px){.callout{flex-direction:column;gap:0;padding-right:calc(1.25rem + 5px)}}
+/* Lecture des captures du 12/11/2026. */
+/* Mot du fondateur : sur téléphone, la photo passe au-dessus, le texte tenait dans une colonne de 165 px. */
+@media(max-width:519px){.founder-quote{grid-template-columns:1fr}.founder-quote blockquote,.founder-quote figcaption{grid-column:1}}
+/* Fil d'Ariane sur téléphone : la page en cours passait seule sur une deuxième ligne, avec 50 px de vide, juste au-dessus
+   du h1 qui la répète. Seuls les maillons cliquables restent affichés (le balisage et le JSON-LD sont inchangés). */
+@media(max-width:767px){.breadcrumb li[aria-current]{display:none}}
+/* Avis : la note Google se collait à la phrase d'introduction sur la même ligne. */
+.section-intro .rating-link{display:flex;justify-content:center;margin-bottom:.35rem}
+/* Pied de page : « Données personnelles » se coupait en deux à 360 px. */
+.footer-bottom a{white-space:nowrap}
 @media print{.site-header,.sticky-cta,.wa-bubble,.cta-band,.mid-cta{display:none}}

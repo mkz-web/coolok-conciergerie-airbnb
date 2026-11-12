@@ -21,6 +21,7 @@ const ICONS = {
   phone: '<svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.6 3.6a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>',
   calendar: '<svg viewBox="0 0 24 24"><path d="M7 2h2v2h6V2h2v2h3a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3V2zm12 8H5v9h14v-9z"/></svg>',
   doc: '<svg viewBox="0 0 24 24"><path d="M6 2h8l6 6v14H6zm7 1.5V9h5.5zM8 12h8v2H8zm0 4h8v2H8z"/></svg>',
+  calc: '<svg viewBox="0 0 24 24"><path d="M6 2h12a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm1 2v4h10V4H7zm0 6v2h2v-2H7zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zM7 14v2h2v-2H7zm4 0v2h2v-2h-2zm4 0v6h2v-6h-2zM7 18v2h2v-2H7zm4 0v2h2v-2h-2z"/></svg>',
   check: '<svg viewBox="0 0 24 24"><path d="m9.5 16.2-3.7-3.7-1.4 1.4 5.1 5.1L20.6 8l-1.4-1.4z"/></svg>',
   camera: '<svg viewBox="0 0 24 24"><path d="M9 3 7.2 5H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.2L15 3H9zm3 5a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>',
   users: '<svg viewBox="0 0 24 24"><path d="M16 11a4 4 0 1 0-4-4 4 4 0 0 0 4 4zM8 12a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm8 1c-2.7 0-8 1.3-8 4v3h16v-3c0-2.7-5.3-4-8-4zM8 13c-.4 0-.8 0-1.2.1C7.6 14 8 15.2 8 16.5V20H0v-2.5C0 14.8 5.3 13 8 13z"/></svg>',
@@ -189,7 +190,7 @@ B.contactForm = (b, ctx) => {
   <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone (facultatif)<input type="tel" name="telephone" autocomplete="tel" inputmode="tel"></label></div>
   <label>Commune du bien<input type="text" name="commune" autocomplete="address-level2" placeholder="Ex. : Serris, Vincennes"></label>
   <label>Votre message<textarea name="message" rows="4" required placeholder="Type de bien, situation actuelle, ce que vous attendez de nous"></textarea></label>
-  <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte au sujet de ma demande (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
+  <label class="consent"><input type="checkbox" name="consent" required> <span>J'accepte que Coolok me recontacte au sujet de ma demande (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</span></label>
   <button class="btn btn-primary btn-lg" type="submit">${esc(b.submit || 'Envoyez votre demande')}</button>
   <p class="form-note">${esc(b.note || 'Réponse sous 24 h ouvrées. Aucun engagement.')}</p>
   <noscript><p class="callout callout-info">Le formulaire demande JavaScript. Écrivez-nous à <a href="mailto:${esc(s.org.email)}">${esc(s.org.email)}</a> ou appelez le ${esc(s.org.telephoneDisplay)}.</p></noscript>
@@ -230,7 +231,7 @@ B.simulateur = (b, ctx) => {
       <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label>${nom}</div>
       <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="telephone" required autocomplete="tel" inputmode="tel"></label></div>
       <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="État du bien, dates où vous l'utilisez"></textarea></label>
-      <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte pour cet audit (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
+      <label class="consent"><input type="checkbox" name="consent" required> <span>J'accepte que Coolok me recontacte pour cet audit (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</span></label>
       <button class="btn btn-primary btn-lg" type="submit">Recevez votre audit sous 48 h</button>
       <p class="form-note">Audit réalisé par Thierry Moraldo, fondateur de Coolok. Gratuit, sans engagement, sans démarchage.</p>
       <p class="cta-inline"><button class="btn btn-ghost btn-sm" type="button" data-prev="2">Retour</button></p>

@@ -136,6 +136,8 @@ Le déploiement lit la variable d'environnement `CLOUDFLARE_API_TOKEN_COOLOK` et
 
 Avertissements non bloquants : page de moins de 300 mots, FAQ de moins de 4 questions, image sans alt, première action après 1 500 caractères, date 2025 non contextualisée.
 
+Typographie posée par le build (fonction `insecables` de `build.js`, depuis le 12 novembre 2026) : une espace insécable avant « : ; ! ? », après « et avant », et entre un nombre et « € » ou « % », dans le seul texte affiché entre les balises (jamais dans un script, un style, du code ni un attribut, donc ni le JSON-LD ni la meta description). Le contenu s'écrit avec des espaces ordinaires. Raison : sans elle, un titre de carte ou une entrée de sommaire commençait sa deuxième ligne par « : ».
+
 ## Recette avant toute livraison
 
 La recette se juge sur un build de PRODUCTION écrit hors du dépôt : le build de dev pose `noindex` partout et produit une erreur par page. Commande complète, à lancer depuis PowerShell (Git Bash réécrit les arguments qui commencent par une barre) :

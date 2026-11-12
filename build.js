@@ -55,6 +55,31 @@ const errors = [];
 const warnings = [];
 const err = (p, m) => errors.push(`${p} : ${m}`);
 const warn = (p, m) => warnings.push(`${p} : ${m}`);
+// Typographie française du texte affiché (12/11/2026) : une espace ordinaire avant « : ; ! ? » laissait la ponctuation
+// commencer une ligne (« : ce que vous payez vraiment » sur les cartes de guides et dans le sommaire, vu à la lecture
+// des captures), de même après « et avant », et entre un nombre et « € » ou « % ». L'insécable ne se pose que dans le
+// texte entre les balises, jamais dans un script, un style, du code ni un attribut, et seulement quand la ponctuation
+// suit un caractère visible et précède une espace ou la fin : une adresse (« https: »), une heure ou un code restent
+// intacts.
+const NBSP = String.fromCharCode(160);
+function insecables(html) {
+  const morceaux = html.split(/(<[^>]*>)/);
+  let bloc = null;
+  for (let i = 0; i < morceaux.length; i++) {
+    const m = morceaux[i];
+    if (m.charAt(0) === '<') {
+      const t = m.match(/^<(\/?)([a-zA-Z][a-zA-Z0-9]*)/);
+      if (t && /^(script|style|pre|code|textarea)$/i.test(t[2])) bloc = t[1] ? null : t[2].toLowerCase();
+      continue;
+    }
+    if (bloc || !m) continue;
+    morceaux[i] = m
+      .replace(/(\S) ([:;!?»])(?=\s|$)/g, '$1' + NBSP + '$2')
+      .replace(/« (?=\S)/g, '«' + NBSP)
+      .replace(/(\d) (?=(€|%)(\s|$|[.,;:)/]))/g, '$1' + NBSP);
+  }
+  return morceaux.join('');
+}
 // Les boutons de l'assistant sont créés par son script, hors du HTML contrôlé page par page.
 for (const m of fs.readFileSync(path.join(ROOT, 'assets/js/chat.js'), 'utf8').matchAll(/(?:texte:|textContent\s*=)\s*'([^']+)'/g)) {
   if (INFINITIF_ACTION.test(m[1].trim())) err('assets/js/chat.js', `libellé de bouton à l'infinitif, l'écrire à l'impératif : « ${m[1].slice(0, 60)} »`);
@@ -433,7 +458,7 @@ for (const page of allPages) {
     errs.forEach((e) => err(page.url, 'JSON-LD : ' + e));
   }
 
-  const html = layout.render(site, page, body, jsonld);
+  const html = insecables(layout.render(site, page, body, jsonld));
 
   // Contrôles
   controlerTraceurs(page.url, html);

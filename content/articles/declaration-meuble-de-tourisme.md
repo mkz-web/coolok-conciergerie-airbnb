@@ -1,5 +1,5 @@
 ---
-title: "Déclaration de meublé de tourisme : le numéro d'enregistrement national, pas à pas"
+title: "Déclaration de meublé de tourisme : le numéro d'enregistrement pas à pas"
 seo_title: "Déclaration meublé de tourisme : cerfa et téléservice 2026"
 meta_description: "Déclaration meublé de tourisme : cerfa 14004 en attendant le téléservice national, numéro d'enregistrement, pièces à préparer et amendes."
 slug: declaration-meuble-de-tourisme

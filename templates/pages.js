@@ -369,7 +369,9 @@ function legalPage(site, page, data) {
 function merciPage(site, page, data) {
   const blocks = [{ type: 'html', html: `<section class="section merci"><div class="container narrow"><h1>${inline(page.h1)}</h1>${paragraphs(page.text)}<ul class="check-list">${(page.next || []).map((n) => `<li>${ic('check')}${inline(n)}</li>`).join('')}</ul><div class="cta-row">${(page.ctas || []).map((c) => btn(c)).join('')}</div></div></section>` }];
   // Page merci de campagne (articles: false) : l'appel avec le fondateur plutôt que des guides qui font quitter la page.
-  if (page.articles !== false) blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'En attendant notre réponse' });
+  // Sur téléphone et tablette, les guides tombent dans le premier écran : leurs trois images se chargent tout de suite
+  // (contrôle IMG-06, une image à 360 px et la deuxième à 768 px).
+  if (page.articles !== false) blocks.push({ type: 'articles', bg: 'cream', limit: 3, h2: 'En attendant notre réponse', imagesImmediates: true });
   return { blocks, schemas: [schema.webPage(site, page)] };
 }
 

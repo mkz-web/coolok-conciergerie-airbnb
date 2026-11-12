@@ -68,7 +68,7 @@ const libelleLicence = (l) => String(l || '').replace(/^Public domain$/i, 'Domai
 function creditPhoto(src, ctx) {
   const c = ctx && ctx.data && ctx.data.credits && ctx.data.credits[src];
   if (!c) return '';
-  return `<span class="credit-photo" data-credit="${esc(src)}">Photo : <a href="${esc(c.source)}" rel="noopener nofollow" target="_blank">${esc(c.auteur)}</a>, <a href="${esc(c.licenceUrl)}" rel="license noopener nofollow" target="_blank">${esc(libelleLicence(c.licence))}</a>, via ${esc(c.plateforme)}</span>`;
+  return `<span class="credit-photo" data-credit="${esc(src)}">Photo&nbsp;: <a href="${esc(c.source)}" rel="noopener nofollow" target="_blank">${esc(c.auteur)}</a>, <a href="${esc(c.licenceUrl)}" rel="license noopener nofollow" target="_blank">${esc(libelleLicence(c.licence))}</a>, via ${esc(c.plateforme)}</span>`;
 }
 
 function mdHtml(text, ctx) {
@@ -132,7 +132,7 @@ B.quote = (b, ctx) => {
 B.testimonials = (b, ctx) => {
   const items = (b.items || ctx.site.testimonials).slice(0, b.limit || 6);
   const r = ctx.site.org.rating;
-  return `${sectionOpen(b, 'testimonials')}${heading(Object.assign({ h2: 'Ce que disent les propriétaires' }, b), 2, 'section-title')}<p class="section-intro">${r ? `<a class="rating-link" href="${esc(r.url)}" rel="noopener nofollow" target="_blank"><span class="stars" aria-hidden="true">★★★★★</span> ${esc(String(r.value).replace('.', ','))}/5 sur ${r.count} avis Google</a>` : ''}${b.intro ? ' ' + inline(b.intro) : ''}</p><div class="grid grid-3 testimonial-grid">${items.map((t) => `<blockquote class="testimonial"><p>${inline(t.text)}</p><footer><strong>${esc(t.name)}</strong>${t.place ? `, ${esc(t.place)}` : ''}<span class="stars" aria-label="${t.stars || 5} étoiles sur 5">${'★'.repeat(t.stars || 5)}</span></footer></blockquote>`).join('')}</div>${sectionClose}`;
+  return `${sectionOpen(b, 'testimonials')}${heading(Object.assign({ h2: 'Ce que disent les propriétaires' }, b), 2, 'section-title')}<p class="section-intro">${r ? `<a class="rating-link" href="${esc(r.url)}" rel="noopener nofollow" target="_blank"><span class="stars" aria-hidden="true">★★★★★</span> ${esc(String(r.value).replace('.', ','))}/5 sur ${r.count} avis Google</a>` : ''}${b.intro ? ' ' + inline(b.intro) : ''}</p><div class="grid grid-3 testimonial-grid">${items.map((t) => `<blockquote class="testimonial"><p>${inline(t.text)}</p><footer><span><strong>${esc(t.name)}</strong>${t.place ? `, ${esc(t.place)}` : ''}</span><span class="stars" aria-label="${t.stars || 5} étoiles sur 5">${'★'.repeat(t.stars || 5)}</span></footer></blockquote>`).join('')}</div>${sectionClose}`;
 };
 
 B.logos = (b, ctx) => {
@@ -172,7 +172,7 @@ B.articles = (b, ctx) => {
   const candidats = ctx.data.articles.filter((a) => a.url !== ctx.page.url && !(b.exclude || []).includes(a.url));
   const prioritaires = (ctx.site.guidesPrioritaires || []).map((u) => candidats.find((a) => a.url === u)).filter(Boolean);
   const list = prioritaires.concat(candidats.filter((a) => !prioritaires.includes(a))).slice(0, b.limit || 3);
-  return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="lazy"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lisez le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
+  return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a, i) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="${b.imagesImmediates ? 'eager' : 'lazy'}"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lisez le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
 };
 
 B.logements = (b, ctx) => {
@@ -187,7 +187,7 @@ B.contactForm = (b, ctx) => {
   <input type="hidden" name="kind" value="contact"><input type="hidden" name="page" value="${esc(ctx.page.url)}"><input type="hidden" name="duree" value=""><div class="hp" aria-hidden="true"><label>Site web<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
   <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label><label>Nom<input type="text" name="nom" required autocomplete="family-name"></label></div>
   <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone (facultatif)<input type="tel" name="telephone" autocomplete="tel" inputmode="tel"></label></div>
-  <label>Commune du bien<input type="text" name="commune" autocomplete="address-level2" placeholder="Ex. : Serris, Vincennes, Versailles"></label>
+  <label>Commune du bien<input type="text" name="commune" autocomplete="address-level2" placeholder="Ex. : Serris, Vincennes"></label>
   <label>Votre message<textarea name="message" rows="4" required placeholder="Type de bien, situation actuelle, ce que vous attendez de nous"></textarea></label>
   <label class="consent"><input type="checkbox" name="consent" required> J'accepte que Coolok me recontacte au sujet de ma demande (<a href="/mentions-legales#donnees-personnelles">données personnelles</a>).</label>
   <button class="btn btn-primary btn-lg" type="submit">${esc(b.submit || 'Envoyez votre demande')}</button>

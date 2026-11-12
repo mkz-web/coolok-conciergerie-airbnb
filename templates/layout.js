@@ -54,7 +54,8 @@ function header(site, page) {
 }
 
 function footer(site, page) {
-  const col = (title, items) => `<div class="footer-col"><h2 class="footer-title">${esc(title)}</h2><ul>${items.map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join('')}</ul></div>`;
+  // Titre de colonne en paragraphe, pas en h2 : à 13,6 px, il passait sous les h3 de la page (contrôle TYP-09).
+  const col = (title, items) => `<div class="footer-col"><p class="footer-title">${esc(title)}</p><ul>${items.map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join('')}</ul></div>`;
   // Page de campagne : pied de page réduit à l'identité et aux liens légaux, bouton collant vers le simulateur de la page.
   const cols = page.host ? '' : site.nav.footer.map((c) => col(c.title, c.items)).join('');
   // Sur la page merci de campagne, plus de simulateur : le bouton collant propose l'appel avec le fondateur.
@@ -103,7 +104,7 @@ function tracking(site, page) {
   const conf = page && page.bandeauEnBas ? Object.assign({}, t.iubendaConfig, { banner: Object.assign({}, t.iubendaConfig.banner, { position: 'float-bottom-center' }) }) : t.iubendaConfig;
   const iub = `<script type="text/javascript">var _iub = _iub || []; _iub.csConfiguration = ${JSON.stringify(conf)};</script>
 <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/${t.iubendaSiteId}.js"></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>`;
+<script type="text/javascript" src="https://cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>`;
   const ga = `<script data-iub-purposes="4" class="_iub_cs_activate" type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id=${t.ga4}"></script>
 <script data-iub-purposes="4" class="_iub_cs_activate" type="text/plain">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${t.ga4}',{'anonymize_ip':true});</script>`;
   const gtm = t.gtm ? `<script data-iub-purposes="4,5" class="_iub_cs_activate" type="text/plain">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${t.gtm}');</script>` : '';

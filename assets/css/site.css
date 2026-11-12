@@ -3,7 +3,7 @@
   --green:#183020;--green-2:#22412d;--green-3:#2f5a3f;
   --gold:#d8a008;--gold-2:#8a6605;--gold-3:#f3d98a;--gold-soft:#fbf3d9;
   --cream:#fdf9e4;--cream-2:#f6f0d3;--white:#fff;
-  --ink:#1c2822;--muted:#5b6961;--line:#e6e2cd;--line-2:#d9c58a;
+  --ink:#1c2822;--muted:#4d5a53;--line:#e6e2cd;--line-2:#d9c58a;
   --danger:#b3261e;--info:#1f5f8b;
   --radius:14px;--radius-sm:8px;--shadow:0 10px 30px rgba(24,48,32,.08);--shadow-2:0 2px 8px rgba(24,48,32,.08);
   --font:"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
@@ -235,7 +235,7 @@ tr:last-child td{border-bottom:0}
 .testimonial{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;margin:0;box-shadow:var(--shadow-2);display:flex;flex-direction:column;border-left:4px solid var(--gold)}
 .testimonial p{flex:1;font-style:italic}
 .testimonial footer{display:flex;justify-content:space-between;align-items:center;gap:.5rem;color:var(--muted);font-size:.9rem}
-.stars{color:var(--gold);letter-spacing:.05em}
+.stars{color:var(--gold-2);letter-spacing:.05em}
 .rating-link{font-weight:700;color:var(--green);text-decoration:none;display:inline-flex;align-items:center;gap:.4em}
 /* Logos */
 .logo-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;align-items:center}
@@ -434,4 +434,42 @@ tr:last-child td{border-bottom:0}
 .merci h1{margin-top:1rem}
 .figure{margin:0}
 .figure figcaption{font-size:.88rem;color:var(--muted);margin-top:.5rem}
+/* Contrôle design et UX du 11/11/2026 (63 pages à 360, 768 et 1 280 px). */
+/* Bandeau de consentement : son gras héritait du vert du site sur fond noir (contraste 1,5), et ses boutons
+   faisaient 36 px de haut sur téléphone. */
+#iubenda-cs-banner strong{color:inherit}
+html body #iubenda-cs-banner .iubenda-cs-accept-btn,html body #iubenda-cs-banner .iubenda-cs-reject-btn,html body #iubenda-cs-banner .iubenda-cs-customize-btn{min-height:44px!important}
+/* Liens du pied de page pris dans une phrase : soulignés, la couleur seule ne les distinguait pas du texte voisin. */
+.footer-contact a,.footer-bottom a{text-decoration:underline;text-underline-offset:3px}
+.byline a{font-weight:600}
+.skip-link{display:inline-flex;align-items:center;min-height:44px}
+/* Survol visible sur les liens qui n'en montraient aucun. */
+.nav-phone:hover,.rating-link:hover,.trustbar a:hover,.sim-alt a:hover{text-decoration:underline;text-underline-offset:3px}
+.credit-photo a:hover{color:var(--green)}
+/* Liens des crédits photo et des sources : 17 à 21 px de haut, portés à 24 px de cible sans changer la ligne. */
+.credit-photo a,.source a{padding:4px 0}
+/* Case de consentement des formulaires : 13 px de côté, portée à 24 px. */
+.consent input{width:24px;height:24px;flex:none;margin-top:.05rem;accent-color:var(--green)}
+.faq-item summary:hover{background:var(--cream)}
+/* Bloc tarif : la valeur collait à sa ligne d'unité. */
+.price-value{line-height:1.05}
+.price-unit{margin-top:.5rem}
+/* Titres équilibrés, et paragraphes sans mot seul en dernière ligne quand le navigateur sait le faire. */
+h1,h2,h3,h4{text-wrap:balance}
+p,li,figcaption{text-wrap:pretty}
+/* Bouton de l'assistant (768 px et plus) : la dernière ligne du pied de page passait dessous en fin de page. */
+@media(min-width:768px){.site-footer{padding-bottom:6rem}}
+@media(max-width:767px){
+  /* Texte de lecture à 16 px sur téléphone ; le fil d'Ariane, les sources, les crédits et les étiquettes restent plus petits. */
+  .site-footer,.site-footer .footer-bottom,.link-grid p,.link-grid span,.mid-cta p,.trust-list,.article-card p,.logement-card p,table,.byline,.sources,.author-box p,.price-note,.testimonial footer{font-size:1rem}
+  /* Barre d'actions : « Estimez vos revenus » passait sur deux lignes à 360 px. */
+  .sticky-cta{gap:.4rem}
+  .sticky-cta .btn-ghost,.sticky-cta .btn-whatsapp{width:44px}
+  .sticky-cta .btn-primary{padding-left:.85em;padding-right:.85em}
+  /* Fin de page : la dernière ligne du pied passait sous le bouton des préférences cookies (68 à 112 px du bas). */
+  .site-footer{padding-bottom:8rem}
+}
+/* Encadrés : icône au-dessus du texte sur petit écran, pour que leurs boutons tiennent sur une ligne ; la marge
+   droite compense la bordure gauche de 6 px, sinon le texte n'est plus centré. */
+@media(max-width:519px){.callout{flex-direction:column;gap:0;padding-right:calc(1.25rem + 5px)}}
 @media print{.site-header,.sticky-cta,.wa-bubble,.cta-band,.mid-cta{display:none}}

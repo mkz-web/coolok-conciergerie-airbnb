@@ -28,14 +28,14 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Montreuil (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 600 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Montreuil (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 600 à 3 700 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Hôpital, salons et bureaux, la semaine",
  "sections": [
   {
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui remplit vraiment un logement à Montreuil",
-   "md": "La commune compte 61 214 emplois au lieu de travail pour 111 934 habitants (INSEE, recensement 2023) : ce n'est pas une ville dortoir. À cela s'ajoutent trois moteurs qui produisent des nuitées toute l'année. L'hôpital intercommunal André Grégoire aligne 398 lits et 93 368 passages aux urgences par an (fiche GIRCI Île-de-France, novembre 2025). Le Salon du livre et de la presse jeunesse a réuni 196 000 visiteurs en 2025 et revient du 25 au 30 novembre 2026 (organisateur SLPJ). Le cinéma Le Méliès, plus grand cinéma public d'art et essai d'Europe, a fait 415 000 entrées en 2024.\n\nPour vous, cela change la nature des réservations. Vos voyageurs viennent travailler, se soigner, accompagner un proche ou exposer, rarement flâner. Ils réservent tard, restent deux à quatre nuits et arrivent en semaine. Le prolongement de la ligne 11, ouvert le 13 juin 2024 avec les stations Montreuil-Hôpital et La Dhuys, a rendu louables des quartiers qui vivaient jusque-là à l'écart du métro.\n\nEn exploitation, cela veut dire des rotations fréquentes, une réactivité forte sur les demandes de dernière minute et une annonce qui nomme la station plutôt que le quartier. L'écart de prix entre le Bas-Montreuil (6 615 EUR le mètre carré à Bobillot) et les hauts de la commune (3 943 EUR à Bel Air-Grands Pêchers, estimations Figaro Immobilier au 1er août 2026) dit assez où se concentre la demande."
+   "md": "La commune compte 61 214 emplois au lieu de travail pour 111 934 habitants (INSEE, recensement 2023) : ce n'est pas une ville dortoir. À cela s'ajoutent trois moteurs qui produisent des nuitées toute l'année. L'hôpital intercommunal André Grégoire aligne 398 lits et 93 368 passages aux urgences par an (fiche GIRCI Île-de-France, novembre 2025). Le Salon du livre et de la presse jeunesse a réuni 196 000 visiteurs en 2025 et revient du 25 au 30 novembre 2026 (organisateur SLPJ). Le cinéma Le Méliès, plus grand cinéma public d'art et essai d'Europe, a fait 415 000 entrées en 2024.\n\nPour vous, cela change la nature des réservations. Vos voyageurs viennent travailler, se soigner, accompagner un proche ou exposer, rarement flâner. Ils réservent tard, restent deux à quatre nuits et arrivent en semaine. Le prolongement de la ligne 11, ouvert le 13 juin 2024 avec les stations Montreuil-Hôpital et La Dhuys, a rendu louables des quartiers qui vivaient jusque-là à l'écart du métro.\n\nEn exploitation, cela veut dire des rotations fréquentes, une réactivité forte sur les demandes de dernière minute et une annonce qui nomme la station plutôt que le quartier. L'écart de prix entre le Bas-Montreuil (6 615 € le mètre carré à Bobillot) et les hauts de la commune (3 943 € à Bel Air-Grands Pêchers, estimations Figaro Immobilier au 1er août 2026) dit assez où se concentre la demande."
   },
   {
    "type": "table",
@@ -50,7 +50,7 @@
    "rows": [
     [
      "Population municipale",
-     "111 934 habitants en 2023 ; densité 12 549 hab/km2 ; 54 472 logements ; 1,8 % de résidences secondaires ; 35,4 % de propriétaires ; niveau de vie médian 24 100 EUR",
+     "111 934 habitants en 2023 ; densité 12 549 hab/km² ; 54 472 logements ; 1,8 % de résidences secondaires ; 35,4 % de propriétaires ; niveau de vie médian 24 100 €",
      "INSEE, RP2023, comparateur de territoires (géographie au 01/01/2026, consulté le 03/09/2026)"
     ],
     [
@@ -60,12 +60,12 @@
     ],
     [
      "Prix immobilier moyen",
-     "6 323 EUR/m2 appartement, 5 941 EUR/m2 maison (MeilleursAgents, septembre 2026). Figaro Immobilier au 01/08/2026 : médian tous biens 5 407 EUR/m2, loyer médian 28 EUR/m2",
+     "6 323 €/m² appartement, 5 941 €/m² maison (MeilleursAgents, septembre 2026). Figaro Immobilier au 01/08/2026 : médian tous biens 5 407 €/m², loyer médian 28 €/m²",
      "MeilleursAgents (page Île-de-France) et Figaro Immobilier (02/09/2026 et 01/08/2026)"
     ],
     [
      "Hiérarchie des quartiers par prix (indice de la demande)",
-     "Bas Montreuil-Bobillot 6 615 EUR/m2, Bas Montreuil-République 6 440, Centre-Ville-Jean Moulin 6 010, Bas Montreuil-Étienne Marcel-Chanzy 5 966, Signac-Murs à Pêches 5 205, Bel Air-Grands Pêchers 3 943.",
+     "Bas Montreuil-Bobillot 6 615 €/m², Bas Montreuil-République 6 440, Centre-Ville-Jean Moulin 6 010, Bas Montreuil-Étienne Marcel-Chanzy 5 966, Signac-Murs à Pêches 5 205, Bel Air-Grands Pêchers 3 943.",
      "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
     ],
     [
@@ -82,7 +82,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Montreuil",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : non (compensation limitée à la commune des Lilas, art. 4)\n- **Si vous louez votre résidence principale** : 120 jours (règlement Est Ensemble art. 2 ; 90 jours uniquement à Romainville) ; aucune délibération de Montreuil à 90 jours trouvée.\n- **À prévoir dans votre dossier** : logement décent, [DPE](/blog/dpe-airbnb) A à E (L631-10), attestation sur l'honneur de conformité au règlement de copropriété, interdiction pour les logements sociaux, subventionnés ou en accession encadrée (art. 5).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.est-ensemble.fr/sites/default/files/reglement_de_changement_dusage_meubles_avec_compensation_2024.pdf) et [document de référence](https://www.est-ensemble.fr/meuble-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non (compensation limitée à la commune des Lilas, art. 4)\n- **Si vous louez votre résidence principale** : 120 jours (règlement Est Ensemble art. 2 ; 90 jours uniquement à Romainville) ; aucun abaissement à 90 jours à Montreuil au relevé du 3 septembre 2026.\n- **À prévoir dans votre dossier** : logement décent, [DPE](/blog/dpe-airbnb) A à E (L631-10), attestation sur l'honneur de conformité au règlement de copropriété, interdiction pour les logements sociaux, subventionnés ou en accession encadrée (art. 5).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.est-ensemble.fr/sites/default/files/reglement_de_changement_dusage_meubles_avec_compensation_2024.pdf) et [document de référence](https://www.est-ensemble.fr/meuble-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -99,7 +99,7 @@
     {
      "icon": "train",
      "title": "Le Bas-Montreuil, ligne 9",
-     "text": "Robespierre et Croix de Chavaux, à la frontière du 20e arrondissement. C'est le secteur le plus cher de la commune (6 615 EUR le mètre carré à Bobillot, Figaro Immobilier, 1er août 2026) et le plus liquide en courte durée."
+     "text": "Robespierre et Croix de Chavaux, à la frontière du 20e arrondissement. C'est le secteur le plus cher de la commune (6 615 € le mètre carré à Bobillot, Figaro Immobilier, 1er août 2026) et le plus liquide en courte durée."
     },
     {
      "icon": "shield",
@@ -141,7 +141,7 @@
    "type": "rich",
    "bg": "cream",
    "h2": "Le rythme de l'année à Montreuil",
-   "md": "Ici, le calendrier ne suit pas les vacances scolaires. La semaine du 25 au 30 novembre 2026 est le pic de l'année avec le Salon du livre et de la presse jeunesse (196 000 visiteurs en 2025). Le festival des Murs à Pêches, du 22 au 24 mai 2026, apporte un second temps fort. Le reste du calendrier tient sur les emplois et l'hôpital, deux moteurs qui ne ferment pas. Août reste le mois le plus creux : c'est la fenêtre pour les travaux et le renouvellement du linge.",
+   "md": "Ici, le calendrier ne suit pas les vacances scolaires. La semaine du 25 au 30 novembre 2026 est le pic de l'année avec le Salon du livre et de la presse jeunesse (196 000 visiteurs en 2025). En 2026, le festival des Murs à Pêches, du 22 au 24 mai, a apporté un second temps fort. Le reste du calendrier tient sur les emplois et l'hôpital, deux moteurs qui ne ferment pas. Août reste le mois le plus creux : c'est la fenêtre pour les travaux et le renouvellement du linge.",
    "narrow": true
   },
   {
@@ -170,7 +170,7 @@
  "faq": [
   {
    "q": "Combien rapporte une location courte durée à Montreuil ?",
-   "a": "Notre fiche de marché situe la nuitée entre 75 et 155 EUR et le revenu mensuel entre 1 600 et 3 700 EUR, pour un taux d'occupation de 70 à 80 % (extraction du 9 juillet 2026, source AirDNA croisée plateformes). Ces bornes couvrent du studio au trois pièces : l'audit chiffré que nous rendons sous 48 heures resserre la fourchette sur votre bien réel."
+   "a": "Notre fiche de marché situe la nuitée entre 75 et 155 € et le revenu mensuel entre 1 600 et 3 700 €, pour un taux d'occupation de 70 à 80 % (extraction du 9 juillet 2026, source AirDNA croisée plateformes). Ces bornes couvrent du studio au trois pièces : l'audit chiffré que nous rendons sous 48 heures resserre la fourchette sur votre bien réel."
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Montreuil ?",
@@ -178,7 +178,7 @@
   },
   {
    "q": "Quelle taxe de séjour s'applique à Montreuil ?",
-   "a": "Pour un meublé non classé, la commune prélève 5 % du prix de la nuitée hors taxes et par personne, dans une limite de 4,80 EUR, soit au maximum 15,60 EUR une fois ajoutées les taxes additionnelles départementale, régionale et transports (fichier DELTA de la DGFiP au 1er janvier 2026). Elle est due par le voyageur : nous vérifions le paramétrage de l'annonce."
+   "a": "Pour un meublé non classé, la commune prélève 5 % du prix de la nuitée hors taxes et par personne, dans une limite de 4,80 €, soit au maximum 15,60 € une fois ajoutées les taxes additionnelles départementale, régionale et transports (fichier DELTA de la DGFiP au 1er janvier 2026). Elle est due par le voyageur : nous vérifions le paramétrage de l'annonce."
   },
   {
    "q": "Quel quartier de Montreuil choisir pour se lancer ?",

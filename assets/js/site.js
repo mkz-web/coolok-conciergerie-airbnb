@@ -17,6 +17,19 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && panel.classList.contains('is-open')) { toggle.click(); toggle.focus(); } });
   }
 
+  // Barre d'actions du téléphone : masquée tant que le héros, qui porte déjà ces actions, est à l'écran
+  // (à 360 px elle recouvrait les boutons du premier écran, lecture des captures du 16/11/2026).
+  var barre = $('.sticky-cta');
+  var hero = $('.hero');
+  // Seulement si le héros porte un bouton : sans lui (mentions légales, plan du site), la barre est la seule action du premier écran.
+  if (barre && hero && hero.querySelector('.btn') && 'IntersectionObserver' in window) {
+    barre.classList.add('is-masquee');
+    // L'observateur est gardé sur la barre par précaution. Mesure : barre cachée au premier écran, visible
+    // une fois le héros passé, cachée en remontant (sonde-lot-cdp.mjs, Chrome qui rend la page, 16/11/2026).
+    barre.observateurHero = new IntersectionObserver(function (e) { barre.classList.toggle('is-masquee', e[e.length - 1].isIntersecting); }, { rootMargin: '0px 0px -25% 0px' });
+    barre.observateurHero.observe(hero);
+  }
+
   // Formulaires : envoi en JSON avec repli sur l'envoi natif
   function serialize(form) {
     var data = {};

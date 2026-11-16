@@ -22,7 +22,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui fait tourner le marché seine-et-marnais",
-   "md": "Au nord du département, un seul site commande la demande. Disneyland Paris a reçu 15,8 millions de visites en 2024 selon l'estimation de l'index TEA relayée par Le Figaro le 6 août 2026, et le cap des 16 millions a été franchi en 2025. L'ouverture de Disney Adventure World et du Monde de La Reine des Neiges, le 29 mars 2026, a relancé le flux (communiqué Disneyland Paris du 28 mars 2026). Au sud, la demande n'a rien à voir : elle vient du château et de la forêt de Fontainebleau, de son école de commerce internationale, et du rôle administratif de Melun, préfecture de 45 995 habitants au recensement INSEE 2023.\n\nPour un propriétaire, l'écart se lit d'abord dans le prix d'achat. Les estimations Figaro Immobilier situent le mètre carré médian à 4 858 EUR à Chessy au 1er août 2026 et à 3 013 EUR à Melun au 1er juillet 2026, pour une médiane départementale de 3 017 EUR. La part de résidences secondaires raconte la même histoire : 31,7 % du parc à Bailly-Romainvilliers et 18,2 % à Serris contre 1,1 % à Melun au recensement INSEE 2023.\n\nDans l'exploitation, cela change tout. Près des parcs, les séjours durent deux à quatre nuits, les arrivées sont tardives et la rotation se joue le jour même. Au sud, les séjours s'allongent, la maintenance pèse moins, mais le calendrier doit être rempli par autre chose que le tourisme de masse : sport de plein air, événements locaux et déplacements professionnels."
+   "md": "Au nord du département, un seul site commande la demande. Disneyland Paris a reçu 15,8 millions de visites en 2024 selon l'estimation de l'index TEA relayée par Le Figaro le 6 août 2026, et le cap des 16 millions a été franchi en 2025. L'ouverture de Disney Adventure World et du Monde de La Reine des Neiges, le 29 mars 2026, a relancé le flux (communiqué Disneyland Paris du 28 mars 2026). Au sud, la demande n'a rien à voir : elle vient du château et de la forêt de Fontainebleau, de son école de commerce internationale, et du rôle administratif de Melun, préfecture de 45 995 habitants au recensement INSEE 2023.\n\nPour un propriétaire, l'écart se lit d'abord dans le prix d'achat. Les estimations Figaro Immobilier situent le mètre carré médian à 4 858 € à Chessy au 1er août 2026 et à 3 013 € à Melun au 1er juillet 2026, pour une médiane départementale de 3 017 €. La part de résidences secondaires raconte la même histoire : 31,7 % du parc à Bailly-Romainvilliers et 18,2 % à Serris contre 1,1 % à Melun au recensement INSEE 2023.\n\nDans l'exploitation, cela change tout. Près des parcs, les séjours durent deux à quatre nuits, les arrivées sont tardives et la rotation se joue le jour même. Au sud, les séjours s'allongent, la maintenance pèse moins, mais le calendrier doit être rempli par autre chose que le tourisme de masse : sport de plein air, événements locaux et déplacements professionnels."
   },
   {
    "type": "table",
@@ -138,7 +138,7 @@
    "variant": "info",
    "icon": "star",
    "title": "Le moteur du nord du département, en chiffres",
-   "md": "- **15,8 millions de visites** aux deux parcs en 2024 (10,214 millions au Parc Disneyland, 5,598 millions au second parc), estimation de l'index TEA, Disney ne publiant plus ses chiffres. Source : Le Figaro, 6 août 2026.\n- **Plus de 16 millions de visiteurs** en 2025. Source : BFM Business, 26 août 2026.\n- **2,7 milliards EUR de chiffre d'affaires** sur l'exercice clos fin septembre 2025 et 2,1 milliards EUR de dépenses des visiteurs, en hausse de 11 %. Source : AFP via Boursorama, 27 mars 2026.\n- **7 hôtels et 5 700 chambres** exploités par la destination, premier groupe hôtelier des parcs à thèmes européens. Source : Disneyland Paris News, 27 mars 2026.\n\nCe dernier chiffre est la vraie information pour vous : votre logement ne concurrence pas seulement d'autres particuliers, il concurrence un parc hôtelier professionnel de 5 700 chambres. Ce que vous vendez, c'est ce qu'une chambre d'hôtel ne sait pas offrir : de l'espace, une cuisine et l'indépendance."
+   "md": "- **15,8 millions de visites** aux deux parcs en 2024 (10,214 millions au Parc Disneyland, 5,598 millions au second parc), estimation de l'index TEA, Disney ne publiant plus ses chiffres. Source : Le Figaro, 6 août 2026.\n- **Plus de 16 millions de visiteurs** en 2025. Source : BFM Business, 26 août 2026.\n- **2,7 milliards d'euros de chiffre d'affaires** sur l'exercice clos fin septembre 2025 et 2,1 milliards d'euros de dépenses des visiteurs, en hausse de 11 %. Source : AFP via Boursorama, 27 mars 2026.\n- **7 hôtels et 5 700 chambres** exploités par la destination, premier groupe hôtelier des parcs à thèmes européens. Source : Disneyland Paris News, 27 mars 2026.\n\nCe dernier chiffre est la vraie information pour vous : votre logement ne concurrence pas seulement d'autres particuliers, il concurrence un parc hôtelier professionnel de 5 700 chambres. Ce que vous vendez, c'est ce qu'une chambre d'hôtel ne sait pas offrir : de l'espace, une cuisine et l'indépendance."
   },
   {
    "type": "table",
@@ -154,19 +154,19 @@
    "rows": [
     [
      "Val d'Europe Agglomération",
-     "16,25 % du coût HT par personne et par nuit, plafond 15,93 EUR",
-     "5,53 EUR par personne et par nuit",
+     "16,25 % du coût HT par personne et par nuit, plafond 15,93 €",
+     "5,53 € par personne et par nuit",
      "Chessy, Serris, Magny-le-Hongre, Bailly-Romainvilliers"
     ],
     [
      "Marne et Gondoire",
-     "11,375 % du coût HT par personne et par nuit, plafond 14,95 EUR",
-     "3,90 EUR par personne et par nuit",
+     "11,375 % du coût HT par personne et par nuit, plafond 14,95 €",
+     "3,90 € par personne et par nuit",
      "Bussy-Saint-Georges, Chalifert"
     ],
     [
      "Pays de Fontainebleau",
-     "13 % du coût HT par personne et par nuit (4 % voté), plafond 13,00 EUR",
+     "13 % du coût HT par personne et par nuit (4 % voté), plafond 13,00 €",
      "tarif voté par l'agglomération",
      "Fontainebleau"
     ],
@@ -206,7 +206,7 @@
  "faq": [
   {
    "q": "Combien rapporte une location courte durée en Seine-et-Marne ?",
-   "a": "L'écart est considérable d'une commune à l'autre. Nos observations situent le revenu mensuel entre 1 300 et 3 200 EUR à Chalifert et entre 1 800 et 4 100 EUR à Chessy, pour des logements entiers. Ces fourchettes ne remplacent pas une étude de votre bien : nous chiffrons votre surface, votre capacité et votre calendrier dans un audit remis sous 48 heures."
+   "a": "L'écart est considérable d'une commune à l'autre. Nos observations situent le revenu mensuel entre 1 300 et 3 200 € à Chalifert et entre 1 800 et 4 100 € à Chessy, pour des logements entiers. Ces fourchettes ne remplacent pas une étude de votre bien : nous chiffrons votre surface, votre capacité et votre calendrier dans un audit remis sous 48 heures."
   },
   {
    "q": "Faut-il une autorisation pour louer en meublé de tourisme en Seine-et-Marne ?",
@@ -218,7 +218,7 @@
   },
   {
    "q": "Quelle taxe de séjour paie-t-on en Seine-et-Marne ?",
-   "a": "Elle est fixée par votre intercommunalité, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 16,25 % du coût hors taxes de la nuitée en Val d'Europe, plafonné à 15,93 EUR par personne, contre 11,375 % à Marne et Gondoire et 3,25 % à Melun Val de Seine (relevé du 3 septembre 2026)."
+   "a": "Elle est fixée par votre intercommunalité, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 16,25 % du coût hors taxes de la nuitée en Val d'Europe, plafonné à 15,93 € par personne, contre 11,375 % à Marne et Gondoire et 3,25 % à Melun Val de Seine (relevé du 3 septembre 2026)."
   },
   {
    "q": "Coolok intervient-il à Fontainebleau et à Melun ?",

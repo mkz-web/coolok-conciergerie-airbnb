@@ -39,7 +39,7 @@ const FORBIDDEN = [
   { re: new RegExp("(^|[^" + "a-zà-ÿ" + "])(tres|deja|apres|annee|annees|proprietaire|proprietaires|reglementation|sejour|sejours|numero|declaration|periode|elevee|specifique|verifie|copropriete|evenement|immatriculee|reservation|geree|gerer)([^" + "a-zà-ÿ" + "]|$)", "i"), why: "orthographe : accents manquants" },
   { re: new RegExp("plus de 200\\s?000 habitants", "i"), why: "regle perimee : le changement d usage ne depend plus du seuil de population" },
   { re: new RegExp("usufruit[^.]{0,60}60 jours|60 jours[^.]{0,60}usufruit", "i"), why: "limite d usage personnel de 60 jours, contredite par le contrat" },
-  { re: new RegExp("50\\s?000\\s?(EUR|euros)[^.]{0,80}enregistrement|enregistrement[^.]{0,80}50\\s?000\\s?(EUR|euros)", "i"), why: "montant d amende faux (la loi Le Meur prevoit 10 000 EUR)" },
+  { re: new RegExp("50\\s?000\\s?(EUR|euros|€)[^.]{0,80}enregistrement|enregistrement[^.]{0,80}50\\s?000\\s?(EUR|euros|€)", "i"), why: "montant d amende faux (la loi Le Meur prevoit 10 000 EUR)" },
   { re: new RegExp("\\b(ton|ta|tes|toi)\\s+(bien|marge|logement|annonce|projet|prix|calcul)\\b|\\btu\\s+(peux|dois|as|vas|veux|fais|gagnes|loues)\\b", "i"), why: "tutoiement (le site vouvoie)" },
   { re: /\b2025\b(?!.*(bilan|dernière année|année complète|depuis|janvier|novembre|mai|loi|décret|arrêté|Le Meur|source|publié|mis à jour|Wikimedia))/i, why: 'date 2025 non contextualisée', warn: true },
 ];
@@ -81,6 +81,9 @@ function insecables(html) {
       // « le 5 / novembre 2026 », « 06 73 93 / 75 01 » coupés en fin de ligne).
       .replace(/(\d) (?=\d)/g, '$1' + NBSP)
       .replace(/(\d) (?=(h|min|km|ans?|jours?|nuits?|mois|m²)(?![\p{L}\d]))/gu, '$1' + NBSP)
+      // Un nombre reste avec le mot qu'il compte (« 5 701 / établissements », « 11,1 M / d'excursions », lecture du 16/11/2026).
+      .replace(/(\d) (?=\p{Ll}|(M|Md)(?![\p{L}]))/gu, '$1' + NBSP)
+      .replace(/(\S) (?=\+(\s|$))/g, '$1' + NBSP)
       .replace(/(\d|1er) (?=(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)(?![\p{L}]))/gu, '$1' + NBSP)
       .replace(/(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) (?=\d{4}(?!\d))/gu, '$1' + NBSP)
       // « €/m² » ne se coupe plus après la barre oblique (cases de chiffres à 360 px, lecture du 16/11/2026).
@@ -496,6 +499,8 @@ for (const page of allPages) {
   }
   // Un objet interpolé dans une chaîne est un défaut de génération, jamais un contenu voulu (17 pages le 03/09/2026).
   if (mainText.includes('[object Object]')) err(page.url, 'valeur non convertie en texte : « [object Object] »');
+  // Le nombre d'avis Google écrit dans un texte suit le registre (21 dans 27 pages contre 22 dans la section des avis, vu le 16/11/2026).
+  for (const m of mainText.matchAll(/(\d+)\s+avis/g)) if (site.org.rating && Number(m[1]) !== site.org.rating.count) err(page.url, `nombre d'avis Google différent du registre (${site.org.rating.count}) : « ${mainText.slice(Math.max(0, m.index - 40), m.index + 30).replace(/\s+/g, ' ')} »`);
   // Une adresse brute dans le corps du texte est illisible, et non sécable elle casse la mise en page mobile.
   const urlNue = mainText.match(/https?:\/\/[^\s<)]{12,}/);
   if (urlNue) err(page.url, `URL brute dans le texte, utiliser un lien : « ${urlNue[0].slice(0, 60)} »`);

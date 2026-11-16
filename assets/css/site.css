@@ -176,7 +176,8 @@ address{font-style:normal}
 .stat{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem;text-align:center}
 .stat dt{font-size:.85rem;color:var(--muted);order:2}
 .stat dd{margin:0 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green);overflow-wrap:anywhere}
-@media(max-width:420px){.stat{padding:1rem .6rem}.stat dd{font-size:1.1rem}}
+/* Sous 420 px, une case par ligne : en deux colonnes, « 1 500 à 3 600 € » passait sur deux lignes et décalait la case voisine (lecture du 16/11/2026). */
+@media(max-width:420px){.stats-grid{grid-template-columns:minmax(0,1fr);gap:.6rem}.stat{padding:.85rem 1rem}.stat dd{font-size:1.35rem}}
 .stat-note{font-size:.8125rem;color:var(--muted);margin:.25rem 0 0}
 .datacard{background:var(--cream);border:1px solid var(--line-2);border-radius:var(--radius);padding:clamp(1.25rem,3vw,2rem)}
 .datacard h2{font-size:var(--fs-2)}
@@ -215,6 +216,8 @@ tr:last-child td{border-bottom:0}
 .callout h3{font-size:var(--fs-1);margin-bottom:.35rem}
 .callout p:last-child{margin-bottom:0}
 .callout-section{padding-top:0}
+/* Après une section à fond crème ou sombre, l'encadré touchait la limite du fond (lecture du 16/11/2026). */
+.section.bg-cream+.callout-section:not(.bg-cream),.section.bg-dark+.callout-section{padding-top:clamp(2rem,5vw,3rem)}
 .mid-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;background:var(--gold-soft);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem 1.25rem;margin:2rem 0}
 .mid-cta p{margin:0;color:var(--muted);font-size:.95rem}
 .mid-cta .mid-cta-title{color:var(--ink);font-weight:700;font-size:1.02rem;margin-bottom:.2rem}
@@ -420,6 +423,10 @@ tr:last-child td{border-bottom:0}
 /* Barre d'actions mobile et bulle WhatsApp */
 .sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:850;display:flex;gap:.5rem;padding:.6rem var(--gutter);background:rgba(255,255,255,.96);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.06);backdrop-filter:blur(6px)}
 .sticky-cta .btn-primary{flex:1}
+/* Masquée par le script tant que le héros est à l'écran : elle recouvrait ses boutons à 360 px. */
+.sticky-cta{transition:transform .2s ease,visibility .2s}
+.sticky-cta.is-masquee{transform:translateY(110%);visibility:hidden}
+@media(prefers-reduced-motion:reduce){.sticky-cta{transition:none}}
 .sticky-cta .btn-ghost,.sticky-cta .btn-whatsapp{width:48px;padding:0;flex:none}
 .wa-bubble{display:none}
 /* Bouton de préférences cookies iubenda (en bas à gauche) : sur mobile, il se posait sur le bouton principal de la barre

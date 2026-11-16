@@ -21,7 +21,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Un marché d'affaires, pas un marché de vacances",
-   "md": "Melun est la première gare de Seine-et-Marne : 17 067 994 voyageurs comptés en 2024 par SNCF Open Data, soit près de 50 000 par jour, et Paris Gare de Lyon à 26 minutes. Autour d'elle se concentrent la préfecture, le tribunal, l'académie militaire de la gendarmerie nationale (350 officiers en formation initiale et environ 1 000 stagiaires par an) et le Santépôle, hôpital de 1 093 lits et places employant plus de 2 300 agents. Au nord, le site Safran de Villaroche fait travailler près de 5 500 salariés, ce qui en fait le premier employeur industriel du département.\n\nCes moteurs produisent une demande d'hébergement du lundi au jeudi, pour une à quatre nuits, à laquelle la ville ne sait pas répondre. L'INSEE ne recensait qu'un hôtel de 75 chambres au 1er janvier 2026, et les résidences secondaires pèsent 1,1 % du parc de logements en 2023. Un établissement de 73 chambres est en construction au pôle gare, ce qui reste sans commune mesure avec le flux quotidien.\n\nL'exploitation ne ressemble donc pas à celle d'une ville touristique. Les réservations tombent tard, parfois la veille, souvent depuis une entreprise ou un organisme public. Le tarif ne suit pas les vacances scolaires mais les jours ouvrés. Et le ticket d'entrée reste bas : 3 013 EUR le mètre carré en prix médian au 1er juillet 2026 selon Figaro Immobilier, contre 4 858 EUR à Chessy au 1er août. Sur les plateformes, la médiane relevée le 3 septembre 2026 pour sept nuits d'octobre s'établissait à 81 EUR la nuit, frais inclus, sur 14 annonces melunaises."
+   "md": "Melun est la première gare de Seine-et-Marne : 17 067 994 voyageurs comptés en 2024 par SNCF Open Data, soit près de 50 000 par jour, et Paris Gare de Lyon à 26 minutes. Autour d'elle se concentrent la préfecture, le tribunal, l'académie militaire de la gendarmerie nationale (350 officiers en formation initiale et environ 1 000 stagiaires par an) et le Santépôle, hôpital de 1 093 lits et places employant plus de 2 300 agents. Au nord, le site Safran de Villaroche fait travailler près de 5 500 salariés, ce qui en fait le premier employeur industriel du département.\n\nCes moteurs produisent une demande d'hébergement du lundi au jeudi, pour une à quatre nuits, à laquelle la ville ne sait pas répondre. L'INSEE ne recensait qu'un hôtel de 75 chambres au 1er janvier 2026, et les résidences secondaires pèsent 1,1 % du parc de logements en 2023. Un établissement de 73 chambres est en construction au pôle gare, ce qui reste sans commune mesure avec le flux quotidien.\n\nL'exploitation ne ressemble donc pas à celle d'une ville touristique. Les réservations tombent tard, parfois la veille, souvent depuis une entreprise ou un organisme public. Le tarif ne suit pas les vacances scolaires mais les jours ouvrés. Et le ticket d'entrée reste bas : 3 013 € le mètre carré en prix médian au 1er juillet 2026 selon Figaro Immobilier, contre 4 858 € à Chessy au 1er août. Sur les plateformes, la médiane relevée le 3 septembre 2026 pour sept nuits d'octobre s'établissait à 81 € la nuit, frais inclus, sur 14 annonces melunaises."
   },
   {
    "type": "table",
@@ -36,28 +36,28 @@
    "rows": [
     [
      "Population municipale 2023",
-     "45 995 habitants (+14,9 % depuis 2017 ; 42 367 en 2021) ; densité 5 721 hab/km2 ; taux de pauvreté 28 % ; agglomération Melun Val de Seine 142 622 habitants ; bassin de vie 117 796",
-     "INSEE, comparateur de territoires (2026-08-27)"
+     "45 995 habitants (+14,9 % depuis 2017 ; 42 367 en 2021) ; densité 5 721 hab/km² ; taux de pauvreté 28 % ; agglomération Melun Val de Seine 142 622 habitants ; bassin de vie 117 796",
+     "INSEE, comparateur de territoires (27/08/2026)"
     ],
     [
      "Parc de logements",
      "21 849 logements en 2023 (19 339 en 2017) ; résidences principales 90,3 %, résidences secondaires et logements occasionnels 1,1 %, vacants 8,6 %.",
-     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-02-05)"
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (05/02/2026)"
     ],
     [
      "Capacité hôtelière au 1er janvier 2026",
      "1 hôtel 3 étoiles de 75 chambres ; 1 camping 3 étoiles de 178 emplacements ; 1 auberge de jeunesse / centre sportif de 156 places.",
-     "INSEE, dossier complet commune (tourisme 2026) ; ville de Melun (travaux secteur gare) (2026-02-05)"
+     "INSEE, dossier complet commune (tourisme 2026) ; ville de Melun (travaux secteur gare) (05/02/2026)"
     ],
     [
      "Gare de Melun (RER D terminus, ligne R, TER Bourgogne)",
      "17 067 994 voyageurs SNCF en 2024 (14 727 713 en 2023, +16 %) ; près de 50 000 voyageurs par jour, 1re gare de Seine-et-Marne, parmi les 17 premières gares d'Île-de-France.",
-     "SNCF Open Data ; Melun Val de Seine ; GHSIF (temps de trajet) (2026-09-03)"
+     "SNCF Open Data ; Melun Val de Seine ; GHSIF (temps de trajet) (03/09/2026)"
     ],
     [
      "Pôle d'échanges multimodal de la gare de Melun",
-     "196,5 M EUR de travaux, mise en service complète en 2030 ; parking relais de 950 places reconstruit, gare routière nord (9 quais) et sud, nouveau passage souterrain 2025-2029.",
-     "Département de Seine-et-Marne ; Île-de-France Mobilités ; Transilien ligne R (2026-04-20)"
+     "196,5 M € de travaux, mise en service complète en 2030 ; parking relais de 950 places reconstruit, gare routière nord (9 quais) et sud, nouveau passage souterrain 2025-2029.",
+     "Département de Seine-et-Marne ; Île-de-France Mobilités ; Transilien ligne R (20/04/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -69,7 +69,7 @@
    "variant": "info",
    "icon": "euro",
    "title": "Les prix affichés à Melun aujourd'hui",
-   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Melun pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 81 EUR par nuit, frais inclus (moyenne 79 EUR, fourchette 54 à 119 EUR), sur 14 annonces situées dans la commune relevées le 3 septembre 2026 (18 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Melun pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 81 € par nuit, frais inclus (moyenne 79 €, fourchette 54 à 119 €), sur 14 annonces situées dans la commune relevées le 3 septembre 2026 (18 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
     "label": "Recevez votre audit chiffré",
     "href": "/simulateur-locatif",
@@ -83,7 +83,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Melun",
-   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : la règle nationale s'applique, aucune délibération d'abaissement n'a été trouvée.\n- **Numéro d'enregistrement** : non exigé à ce jour : pas de numéro d'enregistrement communal. Il deviendra obligatoire dans toutes les communes, Melun comprise, à la mise en service du téléservice national d'enregistrement, prévue au quatrième trimestre 2026 (service-public.gouv.fr, actualité du 27 juillet 2026).\n- **Taxe de séjour 2026** (meublé non classé) : 1 % du prix HT par personne et par nuitée, soit le minimum légal ; 3,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,16 EUR, soit 13,52 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043) et [document de référence](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : la règle nationale s'applique, aucun abaissement au relevé du 3 septembre 2026.\n- **Numéro d'enregistrement** : non exigé à ce jour : pas de numéro d'enregistrement communal. Il deviendra obligatoire dans toutes les communes, Melun comprise, à la mise en service du téléservice national d'enregistrement, prévue au quatrième trimestre 2026 (service-public.gouv.fr, actualité du 27 juillet 2026).\n- **Taxe de séjour 2026** (meublé non classé) : 1 % du prix HT par personne et par nuitée, soit le minimum légal ; 3,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,16 €, soit 13,52 € toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.service-public.gouv.fr/particuliers/vosdroits/F2043) et [document de référence](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -171,7 +171,7 @@
  "faq": [
   {
    "q": "Combien rapporte un appartement en location courte durée à Melun ?",
-   "a": "Le prix de liste médian d'un logement entier ressortait à 81 EUR la nuit pour sept nuits en octobre 2026, frais inclus, sur 14 annonces relevées dans la commune le 3 septembre 2026, dans une fourchette de 54 à 119 EUR. Le résultat dépend surtout du remplissage en semaine, qui est le vrai sujet ici. Nous chiffrons votre bien sous 48 heures."
+   "a": "Le prix de liste médian d'un logement entier ressortait à 81 € la nuit pour sept nuits en octobre 2026, frais inclus, sur 14 annonces relevées dans la commune le 3 septembre 2026, dans une fourchette de 54 à 119 €. Le résultat dépend surtout du remplissage en semaine, qui est le vrai sujet ici. Nous chiffrons votre bien sous 48 heures."
   },
   {
    "q": "Faut-il une autorisation pour louer un meublé de tourisme à Melun ?",

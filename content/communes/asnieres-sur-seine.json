@@ -28,14 +28,14 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Asnières-sur-Seine (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 80 à 165 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 700 à 4 000 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Asnières-sur-Seine (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 80 à 165 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 700 à 4 000 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Cinq minutes de Saint-Lazare et La Défense",
  "sections": [
   {
    "type": "rich",
    "bg": "white",
    "h2": "Un marché de desserte, pas un marché de destination",
-   "md": "Troisième ville des Hauts-de-Seine avec 93 941 habitants, Asnières-sur-Seine ne compte que 24 589 emplois sur son territoire (INSEE, recensement 2023), soit le ratio le plus faible de nos communes du département. C'est une ville résidentielle tournée vers Paris et vers le quartier d'affaires, et son argument commercial tient dans une grille horaire : quatorze trains par heure en heures creuses, jusqu'à vingt-quatre en pointe, plus le métro 13 et le tramway T1.\n\nIl faut en tirer une conséquence honnête : la commune n'a pas de moteur touristique propre. Les ateliers historiques d'un grand malletier n'ouvrent au public que pendant les journées particulières du 16 au 18 octobre 2026, et le cimetière des chiens, ouvert en 1899 et premier du genre au monde, se visite du mardi au dimanche pour 3,50 EUR. Ces lieux donnent une couleur locale, ils ne font pas un volume de nuitées.\n\nVotre prix se construit donc par comparaison avec Paris et avec les communes voisines mieux cotées, et votre annonce se joue sur l'exactitude : gare nommée, ligne indiquée, temps de trajet vérifié. Un point mérite d'être dit au voyageur avant sa réservation : le secteur des Grésillons est en chantier, avec des démolitions programmées de janvier 2026 à mars 2027 avant l'arrivée de quatre gares du Grand Paris Express annoncées en 2031."
+   "md": "Troisième ville des Hauts-de-Seine avec 93 941 habitants, Asnières-sur-Seine ne compte que 24 589 emplois sur son territoire (INSEE, recensement 2023), soit le ratio le plus faible de nos communes du département. C'est une ville résidentielle tournée vers Paris et vers le quartier d'affaires, et son argument commercial tient dans une grille horaire : quatorze trains par heure en heures creuses, jusqu'à vingt-quatre en pointe, plus le métro 13 et le tramway T1.\n\nIl faut en tirer une conséquence honnête : la commune n'a pas de moteur touristique propre. Les ateliers historiques d'un grand malletier n'ouvrent au public que pendant les journées particulières du 16 au 18 octobre 2026, et le cimetière des chiens, ouvert en 1899 et premier du genre au monde, se visite du mardi au dimanche pour 3,50 €. Ces lieux donnent une couleur locale, ils ne font pas un volume de nuitées.\n\nVotre prix se construit donc par comparaison avec Paris et avec les communes voisines mieux cotées, et votre annonce se joue sur l'exactitude : gare nommée, ligne indiquée, temps de trajet vérifié. Un point mérite d'être dit au voyageur avant sa réservation : le secteur des Grésillons est en chantier, avec des démolitions programmées de janvier 2026 à mars 2027 avant l'arrivée de quatre gares du Grand Paris Express annoncées en 2031."
   },
   {
    "type": "table",
@@ -50,7 +50,7 @@
    "rows": [
     [
      "Population municipale",
-     "93 941 habitants en 2023 (3e ville des Hauts-de-Seine) ; densité 19 490 hab/km2 ; 47 659 logements ; 4,0 % de résidences secondaires ; 8,5 % de logements vacants.",
+     "93 941 habitants en 2023 (3e ville des Hauts-de-Seine) ; densité 19 490 hab/km² ; 47 659 logements ; 4,0 % de résidences secondaires ; 8,5 % de logements vacants.",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -61,7 +61,7 @@
     [
      "Gare d'Asnières-sur-Seine (lignes J et L)",
      "Paris-Saint-Lazare en 5 minutes (ligne J) ou 7 minutes (ligne L) ; La Défense en 5 minutes (ligne L).",
-     "Wikipedia (page relue, données SNCF) ; Transilien lignes J et L (desserte) (consulté le 03/09/2026)"
+     "Wikipedia (données SNCF) ; Transilien lignes J et L (desserte) (consulté le 03/09/2026)"
     ],
     [
      "Métro 13 et tramway T1",
@@ -71,7 +71,7 @@
     [
      "Grand Paris Express ligne 15 Ouest",
      "4 gares desserviront Asnières : Les Grésillons (RER C), Les Agnettes (métro 13), Bois-Colombes (ligne J), Bécon-les-Bruyères (ligne L) ; mise en service prévue en 2031.",
-     "Société des grands projets (page relue) ; Ville-Rail & Transports (13/08/2026) ; Ville d'Asnières (17/07/2026 et 13/08/2026)"
+     "Société des grands projets ; Ville-Rail & Transports (13/08/2026) ; Ville d'Asnières (17/07/2026 et 13/08/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -82,7 +82,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Asnières-sur-Seine",
-   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021\n- **Compensation** : non pour un logement par personne physique ; oui au-delà et pour toute personne morale (SCI assimilée)\n- **Si vous louez votre résidence principale** : 120 jours (règlement EPT art. 2) ; aucune délibération abaissant ce plafond à 90 jours n'a été trouvée\n- **À prévoir dans votre dossier** : les mêmes pièces qu'à Clichy (règlement commun) : logement décent, attestation de ne pas exploiter un autre meublé dans la commune, pas de subvention habitat depuis 10 ans, [DPE](/blog/dpe-airbnb) de A à E\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/asnieressurseine.php) et [document de référence](https://asnieres-sur-seine.fr/sortir-a-asnieres/tourisme-et-patrimoine/tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, depuis le 01/10/2021\n- **Compensation** : non pour un logement par personne physique ; oui au-delà et pour toute personne morale (SCI assimilée)\n- **Si vous louez votre résidence principale** : 120 jours (règlement EPT art. 2) ; aucun abaissement à 90 jours au relevé du 3 septembre 2026\n- **À prévoir dans votre dossier** : les mêmes pièces qu'à Clichy (règlement commun) : logement décent, attestation de ne pas exploiter un autre meublé dans la commune, pas de subvention habitat depuis 10 ans, [DPE](/blog/dpe-airbnb) de A à E\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/asnieressurseine.php) et [document de référence](https://asnieres-sur-seine.fr/sortir-a-asnieres/tourisme-et-patrimoine/tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -93,13 +93,13 @@
    "type": "cards",
    "bg": "cream",
    "h2": "Les secteurs d'Asnières-sur-Seine",
-   "intro": "L'écart de prix entre le centre et le nord de la commune dépasse 2 500 EUR le mètre carré : les positionnements ne sont pas les mêmes.",
+   "intro": "L'écart de prix entre le centre et le nord de la commune dépasse 2 500 € le mètre carré : les positionnements ne sont pas les mêmes.",
    "cols": 3,
    "items": [
     {
      "icon": "train",
      "title": "Le centre et la gare",
-     "text": "Le secteur le mieux valorisé, à 7 545 EUR le mètre carré autour de la mairie (Figaro Immobilier, 1er août 2026). C'est l'adresse qui vend le mieux la promesse des cinq minutes de train."
+     "text": "Le secteur le mieux valorisé, à 7 545 € le mètre carré autour de la mairie (Figaro Immobilier, 1er août 2026). C'est l'adresse qui vend le mieux la promesse des cinq minutes de train."
     },
     {
      "icon": "map",
@@ -170,7 +170,7 @@
  "faq": [
   {
    "q": "Combien rapporte un appartement en courte durée à Asnières-sur-Seine ?",
-   "a": "Notre fiche de marché retient une nuitée de 80 à 165 EUR, un revenu mensuel de 1 700 à 4 000 EUR et une occupation de 72 à 82 % (chiffres du 9 juillet 2026, AirDNA recoupé avec les plateformes). Sur un marché de desserte, le résultat dépend surtout du nombre de nuits vendues en semaine : l'audit chiffré que nous remettons sous 48 heures le pose noir sur blanc."
+   "a": "Notre fiche de marché retient une nuitée de 80 à 165 €, un revenu mensuel de 1 700 à 4 000 € et une occupation de 72 à 82 % (chiffres du 9 juillet 2026, AirDNA recoupé avec les plateformes). Sur un marché de desserte, le résultat dépend surtout du nombre de nuits vendues en semaine : l'audit chiffré que nous remettons sous 48 heures le pose noir sur blanc."
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Asnières-sur-Seine ?",
@@ -178,7 +178,7 @@
   },
   {
    "q": "Quelle taxe de séjour à Asnières-sur-Seine ?",
-   "a": "La délibération du 30 mai 2024, applicable en 2025 et 2026, retient pour un meublé non classé 5 % du montant de la nuitée hors taxes et par personne, plafonnés à 4,80 EUR pour la part communale, soit jusqu'à 15,60 EUR taxes additionnelles comprises. Un meublé classé trois étoiles revient à environ 5,52 EUR par personne et par nuit."
+   "a": "La délibération du 30 mai 2024, applicable en 2025 et 2026, retient pour un meublé non classé 5 % du montant de la nuitée hors taxes et par personne, plafonnés à 4,80 € pour la part communale, soit jusqu'à 15,60 € taxes additionnelles comprises. Un meublé classé trois étoiles revient à environ 5,52 € par personne et par nuit."
   },
   {
    "q": "Mon logement est proche du chantier des Grésillons, est-ce un problème ?",

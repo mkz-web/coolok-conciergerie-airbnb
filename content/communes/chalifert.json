@@ -29,7 +29,7 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Chalifert (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 59 à 69 %, soit 1 300 à 3 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Chalifert (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 75 à 155 € la nuit, avec un taux d'occupation observé de 59 à 69 %, soit 1 300 à 3 200 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Village en bord de Marne, calme, prix d'entrée",
  "sections": [
   {
@@ -52,12 +52,12 @@
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
      "1 584 habitants (population totale 1 597) ; 339 habitants en 1968 ; 62 % de la population a entre 25 et 64 ans",
-     "INSEE, populations de référence 2023 ; dossier complet (POP T1) (2025-12-29)"
+     "INSEE, populations de référence 2023 ; dossier complet (POP T1) (29/12/2025)"
     ],
     [
      "Parc de logements",
      "717 logements en 2023 (567 en 2017) ; résidences principales 89,2 %, résidences secondaires et occasionnels 2,5 %, vacants 8,3 % (10,4 % en 2017)",
-     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (03/09/2026)"
     ],
     [
      "Position par rapport au parc et aux communes voisines",
@@ -67,12 +67,12 @@
     [
      "Transports en commun",
      "aucune gare sur la commune ; lignes de bus 2223, 2233 et 2263 du réseau Marne-la-Vallée (Île-de-France Mobilités) vers Chessy et Esbly.",
-     "Wikipedia (fiche commune, source IDFM) ; Moovit (2026-09-03)"
+     "Wikipedia (fiche commune, source IDFM) ; Moovit (03/09/2026)"
     ],
     [
      "Canal de Meaux à Chalifert et bords de Marne",
      "canal de 12,6 km construit de 1837 à 1846, 3 écluses (Meaux, Lesches, Chalifert), tunnel-canal de 294 m sous la butte de Chalifert, toujours en activité (péniches de granulats).",
-     "Inventaire du patrimoine Île-de-France ; Wikipedia ; lesblygeois.fr (viaduc, blog local) (2024-07-12)"
+     "Inventaire du patrimoine Île-de-France ; Wikipedia ; lesblygeois.fr (viaduc, blog local) (12/07/2024)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -83,7 +83,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Chalifert",
-   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle de droit commun rappelée par l'office de tourisme de Marne et Gondoire : résidence principale limitée à 120 jours par an, résidence secondaire louable sans limite de durée dès lors que la déclaration en mairie est faite.\n- **Numéro d'enregistrement** : non exigé à ce jour. Pas de numéro d'enregistrement au 03/09/2026. Déclaration en mairie par cerfa 14004*04, récépissé transmis à Marne et Gondoire pour la taxe de séjour.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix HT par personne et par nuitée ; 11,375 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,60 EUR, soit 14,95 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/) et [document de référence](https://www.chalifert.fr/?s=meubl%C3%A9)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : Règle de droit commun rappelée par l'office de tourisme de Marne et Gondoire : résidence principale limitée à 120 jours par an, résidence secondaire louable sans limite de durée dès lors que la déclaration en mairie est faite.\n- **Numéro d'enregistrement** : non exigé à ce jour. Pas de numéro d'enregistrement au 03/09/2026. Déclaration en mairie par cerfa 14004*04, récépissé transmis à Marne et Gondoire pour la taxe de séjour.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix HT par personne et par nuitée ; 11,375 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,60 €, soit 14,95 € toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/) et [document de référence](https://www.chalifert.fr/?s=meubl%C3%A9)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",

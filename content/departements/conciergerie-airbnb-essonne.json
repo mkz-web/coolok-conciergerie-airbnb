@@ -76,19 +76,19 @@
      "Évry-Courcouronnes",
      "Autorisation temporaire de 2 ans, sans compensation, 2 autorisations par personne, diagnostic A à E, numéro à 13 chiffres, depuis le 1er janvier 2026",
      "120 jours par année civile",
-     "11,375 % du coût hors taxes par personne et par nuit, plafond 7,80 EUR (Grand Paris Sud)"
+     "11,375 % du coût hors taxes par personne et par nuit, plafond 7,80 € (Grand Paris Sud)"
     ],
     [
      "Massy",
      "Aucune autorisation trouvée après quatre recherches indépendantes ; commune en zone tendue, donc susceptible de délibérer à tout moment",
      "120 jours par année civile",
-     "16,25 % du coût hors taxes par personne et par nuit, plafond 9,75 EUR"
+     "16,25 % du coût hors taxes par personne et par nuit, plafond 9,75 €"
     ],
     [
      "Athis-Mons",
      "Autorisation temporaire de 3 ans, renouvelable dans la limite de 9 ans, sans compensation, 3 logements au plus par propriétaire, depuis le 1er janvier 2025",
      "120 jours par année civile",
-     "9,75 % du coût hors taxes par personne et par nuit (3 % voté), plafond 14,95 EUR"
+     "9,75 % du coût hors taxes par personne et par nuit (3 % voté), plafond 14,95 €"
     ],
     [
      "Toute autre commune du département",
@@ -138,7 +138,7 @@
   },
   {
    "q": "Quelle taxe de séjour paie-t-on en Essonne ?",
-   "a": "Elle est votée par la commune ou son agglomération, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 11,375 % du coût hors taxes de la nuitée dans les quatorze communes essonniennes de Grand Paris Sud, plafonné à 7,80 EUR par personne, et 16,25 % à Massy, plafonné à 9,75 EUR (fichier DELTA de la DGFiP au 1er janvier 2026)."
+   "a": "Elle est votée par la commune ou son agglomération, puis majorée de 225 % de taxes additionnelles franciliennes. Un meublé non classé supporte 11,375 % du coût hors taxes de la nuitée dans les quatorze communes essonniennes de Grand Paris Sud, plafonné à 7,80 € par personne, et 16,25 % à Massy, plafonné à 9,75 € (fichier DELTA de la DGFiP au 1er janvier 2026)."
   }
  ],
  "keywords": [

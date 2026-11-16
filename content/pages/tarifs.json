@@ -42,14 +42,14 @@
    "intro": "Les revenus ci-dessous sont des ordres de grandeur construits sur les prix de liste relevés sur Airbnb le 3 septembre 2026 (sept nuits en octobre, logements entiers, frais inclus) et sur un taux d'occupation de 65 %, valeur observée sur nos zones. Ce ne sont pas des promesses : votre audit chiffré part de votre logement réel.",
    "head": ["Ligne", "T2 à Serris (Val d'Europe)", "T3 à Vincennes (94)"],
    "rows": [
-    ["Prix moyen par nuit retenu", "115 EUR", "120 EUR"],
+    ["Prix moyen par nuit retenu", "115 €", "120 €"],
     ["Nuits louées sur le mois", "20", "19"],
-    ["Revenus locatifs du mois", "2 300 EUR", "2 280 EUR"],
-    ["Commission Coolok, 20 % HT", "460 EUR HT", "456 EUR HT"],
-    ["Ménage (refacturé au voyageur)", "0 EUR pour vous", "0 EUR pour vous"],
-    ["Reste avant frais de plateforme, TVA sur la commission, charges et impôts", "1 840 EUR", "1 824 EUR"]
+    ["Revenus locatifs du mois", "2 300 €", "2 280 €"],
+    ["Commission Coolok, 20 % HT", "460 € HT", "456 € HT"],
+    ["Ménage (refacturé au voyageur)", "0 € pour vous", "0 € pour vous"],
+    ["Reste avant frais de plateforme, TVA sur la commission, charges et impôts", "1 840 €", "1 824 €"]
    ],
-   "source": "Calcul indicatif MKZ Consulting pour Coolok, 3 septembre 2026. Prix de liste médians relevés sur Airbnb, toutes tailles : Serris 125 EUR, Vincennes 112 EUR par nuit frais inclus ; prix retenus ici par hypothèse selon le logement, hors frais de ménage. Hors charges de copropriété, énergie, assurance, fiscalité. Ces revenus, tirés de prix affichés, sont pris comme base de la commission sans en retirer les frais de plateforme. Si vous ne récupérez pas la TVA, la commission s'élève alors à 552 EUR TTC à Serris et 547,20 EUR TTC à Vincennes."
+   "source": "Calcul indicatif MKZ Consulting pour Coolok, 3 septembre 2026. Prix de liste médians relevés sur Airbnb, toutes tailles : Serris 125 €, Vincennes 112 € par nuit frais inclus ; prix retenus ici par hypothèse selon le logement, hors frais de ménage. Hors charges de copropriété, énergie, assurance, fiscalité. Ces revenus, tirés de prix affichés, sont pris comme base de la commission sans en retirer les frais de plateforme. Si vous ne récupérez pas la TVA, la commission s'élève alors à 552 € TTC à Serris et 547,20 € TTC à Vincennes."
   },
   {
    "type": "checklist",

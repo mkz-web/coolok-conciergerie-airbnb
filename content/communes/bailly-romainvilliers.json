@@ -30,7 +30,7 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Bailly-Romainvilliers (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 145 € la nuit, avec un taux d'occupation observé de 67 à 78 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Bailly-Romainvilliers (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 145 € la nuit, avec un taux d'occupation observé de 67 à 78 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Zone hôtelière, accès A4, clientèle en voiture",
  "sections": [
   {
@@ -53,27 +53,27 @@
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
      "6 980 habitants (population totale 7 061) ; 7 049 en 2022, 7 564 en 2016 ; l'une des plus fortes décroissances du 77 parmi les communes de plus de 2 000 habitants (-1,2 % par an).",
-     "INSEE, populations de référence 2023 ; note PopRef 2023 Seine-et-Marne (2025-12-29)"
+     "INSEE, populations de référence 2023 ; note PopRef 2023 Seine-et-Marne (29/12/2025)"
     ],
     [
      "Part des résidences secondaires et logements occasionnels",
      "31,7 % en 2023 contre 7,6 % en 2017 ; résidences principales 62,1 % ; vacants 6,3 % ; 4 463 logements en 2023 (3 171 en 2017).",
-     "INSEE, dossier complet commune (LOG T1, LOG T2) (2025-09-02)"
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (02/09/2025)"
     ],
     [
      "Hébergement touristique au 1er janvier 2025",
      "2 hôtels 3 étoiles (177 chambres) ; 1 camping 3 étoiles de 584 emplacements ; 3 résidences de tourisme et assimilées totalisant 7 673 places-lits (chiffre stable depuis 2023)",
-     "INSEE, dossier complet commune (tourisme 2025) et page Tourisme 2023 (2025-09-02)"
+     "INSEE, dossier complet commune (tourisme 2025) et page Tourisme 2023 (02/09/2025)"
     ],
     [
      "Center Parcs Villages Nature Paris (rue du Pré des Merlans, à cheval sur Bailly-Romainvilliers et Villeneuve-le-Comte)",
      "1 061 hébergements après l'extension de 2025 (193 nouveaux cottages dont 85 premium ; 34 % de la gamme en VIP) ; 868 à l'ouverture en 2017.",
-     "L'Écho touristique ; Mesinfos ; Disneyland Paris FAQ ; Wikipedia (2025-07-07)"
+     "L'Écho touristique ; Mesinfos ; Disneyland Paris FAQ ; Wikipedia (07/07/2025)"
     ],
     [
      "Hôtels de la commune (liste mairie)",
      "Marriott's Village d'Île-de-France (allée de l'Orme Rond, villas, 185 unités, ouvert en 2003).",
-     "Mairie de Bailly-Romainvilliers (page Hôtels) ; Expedia (Marriott 185) (2024-09-09)"
+     "Mairie de Bailly-Romainvilliers (page Hôtels) ; Expedia (Marriott 185) (09/09/2024)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -84,7 +84,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Bailly-Romainvilliers",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,90 EUR, soit 15,93 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : 120 jours par année civile (pas de délibération abaissant ce plafond à 90 jours)\n- **Numéro d'enregistrement** : obligatoire, à obtenir sur le téléservice Déclaloc (communal, via Val d'Europe Agglomération)\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,90 €, soit 15,93 € toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.valdeuropeagglo.fr/foire-aux-questions-2/) et [document de référence](https://valdeurope.taxesejour.fr/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",

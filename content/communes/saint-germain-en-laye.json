@@ -28,7 +28,7 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Germain-en-Laye (78) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 100 à 220 € la nuit, avec un taux d'occupation observé de 69 à 79 %, soit 2 100 à 5 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Saint-Germain-en-Laye (78) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 100 à 220 € la nuit, avec un taux d'occupation observé de 69 à 79 %, soit 2 100 à 5 200 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Familles internationales et séjours de plusieurs semaines",
  "sections": [
   {
@@ -50,7 +50,7 @@
    "rows": [
     [
      "Population municipale",
-     "45 931 habitants en 2023 ; densité 884 hab/km2 (forêt de 3 500 ha) ; 22 547 logements ; 4,2 % de résidences secondaires ; 49,1 % de propriétaires ; niveau de vie médian 37 970 EUR",
+     "45 931 habitants en 2023 ; densité 884 hab/km² (forêt de 3 500 ha) ; 22 547 logements ; 4,2 % de résidences secondaires ; 49,1 % de propriétaires ; niveau de vie médian 37 970 €",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -71,7 +71,7 @@
     [
      "Sciences Po Saint-Germain-en-Laye (IEP, 5 rue Pasteur, quartier Pereire)",
      "1 100 étudiants en 2025-2026 (82 en 2014), objectif 1 400 ; 100 places au concours commun 2025 ; résidences étudiantes de la Lisière Pereire (100 logements conventionnés)",
-     "Sciences Po Saint-Germain-en-Laye (page relue) (09/04/2026)"
+     "Sciences Po Saint-Germain-en-Laye (09/04/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -82,7 +82,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Saint-Germain-en-Laye",
-   "md": "- **Changement d'usage** : non (aucune délibération trouvée)\n- **Compensation** : sans objet\n- **Si vous louez votre résidence principale** : 120 jours (règle nationale L324-1-1 IV, rappelée par l'office de tourisme) ; aucune délibération à 90 jours trouvée\n- **À prévoir dans votre dossier** : déclaration cerfa 14004 à la mairie pour toute résidence secondaire (sauf résidence principale louée moins de 120 jours) ; [DPE](/blog/dpe-airbnb) et règles de copropriété nationales\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/saintgermainbouclesdeseine.php) et [document de référence](https://taxe.3douest.com/includes/download/bWHfxK-Tarifs-taxe-sejour-2025-casgbs-hors-Bezons.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non (aucune autorisation instaurée au relevé du 3 septembre 2026)\n- **Compensation** : sans objet\n- **Si vous louez votre résidence principale** : 120 jours (règle nationale L324-1-1 IV, rappelée par l'office de tourisme) ; aucun abaissement à 90 jours au relevé du 3 septembre 2026\n- **À prévoir dans votre dossier** : déclaration cerfa 14004 à la mairie pour toute résidence secondaire (sauf résidence principale louée moins de 120 jours) ; [DPE](/blog/dpe-airbnb) et règles de copropriété nationales\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/saintgermainbouclesdeseine.php) et [document de référence](https://taxe.3douest.com/includes/download/bWHfxK-Tarifs-taxe-sejour-2025-casgbs-hors-Bezons.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -99,12 +99,12 @@
     {
      "icon": "home",
      "title": "Le centre historique",
-     "text": "Ourches et Armagis dépassent 8 600 EUR le mètre carré (Figaro Immobilier, 1er août 2026). Marché, commerces et RER à pied : c'est l'adresse que recherchent les familles en installation."
+     "text": "Ourches et Armagis dépassent 8 600 € le mètre carré (Figaro Immobilier, 1er août 2026). Marché, commerces et RER à pied : c'est l'adresse que recherchent les familles en installation."
     },
     {
      "icon": "map",
      "title": "La lisière de forêt",
-     "text": "Face aux 3 500 hectares du massif domanial, à 8 518 EUR le mètre carré. Un cadre calme et vert qui justifie un tarif au mois plus élevé sur les longs séjours."
+     "text": "Face aux 3 500 hectares du massif domanial, à 8 518 € le mètre carré. Un cadre calme et vert qui justifie un tarif au mois plus élevé sur les longs séjours."
     },
     {
      "icon": "train",
@@ -170,7 +170,7 @@
  "faq": [
   {
    "q": "Combien rapporte un meublé en courte durée à Saint-Germain-en-Laye ?",
-   "a": "Notre fiche de marché situe la nuitée entre 100 et 220 EUR et le revenu mensuel entre 2 100 et 5 200 EUR, pour une occupation de 69 à 79 % (source AirDNA croisée plateformes, relevé du 9 juillet 2026). Sur ce marché, un tarif au mois bien construit rapporte souvent davantage qu'une addition de nuits isolées : l'audit compare les deux."
+   "a": "Notre fiche de marché situe la nuitée entre 100 et 220 € et le revenu mensuel entre 2 100 et 5 200 €, pour une occupation de 69 à 79 % (source AirDNA croisée plateformes, relevé du 9 juillet 2026). Sur ce marché, un tarif au mois bien construit rapporte souvent davantage qu'une addition de nuits isolées : l'audit compare les deux."
   },
   {
    "q": "Faut-il une autorisation pour louer en courte durée à Saint-Germain-en-Laye ?",
@@ -178,7 +178,7 @@
   },
   {
    "q": "Quelle taxe de séjour à Saint-Germain-en-Laye ?",
-   "a": "La taxe est intercommunale. Pour un meublé non classé, la part locale s'élève à 3 % du prix hors taxes de la nuitée par personne, et non 5 % comme dans la plupart de nos communes, avec un plafond de 4,00 EUR de part locale et de 13,00 EUR au total. Un classement trois étoiles ramène le prélèvement à 4,88 EUR."
+   "a": "La taxe est intercommunale. Pour un meublé non classé, la part locale s'élève à 3 % du prix hors taxes de la nuitée par personne, et non 5 % comme dans la plupart de nos communes, avec un plafond de 4,00 € de part locale et de 13,00 € au total. Un classement trois étoiles ramène le prélèvement à 4,88 €."
   },
   {
    "q": "Vaut-il mieux viser des séjours d'un mois à Saint-Germain-en-Laye ?",

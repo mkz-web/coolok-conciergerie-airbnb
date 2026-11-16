@@ -28,14 +28,14 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Pantin (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 150 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 500 à 3 700 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Pantin (93) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 150 € la nuit, avec un taux d'occupation observé de 72 à 82 %, soit 1 500 à 3 700 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Bureaux du canal, spectacles à deux stations",
  "sections": [
   {
    "type": "rich",
    "bg": "white",
    "h2": "Un marché tiré par les bureaux et les salles",
-   "md": "Les Grands Moulins accueillent 3 000 salariés de BNP Paribas Securities Services dans 50 000 mètres carrés réhabilités (Le Figaro Immobilier, juillet 2015). Hermès y est implanté depuis 1992 avec une cité des métiers de 26 000 mètres carrés, Chanel y a installé un pôle de recherche parfums et beauté, l'agence BETC occupe les Magasins généraux. Ajoutez la porte de Pantin à deux stations : la Philharmonie de Paris a reçu 1 655 563 personnes en 2025, sa meilleure année depuis 2015 (établissement, janvier 2026), et La Villette 2,59 millions de visiteurs en 2024.\n\nCe voisinage produit une demande de semaine, courte et régulière : une à trois nuits, souvent réservées à moins de dix jours, parfois par un service achats. Le week-end se joue autrement, sur les spectacles et sur une clientèle qui veut Paris à prix contenu, avec Gare du Nord à douze minutes par la ligne 5 et Haussmann-Saint-Lazare à sept minutes par le RER E.\n\nEn exploitation, trois exigences reviennent : une arrivée possible après vingt-trois heures pour les sorties de concert, un vrai poste de travail avec une connexion testée, et une facturation propre quand l'entreprise paie. Les écarts de prix internes le confirment : 6 477 EUR le mètre carré vers Ourcq-Hoche contre 4 702 EUR aux Quatre Chemins-Diderot (Figaro Immobilier, 1er août 2026)."
+   "md": "Les Grands Moulins accueillent 3 000 salariés de BNP Paribas Securities Services dans 50 000 mètres carrés réhabilités (Le Figaro Immobilier, juillet 2015). Hermès y est implanté depuis 1992 avec une cité des métiers de 26 000 mètres carrés, Chanel y a installé un pôle de recherche parfums et beauté, l'agence BETC occupe les Magasins généraux. Ajoutez la porte de Pantin à deux stations : la Philharmonie de Paris a reçu 1 655 563 personnes en 2025, sa meilleure année depuis 2015 (établissement, janvier 2026), et La Villette 2,59 millions de visiteurs en 2024.\n\nCe voisinage produit une demande de semaine, courte et régulière : une à trois nuits, souvent réservées à moins de dix jours, parfois par un service achats. Le week-end se joue autrement, sur les spectacles et sur une clientèle qui veut Paris à prix contenu, avec Gare du Nord à douze minutes par la ligne 5 et Haussmann-Saint-Lazare à sept minutes par le RER E.\n\nEn exploitation, trois exigences reviennent : une arrivée possible après vingt-trois heures pour les sorties de concert, un vrai poste de travail avec une connexion testée, et une facturation propre quand l'entreprise paie. Les écarts de prix internes le confirment : 6 477 € le mètre carré vers Ourcq-Hoche contre 4 702 € aux Quatre Chemins-Diderot (Figaro Immobilier, 1er août 2026)."
   },
   {
    "type": "table",
@@ -50,7 +50,7 @@
    "rows": [
     [
      "Population municipale",
-     "61 929 habitants en 2023 ; densité 12 361 hab/km2 ; 28 931 logements ; 2,9 % de résidences secondaires ; 27,2 % de propriétaires ; niveau de vie médian 21 820 EUR",
+     "61 929 habitants en 2023 ; densité 12 361 hab/km² ; 28 931 logements ; 2,9 % de résidences secondaires ; 27,2 % de propriétaires ; niveau de vie médian 21 820 €",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -60,12 +60,12 @@
     ],
     [
      "Prix immobilier",
-     "Médian tous biens 5 967 EUR/m2 (-4 % sur 1 an, -5 % sur 5 ans), ancien 5 690, neuf 6 128 ; loyer médian 26 EUR/m2",
+     "Médian tous biens 5 967 €/m² (-4 % sur 1 an, -5 % sur 5 ans), ancien 5 690, neuf 6 128 ; loyer médian 26 €/m²",
      "Figaro Immobilier (estimations au 01/08/2026)"
     ],
     [
      "Hiérarchie des quartiers par prix",
-     "Ourcq-Hoche 6 477 EUR/m2, Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Haut Pantin-Charles Auray 5 848, Quatre Chemins-Jaurès 5 392, Quatre Chemins-Diderot 4 702, Courtillières 4 585.",
+     "Ourcq-Hoche 6 477 €/m², Petit Pantin-Haut Pantin 6 316, Église-Sept Arpents 6 098, Mairie-Ourcq 6 078, Haut Pantin-Charles Auray 5 848, Quatre Chemins-Jaurès 5 392, Quatre Chemins-Diderot 4 702, Courtillières 4 585.",
      "Figaro Immobilier, prix par quartier (estimations au 01/08/2026)"
     ],
     [
@@ -82,7 +82,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Pantin",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : non : la page de la Ville écrit que la procédure d'autorisation avec compensation n'est pas appliquée à Pantin\n- **Si vous louez votre résidence principale** : 120 jours (page mairie et règlement EPT) ; aucune délibération à 90 jours trouvée ; le règlement Est Ensemble lu le 03/09/2026 confirme les 120 jours (autorisation exigée au-delà de 120 jours pour une résidence principale).\n- **À prévoir dans votre dossier** : formulaire de changement d'usage 2025, plan du local, titre de propriété, [DPE](/blog/dpe-airbnb), attestation sur l'honneur de conformité au règlement de copropriété, Kbis pour une société ; interdiction dans le parc social\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://pratique.pantin.fr/commerces-entreprises-et-artisanat-dart/developpement-economique/meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non, la page de la Ville indique que la procédure d'autorisation avec compensation n'est pas appliquée à Pantin\n- **Si vous louez votre résidence principale** : 120 jours (page mairie et règlement EPT) ; aucun abaissement à 90 jours au relevé du 3 septembre 2026 ; le règlement d'Est Ensemble confirme les 120 jours (autorisation exigée au-delà de 120 jours pour une résidence principale).\n- **À prévoir dans votre dossier** : formulaire de changement d'usage 2025, plan du local, titre de propriété, [DPE](/blog/dpe-airbnb), attestation sur l'honneur de conformité au règlement de copropriété, Kbis pour une société ; interdiction dans le parc social\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://pratique.pantin.fr) et [document de référence](https://pratique.pantin.fr/commerces-entreprises-et-artisanat-dart/developpement-economique/meubles-de-tourisme)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -99,7 +99,7 @@
     {
      "icon": "map",
      "title": "Les berges du canal et Hoche",
-     "text": "Le secteur le mieux valorisé de la commune (6 477 EUR le mètre carré à Ourcq-Hoche, Figaro Immobilier, 1er août 2026), au pied des bureaux et des lieux culturels des anciens entrepôts."
+     "text": "Le secteur le mieux valorisé de la commune (6 477 € le mètre carré à Ourcq-Hoche, Figaro Immobilier, 1er août 2026), au pied des bureaux et des lieux culturels des anciens entrepôts."
     },
     {
      "icon": "train",
@@ -170,7 +170,7 @@
  "faq": [
   {
    "q": "Combien peut rapporter un appartement à Pantin en courte durée ?",
-   "a": "Nos données de marché, relevées le 9 juillet 2026 auprès d'AirDNA et recoupées avec les plateformes, donnent une nuitée de 70 à 150 EUR, un remplissage de 72 à 82 % et un revenu mensuel de 1 500 à 3 700 EUR. Sur un marché de semaine, le nombre de nuits vendues pèse bien plus lourd que le tarif affiché un samedi de juillet."
+   "a": "Nos données de marché, relevées le 9 juillet 2026 auprès d'AirDNA et recoupées avec les plateformes, donnent une nuitée de 70 à 150 €, un remplissage de 72 à 82 % et un revenu mensuel de 1 500 à 3 700 €. Sur un marché de semaine, le nombre de nuits vendues pèse bien plus lourd que le tarif affiché un samedi de juillet."
   },
   {
    "q": "Faut-il un numéro d'enregistrement pour louer à Pantin ?",
@@ -182,7 +182,7 @@
   },
   {
    "q": "Quelle est la taxe de séjour à Pantin en 2026 ?",
-   "a": "Le conseil municipal du 26 juin 2025 a fixé pour un meublé non classé 5 % du coût hors taxes de la nuitée par personne, dans la limite de 4,90 EUR de part communale, soit jusqu'à 15,93 EUR avec les taxes additionnelles départementale, Grand Paris et transports. Un meublé classé trois étoiles revient à 5,53 EUR par personne et par nuit."
+   "a": "Le conseil municipal du 26 juin 2025 a fixé pour un meublé non classé 5 % du coût hors taxes de la nuitée par personne, dans la limite de 4,90 € de part communale, soit jusqu'à 15,93 € avec les taxes additionnelles départementale, Grand Paris et transports. Un meublé classé trois étoiles revient à 5,53 € par personne et par nuit."
   },
   {
    "q": "Les concerts de la Philharmonie profitent-ils vraiment aux logements de Pantin ?",

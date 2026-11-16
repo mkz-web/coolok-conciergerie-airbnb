@@ -13,7 +13,7 @@
  "imageHeight": 674,
  "hero": {
   "eyebrow": "Hauts-de-Seine, Paris Expo porte de Versailles",
-  "lead": "Le parc des expositions de la porte de Versailles reçoit plus de 5,5 millions de visiteurs et plus de 200 événements par an (Viparis, page relue le 3 septembre 2026), et son pavillon 7 se trouve pour l'essentiel sur le territoire de Vanves. Ici, la demande n'est pas une saison : c'est un calendrier."
+  "lead": "Le parc des expositions de la porte de Versailles reçoit plus de 5,5 millions de visiteurs et plus de 200 événements par an (Viparis, consulté le 3 septembre 2026), et son pavillon 7 se trouve pour l'essentiel sur le territoire de Vanves. Ici, la demande n'est pas une saison : c'est un calendrier."
  },
  "data": {
   "prix_nuitee": "85 à 170 €",
@@ -28,14 +28,14 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Vanves (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 85 à 170 € la nuit, avec un taux d'occupation observé de 73 à 83 %, soit 1 800 à 4 200 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Vanves (92) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 85 à 170 € la nuit, avec un taux d'occupation observé de 73 à 83 %, soit 1 800 à 4 200 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "Le calendrier des salons du parc",
  "sections": [
   {
    "type": "rich",
    "bg": "white",
    "h2": "Un marché qui se lit dans l'agenda des salons",
-   "md": "Le site totalise 169 400 mètres carrés d'exposition sur cinq pavillons et un centre de conférences de 70 163 mètres carrés, le plus grand d'Europe. La conséquence est visible dans les prix immobiliers de la commune : le quartier du parc des expositions y est le plus cher, à 8 781 EUR le mètre carré, loin devant le reste du territoire (Figaro Immobilier, 1er août 2026). Autre signal, la commune affiche 5,3 % de résidences secondaires et de logements occasionnels, le taux le plus élevé des trois communes que nous exploitons dans les Hauts-de-Seine (INSEE, recensement 2023).\n\nCe que cela change pour vous est simple à énoncer et exigeant à exécuter : votre revenu dépend d'une trentaine de semaines identifiables à l'avance. Le Mondial de l'Auto se tient du 12 au 18 octobre 2026, la Paris Games Week du 22 au 25 octobre, le Salon du Chocolat du 28 octobre au 1er novembre, EquipHotel du 2 au 5 novembre, le Salon des Maires du 24 au 26 novembre. En 2027, le Salon de la plongée ouvre du 14 au 17 janvier, Wine Paris du 15 au 17 février et le Salon de l'Agriculture du 27 février au 7 mars.\n\nEn exploitation, cela suppose d'ouvrir tôt les dates concernées, de refuser les réservations longues à prix bas qui bloqueraient une semaine forte, et d'accueillir des exposants qui arrivent la veille du montage avec du matériel encombrant."
+   "md": "Le site totalise 169 400 mètres carrés d'exposition sur cinq pavillons et un centre de conférences de 70 163 mètres carrés, le plus grand d'Europe. La conséquence est visible dans les prix immobiliers de la commune : le quartier du parc des expositions y est le plus cher, à 8 781 € le mètre carré, loin devant le reste du territoire (Figaro Immobilier, 1er août 2026). Autre signal, la commune affiche 5,3 % de résidences secondaires et de logements occasionnels, le taux le plus élevé des trois communes que nous exploitons dans les Hauts-de-Seine (INSEE, recensement 2023).\n\nCe que cela change pour vous est simple à énoncer et exigeant à exécuter : votre revenu dépend d'une trentaine de semaines identifiables à l'avance. En 2026, le Mondial de l'Auto s'est tenu du 12 au 18 octobre, la Paris Games Week du 22 au 25 octobre, le Salon du Chocolat du 28 octobre au 1er novembre et EquipHotel du 2 au 5 novembre ; le Salon des Maires suit du 24 au 26 novembre. En 2027, le Salon de la plongée ouvre du 14 au 17 janvier, Wine Paris du 15 au 17 février et le Salon de l'Agriculture du 27 février au 7 mars.\n\nEn exploitation, cela suppose d'ouvrir tôt les dates concernées, de refuser les réservations longues à prix bas qui bloqueraient une semaine forte, et d'accueillir des exposants qui arrivent la veille du montage avec du matériel encombrant."
   },
   {
    "type": "table",
@@ -50,7 +50,7 @@
    "rows": [
     [
      "Population municipale",
-     "28 622 habitants en 2023 ; densité 18 347 hab/km2 ; 15 793 logements ; 5,3 % de résidences secondaires et logements occasionnels (le plus élevé de nos trois communes des Hauts-de-Seine) ; 47 % de propriétaires.",
+     "28 622 habitants en 2023 ; densité 18 347 hab/km² ; 15 793 logements ; 5,3 % de résidences secondaires et logements occasionnels (le plus élevé de nos trois communes des Hauts-de-Seine) ; 47 % de propriétaires.",
      "INSEE, RP2023 (consulté le 03/09/2026)"
     ],
     [
@@ -60,8 +60,8 @@
     ],
     [
      "Paris Expo Porte de Versailles (Viparis)",
-     "169 400 m2 d'exposition sur 5 pavillons (210 970 m2 sur 8 pavillons à l'horizon 2028), centre de conférences de 70 163 m2, 28 salles de conférence de 160 à 5 200 places.",
-     "Viparis (page relue) (relu le 03/09/2026)"
+     "169 400 m² d'exposition sur 5 pavillons (210 970 m² sur 8 pavillons à l'horizon 2028), centre de conférences de 70 163 m², 28 salles de conférence de 160 à 5 200 places.",
+     "Viparis (consulté le 03/09/2026)"
     ],
     [
      "Implantation du parc sur Vanves",
@@ -69,7 +69,7 @@
      "Wikipedia (citant Le Parisien, 16/05/2019) (consulté le 03/09/2026)"
     ],
     [
-     "Salons grand public 2026 (dates officielles)",
+     "Salons grand public tenus en 2026 (dates officielles)",
      "Toutankhamon jusqu'au 6 septembre 2026 ; Salon du Mariage 5 et 6 septembre 2026 ; Mondial de l'Auto du 12 au 18 octobre 2026 (91e édition, plus de 60 constructeurs, presse le 12).",
      "mondial.paris, parisgamesweek.com et salon-du-chocolat.com (pages organisateurs relues le 03/09/2026) ; Viparis agenda (Toutankhamon, Salon du Mariage) (relu le 03/09/2026)"
     ]
@@ -82,7 +82,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Vanves",
-   "md": "- **Changement d'usage** : oui\n- **Compensation** : non pour une personne physique dans la limite d'un logement ; oui au-delà d'un logement et pour toute personne morale (art. 5 du [règlement de Grand Paris Seine Ouest](https://www.seineouest.fr/app/uploads/2025/09/Reglement-changement-usage-GPSO.pdf) en vigueur depuis le 1er septembre 2025)\n- **Si vous louez votre résidence principale** : 90 jours depuis le 01/01/2026. Délibération lue intégralement le 03/09/2026 : point 7 du conseil municipal du 24/06/2025 (convocation du 18/06/2025), intitulé « Abaissement à 90 jours du nombre maximal de jours ».\n- **À prévoir dans votre dossier** : logement décent, pas de logement social, conventionné avec l'Anah ou aidé dans le cadre d'une opération programmée d'amélioration de l'habitat (sauf remboursement des aides) ; [DPE](/blog/dpe-airbnb) A à E (L631-10) ; attestation copropriété (L631-7-1 A)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/vanves.php) et [document de référence](https://www.vanves.fr/app/uploads/2025/07/LISTE-DES-DELIBERATIONS-CM-24-06-2025.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui\n- **Compensation** : non pour une personne physique dans la limite d'un logement ; oui au-delà d'un logement et pour toute personne morale (art. 5 du [règlement de Grand Paris Seine Ouest](https://www.seineouest.fr/app/uploads/2025/09/Reglement-changement-usage-GPSO.pdf) en vigueur depuis le 1er septembre 2025)\n- **Si vous louez votre résidence principale** : 90 jours depuis le 01/01/2026. Délibération du conseil municipal du 24 juin 2025 (point 7), intitulée « Abaissement à 90 jours du nombre maximal de jours ».\n- **À prévoir dans votre dossier** : logement décent, pas de logement social, conventionné avec l'Anah ou aidé dans le cadre d'une opération programmée d'amélioration de l'habitat (sauf remboursement des aides) ; [DPE](/blog/dpe-airbnb) A à E (L631-10) ; attestation copropriété (L631-7-1 A)\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://taxe.3douest.com/vanves.php) et [document de référence](https://www.vanves.fr/app/uploads/2025/07/LISTE-DES-DELIBERATIONS-CM-24-06-2025.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -99,7 +99,7 @@
     {
      "icon": "map",
      "title": "Autour du parc des expositions",
-     "text": "Le quartier le plus cher de la commune, à 8 781 EUR le mètre carré et 34 EUR de loyer mensuel au mètre carré (Figaro Immobilier, 1er août 2026). Marcher jusqu'au pavillon est ici l'argument numéro un."
+     "text": "Le quartier le plus cher de la commune, à 8 781 € le mètre carré et 34 € de loyer mensuel au mètre carré (Figaro Immobilier, 1er août 2026). Marcher jusqu'au pavillon est ici l'argument numéro un."
     },
     {
      "icon": "train",
@@ -170,7 +170,7 @@
  "faq": [
   {
    "q": "Combien rapporte une location courte durée à Vanves ?",
-   "a": "Notre fiche de marché situe la nuitée entre 85 et 170 EUR pour une occupation de 73 à 83 % et un revenu mensuel de 1 800 à 4 200 EUR (extraction AirDNA croisée plateformes du 9 juillet 2026). Le plafond de 90 jours applicable à une résidence principale depuis 2026 change fortement ce calcul : nous le refaisons avec vous dans l'audit rendu sous 48 heures."
+   "a": "Notre fiche de marché situe la nuitée entre 85 et 170 € pour une occupation de 73 à 83 % et un revenu mensuel de 1 800 à 4 200 € (extraction AirDNA croisée plateformes du 9 juillet 2026). Le plafond de 90 jours applicable à une résidence principale depuis 2026 change fortement ce calcul : nous le refaisons avec vous dans l'audit rendu sous 48 heures."
   },
   {
    "q": "Combien de jours par an peut-on louer sa résidence principale à Vanves ?",
@@ -182,7 +182,7 @@
   },
   {
    "q": "Quelle taxe de séjour s'applique à Vanves ?",
-   "a": "La délibération du 25 juin 2024 fixe pour un meublé non classé 5 % du coût de la nuitée par personne, dans la limite du tarif le plus élevé voté par la commune, soit 4,80 EUR de part communale et jusqu'à 15,60 EUR une fois ajoutés les 225 % de taxes additionnelles. Un classement trois étoiles ramène le total à 5,53 EUR."
+   "a": "La délibération du 25 juin 2024 fixe pour un meublé non classé 5 % du coût de la nuitée par personne, dans la limite du tarif le plus élevé voté par la commune, soit 4,80 € de part communale et jusqu'à 15,60 € une fois ajoutés les 225 % de taxes additionnelles. Un classement trois étoiles ramène le total à 5,53 €."
   },
   {
    "q": "Mon studio à Vanves se loue-t-il en dehors des salons ?",

@@ -22,7 +22,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Ce qui nourrit la demande dans les Hauts-de-Seine",
-   "md": "Ici, la demande vient du travail et des salons, pas du tourisme de loisirs. Clichy comptait 39 130 emplois pour 64 410 habitants au recensement INSEE 2023, avec le siège mondial de L'Oréal, les sièges français d'Amazon, de BIC et de Monoprix, et l'hôpital Beaujon et ses 370 lits. Vanves accueille sur son territoire le Pavillon 7 du parc des expositions de la porte de Versailles, dont l'exploitant Viparis annonce plus de 5,5 millions de visiteurs et plus de 200 événements par an sur l'ensemble du site. Asnières-sur-Seine, troisième ville du département avec 93 941 habitants, joue une autre carte : Paris Saint-Lazare en 5 minutes, La Défense en 5 minutes, et jusqu'à 24 trains par heure aux heures de pointe.\n\nPour un propriétaire, le ticket d'entrée diffère fortement. Le mètre carré médian tous biens s'établissait à 8 053 EUR à Clichy au 1er août 2026 selon Figaro Immobilier, contre un marché plus abordable à Asnières. Vanves affiche par ailleurs 5,3 % de résidences secondaires et de logements occasionnels au recensement INSEE 2023, la part la plus élevée des trois communes que nous exploitons dans le département.\n\nDans l'exploitation, tout se joue sur le règlement de votre territoire. Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation (sauf à Colombes et à Gennevilliers, où la compensation s'applique dès le premier logement), mais l'impose au-delà et pour toute société, société civile immobilière comprise. Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux pour tout meublé, et limite ailleurs l'autorisation à trois ans (un an à Marnes-la-Coquette), toute reconduction passant par une nouvelle demande."
+   "md": "Ici, la demande vient du travail et des salons, pas du tourisme de loisirs. Clichy comptait 39 130 emplois pour 64 410 habitants au recensement INSEE 2023, avec le siège mondial de L'Oréal, les sièges français d'Amazon, de BIC et de Monoprix, et l'hôpital Beaujon et ses 370 lits. Vanves accueille sur son territoire le Pavillon 7 du parc des expositions de la porte de Versailles, dont l'exploitant Viparis annonce plus de 5,5 millions de visiteurs et plus de 200 événements par an sur l'ensemble du site. Asnières-sur-Seine, troisième ville du département avec 93 941 habitants, joue une autre carte : Paris Saint-Lazare en 5 minutes, La Défense en 5 minutes, et jusqu'à 24 trains par heure aux heures de pointe.\n\nPour un propriétaire, le ticket d'entrée diffère fortement. Le mètre carré médian tous biens s'établissait à 8 053 € à Clichy au 1er août 2026 selon Figaro Immobilier, contre un marché plus abordable à Asnières. Vanves affiche par ailleurs 5,3 % de résidences secondaires et de logements occasionnels au recensement INSEE 2023, la part la plus élevée des trois communes que nous exploitons dans le département.\n\nDans l'exploitation, tout se joue sur le règlement de votre territoire. Boucle Nord de Seine autorise depuis le 1er octobre 2021 un logement par personne physique sans compensation (sauf à Colombes et à Gennevilliers, où la compensation s'applique dès le premier logement), mais l'impose au-delà et pour toute société, société civile immobilière comprise. Grand Paris Seine Ouest impose la compensation à Boulogne-Billancourt et à Issy-les-Moulineaux pour tout meublé, et limite ailleurs l'autorisation à trois ans (un an à Marnes-la-Coquette), toute reconduction passant par une nouvelle demande."
   },
   {
    "type": "table",
@@ -42,21 +42,21 @@
      "80 à 160 €",
      "76 à 86 %",
      "1 800 à 4 100 €",
-     "MODÉRÉ"
+     "Modéré"
     ],
     [
      "[Vanves](/conciergerie-airbnb-vanves)",
      "85 à 170 €",
      "73 à 83 %",
      "1 800 à 4 200 €",
-     "RESTRICTIF"
+     "Restrictif"
     ],
     [
      "[Asnières-sur-Seine](/conciergerie-airbnb-asnieres-sur-seine)",
      "80 à 165 €",
      "72 à 82 %",
      "1 700 à 4 000 €",
-     "MODÉRÉ"
+     "Modéré"
     ]
    ],
    "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission. Colonne Régime : relevé réglementaire Coolok du 3 septembre 2026."
@@ -187,7 +187,7 @@
  "faq": [
   {
    "q": "Combien rapporte une location courte durée dans les Hauts-de-Seine ?",
-   "a": "Nos observations situent le revenu mensuel d'un logement entier entre 1 800 et 4 100 EUR à Clichy, entre 1 800 et 4 200 EUR à Vanves et entre 1 700 et 4 000 EUR à Asnières-sur-Seine. Ces fourchettes dépendent surtout de la capacité d'accueil et du taux d'occupation réel. Nous chiffrons votre bien précisément dans un audit remis sous 48 heures."
+   "a": "Nos observations situent le revenu mensuel d'un logement entier entre 1 800 et 4 100 € à Clichy, entre 1 800 et 4 200 € à Vanves et entre 1 700 et 4 000 € à Asnières-sur-Seine. Ces fourchettes dépendent surtout de la capacité d'accueil et du taux d'occupation réel. Nous chiffrons votre bien précisément dans un audit remis sous 48 heures."
   },
   {
    "q": "Faut-il une autorisation pour louer en meublé de tourisme dans les Hauts-de-Seine ?",

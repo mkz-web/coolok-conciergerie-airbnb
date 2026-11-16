@@ -29,7 +29,7 @@
   },
   "source": "Fourchettes observées par Coolok sur les logements entiers de la commune : données de marché AirDNA croisées avec les plateformes de réservation, extraction du 9 juillet 2026. Estimations indicatives, hors charges et commission."
  },
- "dataIntro": "Coolok exploite votre meublé de tourisme à Bussy-Saint-Georges (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 140 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 21 avis au 2 septembre 2026, audit chiffré sous 48 h.",
+ "dataIntro": "Coolok exploite votre meublé de tourisme à Bussy-Saint-Georges (77) depuis Joinville-le-Pont, pour une commission unique de 20 % HT tout compris, payée au résultat. Les logements entiers de la commune se louent de 70 à 140 € la nuit, avec un taux d'occupation observé de 70 à 80 %, soit 1 400 à 3 400 € par mois. Note Google 4,8 sur 5 pour 22 avis au 11 octobre 2026, audit chiffré sous 48 h.",
  "linkText": "RER A, prix d'entrée, demande double",
  "sections": [
   {
@@ -52,27 +52,27 @@
     [
      "Population municipale 2023 (en vigueur au 1er janvier 2026)",
      "27 498 habitants (population totale 27 798) ; commune la plus peuplée de la communauté d'agglomération de Marne et Gondoire ; +4,8 % en 10 ans",
-     "INSEE, populations de référence 2023 ; Wikipedia (rang dans l'agglo) (2025-12-29)"
+     "INSEE, populations de référence 2023 ; Wikipedia (rang dans l'agglo) (29/12/2025)"
     ],
     [
      "Parc de logements",
      "12 394 logements en 2023 ; résidences principales 92,8 %, résidences secondaires et occasionnels 2,6 % (1,1 % en 2017), vacants 4,6 %",
-     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-09-03)"
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (03/09/2026)"
     ],
     [
      "Capacité hôtelière au 1er janvier 2023",
      "4 hôtels, 434 chambres (2 hôtels 2 étoiles 250 chambres, 1 hôtel 3 étoiles 97, 1 hôtel 4 étoiles 87)",
-     "INSEE, Tourisme 2023 commune (2023-07-25)"
+     "INSEE, Tourisme 2023 commune (25/07/2023)"
     ],
     [
      "Gare RER A de Bussy-Saint-Georges",
      "3 298 143 voyageurs en 2019, 2 338 585 en 2021 (RATP) ; Châtelet-Les Halles en environ 35 min (mairie) ; Marne-la-Vallée Chessy en 6 à 7 min, un train toutes les 15 min (Rome2rio).",
-     "Mairie de Bussy-Saint-Georges ; RATP via Wikipedia ; Rome2rio (2025-02-14)"
+     "Mairie de Bussy-Saint-Georges ; RATP via Wikipedia ; Rome2rio (14/02/2025)"
     ],
     [
      "Écoquartier du Sycomore (est de la commune)",
      "117 ha, 4 500 logements à terme (dont au moins un quart de logements sociaux familiaux) pour environ 12 000 habitants, 12 ha de parcs autour de la ferme du Génitoy, bus à haut niveau de service.",
-     "Mairie (site officiel) ; avis IGEDD 2022 ; germe&JAM (2025-02-27)"
+     "Mairie (site officiel) ; avis IGEDD 2022 ; germe&JAM (27/02/2025)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -83,7 +83,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Bussy-Saint-Georges",
-   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : La location de la résidence principale (logement occupé au moins 8 mois par an) est autorisée moins de 120 jours par année civile, quelle que soit la localisation dans la ville.\n- **Numéro d'enregistrement** : non exigé à ce jour. Aucun numéro d'enregistrement communal au 03/09/2026. La déclaration se fait par cerfa 14004*04 en mairie, qui délivre un récépissé.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix HT par personne et par nuitée ; 11,375 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,60 EUR, soit 14,95 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/) et [document de référence](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : La location de la résidence principale (logement occupé au moins 8 mois par an) est autorisée moins de 120 jours par année civile, quelle que soit la localisation dans la ville.\n- **Numéro d'enregistrement** : non exigé à ce jour. Aucun numéro d'enregistrement communal au 03/09/2026. La déclaration se fait par cerfa 14004*04 en mairie, qui délivre un récépissé.\n- **Taxe de séjour 2026** (meublé non classé) : 3,50 % du prix HT par personne et par nuitée ; 11,375 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,60 €, soit 14,95 € toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.bussysaintgeorges.fr/mes-demarches/meubles-de-tourisme/) et [document de référence](https://www.marneetgondoire-tourisme.fr/fr/vous-etes-2/professionnel/hebergeurs/)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",

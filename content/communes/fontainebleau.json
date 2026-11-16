@@ -21,7 +21,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Trois moteurs de demande superposés, pas un seul",
-   "md": "Le domaine national a enregistré 2 062 850 visites en 2025, un record, dont 16 % de visiteurs étrangers (château de Fontainebleau, communiqué du 2 janvier 2026). Le massif forestier, lui, revendique environ 11 millions de visites par an et reste le plus fréquenté de France selon l'ONF : grimpeurs de bloc, marcheurs et coureurs se répartissent du printemps à l'automne. Le troisième moteur ne se voit pas depuis la rue. L'INSEAD forme environ 1 000 étudiants de MBA par an sur deux rentrées, en janvier et en août, et accueille des cadres en programme court (ressources presse de l'école, juillet 2025).\n\nPour un propriétaire, cela signifie trois calendriers empilés au lieu d'un. Les week-ends culturels et sportifs occupent les vendredis et samedis, les concours du Grand Parquet et les festivals de juin ajoutent des semaines entières, et les sessions de l'école produisent des séjours d'une à cinq semaines qui se règlent d'avance et demandent très peu de rotations. Peu de villes de la région cumulent ces trois sources.\n\nEn face, l'offre organisée reste étroite : 12 hôtels, 529 chambres, aucune résidence de tourisme et aucun camping sur la commune au 1er janvier 2025 (INSEE), alors que le Pays de Fontainebleau déclarait 630 000 nuitées en 2024 (Fontainebleau Tourisme, bilan publié en janvier 2025). Les prix affichés, eux, restent modestes : la médiane d'un logement entier ressortait à 79 EUR la nuit pour sept nuits en octobre 2026, frais inclus, sur 22 annonces relevées le 3 septembre 2026. L'enjeu ici n'est pas de trouver des voyageurs, c'est d'éviter qu'un bon deux-pièces se vende au prix d'un studio quelconque."
+   "md": "Le domaine national a enregistré 2 062 850 visites en 2025, un record, dont 16 % de visiteurs étrangers (château de Fontainebleau, communiqué du 2 janvier 2026). Le massif forestier, lui, revendique environ 11 millions de visites par an et reste le plus fréquenté de France selon l'ONF : grimpeurs de bloc, marcheurs et coureurs se répartissent du printemps à l'automne. Le troisième moteur ne se voit pas depuis la rue. L'INSEAD forme environ 1 000 étudiants de MBA par an sur deux rentrées, en janvier et en août, et accueille des cadres en programme court (ressources presse de l'école, juillet 2025).\n\nPour un propriétaire, cela signifie trois calendriers empilés au lieu d'un. Les week-ends culturels et sportifs occupent les vendredis et samedis, les concours du Grand Parquet et les festivals de juin ajoutent des semaines entières, et les sessions de l'école produisent des séjours d'une à cinq semaines qui se règlent d'avance et demandent très peu de rotations. Peu de villes de la région cumulent ces trois sources.\n\nEn face, l'offre organisée reste étroite : 12 hôtels, 529 chambres, aucune résidence de tourisme et aucun camping sur la commune au 1er janvier 2025 (INSEE), alors que le Pays de Fontainebleau déclarait 630 000 nuitées en 2024 (Fontainebleau Tourisme, bilan publié en janvier 2025). Les prix affichés, eux, restent modestes : la médiane d'un logement entier ressortait à 79 € la nuit pour sept nuits en octobre 2026, frais inclus, sur 22 annonces relevées le 3 septembre 2026. L'enjeu ici n'est pas de trouver des voyageurs, c'est d'éviter qu'un bon deux-pièces se vende au prix d'un studio quelconque."
   },
   {
    "type": "table",
@@ -37,27 +37,27 @@
     [
      "Population municipale 2023",
      "15 583 habitants (+4,68 % depuis 2017 ; 15 945 en 2021, 14 974 en 2015) ; sous-préfecture",
-     "INSEE, comparateur de territoires (2026-08-06)"
+     "INSEE, comparateur de territoires (06/08/2026)"
     ],
     [
      "Parc de logements",
      "9 680 logements en 2023 (9 111 en 2017) ; résidences principales 82,6 %, résidences secondaires et occasionnels 7,1 % (5,0 % en 2017), vacants 10,4 % (12,3 % en 2017)",
-     "INSEE, dossier complet commune (LOG T1, LOG T2) (2026-08-27)"
+     "INSEE, dossier complet commune (LOG T1, LOG T2) (27/08/2026)"
     ],
     [
      "Capacité hôtelière au 1er janvier 2025",
      "12 hôtels, 529 chambres (4 hôtels 4 étoiles 231 chambres, 3 hôtels 3 étoiles 165, 2 hôtels 2 étoiles 34, 3 non classés 99).",
-     "INSEE, Tourisme 2025 commune (2025-07-10)"
+     "INSEE, Tourisme 2025 commune (10/07/2025)"
     ],
     [
      "Château et domaine national de Fontainebleau, fréquentation 2025",
      "2 062 850 visites (château et jardins, +11 % vs 2024, record historique, 3e année de record consécutive) ; 595 350 visites dans le château (+2 %).",
-     "Château de Fontainebleau (communiqué du 02/01/2026) relayé par Club Innovation & Culture, News Tank Culture et Mesinfos (2026-02-20)"
+     "Château de Fontainebleau (communiqué du 02/01/2026) relayé par Club Innovation & Culture, News Tank Culture et Mesinfos (20/02/2026)"
     ],
     [
      "Château, fréquentation 2024 (communiqué officiel)",
      "1 850 000 visites du domaine (+4 %), 580 000 dans le château (+5 % vs 2023, +8 % vs 2019), 1 270 000 dans les jardins ; 87 % de Français, 13 % d'étrangers.",
-     "Château de Fontainebleau, communiqué de presse (PDF) (2025-01)"
+     "Château de Fontainebleau, communiqué de presse (PDF) (janvier 2025)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -69,7 +69,7 @@
    "variant": "info",
    "icon": "euro",
    "title": "Les prix affichés à Fontainebleau aujourd'hui",
-   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Fontainebleau pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 79 EUR par nuit, frais inclus (moyenne 83 EUR, fourchette 53 à 144 EUR), sur 22 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
+   "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Fontainebleau pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 79 € par nuit, frais inclus (moyenne 83 €, fourchette 53 à 144 €), sur 22 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
     "label": "Recevez votre audit chiffré",
     "href": "/simulateur-locatif",
@@ -83,7 +83,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Fontainebleau",
-   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : La ville écrit : la location est possible dans la limite de 120 nuitées par an. Au-delà, changement de destination soumis à déclaration préalable d'urbanisme.\n- **Numéro d'enregistrement** : non exigé à ce jour. Pas de numéro d'enregistrement communal. Le portail de la Communauté d'agglomération du Pays de Fontainebleau propose une télédéclaration du meublé de tourisme qui délivre immédiatement un numéro.\n- **Taxe de séjour 2026** (meublé non classé) : 4 % du prix HT par personne et par nuitée ; 13 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,00 EUR, soit 13,00 EUR toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.fontainebleau.fr/fil-infos-109/meubles-touristiques-les-regles-a-suivre-5115.html) et [document de référence](https://paysdefontainebleau.taxesejour.fr/portail/homepage-declaloc)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : non\n- **Compensation** : Non\n- **Si vous louez votre résidence principale** : La ville écrit : la location est possible dans la limite de 120 nuitées par an. Au-delà, changement de destination soumis à déclaration préalable d'urbanisme.\n- **Numéro d'enregistrement** : non exigé à ce jour. Pas de numéro d'enregistrement communal. Le portail de la Communauté d'agglomération du Pays de Fontainebleau propose une télédéclaration du meublé de tourisme qui délivre immédiatement un numéro.\n- **Taxe de séjour 2026** (meublé non classé) : 4 % du prix HT par personne et par nuitée ; 13 % avec les taxes additionnelles ; plafond égal au tarif palace, 4,00 €, soit 13,00 € toutes taxes comprises\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.fontainebleau.fr/fil-infos-109/meubles-touristiques-les-regles-a-suivre-5115.html) et [document de référence](https://paysdefontainebleau.taxesejour.fr/portail/homepage-declaloc)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -100,7 +100,7 @@
     {
      "icon": "map",
      "title": "Le centre historique",
-     "text": "Rue Grande, rue de France, place du Marché : on rejoint le château à pied et l'on dîne en ville. C'est le secteur le plus cher, jusqu'à 6 142 EUR le mètre carré pour les maisons sur les ventes 2021-2025 retraitées par pillr.fr."
+     "text": "Rue Grande, rue de France, place du Marché : on rejoint le château à pied et l'on dîne en ville. C'est le secteur le plus cher, jusqu'à 6 142 € le mètre carré pour les maisons sur les ventes 2021-2025 retraitées par pillr.fr."
     },
     {
      "icon": "train",
@@ -142,7 +142,7 @@
    "type": "rich",
    "bg": "cream",
    "h2": "La saison à Fontainebleau",
-   "md": "La courbe se lit en trois pics nets. Le printemps s'ouvre sur le calendrier équestre du Grand Parquet, avec notamment un concours international de dressage en avril 2026, puis juin concentre les festivals, avant l'été des visiteurs du domaine et des promeneurs. L'automne appartient aux grimpeurs, venus chercher le grès sec des Trois-Pignons et des gorges d'Apremont. Restent janvier et août, deux mois que beaucoup de propriétaires tiennent pour perdus et que les rentrées de l'INSEAD viennent remplir, à condition d'accepter des séjours longs à tarif négocié.",
+   "md": "La courbe se lit en trois pics nets. Le printemps s'ouvre sur le calendrier équestre du Grand Parquet, avec notamment un concours international de dressage (avril en 2026), puis juin concentre les festivals, avant l'été des visiteurs du domaine et des promeneurs. L'automne appartient aux grimpeurs, venus chercher le grès sec des Trois-Pignons et des gorges d'Apremont. Restent janvier et août, deux mois que beaucoup de propriétaires tiennent pour perdus et que les rentrées de l'INSEAD viennent remplir, à condition d'accepter des séjours longs à tarif négocié.",
    "narrow": true
   },
   {
@@ -171,7 +171,7 @@
  "faq": [
   {
    "q": "Combien rapporte un logement en location courte durée à Fontainebleau ?",
-   "a": "Le prix de liste médian d'un logement entier ressortait à 79 EUR la nuit pour sept nuits en octobre 2026, frais inclus, sur 22 annonces relevées dans la commune le 3 septembre 2026, avec une fourchette de 53 à 144 EUR. Le revenu dépend ensuite du remplissage et du positionnement de votre bien. Nous vous remettons une estimation chiffrée sous 48 heures."
+   "a": "Le prix de liste médian d'un logement entier ressortait à 79 € la nuit pour sept nuits en octobre 2026, frais inclus, sur 22 annonces relevées dans la commune le 3 septembre 2026, avec une fourchette de 53 à 144 €. Le revenu dépend ensuite du remplissage et du positionnement de votre bien. Nous vous remettons une estimation chiffrée sous 48 heures."
   },
   {
    "q": "Faut-il une autorisation pour louer un meublé de tourisme à Fontainebleau ?",
@@ -179,7 +179,7 @@
   },
   {
    "q": "Combien coûte la taxe de séjour à Fontainebleau ?",
-   "a": "Pour un meublé non classé, le Pays de Fontainebleau applique 4,00 % du coût hors taxes de la nuitée, plafonné à 4,00 EUR par personne, tarifs applicables au 1er janvier 2026. S'y ajoutent trois majorations légales qui multiplient le tarif délibéré par 3,25. Un meublé classé relève d'un tarif fixe par étoile, nettement plus bas : le classement est un vrai levier."
+   "a": "Pour un meublé non classé, le Pays de Fontainebleau applique 4,00 % du coût hors taxes de la nuitée, plafonné à 4,00 € par personne, tarifs applicables au 1er janvier 2026. S'y ajoutent trois majorations légales qui multiplient le tarif délibéré par 3,25. Un meublé classé relève d'un tarif fixe par étoile, nettement plus bas : le classement est un vrai levier."
   },
   {
    "q": "Les séjours liés à l'INSEAD valent-ils la peine pour un propriétaire ?",

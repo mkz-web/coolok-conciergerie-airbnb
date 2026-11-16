@@ -11,7 +11,7 @@ Coolok Services est une conciergerie de meublés de tourisme basée à Joinville
 Les repères affichés sur le site :
 
 - Une commission unique de 20 % HT des revenus encaissés, tout compris, payée au résultat : pas de revenus, pas de commission.
-- Une note Google de 4,8 sur 5 pour 21 avis, relevée le 2 septembre 2026.
+- Une note Google de 4,8 sur 5 pour 22 avis, relevée le 11 octobre 2026 (registre : org.rating de content/site.json, que le build impose à tout texte qui cite un nombre d'avis).
 - Un audit chiffré du logement sous 48 heures, gratuit et sans engagement, réalisé par le fondateur.
 - Tous les clients de Coolok sont Superhôtes sur Airbnb.
 - Plus 40 % de revenus en moyenne face à une location pilotée en solo, selon les relevés de Coolok.

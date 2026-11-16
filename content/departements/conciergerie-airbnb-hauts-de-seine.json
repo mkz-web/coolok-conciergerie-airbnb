@@ -28,7 +28,7 @@
    "type": "table",
    "bg": "cream",
    "h2": "Nos communes dans les Hauts-de-Seine, marché par marché",
-   "intro": "Trois villes ouvertes, trois profils de demande. Les fourchettes sortent de nos observations sur les logements entiers ; la colonne Régime, des règlements de Boucle Nord de Seine et de Grand Paris Seine Ouest, relus le 3 septembre 2026.",
+   "intro": "Trois villes ouvertes, trois profils de demande. Les fourchettes sortent de nos observations sur les logements entiers ; la colonne Régime, des règlements de Boucle Nord de Seine et de Grand Paris Seine Ouest, consultés le 3 septembre 2026.",
    "head": [
     "Commune",
     "Prix par nuit",
@@ -140,7 +140,7 @@
      "90 jours depuis le 1er janvier 2026"
     ]
    ],
-   "source": "Règlement de l'établissement public territorial Boucle Nord de Seine approuvé le 24 juin 2021 et modifié le 21 septembre 2023, règlement de Grand Paris Seine Ouest adopté le 25 juin 2025 et applicable depuis le 1er septembre 2025 (lu le 26 septembre 2026), délibération du conseil municipal de Vanves du 24 juin 2025. Documents lus le 3 septembre 2026."
+   "source": "Règlement de l'établissement public territorial Boucle Nord de Seine approuvé le 24 juin 2021 et modifié le 21 septembre 2023, règlement de Grand Paris Seine Ouest adopté le 25 juin 2025 et applicable depuis le 1er septembre 2025 (consulté le 26 septembre 2026), délibération du conseil municipal de Vanves du 24 juin 2025. Documents consultés le 3 septembre 2026."
   },
   {
    "type": "callout",

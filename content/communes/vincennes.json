@@ -82,7 +82,7 @@
    "tight": true,
    "variant": "info",
    "icon": "euro",
-   "title": "Les prix affichés à Vincennes aujourd'hui",
+   "title": "Les prix affichés à Vincennes pour une semaine d'octobre 2026",
    "md": "Sur Airbnb, le prix de liste médian d'un logement entier à Vincennes pour 7 nuits en octobre 2026 (10 au 17 octobre) est de 112 € par nuit, frais inclus (moyenne 119 €, fourchette 56 à 187 €), sur 15 annonces situées dans la commune relevées le 3 septembre 2026 (24 annonces lues en première page). Ce chiffre est un prix affiché, pas un revenu réalisé : votre audit chiffré part de votre logement, de sa capacité et de son taux d'occupation réel.",
    "cta": {
     "label": "Recevez votre audit chiffré",
@@ -97,7 +97,7 @@
    "variant": "warning",
    "icon": "law",
    "title": "Ce que dit la loi à Vincennes",
-   "md": "- **Changement d'usage** : oui, pour tout logement qui n'est pas la résidence principale du loueur, dès le premier jour de location\n- **Compensation** : Personne physique : sans compensation pour les deux premiers biens, compensation exigée à partir du 3e bien meublé mis en location (local à autre usage transformé en logement, même surface et qualité). Personne morale : compensation dès le premier bien.\n- **Si vous louez votre résidence principale** : 90 jours par an à compter du 01/11/2025 (fiche copropriété « location saisonnière » de novembre 2025 et page vincennes.fr lue le 03/09/2026) ; au-delà, demande de changement d'usage\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location (résidence principale comprise), délivré par la Direction Tourisme de l'EPT Paris Est Marne & Bois via le téléservice territorial (pemb.taxesejour.fr / Déclaloc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace de 4,40 €, soit 14,30 € toutes taxes\n- **À prévoir dans votre dossier** : accord formel du syndic ; l'immeuble ne doit pas dépasser 30 % de locations de courte durée ; résidences étudiantes et résidences pour personnes âgées exclues ; [DPE](/blog/dpe-airbnb) ; extrait du règlement de copropriété autorisant l'activité.\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://vincennes.taxesejour.fr) et [document de référence](https://www.vincennes.fr/demarches/locations-saisonnieres)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, pour tout logement qui n'est pas la résidence principale du loueur, dès le premier jour de location\n- **Compensation** : Personne physique : sans compensation pour les deux premiers biens, compensation exigée à partir du 3e bien meublé mis en location (local à autre usage transformé en logement, même surface et qualité). Personne morale : compensation dès le premier bien.\n- **Si vous louez votre résidence principale** : 90 jours par an à compter du 01/11/2025 (fiche copropriété « location saisonnière » de novembre 2025 et page vincennes.fr consultée le 03/09/2026) ; au-delà, demande de changement d'usage\n- **Numéro d'enregistrement** : oui, obligatoire pour toute location (résidence principale comprise), délivré par la Direction Tourisme de l'EPT Paris Est Marne & Bois via le téléservice territorial (pemb.taxesejour.fr / Déclaloc).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace de 4,40 €, soit 14,30 € toutes taxes\n- **À prévoir dans votre dossier** : accord formel du syndic ; l'immeuble ne doit pas dépasser 30 % de locations de courte durée ; résidences étudiantes et résidences pour personnes âgées exclues ; [DPE](/blog/dpe-airbnb) ; extrait du règlement de copropriété autorisant l'activité.\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://vincennes.taxesejour.fr) et [document de référence](https://www.vincennes.fr/demarches/locations-saisonnieres)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -156,7 +156,7 @@
    "type": "rich",
    "bg": "cream",
    "h2": "Le calendrier vincennois",
-   "md": "Ici, l'année ne se lit pas en haute et basse saison mais en dates. Le meeting d'hiver de l'hippodrome occupe janvier et février, le Festival America revient au Parc floral du 24 au 27 septembre 2026 avec 40 000 festivaliers attendus (Livres Hebdo, juin 2026), et les week-ends de printemps se remplissent grâce au bois. Entre ces pics, ce sont les nuits de semaine qu'il faut aller chercher, en ouvrant les séjours d'une ou deux nuits et en ajustant le prix en continu.",
+   "md": "Ici, l'année ne se lit pas en haute et basse saison mais en dates. Le meeting d'hiver de l'hippodrome occupe janvier et février, le Festival America est revenu au Parc floral du 24 au 27 septembre 2026, avec 40 000 festivaliers attendus (Livres Hebdo, juin 2026), et les week-ends de printemps se remplissent grâce au bois. Entre ces pics, ce sont les nuits de semaine qu'il faut aller chercher, en ouvrant les séjours d'une ou deux nuits et en ajustant le prix en continu.",
    "narrow": true
   },
   {

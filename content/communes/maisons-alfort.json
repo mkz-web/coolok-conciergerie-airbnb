@@ -35,7 +35,7 @@
    "type": "rich",
    "bg": "white",
    "h2": "Une demande d'agenda plutôt que de saison",
-   "md": "Maisons-Alfort réunit 56 799 habitants et 17 718 emplois (INSEE, recensement 2023). Deux institutions structurent la demande d'hébergement : l'École nationale vétérinaire, dont les promotions sont passées à 180 étudiants à la rentrée 2025 et qui dispose de 492 chambres et de 355 personnels, et l'Anses, agence sanitaire dont le siège pilote 1 513 agents répartis sur seize sites (rapport d'activité 2024). Concours, rentrées, jurys, comités et missions : ce sont des dates fixes, connues des mois à l'avance.\n\nPour vous, cela signifie un calendrier qui se remplit en semaine, sur des durées moyennes allant de quelques nuits à quelques semaines. L'offre concurrente reste mince : 4 hôtels et 110 chambres au 1er janvier 2026 pour près de 57 000 habitants (INSEE). Les repères de marché placent la nuitée entre 80 et 160 euros pour une occupation de 69 à 79 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, la conséquence est concrète : des arrivées en milieu de semaine, des départs le vendredi, une exigence portée sur la propreté et la connexion plus que sur la décoration. Depuis le 14 décembre 2025, tous les RER D marquent l'arrêt dans les deux gares aux heures de pointe, soit seize trains par heure (Ville de Maisons-Alfort, 10 décembre 2025) : cela s'écrit dans l'annonce. Un détail administratif compte aussi : ici la déclaration en mairie ne donne pas lieu à un numéro d'enregistrement communal (office de tourisme Paris Est Marne et Bois, lu le 3 septembre 2026)."
+   "md": "Maisons-Alfort réunit 56 799 habitants et 17 718 emplois (INSEE, recensement 2023). Deux institutions structurent la demande d'hébergement : l'École nationale vétérinaire, dont les promotions sont passées à 180 étudiants à la rentrée 2025 et qui dispose de 492 chambres et de 355 personnels, et l'Anses, agence sanitaire dont le siège pilote 1 513 agents répartis sur seize sites (rapport d'activité 2024). Concours, rentrées, jurys, comités et missions : ce sont des dates fixes, connues des mois à l'avance.\n\nPour vous, cela signifie un calendrier qui se remplit en semaine, sur des durées moyennes allant de quelques nuits à quelques semaines. L'offre concurrente reste mince : 4 hôtels et 110 chambres au 1er janvier 2026 pour près de 57 000 habitants (INSEE). Les repères de marché placent la nuitée entre 80 et 160 euros pour une occupation de 69 à 79 % (données AirDNA croisées, relevé du 9 juillet 2026).\n\nEn exploitation, la conséquence est concrète : des arrivées en milieu de semaine, des départs le vendredi, une exigence portée sur la propreté et la connexion plus que sur la décoration. Depuis le 14 décembre 2025, tous les RER D marquent l'arrêt dans les deux gares aux heures de pointe, soit seize trains par heure (Ville de Maisons-Alfort, 10 décembre 2025) : cela s'écrit dans l'annonce. Un détail administratif compte aussi : ici la déclaration en mairie ne donne pas lieu à un numéro d'enregistrement communal (office de tourisme Paris Est Marne et Bois, consulté le 3 septembre 2026)."
   },
   {
    "type": "table",
@@ -71,7 +71,7 @@
     [
      "Population 2023, résidences principales, emplois, niveau de vie",
      "56 799 habitants ; 89,6 % de résidences principales sur près de 30 000 logements ; 17 718 emplois ; niveau de vie médian 31 480 €",
-     "INSEE, comparateur de territoires RP2023 (chiffre exact 56 799 : Wikipedia citant l'INSEE) (août 2026)"
+     "INSEE, comparateur de territoires RP2023, et Wikipedia citant l'INSEE pour le chiffre exact (août 2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -186,7 +186,7 @@
   },
   {
    "q": "Quelle taxe de séjour est due à Maisons-Alfort ?",
-   "a": "Elle est perçue par l'établissement public territorial Paris Est Marne et Bois au titre de sa délibération du 7 février 2023 : pour un meublé non classé, 5 % du prix hors taxes par personne et par nuit, soit 16,25 % avec les taxes additionnelles, plafonnés à 4 euros hors additionnelles et 13 euros toutes taxes (DGFiP, page communale lue le 3 septembre 2026)."
+   "a": "Elle est perçue par l'établissement public territorial Paris Est Marne et Bois au titre de sa délibération du 7 février 2023 : pour un meublé non classé, 5 % du prix hors taxes par personne et par nuit, soit 16,25 % avec les taxes additionnelles, plafonnés à 4 euros hors additionnelles et 13 euros toutes taxes (DGFiP, page communale consultée le 3 septembre 2026)."
   }
  ],
  "keywords": [

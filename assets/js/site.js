@@ -24,9 +24,16 @@
   // Seulement si le héros porte un bouton : sans lui (mentions légales, plan du site), la barre est la seule action du premier écran.
   if (barre && hero && hero.querySelector('.btn') && 'IntersectionObserver' in window) {
     barre.classList.add('is-masquee');
+    // La même classe sur <html> range aussi, sur téléphone, la clé des cookies et le bouton de l'assistant, qui se
+    // posaient sur « Contactez-nous » (lecture du 16/11/2026) ; le lien « Préférences cookies » du pied reste.
+    document.documentElement.classList.add('hero-a-lecran');
     // L'observateur est gardé sur la barre par précaution. Mesure : barre cachée au premier écran, visible
     // une fois le héros passé, cachée en remontant (sonde-lot-cdp.mjs, Chrome qui rend la page, 16/11/2026).
-    barre.observateurHero = new IntersectionObserver(function (e) { barre.classList.toggle('is-masquee', e[e.length - 1].isIntersecting); }, { rootMargin: '0px 0px -25% 0px' });
+    barre.observateurHero = new IntersectionObserver(function (e) {
+      var visible = e[e.length - 1].isIntersecting;
+      barre.classList.toggle('is-masquee', visible);
+      document.documentElement.classList.toggle('hero-a-lecran', visible);
+    }, { rootMargin: '0px 0px -25% 0px' });
     barre.observateurHero.observe(hero);
   }
 

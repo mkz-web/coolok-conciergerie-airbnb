@@ -241,7 +241,9 @@ function extractArticleSections(html, headings) {
     } else if (/^sources?$/.test(title)) {
       out.sources = (p.match(/<li>([\s\S]*?)<\/li>/g) || []).map((li) => {
         const a = li.match(/<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
-        return a ? { href: a[1], label: stripTags(a[2]), date: stripTags(li.replace(a[0], '')).replace(/^[\s,;:]+/, '') } : { label: stripTags(li) };
+        // Le lien remonte en tête de puce ; s'il était entre parenthèses, la parenthèse restait ouverte sur une virgule
+        // (« prix au m² (, estimation au 1er août 2026) », guide rentabilité, lecture du 16/11/2026).
+        return a ? { href: a[1], label: stripTags(a[2]), date: stripTags(li.replace(a[0], '')).replace(/^[\s,;:]+/, '').replace(/\(\s*[,;:]\s*/g, '(').replace(/\s*\(\s*\)/g, '') } : { label: stripTags(li) };
       });
     } else out.body.push(p);
   }

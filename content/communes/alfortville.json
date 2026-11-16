@@ -66,12 +66,12 @@
     [
      "Prix immobilier médian tous biens (-8 % sur 1 an, -5 % sur 5 ans), maisons 4 769 €/m², loyer médian 23 €/m²",
      "5 089 €/m²",
-     "Figaro Immobilier, estimations au 01/07/2026 (01/07/2026)"
+     "Figaro Immobilier, estimations au 01/07/2026"
     ],
     [
      "Hôtel Huatian Chinagora, 1 place du Confluent France-Chine (groupe Huatian, Hunan) : seul hôtel de la commune, 4 étoiles, restaurant gastronomique chinois, salles de réception ; Nouvel An chinois célébré en 2026 avec feu d'artifice le 16/02 et danse du lion le 17/02",
      "187 chambres avec balcon sur la Seine ou le jardin",
-     "Huatian Chinagora (événement : alfortville.fr 02/02/2026) (02/02/2026)"
+     "Huatian Chinagora (événement : alfortville.fr 02/02/2026)"
     ]
    ],
    "source": "Relevé Coolok, septembre 2026. Chaque chiffre provient de la source citée."
@@ -82,7 +82,7 @@
    "variant": "info",
    "icon": "law",
    "title": "Ce que dit la loi à Alfortville",
-   "md": "- **Changement d'usage** : oui, résidences secondaires uniquement (« cette demande d'autorisation de changement d'usage ne concerne que les résidences secondaires »)\n- **Compensation** : non (autorisation temporaire, aucune compensation prévue par la délibération ni par la page communale)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national) ; aucun abaissement à 90 jours au relevé du 3 septembre 2026\n- **Numéro d'enregistrement** : non : « à ce jour Alfortville n'impose pas l'obligation de numéro d'enregistrement à publier dans chaque annonce » (page mairie lue le 03/09/2026).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace, 4,90 €, soit 15,93 € toutes taxes comprises\n- **À prévoir dans votre dossier** : maximum 2 autorisations par loueur ; déclaration sur l'honneur que le logement est décent (R111-2 CCH) ; attestation sur l'honneur que le règlement de copropriété ne s'oppose pas au changement d'usage (à défaut, accord de la copropriété).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.alfortville.fr/demarches-declarer-son-meuble-de-tourisme) et [document de référence](https://www.alfortville.fr/IMG/pdf/formulaire_de_demande_de_changement_d_usage_meuble_de_tourisme.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
+   "md": "- **Changement d'usage** : oui, résidences secondaires uniquement (« cette demande d'autorisation de changement d'usage ne concerne que les résidences secondaires »)\n- **Compensation** : non (autorisation temporaire, aucune compensation prévue par la délibération ni par la page communale)\n- **Si vous louez votre résidence principale** : 120 jours par année civile (régime national) ; aucun abaissement à 90 jours au relevé du 3 septembre 2026\n- **Numéro d'enregistrement** : non : « à ce jour Alfortville n'impose pas l'obligation de numéro d'enregistrement à publier dans chaque annonce » (page mairie consultée le 03/09/2026).\n- **Taxe de séjour 2026** (meublé non classé) : 5 % du prix HT par personne et par nuitée ; 16,25 % avec les taxes additionnelles ; plafond communal égal au tarif palace, 4,90 €, soit 15,93 € toutes taxes comprises\n- **À prévoir dans votre dossier** : maximum 2 autorisations par loueur ; déclaration sur l'honneur que le logement est décent (R111-2 CCH) ; attestation sur l'honneur que le règlement de copropriété ne s'oppose pas au changement d'usage (à défaut, accord de la copropriété).\n\nRelevé Coolok du 3 septembre 2026 auprès des sources officielles ([source officielle](https://www.alfortville.fr/demarches-declarer-son-meuble-de-tourisme) et [document de référence](https://www.alfortville.fr/IMG/pdf/formulaire_de_demande_de_changement_d_usage_meuble_de_tourisme.pdf)). Nous vérifions votre adresse avant toute mise en ligne.",
    "cta": {
     "label": "Comprenez la loi Le Meur",
     "href": "/blog/loi-le-meur",
@@ -178,7 +178,7 @@
   },
   {
    "q": "Faut-il un numéro d'enregistrement à Alfortville ?",
-   "a": "Non à ce jour : la page municipale lue le 3 septembre 2026 indique que la commune ne l'impose pas, et la déclaration passe par le formulaire cerfa 14004 pour les résidences secondaires. Le téléservice national issu de la loi Le Meur, initialement annoncé pour le 20 mai 2026, est décalé au quatrième trimestre 2026. Nous suivrons cette bascule pour vous."
+   "a": "Non à ce jour : la page municipale consultée le 3 septembre 2026 indique que la commune ne l'impose pas, et la déclaration passe par le formulaire cerfa 14004 pour les résidences secondaires. Le téléservice national issu de la loi Le Meur, initialement annoncé pour le 20 mai 2026, est décalé au quatrième trimestre 2026. Nous suivrons cette bascule pour vous."
   },
   {
    "q": "La gare du Grand Paris Express change-t-elle le calcul ?",

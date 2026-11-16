@@ -117,6 +117,9 @@ address{font-style:normal}
 .breadcrumb li[aria-current]{color:var(--muted)}
 /* Sous 768 px, chaque maillon du fil d'Ariane fait au moins 44 px de haut (cible tactile) sans épaissir la bande. */
 @media(max-width:767px){.breadcrumb{padding:.1rem 0}.breadcrumb a,.breadcrumb li[aria-current]{display:inline-block;padding:.8rem .15rem}}
+/* Sur deux rangées, les cibles de 44 px laissaient une bande d'environ 100 px (« › Val d'Europe » seul en dessous,
+   lecture du 16/11/2026) : les liens gardent 24 px de cible au moins, les rangées se resserrent. */
+@media(max-width:767px){.breadcrumb a,.breadcrumb li[aria-current]{padding:.45rem .15rem}.breadcrumb ol{row-gap:0}}
 /* Hero */
 .hero{padding:clamp(2rem,5vw,4rem) 0 clamp(2rem,5vw,3.5rem);background:linear-gradient(180deg,var(--cream) 0%,var(--white) 100%)}
 .hero-inner{display:grid;gap:2rem;align-items:center}
@@ -149,6 +152,9 @@ address{font-style:normal}
 .grid{display:grid;gap:1.25rem;grid-template-columns:1fr}
 @media(min-width:640px){.grid-2,.grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1000px){.grid-3{grid-template-columns:repeat(3,1fr)}.grid-4{grid-template-columns:repeat(4,1fr)}}
+/* De 640 à 999 px, une grille de trois passe à deux colonnes : la dernière carte, seule sur sa rangée, laissait une
+   demi-largeur vide (secteurs, qui loue, avis, zones ; lecture du 16/11/2026). Elle prend la rangée entière. */
+@media(min-width:640px) and (max-width:999px){.grid-3>:last-child:nth-child(odd){grid-column:1/-1}}
 .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-2);display:flex;flex-direction:column}
 .bg-cream .card{border-color:var(--line-2)}
 .card h3{font-size:var(--fs-1);margin-bottom:.5rem}
@@ -173,9 +179,11 @@ address{font-style:normal}
 .stats-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:0}
 .stats-grid.stats-3>.stat:last-child{grid-column:1/-1}
 @media(min-width:800px){.stats-grid{grid-template-columns:repeat(4,1fr)}.stats-grid.stats-3{grid-template-columns:repeat(3,1fr)}.stats-grid.stats-3>.stat:last-child{grid-column:auto}}
-.stat{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem;text-align:center}
-.stat dt{font-size:.85rem;color:var(--muted);order:2}
-.stat dd{margin:0 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green);overflow-wrap:anywhere}
+/* Colonne flexible, valeur calée en bas : un libellé sur deux lignes (« Revenu mensuel estimé (logement entier) »)
+   ne fait plus descendre sa seule valeur sous celles de la rangée (1 280 px, lecture du 16/11/2026). */
+.stat{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem;text-align:center;display:flex;flex-direction:column}
+.stat dt{font-size:.85rem;color:var(--muted);margin-bottom:.35rem}
+.stat dd{margin:auto 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green);overflow-wrap:anywhere}
 /* Sous 420 px, une case par ligne : en deux colonnes, « 1 500 à 3 600 € » passait sur deux lignes et décalait la case voisine (lecture du 16/11/2026). */
 @media(max-width:420px){.stats-grid{grid-template-columns:minmax(0,1fr);gap:.6rem}.stat{padding:.85rem 1rem}.stat dd{font-size:1.35rem}}
 .stat-note{font-size:.8125rem;color:var(--muted);margin:.25rem 0 0}
@@ -409,6 +417,9 @@ tr:last-child td{border-bottom:0}
 .site-footer{background:var(--green);color:#d9dfd9;padding:3rem 0 6rem;font-size:.92rem}
 .footer-grid{display:grid;gap:2rem;grid-template-columns:1fr}
 @media(min-width:720px){.footer-grid{grid-template-columns:repeat(2,1fr)}}
+/* De 720 à 1 099 px, la liste des communes (31 liens) laissait un grand vide à côté d'elle : elle prend la rangée
+   entière, en trois colonnes de texte (lecture du 16/11/2026). */
+@media(min-width:720px) and (max-width:1099px){.footer-grid>.footer-col:has(li:nth-child(12)){grid-column:1/-1}.footer-grid>.footer-col:has(li:nth-child(12)) ul{columns:3;column-gap:2rem}.footer-grid>.footer-col:has(li:nth-child(12)) li{break-inside:avoid}}
 @media(min-width:1100px){.footer-grid{grid-template-columns:1.4fr repeat(4,1fr)}}
 .footer-title{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem}
 .site-footer ul{list-style:none;padding:0;margin:0}
@@ -427,6 +438,9 @@ tr:last-child td{border-bottom:0}
 .sticky-cta{transition:transform .2s ease,visibility .2s}
 .sticky-cta.is-masquee{transform:translateY(110%);visibility:hidden}
 @media(prefers-reduced-motion:reduce){.sticky-cta{transition:none}}
+/* Même logique pour la clé des cookies et le bouton de l'assistant : sur téléphone, ils couvraient « Contactez-nous »
+   ou la note Google du héros (lecture du 16/11/2026). Ils reviennent une fois le héros passé. */
+@media(max-width:767px){html.hero-a-lecran .chat-lanceur,html.hero-a-lecran body .iubenda-tp-btn[data-tp-float]{visibility:hidden!important;opacity:0!important}}
 .sticky-cta .btn-ghost,.sticky-cta .btn-whatsapp{width:48px;padding:0;flex:none}
 .wa-bubble{display:none}
 /* Bouton de préférences cookies iubenda (en bas à gauche) : sur mobile, il se posait sur le bouton principal de la barre

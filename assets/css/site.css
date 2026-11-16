@@ -41,6 +41,10 @@ address{font-style:normal}
 .skip-link:focus{left:8px}
 .container{width:100%;max-width:var(--container);margin:0 auto;padding-left:var(--gutter);padding-right:var(--gutter)}
 .container.narrow,.prose.narrow{max-width:800px}
+/* Le texte d'une section riche à 800 px démarrait 30 px plus à droite que la prose voisine à 860 (« La saison », 1 280 px) ;
+   les encadrés de loi et de prix, eux, prenaient tout le conteneur. Tout s'aligne sur la colonne de 860 px (16/11/2026). */
+.prose.narrow{max-width:860px}
+.callout-section .callout{max-width:860px;margin-left:auto;margin-right:auto}
 .section{padding:clamp(2.5rem,6vw,4.5rem) 0}
 .section.tight{padding-top:0}
 .bg-cream{background:var(--cream)}
@@ -155,6 +159,9 @@ address{font-style:normal}
 /* De 640 à 999 px, une grille de trois passe à deux colonnes : la dernière carte, seule sur sa rangée, laissait une
    demi-largeur vide (secteurs, qui loue, avis, zones ; lecture du 16/11/2026). Elle prend la rangée entière. */
 @media(min-width:640px) and (max-width:999px){.grid-3>:last-child:nth-child(odd){grid-column:1/-1}}
+/* À partir de 1 000 px : une carte seule sur la dernière rangée de trois se centre (Serris à Chessy, deux tiers vides),
+   et une grille de deux cartes seulement passe à deux colonnes au lieu de laisser un tiers vide (second lot, 16/11/2026). */
+@media(min-width:1000px){.grid-3>:last-child:nth-child(3n+1):not(:first-child){grid-column:2}.grid-3:has(>:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}}
 .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-2);display:flex;flex-direction:column}
 .bg-cream .card{border-color:var(--line-2)}
 .card h3{font-size:var(--fs-1);margin-bottom:.5rem}
@@ -420,6 +427,10 @@ tr:last-child td{border-bottom:0}
 /* De 720 à 1 099 px, la liste des communes (31 liens) laissait un grand vide à côté d'elle : elle prend la rangée
    entière, en trois colonnes de texte (lecture du 16/11/2026). */
 @media(min-width:720px) and (max-width:1099px){.footer-grid>.footer-col:has(li:nth-child(12)){grid-column:1/-1}.footer-grid>.footer-col:has(li:nth-child(12)) ul{columns:3;column-gap:2rem}.footer-grid>.footer-col:has(li:nth-child(12)) li{break-inside:avoid}}
+/* Second lot (lecture du 16/11/2026) : la liste pleine largeur passe en dernier, pour que Zones et Guides se rangent
+   côte à côte au lieu de rester seuls sur leur rangée ; et la marge haute du premier lien faisait démarrer la première
+   colonne 5 à 10 px plus bas que les deux autres (une marge est coupée au saut de colonne, pas en tête de liste). */
+@media(min-width:720px) and (max-width:1099px){.footer-grid>.footer-col:has(li:nth-child(12)){order:9}.footer-grid>.footer-col:has(li:nth-child(12)) li{margin:0;padding:.3rem 0}}
 @media(min-width:1100px){.footer-grid{grid-template-columns:1.4fr repeat(4,1fr)}}
 .footer-title{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem}
 .site-footer ul{list-style:none;padding:0;margin:0}

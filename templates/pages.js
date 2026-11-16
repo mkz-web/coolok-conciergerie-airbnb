@@ -46,12 +46,13 @@ function mesurerActions(html, re) {
 
 function rappelsAction(site, page) {
   const lieu = page.inName || 'à ' + page.name;
-  const wa = { label: 'Posez votre question sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost' };
+  // « Posez votre question sur WhatsApp » passait sur deux lignes à 360 px une fois l'icône ajoutée (contrôle du 16/11/2026).
+  const wa = { label: 'Écrivez-nous sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost', icon: 'whatsapp' };
   const simu = { label: 'Estimez vos revenus', href: '/simulateur-locatif', style: 'primary', icon: 'calc' };
   return [
     { title: `Combien rapporterait votre logement ${lieu} ?`, text: page.data && page.data.revenu_mensuel ? 'Notre [simulateur Airbnb](/simulateur-locatif) donne la fourchette de revenus observée dans votre commune, sans adresse exacte ni engagement.' : 'Notre [simulateur Airbnb](/simulateur-locatif) part de votre commune et de votre logement, puis Thierry vous envoie un audit chiffré sous 48 h, sans engagement.', ctas: [simu, wa] },
     { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', ctas: [{ label: 'Réservez un appel de 30 min', href: site.org.calendly, style: 'primary', icon: 'calendar' }, Object.assign({}, simu, { style: 'ghost' })] },
-    { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrivez-nous sur WhatsApp', href: site.org.whatsappUrl, style: 'primary' }, { label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
+    { title: `Une question sur la location courte durée ${lieu} ?`, text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', ctas: [{ label: 'Écrivez-nous sur WhatsApp', href: site.org.whatsappUrl, style: 'primary', icon: 'whatsapp' }, { label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw, style: 'ghost', icon: 'phone' }] },
     // Quatrième rappel : une page à grands tableaux en porte quatre à 375 px (Val-de-Marne, 19/10/2026).
     { title: `Un audit chiffré de votre logement ${lieu}`, text: 'Gratuit et sans engagement, réalisé par le fondateur sous 48 h.', ctas: [simu, { label: 'Contactez-nous', href: '/contact', style: 'ghost' }] },
   ];
@@ -141,8 +142,8 @@ function geoPage(site, page, data) {
   blocks.push(Object.assign({ type: 'testimonials', bg: 'cream' }, testis));
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || `Questions fréquentes sur la location courte durée ${page.inName || 'à ' + page.name}` });
   const rel = relatedLinks(page, data);
-  if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : page.type === 'departement' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
-  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discutez sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
+  if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour ' + (/^[aeiouyàâéèêîïôûh]/i.test(page.name) ? "d'" : 'de ') + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : page.type === 'departement' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
+  blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discutez sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light', icon: 'whatsapp' }] }));
   blocks.push({ type: 'articles', bg: 'white', limit: 3, h2: 'Pour aller plus loin' });
   const rythmes = rythmerActions(blocks, site, page, data);
 

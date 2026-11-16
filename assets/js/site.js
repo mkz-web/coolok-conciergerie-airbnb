@@ -20,7 +20,8 @@
   // Barre d'actions du téléphone : masquée tant que le héros, qui porte déjà ces actions, est à l'écran
   // (à 360 px elle recouvrait les boutons du premier écran, lecture des captures du 16/11/2026).
   var barre = $('.sticky-cta');
-  var hero = $('.hero');
+  // Le haut des guides est un .article-hero, qui porte lui aussi « Estimez vos revenus » (lecture du 16/11/2026, second lot).
+  var hero = $('.hero') || $('.article-hero');
   // Seulement si le héros porte un bouton : sans lui (mentions légales, plan du site), la barre est la seule action du premier écran.
   if (barre && hero && hero.querySelector('.btn') && 'IntersectionObserver' in window) {
     barre.classList.add('is-masquee');

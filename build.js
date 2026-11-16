@@ -62,6 +62,7 @@ const warn = (p, m) => warnings.push(`${p} : ${m}`);
 // suit un caractère visible et précède une espace ou la fin : une adresse (« https: »), une heure ou un code restent
 // intacts.
 const NBSP = String.fromCharCode(160);
+const TU_INSECABLE = String.fromCharCode(0x2011);
 function insecables(html) {
   const morceaux = html.split(/(<[^>]*>)/);
   let bloc = null;
@@ -84,6 +85,8 @@ function insecables(html) {
       // Un nombre reste avec le mot qu'il compte (« 5 701 / établissements », « 11,1 M / d'excursions », lecture du 16/11/2026).
       .replace(/(\d) (?=\p{Ll}|(M|Md)(?![\p{L}]))/gu, '$1' + NBSP)
       .replace(/(\S) (?=\+(\s|$))/g, '$1' + NBSP)
+      // Inversion d'une question (« est-il », « paie-t-on ») : trait d'union insécable, la FAQ se coupait en « est- / il ».
+      .replace(/(\p{L})-(t-)?(il|elle|ils|elles|on|je|nous|vous|tu)(?![\p{L}])/gu, (m, a, t, p) => a + TU_INSECABLE + (t ? 't' + TU_INSECABLE : '') + p)
       .replace(/(\d|1er) (?=(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)(?![\p{L}]))/gu, '$1' + NBSP)
       .replace(/(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) (?=\d{4}(?!\d))/gu, '$1' + NBSP)
       // « €/m² » ne se coupe plus après la barre oblique (cases de chiffres à 360 px, lecture du 16/11/2026).
@@ -425,6 +428,7 @@ function htmlToText(html) {
     .replace(/<\/td>|<\/th>/gi, ' | ')
     .replace(/<[^>]+>/g, '')
     .split(String.fromCharCode(0x2060)).join('')
+    .split(TU_INSECABLE).join('-')
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
     .replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }

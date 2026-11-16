@@ -102,7 +102,7 @@
   "text": "Vous donnez votre commune et votre logement, Thierry vous envoie la fourchette de revenus, la commission et ce qui reste net. Gratuit, sans engagement.",
   "ctas": [
    { "label": "Estimez vos revenus", "href": "/simulateur-locatif", "style": "primary", "icon": "calc" },
-   { "label": "Posez votre question sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20tarifs%20de%20conciergerie.", "style": "ghost-light" }
+   { "label": "Posez votre question sur WhatsApp", "href": "https://wa.me/33673937501?text=Bonjour%2C%20j'ai%20une%20question%20sur%20vos%20tarifs%20de%20conciergerie.", "style": "ghost-light", "icon": "whatsapp" }
   ]
  }
 }

@@ -545,6 +545,10 @@
       "href": "/conciergerie-airbnb-saint-germain-en-laye"
      },
      {
+      "label": "Melun",
+      "href": "/conciergerie-airbnb-melun"
+     },
+     {
       "label": "Reims",
       "href": "/conciergerie-airbnb-reims"
      }
@@ -578,8 +582,12 @@
       "href": "/blog/conciergerie-courte-duree"
      },
      {
-      "label": "Plan du site",
-      "href": "/plan-du-site"
+      "label": "Déclaration de meublé de tourisme",
+      "href": "/blog/declaration-meuble-de-tourisme"
+     },
+     {
+      "label": "Commission Airbnb",
+      "href": "/blog/commission-airbnb"
      }
     ]
    }

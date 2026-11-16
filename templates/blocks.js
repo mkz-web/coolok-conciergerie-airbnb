@@ -181,7 +181,16 @@ B.articles = (b, ctx) => {
   // publication retirait les liens d'une cinquantaine de pages au guide le plus ancien des trois.
   const candidats = ctx.data.articles.filter((a) => a.url !== ctx.page.url && !(b.exclude || []).includes(a.url));
   const prioritaires = (ctx.site.guidesPrioritaires || []).map((u) => candidats.find((a) => a.url === u)).filter(Boolean);
-  const list = prioritaires.concat(candidats.filter((a) => !prioritaires.includes(a))).slice(0, b.limit || 3);
+  // Sur une page géographique, le guide propre au lieu (son nom dans le titre du guide, ou la page
+  // citée dans les pages liées du guide) passe avant le plus récent : sans cela, chaque publication
+  // chassait le guide de Paris, du Val d'Europe ou de Serris de leur propre page (lecture du 15/11/2026).
+  const geo = ['commune', 'departement', 'hub', 'zone'].includes(ctx.page.type) && ctx.page.name;
+  // Une commune d'une zone (Chessy, Bailly, Magny dans le Val d'Europe) hérite du guide de sa zone.
+  const zone = geo && ctx.page.zone ? (ctx.data.zones || []).find((z) => z.slug === ctx.page.zone) : null;
+  const lieux = [ctx.page.url].concat(zone ? [zone.url] : []);
+  const noms = [ctx.page.name].concat(zone && zone.name ? [zone.name] : []);
+  const locaux = geo ? candidats.filter((a) => !prioritaires.includes(a) && (noms.some((n) => String(a.h1 || '').includes(n)) || (a.relatedUrls || []).some((u) => lieux.includes(u)))) : [];
+  const list = prioritaires.concat(locaux, candidats.filter((a) => !prioritaires.includes(a) && !locaux.includes(a))).slice(0, b.limit || 3);
   return `${sectionOpen(b, 'articles')}${heading(Object.assign({ h2: 'Nos guides de la location courte durée' }, b), 2, 'section-title')}<div class="grid grid-3 article-grid">${list.map((a, i) => `<article class="article-card"><a href="${esc(a.url)}"><img src="${esc(a.image)}" alt="${esc(a.imageAlt || '')}" width="640" height="400" loading="${b.imagesImmediates ? 'eager' : 'lazy'}"><h3>${esc(a.h1)}</h3><p>${esc(a.excerpt || a.description)}</p><span class="card-link">Lisez le guide ${icon('arrow')}</span></a></article>`).join('')}</div>${b.all !== false ? `<p class="section-cta"><a class="btn btn-secondary" href="/blog">Tous les guides</a></p>` : ''}${sectionClose}`;
 };
 

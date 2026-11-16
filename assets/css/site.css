@@ -170,12 +170,13 @@ address{font-style:normal}
 .steps-list h3{font-size:var(--fs-1);margin-bottom:.35rem}
 .steps-list p{margin:0;color:var(--muted)}
 /* Stats et data */
-.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:0}
+.stats-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:0}
 .stats-grid.stats-3>.stat:last-child{grid-column:1/-1}
 @media(min-width:800px){.stats-grid{grid-template-columns:repeat(4,1fr)}.stats-grid.stats-3{grid-template-columns:repeat(3,1fr)}.stats-grid.stats-3>.stat:last-child{grid-column:auto}}
 .stat{background:var(--white);border:1px solid var(--line-2);border-radius:var(--radius);padding:1.1rem;text-align:center}
 .stat dt{font-size:.85rem;color:var(--muted);order:2}
-.stat dd{margin:0 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green)}
+.stat dd{margin:0 0 .25rem;font-size:var(--fs-2);font-weight:800;color:var(--green);overflow-wrap:anywhere}
+@media(max-width:420px){.stat{padding:1rem .6rem}.stat dd{font-size:1.1rem}}
 .stat-note{font-size:.8125rem;color:var(--muted);margin:.25rem 0 0}
 .datacard{background:var(--cream);border:1px solid var(--line-2);border-radius:var(--radius);padding:clamp(1.25rem,3vw,2rem)}
 .datacard h2{font-size:var(--fs-2)}
@@ -287,6 +288,7 @@ tr:last-child td{border-bottom:0}
 .article-card p{margin:0 1.25rem .75rem;color:var(--muted);font-size:.95rem;flex:1}
 .article-card .card-link,.article-card .card-meta{margin:0 1.25rem 1.25rem}
 .card-meta{font-size:.85rem;color:var(--muted)}
+@media(min-width:640px) and (max-width:999px){.article-grid>.article-card:last-child:nth-child(odd){grid-column:1/-1}.article-grid>.article-card:last-child:nth-child(odd) a{display:grid;grid-template-columns:minmax(0,45%) 1fr;grid-template-rows:auto 1fr auto}.article-grid>.article-card:last-child:nth-child(odd) img{grid-row:1/4;height:100%;aspect-ratio:auto}}
 /* Logements */
 .logement-card{margin:0;background:var(--white);border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-2)}
 .logement-card img{aspect-ratio:4/3;object-fit:cover;width:100%}
@@ -440,7 +442,7 @@ tr:last-child td{border-bottom:0}
 #iubenda-cs-banner strong{color:inherit}
 html body #iubenda-cs-banner .iubenda-cs-accept-btn,html body #iubenda-cs-banner .iubenda-cs-reject-btn,html body #iubenda-cs-banner .iubenda-cs-customize-btn{min-height:44px!important}
 /* Liens du pied de page pris dans une phrase : soulignés, la couleur seule ne les distinguait pas du texte voisin. */
-.footer-contact a,.footer-bottom a{text-decoration:underline;text-underline-offset:3px}
+.footer-contact a,.footer-bottom a,.footer-social a,.footer-linkbtn{text-decoration:underline;text-underline-offset:3px}
 .byline a{font-weight:600}
 .skip-link{display:inline-flex;align-items:center;min-height:44px}
 /* Survol visible sur les liens qui n'en montraient aucun. */

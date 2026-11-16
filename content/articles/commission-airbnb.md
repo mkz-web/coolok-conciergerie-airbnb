@@ -6,7 +6,7 @@ slug: commission-airbnb
 date: 2026-11-15
 category: "Tarifs et contrat"
 image: /assets/img/articles/commission-airbnb.webp
-image_alt: "Un propriétaire fait ses comptes dans un carnet, stylo à la main, à la table de son appartement meublé"
+image_alt: "Salon d'un appartement meublé en location courte durée, valise d'un voyageur près de la porte et clés posées sur la console"
 keywords: ["commission airbnb", "frais airbnb propriétaire", "frais de service airbnb", "commission airbnb 2026", "pourcentage airbnb", "combien prend airbnb"]
 related: ["/blog/tarif-conciergerie-airbnb", "/conciergerie-airbnb-vincennes", "/conciergerie-airbnb-bussy-saint-georges"]
 tribune_a_valider: false
@@ -34,7 +34,7 @@ Airbnb a regroupé les deux en un seul frais de 15,5 %, payé par l'hôte. La da
 
 On lit souvent que la commission passe de 3 à 15,5 %. C'est vrai hors TVA, et ce n'est que la moitié du calcul. Le voyageur ne paie plus sa part directement mais indirectement : ce qui était prélevé à deux endroits l'est à un seul. La vraie question, c'est votre prix.
 
-Voici une nuit, pour un propriétaire qui ne récupère pas la TVA. À gauche ce que vous fixez, à droite ce qui arrive sur votre compte.
+Voici une nuit, pour un propriétaire qui ne récupère pas la TVA. Sur chaque ligne, d'abord ce que vous fixez, en dernier ce qui arrive sur votre compte.
 
 | | Prix que vous fixez | Ce que paie le voyageur, hors taxes | Frais Airbnb hors TVA | TVA à 20 % | Ce qui tombe sur votre compte |
 |---|---|---|---|---|---|

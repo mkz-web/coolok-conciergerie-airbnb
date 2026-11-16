@@ -69,14 +69,24 @@ function insecables(html) {
     const m = morceaux[i];
     if (m.charAt(0) === '<') {
       const t = m.match(/^<(\/?)([a-zA-Z][a-zA-Z0-9]*)/);
-      if (t && /^(script|style|pre|code|textarea)$/i.test(t[2])) bloc = t[1] ? null : t[2].toLowerCase();
+      if (t && /^(script|style|pre|code|textarea|title|option|svg)$/i.test(t[2])) bloc = t[1] ? null : t[2].toLowerCase();
       continue;
     }
     if (bloc || !m) continue;
     morceaux[i] = m
       .replace(/(\S) ([:;!?»])(?=\s|$)/g, '$1' + NBSP + '$2')
       .replace(/« (?=\S)/g, '«' + NBSP)
-      .replace(/(\d) (?=(€|%)(\s|$|[.,;:)/]))/g, '$1' + NBSP);
+      .replace(/(\d) (?=(€|%)(\s|$|[.,;:)/]))/g, '$1' + NBSP)
+      // Nombres, unités, dates et téléphone soudés (lecture du 15/11/2026 : « sous 48 / h. »,
+      // « le 5 / novembre 2026 », « 06 73 93 / 75 01 » coupés en fin de ligne).
+      .replace(/(\d) (?=\d)/g, '$1' + NBSP)
+      .replace(/(\d) (?=(h|min|km|ans?|jours?|nuits?|mois|m²)(?![\p{L}\d]))/gu, '$1' + NBSP)
+      .replace(/(\d|1er) (?=(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)(?![\p{L}]))/gu, '$1' + NBSP)
+      .replace(/(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) (?=\d{4}(?!\d))/gu, '$1' + NBSP)
+      // « €/m² » ne se coupe plus après la barre oblique (cases de chiffres à 360 px, lecture du 16/11/2026).
+      .replace(/€\/m²/g, '€/' + String.fromCharCode(0x2060) + 'm²');
+      // Noms composés laissés sécables au trait d'union : soudés le 16/11/2026, ils débordaient à 360 px
+      // (« Chennevières-sur-Marne » dans un h1) et 28 pages débordaient sous l'espacement imposé (TYP-12).
   }
   return morceaux.join('');
 }
@@ -409,6 +419,7 @@ function htmlToText(html) {
     .replace(/<li[^>]*>/gi, '\n- ').replace(/<\/(p|div|section|tr|blockquote|figure|figcaption|dt|dd|summary|details|article|aside|header)>/gi, '\n').replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/td>|<\/th>/gi, ' | ')
     .replace(/<[^>]+>/g, '')
+    .split(String.fromCharCode(0x2060)).join('')
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
     .replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }

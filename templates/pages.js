@@ -114,9 +114,11 @@ function relatedLinks(page, data) {
     sisters.forEach((c) => add(c, c.linkText || ''));
     if (items.length < 4) data.communes.filter((c) => c.dept === page.dept && c.url !== page.url).forEach((c) => add(c));
   } else if (page.type === 'departement') {
-    data.zones.filter((z) => z.dept === page.code).forEach((z) => add(z, 'Zone'));
+    data.zones.filter((z) => z.dept === page.code).forEach((z) => add(z, 'Toute la zone'));
     data.communes.filter((c) => c.dept === page.code).forEach((c) => add(c));
     add(data.pages['/conciergerie-airbnb-ile-de-france'], 'Toute la région');
+    // Un département sans commune ne montrait que la carte de la région : on complète par les voisins.
+    if (items.length < 4) data.departements.filter((d) => d.url !== page.url).forEach((d) => add(d, d.linkText || 'Le département'));
   } else if (page.type === 'zone') {
     data.communes.filter((c) => c.zone === page.slug).forEach((c) => add(c));
     const dept = data.departements.find((d) => d.code === page.dept);
@@ -139,7 +141,7 @@ function geoPage(site, page, data) {
   blocks.push(Object.assign({ type: 'testimonials', bg: 'cream' }, testis));
   if ((page.faq || []).length) blocks.push({ type: 'faq', bg: 'white', h2: page.faqTitle || `Questions fréquentes sur la location courte durée ${page.inName || 'à ' + page.name}` });
   const rel = relatedLinks(page, data);
-  if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
+  if (rel.length) blocks.push({ type: 'links', bg: 'cream', h2: page.relatedTitle || (page.type === 'commune' ? 'Nos conciergeries autour de ' + page.name : page.type === 'hub' ? 'Nos zones d\'intervention' : page.type === 'departement' ? 'Nos zones d\'intervention' : 'Les communes que nous couvrons'), items: rel, cols: 3 });
   blocks.push(Object.assign({ type: 'cta', variant: 'dark' }, page.ctaBand || { h2: `Votre bien ${page.inName || 'à ' + page.name} mérite une estimation précise`, text: 'Simulation gratuite en 2 minutes, puis un audit chiffré par le fondateur sous 48 h.', ctas: [site.defaultCta, { label: 'Discutez sur WhatsApp', href: site.org.whatsappUrl, style: 'ghost-light' }] }));
   blocks.push({ type: 'articles', bg: 'white', limit: 3, h2: 'Pour aller plus loin' });
   const rythmes = rythmerActions(blocks, site, page, data);
@@ -302,7 +304,7 @@ function insertMidCtas(html, site, page, depart) {
     // Troisième et quatrième rappels, repris des pages géographiques : un guide long en porte
     // jusqu'à quatre à 375 px, et deux encarts identiques dans une page sont un bloc répété.
     { title: 'Parlez de votre projet directement au fondateur', text: 'Un appel de 30 minutes, gratuit, pour poser vos questions sur la réglementation locale et votre logement.', label: 'Réservez un appel de 30 min', href: site.org.calendly },
-    { title: 'Une question sur la location courte durée ?', text: 'Réponse directe par WhatsApp ou au téléphone, sans démarchage.', label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw },
+    { title: 'Une question sur la location courte durée ?', text: 'Réponse directe au téléphone, sans démarchage.', label: 'Appelez le ' + site.org.telephoneDisplay, href: 'tel:' + site.org.telephoneRaw },
     { title: 'Tarif tout compris, 20 % HT', text: 'Ce qui est inclus, ce qui ne l\'est jamais, et comment comparer.', label: 'Consultez nos tarifs', href: '/tarifs' },
   ];
   // Seuls les encarts qui mènent à une action (simulateur, contact, téléphone, e-mail, WhatsApp,
@@ -316,6 +318,9 @@ function insertMidCtas(html, site, page, depart) {
   for (const p of parts) {
     const prec = unites[unites.length - 1];
     if (prec !== undefined && /^<h[2-4] /.test(prec) && /<\/h[2-4]>\s*$/.test(prec)) unites[unites.length - 1] = prec + p;
+    // Ni entre un tableau et le paragraphe qui le suit, sa légende (« Calcul Coolok… ») : un rappel
+    // s'y glissait dans le guide de la commission Airbnb (lecture du 15/11/2026).
+    else if (prec !== undefined && /^<div class="table-wrap">/.test(prec) && /^<p>/.test(p)) unites[unites.length - 1] = prec + p;
     else unites.push(p);
   }
   let k = 0;

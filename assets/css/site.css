@@ -162,6 +162,12 @@ address{font-style:normal}
 /* À partir de 1 000 px : une carte seule sur la dernière rangée de trois se centre (Serris à Chessy, deux tiers vides),
    et une grille de deux cartes seulement passe à deux colonnes au lieu de laisser un tiers vide (second lot, 16/11/2026). */
 @media(min-width:1000px){.grid-3>:last-child:nth-child(3n+1):not(:first-child){grid-column:2}.grid-3:has(>:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Quatrième lot (lecture du 16/11/2026) : deux cartes restées seules sur la dernière rangée de trois se calaient à
+   gauche et laissaient un tiers vide. Les grilles de cartes passent en rangées souples centrées : chaque carte garde
+   la largeur d'un tiers, la dernière rangée se centre quel que soit son nombre de cartes. */
+@media(min-width:1000px){.grid.grid-3{display:flex;flex-wrap:wrap;justify-content:center}.grid.grid-3>*{flex:0 0 calc((100% - 2.5rem)/3);min-width:0}.grid.grid-3:has(>:nth-child(2):last-child)>*{flex-basis:calc((100% - 1.25rem)/2)}.grid.grid-3:has(>:only-child){justify-content:flex-start}}
+/* Une carte SEULE dans sa grille (rubrique « Conciergerie » de /blog, plan du site) reste sous son titre, à gauche :
+   centrée, elle se détachait du titre aligné à gauche (lecture du lot 4, 17/11/2026). */
 .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-2);display:flex;flex-direction:column}
 .bg-cream .card{border-color:var(--line-2)}
 .card h3{font-size:var(--fs-1);margin-bottom:.5rem}
@@ -293,6 +299,11 @@ tr:last-child td{border-bottom:0}
 @media(min-width:640px){.link-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1000px){.link-grid.grid-3{grid-template-columns:repeat(3,1fr)}.link-grid.grid-4{grid-template-columns:repeat(4,1fr)}}
 .link-grid li{margin:0}
+/* Lot 4, seconde passe (lecture du 17/11/2026) : dans « Nos zones d'intervention », les liens d'une même rangée
+   n'avaient pas la même hauteur (le lien ne remplissait pas sa case), et deux liens restés seuls sur la dernière
+   rangée de trois se calaient à gauche. Le lien remplit sa case ; à 1 000 px et plus, la dernière rangée se centre. */
+.link-grid li{display:flex}.link-grid li>a{flex:1 1 auto}
+@media(min-width:1000px){.link-grid.grid-3{display:flex;flex-wrap:wrap;justify-content:center}.link-grid.grid-3>li{flex:0 0 calc((100% - 1.5rem)/3);min-width:0}.link-grid.grid-3:has(>li:only-child){justify-content:flex-start}.link-grid.grid-3:has(>li:nth-child(2):last-child)>li{flex-basis:calc((100% - .75rem)/2)}}
 .link-grid a{display:flex;flex-direction:column;gap:.15rem;padding:.9rem 1rem;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-sm);text-decoration:none;color:var(--ink);min-height:56px;transition:border-color .15s,transform .15s}
 .link-grid a:hover{border-color:var(--gold);transform:translateY(-1px)}
 .link-grid strong{color:var(--green)}
@@ -432,6 +443,9 @@ tr:last-child td{border-bottom:0}
    colonne 5 à 10 px plus bas que les deux autres (une marge est coupée au saut de colonne, pas en tête de liste). */
 @media(min-width:720px) and (max-width:1099px){.footer-grid>.footer-col:has(li:nth-child(12)){order:9}.footer-grid>.footer-col:has(li:nth-child(12)) li{margin:0;padding:.3rem 0}}
 @media(min-width:1100px){.footer-grid{grid-template-columns:1.4fr repeat(4,1fr)}}
+/* Quatrième lot : à 1 100 px et plus, la liste des communes tenait dans une colonne d'un cinquième et descendait
+   bien plus bas que les autres. Elle prend la rangée entière, en dernier, en cinq colonnes de texte. */
+@media(min-width:1100px){.footer-grid{grid-template-columns:1.4fr repeat(3,1fr)}.footer-grid>.footer-col:has(li:nth-child(12)){grid-column:1/-1;order:9}.footer-grid>.footer-col:has(li:nth-child(12)) ul{columns:5;column-gap:2rem}.footer-grid>.footer-col:has(li:nth-child(12)) li{break-inside:avoid;margin:0;padding:.3rem 0}}
 .footer-title{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem}
 .site-footer ul{list-style:none;padding:0;margin:0}
 .site-footer li{margin:.3rem 0}
@@ -452,6 +466,8 @@ tr:last-child td{border-bottom:0}
 /* Même logique pour la clé des cookies et le bouton de l'assistant : sur téléphone, ils couvraient « Contactez-nous »
    ou la note Google du héros (lecture du 16/11/2026). Ils reviennent une fois le héros passé. */
 @media(max-width:767px){html.hero-a-lecran .chat-lanceur,html.hero-a-lecran body .iubenda-tp-btn[data-tp-float]{visibility:hidden!important;opacity:0!important}}
+/* Quatrième lot : sur tablette (768 px), la bulle WhatsApp et le bouton de l'assistant se posaient aussi sur le héros. */
+@media(min-width:768px) and (max-width:1023px){html.hero-a-lecran .chat-lanceur,html.hero-a-lecran .wa-bubble,html.hero-a-lecran body .iubenda-tp-btn[data-tp-float]{visibility:hidden!important;opacity:0!important}}
 .sticky-cta .btn-ghost,.sticky-cta .btn-whatsapp{width:48px;padding:0;flex:none}
 .wa-bubble{display:none}
 /* Bouton de préférences cookies iubenda (en bas à gauche) : sur mobile, il se posait sur le bouton principal de la barre

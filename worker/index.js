@@ -113,6 +113,10 @@ async function readBody(request, max) {
 
 // Durée minimale passée sur la page avant un envoi de formulaire (en dessous : robot).
 const DUREE_MIN_MS = 3000;
+// Numéro de rue : 1 à 4 chiffres, suivis au besoin d'un indice (bis, ter, quater, ou une lettre : 12 B).
+const NUMERO_RUE = /^\d{1,4}(?:\s?(?:bis|ter|quater|[a-z]))?$/i;
+// Adresse qui commence par un numéro de rue, suivi d'une espace ou d'une virgule puis de la rue.
+const ADRESSE_AVEC_NUMERO = /^\d{1,4}(?:\s?(?:bis|ter|quater|[a-z]))?[\s,]+\S/i;
 
 const CTRL = new RegExp('[' + String.fromCharCode(0) + '-' + String.fromCharCode(31) + ']+', 'g');
 const clean = (v, max) => String(v == null ? '' : v).replace(CTRL, ' ').trim().slice(0, max || 500);
@@ -277,7 +281,14 @@ async function handleLead(request, env, url) {
     // l'adresse complète du logement (un chiffre au moins : numéro ou code postal). Une page ouverte avant ce
     // déploiement n'a pas ces champs, d'où l'invitation à recharger.
     if (!/^\d+$/.test(lead.chambres) || !/^[1-9]\d*$/.test(lead.salles_de_bain)) return refus("Nombre de chambres et de salles de bain obligatoires (rechargez la page si ces champs ne s'affichent pas)");
-    if (lead.adresse.length < 8 || !/\d/.test(lead.adresse)) return refus("Adresse complète du logement obligatoire : numéro, rue et code postal (rechargez la page si ce champ ne s'affiche pas)");
+    // Numéro de rue obligatoire (demande de Mickaël du 17/11/2026) : le seul chiffre exigé jusque-là pouvait être le
+    // code postal (« rue de la Gare, 77700 Serris » passait). Le formulaire l'envoie dans son propre champ `numero`,
+    // réuni ici à la rue dans `adresse` (même colonne Softr, même e-mail) ; une page ouverte avant ce déploiement
+    // envoie l'adresse d'un bloc, qui doit alors commencer par le numéro.
+    const numero = clean(body.numero, 12);
+    if (numero && !NUMERO_RUE.test(numero)) return refus('Numéro de rue du logement invalide : indiquez un numéro, par exemple 12 ou 12 bis');
+    if (numero && !lead.adresse.toLowerCase().startsWith(numero.toLowerCase())) lead.adresse = (numero + ' ' + lead.adresse).slice(0, 214);
+    if (lead.adresse.length < 8 || !ADRESSE_AVEC_NUMERO.test(lead.adresse)) return refus("Adresse complète du logement obligatoire : numéro de rue, rue et code postal (rechargez la page si ces champs ne s'affichent pas)");
   }
   if (lead.consent !== 'oui') return wantsJson ? json({ ok: false, error: 'Merci de cocher la case de consentement' }, 422) : new Response('Consentement requis.', { status: 422 });
 

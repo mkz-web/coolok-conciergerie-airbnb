@@ -248,7 +248,8 @@ B.simulateur = (b, ctx) => {
       <div class="cta-row"><button class="btn btn-primary btn-lg" type="button" data-next="3">Recevez votre audit chiffré gratuit</button><button class="btn btn-ghost" type="button" data-prev="1">Modifiez votre bien</button></div>
     </fieldset>
     <fieldset class="sim-step" data-step="3" hidden><legend>Étape 3 sur 3 : le logement et vos coordonnées</legend>
-      ${preuve}<label>Adresse complète du logement à auditer<input type="text" name="adresse" required minlength="8" maxlength="200" pattern=".*[0-9].*" title="Numéro, rue et code postal du logement" autocomplete="off" placeholder="Ex. : 12 rue de la Gare, 77700 Serris"></label>
+      ${preuve}<p class="sim-adresse-titre">Adresse du logement à auditer</p>
+      <div class="form-row form-row-adresse"><label>Numéro<input type="text" name="numero" required maxlength="12" pattern="[0-9]{1,4}( ?([Bb][Ii][Ss]|[Tt][Ee][Rr]|[Qq][Uu][Aa][Tt][Ee][Rr]|[A-Za-z]))?" title="Numéro de rue du logement, par exemple 12 ou 12 bis" autocomplete="off" placeholder="12"></label><label>Rue et code postal<input type="text" name="adresse" required minlength="5" maxlength="200" title="Rue et code postal du logement" autocomplete="off" placeholder="rue de la Gare, 77700 Serris"></label></div>
       <div class="form-row"><label>Prénom<input type="text" name="prenom" required autocomplete="given-name"></label>${nom}</div>
       <div class="form-row"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="telephone" required autocomplete="tel" inputmode="tel"></label></div>
       <label>Un détail utile ? (facultatif)<textarea name="message" rows="3" placeholder="État du bien, dates où vous l'utilisez"></textarea></label>
